@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    background-image: url(back.png);
+}
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#subject-container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;
+    width: 90%;
+    max-width: 800px;
+    margin: 25px ;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    color:rgb(67, 119, 119);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+h4 {
+    text-align: left;
+    color:rgb(67, 119, 119);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 9px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, red, blue);
+    padding: 10px;
+}
+
+#quiz-container {
+    margin: 20px 0;
+}
+
+.quiz-question {
+    margin: 20px ;
+    box-sizing: 20px;
+}
+
+.quiz-answer {
+    color: black;
+    background: white;
+    min-width: 370px;-width: 300px; /* Adjust as needed */
+    display:flex;
+    text-align: left;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.quiz-answer.selected {
+    background: lightblue;
+}
+
+.quiz-answer.correct {
+    background-color: lightgreen;
+}
+
+.quiz-answer:hover {
+    background-color: lightgray;
+}
+
+.quiz-answer.incorrect {
+    background-color: lightcoral;
+}
+
+#results-container {
+    margin: 20px 0;
+}
+
+#results-container .quiz-answer {
+    font-style: italic;
+}
+
+#start-over-button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;
+    width: 90%;
+    max-width: 250px;
+    margin: 25px ;
+    text-align: center;
+}
+
