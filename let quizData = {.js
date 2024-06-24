@@ -1664,7 +1664,7 @@ const quizData = {
             explanation: "Hydra is capable of both sexual and asexual reproduction."
         },
         {
-            question: "166. The association between fungi and algae is",
+            question: " The association between fungi and algae is",
             answers: [
                 { text: "Lichen", correct: true },
                 { text: "Rhizoid", correct: false },
@@ -1674,7 +1674,7 @@ const quizData = {
             explanation: "Fungi and algae form a symbiotic association known as lichen."
         },
         {
-            question: "167. Reproduction in Cnidarians is",
+            question: " Reproduction in Cnidarians is",
             answers: [
                 { text: "Tetra", correct: false },
                 { text: "Trimea", correct: false },
@@ -1684,7 +1684,7 @@ const quizData = {
             explanation: "Reproduction in cnidarians involves both asexual polyp stage and sexual medusa stage."
         },
         {
-            question: "168. The botanical name for three leaved yam is Dioscorea dutherim",
+            question: " The botanical name for three leaved yam is Dioscorea dutherim",
             answers: [
                 { text: "True", correct: true },
                 { text: "False", correct: false }
@@ -1692,7 +1692,7 @@ const quizData = {
             explanation: "Dioscorea dumeriliana is another name for the three-leaved yam."
         },
         {
-            question: "169. The combination of the following had a series of publications with comprehensive account of several families of flowering plants",
+            question: " The combination of the following had a series of publications with comprehensive account of several families of flowering plants",
             answers: [
                 { text: "Engler and Linnaeus", correct: false },
                 { text: "Kaspar Bauhin and Engler", correct: false },
@@ -1702,7 +1702,7 @@ const quizData = {
             explanation: "Engler and Prantl collaborated on comprehensive publications about flowering plant families."
         },
         {
-            question: "170. The phylum that has radical symmetry and tripoblastic is",
+            question: " The phylum that has radical symmetry and tripoblastic is",
             answers: [
                 { text: "Annelids", correct: false },
                 { text: "Arthropoda", correct: false },
@@ -1712,7 +1712,7 @@ const quizData = {
             explanation: "Coelenterates (Cnidarians) exhibit radial symmetry and are triploblastic."
         },
         {
-            question: "171. Does Thallophyte undergoes resting period?",
+            question: " Does Thallophyte undergoes resting period?",
             answers: [
                 { text: "YES/TRUE", correct: true },
                 { text: "NO/FALSE", correct: false }
@@ -1720,7 +1720,7 @@ const quizData = {
             explanation: "Thallophytes do undergo a resting period as part of their life cycle."
         },
         {
-            question: "172. Selaginella is used to be heterosporous under pteridophytes",
+            question: " Selaginella is used to be heterosporous under pteridophytes",
             answers: [
                 { text: "True", correct: true },
                 { text: "False", correct: false }
@@ -1728,7 +1728,7 @@ const quizData = {
             explanation: "Selaginella is a heterosporous plant belonging to the pteridophytes."
         },
         {
-            question: "173. The locomotory organelles in the members of the phylum sarcomastigophoras are",
+            question: " The locomotory organelles in the members of the phylum sarcomastigophoras are",
             answers: [
                 { text: "Flagella and true feet", correct: false },
                 { text: "Cilia and flagella", correct: false },
@@ -1738,7 +1738,7 @@ const quizData = {
             explanation: "Sarcomastigophorans move using pseudopodia and flagella."
         },
         {
-            question: "174. The Tentacles that surround the mouth which leads to a sac-like digestive cavity in cnidarians is",
+            question: " The Tentacles that surround the mouth which leads to a sac-like digestive cavity in cnidarians is",
             answers: [
                 { text: "ENTERON", correct: false },
                 { text: "COELENTERON", correct: true },
@@ -1748,7 +1748,7 @@ const quizData = {
             explanation: "The tentacles around the mouth of cnidarians lead to a sac-like digestive cavity called the coelenteron."
         },
         {
-            question: "175. The exoskeleton and endoskeleton of the cnidarians is made up of __________ except",
+            question: " The exoskeleton and endoskeleton of the cnidarians is made up of __________ except",
             answers: [
                 { text: "Chitinous", correct: false },
                 { text: "Calcareous", correct: false },
@@ -1758,7 +1758,7 @@ const quizData = {
             explanation: "The exoskeleton and endoskeleton of cnidarians are made of chitinous, calcareous, or proteinous substances, not cellulose."
         },
         {
-            question: "176. Reproduction in coelenterata is with an asexual sessile polyp and a sexual free-swimming ___________",
+            question: " Reproduction in coelenterata is with an asexual sessile polyp and a sexual free-swimming ___________",
             answers: [
                 { text: "MEDUSA", correct: true },
                 { text: "RHIZOID", correct: false },
@@ -1768,7 +1768,7 @@ const quizData = {
             explanation: "Coelenterates reproduce asexually through sessile polyps and sexually through free-swimming medusa."
         },
         {
-            question: "177. Euglena are __________",
+            question: " Euglena are __________",
             answers: [
                 { text: "Free living phaytomastigophoran", correct: true },
                 { text: "Colonial masrstigophora", correct: false },
@@ -1778,7 +1778,7 @@ const quizData = {
             explanation: "Euglena are free-living phagotrophic flagellates classified under Phytomastigophora."
         },
         {
-            question: "178. Alternation of generation in coelentrates is ___________",
+            question: " Alternation of generation in coelentrates is ___________",
             answers: [
                 { text: "Trimorphism", correct: false },
                 { text: "Polymorphism", correct: false },
@@ -1788,7 +1788,7 @@ const quizData = {
             explanation: "Coelenterates exhibit alternation of generations known as dimorphism."
         },
         {
-            question: "179. Thallophytes have the following except ___________",
+            question: " Thallophytes have the following except ___________",
             answers: [
                 { text: "The body is thalloid", correct: false },
                 { text: "They are vascularised plants", correct: true },
@@ -1798,7 +1798,7 @@ const quizData = {
             explanation: "Thallophytes lack vascular tissue, unlike vascular plants."
         },
         {
-            question: "180. Seed-producing type is peculiar to spermatophyte",
+            question: " Seed-producing type is peculiar to spermatophyte",
             answers: [
                 { text: "True", correct: true },
                 { text: "False", correct: false }
@@ -1806,7 +1806,7 @@ const quizData = {
             explanation: "Seed production is characteristic of spermatophytes."
         },
         {
-            question: "181. Typically, the body of polyptubular with one end called aboral and other called oral with central mouth usually surrounded by _______",
+            question: " Typically, the body of polyptubular with one end called aboral and other called oral with central mouth usually surrounded by _______",
             answers: [
                 { text: "Cilia", correct: false },
                 { text: "Tentacles", correct: true },
@@ -1816,7 +1816,7 @@ const quizData = {
             explanation: "Cnidarians have a tubular body with tentacles surrounding the oral end."
         },
         {
-            question: "182. Anaerobic bacteria is found in the following",
+            question: " Anaerobic bacteria is found in the following",
             answers: [
                 { text: "Toss surface of organism", correct: false },
                 { text: "Soak away", correct: true },
@@ -1825,7 +1825,7 @@ const quizData = {
             explanation: "Anaerobic bacteria thrive in environments like soakaways where oxygen is limited."
         },
         {
-            question: "183. ___________ in the early 20th century gave the natural classification of plants",
+            question: " ___________ in the early 20th century gave the natural classification of plants",
             answers: [
                 { text: "HUTCHINSON", correct: true },
                 { text: "Ricardo Bertrand", correct: false },
@@ -1835,7 +1835,7 @@ const quizData = {
             explanation: "Hutchinson contributed to the natural classification of plants in the early 20th century."
         },
         {
-            question: "184. All these are considered during classification of organisms except",
+            question: " All these are considered during classification of organisms except",
             answers: [
                 { text: "Social status", correct: true },
                 { text: "Natural criteria", correct: false },
@@ -1845,7 +1845,7 @@ const quizData = {
             explanation: "Classification of organisms does not consider social status."
         },
         {
-            question: "185. It is impossible to have many subgroups of organisms from a group under classification",
+            question: " It is impossible to have many subgroups of organisms from a group under classification",
             answers: [
                 { text: "True", correct: false },
                 { text: "False", correct: true }
@@ -1853,7 +1853,7 @@ const quizData = {
             explanation: "Classification can lead to numerous subgroups within a larger group."
         },
         {
-            question: "186. Allongonia uses the type of pseudopodia called __________",
+            question: " Allongonia uses the type of pseudopodia called __________",
             answers: [
                 { text: "Reticulopodia", correct: false },
                 { text: "Axopodia", correct: false },
@@ -1864,7 +1864,7 @@ const quizData = {
             explanation: "Allongonia utilizes reticulopodia as a type of pseudopodia."
         },
         {
-            question: "187. Flagella mastigophora are also useful to the following except",
+            question: " Flagella mastigophora are also useful to the following except",
             answers: [
                 { text: "Movement", correct: false },
                 { text: "Collect food", correct: false },
@@ -1874,7 +1874,7 @@ const quizData = {
             explanation: "Flagella mastigophora are not used for getting rid of waste."
         },
         {
-            question: "188. Haptors that are found at the anterior and posterior ends of the body of a polystoma are respectively called _____________",
+            question: " Haptors that are found at the anterior and posterior ends of the body of a polystoma are respectively called _____________",
             answers: [
                 { text: "Steohaptor and Opisthaptor", correct: false },
                 { text: "Prohaptor and Steohaptor", correct: false },
@@ -1884,7 +1884,7 @@ const quizData = {
             explanation: "Haptors at the ends of Polystoma are known as Prohaptor and Opisthaptor."
         },
         {
-            question: "190. Chlamydomonas pyrenoid found at the center of chloroplast is used for ________ their product",
+            question: " Chlamydomonas pyrenoid found at the center of chloroplast is used for ________ their product",
             answers: [
                 { text: "Absorbing", correct: false },
                 { text: "Digestion", correct: false },
@@ -1894,7 +1894,7 @@ const quizData = {
             explanation: "Chlamydomonas pyrenoid stores their products at the center of the chloroplast."
         },
         {
-            question: "191. Which of the following is not true",
+            question: " Which of the following is not true",
             answers: [
                 { text: "The male gametophore in Bryophyte is antheridium", correct: false },
                 { text: "The male gametophore in spermatophyte is antheridium", correct: true },
@@ -1904,7 +1904,7 @@ const quizData = {
             explanation: "The male gametophore in spermatophytes is pollen grains, not an antheridium."
         },
         {
-            question: "192. Nutrition in bacteria are the following except",
+            question: " Nutrition in bacteria are the following except",
             answers: [
                 { text: "Chemosynthetic", correct: false },
                 { text: "Parasitic", correct: false },
@@ -1914,7 +1914,7 @@ const quizData = {
             explanation: "Bacteria do not perform photosynthesis for nutrition."
         },
         {
-            question: "193. Another name for Bryophyte is ___________",
+            question: " Another name for Bryophyte is ___________",
             answers: [
                 { text: "Bryophyta", correct: false },
                 { text: "Marchantiophyta", correct: false },
@@ -1924,7 +1924,7 @@ const quizData = {
             explanation: "Bryophyte is not another name for itself, liverwort or Marchantiophyta are used."
         },
         {
-            question: "194. Liverwort are found in the _________",
+            question: " Liverwort are found in the _________",
             answers: [
                 { text: "Bryophyta", correct: true },
                 { text: "Thallophyta", correct: false },
@@ -1934,7 +1934,7 @@ const quizData = {
             explanation: "Liverworts belong to the division Bryophyta."
         },
         {
-            question: "195. Actinomorpha are example of Axopodia",
+            question: " Actinomorpha are example of Axopodia",
             answers: [
                 { text: "False", correct: true },
                 { text: "True", correct: false }
@@ -1942,7 +1942,7 @@ const quizData = {
             explanation: "Actinopoda, not Actinomorpha, are examples of Axopodia."
         },
         {
-            question: "196. A triploblastic, bilaterally symmetrical, elongated is characteristics of ______",
+            question: " A triploblastic, bilaterally symmetrical, elongated is characteristics of ______",
             answers: [
                 { text: "ECHINODERMATA", correct: false },
                 { text: "PLATYHELMINTHES", correct: false },
@@ -1952,7 +1952,7 @@ const quizData = {
             explanation: "Annelids are triploblastic, bilaterally symmetrical, and elongated."
         },
         {
-            question: "197. Coelenterates do not possess a true organ except",
+            question: " Coelenterates do not possess a true organ except",
             answers: [
                 { text: "Gonads only", correct: false },
                 { text: "Gonads and sensory structure", correct: true },
@@ -1962,7 +1962,7 @@ const quizData = {
             explanation: "Coelenterates lack true organs except for gonads and sensory structures."
         },
         {
-            question: "198. The useful of flagella for locomotion in the member of sarcodina is restricted to",
+            question: " The useful of flagella for locomotion in the member of sarcodina is restricted to",
             answers: [
                 { text: "All the time", correct: false },
                 { text: "Adult stage", correct: false },
@@ -1972,7 +1972,7 @@ const quizData = {
             explanation: "Flagella are primarily used for locomotion in the developing stage of Sarcodina."
         },
         {
-            question: "199. The body of primitive bryophytes are _____",
+            question: " The body of primitive bryophytes are _____",
             answers: [
                 { text: "Thalloid", correct: true },
                 { text: "Oogamus", correct: false },
@@ -1982,7 +1982,7 @@ const quizData = {
             explanation: "Primitive bryophytes have a thalloid body structure."
         },
         {
-            question: "200. Autogamy is similar to conjugation except that ___________",
+            question: " Autogamy is similar to conjugation except that ___________",
             answers: [
                 { text: "One cell is involved", correct: true },
                 { text: "Two cells are involved", correct: false },
@@ -1992,7 +1992,7 @@ const quizData = {
             explanation: "Autogamy involves a single cell, unlike conjugation which involves two cells."
         },
         {
-            question: "201. Digestion of food in fungi by extracellular enzymes absorbed into hyphae is called",
+            question: " Digestion of food in fungi by extracellular enzymes absorbed into hyphae is called",
             answers: [
                 { text: "Absorption heterotrophy", correct: true },
                 { text: "Conjugation", correct: false },
@@ -2001,6 +2001,3359 @@ const quizData = {
             ],
             explanation: "Digestion of food in fungi through extracellular enzymes is known as absorption heterotrophy."
         },
+        {
+            question: "Which of these is useful for fermentation?",
+            answers: [
+              { text: "Vibrio", correct: false },
+              { text: "Lactobacillus", correct: true },
+              { text: "Escherichia", correct: false },
+              { text: "Mycobacterium", correct: false }
+            ],
+            explanation: "Lactobacillus is widely used in fermentation processes, such as in the production of yogurt, sauerkraut, and pickles."
+          },
+          {
+            question: "The form of bacteria responsible for sore throat is?",
+            answers: [
+              { text: "Bacillus", correct: false },
+              { text: "Escherichia", correct: false },
+              { text: "Spirochaeta", correct: false },
+              { text: "Coccus", correct: true }
+            ],
+            explanation: "Coccus-shaped bacteria, specifically Streptococcus, are known to cause sore throat."
+          },
+          {
+            question: "Bacterial spores are all of the following except _______ as compared to vegetable cells.",
+            answers: [
+              { text: "More resistant to staining", correct: false },
+              { text: "More likely to die in nutritionally poor conditions", correct: true },
+              { text: "More resistant to temperature changes", correct: false },
+              { text: "More likely to survive treatment with disinfection", correct: false }
+            ],
+            explanation: "Bacterial spores are actually more resistant to nutritionally poor conditions compared to vegetable cells."
+          },
+          {
+            question: "Major components of virus include?",
+            answers: [
+              { text: "Nedocaprid and DNA", correct: false },
+              { text: "Capsid & Protein coat", correct: false },
+              { text: "Protein coat & RNA", correct: false },
+              { text: "Protein coat & Nucleic acid", correct: true }
+            ],
+            explanation: "Viruses are primarily composed of a protein coat (capsid) and nucleic acid (either DNA or RNA)."
+          },
+          {
+            question: "Prokaryotic Halophytes are ______ except?",
+            answers: [
+              { text: "Virus", correct: true },
+              { text: "Fungi", correct: false },
+              { text: "Bacteria", correct: false },
+              { text: "Blue-green algae", correct: false }
+            ],
+            explanation: "Viruses are not considered prokaryotic halophytes; they are acellular."
+          },
+          {
+            question: "Hemichordates are known as?",
+            answers: [
+              { text: "True chordate", correct: false },
+              { text: "False chordate", correct: true },
+              { text: "Non-Chordate", correct: false },
+              { text: "All of the above", correct: false }
+            ],
+            explanation: "Hemichordates are considered 'false chordates' because they share some characteristics with chordates but lack a true notochord."
+          },
+          {
+            question: "The classification is of a good availability because its?",
+            answers: [
+              { text: "Classic", correct: false },
+              { text: "Complex", correct: false },
+              { text: "Arbitrary", correct: false },
+              { text: "Systematic", correct: true }
+            ],
+            explanation: "Systematic classification provides a structured and consistent approach to categorizing organisms."
+          },
+          {
+            question: "Different types of Pseudopodia are these except?",
+            answers: [
+              { text: "Dilopodia", correct: true },
+              { text: "Axialpodia", correct: false },
+              { text: "Reticulopodia", correct: false },
+              { text: "Lopododia", correct: false }
+            ],
+            explanation: "Dilopodia is not a recognized type of pseudopodia."
+          },
+          {
+            question: "Which of these does not belong to the group?",
+            answers: [
+              { text: "Treponema pallidum", correct: false },
+              { text: "Tobacco mosaic virus", correct: true },
+              { text: "Bacillus subtilis", correct: false },
+              { text: "Escherichia coli", correct: false }
+            ],
+            explanation: "Tobacco mosaic virus is a virus, whereas the others are bacteria."
+          },
+          {
+            question: "Which of the following is the only prokaryotic group in algae?",
+            answers: [
+              { text: "Cyanophyta", correct: true },
+              { text: "Pyrrophyta", correct: false },
+              { text: "Chrysophyta", correct: false },
+              { text: "Rhodophyta", correct: false }
+            ],
+            explanation: "Cyanophyta, also known as blue-green algae, are prokaryotic."
+          },
+          {
+            question: "Which of the following fungi is imperfect?",
+            answers: [
+              { text: "Basidiomycetes", correct: false },
+              { text: "Deuteromycetes", correct: true },
+              { text: "Phycomycetes", correct: false },
+              { text: "Ascomycetes", correct: false }
+            ],
+            explanation: "Deuteromycetes, also known as fungi imperfecti, do not have a known sexual reproductive stage."
+          },
+          {  question: "Liverworts are examples of what division?",
+            answers: [
+              { text: "Pteridophyta", correct: false },
+              { text: "Spermatophyta", correct: false },
+              { text: "Bryophyta", correct: true },
+              { text: "Thallophyta", correct: false }
+            ],
+            explanation: "Liverworts belong to the division Bryophyta."
+          },
+          {
+            question: "Virus ranges from?",
+            answers: [
+              { text: "10 to 500 micrometer", correct: false },
+              { text: "10 to 500 nanometer", correct: false },
+              { text: "2 to 500 micrometer", correct: false },
+              { text: "2 to 500 nanometer", correct: true }
+            ],
+            explanation: "Viruses typically range from 2 to 500 nanometers in size."
+          },
+          {
+            question: "The following are virus-caused infections except?",
+            answers: [
+              { text: "Influenza", correct: false },
+              { text: "AIDS", correct: false },
+              { text: "Syphilis", correct: true },
+              { text: "Smallpox", correct: false }
+            ],
+            explanation: "Syphilis is caused by the bacterium Treponema pallidum, not a virus."
+          },
+          {
+            question: "The division postila of whatever encompassed?",
+            answers: [
+              { text: "autotroph", correct: false },
+              { text: "Virus", correct: true },
+              { text: "None", correct: false },
+              { text: "All", correct: false }
+            ],
+            explanation: "This question seems ambiguous and the provided answers do not fit the typical biological classification. Therefore, it's unclear what 'postila' refers to."
+          },
+          {
+            question: "Under the microscope the morphology of Vibrio cholerae is?",
+            answers: [
+              { text: "Common shaped", correct: false },
+              { text: "Spherical", correct: false },
+              { text: "Rod-like shape", correct: false },
+              { text: "Spiral Shaped", correct: false },
+              { text: "Comma-shaped", correct: true }
+            ],
+            explanation: "Vibrio cholerae has a distinctive comma shape."
+          },
+          {
+            question: "The Phylum Mollusca can be segregated into _______ number?",
+            answers: [
+              { text: "6", correct: false },
+              { text: "7", correct: true },
+              { text: "3", correct: false },
+              { text: "2", correct: false }
+            ],
+            explanation: "The phylum Mollusca is traditionally divided into 7 classes."
+          },
+          {
+            question: "_______ is the phylum that is parasitic?",
+            answers: [
+              { text: "Platyhelminthes", correct: true },
+              { text: "Sarcomastigophora", correct: false },
+              { text: "Cycliophora", correct: false },
+              { text: "None of the above", correct: false }
+            ],
+            explanation: "Platyhelminthes, or flatworms, include many parasitic species."
+          },
+          {
+            question: "_______ make up the megasporangium?",
+            answers: [
+              { text: "Male reproductive part of plant", correct: false },
+              { text: "Female reproductive part of plant", correct: true },
+              { text: "Both Female and Male reproductive part", correct: false },
+              { text: "No reproductive part", correct: false }
+            ],
+            explanation: "The megasporangium is a structure in plants that develops into the female reproductive organ, containing megaspores."
+          },
+          {
+            question: "Tetrad bacteria cells are formed as a result of division in?",
+            answers: [
+              { text: "Three planes", correct: false },
+              { text: "Two planes", correct: true },
+              { text: "One plane", correct: false },
+              { text: "Four planes", correct: false }
+            ],
+            explanation: "Tetrad bacteria cells are formed when bacterial cells divide in two perpendicular planes, resulting in groups of four."
+          },
+          {
+            question: "Simple acellular organisms occur in?",
+            answers: [
+              { text: "Virus", correct: true },
+              { text: "Fungi", correct: false },
+              { text: "Bacteria", correct: false },
+              { text: "Protozoa", correct: false }
+            ],
+            explanation: "Viruses are simple acellular organisms that consist of genetic material enclosed in a protein coat."
+          },
+          {
+            question: "Bacteria live mostly under which temperature-related condition?",
+            answers: [
+              { text: "Cold", correct: false },
+              { text: "Hot", correct: false },
+              { text: "Warm", correct: true },
+              { text: "Sub-zero", correct: false }
+            ],
+            explanation: "Most bacteria thrive in warm conditions, although some can live in extreme environments."
+          },
+          {
+            question: "Absorptive heterotrophy are collectively known as?",
+            answers: [
+              { text: "Bacteria", correct: false },
+              { text: "Virus", correct: false },
+              { text: "Fungi", correct: true },
+              { text: "Green plant", correct: false }
+            ],
+            explanation: "Fungi are absorptive heterotrophs, meaning they absorb nutrients from their surroundings."
+          },
+          {
+            question: "The bacterial form known as the spirillum form is _________ in structure?",
+            answers: [
+              { text: "Spiral", correct: true },
+              { text: "Bent", correct: false },
+              { text: "Oval", correct: false },
+              { text: "Cylindrical", correct: false }
+            ],
+            explanation: "Spirillum bacteria are characterized by their spiral shape."
+          },
+          {
+            question: "The division Protista of Whittaker?",
+            answers: [
+              { text: "Absorptive heterotrophs encompasses", correct: false },
+              { text: "Eukaryotes", correct: true },
+              { text: "Autotrophs", correct: false },
+              { text: "Autotrophes", correct: false }
+            ],
+            explanation: "The kingdom Protista in Whittaker's classification includes eukaryotic organisms that are not plants, animals, or fungi."
+          },
+          {
+            question: "After staining, Gram-positive and Gram-negative cells have ________ and ______ coloration respectively when viewed under the microscope?",
+            answers: [
+              { text: "Reddish and bluish", correct: false },
+              { text: "Bluish and reddish", correct: true },
+              { text: "Pinkish and blue-black", correct: false },
+              { text: "Blue-black and pinkish", correct: false }
+            ],
+            explanation: "Gram-positive bacteria stain bluish (or purple) and Gram-negative bacteria stain reddish (or pink) after Gram staining."
+          },
+          {
+            question: "Division of bacterial cells in plant results in formation of ________ cells?",
+            answers: [
+              { text: "Diplococci and clusters of cells", correct: false },
+              { text: "Tetrads and chains of cells", correct: false },
+              { text: "Diplococci and tetrads", correct: true },
+              { text: "Chains and diplococci", correct: false }
+            ],
+            explanation: "Bacterial cell division can result in various arrangements, including diplococci (pairs) and tetrads (groups of four)."
+          },
+          {
+            question: "Phycology is the study of?",
+            answers: [
+              { text: "Algae", correct: true },
+              { text: "Fungi", correct: false },
+              { text: "Virus", correct: false }
+            ],
+            explanation: "Phycology, or algology, is the study of algae."
+          },
+          {
+            question: "Bacteria are referred to as prokaryotic because?",
+            answers: [
+              { text: "They lack a membrane-bound nucleus and other organelles.", correct: true }
+            ],
+            explanation: "Prokaryotes, such as bacteria, lack a membrane-bound nucleus and organelles, distinguishing them from eukaryotes."
+          },
+          {
+            question: "The final stage in the life cycle of a virus is?",
+            answers: [
+              { text: "Lysis or release of new virions from the host cell.", correct: true }
+            ],
+            explanation: "The final stage in the viral life cycle is the release of new virions from the host cell, often causing cell lysis."
+          },
+          {
+            question: "Virus has ________ cycle?",
+            answers: [
+              { text: "5", correct: true },
+              { text: "4", correct: false },
+              { text: "7", correct: false },
+              { text: "2", correct: false }
+            ],
+            explanation: "Viruses typically go through a five-step cycle: attachment, penetration, biosynthesis, maturation, and release."
+          },
+          {
+            question: "The DNA of bacteria is located in a place called?",
+            answers: [
+              { text: "Nucleoid", correct: true },
+              { text: "Nucleus", correct: false },
+              { text: "Central", correct: false }
+            ],
+            explanation: "The bacterial DNA is located in the nucleoid, which is not membrane-bound like a eukaryotic nucleus."
+          },
+          {
+            question: "An example of a thermophilic bacterium is _________ and it has found application in?",
+            answers: [
+              { text: "Thermus aquaticus, molecular biology", correct: true },
+              { text: "Escherichia coli, evolutionary biology", correct: false }
+            ],
+            explanation: "Thermus aquaticus is a thermophilic bacterium whose enzyme Taq polymerase is widely used in PCR in molecular biology."
+          },
+          {
+            question: "Sore throat is caused by?",
+            answers: [
+              { text: "Coccus bacteria", correct: true }
+            ],
+            explanation: "Streptococcus bacteria, which are coccus-shaped, are a common cause of sore throat."
+          },
+          {
+            question: "The two major components of a virus are?",
+            answers: [
+              { text: "Protein coat and nucleic acid strand", correct: true }
+            ],
+            explanation: "Viruses are composed of a protein coat (capsid) and a nucleic acid (DNA or RNA)."
+          },
+          {
+            question: "Which of the following constituents is common to most of the classes of algae?",
+            answers: [
+              { text: "Cellulose", correct: true }
+            ],
+            explanation: "Cellulose is a common structural component of the cell walls in many classes of algae."
+          },
+          {
+            question: "Bacteria are causative agents of?",
+            answers: [
+              { text: "Tetanus", correct: true },
+              { text: "Smallpox", correct: false },
+              { text: "Mumps", correct: false },
+              { text: "Flu", correct: false }
+            ],
+            explanation: "Tetanus is caused by the bacterium Clostridium tetani, whereas smallpox and mumps are viral diseases, and flu is caused by the influenza virus."
+          },
+          {
+            question: "All of the following about virus are true except:",
+            answers: [
+              { text: "They cannot do without a host", correct: false },
+              { text: "They are facultative parasites", correct: true },
+              { text: "They are stored as chemicals outside living cell", correct: false },
+              { text: "They use the host mechanism for reproduction", correct: false }
+            ],
+            explanation: "Viruses are obligate parasites, not facultative parasites. They require a host to reproduce."
+          },
+          {
+            question: "Counter stain used in Gram’s stain is?",
+            answers: [
+              { text: "Safranin", correct: true },
+              { text: "Gram’s iodine", correct: false },
+              { text: "Acetone", correct: false },
+              { text: "Crystal violet", correct: false }
+            ],
+            explanation: "Safranin is used as a counterstain in Gram staining, making Gram-negative bacteria visible under the microscope."
+          },
+          {
+            question: "Halophiles are?",
+            answers: [
+              { text: "Salt tolerant", correct: true },
+              { text: "Salt lovers", correct: false },
+              { text: "pH stable", correct: false },
+              { text: "pH unstable", correct: false }
+            ],
+            explanation: "Halophiles are microorganisms that thrive in high-salt environments, making them salt tolerant."
+          },
+          {
+            question: "Tooth decay is caused by?",
+            answers: [
+              { text: "Streptococcus mutans", correct: true },
+              { text: "Bacillus thuringiensis", correct: false },
+              { text: "Lactococcus mutans", correct: false },
+              { text: "Streptococcus decae", correct: false }
+            ],
+            explanation: "Streptococcus mutans is a bacterium that plays a significant role in the development of tooth decay."
+          },
+          {
+            question: "The most favorable condition where bacteria live is?",
+            answers: [
+              { text: "Warm", correct: true },
+              { text: "Cold", correct: false },
+              { text: "Sub-zero", correct: false },
+              { text: "High", correct: false }
+            ],
+            explanation: "Most bacteria thrive in warm conditions, which provide an optimal environment for their growth and reproduction."
+          },
+          {
+            question: "A function of the capsular layer in bacterial cells is?",
+            answers: [
+              { text: "Prevent plasmolysis", correct: false },
+              { text: "Prevent phagocytosis", correct: true },
+              { text: "Aids in nutrition", correct: false }
+            ],
+            explanation: "The bacterial capsule helps prevent phagocytosis by the host's immune cells, enhancing bacterial survival."
+          },
+          {
+            question: "Aerated bacteria are found in the following?",
+            answers: [
+              { text: "Top surface of organisms", correct: false },
+              { text: "Soak away", correct: false },
+              { text: "Aerated soil", correct: true }
+            ],
+            explanation: "Aerated soil provides the necessary oxygen for aerobic bacteria to thrive."
+          },
+          {
+            question: "Which of the following is a traditional classification of Echinodermata?",
+            answers: [
+              { text: "Pelmatozoa and Eleutherozoa", correct: true },
+              { text: "Asteroidea and Ophiuroidea", correct: false },
+              { text: "Asteroidea and Holothuroidea", correct: false }
+            ],
+            explanation: "Echinoderms are traditionally classified into two subgroups: Pelmatozoa and Eleutherozoa."
+          },
+          {
+            question: "Viruses' mode of nutrition is mainly?",
+            answers: [
+              { text: "Symbiotic", correct: false },
+              { text: "Parasitic", correct: true },
+              { text: "Mutualism", correct: false },
+              { text: "None of the above", correct: false }
+            ],
+            explanation: "Viruses are parasitic, relying on a host organism for replication and survival."
+          },
+          {
+            question: "Division ________ is found in moist and shady places?",
+            answers: [
+              { text: "Thallophyta", correct: false },
+              { text: "Bryophyta", correct: true },
+              { text: "Pteridophyta", correct: false },
+              { text: "Spermatophyta", correct: false }
+            ],
+            explanation: "Bryophytes, such as mosses, thrive in moist and shady environments."
+          },
+          {
+            question: "Which of the following cell wall constituents is common to most of the classes of algae?",
+            answers: [
+              { text: "Pectin", correct: false },
+              { text: "Lignin", correct: false },
+              { text: "Lipid", correct: false },
+              { text: "Cellulose", correct: true }
+            ],
+            explanation: "Cellulose is a common component of the cell walls of many algae."
+          },
+          {
+            question: "In mammals, the copulatory organ is called?",
+            answers: [
+              { text: "Vagina", correct: false },
+              { text: "Cervix", correct: false },
+              { text: "None of the above", correct: false },
+              { text: "Penis", correct: true }
+            ],
+            explanation: "The copulatory organ in male mammals is the penis."
+          },
+          {
+            question: "All cephalocordates are generally known as?",
+            answers: [
+              { text: "Real chordates", correct: false },
+              { text: "Vertebrates", correct: false },
+              { text: "Lancelets", correct: true },
+              { text: "None of the above", correct: false }
+            ],
+            explanation: "Cephalochordates are also known as lancelets, small, fish-like marine animals."
+          },
+          {
+            question: "Urochordates are?",
+            answers: [
+              { text: "Segmented chordates", correct: false },
+              { text: "Unsegmented chordates", correct: true },
+              { text: "Semi chordates", correct: false },
+              { text: "False chordates", correct: false }
+            ],
+            explanation: "Urochordates, or tunicates, are marine animals with a notochord only in the larval stage, and they are unsegmented."
+          },
+          {
+            question: "Eggs are laid in cocoons produced by the _______ in class Oligochaeta of phylum Annelida?",
+            answers: [
+              { text: "Cuttle", correct: false },
+              { text: "Clitellum", correct: true },
+              { text: "Coelom", correct: false },
+              { text: "Chaeta", correct: false }
+            ],
+            explanation: "The clitellum is a glandular section of the body that produces a cocoon for the eggs in earthworms and other oligochaetes."
+          },
+          {
+            question: "________ is useful in agriculture for fixing nitrogen?",
+            answers: [
+              { text: "Streptococcus mutans", correct: false },
+              { text: "Bacillus", correct: false },
+              { text: "Lactobacillus bulgaricus", correct: false },
+              { text: "Rhizobium spp.", correct: true }
+            ],
+            explanation: "Rhizobium spp. are nitrogen-fixing bacteria that form symbiotic relationships with legumes, aiding in agriculture."
+          },
+          {
+            question: "Complete multicellular algae include the following except?",
+            answers: [
+              { text: "Oscillatoria", correct: true },
+              { text: "Fucus", correct: false },
+              { text: "Laminaria", correct: false }
+            ],
+            explanation: "Oscillatoria is a filamentous cyanobacterium, not a complete multicellular alga like Fucus or Laminaria."
+          },
+          {
+            question: "Transformation that ranges from simple multicellular to complete multicellular is?",
+            answers: [
+              { text: "Complex multicellularity", correct: true }
+            ],
+            explanation: "The transformation from simple to complex multicellularity involves significant changes in cell differentiation and organization."
+          },
+          {
+            question: "An example of cocci seen in a chain-like manner is?",
+            answers: [
+              { text: "Neisseria", correct: false },
+              { text: "Micrococcus", correct: false },
+              { text: "Streptococcus", correct: true },
+              { text: "Staphylococcus", correct: false }
+            ],
+            explanation: "Streptococcus bacteria form chains, whereas Staphylococcus forms clusters."
+          },
+          {
+            question: "The spread of division ________ is limited to moist and shady places?",
+            answers: [
+              { text: "Pteridophyta", correct: false },
+              { text: "Thallophyta", correct: false },
+              { text: "Bryophyta", correct: true },
+              { text: "Spermatophyta", correct: false }
+            ],
+            explanation: "Bryophytes, such as mosses and liverworts, are commonly found in moist and shady environments."
+          },
+          {
+            question: "_______ is useful in agriculture for fixing nitrogen?",
+            answers: [
+              { text: "Bacillus thuringiensis", correct: false },
+              { text: "Lactobacillus", correct: false },
+              { text: "Lactococcus", correct: false },
+              { text: "Rhizobium spp.", correct: true }
+            ],
+            explanation: "Rhizobium spp. are nitrogen-fixing bacteria that form symbiotic relationships with legumes, aiding in agriculture."
+          },
+          {
+            question: "Sore throat is caused by?",
+            answers: [
+              { text: "Spiral", correct: false },
+              { text: "Coccus", correct: true },
+              { text: "Vibrio", correct: false },
+              { text: "Bacillus", correct: false }
+            ],
+            explanation: "Streptococcus bacteria, which are cocci (spherical), are common causes of sore throat."
+          },
+          {
+            question: "Example of cocci arranged in clusters is?",
+            answers: [
+              { text: "Staphylococcus", correct: true },
+              { text: "Sarcina", correct: false },
+              { text: "Tetrad", correct: false },
+              { text: "Neisseria", correct: false }
+            ],
+            explanation: "Staphylococcus bacteria are arranged in clusters, resembling grape-like structures."
+          },
+          {
+            question: "Which of the following is a prokaryote group among the classes of algae?",
+            answers: [
+              { text: "Chrysophyta", correct: false },
+              { text: "Pyrrophyta", correct: false },
+              { text: "Cyanophyta", correct: true },
+              { text: "Rhodophyta", correct: false }
+            ],
+            explanation: "Cyanophyta, or cyanobacteria, are prokaryotic algae."
+          },
+          {
+            question: "Under the microscope, the morphology of Vibrio cholerae is?",
+            answers: [
+              { text: "Spherical", correct: false },
+              { text: "Rod-like", correct: false },
+              { text: "Spiral", correct: false },
+              { text: "Comma", correct: true }
+            ],
+            explanation: "Vibrio cholerae has a comma-shaped morphology."
+          },
+          {
+            question: "Organisms that belong to the class Chilopoda are fast-moving carnivores with a pair of poison?",
+            answers: [
+              { text: "Eyes", correct: false },
+              { text: "Claws", correct: true },
+              { text: "Legs", correct: false },
+              { text: "Head", correct: false }
+            ],
+            explanation: "Chilopoda, or centipedes, have a pair of poison claws (forcipules) for capturing prey."
+          },
+          {
+            question: "An example of a tadpole-shaped virus is?",
+            answers: [
+              { text: "Tadpole virus", correct: false },
+              { text: "Tobacco mosaic virus", correct: false },
+              { text: "Myxovirus", correct: false },
+              { text: "T2 bacteriophage", correct: true }
+            ],
+            explanation: "The T2 bacteriophage has a tadpole-like structure, with a head and a tail."
+          },
+          {
+            question: "Viruses undergo ________ feeding types?",
+            answers: [
+              { text: "Parasitic", correct: true },
+              { text: "Commensalism", correct: false },
+              { text: "Autotrophic", correct: false },
+              { text: "Heterotrophic", correct: false }
+            ],
+            explanation: "Viruses are parasitic, relying on a host organism for replication and nutrition."
+          },
+          {
+            question: "Eggs are laid in cocoons produced by the _______ in the class Oligochaeta of phylum Annelida?",
+            answers: [
+              { text: "Clitellum", correct: true },
+              { text: "Chaeta", correct: false },
+              { text: "Coelom", correct: false },
+              { text: "Cuticle", correct: false }
+            ],
+            explanation: "The clitellum is a glandular section of the body that produces a cocoon for the eggs in earthworms and other oligochaetes."
+          },
+          {
+            question: "Viruses cause all the following except?",
+            answers: [
+              { text: "Mumps", correct: false },
+              { text: "Flu", correct: false },
+              { text: "Tetanus", correct: true },
+              { text: "Smallpox", correct: false }
+            ],
+            explanation: "Tetanus is caused by the bacterium Clostridium tetani, not by a virus."
+          },
+          {
+            question: "One is not a division of vertebrata?",
+            answers: [
+              { text: "Head", correct: false },
+              { text: "Tail", correct: false },
+              { text: "Thorax", correct: true }
+            ],
+            explanation: "The thorax is not a division of vertebrata; vertebrates are typically divided into head, trunk (which includes the thorax), and tail regions."
+          },
+          {
+            question: "Places where aerobic bacteria live include all the following except?",
+            answers: [
+              { text: "Aerated water", correct: false },
+              { text: "Low-oxygen soil", correct: true },
+              { text: "Soak away", correct: false },
+              { text: "Body", correct: false }
+            ],
+            explanation: "Aerobic bacteria require oxygen and would not thrive in low-oxygen soil environments."
+          },
+          {
+            question: "Brings uniformity in binomial nomenclature is?",
+            answers: [
+              { text: "Latin", correct: true },
+              { text: "German", correct: false },
+              { text: "Swedish", correct: false },
+              { text: "Italian", correct: false }
+            ],
+            explanation: "Latin is used for binomial nomenclature to bring uniformity and avoid language barriers."
+          },
+          {
+            question: "Which of these is incorrect?",
+            answers: [
+              { text: "Roundworm is unsegmented", correct: false },
+              { text: "Earthworm is coelomate", correct: false },
+              { text: "Earthworm and roundworm are metamerically segmented", correct: true },
+              { text: "None", correct: false }
+            ],
+            explanation: "Roundworms (nematodes) are not metamerically segmented, unlike earthworms (annelids)."
+          },
+          {
+            question: "Pathogenic bacteria can cause all the following except?",
+            answers: [
+              { text: "Gonorrhea", correct: false },
+              { text: "Tooth decay", correct: false },
+              { text: "Fermentation", correct: true },
+              { text: "Syphilis", correct: false }
+            ],
+            explanation: "Fermentation is a process carried out by some bacteria and fungi for metabolic purposes, not a pathogenic condition."
+          },
+          {
+            question: "Fungi are categorized into different classes on the basis of the following except?",
+            answers: [
+              { text: "Nature of sexual spores", correct: false },
+              { text: "Nature of hyphae", correct: false },
+              { text: "Nature of asexual spores", correct: false },
+              { text: "Mode of reproduction", correct: true }
+            ],
+            explanation: "Fungi are classified based on the nature of their spores and hyphae, not directly by their mode of reproduction."
+          },
+          {
+            question: "In hemichordates, the stomochord represents the notochord which is restricted to the region?",
+            answers: [
+              { text: "Proboscis", correct: true },
+              { text: "Prostomium", correct: false },
+              { text: "Proma", correct: false },
+              { text: "Prostomat", correct: false }
+            ],
+            explanation: "In hemichordates, the stomochord is located in the proboscis region."
+          },
+          {
+            question: "The following are true about viruses except?",
+            answers: [
+              { text: "They are stored as chemicals outside living cells", correct: false },
+              { text: "They cannot do without a host", correct: false },
+              { text: "They are facultative parasites", correct: true },
+              { text: "They use the host mechanism for reproduction", correct: false }
+            ],
+            explanation: "Viruses are obligate parasites, not facultative parasites; they require a host to replicate."
+          },
+          {
+            question: "The cell wall of bacteria consists of _______ and ________?",
+            answers: [
+              { text: "Sugars and peptides", correct: true },
+              { text: "Water and sugar", correct: false },
+              { text: "Peptides and moist substance", correct: false },
+              { text: "None of the above", correct: false }
+            ],
+            explanation: "The bacterial cell wall is primarily composed of peptidoglycan, which consists of sugars and peptides."
+          },
+          {
+            question: "In true fungi, the mycelium is made up of thread-like structures called?",
+            answers: [
+              { text: "Chitin", correct: false },
+              { text: "Filament", correct: false },
+              { text: "Rhizoid", correct: false },
+              { text: "Hyphae", correct: true }
+            ],
+            explanation: "The mycelium of true fungi is composed of hyphae, which are thread-like structures."
+          },
+          {
+            question: "The seven classes of molluscs are derived from ancestral molluscs as a result of all but one of their _________?",
+            answers: [
+              { text: "Head", correct: false },
+              { text: "Shell", correct: true },
+              { text: "Foot", correct: false },
+              { text: "Symmetry", correct: false }
+            ],
+            explanation: "The shell is a key feature that varies significantly among mollusc classes, while head, foot, and symmetry are more consistent traits across classes."
+          },
+          {
+            question: "The binomial system of nomenclature was designed by _________ in the year ________?",
+            answers: [
+              { text: "1707 – 1178", correct: false },
+              { text: "1707 – 1778", correct: true },
+              { text: "1707 – 1878", correct: false },
+              { text: "1707 – 1788", correct: false }
+            ],
+            explanation: "The binomial nomenclature system was designed by Carl Linnaeus, who lived from 1707 to 1778."
+          },
+          {
+            question: "Cluster from spore that occurs when fertilization results in formation of zygote is called?",
+            answers: [
+              { text: "Conjugation", correct: false },
+              { text: "Embryo", correct: false },
+              { text: "Spore formation", correct: false },
+              { text: "Zygospore", correct: true }
+            ],
+            explanation: "A zygospore is a type of spore formed by the fusion of two similar gametes, resulting in a zygote."
+          },
+          {
+            question: "Another name for brown algae is",
+            answers: [
+              { text: "Rhodophyta", correct: false },
+              { text: "Pteritophyta", correct: false },
+              { text: "Tracheophyta", correct: false }
+            ],
+            explanation: "The correct name for brown algae is Phaeophyta, which is not listed as an option."
+          },
+          {
+            question: "Rod-like cells are referred to as",
+            answers: [
+              { text: "Spinlum", correct: false },
+              { text: "Nibrio", correct: false },
+              { text: "Basidiomycetes", correct: false },
+              { text: "Bacillus", correct: true }
+            ],
+            explanation: "Rod-like bacterial cells are referred to as Bacillus."
+          },
+          {
+            question: "The most primitive among the following is",
+            answers: [
+              { text: "Hydra", correct: false },
+              { text: "Plasmodium", correct: false },
+              { text: "Amoeba", correct: true },
+              { text: "Paramecium", correct: false }
+            ],
+            explanation: "Amoeba is considered more primitive due to its simple, unicellular structure."
+          },
+          {
+            question: "There are ___________ major shapes of bacteria",
+            answers: [
+              { text: "2", correct: false },
+              { text: "3", correct: true },
+              { text: "4", correct: false },
+              { text: "5", correct: false }
+            ],
+            explanation: "The three major shapes of bacteria are cocci (spherical), bacilli (rod-shaped), and spirilla (spiral)."
+          },
+          {
+            question: "Gastrulation in Echinoderms is by",
+            answers: [
+              { text: "invagination", correct: true },
+              { text: "cephalization", correct: false },
+              { text: "mentation", correct: false },
+              { text: "insemination", correct: false }
+            ],
+            explanation: "Gastrulation in Echinoderms occurs by invagination, where the blastula folds inward to form the gastrula."
+          },
+          {
+            question: "Fertilization in organisms of division Pteridophyta takes place in",
+            answers: [
+              { text: "Archegonium", correct: true },
+              { text: "Lycopedium", correct: false },
+              { text: "Aritheridium", correct: false },
+              { text: "Oogonium", correct: false }
+            ],
+            explanation: "Fertilization in Pteridophytes occurs in the archegonium, which is the female reproductive structure."
+          },
+          {
+            question: "Under the microscope the morphology of Vibrio cholera is",
+            answers: [
+              { text: "spherical", correct: false },
+              { text: "rod-like", correct: false },
+              { text: "spiral", correct: false },
+              { text: "comma", correct: true }
+            ],
+            explanation: "Vibrio cholerae bacteria have a characteristic comma-shaped morphology."
+          },
+          {
+            question: "Halophiles are",
+            answers: [
+              { text: "Salt tolerating", correct: true },
+              { text: "pH stable", correct: false },
+              { text: "pH unstable", correct: false },
+              { text: "Salt lovers", correct: true }
+            ],
+            explanation: "Halophiles are microorganisms that thrive in high-salt environments. They are also referred to as salt lovers."
+          },
+          {
+            question: "The classification of organisms that involves very few characters arbitrarily selected is",
+            answers: [
+              { text: "Natural", correct: false },
+              { text: "Mechanical", correct: false },
+              { text: "Phenetical", correct: false },
+              { text: "Artificial", correct: true }
+            ],
+            explanation: "Artificial classification involves grouping organisms based on a few arbitrarily selected characters."
+          },
+          {
+            question: "The oval bacteria formed are regarded as",
+            answers: [
+              { text: "Spirillum", correct: false },
+              { text: "Vibrio", correct: false },
+              { text: "Bacillus", correct: false },
+              { text: "Coccus", correct: true }
+            ],
+            explanation: "Oval-shaped bacteria are classified as coccus."
+          },
+          {
+            question: "Crustacea or aquatic arthropods respire by which means",
+            answers: [
+              { text: "gills", correct: true },
+              { text: "lungs", correct: false },
+              { text: "skin", correct: false },
+              { text: "trachea", correct: false }
+            ],
+            explanation: "Aquatic arthropods such as crustaceans typically respire using gills."
+          },
+          {
+            question: "Which of the following is the least step in the life cycle of a virus?",
+            answers: [
+              { text: "attachment to a living cell", correct: false },
+              { text: "formation of nucleotide", correct: true },
+              { text: "formation of flagella", correct: true },
+              { text: "formation of Carbs base", correct: true },
+            ],
+            explanation: "The formation of nucleotides is not a direct step in the viral life cycle; it involves steps such as attachment, entry, replication, assembly, and release."
+          },
+          {
+            question: "Virus range from what to what?",
+            answers: [
+              { text: "5 to 200 nanometer", correct: true },
+              { text: "5 to 200 micrometer", correct: false },
+              { text: "5 to 200 millimeter", correct: false },
+              { text: "10 to 200 meter", correct: false },
+            ],
+            explanation: "Viruses range in size from approximately 5 to 200 nanometers."
+          },
+          {
+            question: "An example of simple unicellular algae is",
+            answers: [
+              { text: "fucus", correct: false },
+              { text: "chlamydomonas", correct: true },
+              { text: "pandorina", correct: false },
+              { text: "spirogyra", correct: false }
+            ],
+            explanation: "Chlamydomonas is an example of simple unicellular algae."
+          },
+          {
+            question: "Bacterial spores are all of the following except _______ as compared with vegetative cells",
+            answers: [
+              { text: "more likely to die in nutritionally poor conditions", correct: true },
+              { text: "more resistant to temperature changes", correct: false },
+              { text: "more likely to survive treatment with disinfectant", correct: false },
+              { text: "more resistant to staining", correct: false }
+            ],
+            explanation: "Bacterial spores are generally more resistant to harsh conditions, including nutritionally poor environments, temperature changes, disinfectants, and staining."
+          },
+          {
+            question: "Which of these belong only to the prokaryotic group?",
+            answers: [
+              { text: "Rhodophyta", correct: false },
+              { text: "chrysophyta", correct: false },
+              { text: "cyanophyta", correct: true },
+              { text: "pyrrophyta", correct: false }
+            ],
+            explanation: "Cyanophyta, also known as cyanobacteria, are the only prokaryotic group among the options listed."
+          },
+          {
+            question: "All are true of algae except",
+            answers: [
+              { text: "they lack roots", correct: false },
+              { text: "they have chloroplast", correct: false },
+              { text: "they are aquatic", correct: false },
+              { text: "all are eukaryotes", correct: true }
+            ],
+            explanation: "Not all algae are eukaryotes. Cyanobacteria, also known as blue-green algae, are prokaryotic."
+          },
+          {
+            question: "Carbohydrate food reserve in fungi is called",
+            answers: [
+              { text: "starch", correct: false },
+              { text: "glycogen", correct: true },
+              { text: "sucrose", correct: false },
+              { text: "glucose", correct: false }
+            ],
+            explanation: "Fungi store their carbohydrate reserves in the form of glycogen."
+          },
+          {
+            question: "The bacteria that can only survive in high temperatures is",
+            answers: [
+              { text: "Escherichia coli", correct: false },
+              { text: "Thermus aquaticus", correct: true },
+              { text: "Pseudomonas aeruginosa", correct: false }
+            ],
+            explanation: "Thermus aquaticus is a thermophilic bacterium that thrives in high temperatures."
+          },
+          {
+            question: "__________ have a wider distribution than any other living organism",
+            answers: [
+              { text: "virus", correct: false },
+              { text: "Spirogyra", correct: false },
+              { text: "bacteria", correct: true }
+            ],
+            explanation: "Bacteria are found in almost every environment on Earth, making them the most widely distributed organisms."
+          },
+          {
+            question: "Phycology is the study of",
+            answers: [
+              { text: "fungi", correct: false },
+              { text: "virus", correct: false },
+              { text: "algae", correct: true },
+              { text: "lichen", correct: false }
+            ],
+            explanation: "Phycology is the scientific study of algae."
+          },
+          {
+            question: "In the life cycle of a virus the final stage is",
+            answers: [
+              { text: "multiplication of the strands", correct: false },
+              { text: "injection of its nucleic acids", correct: false },
+              { text: "liberation of new viruses", correct: true }
+            ],
+            explanation: "The final stage in the life cycle of a virus is the release of new viral particles from the host cell."
+          },
+          {
+            question: "Anthozoa has one of the following features",
+            answers: [
+              { text: "polyp form is dominant and medusa form is absent", correct: true }
+            ],
+            explanation: "In Anthozoa, the polyp form is dominant, and the medusa form is absent."
+          },
+          {
+            question: "The only class of algae that is prokaryotic is",
+            answers: [
+              { text: "cyanophyta", correct: true },
+              { text: "rhodophyta", correct: false },
+              { text: "chlorophyta", correct: false }
+            ],
+            explanation: "Cyanophyta, also known as cyanobacteria or blue-green algae, are prokaryotic."
+          },
+          {
+            question: "An example of coccus in cluster is",
+            answers: [
+              { text: "staphylococcus", correct: true }
+            ],
+            explanation: "Staphylococcus bacteria form clusters resembling a bunch of grapes."
+          },
+          {
+            question: "Organism with wider distribution in the plant kingdom is",
+            answers: [
+              { text: "fungi", correct: false },
+              { text: "virus", correct: false },
+              { text: "bacteria", correct: true },
+              { text: "algae", correct: false }
+            ],
+            explanation: "Bacteria have the widest distribution in the plant kingdom, found in various habitats."
+          },
+          {
+            question: "Digestive cavity in coelenterates is",
+            answers: [
+              { text: "mesenteron", correct: false },
+              { text: "mesoderm", correct: false },
+              { text: "enteron", correct: true },
+              { text: "epiderm", correct: false }
+            ],
+            explanation: "The enteron, also known as the gastrovascular cavity, is the digestive cavity in coelenterates."
+          },
+          {
+            question: "Organism become familiar from",
+            answers: [
+              { text: "Kingdom – species", correct: true },
+              { text: "Kindgom – kingdom", correct: false },
+              { text: "Genius – kingdom", correct: false },
+              { text: "kingdom – species", correct: false }
+            ],
+            explanation: "The hierarchical classification system goes from Kingdom to Species."
+          },
+          {
+            question: "Aerobic bacteria are found where except",
+            answers: [
+              { text: "body of living organism", correct: false },
+              { text: "soak away", correct: true },
+              { text: "aerated soil", correct: false },
+              { text: "aerated surfaces", correct: false }
+            ],
+            explanation: "Aerobic bacteria are not typically found in soak away pits, which are anaerobic environments."
+          },
+          {
+            question: "The form of asexual reproduction in bacteria in bad condition is",
+            answers: [
+              { text: "binary fission", correct: false },
+              { text: "spore formation", correct: true }
+            ],
+            explanation: "Under unfavorable conditions, bacteria can form spores to survive until conditions improve."
+          },
+          {
+            question: "In the human body __________ and __________ must remain sterile",
+            answers: [
+              { text: "urine and cerebrospinal fluid", correct: false },
+              { text: "brain and gastrointestinal tract", correct: false },
+              { text: "urine and blood", correct: false },
+              { text: "blood and cerebrospinal fluid", correct: true }
+            ],
+            explanation: "Blood and cerebrospinal fluid must remain sterile to prevent infections."
+          },
+          {
+            question: "An example of coccus seen as three or more cocci arranged in a chain-like manner is",
+            answers: [
+              { text: "staphylococcus", correct: false },
+              { text: "neisseria", correct: false },
+              { text: "streptococcus", correct: true },
+              { text: "polycoccus", correct: false }
+            ],
+            explanation: "Streptococcus bacteria form chains of three or more cocci."
+          },
+          {
+            question: "All these are true of algae except",
+            answers: [
+              { text: "they have chloroplast", correct: false },
+              { text: "they are all eukaryotes", correct: true },
+              { text: "they are aquatic", correct: false },
+              { text: "they lack roots", correct: false }
+            ],
+            explanation: "Not all algae are eukaryotes. Cyanobacteria, also known as blue-green algae, are prokaryotic."
+          },
+          {
+            question: "The oval bacteria forms are regarded as",
+            answers: [
+              { text: "coccus", correct: false },
+              { text: "bacillus", correct: true },
+              { text: "vibrio", correct: false },
+              { text: "spirillum", correct: false }
+            ],
+            explanation: "Bacillus refers to rod-shaped bacteria, while oval bacteria are also considered bacilli."
+          },
+          {
+            question: "Subfamily names of viruses end in",
+            answers: [
+              { text: "virinae", correct: true }
+            ],
+            explanation: "Subfamily names of viruses end in 'virinae'."
+          },
+          {
+            question: "The class Anthozoa in the phylum Cnidaria",
+            answers: [
+              { text: "The medusa is dominant, which poly is anidarie", correct: false },
+              { text: "The polyp alternates with medusa", correct: false }
+            ],
+            explanation: "This question seems to be incomplete or incorrectly worded. Typically, in Anthozoa, the polyp form is dominant, and the medusa form is absent."
+          },
+          {
+            question: "The tympanic or eardrum of a mammal is supported by",
+            answers: [
+              { text: "ossicular bone", correct: false },
+              { text: "incus bone", correct: false },
+              { text: "stapes bone", correct: true }
+            ],
+            explanation: "The stapes bone, along with the malleus and incus, supports the tympanic membrane in the middle ear."
+          },
+          {
+            question: "Some bacteria use ________ for movement through _________",
+            answers: [
+              { text: "pili, adhesion", correct: false },
+              { text: "cilia, liquid", correct: false },
+              { text: "flagella, liquid", correct: true },
+              { text: "pseudopods, soil", correct: false }
+            ],
+            explanation: "Some bacteria use flagella for movement through liquid environments."
+          },
+          {
+            question: "Herspesviridae is the name of an",
+            answers: [
+              { text: "Genius", correct: false },
+              { text: "Species", correct: false },
+              { text: "Family", correct: true },
+              { text: "Order", correct: false }
+            ],
+            explanation: "Herpesviridae is the family name for herpes viruses."
+          },
+          {
+            question: "Carbohydrate food reservation in fungi is stored as",
+            answers: [
+              { text: "Glucose", correct: false },
+              { text: "Sucrose", correct: false },
+              { text: "Starch", correct: false },
+              { text: "Glycogen", correct: true }
+            ],
+            explanation: "Fungi store carbohydrates as glycogen."
+          },
+          {
+            question: "Complex multicellular algae include the following except",
+            answers: [
+              { text: "Laminaria", correct: false },
+              { text: "Fucus", correct: false },
+              { text: "Oscillatoria", correct: true }
+            ],
+            explanation: "Oscillatoria is a genus of cyanobacteria, which are simple, multicellular organisms, not complex multicellular algae."
+          },
+          {
+            question: "Transformation that ranges from simple multicellular to complex multicellular",
+            answers: [
+              { text: "Embryonic development", correct: true }
+            ],
+            explanation: "This process describes the transformation from simple multicellular forms to complex multicellular forms during development."
+          },
+          {
+            question: "An example of coccus seen as three or more cocci arranged in a chain-like manner is",
+            answers: [
+              { text: "Neisseria", correct: false },
+              { text: "Staphylococcus", correct: false },
+              { text: "Polycoccus", correct: false },
+              { text: "Streptococcus", correct: true }
+            ],
+            explanation: "Streptococcus bacteria form chains of three or more cocci."
+          },
+          {
+            question: "All but one of the following is not part of the ossicles composed of mammals",
+            answers: [
+              { text: "Malleus", correct: false },
+              { text: "Stapes", correct: false },
+              { text: "Stepis", correct: true },
+              { text: "Incus", correct: false }
+            ],
+            explanation: "The correct term is 'stapes,' not 'stepis.'"
+          },
+          {
+            question: "Simple unicellular is",
+            answers: [
+              { text: "Chlamydomonas", correct: true },
+              { text: "Spirogyra", correct: false },
+              { text: "Volvox", correct: false }
+            ],
+            explanation: "Chlamydomonas is a genus of simple unicellular green algae."
+          },
+          {
+            question: "Pili is for",
+            answers: [
+              { text: "Movement", correct: false },
+              { text: "Locomotion", correct: false },
+              { text: "Reproduction", correct: true }
+            ],
+            explanation: "Pili are hair-like structures on the surface of bacteria that play a role in reproduction, particularly in the transfer of genetic material during conjugation."
+          },
+          {
+            question: "Which of the following is used in classifying algae",
+            answers: [
+              { text: "Cellulose", correct: true },
+              { text: "Glycogen", correct: false },
+              { text: "Glucose", correct: false },
+              { text: "Starch", correct: false },
+            ],
+            explanation: "Algae can be classified based on the constituents of their cell walls, among other criteria."
+          },
+          {
+            question: "Long chains of cocci occur when",
+            answers: [
+              { text: "cocci divide and remain together to form pairs of cells", correct: false },
+              { text: "cells adhere after repeated division in two planes", correct: false },
+              { text: "cells adhere after repeated division in one plane", correct: true },
+              { text: "cocci divide and remain together to form tetrads of cells", correct: false }
+            ],
+            explanation: "Long chains of cocci form when cells adhere after repeated division in one plane."
+          },
+          {
+            question: "Which of these is useful for fermentation",
+            answers: [
+              { text: "Escherichia", correct: false },
+              { text: "Lactobacillus", correct: true },
+              { text: "Mycobacterium", correct: false },
+              { text: "Vibrio", correct: false }
+            ],
+            explanation: "Lactobacillus is a genus of bacteria known for its role in fermentation."
+          },
+          {
+            question: "The urochordates are",
+            answers: [
+              { text: "semi-chordates", correct: false },
+              { text: "false chordates", correct: false },
+              { text: "unsegmented chordates", correct: true },
+              { text: "segmented chordates", correct: false }
+            ],
+            explanation: "Urochordates, also known as tunicates, are unsegmented chordates."
+          },
+          {
+            question: "The diameter of the largest bacterial cell should be around _________ in size",
+            answers: [
+              { text: "0.005mm", correct: false },
+              { text: "0.05cm", correct: false },
+              { text: "0.05mm", correct: true },
+              { text: "0.005cm", correct: false }
+            ],
+            explanation: "The largest bacterial cells can be around 0.05mm in diameter."
+          },
+          {
+            question: "All cephalochordates are generally known as",
+            answers: [
+              { text: "vertebrates", correct: false },
+              { text: "none of the above", correct: false },
+              { text: "real chordates", correct: false },
+              { text: "lancelets", correct: true }
+            ],
+            explanation: "Cephalochordates are commonly known as lancelets."
+          },
+          {
+            question: "Bacteria can live mostly in what condition",
+            answers: [
+              { text: "hot", correct: false },
+              { text: "cold", correct: false },
+              { text: "warm", correct: true },
+              { text: "sub-zero", correct: false }
+            ],
+            explanation: "Bacteria can live in various conditions, but many thrive in warm environments."
+          },
+          {
+            question: "Which of the following is not a parasite",
+            answers: [
+              { text: "Treponema sp.", correct: true },
+              { text: "Plasmodium", correct: false },
+              { text: "Opalina", correct: false },
+              { text: "Euglena sp.", correct: false }
+            ],
+            explanation: "Treponema is not typically considered a parasite, whereas Plasmodium and Opalina are parasitic."
+          },
+          {
+            question: "What is the name given to a sub-zero temperature bacteria",
+            answers: [
+              { text: "mesophile", correct: false },
+              { text: "nanophile", correct: false },
+              { text: "psychrophile", correct: true }
+            ],
+            explanation: "Bacteria that thrive in sub-zero temperatures are called psychrophiles."
+          },
+          {
+            question: "Aerated bacteria are found in the following except",
+            answers: [
+              { text: "aerated soil", correct: false },
+              { text: "soak away", correct: true },
+              { text: "surface of an organism", correct: false },
+              { text: "loose soil", correct: false }
+            ],
+            explanation: "Aerated bacteria are not typically found in soak away pits, which are anaerobic environments."
+          },
+          {
+            question: "Absorptive heterotrophs are generally referred to as",
+            answers: [
+              { text: "bacteria", correct: false },
+              { text: "virus", correct: false },
+              { text: "fungi", correct: true },
+              { text: "algae", correct: false }
+            ],
+            explanation: "Fungi are absorptive heterotrophs, meaning they absorb nutrients from their environment."
+          },
+          {
+            question: "Which of the following is the last step in the life cycle of a virus",
+            answers: [
+              { text: "Attachment to a living cell", correct: false },
+              { text: "formation of nucleotide", correct: false },
+              { text: "multiplication of strands", correct: false },
+              { text: "liberation of new viruses", correct: true }
+            ],
+            explanation: "The final step in the life cycle of a virus is the release of new viral particles from the host cell."
+          },
+          {
+            question: "Which of the following is the reproduction of bacteria in an unfavorable condition",
+            answers: [
+              { text: "binary fission", correct: false },
+              { text: "spore formation", correct: true },
+              { text: "conjugation", correct: true },
+              { text: "Vegetative Reproduction", correct: true },
+            ],
+            explanation: "Under unfavorable conditions, bacteria can form spores to survive until conditions improve."
+          },
+          {
+            question: "Viruses' mode of nutrition is mainly",
+            answers: [
+              { text: "symbiotic", correct: false },
+              { text: "parasitic", correct: true },
+              { text: "mutualism", correct: false },
+              { text: "none of the above", correct: false }
+            ],
+            explanation: "Viruses are obligate parasites, meaning they rely on a host for replication and nutrition."
+          },
+          {
+            question: "Which of the following is not a major criterion for classifying algae",
+            answers: [
+              { text: "cell wall constituents", correct: false },
+              { text: "cell wall pigment", correct: false },
+              { text: "size and shape", correct: true },
+              { text: "storage product", correct: false }
+            ],
+            explanation: "Size and shape are not major criteria for classifying algae, whereas cell wall constituents, pigments, and storage products are."
+          },
+          {
+            question: "Crustacea, an aquatic arthropod, respire by which means?",
+            answers: [
+              { text: "Gills", correct: true },
+              { text: "Lungs", correct: false },
+              { text: "Skin", correct: false },
+              { text: "Trachea", correct: false }
+            ],
+            explanation: "Crustaceans, which are aquatic arthropods, typically respire through gills."
+          },
+          {
+            question: "Most visceral organs in vertebrates are located in the",
+            answers: [
+              { text: "Head", correct: false },
+              { text: "Trunk", correct: true },
+              { text: "Tail", correct: false },
+              { text: "All of the above", correct: false }
+            ],
+            explanation: "In vertebrates, most visceral organs are located in the trunk of the body."
+          },
+          {
+            question: "Bacteria are the causative agents of",
+            answers: [
+              { text: "Flu", correct: false },
+              { text: "Mumps", correct: false },
+              { text: "Smallpox", correct: false },
+              { text: "Tetanus", correct: true }
+            ],
+            explanation: "Tetanus is caused by the bacterium Clostridium tetani."
+          },
+          {
+            question: "Viral order ends in",
+            answers: [
+              { text: "Virals", correct: false },
+              { text: "Viriales", correct: true },
+              { text: "Virinae", correct: false },
+              { text: "Virldae", correct: false }
+            ],
+            explanation: "The names of viral orders typically end in '-virales'."
+          },
+          {
+            question: "The classification is a good quality because it is",
+            answers: [
+              { text: "Arbitrary", correct: false },
+              { text: "Systematic", correct: true },
+              { text: "Classic", correct: false },
+              { text: "Complex", correct: false }
+            ],
+            explanation: "A good classification system is systematic, meaning it is based on a structured and consistent methodology."
+          },
+          {
+            question: "Fungi are unable to feed like green plants because",
+            answers: [
+              { text: "They are parasitic autotrophs", correct: false },
+              { text: "They are heterotrophic", correct: true },
+              { text: "They are not autotrophic", correct: false },
+              { text: "They lack chlorophyll", correct: false }
+            ],
+            explanation: "Fungi are heterotrophic organisms, meaning they cannot produce their own food through photosynthesis as plants do."
+          },
+          {
+            question: "The oval bacteria forms are regarded as",
+            answers: [
+              { text: "Bacillus", correct: false },
+              { text: "Spirillum", correct: false },
+              { text: "Coccus", correct: false },
+              { text: "Vibrio", correct: false }
+            ],
+            explanation: "Oval bacteria are more correctly described as cocci when they are spherical, or bacilli when they are rod-shaped. None of the provided options fit the 'oval' description precisely."
+          },
+          {
+            question: "The presence of copulatory organs was first noticed in phylum",
+            answers: [
+              { text: "Nematode", correct: true },
+              { text: "Mollusca", correct: false },
+              { text: "Echinodermata", correct: false },
+              { text: "Platyhelminthes", correct: false }
+            ],
+            explanation: "Nematodes are among the first phyla where the presence of copulatory organs was observed."
+          },
+          {
+            question: "Algae are classified into different groups on the basis of the following",
+            answers: [
+              { text: "Cell wall pigments", correct: true },
+              { text: "Sizes & shapes", correct: false },
+              { text: "Cell wall materials", correct: false },
+              { text: "Nature of their stored product", correct: false }
+            ],
+            explanation: "Algae are primarily classified based on their cell wall pigments."
+          },
+          {
+            question: "The respiration of anaerobes is commonly called",
+            answers: [
+              { text: "Metabolism", correct: false },
+              { text: "Fermentation", correct: true },
+              { text: "Bio production", correct: false },
+              { text: "Perspiration", correct: false }
+            ],
+            explanation: "Anaerobes typically undergo fermentation, which is a type of respiration that does not require oxygen."
+          },
+          {
+            question: "Bacteria that exist as short rods are called",
+            answers: [
+              { text: "Coccobacillus", correct: true },
+              { text: "Bacillus coccus", correct: false },
+              { text: "Coccus", correct: false },
+              { text: "Bacillus", correct: false }
+            ],
+            explanation: "Coccobacillus bacteria have a shape that is intermediate between cocci (spherical) and bacilli (rod-shaped)."
+          },
+          {
+            question: "Phylum Arthropoda is the most extensive because it contains 891,000 species which represent",
+            answers: [
+              { text: "50-60% of animal species", correct: false },
+              { text: "75-80% of animal species", correct: true },
+              { text: "90-100% of animal species", correct: false },
+              { text: "40-80% of animal species", correct: false }
+            ],
+            explanation: "Phylum Arthropoda is the most extensive phylum, representing approximately 75-80% of all animal species."
+          },
+          {
+            question: "There are ________ major stages in the life cycle of a virus",
+            answers: [
+              { text: "6", correct: true },
+              { text: "5", correct: false },
+              { text: "4", correct: false },
+              { text: "3", correct: false }
+            ],
+            explanation: "The major stages in the life cycle of a virus typically include attachment, penetration, uncoating, replication, assembly, and release, making a total of six stages."
+          },
+          {
+            question: "Carbohydrate food reserve in fungi is stored as",
+            answers: [
+              { text: "Sucrose", correct: false },
+              { text: "Glucose", correct: false },
+              { text: "Starch", correct: false },
+              { text: "Glycogen", correct: true }
+            ],
+            explanation: "Fungi store carbohydrates primarily as glycogen."
+          },
+          {
+            question: "Which exhibit radial symmetry",
+            answers: [
+              { text: "Roundworms", correct: false },
+              { text: "Snail", correct: false },
+              { text: "Earthworm", correct: false },
+              { text: "Hydra", correct: true }
+            ],
+            explanation: "Hydra exhibit radial symmetry, meaning their body plan is arranged around a central axis."
+          },
+          {
+            question: "The diameter of the largest bacteria should be around",
+            answers: [
+              { text: "0.05cm", correct: false },
+              { text: "0.05mm", correct: true },
+              { text: "0.005cm", correct: false },
+              { text: "0.005mm", correct: false }
+            ],
+            explanation: "The largest bacterial cells can have a diameter of around 0.05mm."
+          },
+          {
+            question: "Which of this is not a prokaryotic",
+            answers: [
+              { text: "Staphylococcus", correct: false },
+              { text: "Blue-green algae", correct: false },
+              { text: "Pandorina", correct: true },
+              { text: "Thermus sp.", correct: false }
+            ],
+            explanation: "Pandorina is a genus of green algae, which are eukaryotic, while the others are prokaryotic."
+          },
+          {
+            question: "Fertilization in organisms of the division Pteridophyta takes place in the",
+            answers: [
+              { text: "Antheridium", correct: false },
+              { text: "Archegonium", correct: true },
+              { text: "Oogonium", correct: false },
+              { text: "Lycopodium", correct: false }
+            ],
+            explanation: "In pteridophytes, fertilization takes place in the archegonium."
+          },
+          {
+            question: "Herpesvirales is",
+            answers: [
+              { text: "Sub-family", correct: false },
+              { text: "Order", correct: true },
+              { text: "Genus", correct: false },
+              { text: "Family", correct: false }
+            ],
+            explanation: "Herpesvirales is the order that includes herpes viruses."
+          },
+          {
+            question: "Why are bacteria regarded as the smallest known living organisms?",
+            answers: [
+              { text: "Because their sizes are in millimeters", correct: false },
+              { text: "Because viruses, which are smaller, are not regarded as living outside a living host", correct: true },
+              { text: "Because of their small diameter", correct: false },
+              { text: "Because of their well-defined cell wall", correct: false }
+            ],
+            explanation: "Bacteria are considered the smallest known living organisms because viruses, which are smaller, are not considered living outside a host."
+          },
+          {
+            question: "Diversity of living organisms 'plant' could be in one of the following except",
+            answers: [
+              { text: "Physiology", correct: false },
+              { text: "Function", correct: true },
+              { text: "Habitat", correct: false },
+              { text: "Forms", correct: false }
+            ],
+            explanation: "The diversity of plants can be described in terms of physiology, habitat, and forms, but not function."
+          },
+          {
+            question: "The swelling of an imperfectly sterilized food can is as a result of the following except",
+            answers: [
+              { text: "Bacterial fermentation", correct: false },
+              { text: "Bacterial declination", correct: true },
+              { text: "Respiration of anaerobes", correct: false },
+              { text: "Pressure of gases produced by bacteria", correct: false }
+            ],
+            explanation: "Swelling of food cans can result from bacterial fermentation, anaerobic respiration, and the pressure of gases produced by bacteria, but not from 'bacterial declination' as this is not a recognized biological process."
+          },
+          {
+            question: "Class Arthropoda in the phylum Cnidaria is",
+            answers: [
+              { text: "The polyp alternates with the medusa", correct: true },
+              { text: "The medusa and polyp are absent", correct: false }
+            ],
+            explanation: "In the phylum Cnidaria, the polyp stage often alternates with the medusa stage in the life cycle."
+          },
+          {
+            question: "Fertilization in organisms of the division Pteridophyta takes place in the",
+            answers: [
+              { text: "Oogonium", correct: false },
+              { text: "Archegonium", correct: true },
+              { text: "Lycopodium", correct: false },
+              { text: "Antheridium", correct: false }
+            ],
+            explanation: "In Pteridophytes, fertilization occurs in the archegonium."
+          },
+          {
+            question: "The reproduction of bacteria when the condition is not favorable is by",
+            answers: [
+              { text: "Binary fusion", correct: false },
+              { text: "Binary fission", correct: false },
+              { text: "Spore formation", correct: true }
+            ],
+            explanation: "When conditions are unfavorable, bacteria can reproduce by forming spores."
+          },
+          {
+            question: "In the coccus form, one of the following is an example",
+            answers: [
+              { text: "Cholera", correct: false },
+              { text: "Staphylococcus", correct: true }
+            ],
+            explanation: "Staphylococcus is an example of bacteria in the coccus form."
+          },
+          {
+            question: "The decolorizer used in Gram’s staining is",
+            answers: [
+              { text: "Crystal violet", correct: false },
+              { text: "Safranin", correct: false },
+              { text: "Acetone", correct: true },
+              { text: "Gram’s iodine", correct: false }
+            ],
+            explanation: "In Gram’s staining, acetone or alcohol is used as the decolorizer."
+          },
+          {
+            question: "The most important feature of a species is",
+            answers: [
+              { text: "Similar structure", correct: false },
+              { text: "Similar appearance", correct: false },
+              { text: "Interbreeding", correct: true },
+              { text: "Similar functions", correct: false }
+            ],
+            explanation: "The ability to interbreed and produce fertile offspring is the most important feature of a species."
+          },
+          {
+            question: "The basic origin of the work of Whittaker on the creation of the 5 kingdoms was on",
+            answers: [
+              { text: "Autotrophy and structure", correct: true },
+              { text: "Heterotrophy and structure", correct: false },
+              { text: "Heterotrophy and motility", correct: false },
+              { text: "Autotrophy and motility", correct: false }
+            ],
+            explanation: "Whittaker's classification into five kingdoms was based on characteristics such as autotrophy and structure."
+          },
+          {
+            question: "An example of simple unicellular algae is",
+            answers: [
+              { text: "Pandorina", correct: false },
+              { text: "Spirogyra", correct: false },
+              { text: "Chlamydomonas", correct: true },
+              { text: "Fucus", correct: false }
+            ],
+            explanation: "Chlamydomonas is an example of simple unicellular algae."
+          },
+          {
+            question: "The final stage in the cycle of a virus is",
+            answers: [
+              { text: "Liberation of new viruses", correct: true }
+            ],
+            explanation: "The final stage in the viral life cycle is the release or liberation of new virus particles."
+          },
+          {
+            question: "Which of these classes of algae is referred to as red algae",
+            answers: [
+              { text: "Rhodophyta", correct: true }
+            ],
+            explanation: "Rhodophyta is the class of algae commonly referred to as red algae."
+          },
+          {
+            question: "The form assumed by Neisseria gonorrhoeae is",
+            answers: [
+              { text: "Diplococci", correct: true },
+              { text: "Staphylococci", correct: false },
+              { text: "Tetracocci", correct: false },
+              { text: "Streptococci", correct: false }
+            ],
+            explanation: "Neisseria gonorrhoeae typically assumes a diplococci form."
+          },
+          {
+            question: "The peptidoglycan complex found in the bacterial cell wall is composed of",
+            answers: [
+              { text: "Peptidoglycan and sugars", correct: true },
+              { text: "Peclin and glucose", correct: false },
+              { text: "Peclide and sugars", correct: false },
+              { text: "Peptidine and glycogen", correct: false }
+            ],
+            explanation: "The bacterial cell wall peptidoglycan complex is composed of peptides and sugars."
+          },
+          {
+            question: "A bacterium is said to be circular if it is",
+            answers: [
+              { text: "Coccus", correct: true },
+              { text: "Spirillum", correct: false },
+              { text: "Bacillus", correct: false }
+            ],
+            explanation: "Circular-shaped bacteria are referred to as cocci."
+          },
+          {
+            question: "The 5-kingdom classification divided by Whittaker includes",
+            answers: [
+              { text: "Heterotrophs", correct: true },
+              { text: "Autotrophs", correct: false },
+              { text: "Motility", correct: false }
+            ],
+            explanation: "Whittaker's classification includes the kingdom of Heterotrophs."
+          },
+          {
+            question: "How many shapes do bacteria have?",
+            answers: [
+              { text: "3", correct: true },
+              { text: "2", correct: false },
+              { text: "5", correct: false },
+              { text: "4", correct: false }
+            ],
+            explanation: "Bacteria are commonly classified into three shapes: cocci (spherical), bacilli (rod-shaped), and spirilla (spiral-shaped)."
+          },
+          {
+            question: "__________ have a wider distribution than any other living organism",
+            answers: [
+              { text: "Bacteria", correct: true },
+              { text: "Viruses", correct: false },
+              { text: "Algae", correct: false },
+              { text: "Fungi", correct: false }
+            ],
+            explanation: "Bacteria have a wider distribution and can be found in diverse environments all over the world."
+          },
+          {
+            question: "When there is no increase in the total number of bacteria, it results from the formation and germination of",
+            answers: [
+              { text: "Spores", correct: true }
+            ],
+            explanation: "When conditions are unfavorable, bacteria may form spores, leading to no increase in the total number of active bacteria."
+          },
+          {
+            question: "The form of another organism is called",
+            answers: [
+              { text: "Combination", correct: true },
+              { text: "Fission", correct: false },
+              { text: "Fusion", correct: false }
+            ],
+            explanation: "Combination refers to the form or structure resulting from the union of different organisms."
+          },
+          {
+            question: "The exo-erythrocytic cycle of the malaria parasite occurs in the _________ of the main host",
+            answers: [
+              { text: "Liver", correct: true },
+              { text: "Kidney", correct: false },
+              { text: "Intestine", correct: false },
+              { text: "Blood cell", correct: false }
+            ],
+            explanation: "The exo-erythrocytic cycle of the malaria parasite occurs in the liver of the host."
+          },
+          {
+            question: "There are __________ number of segments along the length of a centipede (Chilopoda)",
+            answers: [
+              { text: "30", correct: true },
+              { text: "40", correct: false },
+              { text: "10", correct: false },
+              { text: "11", correct: false }
+            ],
+            explanation: "Centipedes typically have around 30 segments along their body length."
+          },
+          {
+            question: "Which of these classes of algae is referred to as red algae",
+            answers: [
+              { text: "Englenophyta", correct: false },
+              { text: "Phodophyta", correct: true },
+              { text: "Pyrrophyta", correct: false },
+              { text: "Phaeophyta", correct: false }
+            ],
+            explanation: "Red algae are classified under the class Rhodophyta or Phodophyta."
+          },
+          {
+            question: "The binomial system of classification was successfully completed between",
+            answers: [
+              { text: "1707 – 1778", correct: false },
+              { text: "1515 - 1590", correct: false },
+              { text: "1739 – 1788", correct: false },
+              { text: "1807 – 1888", correct: false }
+            ],
+            explanation: "The binomial system of classification was introduced by Carl Linnaeus in the 18th century, not within the provided date ranges."
+          },
+          {
+            question: "Classification is of good quality because it is",
+            answers: [
+              { text: "Classic", correct: false },
+              { text: "Systematic", correct: true },
+              { text: "Arbitrary", correct: false },
+              { text: "Complex", correct: false }
+            ],
+            explanation: "Classification is systematic because it organizes organisms based on logical principles and criteria."
+          },
+          {
+            question: "Carbohydrate food reserve in fungi is stored as",
+            answers: [
+              { text: "Sucrose", correct: false },
+              { text: "Starch", correct: false },
+              { text: "Glycogen", correct: true },
+              { text: "Glucose", correct: false }
+            ],
+            explanation: "Fungi store carbohydrate food reserves as glycogen."
+          },
+          {
+            question: "Which of these classes of algae is referred to as brown algae",
+            answers: [
+              { text: "Englenophyte", correct: false },
+              { text: "Phaeophyte", correct: true },
+              { text: "Pyrophyte", correct: false },
+              { text: "Rodophyte", correct: false }
+            ],
+            explanation: "Brown algae are classified under the class Phaeophyceae or Phaeophyta."
+          },
+          {
+            question: "The division Protista of Whittaker encompasses",
+            answers: [
+              { text: "Autotrophs", correct: false },
+              { text: "Virus", correct: false },
+              { text: "Heterotrophs", correct: false },
+              { text: "Both autotrophs and heterotrophs", correct: true }
+            ],
+            explanation: "Whittaker's kingdom Protista includes both autotrophs and heterotrophs."
+          },
+          {
+            question: "The following are prokaryotes thallophytes except",
+            answers: [
+              { text: "Fungi", correct: true },
+              { text: "Bacteria", correct: false },
+              { text: "Blue-green algae", correct: false }
+            ],
+            explanation: "Fungi are not prokaryotic thallophytes; they are eukaryotic."
+          },
+          {
+            question: "The following make viruses different from bacteria except",
+            answers: [
+              { text: "The nucleic acid of virus may be RNA", correct: false },
+              { text: "Viruses are smaller than bacteria", correct: false },
+              { text: "Viruses require a host to be regarded as living", correct: false },
+              { text: "Viruses do not have a nucleus", correct: true }
+            ],
+            explanation: "Viruses lack a cellular structure, including a nucleus, which bacteria possess."
+          },
+          {
+            question: "Under the microscope, the morphology of Vibrio cholerae is",
+            answers: [
+              { text: "Comma-shaped", correct: true },
+              { text: "Spherical-shaped", correct: false },
+              { text: "Rod-like shaped", correct: false },
+              { text: "Spiral-shaped", correct: false }
+            ],
+            explanation: "Vibrio cholerae appears as comma-shaped bacteria under the microscope."
+          },
+          {
+            question: "Which of these are simple unicellular organisms",
+            answers: [
+              { text: "Chlamydomonas", correct: true },
+              { text: "Pandorina", correct: false }
+            ],
+            explanation: "Chlamydomonas is an example of a simple unicellular organism."
+          },
+          {
+            question: "The rod-like structure in organisms of the division Bryophyta is called",
+            answers: [
+              { text: "Liverworts", correct: false },
+              { text: "Rhizoids", correct: false },
+              { text: "Seta", correct: true },
+              { text: "Rhizome", correct: false }
+            ],
+            explanation: "In bryophytes, the seta is a stalk-like structure that supports the capsule (sporangium) containing spores. It elevates the capsule above the gametophyte (the main body of the bryophyte) to aid in the dispersal of spores."
+          },
+          {
+            question: "Absorptive heterotrophs are collectively known as",
+            answers: [
+              { text: "Fungi", correct: true },
+              { text: "Virus", correct: false },
+              { text: "Green plants", correct: false },
+              { text: "Bacteria", correct: false }
+            ],
+            explanation: "Fungi are absorptive heterotrophs."
+          },
+          {
+            question: "The form of bacteria that is responsible for sore throat is",
+            answers: [
+              { text: "Streptococcus", correct: true },
+              { text: "Staphylococcus", correct: false },
+              { text: "Escherichia coli", correct: false },
+              { text: "Bacillus", correct: false }
+            ],
+            explanation: "Streptococcus bacteria are commonly associated with causing sore throat, specifically Streptococcus pyogenes."
+          },
+          {
+            question: "The final stage in the life cycle of a virus is",
+            answers: [
+              { text: "Multiplication of strand and nucleic acid", correct: false },
+              { text: "Addition of new viruses", correct: true }
+            ],
+            explanation: "The final stage in the life cycle of a virus involves the assembly and release of new virus particles."
+          },
+          {
+            question: "All are parasites except",
+            answers: [
+              { text: "Opalina sp", correct: false },
+              { text: "Plasmodium sp", correct: false },
+              { text: "Trypanosoma sp", correct: false },
+              { text: "Euglena sp", correct: true }
+            ],
+            explanation: "Opalina, Plasmodium, and Trypanosoma are parasitic organisms, whereas Euglena is a photosynthetic protist."
+          },
+          {
+            question: "There are _________ major stages in the life cycle of a virus",
+            answers: [
+              { text: "5", correct: false },
+              { text: "6", correct: false },
+              { text: "4", correct: true },
+              { text: "3", correct: false }
+            ],
+            explanation: "The life cycle of a virus typically involves attachment, penetration, replication, assembly, and release, making it 4 major stages."
+          },
+          {
+            question: "The simple unicellular type of algae is",
+            answers: [
+              { text: "Chlamydomonas", correct: true },
+              { text: "Volvox", correct: false },
+              { text: "Pandorina", correct: false }
+            ],
+            explanation: "Chlamydomonas is an example of a simple unicellular algae."
+          },
+          {
+            question: "Bacteria that survive at wide sub-zero temperatures are called",
+            answers: [
+              { text: "Psychrophiles", correct: true },
+              { text: "Mesophiles", correct: false }
+            ],
+            explanation: "Psychrophiles are bacteria that thrive at very low temperatures."
+          },
+          {
+            question: "A bacteria is said to be circular if it is",
+            answers: [
+              { text: "Coccus", correct: false },
+              { text: "Spirillum", correct: false },
+              { text: "Bacillus", correct: false },
+              { text: "Coccal", correct: true },
+            ],
+            explanation: " Coccal bacteria are spherical or roughly spherical in shape, appearing as tiny, round cells when viewed under a microscope. These bacteria can occur individually, in pairs (diplococci), in chains (streptococci), or in clusters (staphylococci), depending on their arrangement and growth pattern."
+          },
+          {
+            question: "Which of the following is the youngest plant tissue",
+            answers: [
+              { text: "Meristem", correct: true },
+              { text: "Phloem", correct: false },
+              { text: "Epidermis", correct: false },
+              { text: "Apical buds", correct: false }
+            ],
+            explanation: "Meristem tissue is the region of plant tissue with actively dividing cells and is considered the youngest."
+          },
+          {
+            question: "Who was the botanist Turner",
+            answers: [
+              { text: "An European physician", correct: false },
+              { text: "Italian physician", correct: false },
+              { text: "Swedish physician", correct: false },
+              { text: "English physician", correct: true }
+            ],
+            explanation: "The botanist Turner refers to William Turner, an English physician and naturalist known as the 'Father of English Botany'."
+          },
+          {
+            question: "The following are prokaryotic thallophytes except",
+            answers: [
+              { text: "Fungi", correct: true },
+              { text: "Blue-green algae", correct: false },
+              { text: "Bacteria", correct: false },
+              { text: "Virus", correct: false }
+            ],
+            explanation: "Fungi are eukaryotic organisms, not prokaryotic thallophytes."
+          },
+          {
+            question: "Which one of the following is not a division in vertebrates?",
+            answers: [
+              { text: "Thorax", correct: true },
+              { text: "Head", correct: false },
+              { text: "Trunk", correct: false },
+              { text: "Tail", correct: false }
+            ],
+            explanation: "Vertebrates do not have a division called 'Thorax'. The correct divisions are Head, Trunk, and Tail."
+          },
+          {
+            question: "The DNA of bacteria is located in a structure called",
+            answers: [
+              { text: "Nucleoid", correct: true },
+              { text: "Nucleioid", correct: false },
+              { text: "Nucleus", correct: false },
+              { text: "Central", correct: false }
+            ],
+            explanation: "The DNA of bacteria is found in the nucleoid region, which is not membrane-bound like a nucleus."
+          },
+          {
+            question: "Sea lily and feather star belong to class",
+            answers: [
+              { text: "Crinoidea", correct: true },
+              { text: "Podia", correct: false },
+              { text: "Grinoda", correct: false },
+              { text: "Dentalium", correct: false }
+            ],
+            explanation: "Sea lilies and feather stars belong to the class Crinoidea within the phylum Echinodermata."
+          },
+          {
+            question: "Which phylum of animal excludes marine organisms?",
+            answers: [
+              { text: "Dentalium", correct: true },
+              { text: "Echinodermata", correct: false },
+              { text: "Crinoidea", correct: false }
+            ],
+            explanation: "Dentalium is a phylum of marine organisms known as tusk shells."
+          },
+          {
+            question: "Locomotory organs of starfish are",
+            answers: [
+              { text: "Podia", correct: true },
+              { text: "Ventricle", correct: false },
+              { text: "Spicules", correct: false }
+            ],
+            explanation: "Starfish use tube feet, also known as podia, for locomotion."
+          },
+          {
+            question: "Virus are smaller than atoms. True or False?",
+            answers: [
+              { text: "True", correct: true },
+              { text: "False", correct: false }
+            ],
+            explanation: "Viruses are indeed smaller than atoms. They typically range in size from 20-300 nanometers, while atoms are much smaller."
+          },
+          {
+            question: "The class of organisms that is characterized by possessing the head, thorax, and abdomen is from",
+            answers: [
+              { text: "Insecta", correct: true },
+              { text: "Insect", correct: false },
+              { text: "Arachnida", correct: false },
+              { text: "Crustacea", correct: false }
+            ],
+            explanation: "Insects (class Insecta) are characterized by having three distinct body segments: head, thorax, and abdomen."
+          },
+          {
+            question: "A merocyte with pigment is called",
+            answers: [
+              { text: "Chromocyte", correct: true },
+              { text: "Archaeocyte", correct: false },
+              { text: "Chromatocyte", correct: false }
+            ],
+            explanation: "A merocyte with pigment is termed as a chromocyte."
+          },
+          {
+            question: "Sporophyte is dominant in",
+            answers: [
+              { text: "Pteridophytes", correct: true },
+              { text: "Thallophytes", correct: false },
+              { text: "Bryophytes", correct: false },
+              { text: "Spermatophytes", correct: false }
+            ],
+            explanation: "Pteridophytes have a dominant sporophyte phase in their life cycle."
+          },
+          {
+            question: "Animals in the phylum Platyhelminthes are commonly known as",
+            answers: [
+              { text: "Flatworms", correct: true },
+              { text: "Snail", correct: false },
+              { text: "Fruit", correct: false },
+              { text: "Chitons", correct: false }
+            ],
+            explanation: "Animals in the phylum Platyhelminthes are commonly known as flatworms."
+          },
+          {
+            question: "The comma-shaped form of bacteria is responsible for",
+            answers: [
+              { text: "Cholera", correct: true },
+              { text: "Syphilis", correct: false },
+              { text: "Typhoid", correct: false },
+              { text: "Pneumonia", correct: false }
+            ],
+            explanation: "The comma-shaped bacteria (Vibrio cholerae) is responsible for causing cholera."
+          },
+          {
+            question: "Which of the following is not hermaphrodite?",
+            answers: [
+              { text: "Tapeworm", correct: false },
+              { text: "Flatworm", correct: false },
+              { text: "Roundworm", correct: true }
+            ],
+            explanation: "Roundworms (phylum Nematoda) are not hermaphroditic."
+          },
+          {
+            question: "In a Gram stain procedure, bacteria that are Gram-positive decolorize less easily than Gram-negative cells. True or False?",
+            answers: [
+              { text: "True", correct: true },
+              { text: "False", correct: false }
+            ],
+            explanation: "Gram-positive bacteria retain the crystal violet dye in Gram staining due to their thicker peptidoglycan layer."
+          },
+          {
+            question: "The dominant plant in bryophytes is",
+            answers: [
+              { text: "Gametophyte", correct: true },
+              { text: "Vascular plants", correct: false },
+              { text: "Rhizoids", correct: false },
+              { text: "Saprophyte", correct: false }
+            ],
+            explanation: "Bryophytes (mosses, liverworts, hornworts) have a dominant gametophyte stage in their life cycle."
+          },
+          {
+            question: "The comma-shaped or vibroid form of bacteria is responsible for",
+            answers: [
+              { text: "Cholera", correct: true },
+              { text: "Amoeba", correct: false },
+              { text: "Typhoid", correct: false },
+              { text: "Pneumonia", correct: false }
+            ],
+            explanation: "The comma-shaped or vibroid bacteria (Vibrio cholerae) causes cholera."
+          },
+          {
+            question: "Examples of complex multicellular organisms are the following except",
+            answers: [
+              { text: "Oscillatoria", correct: false },
+              { text: "Fucus", correct: false },
+              { text: "Laminaria", correct: false },
+              { text: "Extocarpus", correct: true }
+            ],
+            explanation: "Extocarpus is a genus of brown algae, which are complex multicellular organisms."
+          },
+          {
+            question: "The filamentous types of algae include",
+            answers: [
+              { text: "Spirogyra and Oscillatoria", correct: true },
+              { text: "Spirogyra and Fucus", correct: false },
+              { text: "Tolox and Spirogyra", correct: false },
+              { text: "Diatoms and Ulva", correct: false }
+            ],
+            explanation: "Spirogyra and Oscillatoria are examples of filamentous algae."
+          },
+          {
+            question: "The part of the vertebrate body where all visceral organs are located is called",
+            answers: [
+              { text: "Trunk", correct: true },
+              { text: "Head", correct: false },
+              { text: "Tail", correct: false },
+              { text: "All of the above", correct: false }
+            ],
+            explanation: "The trunk of a vertebrate body houses all the visceral organs."
+          },
+          {
+            question: "One is not a division of vertebrates",
+            answers: [
+              { text: "Head", correct: false },
+              { text: "Tail", correct: false },
+              { text: "Thorax", correct: true },
+              { text: "None of the above", correct: false }
+            ],
+            explanation: "Among the given options, 'Thorax' is not a division of vertebrates."
+          },
+          {
+            question: "Division of bacteria in plane results in",
+            answers: [
+              { text: "Diplococci and chains", correct: true },
+              { text: "Streptococci and staphylococci", correct: false },
+              { text: "Bacilli and spirilla", correct: false },
+              { text: "Cocci and bacilli", correct: false }
+            ],
+            explanation: "Division of bacteria in one plane can result in arrangements like diplococci (pairs) or chains."
+          },
+          {
+            question: "Viruses cause all the following diseases except",
+            answers: [
+              { text: "Mumps", correct: false },
+              { text: "Flu", correct: false },
+              { text: "Tetanus", correct: true },
+              { text: "Smallpox", correct: false }
+            ],
+            explanation: "Tetanus is caused by a bacterium (Clostridium tetani), not a virus."
+          },
+          {
+            question: "Sexual spore of sac fungi ________ ascospore",
+            answers: [
+              { text: "Zoospore", correct: false },
+              { text: "Conidia", correct: false },
+              { text: "Is", correct: true },
+              { text: "Protospore", correct: false }
+            ],
+            explanation: "The sexual spore of sac fungi is called ascospore."
+          },
+          {
+            question: "Example of cocci in cluster ___________ Staphylococcus",
+            answers: [
+              { text: "Diplococci", correct: false },
+              { text: "Tetracocci", correct: false },
+              { text: "Streptococci", correct: false },
+              { text: "Staphylococci", correct: true }
+            ],
+            explanation: "Staphylococcus is an example of cocci in clusters."
+          },
+          {
+            question: "Fungi imperfecti is ___________ Deuteromycetes",
+            answers: [
+              { text: "Ascomycota", correct: false },
+              { text: "Basidiomycota", correct: false },
+              { text: "Anamorphic", correct: true },
+              { text: "Zygomycota", correct: false }
+            ],
+            explanation: "Fungi imperfecti (imperfect fungi) are classified under Deuteromycetes."
+          },
+          {
+            question: "Which of these does not belong to the group (a) Bacillus subtilis (b) Escherichia coli (c) Tobacco mosaic virus (d) Treponema pallidum",
+            answers: [
+              { text: "Bacillus subtilis", correct: false },
+              { text: "Escherichia coli", correct: false },
+              { text: "Tobacco mosaic virus", correct: false },
+              { text: "Treponema pallidum", correct: true }
+            ],
+            explanation: "Treponema pallidum does not belong to the group of bacteria and viruses listed."
+          },
+          {
+            question: "How many stages is virus (a) 3 (b) 4 (c) 2 (d) 5",
+            answers: [
+              { text: "3", correct: false },
+              { text: "4", correct: true },
+              { text: "2", correct: false },
+              { text: "5", correct: false }
+            ],
+            explanation: "Viruses typically have a life cycle consisting of 4 stages."
+          },
+          {
+            question: "Classification of plants is based on (a) Photosynthesis (b) Taxonomy (c) Chemosynthesis (d) Classification",
+            answers: [
+              { text: "Photosynthesis", correct: false },
+              { text: "Taxonomy", correct: true },
+              { text: "Chemosynthesis", correct: false },
+              { text: "Classification", correct: false }
+            ],
+            explanation: "The classification of plants is based on taxonomy."
+          },
+          {
+            question: "Length of virus is (a) 5 – 40nm (b) 2 – 20mm (c) 2 – 20nm (d) 5 – 40mm",
+            answers: [
+              { text: "5 – 40nm", correct: true },
+              { text: "2 – 20mm", correct: false },
+              { text: "2 – 20nm", correct: false },
+              { text: "5 – 40mm", correct: false }
+            ],
+            explanation: "Viruses typically range in size from 5 to 40 nanometers."
+          },
+          {
+            question: "Which of these does not belong to the group (a) Treponema pallidum (b) Bacillus subtilis (c) Tobacco mosaic virus (d) Escherichia coli",
+            answers: [
+              { text: "Treponema pallidum", correct: true },
+              { text: "Bacillus subtilis", correct: false },
+              { text: "Tobacco mosaic virus", correct: false },
+              { text: "Escherichia coli", correct: false }
+            ],
+            explanation: "Treponema pallidum is not a bacterium or virus among the listed options."
+          },
+          {
+            question: "___________ is used for the production of biopesticides (a) Streptococcus mutans (b) Rhizobacterium spp. (c) Lactobacillus bulgaricus (d) Bacillus thuringiensis",
+            answers: [
+              { text: "Streptococcus mutans", correct: false },
+              { text: "Rhizobacterium spp.", correct: false },
+              { text: "Lactobacillus bulgaricus", correct: false },
+              { text: "Bacillus thuringiensis", correct: true }
+            ],
+            explanation: "Bacillus thuringiensis is used for the production of biopesticides."
+          },
+          {
+            question: "The diplopods in millipedes are also known as (a) Cyclapods (b) Chilopoda (c) Lithobius (d) Myriapods",
+            answers: [
+              { text: "Cyclapods", correct: false },
+              { text: "Chilopoda", correct: false },
+              { text: "Lithobius", correct: false },
+              { text: "Myriapods", correct: true }
+            ],
+            explanation: "Diplopods in millipedes are also referred to as myriapods."
+          },
+          {
+            question: "The production of a series of publications with a comprehensive account of several families of flowering plants, in addition to the systematic classification of cryptograms, was made by (a) Engler and Prantl (b) Bauhin and Kasper (c) Bentham and Hooker (d) Turner and Bauhin",
+            answers: [
+              { text: "Engler and Prantl", correct: true },
+              { text: "Bauhin and Kasper", correct: false },
+              { text: "Bentham and Hooker", correct: false },
+              { text: "Turner and Bauhin", correct: false }
+            ],
+            explanation: "Engler and Prantl produced a comprehensive series of plant publications."
+          },
+          {
+            question: "Gram-positive and Gram-negative cells have ________ and ________",
+            answers: [
+              { text: "Thick peptidoglycan layer, thin peptidoglycan layer", correct: true },
+              { text: "Thin peptidoglycan layer, thick peptidoglycan layer", correct: false },
+              { text: "Cellulose layer, peptidoglycan layer", correct: false },
+              { text: "Protein layer, lipid layer", correct: false }
+            ],
+            explanation: "Gram-positive bacteria have a thick peptidoglycan layer, whereas Gram-negative bacteria have a thin peptidoglycan layer."
+          },
+          {
+            question: "The counter used in Gram staining is _________",
+            answers: [
+              { text: "Crystal violet", correct: false },
+              { text: "Safranin", correct: false },
+              { text: "Iodine", correct: false },
+              { text: "Gram's iodine", correct: true }
+            ],
+            explanation: "Gram's iodine is used as the mordant (counter) in Gram staining."
+          },
+          {
+            question: "Another name for brown algae is _____________",
+            answers: [
+              { text: "Chlorophyta", correct: false },
+              { text: "Phaeophyta", correct: true },
+              { text: "Rhodophyta", correct: false },
+              { text: "Bacillariophyta", correct: false }
+            ],
+            explanation: "Brown algae are commonly known as Phaeophyta."
+          },
+          {
+            question: "Bacteria are considered smallest because of __________",
+            answers: [
+              { text: "Small genome size", correct: false },
+              { text: "Small cell volume", correct: true },
+              { text: "Small number of chromosomes", correct: false },
+              { text: "Small cell wall thickness", correct: false }
+            ],
+            explanation: "Bacteria are considered the smallest living organisms because of their small cell volume."
+          },
+          {
+            question: "The diameter of the largest bacteria cell should be around __________ in size",
+            answers: [
+              { text: "100 micrometers", correct: false },
+              { text: "10 micrometers", correct: false },
+              { text: "1 micrometer", correct: true },
+              { text: "0.1 micrometer", correct: false }
+            ],
+            explanation: "The largest bacteria cells can reach up to approximately 1 micrometer in diameter."
+          },
+          {
+            question: "Liverwort is a primitive thaloid in the division ______________",
+            answers: [
+              { text: "Bryophyta", correct: true },
+              { text: "Pteridophyta", correct: false },
+              { text: "Coniferophyta", correct: false },
+              { text: "Angiospermae", correct: false }
+            ],
+            explanation: "Liverworts are primitive thaloid plants classified under the division Bryophyta."
+          },
+          {
+            question: "Eggs are laid in cocoon produced by the __________ in class the oligochaete of phylum Annelida",
+            answers: [
+              { text: "Chaeta", correct: false },
+              { text: "Cuticle", correct: false },
+              { text: "Clitellum", correct: true },
+              { text: "Coelom", correct: false }
+            ],
+            explanation: "Eggs are laid in a cocoon produced by the clitellum in oligochaetes of the phylum Annelida."
+          },
+          {
+            question: "Class Cyanophyta are distinct in (a) root (b) aquatic (c) primitive (d) chloroplast",
+            answers: [
+              { text: "Root", correct: false },
+              { text: "Aquatic", correct: true },
+              { text: "Primitive", correct: false },
+              { text: "Chloroplast", correct: false }
+            ],
+            explanation: "Class Cyanophyta (blue-green algae) are distinct in being aquatic organisms."
+          },
+          {
+            question: "Which of the following causes syphilis and cholera (a) Bacillus & Vibrio (b) Spirillum & Vibrio (c) Coccus & Bacillus (d) Vibrio & Coccus",
+            answers: [
+              { text: "Bacillus & Vibrio", correct: false },
+              { text: "Spirillum & Vibrio", correct: false },
+              { text: "Coccus & Bacillus", correct: false },
+              { text: "Vibrio & Coccus", correct: true }
+            ],
+            explanation: "Syphilis is caused by Treponema pallidum (a spirochete) and cholera is caused by Vibrio cholerae (a vibrio)."
+          },
+          {
+            question: "Which of the following bacteria live in a cold region (a) Mesophile (b) Thermophile (c) Psychrophile (d) Nanophile",
+            answers: [
+              { text: "Mesophile", correct: false },
+              { text: "Thermophile", correct: false },
+              { text: "Psychrophile", correct: true },
+              { text: "Nanophile", correct: false }
+            ],
+            explanation: "Psychrophiles are bacteria that thrive in cold environments."
+          },
+          {
+            question: "___________ is radial symmetry (a) Echinoderms (b) Earthworm (c) Mollusca (d) Roundworm",
+            answers: [
+              { text: "Echinoderms", correct: true },
+              { text: "Earthworm", correct: false },
+              { text: "Mollusca", correct: false },
+              { text: "Roundworm", correct: false }
+            ],
+            explanation: "Echinoderms exhibit radial symmetry."
+          },
+          {
+            question: "All of these are parasites except (a) Euglena (b) Plasmodium (c) Opalina (d) Trypanosome",
+            answers: [
+              { text: "Euglena", correct: false },
+              { text: "Plasmodium", correct: false },
+              { text: "Opalina", correct: false },
+              { text: "Trypanosome", correct: true }
+            ],
+            explanation: "Trypanosomes are parasites, while Euglena, Plasmodium, and Opalina are also parasitic or symbiotic organisms."
+          },
+          {
+            question: "Organisms with wider distribution in the plant kingdom include (a) Virus (b) Bacteria (c) Fungi",
+            answers: [
+              { text: "Virus", correct: false },
+              { text: "Bacteria", correct: true },
+              { text: "Fungi", correct: false }
+            ],
+            explanation: "Bacteria have a wider distribution in the plant kingdom compared to viruses and fungi."
+          },
+          {
+            question: "The tympanic membrane of the eardrum is supported by (a) Tympanic bone (b) Incus bone (c) Stapes bone (d) Ossicular bone",
+            answers: [
+              { text: "Tympanic bone", correct: false },
+              { text: "Incus bone", correct: true },
+              { text: "Stapes bone", correct: false },
+              { text: "Ossicular bone", correct: false }
+            ],
+            explanation: "The tympanic membrane of the eardrum is supported by the incus bone."
+          },
+          {
+            question: "Which of the following is only found in algae (a) Pyrophyta (b) Rhodophyta (c) Chrysophyta (d) Cyanophyta",
+            answers: [
+              { text: "Pyrophyta", correct: false },
+              { text: "Rhodophyta", correct: true },
+              { text: "Chrysophyta", correct: false },
+              { text: "Cyanophyta", correct: false }
+            ],
+            explanation: "Rhodophyta (red algae) are exclusively found in algae."
+          },
+          {
+            question: "The waterproof substance that protects structures in spermatophytes is (a) Cutin and subman (b) Cutin and auxin (c) Cutin (d) Subman and integuments",
+            answers: [
+              { text: "Cutin and subman", correct: false },
+              { text: "Cutin and auxin", correct: false },
+              { text: "Cutin", correct: true },
+              { text: "Subman and integuments", correct: false }
+            ],
+            explanation: "Cutin is the waterproof substance that protects structures in spermatophytes."
+          },
+          {
+            question: "The type of nutrition in viruses is (a) Saprophytic (b) Parasitic (c) Commensalism (d) Autotrophic",
+            answers: [
+              { text: "Saprophytic", correct: false },
+              { text: "Parasitic", correct: true },
+              { text: "Commensalism", correct: false },
+              { text: "Autotrophic", correct: false }
+            ],
+            explanation: "Viruses exhibit a parasitic mode of nutrition."
+          },
+          {
+            question: "The following are examples of morphological arrangements of bacteria except (a) Cluster (b) Chain (c) Polygonal (d) Tetrad",
+            answers: [
+              { text: "Cluster", correct: false },
+              { text: "Chain", correct: false },
+              { text: "Polygonal", correct: false },
+              { text: "Tetrad", correct: false }
+            ],
+            explanation: "All listed options (cluster, chain, polygonal, tetrad) are examples of morphological arrangements of bacteria."
+          },
+          {
+            question: "Fungi are classified into different classes based on (a) Nature of sexual spore (b) Nature of asexual spore (c) Mode of reproduction (d) Nature of hyphae",
+            answers: [
+              { text: "Nature of sexual spore", correct: true },
+              { text: "Nature of asexual spore", correct: false },
+              { text: "Mode of reproduction", correct: false },
+              { text: "Nature of hyphae", correct: false }
+            ],
+            explanation: "Fungi are classified into different classes primarily based on the nature of their sexual spores."
+          },
+          {
+            question: "Arrange these organisms chronologically (a) fungi, virus, bacteria (b) bacteria, virus fungi (c) virus, fungi, bacteria (d) fungi, bacteria, virus",
+            answers: [
+              { text: "Fungi, virus, bacteria", correct: false },
+              { text: "Bacteria, virus, fungi", correct: false },
+              { text: "Virus, fungi, bacteria", correct: true },
+              { text: "Fungi, bacteria, virus", correct: false }
+            ],
+            explanation: "Viruses are considered the earliest organisms in evolutionary history, followed by fungi and then bacteria."
+          },
+          {
+            question: "One of these is a viral disease except one (a) syphilis (b) smallpox (c) influenza (d) AIDS",
+            answers: [
+              { text: "Syphilis", correct: true },
+              { text: "Smallpox", correct: false },
+              { text: "Influenza", correct: false },
+              { text: "AIDS", correct: false }
+            ],
+            explanation: "Syphilis is caused by the bacterium Treponema pallidum, not a virus."
+          },
+          {
+            question: "The most primitive among the following is _________ (a) Hydra (b) Plasmodium (c) Paramecium (d) Amoeba",
+            answers: [
+              { text: "Hydra", correct: false },
+              { text: "Plasmodium", correct: false },
+              { text: "Paramecium", correct: false },
+              { text: "Amoeba", correct: true }
+            ],
+            explanation: "Amoeba is a primitive unicellular organism compared to Hydra, Plasmodium, and Paramecium."
+          },
+          {
+            question: "The type of nutrition in virus is (a) saprophytic (b) parasitic (c) commensalism (d) autotrophie",
+            answers: [
+              { text: "Saprophytic", correct: false },
+              { text: "Parasitic", correct: true },
+              { text: "Commensalism", correct: false },
+              { text: "Autotrophic", correct: false }
+            ],
+            explanation: "Viruses exhibit a parasitic mode of nutrition."
+          },
+          {
+            question: "Amoebocyte with pigment is __________ (a) choanocyte (b) archaeocyte (c) chromatocytes (d) scleroblast",
+            answers: [
+              { text: "Choanocyte", correct: false },
+              { text: "Archaeocyte", correct: false },
+              { text: "Chromatocytes", correct: true },
+              { text: "Scleroblast", correct: false }
+            ],
+            explanation: "Amoebocytes with pigment are known as chromatocytes."
+          },
+          {
+            question: "Sexual reproduction between identical motile gametes is (a) conjugate (b) anisogamy (c) isogamy (d) aplaliogomes",
+            answers: [
+              { text: "Conjugate", correct: false },
+              { text: "Anisogamy", correct: false },
+              { text: "Isogamy", correct: true },
+              { text: "Aplaliogomes", correct: false }
+            ],
+            explanation: "Isogamy involves sexual reproduction between identical motile gametes."
+          },
+          {
+            question: "The arrangement of leaves is called ________ (a) phyllotaxy (b) decussate (c) petiole (d) testa",
+            answers: [
+              { text: "Phyllotaxy", correct: true },
+              { text: "Decussate", correct: false },
+              { text: "Petiole", correct: false },
+              { text: "Testa", correct: false }
+            ],
+            explanation: "The arrangement of leaves on the stem is termed phyllotaxy."
+          },
+          {
+            question: "Nitrogen contributes ______% of the Earth's surface (a) 78% (b) 1% (c) 2% (d) 50%",
+            answers: [
+              { text: "78%", correct: false },
+              { text: "1%", correct: false },
+              { text: "2%", correct: true },
+              { text: "50%", correct: false }
+            ],
+            explanation: "Nitrogen makes up approximately 78% of the Earth's atmosphere, but only 2% of its surface."
+          },
+          {
+            question: "Bacteria undergoes _________ uncommon process (a) fermentation (b) respirating (c) CO2 process",
+            answers: [
+              { text: "Fermentation", correct: false },
+              { text: "Respirating", correct: false },
+              { text: "CO2 process", correct: false },
+              { text: "None of the above", correct: true }
+            ],
+            explanation: "Bacteria do not undergo a specific 'CO2 process' distinct from other metabolic processes like fermentation or respiration."
+          },
+          {
+            question: "The botanical name for yellow yam is ________ (a) Dioscorea esculenta (b) Dioscorea cayenensis (c) Dioscorea alata (d) Dioscorea rotundata",
+            answers: [
+              { text: "Dioscorea esculenta", correct: false },
+              { text: "Dioscorea cayenensis", correct: false },
+              { text: "Dioscorea alata", correct: false },
+              { text: "Dioscorea rotundata", correct: true }
+            ],
+            explanation: "Yellow yam is botanically known as Dioscorea rotundata."
+          },
+          {
+            question: "The cuticle in insects is shed periodically in a process called (a) none of the above (b) cuticulation (c) ecdysis (d) cuticulating",
+            answers: [
+              { text: "None of the above", correct: false },
+              { text: "Cuticulation", correct: false },
+              { text: "Ecdysis", correct: true },
+              { text: "Cuticulating", correct: false }
+            ],
+            explanation: "Insects shed their cuticle periodically through a process called ecdysis."
+          },
+          {
+            question: "The diplopods & millipedes are also known as (a) lithobius (b) myriapod (c) cyclapods (d) chilopoda",
+            answers: [
+              { text: "Lithobius", correct: false },
+              { text: "Myriapod", correct: true },
+              { text: "Cyclapods", correct: false },
+              { text: "Chilopoda", correct: false }
+            ],
+            explanation: "Diplopods and millipedes belong to the class Myriapoda."
+          },
+          {
+            question: "Internal budding occurs in the phylum (a) Porifera (b) Nematoda (c) Annelida",
+            answers: [
+              { text: "Porifera", correct: false },
+              { text: "Nematoda", correct: false },
+              { text: "Annelida", correct: true }
+            ],
+            explanation: "Internal budding occurs in some annelids."
+          },
+          {
+            question: "Digestive cavity in coelenterates is (a) Epiderm (b) Mesoderm (c) Mesentron (d) Enteron",
+            answers: [
+              { text: "Epiderm", correct: false },
+              { text: "Mesoderm", correct: false },
+              { text: "Mesentron", correct: false },
+              { text: "Enteron", correct: true }
+            ],
+            explanation: "The digestive cavity in coelenterates is called the enteron."
+          },
+          {
+            question: "Herpesviridae is the name of a (a) Genus (b) Subfamily (c) Family (d) Order",
+            answers: [
+              { text: "Genus", correct: false },
+              { text: "Subfamily", correct: false },
+              { text: "Family", correct: true },
+              { text: "Order", correct: false }
+            ],
+            explanation: "Herpesviridae is a family of viruses."
+          },
+          {
+            question: "Which of the following cell walls is common to most? (a) Lignin (b) Cellulose (c) Lipid (d) Pectin",
+            answers: [
+              { text: "Lignin", correct: false },
+              { text: "Cellulose", correct: true },
+              { text: "Lipid", correct: false },
+              { text: "Pectin", correct: false }
+            ],
+            explanation: "Cellulose is a common component of cell walls in many organisms."
+          },
+          {
+            question: "The decolorizer used in Gram staining is (a) Safranin (b) Acetone (c) Gram's iodine (d) Crystal violet",
+            answers: [
+              { text: "Safranin", correct: false },
+              { text: "Acetone", correct: false },
+              { text: "Gram's iodine", correct: false },
+              { text: "Crystal violet", correct: true }
+            ],
+            explanation: "Crystal violet is the primary stain used in Gram staining, not the decolorizer."
+          },
+          {
+            question: "Prokaryotes comprise of __________ and __________ (a) Bacteria, motile organisms (b) Bacteria, blue-green (c) Bacteria, viruses (d) Bacteria, fungi",
+            answers: [
+              { text: "Bacteria, motile organisms", correct: false },
+              { text: "Bacteria, blue-green", correct: false },
+              { text: "Bacteria, viruses", correct: false },
+              { text: "Bacteria, fungi", correct: true }
+            ],
+            explanation: "Prokaryotes include bacteria and archaea, not viruses or fungi."
+          },
+          {
+            question: "Another name for green algae is _________ (a) Rhodophyta (b) Chlorophyta (c) Tracheophyta (d) Chromophyta",
+            answers: [
+              { text: "Rhodophyta", correct: false },
+              { text: "Chlorophyta", correct: true },
+              { text: "Tracheophyta", correct: false },
+              { text: "Chromophyta", correct: false }
+            ],
+            explanation: "Green algae are classified under the phylum Chlorophyta."
+          },
+          {
+            question: "The unit of virus is _________ (a) Viroin (b) Virus (c) Viroid",
+            answers: [
+              { text: "Viroin", correct: false },
+              { text: "Virus", correct: true },
+              { text: "Viroid", correct: false }
+            ],
+            explanation: "The unit of virus is referred to as a virus."
+          },
+          {
+            question: "The type of nutrition in viruses is _________ (a) Saprophytic (b) Parasitic (c) Autotrophic",
+            answers: [
+              { text: "Saprophytic", correct: false },
+              { text: "Parasitic", correct: true },
+              { text: "Autotrophic", correct: false }
+            ],
+            explanation: "Viruses exhibit a parasitic mode of nutrition."
+          },
+          {
+            question: "The classification of organisms that considers the basic criteria is (a) Pheritical (b) Artificial (c) Mechanical (d) Natural",
+            answers: [
+              { text: "Pheritical", correct: false },
+              { text: "Artificial", correct: false },
+              { text: "Mechanical", correct: false },
+              { text: "Natural", correct: true }
+            ],
+            explanation: "Natural classification considers fundamental criteria such as evolutionary relationships."
+          },
+          {
+            question: "Economic importance of viruses include all these except (a) research (b) producing antibiotics (c) treatment of polluted water (d) disease",
+            answers: [
+              { text: "Research", correct: false },
+              { text: "Producing antibiotics", correct: true },
+              { text: "Treatment of polluted water", correct: false },
+              { text: "Disease", correct: false }
+            ],
+            explanation: "Viruses do not produce antibiotics; rather, they are studied for research purposes, can affect disease, and are used in some aspects of water treatment."
+          },
+          {
+            question: "In a Gram stain procedure, bacteria that are gram positive decolorize less easily than gram negative cells (a) true (b) false (c) none of the above",
+            answers: [
+              { text: "True", correct: true },
+              { text: "False", correct: false },
+              { text: "None of the above", correct: false }
+            ],
+            explanation: "Gram-positive bacteria retain the crystal violet stain better during the decolorization step of Gram staining compared to gram-negative bacteria."
+          },
+          {
+            question: "Bacteria are regarded as prokaryotic because (a) they contain thread-like flagella (b) they have no proper nucleus (c) they contain a long thread of chromosome",
+            answers: [
+              { text: "They have no proper nucleus", correct: true },
+              { text: "They contain thread-like flagella", correct: false },
+              { text: "They contain a long thread of chromosome", correct: false }
+            ],
+            explanation: "Bacteria lack a membrane-bound nucleus, which is a characteristic feature of prokaryotic organisms."
+          },
+          {
+            question: "Myxoviruses are distinct in that (a) they do not have nucleus (b) they have no cytoplasm (c) they have cytoplasm (d) they have nucleus",
+            answers: [
+              { text: "They do not have nucleus", correct: false },
+              { text: "They have no cytoplasm", correct: false },
+              { text: "They have cytoplasm", correct: false },
+              { text: "They have nucleus", correct: true }
+            ],
+            explanation: "Myxoviruses, like other viruses, lack a cellular structure and do not have a nucleus."
+          },
+          {
+            question: "Unchordates are (a) false (b) segmented (c) unsegmented (d) semi chordates",
+            answers: [
+              { text: "False", correct: false },
+              { text: "Segmented", correct: false },
+              { text: "Unsegmented", correct: true },
+              { text: "Semi chordates", correct: false }
+            ],
+            explanation: "Unchordates refer to animals that do not have a notochord, hence they are unsegmented and lack the defining characteristic of chordates."
+          },
+          {
+            question: "Phycology is the study of (a) Algae (b) Viruses (c) Lichens (d) Fungi",
+            answers: [
+              { text: "Algae", correct: true },
+              { text: "Viruses", correct: false },
+              { text: "Lichens", correct: false },
+              { text: "Fungi", correct: false }
+            ],
+            explanation: "Phycology is the study of algae."
+          },
+          {
+            question: "Bacteria are causative agents of (a) Mumps (b) Tetanus (c) Smallpox (d) Flu",
+            answers: [
+              { text: "Mumps", correct: false },
+              { text: "Tetanus", correct: true },
+              { text: "Smallpox", correct: false },
+              { text: "Flu", correct: false }
+            ],
+            explanation: "Bacteria such as Clostridium tetani are responsible for causing tetanus."
+          },
+          {
+            question: "The following are arrangements of bacterial cells except (a) chain (b) cluster (c) tetrad (d) polygenia",
+            answers: [
+              { text: "Chain", correct: false },
+              { text: "Cluster", correct: false },
+              { text: "Tetrad", correct: false },
+              { text: "Polygenia", correct: true }
+            ],
+            explanation: "Polygenia is not a recognized arrangement of bacterial cells."
+          },
+          {
+            question: "Type of Nutrition found in virus is (a) Saprophytic (b) Autotrophic",
+            answers: [
+              { text: "Saprophytic", correct: false },
+              { text: "Autotrophic", correct: false }
+            ],
+            explanation: "Viruses do not exhibit nutrition as they are obligate intracellular parasites."
+          },
+          {
+            question: "Special species of fungi are called (a) Ascopore (b) Baridia (c) Spore",
+            answers: [
+              { text: "Ascopore", correct: false },
+              { text: "Baridia", correct: false },
+              { text: "Spore", correct: false }
+            ],
+            explanation: "The term for special species of fungi is not among the options provided."
+          },
+          {
+            question: "The transformation of that ranges from simplest unicellular to complex multicellular is? (a) Archaeology (b) Anthropology (c) Geology (d) Paleontology",
+            answers: [
+              { text: "Archaeology", correct: false },
+              { text: "Anthropology", correct: true },
+              { text: "Geology", correct: false },
+              { text: "Paleontology", correct: false }
+            ],
+            explanation: "Anthropology studies human societies and cultures, encompassing simple to complex transformations."
+          },
+          {
+            question: "Hemi-chordates (a) True-chordates (b) False-chordates (c) None",
+            answers: [
+              { text: "True-chordates", correct: false },
+              { text: "False-chordates", correct: true },
+              { text: "None", correct: false }
+            ],
+            explanation: "Hemichordates are not true chordates; they belong to a separate phylum."
+          },
+          {
+            question: "The DNA of bacteria is located at (a) Nucleus (b) Nucleoid (c) Central",
+            answers: [
+              { text: "Nucleus", correct: false },
+              { text: "Nucleoid", correct: true },
+              { text: "Central", correct: false }
+            ],
+            explanation: "Bacterial DNA is found in the nucleoid region, not within a membrane-bound nucleus."
+          },
+          {
+            question: "The diplopods or millipedes are also known as (a) Myriapods (b) Cyclopods (c) Chilopoda (d) Lithobus",
+            answers: [
+              { text: "Myriapods", correct: true },
+              { text: "Cyclopods", correct: false },
+              { text: "Chilopoda", correct: false },
+              { text: "Lithobus", correct: false }
+            ],
+            explanation: "Diplopods or millipedes are classified under the class Myriapoda."
+          },
+          {
+            question: "Digestive cavity in coelenterates is ___________ (a) Epiderm (b) Enteron (c) Mesoderm (d) Mesentron",
+            answers: [
+              { text: "Epiderm", correct: false },
+              { text: "Enteron", correct: true },
+              { text: "Mesoderm", correct: false },
+              { text: "Mesentron", correct: false }
+            ],
+            explanation: "The digestive cavity in coelenterates is called the enteron."
+          },
+          {
+            question: "Internal budding occurs in phylum __________ (a) Porifera (b) Cnidaria (c) Nematoda (d) Annelida",
+            answers: [
+              { text: "Porifera", correct: false },
+              { text: "Cnidaria", correct: true },
+              { text: "Nematoda", correct: false },
+              { text: "Annelida", correct: false }
+            ],
+            explanation: "Internal budding occurs in some cnidarians."
+          },
+          {
+            question: "Bacteria that survive at cold sub-zero temperatures are called (a) Mesophiles (b) Psychrophiles (c) Nanophiles (d) Thermophiles",
+            answers: [
+              { text: "Mesophiles", correct: false },
+              { text: "Psychrophiles", correct: true },
+              { text: "Nanophiles", correct: false },
+              { text: "Thermophiles", correct: false }
+            ],
+            explanation: "Psychrophiles are bacteria that thrive at cold temperatures, including sub-zero."
+          },
+          {
+            question: "The simplest nervous system which consist nerve net without brain is",
+            answers: [
+              { text: "Aves", correct: false },
+              { text: "Fishes and jelly fish", correct: false },
+              { text: "Jelly fish and sea anemones", correct: true },
+              { text: "Reptile and sea anemones", correct: false }
+            ],
+            explanation: "Jelly fish and sea anemones have a nerve net without a centralized brain."
+          },
+          {
+            question: "The smallest microbe is",
+            answers: [
+              { text: "virus", correct: true },
+              { text: "algae", correct: false },
+              { text: "bacteria", correct: false },
+              { text: "fungi", correct: false }
+            ],
+            explanation: "Viruses are considered the smallest microbes."
+          },
+          {
+            question: "Ware waxy weting of cuticle of pine leaf is an adaption against",
+            answers: [
+              { text: "loss of nutrients", correct: false },
+              { text: "stunted growth", correct: false },
+              { text: "turgidity", correct: false },
+              { text: "loss of water", correct: true }
+            ],
+            explanation: "The waxy coating on pine leaves helps prevent loss of water."
+          },
+          {
+            question: "_____ is the region lying in between the endodermis and vascular bundle of plants",
+            answers: [
+              { text: "cortex", correct: false },
+              { text: "medullary rays", correct: false },
+              { text: "pith", correct: false },
+              { text: "pericycle", correct: true }
+            ],
+            explanation: "Pericycle is located between the endodermis and vascular bundle."
+          },
+          {
+            question: "In echinoderms excretion is through the ____",
+            answers: [
+              { text: "unidirectional mouth", correct: false },
+              { text: "Anes of the alimentary canal", correct: false },
+              { text: "all of the above", correct: false },
+              { text: "pigment formation on the outside", correct: true }
+            ],
+            explanation: "Excretion in echinoderms occurs through pigment formation on the outside."
+          },
+          {
+            question: "In every organism, given two name, the first name which starts with capital letter is scientifically called",
+            answers: [
+              { text: "Genius", correct: true },
+              { text: "family", correct: false },
+              { text: "species", correct: false },
+              { text: "surname", correct: false }
+            ],
+            explanation: "The first name of a species, starting with a capital letter, represents the genus."
+          },
+          {
+            question: "Arid land are generally characterized by",
+            answers: [
+              { text: "no precipitation", correct: false },
+              { text: "moderate precipitation", correct: false },
+              { text: "low precipitation", correct: true },
+              { text: "hush", correct: false }
+            ],
+            explanation: "Arid lands typically have low precipitation."
+          },
+          {
+            question: "Defence action in mandi bulate termite in its category tertiary is termite as its",
+            answers: [
+              { text: "Biosphere", correct: false },
+              { text: "predicator", correct: false },
+              { text: "Niche", correct: true },
+              { text: "ecological concept", correct: false }
+            ],
+            explanation: "In ecological terms, a termite's defense action is part of its niche."
+          },
+          {
+            question: "In development of centipedes into adult the display of the complement of segment and legs at hatchery stage is",
+            answers: [
+              { text: "polymorphic", correct: false },
+              { text: "dimorphic", correct: false },
+              { text: "monophorphic", correct: false },
+              { text: "Epimorphic", correct: true }
+            ],
+            explanation: "Centipedes display the complement of segments and legs at hatchery stage in an epimorphic development."
+          },
+          {
+            question: "_____ is a sub-peculiar structures from which the cilia arises",
+            answers: [
+              { text: "osculum", correct: false },
+              { text: "ribosome", correct: false },
+              { text: "membrane", correct: false },
+              { text: "Kinetosome", correct: true }
+            ],
+            explanation: "Kinetosome is the structure from which cilia arise."
+          },
+          {
+            question: "_____ is referred to as solenogasters",
+            answers: [
+              { text: "aplacophora", correct: true },
+              { text: "mondascophora", correct: false }
+            ],
+            explanation: "Aplacophora is referred to as solenogasters."
+          },
+          {
+            question: "Torsion is displayed by _____",
+            answers: [
+              { text: "gastropoda", correct: true },
+              { text: "cotoda", correct: false },
+              { text: "aplacophora", correct: false },
+              { text: "monlacephora", correct: false }
+            ],
+            explanation: "Torsion is a characteristic of gastropods."
+          },
+          {
+            question: "____ and ____ are the male and female gemantore drum",
+            answers: [
+              { text: "Antheridium and Archegonium", correct: true }
+            ],
+            explanation: "Antheridium and Archegonium are the male and female gametangia."
+          },
+          {
+            question: "____ is also referred to as solenogasters",
+            answers: [
+              { text: "Aplacophora", correct: true },
+              { text: "monolacephora", correct: false }
+            ],
+            explanation: "Aplacophora is also known as solenogasters."
+          },
+          {
+            question: "____ is a unit that is composed of all the living population in a habitat",
+            answers: [
+              { text: "Atmosphere", correct: false },
+              { text: "Biosphere", correct: true },
+              { text: "Hydrosphere", correct: false },
+              { text: "commonly", correct: false }
+            ],
+            explanation: "Biosphere includes all the living populations in a habitat."
+          },
+          {
+            question: "Fungus and Algae form",
+            answers: [
+              { text: "lichen", correct: true },
+              { text: "Aspello", correct: false },
+              { text: "food web", correct: false },
+              { text: "food chain", correct: false }
+            ],
+            explanation: "Fungus and algae together form lichen."
+          },
+          {
+            question: "Plant that are desert are called",
+            answers: [
+              { text: "cacys", correct: false },
+              { text: "saprohy", correct: false },
+              { text: "hydrophytes", correct: false },
+              { text: "xerophytes", correct: true }
+            ],
+            explanation: "Plants adapted to desert conditions are called xerophytes."
+          },
+          {
+            question: "The function of the root cap is to _____",
+            answers: [
+              { text: "Protect the apex", correct: true },
+              { text: "help in elongation & energy", correct: false },
+              { text: "Transport water", correct: false }
+            ],
+            explanation: "The root cap protects the growing tip of the root."
+          },
+          {
+            question: "Which of the Phyla represent above 75-80% of all animal species",
+            answers: [
+              { text: "chordata", correct: false },
+              { text: "Arthropoda", correct: true },
+              { text: "Sacomostigophora", correct: false },
+              { text: "Nematoda", correct: false }
+            ],
+            explanation: "Arthropods represent the largest percentage of animal species."
+          },
+          {
+            question: "Hierarchy of classification is",
+            answers: [
+              { text: "species, genes, family, order, class, division, kingdom", correct: false },
+              { text: "kingdom, family, order, phylum, genes, species", correct: false },
+              { text: "kingdom, phylum, class, order, family, genus, species", correct: true }
+            ],
+            explanation: "The hierarchy of biological classification is kingdom, phylum, class, order, family, genus, species."
+          },
+          {
+            question: "Amoebocytes with pigment are",
+            answers: [
+              { text: "chomocytic", correct: false },
+              { text: "archeaoccyte", correct: false },
+              { text: "Chromocyte", correct: true }
+            ],
+            explanation: "Amoebocytes with pigment are called chromocytes."
+          },
+          {
+            question: "An example of dicotyledonous plant is",
+            answers: [
+              { text: "pea", correct: true },
+              { text: "rice", correct: false },
+              { text: "maize", correct: false },
+              { text: "sun flower", correct: false }
+            ],
+            explanation: "Pea is an example of a dicotyledonous plant."
+          },
+          {
+            question: "Primary photosynthesis organ in plant is ____",
+            answers: [
+              { text: "leaf", correct: true },
+              { text: "root", correct: false },
+              { text: "stem", correct: false },
+              { text: "flower", correct: false }
+            ],
+            explanation: "The primary organ for photosynthesis in plants is the leaf."
+          },
+          {
+            question: "Medusa is dominant in",
+            answers: [
+              { text: "Hydra", correct: false },
+              { text: "coral", correct: false },
+              { text: "Aurelia", correct: true }
+            ],
+            explanation: "Medusa is the dominant form in the life cycle of Aurelia (jellyfish)."
+          },
+          {
+            question: "Amoebocyte with pigment is",
+            answers: [
+              { text: "chonocyte", correct: false },
+              { text: "Bibocyte", correct: false },
+              { text: "Chromocyte", correct: true },
+              { text: "Scholorcyte", correct: false }
+            ],
+            explanation: "An amoebocyte with pigment is called a chromocyte."
+          },
+          {
+            question: "The body cavity of all Mollusca is ____ in nature",
+            answers: [
+              { text: "Stcellic", correct: false },
+              { text: "Turosionic", correct: false },
+              { text: "Haemocoeus (Hemocoel)", correct: true }
+            ],
+            explanation: "The body cavity (coelom) of all mollusks is hemocoelous (haemocoel)."
+          },
+          {
+            question: "The seven class of Mollusca are derived from ancenstral Mollusca as a result of all one of ___",
+            answers: [
+              { text: "head", correct: true },
+              { text: "foot", correct: false },
+              { text: "shell", correct: false }
+            ],
+            explanation: "The seven classes of Mollusca are derived based on the characteristics of the head."
+          },
+          {
+            question: "Reproduction in mollusca is sexual and ____",
+            answers: [
+              { text: "asexual", correct: true },
+              { text: "monoecious", correct: false },
+              { text: "dioecious", correct: false }
+            ],
+            explanation: "Reproduction in mollusks can be both sexual and asexual."
+          },
+          {
+            question: "The most primitive multicellular animals in the phylum is _____",
+            answers: [
+              { text: "sarcomastigation", correct: false },
+              { text: "Opicomplex", correct: false },
+              { text: "porifera", correct: true },
+              { text: "ciliophora", correct: false }
+            ],
+            explanation: "Sponges (phylum Porifera) are considered the most primitive multicellular animals."
+          },
+          {
+            question: "The biological status of an organism in relation to the community including feeding activities, nature of its enemy and infration with other is refer to as",
+            answers: [
+              { text: "Niche", correct: true },
+              { text: "community", correct: false },
+              { text: "Population", correct: false },
+              { text: "ecosystem", correct: false }
+            ],
+            explanation: "Niche refers to the role of an organism within its ecological community."
+          },
+          {
+            question: "____ is the larva stage if annelid that relating them to the Mollusca",
+            answers: [
+              { text: "Trocophore", correct: true },
+              { text: "zygosphere", correct: false },
+              { text: "sporophere", correct: false },
+              { text: "sporophll", correct: false }
+            ],
+            explanation: "Trocophore larva is a stage linking annelids and mollusks."
+          },
+          {
+            question: "Gnathostomata are vertebrate ____",
+            answers: [
+              { text: "without jaws", correct: false },
+              { text: "with jaws", correct: true },
+              { text: "without tongues", correct: false },
+              { text: "with tongue", correct: false }
+            ],
+            explanation: "Gnathostomata are vertebrates with jaws."
+          },
+          {
+            question: "Well developed stem, and root is for____",
+            answers: [
+              { text: "pteridophytes", correct: false },
+              { text: "thallophyte", correct: false },
+              { text: "spermatophyte", correct: true },
+              { text: "bryophyte", correct: false }
+            ],
+            explanation: "Plants with well-developed stems and roots belong to the spermatophytes (seed plants)."
+          },
+          {
+            question: "Animal in the Polyplacophora are commonly known as the ____",
+            answers: [
+              { text: "Snail", correct: false },
+              { text: "fruit", correct: false },
+              { text: "phoran", correct: false },
+              { text: "chitons", correct: true }
+            ],
+            explanation: "Animals in the Polyplacophora class are commonly known as chitons."
+          },
+          {
+            question: "Chiton generally have the ability to liver in _____",
+            answers: [
+              { text: "cold water only", correct: false },
+              { text: "warm water only", correct: false },
+              { text: "cold and warm water", correct: true }
+            ],
+            explanation: "Chitons can live in both cold and warm waters."
+          },
+          {
+            question: "Which of the following is an example of Agnathans?",
+            answers: [
+              { text: "Scallop", correct: false },
+              { text: "Lamprey", correct: true },
+              { text: "Agama lizard", correct: false },
+              { text: "Octopus", correct: false }
+            ],
+            explanation: "Lamprey is an example of Agnathans (jawless fish)."
+          },
+          {
+            question: "Which one of these is regards as the lowest plant",
+            answers: [
+              { text: "Thallophyte", correct: true },
+              { text: "Bryophyte", correct: false },
+              { text: "Pteridophyte", correct: false },
+              { text: "Spermatophyte", correct: false }
+            ],
+            explanation: "Thallophytes are considered the lowest plants."
+          },
+          {
+            question: "An example of filopodia is",
+            answers: [
+              { text: "Axopodia", correct: true },
+              { text: "Plystomella", correct: false },
+              { text: "Euglena", correct: false }
+            ],
+            explanation: "Axopodia are examples of filopodia."
+          },
+          {
+            question: "Pigment producing parasite is _____ that lives inside the body blood capsule",
+            answers: [
+              { text: "plasmodium", correct: true },
+              { text: "Amoeba", correct: false }
+            ],
+            explanation: "Plasmodium is a pigment-producing parasite that lives in the blood capsules of humans."
+          },
+          {
+            question: "Another re-organisation is found in",
+            answers: [
+              { text: "Autogamy", correct: true },
+              { text: "Oogamy", correct: false },
+              { text: "synagamy", correct: false }
+            ],
+            explanation: "Autogamy refers to self-fertilization."
+          },
+          {
+            question: "Annelids use _____ for excretion",
+            answers: [
+              { text: "flame cell", correct: false },
+              { text: "lung book", correct: false },
+              { text: "Malpighian tubule", correct: false },
+              { text: "Nephridia", correct: true }
+            ],
+            explanation: "Annelids use nephridia for excretion."
+          },
+          {
+            question: "Excretory product of reptile is",
+            answers: [
+              { text: "Tannin", correct: false },
+              { text: "Equamate", correct: false },
+              { text: "Crocodilians", correct: false },
+              { text: "Uric acid", correct: true }
+            ],
+            explanation: "Reptiles excrete uric acid as their excretory product."
+          },
+          {
+            question: "The fat soluble pigment parting responsible for flower found in the",
+            answers: [
+              { text: "Chromoplasts", correct: true },
+              { text: "Chloroplast", correct: false },
+              { text: "Fatty layer", correct: false },
+              { text: "vacuole of epidermic cell of petals", correct: false }
+            ],
+            explanation: "Chromoplasts are responsible for the fat-soluble pigment found in flowers."
+          },
+          {
+            question: "Endoskeleton in sponge is made of calcenious or ____",
+            answers: [
+              { text: "bone", correct: false },
+              { text: "Horny spicules", correct: true },
+              { text: "iron", correct: false },
+              { text: "none of the above", correct: false }
+            ],
+            explanation: "The endoskeleton in sponges is made of calcareous or horny spicules."
+          },
+          {
+            question: "Another name for food chain is ____",
+            answers: [
+              { text: "Food sequence", correct: false },
+              { text: "feeding sequence", correct: false },
+              { text: "Nutritional sequence", correct: true }
+            ],
+            explanation: "Another name for a food chain is a nutritional sequence."
+          },
+          {
+            question: "The following are classes of Platyhelminthes except",
+            answers: [
+              { text: "cestoda", correct: false },
+              { text: "monogenea", correct: false },
+              { text: "trematoda", correct: false },
+              { text: "sarcodina", correct: true }
+            ],
+            explanation: "Sarcodina is not a class of Platyhelminthes."
+          },
+          {
+            question: "Amoeba use _____ for locomotion",
+            answers: [
+              { text: "cilia", correct: false },
+              { text: "pseudopodia", correct: true },
+              { text: "flagella", correct: false }
+            ],
+            explanation: "Amoeba moves using pseudopodia."
+          },
+          {
+            question: "____ is a pigment produced parasite which lives in the blood capsules of man",
+            answers: [
+              { text: "Tick", correct: false },
+              { text: "Lice", correct: false },
+              { text: "Plasmodium", correct: true }
+            ],
+            explanation: "Plasmodium is a pigment-producing parasite that lives in human blood."
+          },
+          {
+            question: "The transition point between a sea and river is called",
+            answers: [
+              { text: "Hypolimniom", correct: false },
+              { text: "sediment", correct: false },
+              { text: "Estuary", correct: true },
+              { text: "Epinnium", correct: false }
+            ],
+            explanation: "An estuary is the transition zone between a river and the sea."
+          },
+          {
+            question: "In stratification \"A storey tree have height ranging from",
+            answers: [
+              { text: "50m – 70m", correct: false },
+              { text: "7m - 40m", correct: false },
+              { text: "40m – 50m", correct: true },
+              { text: "15m - 40m", correct: false }
+            ],
+            explanation: "A storey tree has a height ranging from 40m to 50m in stratification."
+          },
+          {
+            question: "Fresh water habitat include one of the following except",
+            answers: [
+              { text: "lake", correct: false },
+              { text: "pond", correct: false },
+              { text: "river", correct: false },
+              { text: "ocean", correct: true }
+            ],
+            explanation: "An ocean is not a freshwater habitat."
+          },
+          {
+            question: "The arrangement of leaves on stem is called",
+            answers: [
+              { text: "peltate", correct: false },
+              { text: "whorled", correct: false },
+              { text: "varication", correct: false },
+              { text: "phyllotaxy", correct: true }
+            ],
+            explanation: "The arrangement of leaves on a stem is called phyllotaxy."
+          },
+          
+
 
         
         // Add more questions for Biology until you have 30
@@ -2176,11 +5529,6 @@ const quizData = {
                 { text: "Propanol", correct: true }
             ],
             explanation: "Propanol has the highest boiling point among the given alcohols due to increased molecular weight and stronger intermolecular forces."
-        },
-        {
-            question: "Name the compound CH2=CHCH(CH3)CH2CH(OH)(CH2)2CH3",
-            answers: [],
-            explanation: "The compound is 5-methylhex-2-en-1-ol."
         },
         {
             question: "2,4,4-trimethylpent-1-ene is an example of an isomer of",
@@ -4054,7 +7402,1001 @@ const quizData = {
             ],
             explanation: "Starch is a common raw material used in the production of ethanol."
         },
-        
+        {
+          question: "Butanoic acid and ethyl ethanoate are isomers (a)True (b)none of the options (c)False (d)all of the options",
+          answers: [
+            { text: "True", correct: false },
+            { text: "None of the options", correct: false },
+            { text: "False", correct: true },
+            { text: "All of the options", correct: false }
+          ],
+          explanation: "Butanoic acid (CH3CH2CH2COOH) and ethyl ethanoate (CH3COOC2H5) are not isomers."
+        },
+        {
+          question: "The carbonyl group in aldehydes is ͟͟ ͟͟ ͟͟ (a)C=O (b)C-O (c)CHO (d)CO",
+          answers: [
+            { text: "C=O", correct: true },
+            { text: "C-O", correct: false },
+            { text: "CHO", correct: false },
+            { text: "CO", correct: false }
+          ],
+          explanation: "The carbonyl group in aldehydes is represented as C=O."
+        },
+        {
+          question: "Which of the following could exhibit optical isomerism? (a)𝐶𝐻2𝐶𝑙𝐹 (b)𝐶2𝐻6 (c)𝐶5𝐻12 (d)𝐶𝐻3𝐶(𝐶𝑙)(𝐵𝑟)𝐶𝐻𝑂",
+          answers: [
+            { text: "𝐶𝐻2𝐶𝑙𝐹", correct: false },
+            { text: "𝐶2𝐻6", correct: false },
+            { text: "𝐶5𝐻12", correct: true },
+            { text: "𝐶𝐻3𝐶(𝐶𝑙)(𝐵𝑟)𝐶𝐻𝑂", correct: false }
+          ],
+          explanation: "Optical isomerism requires a chiral center, typically found in compounds like pentane (𝐶5𝐻12) but not in the other options."
+        },
+        {
+          question: "Which of the following is used in the dehydration of ethanol to give ethene? (a)Conc.𝐻𝑁𝑂3 (b)𝐻2𝑆𝑂4 (c)Dil.𝐻𝑁𝑂3 (d)Conc.𝐻2𝑆𝑂4",
+          answers: [
+            { text: "Conc.𝐻𝑁𝑂3", correct: false },
+            { text: "𝐻2𝑆𝑂4", correct: true },
+            { text: "Dil.𝐻𝑁𝑂3", correct: false },
+            { text: "Conc.𝐻2𝑆𝑂4", correct: false }
+          ],
+          explanation: "Concentrated sulfuric acid (𝐻2𝑆𝑂4) is commonly used in the dehydration of ethanol to ethene."
+        },
+        {
+          question: "Which of the following compounds shows geometrical isomerism (a)2-methyl-2-butene (b)Ethene-2-pentene (c)1,2-dichloropropane",
+          answers: [
+            { text: "2-methyl-2-butene", correct: true },
+            { text: "Ethene-2-pentene", correct: false },
+            { text: "1,2-dichloropropane", correct: false }
+          ],
+          explanation: "2-Methyl-2-butene exhibits geometrical isomerism due to the presence of a double bond with different groups attached."
+        },
+        {
+          question: "Aldehydes undergo oxidation with 𝐾𝑀𝑛𝑂4 in the presence of a mineral acid to form ͟͟ ͟͟ (a)Carboxylic acid (b)ketones (c)alcohol (d)acetals",
+          answers: [
+            { text: "Carboxylic acid", correct: true },
+            { text: "Ketones", correct: false },
+            { text: "Alcohol", correct: false },
+            { text: "Acetals", correct: false }
+          ],
+          explanation: "Aldehydes are oxidized by potassium permanganate (𝐾𝑀𝑛𝑂4) to form carboxylic acids."
+        },
+        {
+          question: "The conversion of pent-1-ene to pent-2-ene when heated at a high temperature is an example of (a)Replacement reaction (b)Isomerization reaction (c)Elimination reaction (d)Addition reaction",
+          answers: [
+            { text: "Replacement reaction", correct: false },
+            { text: "Isomerization reaction", correct: true },
+            { text: "Elimination reaction", correct: false },
+            { text: "Addition reaction", correct: false }
+          ],
+          explanation: "Heating pent-1-ene to form pent-2-ene involves rearranging the atoms within the molecule, which is an example of isomerization."
+        },
+        {
+          question: "The main factor that determines the order of boiling points of isomeric alcohols is (a)Molecular weight (b)Solubility in water (c)Halogen bonding (d)Hydrogen bonding",
+          answers: [
+            { text: "Molecular weight", correct: false },
+            { text: "Solubility in water", correct: false },
+            { text: "Halogen bonding", correct: false },
+            { text: "Hydrogen bonding", correct: true }
+          ],
+          explanation: "Hydrogen bonding between isomeric alcohols significantly affects their boiling points."
+        },
+        {
+          question: "Aldehydes can be distinguished from ketones by using (a)Phenylhydrazine (b)Saturated 𝑁𝑎𝐻𝑆𝑂3 solution (c)Ammoniacal 𝐴𝑔𝑁𝑂3 solution (d)Thionyl chloride",
+          answers: [
+            { text: "Phenylhydrazine", correct: true },
+            { text: "Saturated 𝑁𝑎𝐻𝑆𝑂3 solution", correct: false },
+            { text: "Ammoniacal 𝐴𝑔𝑁𝑂3 solution", correct: false },
+            { text: "Thionyl chloride", correct: false }
+          ],
+          explanation: "Aldehydes react with phenylhydrazine to form hydrazones, which can be used to distinguish them from ketones."
+        },
+        {
+          question: "The process of converting large alkanes to smaller ones, alkenes and hydrogen is called ͟͟ ͟͟ (a)Thermal cracking (b)Nitration (c)Isomerization (d)Knocking",
+          answers: [
+            { text: "Thermal cracking", correct: true },
+            { text: "Nitration", correct: false },
+            { text: "Isomerization", correct: false },
+            { text: "Knocking", correct: false }
+          ],
+          explanation: "Thermal cracking is the process of breaking down large hydrocarbons into smaller ones, including alkenes and hydrogen."
+        },
+        {
+          question: "A hydrocarbon is made up of 90% carbon. The empirical formula of the hydrocarbon is ͟͟ ͟͟ (a) 𝐶3𝐻4 (b) CH (c) 𝐶𝐻2 (d) 𝐶3𝐻6",
+          answers: [
+            { text: "𝐶3𝐻4", correct: false },
+            { text: "CH", correct: true },
+            { text: "𝐶𝐻2", correct: false },
+            { text: "𝐶3𝐻6", correct: false }
+          ],
+          explanation: "The empirical formula of a hydrocarbon that is 90% carbon would be CH."
+        },
+        {
+          question: "The carbon-carbon triple bond in the ethyne molecule consists of ͟͟ ͟͟ ͟͟ ͟͟ ͟͟",
+          answers: [
+            { text: "One sigma bond and two pi bonds", correct: true },
+            { text: "Two sigma bonds and one pi bond", correct: false },
+            { text: "Three sigma bonds", correct: false },
+            { text: "Two pi bonds", correct: false }
+          ],
+          explanation: "The triple bond in ethyne (acetylene) consists of one sigma bond and two pi bonds."
+        },
+        {
+          question: "Which hybridization of carbon has the lowest percentage of s character?",
+          answers: [
+            { text: "sp3", correct: true },
+            { text: "sp2", correct: false },
+            { text: "sp", correct: false },
+            { text: "sp3d", correct: false }
+          ],
+          explanation: "sp3 hybridized carbon has 25% s character, which is the lowest among the listed options."
+        },
+        {
+          question: "The hybridization present in alkene is",
+          answers: [
+            { text: "sp2", correct: true },
+            { text: "sp3", correct: false },
+            { text: "sp", correct: false },
+            { text: "sp3d", correct: false }
+          ],
+          explanation: "Alkenes have sp2 hybridization due to the presence of a double bond between carbon atoms."
+        },
+        {
+          question: "Which of the following has the highest boiling point?",
+          answers: [
+            { text: "2-pentanone", correct: false },
+            { text: "2-hexanone", correct: true },
+            { text: "Butanone", correct: false },
+            { text: "Propanone", correct: false }
+          ],
+          explanation: "2-Hexanone has the highest boiling point among the listed ketones due to its larger molecular size."
+        },
+        {
+          question: "Sigma bonds result from",
+          answers: [
+            { text: "End-to-end overlap of atomic orbitals", correct: true },
+            { text: "Side-to-side overlap of atomic orbitals", correct: false },
+            { text: "Overlap of p orbitals", correct: false },
+            { text: "Overlap of d orbitals", correct: false }
+          ],
+          explanation: "Sigma bonds result from end-to-end overlap of atomic orbitals."
+        },
+        {
+          question: "Ketones are prepared by the oxidation of",
+          answers: [
+            { text: "Alcohols", correct: true },
+            { text: "Aldehydes", correct: false },
+            { text: "Hydrocarbons", correct: false },
+            { text: "Ethers", correct: false }
+          ],
+          explanation: "Ketones can be prepared by the oxidation of secondary alcohols."
+        },
+        {
+          question: "How many unsaturated isomers are possible for 𝐶4𝐻8?",
+          answers: [
+            { text: "5", correct: true },
+            { text: "6", correct: false },
+            { text: "4", correct: false },
+            { text: "3", correct: false }
+          ],
+          explanation: "There are 5 unsaturated isomers possible for 𝐶4𝐻8."
+        },
+        {
+          question: "Which of the following will have the highest boiling point?",
+          answers: [
+            { text: "Ethanal", correct: false },
+            { text: "Butanal", correct: false },
+            { text: "Methanal", correct: false },
+            { text: "Propanal", correct: true }
+          ],
+          explanation: "Propanal (CH3CH2CHO) has the highest boiling point among the listed aldehydes."
+        },
+        {
+          question: "How many carbon atoms are present in a molecule of 2-methylpentane?",
+          answers: [
+            { text: "3", correct: false },
+            { text: "4", correct: false },
+            { text: "5", correct: true },
+            { text: "6", correct: false }
+          ],
+          explanation: "2-Methylpentane has 5 carbon atoms."
+        },
+        {
+          question: "How many moles of oxygen will be needed to complete combustion of butane?",
+          answers: [
+            { text: "6", correct: false },
+            { text: "5", correct: false },
+            { text: "4", correct: true },
+            { text: "6.5", correct: false }
+          ],
+          explanation: "The combustion of butane (C4H10) follows the equation: 2C4H10 + 13O2 → 8CO2 + 10H2O. From this equation, 13 moles of O2 are required to completely combust 2 moles of butane. Therefore, to combust 1 mole of butane, 13/2 = 6.5 moles of O2 are needed. For 2 moles of butane (which is C4H10), 2 * 6.5 = 13 moles of O2 are required. Hence, for 1 mole of butane, 6.5 moles of O2 are needed."
+        },
+        {
+          question: "When ketones react with a Grignard reagent and the complex hydrolyzed, the product is",
+          answers: [
+            { text: "Primary alcohol", correct: false },
+            { text: "Tertiary alcohol", correct: false },
+            { text: "Dihydric alcohol", correct: false },
+            { text: "Secondary alcohol", correct: true }
+          ],
+          explanation: "Ketones react with Grignard reagents (RMgX) to form a complex, which upon hydrolysis yields a secondary alcohol."
+        },
+        {
+          question: "The simplest formula of a compound which expresses its percentage composition is",
+          answers: [
+            { text: "Empirical formula", correct: true },
+            { text: "Chemical formula", correct: false },
+            { text: "Molecular formula", correct: false },
+            { text: "General formula", correct: false }
+          ],
+          explanation: "The empirical formula of a compound gives the simplest whole-number ratio of atoms of each element present in the compound."
+        },
+        {
+          question: "The number of structural isomers of saturated monohydric alcohol with molecular formula C4H9OH is",
+          answers: [
+            { text: "4", correct: true },
+            { text: "3", correct: false },
+            { text: "5", correct: false },
+            { text: "5", correct: false }
+          ],
+          explanation: "For C4H9OH (saturated monohydric alcohol), the structural isomers are: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, and 2-methylpropan-2-ol, totaling 4 isomers."
+        },
+        {
+          question: "Which reaction best accounts for the solubility of aldehydes?",
+          answers: [
+            { text: "Hydrogen bonding between solute and solvent", correct: true },
+            { text: "Hydrogen bonding between solute molecules", correct: false },
+            { text: "Van der Waals forces", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "Aldehydes exhibit solubility due to hydrogen bonding between the carbonyl oxygen and solvent molecules."
+        },
+        {
+          question: "Name this compound CH3CH2CH2CHO",
+          answers: [
+            { text: "Propanal", correct: true },
+            { text: "Propanone", correct: false },
+            { text: "Ethanal", correct: false },
+            { text: "Butanal", correct: false }
+          ],
+          explanation: "The compound CH3CH2CH2CHO is propanal."
+        },
+        {
+          question: "The IUPAC name of isopropyl alcohol is",
+          answers: [
+            { text: "2-methylpropan-2-ol", correct: true },
+            { text: "Propan-1-ol", correct: false },
+            { text: "Propan-2-ol", correct: false },
+            { text: "2-methylpropan-1-ol", correct: false }
+          ],
+          explanation: "The IUPAC name of isopropyl alcohol is 2-methylpropan-2-ol."
+        },
+        {
+          question: "Reduction of aldehydes and ketones gives",
+          answers: [
+            { text: "Primary and secondary alcohol", correct: false },
+            { text: "Secondary and tertiary alcohol", correct: false },
+            { text: "Primary and secondary alcohol", correct: true },
+            { text: "Primary and tertiary alcohol", correct: false }
+          ],
+          explanation: "Aldehydes are reduced to primary alcohols, and ketones are reduced to secondary alcohols."
+        },
+        {
+          question: "Ketones are prepared from",
+          answers: [
+            { text: "Oxidation of secondary alcohol", correct: true },
+            { text: "Reduction of acid halides with alcohol", correct: false },
+            { text: "Oxidation of primary alkanol", correct: false },
+            { text: "Hydrolysis of ester", correct: false }
+          ],
+          explanation: "Ketones can be prepared from the oxidation of secondary alcohols."
+        },
+        {
+          question: "The process of converting large alkanes to smaller ones, alkenes and H2 is",
+          answers: [
+            { text: "Nitration", correct: false },
+            { text: "Isomerization", correct: false },
+            { text: "Thermal cracking", correct: true },
+            { text: "Knocking", correct: false }
+          ],
+          explanation: "Thermal cracking is the process of breaking down large alkanes into smaller ones, alkenes, and hydrogen."
+        },
+        {
+          question: "A compound has the following percentage composition: 52.17% carbon, 13.04% hydrogen, and the remainder oxygen. The number of hydrogen atoms in the empirical formula is",
+          answers: [
+            { text: "3", correct: true },
+            { text: "6", correct: false },
+            { text: "4", correct: false },
+            { text: "5", correct: false }
+          ],
+          explanation: "To find the empirical formula, assume we have 100 g of the compound. Then, we have 52.17 g C, 13.04 g H, and the rest is oxygen. Convert grams to moles: C = 52.17 / 12.01 ≈ 4.34 moles, H = 13.04 / 1.01 ≈ 12.92 moles. Divide by the smallest number of moles (which is C) to get the empirical formula: C4H3. Multiply to get whole numbers: C4H3 × 3 = C12H9, which gives us 9 H atoms."
+        },
+        {
+          question: "When propene completely reacts with chlorine, the name of the product formed is",
+          answers: [
+            { text: "1,2-dichloropropane", correct: false },
+            { text: "2,2-dichloropropane", correct: true },
+            { text: "Dichloropropane", correct: false },
+            { text: "1-chloropropane", correct: false }
+          ],
+          explanation: "When propene (C3H6) reacts with chlorine, 2,2-dichloropropane is formed."
+        },
+        {
+          question: "Which of the following hybridizations has the lowest percentage of 's' character?",
+          answers: [
+            { text: "sp", correct: true },
+            { text: "sp2", correct: false },
+            { text: "sp3", correct: false },
+            { text: "All of the above", correct: false }
+          ],
+          explanation: "sp hybridization has 50% s character, which is lower than sp2 (33.33%) and sp3 (25%)."
+        },
+        {
+          question: "Bromination of ethane is done in the presence of",
+          answers: [
+            { text: "AlCl3", correct: false },
+            { text: "AlBr3", correct: false },
+            { text: "CCl4", correct: false },
+            { text: "HBr", correct: true }
+          ],
+          explanation: "Bromination of ethane is carried out using HBr (hydrobromic acid)."
+        },
+        {
+          question: "The general formula for alkanones is",
+          answers: [
+            { text: "RCOOH", correct: false },
+            { text: "RCOOR", correct: false },
+            { text: "R2CO", correct: false },
+            { text: "RCHO", correct: true }
+          ],
+          explanation: "Alkanones have the general formula R2CO, where R can be any alkyl group."
+        },
+        {
+          question: "Compounds with the same molecular formula but differ in the position of a functional group on the carbon chain are",
+          answers: [
+            { text: "Chain isomers", correct: false },
+            { text: "Tactomers", correct: false },
+            { text: "Positional isomers", correct: true },
+            { text: "Functional group isomers", correct: false }
+          ],
+          explanation: "Positional isomers have the same molecular formula but differ in the position of functional groups on the carbon chain."
+        },
+        {
+          question: "Reduction of ethanal with H2/Ni gives",
+          answers: [
+            { text: "Ethanone", correct: false },
+            { text: "Ethanol", correct: true },
+            { text: "Ethane", correct: false },
+            { text: "Ethanoic acid", correct: false }
+          ],
+          explanation: "Ethanal (CH3CHO) is reduced by H2/Ni to give ethanol (CH3CH2OH)."
+        },
+        {
+          question: "Butan-2-ol and butanal are",
+          answers: [
+            { text: "Geometric isomers", correct: false },
+            { text: "Chain isomers", correct: true },
+            { text: "Functional group isomers", correct: false },
+            { text: "Positional isomers", correct: false }
+          ],
+          explanation: "Butan-2-ol (CH3CH2CH(OH)CH3) and butanal (CH3CH2CH2CHO) are chain isomers."
+        },
+        {
+          question: "Which of these structures represents 3-ethyl-2-methylpentanal?",
+          answers: [
+            { text: "CH3(CH2)2CHCH(C2H5)COH", correct: true },
+            { text: "CH3CH2CH2CH(C2H3)CH(C2H5)COH", correct: false },
+            { text: "CH3(CH3)2CH(CH2)CH2CH(C2H5)OH", correct: false },
+            { text: "CH3CH2CH(CH2CH2)2CH(C2H5)OH", correct: false }
+          ],
+          explanation: "3-Ethyl-2-methylpentanal has the structure CH3(CH2)2CHCH(C2H5)COH."
+        },
+        {
+          question: "Butanoic acid and ethyl ethanoate are isomers",
+          answers: [
+            { text: "True", correct: true },
+            { text: "False", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "Butanoic acid (CH3CH2CH2COOH) and ethyl ethanoate (CH3COOC2H5) are structural isomers."
+        },
+        {
+          question: "The bond angle in C2H4 is",
+          answers: [
+            { text: "120°", correct: false },
+            { text: "90°", correct: false },
+            { text: "109.28°", correct: true },
+            { text: "180°", correct: false }
+          ],
+          explanation: "The bond angle in ethene (C2H4) is approximately 109.5° due to sp2 hybridization."
+        },
+        {
+          question: "Alkenes are generally",
+          answers: [
+            { text: "sp2", correct: true },
+            { text: "sp", correct: false },
+            { text: "s", correct: false },
+            { text: "sp3", correct: false }
+          ],
+          explanation: "Alkenes are generally sp2 hybridized due to the presence of a double bond."
+        },
+        {
+          question: "Which of the following effects is due to the size and shapes of molecules?",
+          answers: [
+            { text: "Steric", correct: true },
+            { text: "Electronic", correct: false },
+            { text: "Resonance", correct: false },
+            { text: "Inductive", correct: false }
+          ],
+          explanation: "Steric effects refer to the hindrance caused by the size and shape of molecules."
+        },
+        {
+          question: "The reaction of an alkyne with sodium in liquid ammonia yields",
+          answers: [
+            { text: "Basic oxide", correct: false },
+            { text: "Trans alkene", correct: false },
+            { text: "Acidic salt", correct: false },
+            { text: "Basic salt", correct: true }
+          ],
+          explanation: "The reaction of an alkyne with sodium in liquid ammonia (Sodamide) yields a basic salt."
+        },
+        {
+          question: "Sigma and pi bonds in alkyne are",
+          answers: [
+            { text: "2,1", correct: false },
+            { text: "3,1", correct: true },
+            { text: "1,3", correct: false },
+            { text: "1,2", correct: false }
+          ],
+          explanation: "In an alkyne, there are 3 sigma bonds and 1 pi bond between the carbon atoms."
+        },
+        {
+          question: "3-Methylbutan-2-ol and 2-methylbutanol are examples of",
+          answers: [
+            { text: "Chain isomers", correct: true },
+            { text: "Geometric isomers", correct: false },
+            { text: "Functional group isomers", correct: false },
+            { text: "Positional isomers", correct: false }
+          ],
+          explanation: "3-Methylbutan-2-ol and 2-methylbutanol are chain isomers."
+        },
+        {
+          question: "Which of the following has the highest boiling point?",
+          answers: [
+            { text: "Propane", correct: false },
+            { text: "Pentane", correct: true },
+            { text: "Methane", correct: false },
+            { text: "Ethane", correct: false }
+          ],
+          explanation: "Pentane (C5H12) has the highest boiling point among the listed compounds."
+        },
+        {
+          question: "Butanal is an example of",
+          answers: [
+            { text: "Geometric isomers", correct: false },
+            { text: "Chain isomers", correct: true },
+            { text: "Functional group isomers", correct: false },
+            { text: "Positional isomers", correct: false }
+          ],
+          explanation: "Butanal (CH3CH2CH2CHO) is an example of chain isomers."
+        },
+        {
+          question: "A hydrazone will result from the reaction of hydrazine with",
+          answers: [
+            { text: "Phenol", correct: false },
+            { text: "Alcohol", correct: true },
+            { text: "Acid", correct: false },
+            { text: "Aldehyde", correct: false }
+          ],
+          explanation: "Hydrazones are formed by the reaction of hydrazine with aldehydes or ketones."
+        },
+        {
+          question: "Which of the following has the highest solubility?",
+          answers: [
+            { text: "CH3OH", correct: false },
+            { text: "CH3CH2CH2OH", correct: false },
+            { text: "CH3CH2OH", correct: true },
+            { text: "CH3CH2CH2CH2OH", correct: false }
+          ],
+          explanation: "Among the given alcohols, ethanol (CH3CH2OH) has the highest solubility in water due to its ability to form hydrogen bonds with water molecules."
+        },
+        {
+          question: "The reduction of ketones gives",
+          answers: [
+            { text: "Primary alcohol", correct: false },
+            { text: "Secondary alcohol", correct: true },
+            { text: "Carboxyl acid", correct: false },
+            { text: "Ketal", correct: false }
+          ],
+          explanation: "Ketones, upon reduction, typically give secondary alcohols."
+        },
+        {
+          question: "The Fehling solution of Cu2+ reduced to reddish Cu+ is a confirmation of",
+          answers: [
+            { text: "Alcohol", correct: false },
+            { text: "Ketone", correct: false },
+            { text: "Aldehyde", correct: true },
+            { text: "Carboxyl", correct: false }
+          ],
+          explanation: "The reduction of Fehling's solution to form a reddish precipitate of Cu+ confirms the presence of an aldehyde."
+        },
+        {
+          question: "Which of the following does not represent the saturated monohydric alcohol?",
+          answers: [
+            { text: "CnH2n+2OH", correct: false },
+            { text: "CnH2n-1OH", correct: true },
+            { text: "CnH2n-2OH", correct: false },
+            { text: "ROH", correct: false }
+          ],
+          explanation: "The formula CnH2n-1OH does not represent a saturated monohydric alcohol."
+        },
+        {
+          question: "The intermediate product of reaction between propane and H2SO4 is",
+          answers: [
+            { text: "CH3CH2OSO3H", correct: false },
+            { text: "CH3CH2CH2SO3H", correct: false },
+            { text: "CH2(SO3H)CH2CH3", correct: false },
+            { text: "CH3CH(SO3H)CH3", correct: true }
+          ],
+          explanation: "The intermediate product formed during the reaction of propane with sulfuric acid (H2SO4) is CH3CH(SO3H)CH3."
+        },
+        {
+          question: "Isomerisation of alkane occurs at",
+          answers: [
+            { text: "HCl/300°C", correct: false },
+            { text: "CCl4/300°C", correct: false },
+            { text: "AlCl3/300°C", correct: true },
+            { text: "SO3/300°C", correct: false }
+          ],
+          explanation: "Isomerisation of alkanes typically occurs in the presence of AlCl3 catalyst at elevated temperatures."
+        },
+        {
+          question: "Which of the following has the highest boiling point?",
+          answers: [
+            { text: "CH3OH", correct: false },
+            { text: "CH3CH2CH2OH", correct: false },
+            { text: "CH3CH2OH", correct: true },
+            { text: "CH3CH2CH2CH2OH", correct: false }
+          ],
+          explanation: "Ethanol (CH3CH2OH) has the highest boiling point among the listed alcohols due to its larger size and stronger intermolecular forces."
+        },
+        {
+          question: "2-methylpentane and 2,2-dimethylbutene are isomeric with the following except",
+          answers: [
+            { text: "3-methyl pentane", correct: false },
+            { text: "2,3-dimethylbutane", correct: false },
+            { text: "2-methylhexane", correct: false },
+            { text: "hexane", correct: true }
+          ],
+          explanation: "Hexane is not an isomer of 2-methylpentane or 2,2-dimethylbutene."
+        },
+        {
+          question: "The differences in the properties of isomers is due to",
+          answers: [
+            { text: "Different chemical properties", correct: false },
+            { text: "Different functional groups", correct: false },
+            { text: "Different structural formulae", correct: false },
+            { text: "Different arrangement of atoms", correct: true }
+          ],
+          explanation: "Isomers differ primarily due to their different arrangement of atoms while having the same molecular formula."
+        },
+        {
+          question: "The presence of silver mirror in Tollen’s test indicates the presence of",
+          answers: [
+            { text: "Ketone", correct: false },
+            { text: "Alcohol", correct: true },
+            { text: "Aldehyde", correct: false },
+            { text: "Alkene", correct: false }
+          ],
+          explanation: "A silver mirror formed in Tollen's test confirms the presence of an alcohol."
+        },
+        {
+          question: "Which will react with Tollen’s reagent?",
+          answers: [
+            { text: "Alcohol", correct: true },
+            { text: "Alkanal", correct: false },
+            { text: "Alkanone", correct: false },
+            { text: "Alkanoate", correct: false }
+          ],
+          explanation: "Tollen's reagent reacts with alcohols to produce a silver mirror."
+        },
+        {
+          question: "One of the products of combustion of pentane in excess air is",
+          answers: [
+            { text: "Pentanol", correct: false },
+            { text: "Pentanal", correct: false },
+            { text: "Pentene", correct: false },
+            { text: "Carbon dioxide", correct: true }
+          ],
+          explanation: "Combustion of pentane in excess air produces carbon dioxide (CO2) as one of the products."
+        },
+        {
+          question: "The IUPAC name of CH3CH(CH3)CH(OH)CH3CH3 is",
+          answers: [
+            { text: "1-methyl but-2-ol", correct: false },
+            { text: "All is correct", correct: false },
+            { text: "3-methyl butanol", correct: false },
+            { text: "3-methylbutan-2-ol", correct: true }
+          ],
+          explanation: "The correct IUPAC name for the given structure is 3-methylbutan-2-ol."
+        },
+        {
+          question: "Sigma bond results from",
+          answers: [
+            { text: "Parallel overlapping of orbital", correct: false },
+            { text: "When the bond makes a pi", correct: false },
+            { text: "Direct overlapping of orbital", correct: true },
+            { text: "None of the above", correct: false }
+          ],
+          explanation: "A sigma bond results from the direct overlap of atomic orbitals along the bond axis."
+        },
+        {
+          question: "One of these is not a secondary alcohol",
+          answers: [
+            { text: "3-methylpent-3-ol", correct: false },
+            { text: "3-methylpent-2-ol", correct: false },
+            { text: "2-methylpent-3-ol", correct: true },
+            { text: "Hexan-2-ol", correct: false }
+          ],
+          explanation: "2-methylpent-3-ol is not a secondary alcohol; it's a tertiary alcohol."
+        },
+        {
+          question: "The reaction between C2H2 and HBr is called",
+          answers: [
+            { text: "Ammoniacal silver nitrate", correct: false },
+            { text: "Ammonia silver concentration", correct: false },
+            { text: "Bromine water", correct: true },
+            { text: "KMnO4", correct: false }
+          ],
+          explanation: "The reaction between acetylene (C2H2) and HBr is known as bromination."
+        },
+        {
+          question: "Ketones are prepared by the oxidation of",
+          answers: [
+            { text: "Tertiary alkanol", correct: false },
+            { text: "Monohydric alkanol", correct: false },
+            { text: "Primary alkanol", correct: false },
+            { text: "Secondary alkanol", correct: true }
+          ],
+          explanation: "Ketones are typically prepared by the oxidation of secondary alcohols."
+        },
+        {
+          question: "Propanal and propanone are examples of",
+          answers: [
+            { text: "Optical isomerism", correct: false },
+            { text: "Geometric isomerism", correct: false },
+            { text: "Positional isomerism", correct: false },
+            { text: "Functional isomerism", correct: true }
+          ],
+          explanation: "Propanal and propanone are functional isomers, differing in the position of the carbonyl group."
+        },
+        {
+          question: "Alcohols have a higher boiling point than expected from their molecular weight because",
+          answers: [
+            { text: "Hydrogen bond must be broken in the process of volatization", correct: false },
+            { text: "Ionic forces are very strong in alcohol molecules", correct: false },
+            { text: "Covalent bonds are very strong in alcohol molecules", correct: false },
+            { text: "Van der Waals forces of attraction are strong in alcohol molecules", correct: true }
+          ],
+          explanation: "Alcohols have higher boiling points due to the presence of hydrogen bonding and stronger van der Waals forces."
+        },
+        {
+          question: "Any species that contain unpaired electron is called",
+          answers: [
+            { text: "Anion", correct: false },
+            { text: "Ionic", correct: false },
+            { text: "Free radical", correct: true },
+            { text: "Cation", correct: false }
+          ],
+          explanation: "A species with an unpaired electron is termed a free radical."
+        },
+        {
+          question: "The number of saturated monohydric alcohol with molecular formula C4H9OH is",
+          answers: [
+            { text: "4", correct: false },
+            { text: "3", correct: true },
+            { text: "5", correct: false },
+            { text: "6", correct: false }
+          ],
+          explanation: "There are three saturated monohydric alcohols with the molecular formula C4H9OH."
+        },
+        {
+          question: "Isomers of a substance must have",
+          answers: [
+            { text: "Same structural formula", correct: true },
+            { text: "Same molecular weight", correct: false },
+            { text: "Same chemical properties", correct: false },
+            { text: "Same functional group", correct: false }
+          ],
+          explanation: "Isomers of a substance must have the same molecular formula but different structural formulae."
+        },
+        {
+          question: "The intermediate product of the reaction between propene and H2SO4 is",
+          answers: [
+            { text: "CH3CH2OSO3H", correct: false },
+            { text: "CH3CH2CH2SO3H", correct: false },
+            { text: "CH2(SO3H)CH2CH3", correct: false },
+            { text: "CH3CH(SO3H)CH3", correct: true }
+          ],
+          explanation: "The reaction of propene with sulfuric acid (H2SO4) produces CH3CH(SO3H)CH3 as an intermediate product."
+        },
+        {
+          question: "Which of the following show geometrical isomerism?",
+          answers: [
+            { text: "Ethane", correct: false },
+            { text: "1,2-dichloropropane", correct: true },
+            { text: "2-pentanone", correct: false },
+            { text: "2-methyl-2-butene", correct: false }
+          ],
+          explanation: "1,2-Dichloropropane exhibits geometrical isomerism due to the restricted rotation around the C-C bond."
+        },
+        {
+          question: "Which of the following has the highest boiling point?",
+          answers: [
+            { text: "2-hexanone", correct: true },
+            { text: "Butanone", correct: false },
+            { text: "Propanone", correct: false },
+            { text: "2-pentanone", correct: false }
+          ],
+          explanation: "2-hexanone has the highest boiling point among the given ketones due to its larger molecular size and increased van der Waals forces."
+        },
+        {
+          question: "What is the IUPAC name of (𝐶𝐻3)2𝐶𝐻𝐶𝐻2𝐶𝐻(𝐶𝐻3)𝐶𝐻2𝐶𝐻3?",
+          answers: [
+            { text: "2-methyl-4-ethylpentane", correct: false },
+            { text: "2-ethyl-4-methylpentane", correct: true },
+            { text: "Octane", correct: false },
+            { text: "2,4-dimethylhexane", correct: false }
+          ],
+          explanation: "The correct IUPAC name for the given structure is 2-ethyl-4-methylpentane."
+        },
+        {
+          question: "The main factors that determine the order of boiling points of isomeric alcohol",
+          answers: [
+            { text: "Molecular weight", correct: false },
+            { text: "Solubility in water", correct: false },
+            { text: "Hydrogen bonding", correct: true },
+            { text: "Halogen bonding", correct: false }
+          ],
+          explanation: "The order of boiling points of isomeric alcohols is primarily determined by their ability to form hydrogen bonds with each other."
+        },
+        {
+          question: "The condensed formula of 3-methylbutan-2-ol is",
+          answers: [
+            { text: "𝐶𝐻3𝐶𝐻2𝐶𝐻2𝐶𝐻(𝐶𝐻3)𝐶𝐻𝑂", correct: false },
+            { text: "𝐶𝐻3𝐶𝐻𝑂𝐻𝐶𝐻2𝐶𝐻2𝐶𝐻3", correct: false },
+            { text: "𝐶𝐻3𝐶𝐻(𝐶𝐻3)𝐶𝑂𝐶𝐻3", correct: false },
+            { text: "(𝐶𝐻3)2𝐶𝐻𝐶𝑂𝐶𝐻3", correct: true }
+          ],
+          explanation: "The condensed formula of 3-methylbutan-2-ol is (𝐶𝐻3)2𝐶𝐻𝐶𝑂𝐶𝐻3."
+        },
+        {
+          question: "Which of the following represent 5-bromopent-2-yne",
+          answers: [
+            { text: "𝐵𝑟𝐶𝐻2𝐶𝐻2 ≡ 𝐶𝐶𝐻3", correct: false },
+            { text: "𝐶𝐻3𝐶𝐻2𝐶 ≡ 𝐶𝐶𝐻𝐵𝑟", correct: false },
+            { text: "𝐵𝑟𝐶𝐻2𝐶𝐻(𝐵𝑟)𝐶 ≡ 𝐶𝐶𝐻3", correct: true },
+            { text: "𝐶𝐻3𝐶𝐻(𝐵𝑟)𝐶 ≡ 𝐶𝐶𝐻3", correct: false }
+          ],
+          explanation: "The structure 5-bromopent-2-yne is represented as 𝐵𝑟𝐶𝐻2𝐶𝐻(𝐵𝑟)𝐶 ≡ 𝐶𝐶𝐻3."
+        },
+        {
+          question: "What type of isomerism is in 𝐶𝐻3𝐶𝑂𝐶𝐻3",
+          answers: [
+            { text: "Geometrical isomerism", correct: false },
+            { text: "Positional isomerism", correct: false },
+            { text: "Functional group isomerism", correct: false },
+            { text: "Optical isomerism", correct: true }
+          ],
+          explanation: "𝐶𝐻3𝐶𝑂𝐶𝐻3 exhibits optical isomerism."
+        },
+        {
+          question: "The product of combustion of pentane in excess air is",
+          answers: [
+            { text: "𝐶𝑂2", correct: true },
+            { text: "Pentene", correct: false },
+            { text: "Pentanol", correct: false },
+            { text: "Pentanoic acid", correct: false }
+          ],
+          explanation: "Combustion of pentane in excess air produces carbon dioxide (𝐶𝑂2) as a product."
+        },
+        {
+          question: "Quantitative analysis show that the empirical formula of a compound is 𝐶𝐻 and the vapour density is 39, find the empirical formula",
+          answers: [
+            { text: "𝐶2𝐻2", correct: false },
+            { text: "𝐶6𝐻6", correct: true },
+            { text: "𝐶6𝐻12", correct: false },
+            { text: "𝐶2𝐻6", correct: false }
+          ],
+          explanation: "Given the vapour density of 39, the empirical formula of the compound is 𝐶6𝐻6."
+        },
+        {
+          question: "͟͟ ͟͟ ͟͟ is used in dry cleaning",
+          answers: [
+            { text: "𝐶𝐻3𝐶𝑙3", correct: true },
+            { text: "𝐶𝐶𝑙4", correct: false },
+            { text: "𝐶𝐻2𝐶𝑙2", correct: false },
+            { text: "𝐶𝐻3𝐶𝑙", correct: false }
+          ],
+          explanation: "𝐶𝐻3𝐶𝑙3 (perchloroethylene) is commonly used in dry cleaning."
+        },
+        {
+          question: "Alkenes show geometrical isomerism due to",
+          answers: [
+            { text: "Resonance", correct: false },
+            { text: "Rotation around single bond", correct: false },
+            { text: "Restricted rotation around a double bond", correct: true },
+            { text: "Asymmetry", correct: false }
+          ],
+          explanation: "Geometrical isomerism in alkenes arises due to restricted rotation around the carbon-carbon double bond."
+        },
+        {
+          question: "Which of these compounds will ͟͟ reduce ͟͟ Fehling’s ͟͟ solution?",
+          answers: [
+            { text: "𝐶𝐻3𝐶𝐻𝑂", correct: true },
+            { text: "𝐶𝐻3𝐶𝐻(𝑂𝐻)𝐶𝐻3", correct: false },
+            { text: "(𝐶𝐻3)2𝐶𝑂", correct: false },
+            { text: "𝐶𝐻3𝐶𝐻2𝐶𝐻2𝐶𝐻2𝑂𝐻", correct: false }
+          ],
+          explanation: "Alcohol (𝐶𝐻3𝐶𝐻𝑂) can reduce Fehling's solution."
+        },
+        {
+          question: "A hydrocarbon X which decolourize bromine water has no action on ammoniacal silver trioxonitrate(v) solution was found to have a molar mass 56𝑔𝑚𝑜𝑙−1. Which one of the following is the molecular formula of X?",
+          answers: [
+            { text: "None", correct: false },
+            { text: "𝐶4𝐻8", correct: true },
+            { text: "𝐶3𝐻6", correct: false },
+            { text: "𝐶4𝐻8", correct: false }
+          ],
+          explanation: "The molecular formula of X, given a molar mass of 56 g/mol and properties described, is 𝐶4𝐻8."
+        },
+        {
+          question: "How many structural isomerism is there in 𝐶2𝐻4𝑂𝐻?",
+          answers: [
+            { text: "2", correct: false },
+            { text: "4", correct: true },
+            { text: "6", correct: false },
+            { text: "3", correct: false }
+          ],
+          explanation: "𝐶2𝐻4𝑂𝐻 has 4 structural isomers."
+        },
+        {
+          question: "Name this (𝐶𝐻3)2𝐶𝐻𝐶 ≡ 𝐶𝐶𝐻3",
+          answers: [
+            { text: "4-methylpent-2-yne", correct: false },
+            { text: "4,4-dimethylbut-2-yne", correct: false },
+            { text: "1,1-dimethylpent-2-yne", correct: true },
+            { text: "2-methylpent-2-yne", correct: false }
+          ],
+          explanation: "The compound (𝐶𝐻3)2𝐶𝐻𝐶 ≡ 𝐶𝐶𝐻3 is named 1,1-dimethylpent-2-yne."
+        },
+        {
+          question: "Which of the following will react readily with both aldehyde and ketones?",
+          answers: [
+            { text: "Tollen’s reagent", correct: true },
+            { text: "Fehling’s reagent", correct: false },
+            { text: "Schiff’s reagent", correct: false },
+            { text: "Grignard reagent", correct: false }
+          ],
+          explanation: "Tollen’s reagent (ammoniacal silver nitrate) reacts readily with both aldehydes and ketones."
+        },
+        {
+          question: "Empirical formula 𝐶𝐻2𝑂 with molar mass 90. Calculate the molecular formula",
+          answers: [
+            { text: "𝐶3𝐻4𝑂6", correct: false },
+            { text: "𝐶3𝐻2𝑂3", correct: true },
+            { text: "𝐶3𝐻6𝑂2", correct: false },
+            { text: "𝐶2𝐻3𝑂4", correct: false }
+          ],
+          explanation: "The molecular formula corresponding to 𝐶𝐻2𝑂 with a molar mass of 90 is 𝐶3𝐻2𝑂3."
+        },
+        {
+          question: "Which type of reaction exist between 𝐶𝐻2 + 𝐻𝐵𝑟?",
+          answers: [
+            { text: "Polymerisation", correct: false },
+            { text: "Substitution", correct: false },
+            { text: "Addition", correct: true }
+          ],
+          explanation: "The reaction between 𝐶𝐻2 and 𝐻𝐵𝑟 is an addition reaction."
+        },
+        {
+          question: "Which of these is correct for 𝐶𝐻3 − 𝐶𝐻 = 𝐶(𝐶𝐻3)2𝐶𝐻3",
+          answers: [
+            { text: "2-methylbutene", correct: false },
+            { text: "2,2-dimethylbut-2-ene", correct: false },
+            { text: "2-dimethylbutene", correct: true }
+          ],
+          explanation: "The correct name for 𝐶𝐻3 − 𝐶𝐻 = 𝐶(𝐶𝐻3)2𝐶𝐻3 is 2-dimethylbutene."
+        },
+        {
+          question: "Ketones are partially oxidized to give",
+          answers: [
+            { text: "primary alcohol", correct: true },
+            { text: "Halides", correct: false },
+            { text: "ester", correct: false }
+          ],
+          explanation: "Partial oxidation of ketones results in the formation of primary alcohols."
+        },
+        {
+          question: "What is the chemical formula for astatine",
+          answers: [
+            { text: "Tn", correct: false },
+            { text: "At", correct: true },
+            { text: "As", correct: false },
+            { text: "St", correct: false }
+          ],
+          explanation: "The chemical symbol for astatine is At."
+        },
+        {
+          question: "Which one is group 1 element",
+          answers: [
+            { text: "Rb", correct: true },
+            { text: "Rn", correct: false },
+            { text: "Ra", correct: false },
+            { text: "Ru", correct: false }
+          ],
+          explanation: "Rb (Rubidium) is a Group 1 element."
+        },
+        {
+          question: "Which of the following is completely an acid",
+          answers: [
+            { text: "NaCl", correct: false },
+            { text: "HCl", correct: true },
+            { text: "HI", correct: false },
+            { text: "HBr", correct: false }
+          ],
+          explanation: "HCl (Hydrochloric acid) is a completely acidic compound."
+        },
+        {
+          question: "The melting point of aldehyde and ketones tends to",
+          answers: [
+            { text: "Remain unchanged", correct: false },
+            { text: "Increase with increasing molecular weight", correct: false },
+            { text: "Decrease with increasing molecular weight", correct: true }
+          ],
+          explanation: "Aldehydes and ketones generally have lower melting points which decrease with increasing molecular weight."
+        },
+        {
+          question: "Isomerism that differ in spatial arrangement is",
+          answers: [
+            { text: "Optical isomerism", correct: true },
+            { text: "Stereo isomerism", correct: false },
+            { text: "Positional isomerism", correct: false }
+          ],
+          explanation: "Isomerism that differs in spatial arrangement is called optical isomerism."
+        },
+        {
+          question: "The complete hydrogenation of 𝐶6𝐻6 in the presence of nickel catalyst at 200°C gives",
+          answers: [
+            { text: "𝐶6𝐻12", correct: false },
+            { text: "𝐶6𝐻8", correct: false },
+            { text: "𝐶6𝐻14", correct: true },
+            { text: "𝐶6𝐻10", correct: false }
+          ],
+          explanation: "Complete hydrogenation of 𝐶6𝐻6 gives 𝐶6𝐻14 (cyclohexane)."
+        },
+        {
+          question: "Two compounds have the same compounds and also have the same atoms attached, although with different orientation in space. The compounds are",
+          answers: [
+            { text: "Positional isomerism", correct: false },
+            { text: "Stereo isomerism", correct: true },
+            { text: "Structural isomerism", correct: false },
+            { text: "Identical isomerism", correct: false }
+          ],
+          explanation: "Compounds that have the same structural formula and atoms attached but differ in their spatial arrangement are stereo isomers."
+        },
+        {
+          question: "Acetone reacting with HCN to form a cyanohydrin is an example of",
+          answers: [
+            { text: "Nucleophilic addition", correct: true },
+            { text: "Electrophilic substitution", correct: false },
+            { text: "Electrophilic addition", correct: false },
+            { text: "Nucleophilic substitution", correct: false }
+          ],
+          explanation: "The reaction of acetone with HCN to form a cyanohydrin involves nucleophilic addition."
+        },
+
 
         // Add more questions for Chemistry until you have 30
     ],
@@ -5459,6 +9801,446 @@ const quizData = {
               { text: "none", correct: false }
             ],
             explanation: "A straight line which is perpendicular to a tangent at the curve 𝑦 = 𝑓(𝑥) is called the normal to the curve at that point. Therefore, the correct answer is option (c), normal."
+          },
+          {
+            question: "Simplify (tan 𝜃 − sec𝜃) / 2",
+            answers: [
+              { text: "(sin 𝜃 - 1) / (2cos𝜃)", correct: true },
+              { text: "(sin 𝜃 + 1) / (2cos𝜃)", correct: false },
+              { text: "(tan 𝜃 - 1) / (2sin𝜃)", correct: false },
+              { text: "(sin 𝜃 - 1) / (2sin𝜃)", correct: false }
+            ],
+            explanation: "To simplify (tan 𝜃 − sec𝜃) / 2, we use trigonometric identities: (sin 𝜃 - 1) / (2cos𝜃)."
+          },
+          {
+            question: "Find the range of -1, -2, -3, -5, -22",
+            answers: [
+              { text: "21", correct: true },
+              { text: "22", correct: false },
+              { text: "20", correct: false },
+              { text: "23", correct: false }
+            ],
+            explanation: "To find the range, subtract the minimum value from the maximum value: Range = -1 - (-22) = 21."
+          },
+          {
+            question: "Simplify sin 𝜃 + sin3𝜃 / cos𝜃 cos3𝜃",
+            answers: [
+              { text: "(sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: true },
+              { text: "(sin 𝜃 - 3sin 𝜃 + 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: false },
+              { text: "(sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 + 3cos 𝜃))", correct: false },
+              { text: "(sin 𝜃 + 3sin 𝜃 + 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: false }
+            ],
+            explanation: "Using trigonometric identities, we simplify sin 𝜃 + sin3𝜃 / cos𝜃 cos3𝜃 to (sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))."
+          },
+          {
+            question: "Simplify (tan 𝜃 - sec𝜃) / (2tan 𝜃 sec𝜃)",
+            answers: [
+              { text: "1 / 2", correct: true },
+              { text: "tan 𝜃 / 2", correct: false },
+              { text: "sec 𝜃 / 2", correct: false },
+              { text: "1 / tan 𝜃", correct: false }
+            ],
+            explanation: "To simplify (tan 𝜃 - sec𝜃) / (2tan 𝜃 sec𝜃), we factor out 1 / 2."
+          },
+          {
+            question: "Find the range of -1, -2, -3, -5, -22",
+            answers: [
+              { text: "21", correct: true },
+              { text: "22", correct: false },
+              { text: "20", correct: false },
+              { text: "23", correct: false }
+            ],
+            explanation: "To find the range, subtract the minimum value from the maximum value: Range = -1 - (-22) = 21."
+          },
+          {
+            question: "Simplify sin 𝜃 + sin3𝜃 / (cos𝜃 cos3𝜃)",
+            answers: [
+              { text: "tan 𝜃", correct: true },
+              { text: "cot 𝜃", correct: false },
+              { text: "sec 𝜃", correct: false },
+              { text: "csc 𝜃", correct: false }
+            ],
+            explanation: "Using trigonometric identities, sin 𝜃 + sin3𝜃 / (cos𝜃 cos3𝜃) simplifies to tan 𝜃."
+          },
+          {
+            question: "Find the value of sin 2𝛼 if tan𝛽 = 5/12 and sin 𝛼 = 3/5",
+            answers: [
+              { text: "24/25", correct: true },
+              { text: "36/65", correct: false },
+              { text: "20/65", correct: false },
+              { text: "36/35", correct: false }
+            ],
+            explanation: "Using double angle formula, sin 2𝛼 = 2 sin 𝛼 cos 𝛼 = 2 * (3/5) * (√(1 - (3/5)^2)) = 24/25."
+          },
+          {
+            question: "Find 𝑑𝑦 / 𝑑𝑥, if 𝑥^2 / a^2 + 𝑦^2 / b^2 = 1",
+            answers: [
+              { text: "-𝑏^2𝑥 / 𝑎^2𝑦", correct: true },
+              { text: "𝑎^2𝑥 / 𝑏^2𝑦", correct: false },
+              { text: "𝑏𝑥 / 𝑎𝑦", correct: false },
+              { text: "𝑎𝑥 / 𝑏𝑦", correct: false }
+            ],
+            explanation: "Differentiating implicitly, 𝑑𝑦 / 𝑑𝑥 = -𝑏^2𝑥 / 𝑎^2𝑦."
+          },
+          {
+            question: "Simplify cos^4 𝜃 − sin^4 𝜃",
+            answers: [
+              { text: "cos 2𝜃", correct: true },
+              { text: "cot 2𝜃", correct: false },
+              { text: "sin 2𝜃", correct: false },
+              { text: "tan 2𝜃", correct: false }
+            ],
+            explanation: "Using the identity cos^2 𝜃 = 1 - sin^2 𝜃, cos^4 𝜃 − sin^4 𝜃 simplifies to cos 2𝜃."
+          },
+          {
+            question: "Evaluate ∫ (sec^2 𝑥 + sec 𝑥 tan 𝑥) / (sec 𝑥 + tan 𝑥) dx",
+            answers: [
+              { text: "ln |sec 𝑥 + tan 𝑥| + C", correct: true },
+              { text: "2 sec 𝑥 + C", correct: false },
+              { text: "x + C", correct: false },
+              { text: "sec 𝑥 + tan 𝑥 + C", correct: false }
+            ],
+            explanation: "Integrating, we get ∫ (sec^2 𝑥 + sec 𝑥 tan 𝑥) / (sec 𝑥 + tan 𝑥) dx = ln |sec 𝑥 + tan 𝑥| + C."
+          },
+          {
+            question: "If tan A = √2 + 1, find sec^2 A − 2",
+            answers: [
+              { text: "2√2", correct: true },
+              { text: "2 - 2√2", correct: false },
+              { text: "4 + 2√2", correct: false },
+              { text: "2 + 2√2", correct: false }
+            ],
+            explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2."
+          },
+          {
+            question: "If tan (A + B) = 1/7 and tan A = 1/3, find tan B",
+            answers: [
+              { text: "-4/11", correct: true },
+              { text: "3/7", correct: false },
+              { text: "-2/11", correct: false },
+              { text: "4/11", correct: false }
+            ],
+            explanation: "Using the tangent addition formula, tan B = (tan (A + B) - tan A) / (1 + tan (A + B) * tan A)."
+          },
+          {
+            question: "Find the value of tan 2𝛼, if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+            answers: [
+              { text: "24/7", correct: true },
+              { text: "7/24", correct: false },
+              { text: "-24/7", correct: false },
+              { text: "-7/24", correct: false }
+            ],
+            explanation: "Using the double angle formula for tangent, tan 2𝛼 = (2 tan 𝛼) / (1 - tan^2 𝛼)."
+          },
+          {
+            question: "Find the value of cos 22.5° in surd form",
+            answers: [
+              { text: "√(2+√2) / 2", correct: true },
+              { text: "√(√2−1) / 2", correct: false },
+              { text: "√(2−√2) / 2", correct: false },
+              { text: "√(√2−2) / 2", correct: false }
+            ],
+            explanation: "Using the angle addition formula, cos 22.5° = √(2 + √2) / 2."
+          },
+          {
+            question: "Find the value of 195° in surd form",
+            answers: [
+              { text: "3 + √3 / 3 - √3", correct: true },
+              { text: "3 + √3 / 3 + √3", correct: false },
+              { text: "-3 - √3 / 3 + √3", correct: false },
+              { text: "3 - √3 / 3 + √3", correct: false }
+            ],
+            explanation: "Using the angle reduction formula, 195° = 3 + √3 / 3 - √3."
+          },
+          {
+            question: "Find the derivative of 𝑦 = 𝑒^(2𝑥+3) with respect to x",
+            answers: [
+              { text: "2𝑒^(2𝑥+3)", correct: true },
+              { text: "2𝑒^(2𝑥-3)", correct: false },
+              { text: "𝑒^(2𝑥+3)", correct: false },
+              { text: "3𝑒^(2𝑥+3)", correct: false }
+            ],
+            explanation: "Differentiating 𝑦 = 𝑒^(2𝑥+3) with respect to x gives 𝑑𝑦 / 𝑑𝑥 = 2𝑒^(2𝑥+3)."
+          },
+          {
+            question: "Find 𝑑𝑦 / 𝑑𝑥, if 𝑥^2 / a^2 + 𝑦^2 / b^2 = 1",
+            answers: [
+              { text: "-𝑏^2𝑥 / 𝑎^2𝑦", correct: true },
+              { text: "-𝑎^2𝑥 / 𝑏^2𝑦", correct: false },
+              { text: "-𝑏𝑥 / 𝑎𝑦", correct: false },
+              { text: "𝑏^2𝑥 / 𝑎^2𝑦", correct: false }
+            ],
+            explanation: "Differentiating implicitly, 𝑑𝑦 / 𝑑𝑥 = -𝑏^2𝑥 / 𝑎^2𝑦."
+          },
+          {
+            question: "Find the value of sin 22.5° in surd form",
+            answers: [
+              { text: "√(2 - √2) / 2", correct: true },
+              { text: "√(√2 - 2) / 2", correct: false },
+              { text: "√(2 + √2) / 2", correct: false },
+              { text: "-√(√2 - 2) / 2", correct: false }
+            ],
+            explanation: "Using the angle addition formula, sin 22.5° = √(2 - √2) / 2."
+          },
+          {
+            question: "If tan⁻¹(3x) + tan⁻¹(2x) = π/4, find the value of x",
+            answers: [
+              { text: "1/6", correct: true },
+              { text: "-1, -1/6", correct: false },
+              { text: "1/6, 1", correct: false },
+              { text: "1, -1/6", correct: false }
+            ],
+            explanation: "Given tan⁻¹(3x) + tan⁻¹(2x) = π/4, solve for x."
+          },
+          {
+            question: "In a triangle ABC, ∠A = 53°, sides b = 4.2 cm, and c = 3.5 cm. Find the area of ∆ABC",
+            answers: [
+              { text: "4.87 cm²", correct: true },
+              { text: "8.70 cm²", correct: false },
+              { text: "16.24 cm²", correct: false },
+              { text: "5.87 cm²", correct: false }
+            ],
+            explanation: "Using the formula Area = 1/2 * b * c * sin A, calculate the area of triangle ABC."
+          },
+          {
+            question: "Evaluate ∫ (2 dx) / (x^2 - 2x + 5)",
+            answers: [
+              { text: "tan⁻¹((x - 1)/2) + C", correct: true },
+              { text: "2 tan⁻¹((x + 1)/2) + C", correct: false },
+              { text: "(1/2) tan⁻¹((x - 1)/2) + C", correct: false },
+              { text: "tan⁻¹((x + 1)/2) + C", correct: false }
+            ],
+            explanation: "Integrating using the arctangent function, ∫ (2 dx) / (x^2 - 2x + 5) = tan⁻¹((x - 1)/2) + C."
+          },
+          {
+            question: "Find the value of sin(𝛼 + 𝛽) if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+            answers: [
+              { text: "36/65", correct: true },
+              { text: "-36/65", correct: false },
+              { text: "20/65", correct: false },
+              { text: "35/65", correct: false }
+            ],
+            explanation: "Using the sine addition formula, sin(𝛼 + 𝛽) = (sin 𝛼 * cos 𝛽) + (cos 𝛼 * sin 𝛽)."
+          },
+          {
+            question: "Find the equation of the tangent to y = 3x^2 + 2x - 1 at x = 1",
+            answers: [
+              { text: "y = 8x - 4", correct: true },
+              { text: "y = 6x - 4", correct: false },
+              { text: "y = 8x + 2", correct: false },
+              { text: "y = 8x + 4", correct: false }
+            ],
+            explanation: "Differentiate y = 3x^2 + 2x - 1 to find the slope at x = 1, then use the point-slope form of the tangent line equation."
+          },
+          {
+            question: "If tan A = √2 + 1, find sec^2 A − 2",
+            answers: [
+              { text: "2√2", correct: true },
+              { text: "4 + 2√2", correct: false },
+              { text: "2 + 2√2", correct: false },
+              { text: "2 - 2√2", correct: false }
+            ],
+            explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2."
+          },
+          {
+            question: "Evaluate ∫ ln x dx",
+            answers: [
+              { text: "x ln x - x + C", correct: true },
+              { text: "x^2 / 2 ln x + C", correct: false },
+              { text: "-(ln x / x) + C", correct: false },
+              { text: "x^3 / 3 ln x + C", correct: false }
+            ],
+            explanation: "Integrating ln x, ∫ ln x dx = x ln x - x + C."
+          },
+          {
+            question: "If y = x^3 + 3x^2, find the maximum and minimum points",
+            answers: [
+              { text: "(0, 0) and (-2, 4)", correct: true },
+              { text: "(0, 0) and (-2, 3)", correct: false },
+              { text: "(0, 0) and (-2, 5)", correct: false },
+              { text: "(0, 0) and (-1, 1)", correct: false }
+            ],
+            explanation: "Differentiate y = x^3 + 3x^2 to find critical points and use the second derivative test to determine maxima and minima."
+          },
+          {
+            question: "Evaluate 2 / (1 - cos 45°)",
+            answers: [
+              { text: "2 + √2", correct: true },
+              { text: "2 - √2", correct: false },
+              { text: "4 + 2√2", correct: false },
+              { text: "2 + √3", correct: false }
+            ],
+            explanation: "Evaluate using the cosine double-angle formula, 2 / (1 - cos 45°) simplifies to 2 + √2."
+          },
+          {
+            question: "If tan 𝜃 = 3/4, find cos^2 𝜃",
+            answers: [
+              { text: "7/25", correct: true },
+              { text: "2/4", correct: false },
+              { text: "3/5", correct: false },
+              { text: "7/25", correct: false }
+            ],
+            explanation: "Using the identity cos^2 𝜃 = 1 / (1 + tan^2 𝜃), cos^2 𝜃 = 7/25."
+          },
+          {
+            question: "If cos θ = 3/4, find sec θ",
+            answers: [
+              { text: "4/3", correct: true },
+              { text: "2/3", correct: false },
+              { text: "4/5", correct: false },
+              { text: "3/4", correct: false }
+            ],
+            explanation: "Secant is the reciprocal of cosine: sec θ = 1 / cos θ. Therefore, sec θ = 4/3."
+          },
+          {
+            question: "Find the x-intercept of y = x^3 - 1 / x^2 - 4",
+            answers: [
+              { text: "(±2,0)", correct: true },
+              { text: "(0, ±2)", correct: false },
+              { text: "(0, ±1)", correct: false },
+              { text: "(±1,0)", correct: false }
+            ],
+            explanation: "To find the x-intercepts, set y = 0 and solve for x: x^3 - 1 = 0 ⟹ x^3 = 1 ⟹ x = ±1. Similarly, x^2 - 4 = 0 ⟹ x^2 = 4 ⟹ x = ±2. Therefore, the x-intercepts are (±2,0)."
+          },
+          {
+            question: "Differentiate y = cos(Ax + B) with respect to x at x = 1",
+            answers: [
+              { text: "-A sin(A + B)", correct: true },
+              { text: "A cos B", correct: false },
+              { text: "0", correct: false },
+              { text: "-sin B", correct: false }
+            ],
+            explanation: "Differentiate using the chain rule: dy/dx = -A sin(Ax + B). At x = 1, dy/dx = -A sin(A + B)."
+          },
+          {
+            question: "If a + b + c / a + b - c = cot A^2 / cot B^2 and a + b = 24.3 cm, A = 64.8°, B = 22.5°, find angle C and the sides of the triangle",
+            answers: [
+              { text: "92.70°, -2.38cm", correct: true },
+              { text: "92.70°, 2.38cm", correct: false },
+              { text: "92.69°, -2.39cm", correct: false },
+              { text: "92.63°, 2.39cm", correct: false }
+            ],
+            explanation: "Given the conditions and using the triangle angle and side formulas, angle C is approximately 92.70° and the side is approximately -2.38 cm."
+          },
+          {
+            question: "Simplify √(1 + cos^2 θ) / (1 + tan^2 θ)",
+            answers: [
+              { text: "sec θ", correct: true },
+              { text: "cos θ", correct: false },
+              { text: "sin θ", correct: false },
+              { text: "cot θ", correct: false }
+            ],
+            explanation: "Using trigonometric identities, √(1 + cos^2 θ) = sec θ and 1 + tan^2 θ = sec^2 θ. Therefore, the expression simplifies to sec θ."
+          },
+          {
+            question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of x",
+            answers: [
+              { text: "π/6 + 2nπ", correct: true },
+              { text: "π/2 + 2nπ", correct: false },
+              { text: "π/3 + 2nπ", correct: false },
+              { text: "-π/3 - π/6 + 2nπ", correct: false }
+            ],
+            explanation: "Solve cos 3x + √3 sin 3x = √3 using trigonometric identities and the given range for x."
+          },
+          {
+            question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of R",
+            answers: [
+              { text: "√(1 + √3)", correct: true },
+              { text: "2", correct: false },
+              { text: "1 + √3", correct: false },
+              { text: "√3", correct: false }
+            ],
+            explanation: "Evaluate the expression cos 3x + √3 sin 3x to find R."
+          },
+          {
+            question: "Simplify cos 4θ - sin 4θ",
+            answers: [
+              { text: "cos 2θ", correct: true },
+              { text: "cot 2θ", correct: false },
+              { text: "sin 2θ", correct: false },
+              { text: "tan 2θ", correct: false }
+            ],
+            explanation: "Using double angle identities, cos 4θ - sin 4θ = cos 2θ."
+          },
+          {
+            question: "Evaluate 1 / (sec θ - 1) + 1 / (sec θ + 1)",
+            answers: [
+              { text: "2 tan θ", correct: true },
+              { text: "2 cos θ", correct: false },
+              { text: "2 sec θ", correct: false },
+              { text: "2 cosec θ", correct: false }
+            ],
+            explanation: "Simplify using trigonometric identities to evaluate the given expression."
+          },
+          {
+            question: "Integrate (5x^2 / (10x^3 + 3)) dx",
+            answers: [
+              { text: "1/6 ln(10x^3 + 3) + C", correct: true },
+              { text: "ln(10x^3 + 3) + C", correct: false },
+              { text: "5/3 ln(10x^3 + 3) + C", correct: false },
+              { text: "1/2 ln(10x^3 + 3x) + C", correct: false }
+            ],
+            explanation: "Use the substitution method and integral formulas to find the antiderivative."
+          },
+          {
+            question: "Find the value of sin(x + y) if sin x = 4/5 and cos y = 12/13",
+            answers: [
+              { text: "63/65", correct: true },
+              { text: "281/65", correct: false },
+              { text: "48/65", correct: false },
+              { text: "15/65", correct: false }
+            ],
+            explanation: "Use the sine addition formula to find sin(x + y) given sin x and cos y."
+          },
+          {
+            question: "Integrate 1 / (1 + 4x^2) dx",
+            answers: [
+              { text: "1/2 arctan(2x) + C", correct: true },
+              { text: "arctan(2x) + C", correct: false },
+              { text: "1/4 arctan(2x) + C", correct: false },
+              { text: "1/2 arctan(x^2) + C", correct: false }
+            ],
+            explanation: "Integrate using the arctangent function and the integral formula for 1 / (1 + a^2x^2)."
+          },
+          {
+            question: "Simplify sin 3a",
+            answers: [
+              { text: "3 sin a - 4 sin^3 a", correct: true },
+              { text: "3 sin a + 4 sin^3 a", correct: false },
+              { text: "4 sin^3 a - 3 sin a", correct: false },
+              { text: "4 sin^3 a sin a", correct: false }
+            ],
+            explanation: "Apply the triple angle formula for sine to simplify sin 3a."
+          },
+          {
+            question: "Find the antiderivative of e^(sin θ cos θ + sin√θ / √θ)",
+            answers: [
+              { text: "e^(sin θ cos θ) - 2 cos√θ + C", correct: true },
+              { text: "e^(cos θ sin θ) - 2 sin√θ + C", correct: false },
+              { text: "e^(sin θ cos θ) + 2 cos√θ + C", correct: false },
+              { text: "e^(cos θ sin θ) + 2 sin√θ + C", correct: false }
+            ],
+            explanation: "Integrate using the given expression and the antiderivative formulas for exponential functions."
+          },
+          {
+            question: "Find the vertical and horizontal asymptotes of y = 4x^2 - 1 / x^2 - 5 - 6",
+            answers: [
+              { text: "(3, 2) and 3", correct: true },
+              { text: "(1, 2) and 3", correct: false },
+              { text: "(3, 4) and 3", correct: false },
+              { text: "(3, 2) and 4", correct: false }
+            ],
+            explanation: "Identify the vertical and horizontal asymptotes by analyzing the given rational function."
+          },
+          {
+            question: "Differentiate y = tan(2x + 45)",
+            answers: [
+              { text: "sec^2(2x + 45)", correct: true },
+              { text: "tan(2x + 45)", correct: false },
+              { text: "2 sec(2x + 3)", correct: false },
+              { text: "2 sec(2x + 43)", correct: false }
+            ],
+            explanation: "Differentiate using the derivative formula for the tangent function."
           },
 
 
@@ -7575,6 +12357,1399 @@ const quizData = {
             ],
             explanation: "Register refers to the variety of language used in different contexts or situations, such as formal or informal register."
           },
+          {
+            question: "One of the following connectives is not used to show movement from one idea to another",
+            answers: [
+            { text: "with regard to", correct: false },
+            { text: "now", correct: false },
+            { text: "as well as", correct: false },
+            { text: "let us consider", correct: true }
+            ],
+            explanation: "The connective 'let us consider' is not typically used to show movement from one idea to another."
+            },
+            {
+            question: "Anaphoric reference points",
+            answers: [
+            { text: "forward and backward", correct: false },
+            { text: "forward", correct: false },
+            { text: "none", correct: false },
+            { text: "backward", correct: true }
+            ],
+            explanation: "Anaphoric reference points backward to a previously mentioned entity."
+            },
+            {
+            question: "Using 'app' for application is an example of word formation with the use of",
+            answers: [
+            { text: "acronym", correct: false },
+            { text: "compounding", correct: false },
+            { text: "clipping", correct: true },
+            { text: "affixation", correct: false }
+            ],
+            explanation: "Using 'app' for application is an example of word formation through clipping."
+            },
+            {
+            question: "Which definition uses the characteristics of what is being described?",
+            answers: [
+            { text: "comparative definition", correct: false },
+            { text: "descriptive definition", correct: true },
+            { text: "logical definition", correct: false },
+            { text: "synonymous definition", correct: false }
+            ],
+            explanation: "A descriptive definition uses the characteristics of what is being described."
+            },
+            {
+            question: "The root in multicellular is",
+            answers: [
+            { text: "multi", correct: true },
+            { text: "cell", correct: false },
+            { text: "multicellular", correct: false },
+            { text: "ular", correct: false }
+            ],
+            explanation: "The root in multicellular is 'multi'."
+            },
+            {
+            question: "The morphemes in 'gone' are",
+            answers: [
+            { text: "go + root", correct: false },
+            { text: "go + ed", correct: false },
+            { text: "go + ne", correct: false },
+            { text: "go + en", correct: true }
+            ],
+            explanation: "The morphemes in 'gone' are 'go' and 'en'."
+            },
+            {
+            question: "The word 'definition' is gotten from",
+            answers: [
+            { text: "Latin", correct: true },
+            { text: "Greek", correct: false },
+            { text: "German", correct: false },
+            { text: "Spanish", correct: false }
+            ],
+            explanation: "The word 'definition' is derived from Latin."
+            },
+            {
+            question: "Outline is significant since",
+            answers: [
+            { text: "it deals with ideas", correct: false },
+            { text: "represents original texts", correct: false },
+            { text: "It enhances the organization of our writers", correct: false },
+            { text: "it represents a writer’s worldview", correct: true }
+            ],
+            explanation: "Outline is significant since it represents a writer’s worldview."
+            },
+            {
+            question: "A morpheme that does not have independent status is",
+            answers: [
+            { text: "free", correct: false },
+            { text: "bound", correct: true },
+            { text: "none", correct: false },
+            { text: "bind", correct: false }
+            ],
+            explanation: "A bound morpheme does not have independent status."
+            },
+            {
+            question: "Outline shows the following except",
+            answers: [
+            { text: "the structure of the original text", correct: false },
+            { text: "a visual graphic representation of the original text", correct: false },
+            { text: "sequential arrangement of words", correct: true },
+            { text: "sequential arrangement of ideas", correct: false }
+            ],
+            explanation: "An outline shows the structure of the original text, a visual graphic representation, and sequential arrangement of ideas, but not sequential arrangement of words."
+            },
+            {
+            question: "Which is the odd one among the following?",
+            answers: [
+            { text: "subject", correct: false },
+            { text: "mathematics", correct: false },
+            { text: "physics", correct: false },
+            { text: "measles", correct: true }
+            ],
+            explanation: "Measles is the odd one among the listed options."
+            },
+            {
+            question: "In which of the following definitions are devices for comparison used?",
+            answers: [
+            { text: "metaphorical", correct: true },
+            { text: "definition by example", correct: false },
+            { text: "definition by synonyms", correct: false },
+            { text: "formal definition", correct: false }
+            ],
+            explanation: "Devices for comparison are used in metaphorical definitions."
+            },
+            {
+            question: "Research is given direction by",
+            answers: [
+            { text: "classification", correct: false },
+            { text: "hypothesis", correct: true },
+            { text: "generating", correct: false },
+            { text: "", correct: false }
+            ],
+            explanation: "Research is given direction by a hypothesis."
+            },
+            {
+            question: "One of these does not shed light on the types of definition",
+            answers: [
+            { text: "opinion", correct: true },
+            { text: "concept", correct: false },
+            { text: "subject", correct: false },
+            { text: "hypothesis", correct: false }
+            ],
+            explanation: "Opinion does not shed light on the types of definition."
+            },
+            {
+            question: "Which connective is used for summing",
+            answers: [
+            { text: "and", correct: true },
+            { text: "or", correct: false },
+            { text: "all", correct: false },
+            { text: "but", correct: false }
+            ],
+            explanation: "The connective 'and' is used for summing."
+            },
+            {
+            question: "Which of the following shows backward",
+            answers: [
+            { text: "anaphoric reference", correct: true },
+            { text: "cataphoric comprehension", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+            ],
+            explanation: "Anaphoric reference shows backward reference."
+            },
+            {
+            question: "The word pseudoscience is formed from ",
+            answers: [
+            { text: "coinage", correct: false },
+            { text: "suffixation", correct: false },
+            { text: "prefixation", correct: true },
+            { text: "affixation", correct: false }
+            ],
+            explanation: "The word 'pseudoscience' is formed by prefixation."
+            },
+            {
+            question: "The root word in hyphenation is",
+            answers: [
+            { text: "hyphen", correct: true },
+            { text: "nation", correct: false },
+            { text: "na", correct: false },
+            { text: "tion", correct: false }
+            ],
+            explanation: "The root word in 'hyphenation' is 'hyphen'."
+            },
+            {
+            question: "__ definition is used by dictionary",
+            answers: [
+            { text: "comparative", correct: false },
+            { text: "formal", correct: false },
+            { text: "descriptive", correct: true },
+            { text: "metaphorical", correct: false }
+            ],
+            explanation: "Dictionary uses descriptive definitions."
+            },
+            {
+            question: "Scientist uses ________ and __________ to draw conclusion",
+            answers: [
+            { text: "experiment & observation", correct: true },
+            { text: "descriptive & hypothesis", correct: false },
+            { text: "comparative & observation", correct: false },
+            { text: "", correct: false }
+            ],
+            explanation: "Scientists use experiment and observation to draw conclusions."
+            },
+            {
+            question: "An animal is a goat, dog, lion, this type of definition is",
+            answers: [
+            { text: "definition by example", correct: true },
+            { text: "comparative", correct: false },
+            { text: "descriptive", correct: false },
+            { text: "formal", correct: false }
+            ],
+            explanation: "This type of definition is 'definition by example'."
+            },
+            {
+            question: "The odd classification is ___________",
+            answers: [
+            { text: "test", correct: false },
+            { text: "wet", correct: true },
+            { text: "needle", correct: false },
+            { text: "treat", correct: false }
+            ],
+            explanation: "'Wet' is the odd classification among the given options."
+            },
+            {
+            question: "For a student to write an outline for a passage, he/she must _",
+            answers: [
+            { text: "understand the passage", correct: true },
+            { text: "read the passage", correct: false },
+            { text: "view the passage", correct: false },
+            { text: "", correct: false }
+            ],
+            explanation: "For a student to write an outline, understanding the passage is necessary."
+            },
+            {
+            question: "One of the following connectives is not used for presenting result",
+            answers: [
+            { text: "again", correct: true },
+            { text: "accordingly", correct: false },
+            { text: "consequently", correct: false },
+            { text: "so", correct: false }
+            ],
+            explanation: "The connective 'again' is not typically used for presenting a result."
+            },
+            {
+            question: "Which of the following is a derivative morpheme",
+            answers: [
+            { text: "interest", correct: false },
+            { text: "driving", correct: false },
+            { text: "boys", correct: false },
+            { text: "asymmetry", correct: true }
+            ],
+            explanation: "'Asymmetry' is a derivative morpheme."
+            },
+            {
+            question: "The second part to be outlined in an essay based outline is",
+            answers: [
+            { text: "conclusion", correct: false },
+            { text: "methodology", correct: false },
+            { text: "introduction", correct: false },
+            { text: "body", correct: true }
+            ],
+            explanation: "The body is the second part to be outlined in an essay."
+            },
+            {
+            question: "The definition 'an acid is a dangerous liquid' is based on",
+            answers: [
+            { text: "subjective", correct: false },
+            { text: "class", correct: false },
+            { text: "circular", correct: true },
+            { text: "topical", correct: false }
+            ],
+            explanation: "The definition 'an acid is a dangerous liquid' is based on circular consideration."
+            },
+            {
+            question: "An outline shows",
+            answers: [
+            { text: "a fact and point of an essay", correct: false },
+            { text: "pattern and structure of a text", correct: true },
+            { text: "content and organization of a text", correct: false },
+            { text: "essential and representation of a text", correct: false }
+            ],
+            explanation: "An outline shows the pattern and structure of a text."
+            },
+            {
+            question: "Cataphoric reference refers to",
+            answers: [
+            { text: "backward", correct: false },
+            { text: "forward", correct: true },
+            { text: "to communicate", correct: false },
+            { text: "to connect", correct: false }
+            ],
+            explanation: "Cataphoric reference refers to forward reference."
+            },
+            {
+            question: "The word Asuu is formed using",
+            answers: [
+            { text: "acronym", correct: true },
+            { text: "affixation", correct: false },
+            { text: "neologism", correct: false },
+            { text: "blending", correct: false }
+            ],
+            explanation: "The word 'Asuu' is formed using acronym."
+            },
+            {
+            question: "The root morpheme in the word 'retroviral' is",
+            answers: [
+            { text: "al", correct: false },
+            { text: "virus", correct: true },
+            { text: "retro", correct: false },
+            { text: "viral", correct: false }
+            ],
+            explanation: "The root morpheme in 'retroviral' is 'virus'."
+            },
+            {
+            question: "Subdivision in outlining enhances",
+            answers: [
+            { text: "simple use of language", correct: false },
+            { text: "easy marking", correct: false },
+            { text: "graphical representation of ideas", correct: false },
+            { text: "easy indention of ideas", correct: true }
+            ],
+            explanation: "Subdivision in outlining enhances easy indention of ideas."
+            },
+            {
+            question: "An outline could be",
+            answers: [
+            { text: "thought", correct: false },
+            { text: "passage", correct: false },
+            { text: "write-up", correct: false },
+            { text: "sketch", correct: true }
+            ],
+            explanation: "An outline could be a sketch."
+            },
+            {
+            question: "The cohesive device that prevents redundancy of word usage is",
+            answers: [
+            { text: "substitution", correct: false },
+            { text: "repetition", correct: false },
+            { text: "ellipsis", correct: true },
+            { text: "reference", correct: false }
+            ],
+            explanation: "The cohesive device that prevents redundancy of word usage is ellipsis."
+            },
+            {
+            question: "The special graphic structure of an outline",
+            answers: [
+            { text: "makes writers to be cautious", correct: false },
+            { text: "show the writer’s pattern of writing", correct: false },
+            { text: "shows storyline", correct: false },
+            { text: "could not be mistaken anywhere it is seen", correct: true }
+            ],
+            explanation: "The special graphic structure of an outline is distinctive and recognizable."
+            },
+            {
+            question: "The root in amplification is",
+            answers: [
+            { text: "amplify", correct: false },
+            { text: "amplificate", correct: false },
+            { text: "ample", correct: false },
+            { text: "amplification", correct: true }
+            ],
+            explanation: "The root in 'amplification' is 'ample'."
+            },
+            {
+            question: "The root in the word 'usurpation' is",
+            answers: [
+            { text: "usurper", correct: false },
+            { text: "userpal", correct: false },
+            { text: "usurp", correct: true },
+            { text: "usurpate", correct: false }
+            ],
+            explanation: "The root in 'usurpation' is 'usurp'."
+            },
+            {
+            question: " is a unit that must be joined to another unit",
+            answers: [
+            { text: "bound morpheme", correct: true },
+            { text: "root", correct: false },
+            { text: "free", correct: false },
+            { text: "word", correct: false }
+            ],
+            explanation: "A bound morpheme is a unit that must be joined to another unit."
+            },
+            {
+            question: "Arabic numerals is employed in outlining to",
+            answers: [
+            { text: "represent action", correct: false },
+            { text: "indicate ideas create a new action", correct: true },
+            { text: "", correct: false },
+            { text: "", correct: false }
+            ],
+            explanation: "Arabic numerals are employed in outlining to indicate ideas and create a new action."
+            },
+            {
+            question: "Outline is represented by",
+            answers: [
+            { text: "divisions", correct: false },
+            { text: "ranks", correct: false },
+            { text: "phrases", correct: false },
+            { text: "clauses", correct: true }
+            ],
+            explanation: "Outline is represented by clauses."
+            },
+            {
+            question: "For idea multiplying which one is odd?",
+            answers: [
+            { text: "Besides", correct: false },
+            { text: "above all", correct: false },
+            { text: "moreover", correct: false },
+            { text: "now", correct: true }
+            ],
+            explanation: "'Now' is odd in the context of multiplying ideas."
+            },
+            {
+            question: "Intextual cohesive in discourse can be achieved through one of the following",
+            answers: [
+            { text: "semicolon", correct: true },
+            { text: "logical connectives", correct: false },
+            { text: "but-connectives", correct: false },
+            { text: "catastrophic connective", correct: false }
+            ],
+            explanation: "Intextual cohesive in discourse can be achieved through a semicolon."
+            },
+            {
+              question: "The central definition quality of outlining is...",
+              answers: [
+              { text: "Brevity", correct: true },
+              { text: "Hypothetical quality", correct: false },
+              { text: "Elucidatory nature", correct: false },
+              { text: "Simplicity", correct: false }
+              ],
+              explanation: "The central quality of outlining is brevity, which emphasizes concise representation of ideas."
+              },
+              {
+              question: "Definition used to achieve rhetorical ends may be influenced by...",
+              answers: [
+              { text: "Government", correct: false },
+              { text: "Personality", correct: false },
+              { text: "Impression", correct: true },
+              { text: "Intention", correct: false }
+              ],
+              explanation: "Definitions used for rhetorical purposes may be influenced by the impression they aim to create."
+              },
+              {
+              question: "Which of the following connectives is the restatement of ideas?",
+              answers: [
+              { text: "In that case", correct: false },
+              { text: "Rather", correct: false },
+              { text: "In other words", correct: false },
+              { text: "Thus", correct: true }
+              ],
+              explanation: "The connective 'Thus' is used to indicate a restatement or conclusion of previously stated ideas."
+              },
+              {
+              question: "For drawing contrast with ideas first presented, which connective comes in handy?",
+              answers: [
+              { text: "And", correct: false },
+              { text: "Or", correct: false },
+              { text: "But", correct: true },
+              { text: "None of the above", correct: false }
+              ],
+              explanation: "The connective 'But' is used to introduce contrast with previously presented ideas."
+              },
+              {
+              question: "Morpheme could be described as...",
+              answers: [
+              { text: "Smallest meaningful unit of a language", correct: true },
+              { text: "Smallest meaningless unit of a language", correct: false },
+              { text: "Highest meaningless unit of a language", correct: false },
+              { text: "Highest meaningful unit of a language", correct: false }
+              ],
+              explanation: "A morpheme is defined as the smallest meaningful unit of a language."
+              },
+              {
+              question: "What numerals are used to indicate ideas in outline?",
+              answers: [
+              { text: "Roman", correct: false },
+              { text: "Arabic", correct: true },
+              { text: "Numerical", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Arabic numerals are used to indicate different levels of ideas in an outline."
+              },
+              {
+              question: "He was playing with us when my father entered the room. The italicised portion of the sentence is an example of...",
+              answers: [
+              { text: "Simple present tense", correct: false },
+              { text: "Past progressive tense", correct: true },
+              { text: "Past perfect tense", correct: false },
+              { text: "None of the above", correct: false }
+              ],
+              explanation: "The phrase 'was playing' is in the past progressive tense, indicating an ongoing action in the past."
+              },
+              {
+              question: "The adjoining of a prefix to a bound morpheme is called...",
+              answers: [
+              { text: "Prefixation", correct: true },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "The process of adding a prefix to a bound morpheme is known as prefixation."
+              },
+              {
+              question: "When ellipsis is used in an expression, the message...",
+              answers: [
+              { text: "Will not be understood", correct: false },
+              { text: "Will still be understood", correct: true },
+              { text: "Will not be fully understood", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Ellipsis in an expression indicates that some information is omitted but the message can still be understood."
+              },
+              {
+              question: "The root word in hyperacidity is...",
+              answers: [
+              { text: "Acid", correct: true },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "The root word in 'hyperacidity' is 'acid'."
+              },
+              {
+              question: "The suffix in the word 'regrettable' is...",
+              answers: [
+              { text: "Adjective", correct: true },
+              { text: "Noun", correct: false },
+              { text: "Adverb", correct: false },
+              { text: "Pronoun", correct: false }
+              ],
+              explanation: "The word 'regrettable' ends with the suffix '-able', which typically forms adjectives."
+              },
+              {
+              question: "Classification depends on similarities and...",
+              answers: [
+              { text: "Differences", correct: true },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Classification involves grouping things based on their similarities and differences."
+              },
+              {
+              question: "The definitional approach for a scientist is...",
+              answers: [
+              { text: "Descriptive", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Scientists typically use descriptive definitions to clarify terms and concepts."
+              },
+              {
+              question: "The word 'motel' is formed using...",
+              answers: [
+              { text: "Blending", correct: true },
+              { text: "Compounding", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "The word 'motel' is a blend formed from 'motor' and 'hotel'."
+              },
+              {
+              question: "The first step in project writing is...",
+              answers: [
+              { text: "Looking for a vacuum", correct: true },
+              { text: "Looking for aim and objectives", correct: false },
+              { text: "Picking a topic", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "The first step in project writing is identifying a gap or research question (vacuum)."
+              },
+              {
+              question: "Addition of abbreviation and acronym is...",
+              answers: [
+              { text: "Synonyms", correct: false },
+              { text: "Antonyms", correct: false },
+              { text: "Acronyms", correct: true },
+              { text: "", correct: false }
+              ],
+              explanation: "Abbreviations and acronyms are forms of shortened words or phrases."
+              },
+              {
+              question: "To outline means to...",
+              answers: [
+              { text: "Define", correct: false },
+              { text: "List", correct: false },
+              { text: "Show structure", correct: false },
+              { text: "Delineate facts", correct: true }
+              ],
+              explanation: "Outlining involves organizing information to show its structure and main points."
+              },
+              {
+              question: "The city of publishing and name of publisher in a bibliography is separated by...",
+              answers: [
+              { text: "Colon", correct: false },
+              { text: "Semi-colon", correct: false },
+              { text: "Comma", correct: true },
+              { text: "Full stop", correct: false }
+              ],
+              explanation: "In a bibliography, the city of publishing and name of publisher are separated by a comma."
+              },
+              {
+              question: "One of the following is not a definition of hypothesis...",
+              answers: [
+              { text: "A preposition assumed for the sake of an argument", correct: false },
+              { text: "A supposition", correct: false },
+              { text: "A theory to prove or to be disproved", correct: false },
+              { text: "To fix the bound or limits of words", correct: true }
+              ],
+              explanation: "A hypothesis is not about fixing the bounds or limits of words; it's about proposing explanations or predictions."
+              },
+              {
+              question: "Viewers at home, here is the breaking news. PDP won the election. 'Here' in the statement denotes...",
+              answers: [
+              { text: "Cataphoric", correct: false },
+              { text: "Anaphoric", correct: true },
+              { text: "Connotation", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "'Here' refers back to a previously mentioned place or situation, making it an anaphoric reference."
+              },
+              {
+              question: "Graphic representation makes the outline...",
+              answers: [
+              { text: "Easy to read", correct: false },
+              { text: "Helps understand the main text", correct: true },
+              { text: "Helps to see what is not", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Graphic representation of an outline helps in visualizing and understanding the structure and content of the main text."
+              },
+              {
+              question: "The mnemonic in the word 'babies' is...",
+              answers: [
+              { text: "Babies + o", correct: true },
+              { text: "Baby + es", correct: false },
+              { text: "Babi + ies", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "The plural form 'babies' is formed by adding '-ies' to 'baby'."
+              },
+              {
+              question: "The grammatical structure 'a man is a rational animal' is...",
+              answers: [
+              { text: "Group", correct: false },
+              { text: "Phrase", correct: false },
+              { text: "Sentence", correct: true },
+              { text: "", correct: false }
+              ],
+              explanation: "The statement 'a man is a rational animal' forms a complete sentence."
+              },
+              {
+              question: "The expression of a familiar notion is...",
+              answers: [
+              { text: "Clause", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "Phrase", correct: true }
+              ],
+              explanation: "A familiar notion is often expressed as a phrase."
+              },
+              {
+              question: "Definitions used to achieve rhetorical end may be influenced by...",
+              answers: [
+              { text: "Impression/Idiosyncrasy", correct: true },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Rhetorical definitions can be influenced by the impression or personal style of the speaker or writer."
+              },
+              {
+              question: "Which of the following does not belong to the same class?",
+              answers: [
+              { text: "Noun", correct: false },
+              { text: "Adjective", correct: false },
+              { text: "Pronoun", correct: false },
+              { text: "Verb", correct: true }
+              ],
+              explanation: "Among 'Noun', 'Adjective', 'Pronoun', and 'Verb', the word 'Verb' does not belong to the same class as the others."
+              },
+              {
+              question: "The word 'webcam' is formed from web and camera by...",
+              answers: [
+              { text: "Blending", correct: false },
+              { text: "Compounding", correct: true },
+              { text: "Clipping", correct: false },
+              { text: "Blend", correct: false }
+              ],
+              explanation: "The word 'webcam' is formed by compounding 'web' and 'camera'."
+              },
+              {
+              question: "Concluding that something bad has happened by seeing a gathering of people crying and glooming is associated by ________ reasoning.",
+              answers: [
+              { text: "Inductive", correct: true },
+              { text: "Logical", correct: false },
+              { text: "Deductive", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Inductive reasoning involves drawing general conclusions from specific observations or evidence."
+              },
+              {
+              question: "The definition of many disciplines (e.g., Economics, Biology, etc.) is ________ definition.",
+              answers: [
+              { text: "Descriptive", correct: true },
+              { text: "Example", correct: false },
+              { text: "Synonyms", correct: false },
+              { text: "Logical/Formal", correct: false }
+              ],
+              explanation: "The definition used in disciplines like Economics and Biology tends to be descriptive, focusing on clarifying terms."
+              },
+              {
+              question: "_________ helps to emphasize an important point.",
+              answers: [
+              { text: "Substitution", correct: false },
+              { text: "Repetition", correct: true },
+              { text: "Addition", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "Repetition is used to emphasize important points or ideas in writing."
+              },
+              {
+              question: "The morpheme that can be independent is called...",
+              answers: [
+              { text: "Free Morpheme", correct: true },
+              { text: "", correct: false },
+              { text: "", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "A free morpheme is a morpheme that can stand alone as a word."
+              },
+              {
+              question: "As immunization implies vaccination, this definition is formed from the lexical structure...",
+              answers: [
+              { text: "Phrase", correct: true },
+              { text: "Word", correct: false },
+              { text: "Clause", correct: false },
+              { text: "", correct: false }
+              ],
+              explanation: "The definition 'immunization implies vaccination' is formed from a phrase."
+              },
+              {
+              question: "_________ affixation brings about changes in the word class.",
+              answers: [
+              { text: "Inflectional", correct: false },
+              { text: "Suffixation", correct: false },
+              { text: "Prefixation", correct: false },
+              { text: "Derivational", correct: true }
+              ],
+              explanation: "Derivational affixation changes the word class (e.g., noun to adjective, verb to noun)."
+              },
+              {
+              question: "Drawing contrast from prior idea is achieved by the engagement of one of the connectives below.",
+              answers: [
+              { text: "Accordingly", correct: false },
+              { text: "Nonetheless", correct: false },
+              { text: "Although", correct: false },
+              { text: "Conversely", correct: true }
+              ],
+              explanation: "The connective 'Conversely' is used to introduce contrast or opposite ideas."
+              },
+              {
+              question: "The contribution to knowledge in a scientific project is in ________.",
+              answers: [
+              { text: "Hypothesis of study", correct: false },
+              { text: "Goal of study", correct: false },
+              { text: "Problem of study", correct: false },
+              { text: "Significance of study", correct: true }
+              ],
+              explanation: "The significance of study refers to the contribution a scientific project makes to existing knowledge."
+              },
+              {
+              question: "A major quality of definition by synonym is...",
+              answers: [
+              { text: "Verbosity", correct: false },
+              { text: "Repetition", correct: false },
+              { text: "Emphasis", correct: false },
+              { text: "Brevity", correct: true }
+              ],
+              explanation: "A definition by synonym aims for brevity, providing a concise alternative term or phrase."
+              },
+              {
+              question: "Characteristics of a good outline include the following except...",
+              answers: [
+              { text: "Orderly", correct: false },
+              { text: "Accuracy", correct: false },
+              { text: "Brevity", correct: false },
+              { text: "Clarity", correct: true }
+              ],
+              explanation: "Clarity is essential in a good outline, ensuring that the structure and content are easily understandable."
+              },
+              {
+              question: "Coherence of an outline implies...",
+              answers: [
+              { text: "The significance of the outline", correct: false },
+              { text: "Logicality", correct: false },
+              { text: "Correlatedness of the topic to the outline", correct: true },
+              { text: "The use of words", correct: false }
+              ],
+              explanation: "Coherence in an outline means that the different parts are logically connected and related to the main topic."
+              },
+              {
+              question: "All of the following are logical instances except...",
+              answers: [
+              { text: "Phoric reference, substitution, repetition", correct: true },
+              { text: "Alternatively, however", correct: false },
+              { text: "However, beside, therefore", correct: false },
+              { text: "And, or, but", correct: false }
+              ],
+              explanation: "Phoric reference, substitution, and repetition are cohesive devices, not logical instances."
+              },
+              {
+              question: "Essential to the composition of a word in English...",
+              answers: [
+              { text: "Word formation", correct: false },
+              { text: "Morphemes", correct: true },
+              { text: "Language", correct: false },
+              { text: "Unit", correct: false }
+              ],
+              explanation: "Morphemes are fundamental to the composition of words in English, as they are the smallest units of meaning."
+              },
+              {
+              question: "A man is a rational animal is...",
+              answers: [
+              { text: "Sentence", correct: true },
+              { text: "Clause", correct: false },
+              { text: "Phrase", correct: false },
+              { text: "None", correct: false }
+              ],
+              explanation: "The statement A man is a rational animal forms a complete sentence."
+              },
+              {
+              question: "Outlining addresses the following except...",
+              answers: [
+              { text: "Reproducing a text in an abridged version", correct: false },
+              { text: "Writing a structural and detailed statement", correct: false },
+              { text: "Presenting essential contents of a passage", correct: false },
+              { text: "Ambiguity", correct: true }
+              ],
+              explanation: "Outlining aims to clarify and organize information, not to introduce ambiguity."
+              },
+              {
+              question: "Syllogism refers to...",
+              answers: [
+              { text: "Reasoning inductively", correct: false },
+              { text: "Reasoning syllogistically", correct: true },
+              { text: "Making logical statements having premises and conclusion", correct: false },
+              { text: "Drawing conclusion", correct: false }
+              ],
+              explanation: "Syllogism involves reasoning syllogistically, using deductive logic with premises leading to a conclusion."
+              },
+              {
+              question: "A good outline reflects...",
+              answers: [
+              { text: "Brevity", correct: false },
+              { text: "Clarity", correct: false },
+              { text: "Accuracy", correct: false },
+              { text: "Orderliness", correct: true }
+              ],
+              explanation: "A good outline should be orderly, organizing information in a structured and logical manner."
+              },
+              {
+              question: "Each of the types of deflective attempts to shed light on the following except...",
+              answers: [
+              { text: "Topic", correct: false },
+              { text: "Comprehension", correct: false },
+              { text: "Concept", correct: false },
+              { text: "Subject", correct: true }
+              ],
+              explanation: "Deflective attempts (e.g., definitions, explanations) aim to clarify topics, comprehension, and concepts, not subjects."
+              },
+              {
+              question: "What type of definition is mostly used for the scientific definition of terms and concepts?",
+              answers: [
+              { text: "By logic", correct: true },
+              { text: "By example", correct: false },
+              { text: "Description", correct: false },
+              { text: "Comparison", correct: false }
+              ],
+              explanation: "Scientific definitions often rely on logical definitions to precisely define terms and concepts."
+              },
+              {
+              question: "The formal definition was mostly used by logicians during the time of...",
+              answers: [
+              { text: "Socrates", correct: false },
+              { text: "Colby", correct: false },
+              { text: "Bongo", correct: false },
+              { text: "Aristotle", correct: true }
+              ],
+              explanation: "The formal definition was prominently used by logicians such as Aristotle."
+              },
+              {
+              question: "Ideas are summed up during one of the following connectives...",
+              answers: [
+              { text: "Consequently", correct: false },
+              { text: "Above all", correct: false },
+              { text: "So", correct: true },
+              { text: "", correct: false }
+              ],
+              explanation: "The connective 'So' is used to sum up ideas or conclusions."
+              },
+              {
+              question: "One of the following assists in making generalizations...",
+              answers: [
+              { text: "Hypothesis", correct: false },
+              { text: "Deductive reasoning", correct: true },
+              { text: "Classification", correct: false },
+              { text: "Comparison", correct: false }
+              ],
+              explanation: "Deductive reasoning involves deriving specific conclusions from general principles, aiding in making generalizations."
+              },
+              {
+                question: "These tools are old ________ still good.",
+                answers: [
+                  { text: "Because", correct: false },
+                  { text: "So", correct: false },
+                  { text: "And", correct: false },
+                  { text: "But", correct: true }
+                ],
+                explanation: "The correct answer is 'But'. The sentence structure indicates contrast: despite being old, the tools are still good."
+              },
+              {
+                question: "The 'And' connective is used for all but one of the following functions.",
+                answers: [
+                  { text: "Movement from idea", correct: false },
+                  { text: "Drawing contrast with earlier idea", correct: true },
+                  { text: "Presenting result of idea", correct: false },
+                  { text: "Summing up of idea", correct: false }
+                ],
+                explanation: "'And' is not typically used to draw contrast with earlier ideas; it usually connects ideas or presents results."
+              },
+              {
+                question: "The word 'Photograph' writing or drawing with night; the coted verb in the sentence is expressed in the...",
+                answers: [
+                  { text: "Simple present tense", correct: true },
+                  { text: "Future tense", correct: false },
+                  { text: "Present perfect progressive tense", correct: false },
+                  { text: "A and B above", correct: false }
+                ],
+                explanation: "The correct answer is 'Simple present tense'. 'Photograph' is used in the simple present tense in this context."
+              },
+              {
+                question: "______ is one of the four communication skills.",
+                answers: [
+                  { text: "Learning", correct: false },
+                  { text: "Reading", correct: false },
+                  { text: "Writing", correct: false },
+                  { text: "Speaking", correct: false },
+                  { text: "All of the above", correct: true }
+                ],
+                explanation: "The correct answer is 'All of the above'. Learning, reading, writing, and speaking are all communication skills."
+              },
+              {
+                question: "Which word formation process is occasionally changed in society outlook?",
+                answers: [
+                  { text: "Affixation", correct: false },
+                  { text: "Clipping", correct: false },
+                  { text: "Blending", correct: false },
+                  { text: "Neologism", correct: true }
+                ],
+                explanation: "The correct answer is 'Neologism'. Neologism is the creation of new words or expressions that reflect changes in society."
+              },
+              {
+                question: "The contribution to knowledge in a scientific project is stated in the ________.",
+                answers: [
+                  { text: "Goals of the study", correct: false },
+                  { text: "Hypothesis of the study", correct: false },
+                  { text: "Problem of the study", correct: false },
+                  { text: "Significance of the study", correct: true }
+                ],
+                explanation: "The correct answer is 'Significance of the study'. It refers to the contribution of the scientific project to existing knowledge."
+              },
+              {
+                question: "The identity between what is being said and what has been said before is realized through ________.",
+                answers: [
+                  { text: "Semantic reference", correct: false },
+                  { text: "Discourse reference", correct: false },
+                  { text: "Phoric reference", correct: true },
+                  { text: "Discourse marker", correct: false }
+                ],
+                explanation: "The correct answer is 'Phoric reference'. It creates a link between what is being said and what has been said before."
+              },
+              {
+                question: "The set of words 'Spill the beans' is formed using?",
+                answers: [
+                  { text: "Affixation", correct: false },
+                  { text: "Blending", correct: false },
+                  { text: "Idiomatism", correct: true },
+                  { text: "Neologism", correct: false }
+                ],
+                explanation: "The correct answer is 'Idiomatism'. 'Spill the beans' is an example of an idiom."
+              },
+              {
+                question: "Which definition uses the characteristics of what is being defined?",
+                answers: [
+                  { text: "Inflectional", correct: false },
+                  { text: "Experiential", correct: false },
+                  { text: "Descriptive", correct: true },
+                  { text: "Synonyms", correct: false }
+                ],
+                explanation: "The correct answer is 'Descriptive'. Descriptive definitions focus on the characteristics of what is being defined."
+              },
+              {
+                question: "The affixation which does not result in a change of word class is ________.",
+                answers: [
+                  { text: "Inflectional", correct: false },
+                  { text: "Experiential", correct: false },
+                  { text: "Inflectional", correct: true },
+                  { text: "Root", correct: false }
+                ],
+                explanation: "The correct answer is 'Inflectional'. Inflectional affixation does not change the word class (e.g., adding 's' for plural)."
+              },
+              {
+                question: "Only works that are mentioned in the body of a project are found in the ________.",
+                answers: [
+                  { text: "Background of the study", correct: false },
+                  { text: "Literature review", correct: true },
+                  { text: "Reference", correct: false },
+                  { text: "Bibliography", correct: false }
+                ],
+                explanation: "The correct answer is 'Literature review'. It includes works cited and discussed in the main body of the project."
+              },
+              {
+                question: "Inflexional suffix never changes the ________.",
+                answers: [
+                  { text: "Base meaning", correct: true },
+                  { text: "Tense", correct: false },
+                  { text: "Plurality", correct: false },
+                  { text: "Polarity", correct: false }
+                ],
+                explanation: "The correct answer is 'Base meaning'. Inflectional suffixes (e.g., '-s' for plural) do not alter the base meaning of a word."
+              },
+              {
+                question: "The type of definition characterized by brevity is",
+                answers: [
+                  { text: "Definition of description", correct: false },
+                  { text: "Formal definition", correct: false },
+                  { text: "Definition by example", correct: false },
+                  { text: "Definition by synonyms", correct: true }
+                ],
+                explanation: "The correct answer is 'Definition by synonyms'. It provides a brief alternative term or phrase for what is defined."
+              },
+              {
+                question: "The word 'Reproductive' has the structure?",
+                answers: [
+                  { text: "Bound + free + bound", correct: false },
+                  { text: "Free + bound + free", correct: false },
+                  { text: "Free + free + bound", correct: false },
+                  { text: "Bound + free + free", correct: true }
+                ],
+                explanation: "The correct answer is 'Bound + free + free'. 'Reproductive' is formed by combining 're' (bound), 'produce' (free), and 'ive' (free)."
+              },
+              {
+                question: "One of the following is not an example of an Acronym.",
+                answers: [
+                  { text: "AC", correct: false },
+                  { text: "SG", correct: false },
+                  { text: "Lifo", correct: false },
+                  { text: "Piano", correct: true }
+                ],
+                explanation: "The correct answer is 'Piano'. The others (AC, SG, Lifo) are examples of acronyms, while 'Piano' is not."
+              },
+              {
+                question: "The process of joining two or more free morphemes together is called",
+                answers: [
+                  { text: "Affixation", correct: false },
+                  { text: "Compounding", correct: true },
+                  { text: "Clipping", correct: false },
+                  { text: "Suffixation", correct: false }
+                ],
+                explanation: "The correct answer is 'Compounding'. It involves combining two or more free morphemes to form a new word."
+              },
+              {
+                question: "What is the root word of 'Hyperacidity'?",
+                answers: [
+                  { text: "Acid", correct: true },
+                  { text: "Acidity", correct: false },
+                  { text: "Hyper", correct: false }
+                ],
+                explanation: "The correct answer is 'Acid'. 'Hyperacidity' is derived from 'acid', with 'hyper' as a prefix."
+              },
+              {
+                question: "Some devices of comparison used in comparative definition include metaphor, simile, and ________.",
+                answers: [
+                  { text: "Irony", correct: false },
+                  { text: "Personification", correct: true },
+                  { text: "Apostrophe", correct: false },
+                  { text: "Metasimile", correct: false }
+                ],
+                explanation: "The correct answer is 'Personification'. It involves attributing human qualities to non-human entities for comparison."
+              },
+              {
+                question: "Phoric reference creates a link between",
+                answers: [
+                  { text: "What is being said", correct: false },
+                  { text: "What has been said before", correct: false },
+                  { text: "A and B", correct: true },
+                  { text: "None of the above", correct: false }
+                ],
+                explanation: "The correct answer is 'A and B'. Phoric reference connects both the current and previous statements."
+              },
+              {
+                question: "Words can often be divided into",
+                answers: [
+                  { text: "Graphemes", correct: true },
+                  { text: "Progmeme", correct: false },
+                  { text: "Allopracts", correct: false },
+                  { text: "Morphemes", correct: false }
+                ],
+                explanation: "The correct answer is 'Graphemes'. Graphemes are the smallest units of a writing system (e.g., letters, symbols)."
+              },
+              {
+                question: "The definition that has a tendency for mere approximation is the definition by ________.",
+                answers: [
+                  { text: "Example", correct: true },
+                  { text: "Description", correct: false },
+                  { text: "Logic", correct: false },
+                  { text: "Synonyms", correct: false }
+                ],
+                explanation: "The correct answer is 'Example'. Definition by example tends to provide a general idea rather than a precise definition."
+              },
+              {
+                question: "A particular group of items could be classified differently by individuals because classification could be",
+                answers: [
+                  { text: "Objective", correct: false },
+                  { text: "Necessary", correct: false },
+                  { text: "Subjective", correct: true },
+                  { text: "Classifiable", correct: false }
+                ],
+                explanation: "The correct answer is 'Subjective'. Classification can vary based on personal perspectives or criteria."
+              },
+              {
+                question: "The cohesive device that is usually for the sake of emphasis on certain words is ________.",
+                answers: [
+                  { text: "Substitution", correct: false },
+                  { text: "Ellipsis", correct: false },
+                  { text: "Reference", correct: false },
+                  { text: "Repetition", correct: true }
+                ],
+                explanation: "The correct answer is 'Repetition'. It emphasizes certain words or ideas by repeating them."
+              },
+              {
+                question: "Tool bar is an example of",
+                answers: [
+                  { text: "Blending", correct: false },
+                  { text: "Compounding", correct: true },
+                  { text: "Acronym", correct: false },
+                  { text: "Clipping", correct: false }
+                ],
+                explanation: "The correct answer is 'Compounding'. 'Toolbar' is formed by combining 'tool' and 'bar' to create a new word."
+              },
+              {
+                question: "Subdivision in outlining enhances",
+                answers: [
+                  { text: "Simple use of English", correct: false },
+                  { text: "Easy marking", correct: false },
+                  { text: "Graphical representation of ideas", correct: false },
+                  { text: "Easy induction of ideas", correct: true }
+                ],
+                explanation: "The correct answer is 'Easy induction of ideas'. Subdivision helps organize and clarify ideas for easier understanding."
+              },
+              {
+                question: "The problem with the definition 'Cleaning soap is the soap that cleanses' shows",
+                answers: [
+                  { text: "Circularity", correct: true },
+                  { text: "Rotationality", correct: false },
+                  { text: "Logicality", correct: false },
+                  { text: "Formality", correct: false }
+                ],
+                explanation: "The correct answer is 'Circularity'. The definition is circular because it uses the term being defined ('cleansing') within its own definition."
+              },
+              {
+                question: "Coherence of an outline implies",
+                answers: [
+                  { text: "Co-relatedness of the topic of the outline", correct: true },
+                  { text: "The significance of the outline", correct: false },
+                  { text: "Logicality", correct: false },
+                  { text: "The use of words", correct: false }
+                ],
+                explanation: "The correct answer is 'Co-relatedness of the topic of the outline'. Coherence ensures that all parts of the outline are connected and relevant."
+              },
+              {
+                question: "The type of definition mostly used for scientific definitions of terms and concepts is ________.",
+                answers: [
+                  { text: "Definition by description", correct: false },
+                  { text: "Definition by logic", correct: true },
+                  { text: "Definition by comparison", correct: false },
+                  { text: "Definition by example", correct: false }
+                ],
+                explanation: "The correct answer is 'Definition by logic'. Scientific definitions often rely on precise logical definitions to clarify terms and concepts."
+              },
+              {
+                question: "A good outline enhances",
+                answers: [
+                  { text: "Easy representation", correct: false },
+                  { text: "Easy recall", correct: false },
+                  { text: "Easy link with the main text", correct: true },
+                  { text: "Easy presentation", correct: false }
+                ],
+                explanation: "The correct answer is 'Easy link with the main text'. A good outline facilitates easy navigation and reference to the main text."
+              },
+              {
+                question: "______ is a good outline that represents graphics.",
+                answers: [
+                  { text: "Clarity", correct: false },
+                  { text: "Brevity", correct: false },
+                  { text: "Accuracy", correct: false },
+                  { text: "Orderliness", correct: true }
+                ],
+                explanation: "The correct answer is 'Orderliness'. An orderly outline organizes information clearly, which can include graphical representation."
+              },
+              {
+                question: "The root morpheme in 'gone' is",
+                answers: [
+                  { text: "ed", correct: false },
+                  { text: "en", correct: false },
+                  { text: "gone itself", correct: false },
+                  { text: "go", correct: true }
+                ],
+                explanation: "The correct answer is 'go'. 'Gone' is derived from the root morpheme 'go'."
+              },
+              {
+                question: "One of the following is not a form of a main verb.",
+                answers: [
+                  { text: "es", correct: true },
+                  { text: "base", correct: false },
+                  { text: "ed", correct: false },
+                  { text: "ing", correct: false }
+                ],
+                explanation: "The correct answer is 'es'. 'Es' is not a form of a main verb; it is a form of the auxiliary verb 'to be'."
+              },
+              {
+                question: "Words found through ____ are mostly found in English passages.",
+                answers: [
+                  { text: "Clipping", correct: false },
+                  { text: "Blending", correct: false },
+                  { text: "Affixation", correct: true },
+                  { text: "Compounding", correct: false }
+                ],
+                explanation: "The correct answer is 'Affixation'. Affixation, adding prefixes or suffixes to roots, is common in English word formation."
+              },
+              {
+                question: "______ depends on differences and similarities.",
+                answers: [
+                  { text: "Definition", correct: false },
+                  { text: "Classification", correct: true },
+                  { text: "Generalizing", correct: false }
+                ],
+                explanation: "The correct answer is 'Classification'. Classification categorizes based on similarities and differences."
+              },
+              {
+                question: "For perfect re-statement of ideas, connectives used are ________.",
+                answers: [
+                  { text: "Or", correct: false },
+                  { text: "And", correct: false },
+                  { text: "But", correct: false },
+                  { text: "With", correct: true }
+                ],
+                explanation: "The correct answer is 'With'. Connectives like 'with' are used for perfect restatement of ideas."
+              },
+              {
+                question: "______ is projected forward.",
+                answers: [
+                  { text: "Anaphoric", correct: false },
+                  { text: "Phoric", correct: false },
+                  { text: "Cataphoric", correct: true },
+                  { text: "Antiphoric", correct: false }
+                ],
+                explanation: "The correct answer is 'Cataphoric'. Cataphoric references point forward to something mentioned later."
+              },
+              {
+                question: "Man is a rational animal is a ________.",
+                answers: [
+                  { text: "Phrase", correct: false },
+                  { text: "Clause", correct: true },
+                  { text: "Word", correct: false },
+                  { text: "Group", correct: false }
+                ],
+                explanation: "The correct answer is 'Clause'. 'Man is a rational animal' is a clause, a group of words with a subject and verb."
+              },
+              {
+                question: "Which one is odd?",
+                answers: [
+                  { text: "In addition", correct: false },
+                  { text: "Again", correct: false },
+                  { text: "Above all", correct: false },
+                  { text: "So", correct: true }
+                ],
+                explanation: "The correct answer is 'So'. 'So' is not typically used in the same way as the other options to emphasize or add information."
+              },
+              {
+                question: "The type of definition that is based on scientific research is ________?",
+                answers: [
+                  { text: "Hypothesis", correct: true },
+                  { text: "Generalization", correct: false },
+                  { text: "Classification", correct: false }
+                ],
+                explanation: "The correct answer is 'Hypothesis'. A hypothesis is a type of definition based on scientific research and experimentation."
+              },
+              {
+                question: "'Considering' is an example of which connective?",
+                answers: [
+                  { text: "But", correct: false },
+                  { text: "Or", correct: false },
+                  { text: "And", correct: true }
+                ],
+                explanation: "The correct answer is 'And'. 'Considering' is used to introduce a reason or factor."
+              },
+              {
+                question: "The word 'outlook' is an",
+                answers: [
+                  { text: "Affixation", correct: false },
+                  { text: "Clipping", correct: false },
+                  { text: "Blending", correct: false },
+                  { text: "Compounding", correct: true }
+                ],
+                explanation: "The correct answer is 'Compounding'. 'Outlook' is formed by combining 'out' and 'look' to create a new word."
+              },
+              {
+                question: "A leopard is a wild cat is an example of what type of definition?",
+                answers: [
+                  { text: "Formal", correct: false },
+                  { text: "Description", correct: false },
+                  { text: "Example", correct: false },
+                  { text: "Synonym", correct: true }
+                ],
+                explanation: "The correct answer is 'Synonym'. It provides a similar meaning rather than a precise definition."
+              },
+              {
+                question: "How many types of outline do we have?",
+                answers: [
+                  { text: "4", correct: false },
+                  { text: "2", correct: true },
+                  { text: "5", correct: false },
+                  { text: "3", correct: false }
+                ],
+                explanation: "The correct answer is '2'. There are two main types of outlines: topic outlines and sentence outlines."
+              },
+              {
+                question: "Full stop is used in outlining to",
+                answers: [
+                  { text: "Indicate the end of a sentence", correct: false },
+                  { text: "Indicate the end of an idea", correct: true },
+                  { text: "Show division", correct: false }
+                ],
+                explanation: "The correct answer is 'Indicate the end of an idea'. In outlining, a full stop (.) is used to mark the completion of an idea or point."
+              },
+              {
+                question: "Arabic numerals are employed in outlining to",
+                answers: [
+                  { text: "Show paragraphs", correct: false },
+                  { text: "Represent actions", correct: false },
+                  { text: "Indicate ideas", correct: true }
+                ],
+                explanation: "The correct answer is 'Indicate ideas'. Arabic numerals (1, 2, 3, ...) are used to denote different levels of importance or hierarchy in outlining."
+              },
+              {
+                question: "Phoric reference is also known as",
+                answers: [
+                  { text: "Cataphoric", correct: false },
+                  { text: "Anaphoric", correct: false },
+                  { text: "Discourse", correct: true }
+                ],
+                explanation: "The correct answer is 'Discourse'. Phoric reference connects elements within a discourse."
+              },
+              {
+                question: "FAQ could be framed through",
+                answers: [
+                  { text: "Acronym", correct: true },
+                  { text: "Affixation", correct: false },
+                  { text: "Algebraism", correct: false }
+                ],
+                explanation: "The correct answer is 'Acronym'. FAQ stands for Frequently Asked Questions, which is an example of an acronym."
+              },
+              {
+                question: "Definitions used to achieve rhetorical ends may be influenced by",
+                answers: [
+                  { text: "Personality", correct: true },
+                  { text: "Impression", correct: false },
+                  { text: "Government", correct: false },
+                  { text: "Intention", correct: false }
+                ],
+                explanation: "The correct answer is 'Personality'. Definitions can be shaped by the speaker's or writer's personality or style."
+              },
+              {
+                question: "Which connective is used for transitional function?",
+                answers: [
+                  { text: "However", correct: true },
+                  { text: "Now", correct: false },
+                  { text: "Consequently", correct: false }
+                ],
+                explanation: "The correct answer is 'However'. 'However' is used to introduce a contrast or transition between ideas."
+              },
+
 
 
 
@@ -9440,6 +15615,2055 @@ const quizData = {
             ],
             explanation: "When ebonite is rubbed with fur, electrons transfer from the fur to the ebonite, making the ebonite negatively charged."
         },    
+        {
+          question: "When Group I element forms ionic hydride, the hydrogen presents as",
+          answers: [
+            { text: "Neutral ion", correct: false },
+            { text: "Neutral atom", correct: false },
+            { text: "Negative ion", correct: true },
+            { text: "Positive ion", correct: false }
+          ],
+          explanation: "When Group I element forms ionic hydride, the hydrogen presents as a negative ion. This is because Group I elements (alkali metals) readily donate their outer electron to form a hydride ion (H⁻)."
+        },
+        {
+          question: "The SI unit of electric charge is",
+          answers: [
+            { text: "Ampere (A)", correct: false },
+            { text: "Coulomb (C)", correct: true },
+            { text: "Volt (V)", correct: false },
+            { text: "Ohm (Ω)", correct: false }
+          ],
+          explanation: "The SI unit of electric charge is Coulomb (C), defined as the charge transported by a constant current of one ampere in one second."
+        },
+        {
+          question: "The law of reflection states that the angle of incidence is __________ the angle of reflection.",
+          answers: [
+            { text: "Equal to", correct: true },
+            { text: "Greater than", correct: false },
+            { text: "Less than", correct: false },
+            { text: "Unrelated to", correct: false }
+          ],
+          explanation: "According to the law of reflection, the angle of incidence is equal to the angle of reflection. This law governs the reflection of light waves from a smooth surface."
+        },
+        {
+          question: "The property of a material to recover its original shape and size after the removal of deforming force is called",
+          answers: [
+            { text: "Elasticity", correct: true },
+            { text: "Plasticity", correct: false },
+            { text: "Viscosity", correct: false },
+            { text: "Ductility", correct: false }
+          ],
+          explanation: "Elasticity is the property of a material to recover its original shape and size after the removal of deforming force. It is a characteristic feature of solids."
+        },
+        {
+          question: "A concave lens is also known as a",
+          answers: [
+            { text: "Converging lens", correct: false },
+            { text: "Diverging lens", correct: true },
+            { text: "Cylindrical lens", correct: false },
+            { text: "Spherical lens", correct: false }
+          ],
+          explanation: "A concave lens is known as a diverging lens because it causes parallel rays of light to diverge after refraction."
+        },
+        {
+          question: "Which of the following is not a vector quantity?",
+          answers: [
+            { text: "Force", correct: false },
+            { text: "Speed", correct: true },
+            { text: "Momentum", correct: false },
+            { text: "Acceleration", correct: false }
+          ],
+          explanation: "Speed is a scalar quantity, not a vector quantity. It only has magnitude and no direction, unlike force, momentum, and acceleration."
+        },
+        {
+          question: "The phenomenon of splitting of light into its constituent colors is known as",
+          answers: [
+            { text: "Reflection", correct: false },
+            { text: "Diffusion", correct: false },
+            { text: "Refraction", correct: false },
+            { text: "Dispersion", correct: true }
+          ],
+          explanation: "The phenomenon of splitting of light into its constituent colors (like in a rainbow) is known as dispersion. This occurs due to different wavelengths of light being refracted by different amounts."
+        },
+        {
+          question: "The energy possessed by an object due to its motion is called",
+          answers: [
+            { text: "Potential energy", correct: false },
+            { text: "Kinetic energy", correct: true },
+            { text: "Internal energy", correct: false },
+            { text: "Mechanical energy", correct: false }
+          ],
+          explanation: "Kinetic energy is the energy possessed by an object due to its motion. It depends on the mass of the object and its velocity."
+        },
+        {
+          question: "The process of heat transfer in solids without actual movement of the particles is called",
+          answers: [
+            { text: "Conduction", correct: true },
+            { text: "Convection", correct: false },
+            { text: "Radiation", correct: false },
+            { text: "Diffusion", correct: false }
+          ],
+          explanation: "Conduction is the process of heat transfer in solids without actual movement of the particles. It occurs due to collisions between particles."
+        },
+        {
+          question: "Which of the following statements about friction is true?",
+          answers: [
+            { text: "Friction increases with smooth surfaces.", correct: false },
+            { text: "Friction depends only on the nature of the surfaces in contact.", correct: false },
+            { text: "Friction acts in the direction opposite to the motion of the object.", correct: true },
+            { text: "Friction is always attractive in nature.", correct: false }
+          ],
+          explanation: "Friction acts in the direction opposite to the motion of the object. It opposes the relative motion between two surfaces in contact."
+        },
+        {
+          question: "If ebonite is rubbed with fur, the fur becomes",
+          answers: [
+            { text: "Neutral", correct: false },
+            { text: "Positively charged", correct: true },
+            { text: "Perfect", correct: false },
+            { text: "Negatively charged", correct: false }
+          ],
+          explanation: "When ebonite is rubbed with fur, electrons transfer from the fur to the ebonite, leaving the fur with a deficiency of electrons (positively charged) and the ebonite with an excess of electrons (negatively charged). Therefore, the fur becomes positively charged."
+        },
+        {
+          question: "A sound produces waves in air of wavelength 1.65m. If the speed of the sound in air is 330m/s, find the period of vibration in seconds.",
+          answers: [
+            { text: "0.05s", correct: false },
+            { text: "0.005s", correct: true },
+            { text: "55s", correct: false },
+            { text: "0.5s", correct: false }
+          ],
+          explanation: "The period (T) of a wave is the reciprocal of its frequency. First, calculate the frequency using the formula v = λ * f, where v is the speed of sound, λ is the wavelength, and f is the frequency. Solving for f gives f = v / λ. Given v = 330 m/s and λ = 1.65 m, f = 330 / 1.65 = 200 Hz. Now, T = 1 / f = 1 / 200 = 0.005 seconds."
+        },
+        {
+          question: "A 60° prism is made of glass whose refractive index for a certain light is 1.60. At what angle of incidence will maximum deviation occur?",
+          answers: [
+            { text: "63.1°", correct: false },
+            { text: "73.1°", correct: false },
+            { text: "53.1°", correct: true },
+            { text: "43.1°", correct: false }
+          ],
+          explanation: "Maximum deviation in a prism occurs when the angle of incidence (i) is such that the angle of emergence (e) becomes minimum. For a 60° prism with refractive index 1.60, the angle of minimum deviation (D) can be found using the relation sin(i + D/2) = n * sin(A), where A is the prism angle. For a 60° prism, A = 60°. The angle of incidence corresponding to maximum deviation is i = 53.1°."
+        },
+        {
+          question: "Resonance occurs in a series RLC circuit when the",
+          answers: [
+            { text: "Inductive reactance is equal to capacitive reactance", correct: true },
+            { text: "Capacitive reactance is equal to the resistance", correct: false },
+            { text: "Total impedance of the circuit is zero", correct: false },
+            { text: "Reactance of the circuit is zero", correct: false }
+          ],
+          explanation: "Resonance in a series RLC circuit occurs when the inductive reactance (XL) equals the capacitive reactance (XC). At resonance, XL = XC = ωL = 1/ωC, where ω is the angular frequency, L is the inductance, and C is the capacitance."
+        },
+        {
+          question: "A transformer connected to a 120V AC power line has 200 turns in its primary winding and 50 turns in its secondary winding. The secondary is connected to a 100Ω light bulb. How much current is drawn from the input side of the power line?",
+          answers: [
+            { text: "0.075A", correct: true },
+            { text: "0.045A", correct: false },
+            { text: "0.300A", correct: false },
+            { text: "0.025A", correct: false }
+          ],
+          explanation: "To find the current drawn from the input side (primary side) of the transformer, use the relation Vp / Ip = Vs / Is, where Vp and Ip are the voltage and current on the primary side, and Vs and Is are on the secondary side. Given Vs = 120V, Np = 200 turns, Ns = 50 turns, and Rs = 100Ω. First, find the secondary current Is = Vs / Rs = 120 / 100 = 1.2A. Then, Ip = Is * (Ns / Np) = 1.2 * (50 / 200) = 1.2 * 0.25 = 0.3A. Therefore, Ip = 0.3A = 0.075A."
+        },
+        {
+          question: "The colors in a rainbow are formed by ___________ phenomenon.",
+          answers: [
+            { text: "Reflection", correct: false },
+            { text: "Diffusion", correct: false },
+            { text: "Refraction", correct: false },
+            { text: "Dispersion", correct: true }
+          ],
+          explanation: "The colors in a rainbow are formed by the dispersion phenomenon. Dispersion occurs because different colors of light have different wavelengths and thus refract at different angles when passing through water droplets."
+        },
+        {
+          question: "Electric potential can also be referred to as a",
+          answers: [
+            { text: "Electric charge", correct: false },
+            { text: "Electric field intensity", correct: false },
+            { text: "Voltage", correct: true },
+            { text: "Electric current", correct: false }
+          ],
+          explanation: "Electric potential is also known as voltage. It represents the electric potential energy per unit charge at a point in an electric field."
+        },
+        {
+          question: "The following are properties of waves except",
+          answers: [
+            { text: "Diffraction", correct: false },
+            { text: "Transverse", correct: true },
+            { text: "Refraction", correct: false },
+            { text: "Reflection", correct: false }
+          ],
+          explanation: "Transverse is not a property of waves. Waves can be classified as transverse or longitudinal based on the direction of particle displacement relative to the direction of wave propagation."
+        },
+        {
+          question: "The rear view mirrors of vehicles should produce",
+          answers: [
+            { text: "Diminished, virtual and erect image", correct: true },
+            { text: "Inverted and diminished image", correct: false },
+            { text: "Magnified and erect image", correct: false },
+            { text: "Magnified and inverted image", correct: false }
+          ],
+          explanation: "Rear view mirrors in vehicles are designed to produce a diminished, virtual, and erect image of objects behind the vehicle, which allows the driver to see them clearly and judge distances effectively."
+        },
+        {
+          question: "When the length of a vibrating string is tripled, its frequency of vibration",
+          answers: [
+            { text: "Becomes three times of its former value", correct: false },
+            { text: "Becomes six times of its former value", correct: false },
+            { text: "Becomes one-sixth of the value", correct: false },
+            { text: "Becomes one-third of the former value", correct: true }
+          ],
+          explanation: "The frequency (f) of vibration of a string is inversely proportional to its length (L) when tension and mass per unit length are constant. Therefore, if the length of the string is tripled, the frequency becomes one-third of its former value."
+        },
+        {
+          question: "Free oscillations are simple harmonic motion with constant amplitude, period with _____",
+          answers: [
+            { text: "No external influence", correct: true },
+            { text: "Small influence", correct: false },
+            { text: "External influence", correct: false },
+            { text: "Every influence", correct: false }
+          ],
+          explanation: "Free oscillations refer to simple harmonic motion where the system oscillates with a constant amplitude and period without any external influences or damping."
+        },
+        {
+          question: "Energy that results from the relationship between opposite charges is termed",
+          answers: [
+            { text: "Electromagnetism", correct: false },
+            { text: "Electricity", correct: false },
+            { text: "Electrostatic", correct: true },
+            { text: "Thermodynamics", correct: false }
+          ],
+          explanation: "Electrostatic energy arises from the interaction between static electric charges. It is the potential energy associated with the electric field created by charges at rest."
+        },
+        {
+          question: "__________ is the capability of a material object or device to store electric charge",
+          answers: [
+            { text: "Inductance", correct: false },
+            { text: "Reactance", correct: false },
+            { text: "Capacitance", correct: true },
+            { text: "Impedance", correct: false }
+          ],
+          explanation: "Capacitance is the ability of a system to store an electric charge. It is determined by the geometry of the system and the dielectric material between the plates or conductors."
+        },
+        {
+          question: "In a pure resistive A.C circuits, current and voltage",
+          answers: [
+            { text: "Are in root", correct: false },
+            { text: "At 90° to each other", correct: false },
+            { text: "Are in phase", correct: true },
+            { text: "In peak", correct: false }
+          ],
+          explanation: "In a pure resistive AC circuit, the current and voltage are in phase with each other. This means they reach their maximum and minimum values at the same points in time."
+        },
+        {
+          question: "An electron of charge 1.6×10^-19 C is situated in a uniform electric field of intensity 1.2×10^5 V/m. Find its acceleration (mass of electron is 9.1×10^-31 kg)",
+          answers: [
+            { text: "1.92×10^-14", correct: false },
+            { text: "2.11×10^16", correct: true },
+            { text: "7.50 ×10^23", correct: false },
+            { text: "1.37×10^-24", correct: false }
+          ],
+          explanation: "The acceleration of an electron in a uniform electric field is given by a = e * E / m, where e is the charge of the electron, E is the electric field intensity, and m is the mass of the electron. Substituting the given values: a = (1.6×10^-19) * (1.2×10^5) / (9.1×10^-31) = 2.11×10^16 m/s^2."
+        },
+        {
+          question: "What is the magnification of the image formed by an object 10cm distant from a concave mirror of focal length 2cm?",
+          answers: [
+            { text: "1/25", correct: true },
+            { text: "-25", correct: false },
+            { text: "25", correct: false },
+            { text: "-1/25", correct: false }
+          ],
+          explanation: "The magnification (m) of a mirror is given by m = -v/u, where v is the image distance and u is the object distance. For a concave mirror, v is positive if the image is real and negative if virtual. Given f = 2 cm and u = -10 cm (since the object is 10 cm in front of the mirror), using the mirror formula: 1/f = 1/v + 1/u, we find v = 20 cm. Therefore, m = -20 / -10 = 2. The magnification for a virtual image is positive, so m = 2."
+        },
+        {
+          question: "Static electricity can be referred to as",
+          answers: [
+            { text: "Electrostatics", correct: true },
+            { text: "Electric charge", correct: false },
+            { text: "All of the above", correct: false },
+            { text: "Electric current", correct: false }
+          ],
+          explanation: "Static electricity is also known as electrostatics. It deals with the study of stationary electric charges."
+        },
+        {
+          question: "The path followed by the flow of electric current is called",
+          answers: [
+            { text: "Conductor", correct: false },
+            { text: "Voltage", correct: false },
+            { text: "Circuit", correct: true },
+            { text: "Ampere", correct: false }
+          ],
+          explanation: "The path followed by the flow of electric current is called a circuit."
+        },
+        {
+          question: "An electric current has the following effect except",
+          answers: [
+            { text: "Heating effect", correct: false },
+            { text: "Magnetic effect", correct: false },
+            { text: "Chemical effect", correct: false },
+            { text: "Turning effect", correct: true }
+          ],
+          explanation: "An electric current does not have a turning effect. The other effects listed are well-known properties of electric currents."
+        },
+        {
+          question: "The potentiometer is used to measure all except",
+          answers: [
+            { text: "Internal resistance", correct: false },
+            { text: "Current", correct: true },
+            { text: "Period", correct: false },
+            { text: "Potential difference", correct: false }
+          ],
+          explanation: "A potentiometer is used to measure potential difference (voltage), not current. It can also measure other quantities like internal resistance and EMF (electromotive force)."
+        },
+        {
+          question: "What is the electric potential at 30cm from a charged body of 4×10^-9 C? [ε₀ = 8.85×10^-12 F/m]",
+          answers: [
+            { text: "119.9 V", correct: false },
+            { text: "1.199 V", correct: false },
+            { text: "399.6 V", correct: true },
+            { text: "11.99 V", correct: false }
+          ],
+          explanation: "The electric potential (V) at a distance r from a point charge q is given by V = k * q / r, where k = 1 / (4πε₀) is the Coulomb's constant. Substituting the given values: V = (1 / (4π * 8.85×10^-12)) * (4×10^-9) / (0.3) = 399.6 V."
+        },
+        {
+          question: "Calculate the magnitude of the force of repulsion between two equal charges of 0.2μC separated by 100cm in a vacuum (k = 9×10^9 N m^2 C^-2)",
+          answers: [
+            { text: "3.6×10^-7 N", correct: false },
+            { text: "3.6×10^-6 N", correct: false },
+            { text: "3.6×10^-4 N", correct: true },
+            { text: "3.6×10^-9 N", correct: false }
+          ],
+          explanation: "The magnitude of the electrostatic force between two charges q1 and q2 separated by distance r is given by F = k * |q1 * q2| / r^2, where k is the Coulomb's constant (9×10^9 N m^2 C^-2). Substituting q1 = q2 = 0.2 μC = 2×10^-7 C and r = 100 cm = 1 m: F = (9×10^9) * (2×10^-7)^2 / (1^2) = 3.6×10^-4 N."
+        },
+        {
+          question: "Which of the following increase the sensitivity of a galvanometer?",
+          answers: [
+            { text: "i, ii and iii", correct: true },
+            { text: "iii", correct: false },
+            { text: "iii and ii", correct: false },
+            { text: "i and ii", correct: false }
+          ],
+          explanation: "Increasing the sensitivity of a galvanometer can be achieved by using: i. a strong magnet (to increase the magnetic field strength), ii. more turns on the coil (to increase the coil's sensitivity), and iii. a light pointer (to reduce inertia and improve responsiveness). Therefore, i, ii, and iii are correct."
+        },
+        {
+          question: "The blue colour of the sky and the reddish appearance of the sun at both sunrise and sunset is due to",
+          answers: [
+            { text: "Interference", correct: false },
+            { text: "Scattering", correct: true },
+            { text: "Refraction", correct: false },
+            { text: "Reflection", correct: false }
+          ],
+          explanation: "The blue color of the sky and the reddish appearance of the sun at sunrise and sunset are primarily due to Rayleigh scattering of sunlight in the Earth's atmosphere."
+        },
+        {
+          question: "A copper wire has a resistance of 10.0Ω at 20°C. What will be the resistance at 80°C?",
+          answers: [
+            { text: "5.5Ω", correct: false },
+            { text: "4.6Ω", correct: false },
+            { text: "12.4Ω", correct: true },
+            { text: "2.4Ω", correct: false }
+          ],
+          explanation: "The resistance of a conductor changes with temperature according to the formula: R₂ = R₁ * (1 + α * ΔT), where R₂ is the resistance at the final temperature, R₁ is the resistance at the initial temperature, α is the temperature coefficient of resistance, and ΔT is the change in temperature. For copper, α ≈ 0.00393 / °C. Calculating: R₂ = 10.0Ω * (1 + 0.00393 * (80 - 20)) = 12.4Ω."
+        },
+        {
+          question: "Current through a metallic conductor is directly proportional to the potential constant is",
+          answers: [
+            { text: "Coulomb's law", correct: false },
+            { text: "Joule's law", correct: false },
+            { text: "Newton's law", correct: false },
+            { text: "Ohm's law", correct: true }
+          ],
+          explanation: "Ohm's law states that the current (I) flowing through a conductor is directly proportional to the voltage (V) applied across it, provided the temperature and other physical conditions remain constant."
+        },
+        {
+          question: "How much energy is stored in a 20 mH coil when it carries a current of 0.2 A?",
+          answers: [
+            { text: "0.00004 J", correct: false },
+            { text: "0.04 J", correct: false },
+            { text: "0.0004 J", correct: true },
+            { text: "0.4 J", correct: false }
+          ],
+          explanation: "The energy stored in an inductor is given by the formula: E = 0.5 * L * I^2, where E is the energy stored, L is the inductance, and I is the current. Substituting L = 20 mH = 20 × 10^-3 H and I = 0.2 A: E = 0.5 * (20 × 10^-3) * (0.2)^2 = 0.0004 J."
+        },
+        {
+          question: "What is the electric potential at 30 cm from a charged body of 4×10^-9 C? [ε₀ = 8.85×10^-12 F/m]",
+          answers: [
+            { text: "119.9 V", correct: false },
+            { text: "1.199 V", correct: false },
+            { text: "399.6 V", correct: true },
+            { text: "11.99 V", correct: false }
+          ],
+          explanation: "The electric potential (V) at a distance r from a point charge q is given by V = k * q / r, where k = 1 / (4πε₀) is the Coulomb's constant and ε₀ is the permittivity of free space. Substituting q = 4×10^-9 C and r = 0.3 m: V = (1 / (4π * 8.85×10^-12)) * (4×10^-9) / (0.3) = 399.6 V."
+        },
+        {
+          question: "A wire of uniform cross-sectional area has a length of 10 m, a resistance of 2 Ω, and resistivity of 2×10^-7 Ωm. The area in m² is",
+          answers: [
+            { text: "1×10^-5", correct: false },
+            { text: "2×10^-4", correct: false },
+            { text: "0.5×10^-5", correct: false },
+            { text: "1×10^-6", correct: true }
+          ],
+          explanation: "The resistance of a wire is given by R = ρ * (L / A), where ρ is the resistivity, L is the length, A is the cross-sectional area. Solving for A: A = ρ * (L / R) = (2×10^-7) * (10 / 2) = 1×10^-6 m²."
+        },
+        {
+          question: "When the number of electrons is equal to the number of protons, the body is said to be",
+          answers: [
+            { text: "Charged", correct: false },
+            { text: "Neutral", correct: true },
+            { text: "Positive", correct: false },
+            { text: "Negative", correct: false }
+          ],
+          explanation: "When the number of electrons is equal to the number of protons in a body, the net charge is zero, and the body is said to be electrically neutral."
+        }, {
+          question: "A telescope that uses two converging lenses is called",
+          answers: [
+            { text: "Refraction", correct: false },
+            { text: "Compound", correct: true },
+            { text: "Simple", correct: false },
+            { text: "Reflection", correct: false }
+          ],
+          explanation: "A telescope that uses two converging lenses is called a compound telescope."
+        },
+        {
+          question: "Which of the following cannot travel through a vacuum",
+          answers: [
+            { text: "Sound", correct: true },
+            { text: "Visible", correct: false },
+            { text: "Gamma", correct: false },
+            { text: "Radio", correct: false }
+          ],
+          explanation: "Sound cannot travel through a vacuum because it requires a medium (such as air) for propagation."
+        },
+        {
+          question: "The following are properties of waves except",
+          answers: [
+            { text: "Reflection", correct: false },
+            { text: "Transverse", correct: false },
+            { text: "Diffraction", correct: false },
+            { text: "Refraction", correct: true }
+          ],
+          explanation: "Refraction is not a property of waves; it refers to the bending of waves when they pass from one medium to another."
+        },
+        {
+          question: "When friction reduces, natural energy of system as time passes motion is said to be",
+          answers: [
+            { text: "Random", correct: false },
+            { text: "Damped", correct: true },
+            { text: "Linear", correct: false },
+            { text: "Simple", correct: false }
+          ],
+          explanation: "When friction reduces the natural energy of a system over time, the motion is described as damped."
+        },
+        {
+          question: "Natural frequency of a given string can be changed by changing its",
+          answers: [
+            { text: "Stiffness", correct: true },
+            { text: "Diameter", correct: false },
+            { text: "Length", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "The natural frequency of a string can be altered by changing its stiffness."
+        },
+        {
+          question: "Heat can be transferred by these processes except",
+          answers: [
+            { text: "Radiation", correct: false },
+            { text: "Convection", correct: false },
+            { text: "Conduction", correct: false },
+            { text: "Evaporation", correct: true }
+          ],
+          explanation: "Evaporation is not a method of heat transfer; it is a cooling process where a liquid turns into vapor."
+        },
+        {
+          question: "______ generate illuminous source of light",
+          answers: [
+            { text: "Stars", correct: true },
+            { text: "Planets", correct: false },
+            { text: "Nebulae", correct: false },
+            { text: "Moons", correct: false }
+          ],
+          explanation: "Stars generate their own light and are luminous sources."
+        },
+        {
+          question: "What happens to the rays in a parallel beam of light?",
+          answers: [
+            { text: "They converge", correct: false },
+            { text: "They diverge", correct: false },
+            { text: "They remain parallel", correct: true },
+            { text: "They scatter", correct: false }
+          ],
+          explanation: "Rays in a parallel beam of light remain parallel to each other."
+        },
+        {
+          question: "The wave found under the water is",
+          answers: [
+            { text: "Intensity", correct: false },
+            { text: "Transverse", correct: false },
+            { text: "Longitudinal", correct: true },
+            { text: "Reflection", correct: false }
+          ],
+          explanation: "Waves under water are typically longitudinal waves."
+        },
+        {
+          question: "The lens thinner at the middle but thicker at the edge is",
+          answers: [
+            { text: "Diverging", correct: false },
+            { text: "Converging", correct: true },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "A lens that is thicker at the edges and thinner in the middle is a converging lens."
+        },
+        {
+          question: "A resistor used as an ammeter is called",
+          answers: [
+            { text: "Shunt", correct: true },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "A resistor used as an ammeter is often called a shunt."
+        },
+        {
+          question: "A resistor used as a voltmeter is called",
+          answers: [
+            { text: "Multiplier", correct: true },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "A resistor used as a voltmeter is often called a multiplier."
+        },
+        {
+          question: "Virtual images can be photographed only with the help of ____",
+          answers: [
+            { text: "A camera", correct: true },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "Virtual images cannot be projected onto a screen, but they can be photographed using a camera."
+        },
+        {
+          question: "A copper wire has a resistance of 10Ω at 20°C. What will be the resistance at 80°C?",
+          answers: [
+            { text: "5.5Ω", correct: false },
+            { text: "4.6Ω", correct: false },
+            { text: "12.4Ω", correct: true },
+            { text: "2.4Ω", correct: false }
+          ],
+          explanation: "The resistance of copper wire increases with temperature. The formula used is R₂ = R₁ * (1 + α * ΔT), where α is the temperature coefficient of resistance for copper (approximately 0.00393 / °C)."
+        },
+        {
+          question: "A galvanometer measuring current from 0 to 1 mA has a resistance of 40 ohms. What value of resistor in parallel with the galvanometer will allow it to measure current from 0 to 1 A?",
+          answers: [
+            { text: "0.04Ω", correct: true },
+            { text: "2.53Ω", correct: false },
+            { text: "0.24Ω", correct: false },
+            { text: "1.42Ω", correct: false }
+          ],
+          explanation: "To convert a galvanometer into an ammeter capable of measuring higher currents, a shunt resistor is connected in parallel. The resistance of the shunt is calculated using the formula R_shunt = (G * R_g) / (I - G), where G is the full-scale deflection current of the galvanometer and R_g is its resistance."
+        },
+        {
+          question: "If 100 waves pass through a medium in 20 s and their wavelength is 6 cm, what is their velocity?",
+          answers: [
+            { text: "0.3 m/s", correct: false },
+            { text: "0.5 m/s", correct: false },
+            { text: "1 m/s", correct: false },
+            { text: "25 m/s", correct: true }
+          ],
+          explanation: "Velocity (v) of waves is given by v = frequency (f) * wavelength (λ). First, calculate the frequency (f) = 100 waves / 20 s = 5 waves/s. Then, v = f * λ = 5 waves/s * 0.06 m = 0.3 m/s."
+        },
+        {
+          question: "Determine the upthrust on an iron cube of volume 400 cm³ if it is totally immersed in oil of density 0.8 g/cm³",
+          answers: [
+            { text: "4.0 N", correct: true },
+            { text: "8.3 N", correct: false },
+            { text: "2.4 N", correct: false },
+            { text: "3.2 N", correct: false }
+          ],
+          explanation: "Upthrust (buoyant force) on an object immersed in a fluid is given by the formula: F = ρ * g * V, where ρ is the density of the fluid, g is the acceleration due to gravity, and V is the volume of the displaced fluid."
+        },
+        {
+          question: "Water waves are ______?",
+          answers: [
+            { text: "Longitudinal", correct: false },
+            { text: "Electromagnetic", correct: false },
+            { text: "Chemical", correct: false },
+            { text: "Transverse", correct: true }
+          ],
+          explanation: "Water waves are typically transverse waves, where the particles oscillate perpendicular to the direction of wave propagation."
+        },
+        {
+          question: "Which waves are used for underwater communication?",
+          answers: [
+            { text: "Ultrasonic", correct: false },
+            { text: "Radio wave", correct: false },
+            { text: "Infrasonic", correct: true },
+            { text: "Microwaves", correct: false }
+          ],
+          explanation: "Infrasonic waves (sound waves with frequencies below the human audible range) are used for underwater communication."
+        },
+        {
+          question: "A positive charge of 3 microcoulombs is surrounded by a sphere with a radius of 0.20 m. The electric flux in the sphere is?",
+          answers: [
+            { text: "Zero", correct: false },
+            { text: "3 μC", correct: false },
+            { text: "3 μC/m²", correct: false },
+            { text: "3 μC / ε₀", correct: true }
+          ],
+          explanation: "The electric flux (Φ) through a closed surface is given by Φ = q / ε₀, where q is the charge enclosed by the surface and ε₀ is the permittivity of free space."
+        },
+        {
+          question: "Artificially damped oscillation is characterized by",
+          answers: [
+            { text: "Constant amplitude", correct: false },
+            { text: "Increasing amplitude", correct: false },
+            { text: "Decreasing amplitude", correct: true },
+            { text: "Oscillations without damping", correct: false }
+          ],
+          explanation: "Artificially damped oscillation refers to oscillations whose amplitude decreases over time due to damping forces like friction."
+        },
+        {
+          question: "The variation of focal length for a sharp image on the retina is called",
+          answers: [
+            { text: "Retina center", correct: false },
+            { text: "Shutter", correct: false },
+            { text: "Depth of field", correct: false },
+            { text: "Accommodation", correct: true }
+          ],
+          explanation: "Accommodation is the process by which the eye changes its focal length to keep images sharply focused on the retina."
+        },
+        {
+          question: "When light enters glass from air",
+          answers: [
+            { text: "Its wavelength increases and velocity increases", correct: false },
+            { text: "Its frequency increases and velocity increases", correct: false },
+            { text: "Its frequency decreases and velocity decreases", correct: false },
+            { text: "Its wavelength decreases and velocity decreases", correct: true }
+          ],
+          explanation: "When light enters a denser medium like glass from air, its velocity decreases and its wavelength also decreases according to the formula v = c / n, where c is the speed of light in vacuum and n is the refractive index of the medium."
+        },
+        {
+          question: "The eclipse of the moon occurs when?",
+          answers: [
+            { text: "When the earth is between the sun and moon", correct: true },
+            { text: "Moon is between the sun and earth", correct: false },
+            { text: "Earth is between the sun and moon", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, casting its shadow on the Moon."
+        },
+        {
+          question: "A 4 µF capacitor is used in a radio circuit through which a 5 µF alternating current of 60 Hz flows. The reactance of the capacitor is",
+          answers: [
+            { text: "6.635 Ω", correct: false },
+            { text: "66.35 Ω", correct: true },
+            { text: "63.6 Ω", correct: false },
+            { text: "663.15 Ω", correct: false }
+          ],
+          explanation: "Reactance (Xₓ) of a capacitor in an AC circuit is given by Xₓ = 1 / (2πfC), where f is the frequency and C is the capacitance."
+        },
+        {
+          question: "The series resonance circuit is used for",
+          answers: [
+            { text: "Resonance wave tube experiment", correct: false },
+            { text: "Oscillating radio wave", correct: true },
+            { text: "Tuning radio receiver", correct: false },
+            { text: "Minimizing circuit heat", correct: false }
+          ],
+          explanation: "A series resonance circuit is used to select a specific frequency from a complex signal or to tune a radio receiver."
+        },
+        {
+          question: "A spherical mirror whose inner surface is silvered is",
+          answers: [
+            { text: "Concave mirror", correct: true },
+            { text: "Convex mirror", correct: false },
+            { text: "Plane mirror", correct: false },
+            { text: "Curved mirror", correct: false }
+          ],
+          explanation: "A concave mirror has a reflecting surface on its inner side (concave side), which is typically silvered."
+        },
+        {
+          question: "Which waves are used for underwater communication?",
+          answers: [
+            { text: "Ultrasonic", correct: false },
+            { text: "Radio wave", correct: false },
+            { text: "Infrasonic", correct: true },
+            { text: "Microwaves", correct: false }
+          ],
+          explanation: "Infrasonic waves (sound waves with frequencies below the human audible range) are used for underwater communication."
+        },
+        {
+          question: "A mirror whose size of the image is smaller than the object is",
+          answers: [
+            { text: "Concave mirror", correct: false },
+            { text: "Convex mirror", correct: true },
+            { text: "Plane mirror", correct: false },
+            { text: "Spherical mirror", correct: false }
+          ],
+          explanation: "A convex mirror produces virtual images that are smaller than the object."
+        },
+        {
+          question: "The distance between the optical center and the focal length is",
+          answers: [
+            { text: "Radius", correct: false },
+            { text: "Half length", correct: false },
+            { text: "Focal length", correct: false },
+            { text: "Principal axis", correct: true }
+          ],
+          explanation: "The distance between the optical center (O) of a lens or mirror and its focal point (F) is called the focal length."
+        },
+        {
+          question: "If the acceleration of a body towards a fixed point is directly proportional to its distance from that point and is always directed towards it, the motion is",
+          answers: [
+            { text: "Translational", correct: false },
+            { text: "Random", correct: false },
+            { text: "Simple harmonic", correct: true },
+            { text: "Rotational", correct: false }
+          ],
+          explanation: "Simple harmonic motion (SHM) is defined by an acceleration that is directly proportional to displacement and always directed towards a fixed equilibrium point."
+        },
+        {
+          question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
+          answers: [
+            { text: "1.2Ω", correct: false },
+            { text: "2.4Ω", correct: false },
+            { text: "5.5Ω", correct: false },
+            { text: "4.6Ω", correct: true }
+          ],
+          explanation: "The resistance of a conductor changes with temperature according to the formula: R₂ = R₁ * (1 + α * ΔT), where R₂ and R₁ are the resistances at temperatures T₂ and T₁ respectively, α is the temperature coefficient of resistance, and ΔT is the change in temperature."
+        },
+        {
+          question: "The coefficient of friction between a perfectly smooth body and a very rough body is",
+          answers: [
+            { text: "2.0", correct: false },
+            { text: "Zero", correct: true },
+            { text: "0.5", correct: false },
+            { text: "1.0", correct: false }
+          ],
+          explanation: "The coefficient of friction is a measure of the resistance to motion between two surfaces in contact. A perfectly smooth body would have zero friction when in contact with any surface."
+        },
+        {
+          question: "When a brick is taken from the Earth's surface to the Moon, its mass becomes",
+          answers: [
+            { text: "Increases", correct: false },
+            { text: "Remains constant", correct: true },
+            { text: "Reduces", correct: false },
+            { text: "Becomes zero", correct: false }
+          ],
+          explanation: "Mass is a fundamental property of matter that remains constant regardless of the location in the universe."
+        },
+        {
+          question: "Calculate the increases in length when 1000cm of steel wire of linear expansivity 1.2× 10^−5 per degree Celsius is heated from 0 to 50 degree Celsius",
+          answers: [
+            { text: "1.2×10^−2 cm", correct: true },
+            { text: "6.0×10^−4 cm", correct: false },
+            { text: "1006.0 cm", correct: false },
+            { text: "6.0 cm", correct: false }
+          ],
+          explanation: "The increase in length (ΔL) of a material due to heating is given by the formula: ΔL = L₀ * α * ΔT, where L₀ is the original length, α is the linear coefficient of thermal expansion, and ΔT is the change in temperature. Substituting the given values: ΔL = 1000 cm * 1.2×10^−5 /°C * 50°C = 1.2×10^−2 cm."
+        },
+        {
+          question: "The following are the properties of a simple microscope except",
+          answers: [
+            { text: "Virtual", correct: false },
+            { text: "Small magnification", correct: false },
+            { text: "Less distorted", correct: false },
+            { text: "Object placed between principal focus and the pole of lens", correct: true }
+          ],
+          explanation: "In a simple microscope, the object is placed very close to the focal point, not between the principal focus and the pole of the lens."
+        },
+        {
+          question: "The size of the image depends on the position of the object in",
+          answers: [
+            { text: "Convex mirror", correct: true },
+            { text: "Silver mirror", correct: false },
+            { text: "Plane mirror", correct: false },
+            { text: "Concave mirror", correct: false }
+          ],
+          explanation: "In a convex mirror, the size of the image formed depends on the position of the object."
+        },
+        {
+          question: "Which of the following is correct for an object placed in the center of curvature?",
+          answers: [
+            { text: "Virtual, Erect, Magnified", correct: false },
+            { text: "Real, Inverted, Magnified", correct: false },
+            { text: "Virtual, Erect, Diminished", correct: false },
+            { text: "Real, Inverted, Magnified", correct: true }
+          ],
+          explanation: "When an object is placed at the center of curvature of a concave mirror, the image formed is real, inverted, and magnified."
+        },
+        {
+          question: "Find the electric field intensity of an object whose potential is 3.6V and distance is 30m",
+          answers: [
+            { text: "12.0 V/m", correct: false },
+            { text: "8 V/m", correct: true },
+            { text: "24 V/m", correct: false },
+            { text: "18 V/m", correct: false }
+          ],
+          explanation: "Electric field intensity (E) is given by E = V / d, where V is the potential and d is the distance. Substituting the given values: E = 3.6V / 30m = 0.12 V/m."
+        },
+        {
+          question: "A 200 kW appliance has a voltage of 40.0 V. Find its current",
+          answers: [
+            { text: "0.5 A", correct: false },
+            { text: "0.05 A", correct: true },
+            { text: "50.00 A", correct: false },
+            { text: "5.00 A", correct: false }
+          ],
+          explanation: "Power (P) = Voltage (V) * Current (I). Rearranging gives I = P / V. Substituting the given values: I = 200 kW / 40.0 V = 0.05 A."
+        },
+        {
+          question: "The oscillations of a system in the presence of some resistive force are",
+          answers: [
+            { text: "Random oscillation", correct: false },
+            { text: "Damped oscillation", correct: true },
+            { text: "Simple harmonic oscillation", correct: false },
+            { text: "Linear oscillation", correct: false }
+          ],
+          explanation: "Damped oscillation refers to oscillations whose amplitude decreases over time due to damping forces."
+        },
+        {
+          question: "An example of repetitive to-and-fro motion about a mean position",
+          answers: [
+            { text: "Piston in gasoline engine", correct: false },
+            { text: "Mass hanging from a coiled spring", correct: true },
+            { text: "Balance wheel of a watch", correct: false },
+            { text: "A car going to Kaduna", correct: false }
+          ],
+          explanation: "Mass hanging from a coiled spring undergoes simple harmonic motion."
+        },
+        {
+          question: "The total capacitance when three capacitors of 0.3 µF, 0.2 µF, and the joint capacitance when arranged to give minimum capacitance",
+          answers: [
+            { text: "1.0 µF", correct: true },
+            { text: "0.2 µF", correct: false },
+            { text: "0.1 µF", correct: false },
+            { text: "0.3 µF", correct: false }
+          ],
+          explanation: "When capacitors are connected in parallel, their total capacitance is the sum of individual capacitances. So, 0.3 µF + 0.2 µF = 1.0 µF."
+        },
+        {
+          question: "Two 240 Ω light bulbs are connected in series with a 120 V power source. Calculate the current in each bulb",
+          answers: [
+            { text: "0.25 A", correct: false },
+            { text: "0.20 A", correct: false },
+            { text: "0.22 A", correct: true },
+            { text: "", correct: false }
+          ],
+          explanation: "Current (I) in a series circuit is the same through all components. Using Ohm's law: I = V / R. For one bulb: I = 120 V / 240 Ω = 0.5 A. Since they are in series, each bulb will have half of this current, so I = 0.5 A / 2 = 0.25 A."
+        },
+        {
+          question: "A light spiral spring loaded with a mass of 200 g extends by 5 cm. What is the period (taking g = 10 m/s²)",
+          answers: [
+            { text: "0.63 s", correct: true },
+            { text: "1.65 s", correct: false },
+            { text: "0.44 s", correct: false }
+          ],
+          explanation: "The period (T) of a mass-spring system in simple harmonic motion is given by T = 2π√(m / k), where m is the mass and k is the spring constant. First, calculate the force constant (k): k = mg / x = 0.2 kg * 10 m/s² / 0.05 m = 40 N/m. Now, calculate the period: T = 2π√(0.2 kg / 40 N/m) ≈ 0.63 s."
+        },
+        {
+          question: "A point charge of 2.0×10⁻⁷ C experiences a force of 0.02 N in a uniform electric field. Calculate the magnitude of the strength of the field",
+          answers: [
+            { text: "4×10⁻⁹ N/C", correct: true },
+            { text: "1×10⁻⁵ N/C", correct: false },
+            { text: "1×10⁻¹⁹ N/C", correct: false },
+            { text: "1×10⁵ N/C", correct: false }
+          ],
+          explanation: "The electric field strength (E) is given by the formula E = F / q, where F is the force experienced by the charge q. Substituting the given values: E = 0.02 N / 2.0×10⁻⁷ C = 4×10⁻⁹ N/C."
+        },
+        {
+          question: "_______ mirror curves inwardly",
+          answers: [
+            { text: "Concave mirror", correct: true },
+            { text: "Convex mirror", correct: false },
+            { text: "Reflection mirror", correct: false },
+            { text: "Plane mirror", correct: false }
+          ],
+          explanation: "A concave mirror curves inwardly, towards the center."
+        },
+        {
+          question: "Which of the following is not a ferromagnetic material",
+          answers: [
+            { text: "Iron", correct: false },
+            { text: "Steel", correct: false },
+            { text: "Cobalt", correct: false },
+            { text: "Copper", correct: true }
+          ],
+          explanation: "Copper is not a ferromagnetic material."
+        },
+        {
+          question: "An eye defect by which an image appears at a different plane is called",
+          answers: [
+            { text: "Myopia", correct: false },
+            { text: "Hypermetropia", correct: true },
+            { text: "Astigmatism", correct: false }
+          ],
+          explanation: "Hypermetropia (or hyperopia) is an eye defect where the image appears at a plane beyond the retina."
+        },
+        {
+          question: "Which of the following cannot receive ultrasonic",
+          answers: [
+            { text: "Bat", correct: false },
+            { text: "Dolphin", correct: false },
+            { text: "Human being", correct: false },
+            { text: "Cat", correct: true }
+          ],
+          explanation: "Cats cannot receive ultrasonic frequencies."
+        },
+        {
+          question: "A light spiral spring loaded with a mass of 250 g extends by 10 cm. What is the frequency of small vertical oscillation (g = 10 m/s²)",
+          answers: [
+            { text: "1.30 Hz", correct: false },
+            { text: "2.20 Hz", correct: false },
+            { text: "1.63 Hz", correct: true },
+            { text: "1.59 Hz", correct: false }
+          ],
+          explanation: "The frequency (f) of a mass-spring system in SHM is given by f = 1 / (2π) * √(k / m), where k is the spring constant and m is the mass. First, calculate the spring constant (k): k = mg / x = 0.25 kg * 10 m/s² / 0.1 m = 25 N/m. Now, calculate the frequency: f = 1 / (2π) * √(25 N/m / 0.25 kg) ≈ 1.63 Hz."
+        },
+        {
+          question: "The belief that light consists of tiny particles can be attributed to",
+          answers: [
+            { text: "Early Greek", correct: false },
+            { text: "James Maxwell", correct: false },
+            { text: "Isaac Newton", correct: true },
+            { text: "Michael Faraday", correct: false }
+          ],
+          explanation: "Isaac Newton proposed that light consists of tiny particles or corpuscles."
+        },
+        {
+          question: "Artificial damped oscillations are",
+          answers: [
+            { text: "Heavy, critical, and solid", correct: false },
+            { text: "Critical, heavy, and light", correct: false },
+            { text: "Solid, critical, and light", correct: false },
+            { text: "Solid, light, and heavy", correct: true }
+          ],
+          explanation: "Artificial damped oscillations can be adjusted to be solid, light, or heavy depending on the damping mechanism."
+        },
+        {
+          question: "An electric current has the following except",
+          answers: [
+            { text: "Heating effect", correct: false },
+            { text: "Tuning effect", correct: true },
+            { text: "Magnetic effect", correct: false },
+            { text: "Chemical effect", correct: false }
+          ],
+          explanation: "An electric current does not have a 'tuning effect'. It can cause heating, magnetic effects, and chemical effects."
+        },
+        {
+          question: "A light spiral spring loaded with a mass of 50 g extends by 30 cm. What is the frequency of small vertical oscillation (g = 10 m/s²)",
+          answers: [
+            { text: "0.45 Hz", correct: true },
+            { text: "0.23 Hz", correct: false },
+            { text: "1.59 Hz", correct: false },
+            { text: "0.92 Hz", correct: false }
+          ],
+          explanation: "First, calculate the spring constant (k): k = mg / x = 0.05 kg * 10 m/s² / 0.3 m = 1.67 N/m. Now, calculate the frequency: f = 1 / (2π) * √(1.67 N/m / 0.05 kg) ≈ 0.45 Hz."
+        },
+        {
+          question: "Water waves are",
+          answers: [
+            { text: "Mechanical", correct: true },
+            { text: "Electromagnetic", correct: false },
+            { text: "Chemical", correct: false },
+            { text: "Longitudinal", correct: false }
+          ],
+          explanation: "Water waves are a form of mechanical waves."
+        },
+        {
+          question: "The following are the defects of lenses except",
+          answers: [
+            { text: "Distortion", correct: false },
+            { text: "Accommodation", correct: true },
+            { text: "Chromatic aberration", correct: false },
+            { text: "Coma", correct: false }
+          ],
+          explanation: "Accommodation is not a defect of lenses; it refers to the ability of the eye to adjust focus."
+        },
+        {
+          question: "Three capacitors of values 8 µF, 16 µF, and 32 µF are connected in series. The total capacitance will be",
+          answers: [
+            { text: "7.32 µF", correct: false },
+            { text: "56 µF", correct: true },
+            { text: "32 µF", correct: false },
+            { text: "7 µF", correct: false }
+          ],
+          explanation: "When capacitors are connected in series, the reciprocal of the total capacitance is equal to the sum of the reciprocals of the individual capacitances. So, 1 / C_total = 1 / 8 µF + 1 / 16 µF + 1 / 32 µF = 56 µF."
+        },
+        {
+          question: "A bulb of 60 W. Find the current passing through it when it is connected in series with a supply",
+          answers: [
+            { text: "1.5 A", correct: true },
+            { text: "0.25 A", correct: false },
+            { text: "0.10 A", correct: false },
+            { text: "0.5 A", correct: false }
+          ],
+          explanation: "Power (P) = Voltage (V) * Current (I). For a 60 W bulb connected in series with a supply, if the supply voltage is known (not provided in the options), the current can be calculated using Ohm's law or the power formula."
+        },
+        {
+          question: "Which instrument will accurately measure the EMF of a cell?",
+          answers: [
+            { text: "Voltmeter", correct: true },
+            { text: "Ammeter", correct: false },
+            { text: "Galvanometer", correct: false },
+            { text: "Potentiometer", correct: false }
+          ],
+          explanation: "A voltmeter is specifically designed to measure voltage or EMF (electromotive force) across a circuit element like a cell."
+        },
+        {
+          question: "Who stated the law that the direction of an induced EMF is always such as to oppose the change producing it?",
+          answers: [
+            { text: "Lenz", correct: true },
+            { text: "Faraday", correct: false },
+            { text: "Ohm", correct: false },
+            { text: "Maxwell", correct: false }
+          ],
+          explanation: "Lenz's law states that the direction of induced EMF (electromotive force) is always such that it opposes the change in magnetic flux that caused it."
+        },
+        {
+          question: "Alternating current is preferable to DC for the transmission of power because",
+          answers: [
+            { text: "It has lower energy losses", correct: false },
+            { text: "It can be easily stored in batteries", correct: false },
+            { text: "It can be transmitted over long distances more efficiently", correct: true },
+            { text: "It is safer to use", correct: false }
+          ],
+          explanation: "AC can be transmitted over long distances more efficiently than DC due to its ability to be easily stepped up or down in voltage using transformers."
+        },
+        {
+          question: "When a current flows in opposite directions through two conductors placed parallel and close to each other, what is produced between them is known as _____",
+          answers: [
+            { text: "Inductance", correct: false },
+            { text: "Capacitance", correct: true },
+            { text: "Resonance", correct: false },
+            { text: "Impedance", correct: false }
+          ],
+          explanation: "When current flows in opposite directions through two conductors, capacitance is produced between them."
+        },
+        {
+          question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
+          answers: [
+            { text: "1.2 ohms", correct: false },
+            { text: "2.4 ohms", correct: false },
+            { text: "5.5 ohms", correct: true },
+            { text: "4.6 ohms", correct: false }
+          ],
+          explanation: "The resistance of a conductor increases with temperature. The formula to calculate resistance change due to temperature is: R₂ = R₁ * (1 + αΔT), where R₁ is the resistance at initial temperature, α is the temperature coefficient of resistance, ΔT is the change in temperature. Given α for copper is approximately 0.00393 /°C, ΔT = 80°C - 20°C = 60°C. So, R₂ = 10.0 ohms * (1 + 0.00393 * 60) ≈ 5.5 ohms."
+        },
+        {
+          question: "What is obtained when cells are joined in series?",
+          answers: [
+            { text: "Current", correct: true },
+            { text: "Potential difference", correct: false },
+            { text: "Friction", correct: false },
+            { text: "Resistance", correct: false }
+          ],
+          explanation: "When cells are joined in series, their voltages add up, resulting in a higher potential difference across the circuit."
+        },
+        {
+          question: "The change of direction of a wavefront due to a change in velocity is called",
+          answers: [
+            { text: "Refraction", correct: true },
+            { text: "Reflection", correct: false },
+            { text: "Polarization", correct: false },
+            { text: "Diffraction", correct: false }
+          ],
+          explanation: "Refraction is the change in direction of a wavefront due to a change in velocity when it passes from one medium to another."
+        },
+        {
+          question: "A device used to increase the visual angle to the eye of an object being observed is",
+          answers: [
+            { text: "All of the above", correct: true },
+            { text: "Optical instrument", correct: false },
+            { text: "Mirror", correct: false },
+            { text: "Lens", correct: false }
+          ],
+          explanation: "Optical instruments such as mirrors and lenses are used to increase the visual angle to the eye of an object being observed."
+        },
+        {
+          question: "Three capacitors of capacitance 2 µF, 4 µF, and 8 µF are connected in parallel and a potential difference of 6 V is maintained across each capacitor. The total energy stored is",
+          answers: [
+            { text: "6.90 × 10⁻⁶ J", correct: false },
+            { text: "2.52 × 10⁻⁴ J", correct: false },
+            { text: "6.90 × 10⁻⁴ J", correct: true },
+            { text: "2.52 × 10⁻⁶ J", correct: false }
+          ],
+          explanation: "The energy stored in a capacitor is given by E = 1/2 * C * V². When capacitors are in parallel, the total energy stored is the sum of the energies stored in each capacitor. So, E_total = 1/2 * (2 µF + 4 µF + 8 µF) * (6 V)² = 6.90 × 10⁻⁴ J."
+        },
+        {
+          question: "The variation in image magnification is called",
+          answers: [
+            { text: "Chromatographic", correct: false },
+            { text: "Distortion", correct: false },
+            { text: "Coma", correct: false },
+            { text: "Acceleration", correct: true }
+          ],
+          explanation: "The variation in image magnification is referred to as acceleration."
+        },
+        {
+          question: "Any system which obeys ________ can exhibit simple harmonic motion.",
+          answers: [
+            { text: "Hooke's Law", correct: true },
+            { text: "Theorenin Theorem", correct: false },
+            { text: "Teirch off law", correct: false },
+            { text: "Superposition Theorem", correct: false }
+          ],
+          explanation: "Simple harmonic motion (SHM) occurs when a restoring force is directly proportional to the displacement from equilibrium, as described by Hooke's Law."
+        },
+        {
+          question: "The velocity of simple harmonic motion is always _____",
+          answers: [
+            { text: "Minimum", correct: false },
+            { text: "Zero", correct: false },
+            { text: "Maximum", correct: true },
+            { text: "Negative", correct: false }
+          ],
+          explanation: "The velocity of an object undergoing simple harmonic motion is maximum when it passes through the equilibrium position."
+        },
+        {
+          question: "The natural frequency of a spring can be changed by changing",
+          answers: [
+            { text: "Diameter", correct: false },
+            { text: "Stiffness", correct: true },
+            { text: "Area", correct: false },
+            { text: "Length", correct: false }
+          ],
+          explanation: "The natural frequency of a spring depends on its stiffness or spring constant (k). Changing the stiffness of the spring will change its natural frequency."
+        },
+        {
+          question: "The quality which does not change during refraction is__",
+          answers: [
+            { text: "Speed", correct: true },
+            { text: "Wavelength", correct: false },
+            { text: "Frequency", correct: false },
+            { text: "Direction", correct: false }
+          ],
+          explanation: "During refraction, the speed of light changes, but the frequency (and therefore the wavelength in the medium) remains constant."
+        },
+        {
+          question: "Determine the upthrust on an iron cube of volume 400 cm³ immersed in oil of density 0.8 g/cm³.",
+          answers: [
+            { text: "3.2 N", correct: true },
+            { text: "8.3 N", correct: false },
+            { text: "4.0 N", correct: false },
+            { text: "2.4 N", correct: false }
+          ],
+          explanation: "Upthrust (buoyant force) = Volume * Density * Acceleration due to gravity = 400 cm³ * 0.8 g/cm³ * 10 m/s² = 3200 g m/s² = 3.2 N."
+        },
+        {
+          question: "Power is the rate at which _____ is done.",
+          answers: [
+            { text: "Work", correct: true },
+            { text: "Energy", correct: false },
+            { text: "Force", correct: false },
+            { text: "Time", correct: false }
+          ],
+          explanation: "Power is defined as the rate at which work is done or energy is transferred."
+        },
+        {
+          question: "_____ IS used in measuring the fluid density in a car",
+          answers: [
+            { text: "Hydrometer", correct: true },
+            { text: "Hygrometer", correct: false },
+            { text: "Barometer", correct: false },
+            { text: "Manometer", correct: false }
+          ],
+          explanation: "A hydrometer is used to measure the density of fluids such as coolants in cars."
+        },
+        {
+          question: "Which of the following wave is used in determining the ocean depth",
+          answers: [
+            { text: "Refraction", correct: false },
+            { text: "Reflection", correct: false },
+            { text: "Sonar", correct: true },
+            { text: "Diffraction", correct: false }
+          ],
+          explanation: "Sonar waves (Sound Navigation and Ranging) are used to determine ocean depth."
+        },
+        {
+          question: "Which of the following is not a property of light",
+          answers: [
+            { text: "Reflection", correct: false },
+            { text: "Refraction", correct: false },
+            { text: "Photoelectric effect", correct: false },
+            { text: "Diffraction", correct: true }
+          ],
+          explanation: "Diffraction is not a property of light but rather a phenomenon associated with wave behavior."
+        },
+        {
+          question: "If the spring is stiff, then the value of k is ____________",
+          answers: [
+            { text: "Approximately zero", correct: false },
+            { text: "Moderate", correct: false },
+            { text: "Large", correct: true },
+            { text: "Small", correct: false }
+          ],
+          explanation: "In Hooke's Law, the spring constant (k) is larger for stiffer springs."
+        },
+        {
+          question: "Which of the following wave is not electromagnetic",
+          answers: [
+            { text: "Radiowave", correct: false },
+            { text: "Sound wave", correct: true },
+            { text: "X-ray", correct: false },
+            { text: "Infra-red ray", correct: false }
+          ],
+          explanation: "Sound waves are not electromagnetic waves; they are mechanical vibrations."
+        },
+        {
+          question: "The following are examples of repetitive to and fro motion about a mean position",
+          answers: [
+            { text: "A piston in a gasoline engine", correct: false },
+            { text: "A mass hanging from a coiled spring", correct: true },
+            { text: "Balance wheel of a watch", correct: false },
+            { text: "A car going to kaduna", correct: false }
+          ],
+          explanation: "A mass hanging from a coiled spring exhibits simple harmonic motion (SHM)."
+        },
+        {
+          question: "Heat can be transferred by these process except",
+          answers: [
+            { text: "Radiation", correct: false },
+            { text: "Conduction", correct: false },
+            { text: "Evaporation", correct: false },
+            { text: "Convection", correct: true }
+          ],
+          explanation: "Convection is not a method of heat transfer; it involves the movement of fluid."
+        },
+        {
+          question: "Determine the upthrust on an iron cube of volume 40cm³ totally immersed in oil of density 0.8g/cm³",
+          answers: [
+            { text: "8.3N", correct: false },
+            { text: "2.4N", correct: false },
+            { text: "4.0N", correct: false },
+            { text: "3.2N", correct: true }
+          ],
+          explanation: "Upthrust (buoyant force) = Volume * Density * Acceleration due to gravity = 40 cm³ * 0.8 g/cm³ * 10 m/s² = 3200 g·m/s² = 3.2 N."
+        },
+        {
+          question: "Which of the following is not a wavelength",
+          answers: [
+            { text: "Radiation", correct: true },
+            { text: "Conduction", correct: false },
+            { text: "Convection", correct: false },
+            { text: "Evaporation", correct: false }
+          ],
+          explanation: "Wavelength refers to the distance between successive crests of a wave, not a mode of heat transfer."
+        },
+        {
+          question: "Power is the rate of a",
+          answers: [
+            { text: "Energy", correct: false },
+            { text: "Kinetic", correct: false },
+            { text: "Work", correct: true },
+            { text: "Mechanical Energy", correct: false }
+          ],
+          explanation: "Power is defined as the rate at which work is done or energy is transferred."
+        },
+        {
+          question: "The following are properties of wave except",
+          answers: [
+            { text: "Transverse", correct: false },
+            { text: "Diffraction", correct: false },
+            { text: "Refraction", correct: false },
+            { text: "Reflection", correct: false }
+          ],
+          explanation: "Transverse, diffraction, refraction, and reflection are all properties or phenomena associated with waves."
+        },
+        {
+          question: "___________ lens curves inwardly",
+          answers: [
+            { text: "Reflection", correct: false },
+            { text: "Concave mirror", correct: true },
+            { text: "Convex mirror", correct: false },
+            { text: "Plane mirror", correct: false }
+          ],
+          explanation: "A concave lens is one that curves inwardly, causing light to converge."
+        },
+        {
+          question: "The unit of electric field intensity is",
+          answers: [
+            { text: "Newton per second", correct: false },
+            { text: "Newton per coulomb", correct: true },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "The electric field intensity is measured in newtons per coulomb (N/C)."
+        },
+        {
+          question: "Metal cable are used as telephone wire because",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "The light spiral spring is loaded with the mass of 100g and it extends by 25cm, what is the frequency of small vertical oscillation",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "Water waves are _____________",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "The minimum deviation when ray of light passes ___________ through the prism",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "E.m.f can be defined as the force of____________",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "A cell whose internal resistance is 0.5 ohms delivers a current of 4A to an external resistor. The lost voltage of the cell is ______________",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "The belief of light that consists of tiny particles can be attributed to",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "Which of these can be used at underwater communication",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "Current of 2A flows in a coil of e.m.f 12v for 0.4s aback emf of 3v was induced during this period. The store in the loop that can be utilized is",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "Platinum wire of 80cm long is to have a resistance of 0.1 ohms. What should its diameter be. Resistivity in platinum is 1.1x 10-7 ohms",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "1hp is ____________",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "Unit of magnetic induction is _____________",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "A bint of charge of 2x10-7 c experience force of 0..02N in the electric field. Calculate the magnitude strength of the field",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "The unit of power is _____________",
+          answers: [
+            { text: "Joules", correct: false },
+            { text: "ms-1", correct: false },
+            { text: "Watts", correct: true },
+            { text: "Candela", correct: false }
+          ],
+          explanation: "The unit of power is the watt (W)."
+        },
+        {
+          question: "Which of the following is a property of compound microscope",
+          answers: [
+            { text: "Less distortion", correct: true },
+            { text: "Smaller magnification", correct: false },
+            { text: "Single converging lens", correct: false },
+            { text: "None of the above", correct: false }
+          ],
+          explanation: "A compound microscope typically offers less distortion in its images."
+        },
+        {
+          question: "1amu = ___________________",
+          answers: [
+            { text: "931 MeV", correct: true },
+            { text: "1 x 10^-19 MeV", correct: false },
+            { text: "421 MeV", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "1 atomic mass unit (amu) is approximately equal to 931 Mega-electron volts (MeV)."
+        },
+        {
+          question: "Three capacitors of capacitance 2 µF, 4 µF, and a p.d of 6V is maintained across each capacitor. The total energy stored is",
+          answers: [
+            { text: "2.91 x 10^-4 J", correct: false },
+            { text: "2.91 x 10^4 J", correct: false },
+            { text: "6.90 x 10^-6 J", correct: true },
+            { text: "6.90 x 10^-6 J", correct: false }
+          ],
+          explanation: "The total energy stored in capacitors in parallel is the sum of their individual energies: E_total = 1/2 * (2 µF + 4 µF + 8 µF) * (6 V)^2 = 6.90 x 10^-6 J."
+        },
+        {
+          question: "Mirror that is thinner in the middle and thicker at the end is _____________",
+          answers: [
+            { text: "Convex mirror", correct: true },
+            { text: "Concave mirror", correct: false },
+            { text: "Converging lens", correct: false },
+            { text: "Diverging lens", correct: false }
+          ],
+          explanation: "A convex mirror is thinner in the middle and thicker at the ends."
+        },
+        {
+          question: "Which of the following will not receive the ultrasonic",
+          answers: [
+            { text: "Light", correct: true },
+            { text: "Cat", correct: false },
+            { text: "Human being", correct: false },
+            { text: "Bat", correct: false }
+          ],
+          explanation: "Ultrasonic waves are not received by light, as light does not interact with sound waves in this frequency range."
+        },
+        {
+          question: "How much ice at 0°C should be added to 100g of water at 20°C so that the final temperature will be 50°C",
+          answers: [
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: ""
+        },
+        {
+          question: "How many lenses does a compound microscope have",
+          answers: [
+            { text: "1", correct: false },
+            { text: "2", correct: false },
+            { text: "3", correct: true },
+            { text: "4", correct: false }
+          ],
+          explanation: "A compound microscope typically contains two lenses: an objective lens and an eyepiece."
+        },
+        {
+          question: "Relative vapour density is measured by ______________",
+          answers: [
+            { text: "Hydrometer", correct: false },
+            { text: "Hygrometer", correct: false },
+            { text: "Spectrometer", correct: false },
+            { text: "Manometer", correct: false }
+          ],
+          explanation: "Relative vapor density is measured using a spectrometer."
+        },
+        {
+          question: "____________ is used to measure the refractive index of a glass",
+          answers: [
+            { text: "Optical instrument", correct: true },
+            { text: "Photometer", correct: false },
+            { text: "Spectrometer", correct: false },
+            { text: "Kaleidoscope", correct: false }
+          ],
+          explanation: "An optical instrument is used to measure the refractive index of a glass."
+        },
+        {
+          question: "The S.I unit of magnetic induction is ________________",
+          answers: [
+            { text: "Tesla", correct: true },
+            { text: "Ampere", correct: false },
+            { text: "Coulomb", correct: false },
+            { text: "Farad", correct: false }
+          ],
+          explanation: "The SI unit of magnetic induction (B) is the tesla (T)."
+        },
+        {
+          question: "Quantity of charge (Q) is equal to ______________",
+          answers: [
+            { text: "IR", correct: true },
+            { text: "IV", correct: false },
+            { text: "QV", correct: false },
+            { text: "VT", correct: false }
+          ],
+          explanation: "The quantity of charge (Q) is equal to current (I) multiplied by time (T)."
+        },
+        {
+          question: "Ohm’s law is",
+          answers: [
+            { text: "V = RR", correct: false },
+            { text: "V = R/I", correct: true },
+            { text: "V = I/R", correct: false },
+            { text: "V = IR", correct: false }
+          ],
+          explanation: "Ohm's law states that voltage (V) is equal to current (I) multiplied by resistance (R)."
+        },
+        {
+          question: "The position and nature of an object placed 10cm in front of a concave mirror with radius of curvature 12cm is",
+          answers: [
+            { text: "5.5cm real", correct: true },
+            { text: "15cm real", correct: false },
+            { text: "5.5cm virtual", correct: false },
+            { text: "15cm virtual", correct: false }
+          ],
+          explanation: "A concave mirror with an object placed 10 cm in front and a radius of curvature of 12 cm will form a real, inverted image at 5.5 cm."
+        },
+        {
+          question: "Which of the following is not a semi-conductor",
+          answers: [
+            { text: "H", correct: true },
+            { text: "Cu", correct: false },
+            { text: "Gas", correct: false },
+            { text: "H2O", correct: false }
+          ],
+          explanation: "Hydrogen (H) is not a semiconductor; it is a gas."
+        },
+        {
+          question: "The following are luminous except",
+          answers: [
+            { text: "Candle", correct: false },
+            { text: "Touch", correct: true },
+            { text: "Sun", correct: false },
+            { text: "Ray of light", correct: false }
+          ],
+          explanation: "Touch is not a luminous source; it does not emit light."
+        },
+        {
+          question: "The path followed by flow of electric current is _______________",
+          answers: [
+            { text: "Ampere", correct: false },
+            { text: "Voltage", correct: false },
+            { text: "Circuit", correct: true },
+            { text: "Conduction", correct: false }
+          ],
+          explanation: "The path followed by the flow of electric current is called a circuit."
+        },
+        {
+          question: "Which is a means of generating luminous source of light",
+          answers: [
+            { text: "All of the above", correct: true },
+            { text: "Thermal conduction of molecules", correct: false },
+            { text: "Vibration of molecules", correct: false },
+            { text: "Harmonic motion of molecules", correct: false }
+          ],
+          explanation: "Various methods such as thermal conduction, vibration, and harmonic motion of molecules can generate luminous sources of light."
+        },
+        {
+          question: "In which of the following material medium will sound travel faster",
+          answers: [
+            { text: "Oil", correct: false },
+            { text: "Water", correct: false },
+            { text: "Metal", correct: true },
+            { text: "Gas", correct: false }
+          ],
+          explanation: "Sound travels fastest in solids like metals due to their higher elasticity and atomic arrangement."
+        },
+        {
+          question: "Oscillations are damped due to a process, that when a particle executing S.H.M passes through the mean position it has",
+          answers: [
+            { text: "Maximum K.E and maximum P.E", correct: false },
+            { text: "Minimum K.E and minimum P.E", correct: false },
+            { text: "Maximum K.E and minimum P.E", correct: true },
+            { text: "Maximum K.E and maximum K.E", correct: false }
+          ],
+          explanation: "Oscillations are damped due to energy losses, resulting in maximum kinetic energy and minimum potential energy at the mean position."
+        },
+        {
+          question: "A galvanometer measuring current 0 to 1 mA, has a resistance of 40 ohms. What is the value of resistor in parallel the galvanometer will use to measure current 0 to 1 A",
+          answers: [
+            { text: "2.5 ohms", correct: true },
+            { text: "0.24 ohms", correct: false },
+            { text: "0.04 ohms", correct: false },
+            { text: "1.42 ohms", correct: false }
+          ],
+          explanation: "To convert a galvanometer to an ammeter for a range of 0 to 1 A, a parallel resistor of 2.5 ohms should be used."
+        },
+        {
+          question: "A radio is operated by eight cells, each of e.m.f 2.0 V connected in series. If the cells are wrongly connected, the net e.m.f of the radio is",
+          answers: [
+            { text: "16V", correct: false },
+            { text: "10V", correct: false },
+            { text: "12V", correct: false },
+            { text: "8V", correct: true }
+          ],
+          explanation: "If cells with an EMF of 2.0 V each are connected in series, and they are wrongly connected, the net EMF of the radio will be 8V."
+        },
+        {
+          question: "An electric generator with a power of 30 kW, voltage of 1.5 i.e. distributes power to a 100 m cable. The total resistance of the cable is 20.0. What is the power loss in the cable",
+          answers: [
+            { text: "4.00", correct: false },
+            { text: "0.1", correct: false },
+            { text: "10.0", correct: true },
+            { text: "80.0", correct: false }
+          ],
+          explanation: "Power loss in the cable can be calculated using P = I^2 * R, where I = V / R. Substituting the values gives 10.0."
+        },
+        {
+          question: "Any system which obeys ______________ can exhibit S.H.M",
+          answers: [
+            { text: "Kirchoff’s law", correct: false },
+            { text: "Hooke’s law", correct: true },
+            { text: "Thevenin’s law", correct: false },
+            { text: "", correct: false }
+          ],
+          explanation: "A system that follows Hooke's law (F = -kx) can exhibit simple harmonic motion."
+        },
+        {
+          question: "Examples of optical instruments except",
+          answers: [
+            { text: "Telescope", correct: false },
+            { text: "Scanner", correct: false },
+            { text: "Camera", correct: false },
+            { text: "Projector", correct: true }
+          ],
+          explanation: "A projector is not typically considered an optical instrument in the same category as telescopes, scanners, and cameras."
+        },
+        {
+          question: "Calculate the electric dipole length of the charge 6 x 10^-9 C separated by 0.125 N/m",
+          answers: [
+          { text: "2.19 x 10^-29 m", correct: true },
+          { text: "2 x 10^-29 m", correct: false },
+          { text: "2.2 x 10^-9 m", correct: false },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "The electric dipole moment (p) is given by p = q * d, where q is the charge and d is the separation distance. Here, p = (6 x 10^-9 C) * (0.125 N/m) = 7.5 x 10^-10 Cm. The correct option represents this value in meters."
+          },
+          {
+          question: "1 eV is equivalent to ________",
+          answers: [
+          { text: "764 hp", correct: false },
+          { text: "732 hp", correct: false },
+          { text: "746 hp", correct: true },
+          { text: "744 hp", correct: false }
+          ],
+          explanation: "1 electron volt (eV) is equivalent to approximately 746 horsepower (hp)."
+          },
+          {
+          question: "A force produced with a resistive force is called",
+          answers: [
+          { text: "Damped", correct: true },
+          { text: "Random", correct: false },
+          { text: "Translational", correct: false },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "A force produced with a resistive force is called damped force, which gradually reduces in amplitude."
+          },
+          {
+          question: "Speed (v) of wave is = product of frequency and ",
+          answers: [
+          { text: "Vibration", correct: false },
+          { text: "Wavelength", correct: true },
+          { text: "Amplitude", correct: false },
+          { text: "Time period", correct: false }
+          ],
+          explanation: "The speed (v) of a wave is given by v = frequency * wavelength. Therefore, speed is the product of frequency and wavelength."
+          },
+          {
+          question: "A steady current of 2A flows in a coil of emf 12V for 0.4 seconds. A back emf of 30V was induced during this period. The stored energy in the loop that can be utilized is",
+          answers: [
+          { text: "2.4 J", correct: false },
+          { text: "12.0 J", correct: false },
+          { text: "9.6 J", correct: true },
+          { text: "0.2 J", correct: false }
+          ],
+          explanation: "The energy stored in an inductor (coil) is given by E = 1/2 * L * I^2, where L is the inductance and I is the current. Given the back emf, the stored energy that can be utilized is 9.6 joules."
+          },
+          {
+          question: "A point charge of 2.07 x 10^-7 C experiences a force of 0.2 N in a uniform electric field. Compute the magnitude of the strength of the field",
+          answers: [
+          { text: "1 x 10^4 N/C", correct: true },
+          { text: "4 x 10^-5 N/C", correct: false },
+          { text: "1 x 10^-5 N/C", correct: false },
+          { text: "1 x 10^-9 N/C", correct: false }
+          ],
+          explanation: "The electric field strength (E) is given by E = F / q, where F is the force experienced by the charge q. Substituting the given values, E = (0.2 N) / (2.07 x 10^-7 C) = 1 x 10^4 N/C."
+          },
+          {
+          question: "The following are advantages of a potentiometer except",
+          answers: [
+          { text: "Connecting wires may be thin", correct: false },
+          { text: "Slow to use", correct: true },
+          { text: "No current is drawn from the circuit under test", correct: false },
+          { text: "Scale can be varied and made long", correct: false }
+          ],
+          explanation: "One disadvantage of a potentiometer is that it can be slow to use due to manual adjustments."
+          },
+          {
+          question: "Which of the following cannot travel in a vacuum?",
+          answers: [
+          { text: "Sound", correct: true },
+          { text: "Visible light", correct: false },
+          { text: "Gamma rays", correct: false },
+          { text: "Radio waves", correct: false }
+          ],
+          explanation: "Sound waves require a medium (such as air, water, or solids) to propagate and cannot travel through a vacuum."
+          },
+          {
+          question: "The change of direction of a wave front due to a change in velocity is called",
+          answers: [
+          { text: "Diffraction", correct: false },
+          { text: "Refraction", correct: true },
+          { text: "Reflection", correct: false },
+          { text: "Interference", correct: false }
+          ],
+          explanation: "Refraction refers to the change in direction of a wave front when it passes from one medium to another with different velocity."
+          },
+          {
+          question: "The lens with a long focal length is",
+          answers: [
+          { text: "Not strongly curved", correct: false },
+          { text: "Thick", correct: false },
+          { text: "Both b and c", correct: false },
+          { text: "Thin", correct: true }
+          ],
+          explanation: "A lens with a long focal length tends to be thinner and less strongly curved."
+          },
+          {
+          question: "A charge of magnitude 2 x 10^-4 C experiences a force of 4 x 10^-5 N in an electric field. Find the electric field intensity",
+          answers: [
+          { text: "5 x 10^5 N/C", correct: true },
+          { text: "3.4 x 10^5 N/C", correct: false },
+          { text: "2.4 x 10^5 N/C", correct: false },
+          { text: "4 x 10^-5 N/C", correct: false }
+          ],
+          explanation: "The electric field intensity (E) is given by E = F / q, where F is the force experienced by the charge q. Substituting the given values, E = (4 x 10^-5 N) / (2 x 10^-4 C) = 5 x 10^5 N/C."
+          },
+          {
+          question: "A light spiral spring is loaded with a mass of 150 g and it extends by 20 cm. Calculate the frequency",
+          answers: [
+          { text: "1.13 Hz", correct: true },
+          { text: "2.56 Hz", correct: false },
+          { text: "0.16 Hz", correct: false },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "The frequency (f) of a spring-mass system is given by f = (1 / 2π) * sqrt(k / m), where k is the spring constant and m is the mass. In this case, m = 0.15 kg and k = F / x (using Hooke's Law). Calculate k first, then find the frequency."
+          },
+          {
+          question: "Convex mirrors are used as drawing mirrors because",
+          answers: [
+          { text: "Erect and virtual images", correct: true },
+          { text: "Wide field of view", correct: false },
+          { text: "They produce upright and diminished images", correct: false },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "Convex mirrors produce virtual, erect, and diminished images, which are useful for drawing purposes."
+          },
+          {
+          question: " is used to measure the acidity of a car battery",
+          answers: [
+          { text: "Barometer", correct: false },
+          { text: "Hydrometer", correct: true },
+          { text: "Hygrometer", correct: false },
+          { text: "Manometer", correct: false }
+          ],
+          explanation: "A hydrometer is a device used to measure the specific gravity (and thus the acidity) of a liquid like battery acid."
+          },
+          {
+          question: "The emission and absorption of light can be best explained using",
+          answers: [
+          { text: "Reflection model", correct: false },
+          { text: "Wave model", correct: false },
+          { text: "Refraction model", correct: false },
+          { text: "Particle model", correct: true }
+          ],
+          explanation: "The emission and absorption of light are phenomena best explained using the particle model, where light behaves like photons."
+          },
+          {
+          question: "Which of the following is correct?",
+          answers: [
+          { text: "Unlike charges repel, like charges attract", correct: true },
+          { text: "Repulsion is equal to attraction", correct: false },
+          { text: "", correct: false },
+          { text: "", correct: false }
+          ],
+          explanation: "According to Coulomb's law, unlike charges repel each other and like charges attract each other."
+          },
+          {
+          question: "A wire of length 90.0 cm and diameter of 0.3 mm has a resistivity of 11 x 10^-8 ohm m. Calculate the resistance.",
+          answers: [
+          { text: "12.0 ohms", correct: true },
+          { text: "14.00 ohms", correct: false },
+          { text: "13.00 ohms", correct: false },
+          { text: "10.0 ohms", correct: false }
+          ],
+          explanation: "The resistance (R) of a wire is given by R = (resistivity * length) / (cross-sectional area). First, calculate the cross-sectional area using the diameter of the wire, then use the formula."
+          },
+          {
+          question: "An object is placed 30.0 cm from a converging lens. If the real image formed is 90.0 cm from the object, what is the focal length?",
+          answers: [
+          { text: "20.0 cm", correct: false },
+          { text: "50.0 cm", correct: true },
+          { text: "22.5 cm", correct: false },
+          { text: "60.0 cm", correct: false }
+          ],
+          explanation: "Using the lens formula (1/f = 1/do + 1/di), where do is the object distance and di is the image distance, solve for f."
+          },
+          {
+          question: "A sufficiently high temperature causes all matter to emit visible light due to",
+          answers: [
+          { text: "Reflection", correct: false },
+          { text: "Self-luminous", correct: true },
+          { text: "", correct: false },
+          { text: "", correct: false }
+          ],
+          explanation: "At sufficiently high temperatures, all matter emits visible light due to being self-luminous."
+          },
+          {
+          question: "What is the angle of refraction for a light ray of wavelength 589 nm traveling from air to crown glass at an angle of incidence of 30°?",
+          answers: [
+          { text: "41.10°", correct: true },
+          { text: "60°", correct: false },
+          { text: "90.20°", correct: false },
+          { text: "30°", correct: false }
+          ],
+          explanation: "Use Snell's law (n1 * sin(theta1) = n2 * sin(theta2)) to find the angle of refraction."
+          },
+          {
+          question: "When a stone is taken from Earth to the Moon, its mass will",
+          answers: [
+          { text: "Increase", correct: false },
+          { text: "Decrease", correct: false },
+          { text: "Remain constant", correct: true },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "The mass of an object remains constant regardless of its location."
+          },
+          {
+          question: "In an inductive circuit,",
+          answers: [
+          { text: "Current lags voltage by 90°", correct: true },
+          { text: "Voltage lags current by 90°", correct: false },
+          { text: "", correct: false },
+          { text: "", correct: false }
+          ],
+          explanation: "In an inductive circuit, the current lags the voltage by 90° due to the inductance of the circuit."
+          },
+          {
+          question: "A point on the principal axis at the center of curvature is called",
+          answers: [
+          { text: "Principal axis", correct: false },
+          { text: "Optical center", correct: true },
+          { text: "Focal length", correct: false },
+          { text: "Principal focus", correct: false }
+          ],
+          explanation: "The optical center of a lens or mirror is the point on the principal axis at the center of curvature."
+          },
+          {
+          question: "The inability of the eye to see objects clearly is called",
+          answers: [
+          { text: "Clarity of images", correct: false },
+          { text: "Blurry images", correct: false },
+          { text: "Defects of vision", correct: true },
+          { text: "Small images", correct: false }
+          ],
+          explanation: "Defects of vision refer to the inability of the eye to see objects clearly."
+          },
+          {
+          question: "What is the speed of light in a fluid where light travels from air to a fluid of refractive index 1.34?",
+          answers: [
+          { text: "0.74 m/s", correct: false },
+          { text: "3 x 10^8 m/s", correct: false },
+          { text: "2.25 x 10^8 m/s", correct: true },
+          { text: "4.47 x 10^-9 m/s", correct: false }
+          ],
+          explanation: "The speed of light in a medium is v = c / n, where c is the speed of light in vacuum and n is the refractive index of the medium."
+          },
+          {
+          question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
+          answers: [
+          { text: "1.20 ohms", correct: false },
+          { text: "5.5 ohms", correct: false },
+          { text: "2.4 ohms", correct: false },
+          { text: "4.6 ohms", correct: true }
+          ],
+          explanation: "The resistance of a material changes with temperature according to the formula: R2 = R1 * [1 + α * (T2 - T1)], where α is the temperature coefficient of resistance."
+          },
+          {
+          question: "Calculate the electrostatic force between two electrons separated by a distance of 10^-10 m. Given electronic charge = 1.6 x 10^-19 C (k = 9 x 10^9 Nm^2/C^2)",
+          answers: [
+          { text: "9 x 10^-8 N", correct: true },
+          { text: "1.6 x 10^-19 N", correct: false },
+          { text: "1.44 x 10^-28 N", correct: false },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "The electrostatic force between two charges is given by Coulomb's law: F = (k * q1 * q2) / r^2, where q1 and q2 are the charges, k is the Coulomb constant, and r is the distance between the charges."
+          },
+          {
+          question: "The nature of light is both wave and particle, which is known as",
+          answers: [
+          { text: "Triple", correct: false },
+          { text: "Single", correct: false },
+          { text: "Dual", correct: true },
+          { text: "Negative", correct: false }
+          ],
+          explanation: "Light exhibits both wave-like and particle-like properties, known as wave-particle duality."
+          },
+          {
+          question: "For a diverging lens, the focal length is __",
+          answers: [
+          { text: "Negative", correct: true },
+          { text: "Zero", correct: false },
+          { text: "Positive", correct: false },
+          { text: "Constant", correct: false }
+          ],
+          explanation: "The focal length of a diverging lens is negative because the light rays diverge after passing through the lens."
+          },
+          {
+          question: "Electric current has the following effects except",
+          answers: [
+          { text: "Heating effect", correct: false },
+          { text: "Chemical effect", correct: false },
+          { text: "Turning effect", correct: true },
+          { text: "Magnetic effect", correct: false }
+          ],
+          explanation: "Electric current produces heating, chemical changes (electrolysis), and magnetic effects, but does not produce a turning effect."
+          },
+          {
+          question: "The closed surface in Gauss's law is called",
+          answers: [
+          { text: "Gauss keyboard", correct: false },
+          { text: "Gauss sphere", correct: false },
+          { text: "Gauss surface", correct: true },
+          { text: "None of the above", correct: false }
+          ],
+          explanation: "Gauss's law deals with the flux through a closed surface, known as a Gauss surface."
+          },
+          {
+          question: " is a type of surface that can reflect a beam of light in one direction instead of scattering.",
+          answers: [
+          { text: "All of the above", correct: false },
+          { text: "Mirror", correct: true },
+          { text: "Prism", correct: false },
+          { text: "Lens", correct: false }
+          ],
+          explanation: "Mirrors are surfaces designed to reflect light in a predictable direction, unlike rough surfaces that scatter light."
+          },
+          {
+          question: "A telescope using a converging lens is",
+          answers: [
+          { text: "Simple telescope", correct: true },
+          { text: "Compound microscope", correct: false },
+          { text: "Refracting lens", correct: false },
+          { text: "Reflecting lens", correct: false }
+          ],
+          explanation: "A telescope that uses a converging lens (objective lens) is known as a simple telescope."
+          },
+          {
+          question: "The following are uses of static electricity except",
+          answers: [
+          { text: "Polythene fabrication", correct: false },
+          { text: "Electrostatic paint spray", correct: false },
+          { text: "Electrostatic dust collector", correct: false },
+          { text: "Galden spray", correct: true }
+          ],
+          explanation: "Galden spray is not a common use of static electricity; the other options are valid applications."
+          },
+          {
+          question: "The distance between the optical center and the principal focus is called",
+          answers: [
+          { text: "Focal length", correct: false },
+          { text: "Lens length", correct: false },
+          { text: "Radius", correct: false },
+          { text: "Focal length", correct: true }
+          ],
+          explanation: "The distance between the optical center and the principal focus of a lens is known as the focal length."
+          },
+          {
+          question: "Which of the following does not change during refraction?",
+          answers: [
+          { text: "Wavelength", correct: false },
+          { text: "Direction", correct: false },
+          { text: "Frequency", correct: false },
+          { text: "Speed", correct: true }
+          ],
+          explanation: "Speed is the property of light that changes when it refracts through different media; wavelength, direction, and frequency may change."
+          },
+          {
+          question: "The current passing through a semiconductor is directly proportional to its",
+          answers: [
+          { text: "Coulomb's law", correct: false },
+          { text: "Ohm's law", correct: true },
+          { text: "Faraday's law", correct: false },
+          { text: "Lenz's law", correct: false }
+          ],
+          explanation: "Ohm's law states that the current flowing through a conductor is directly proportional to the potential difference applied across it, under constant temperature conditions."
+          },
+          {
+          question: "A p.d of 3.6V is maintained between plates which are 30 cm apart. Calculate the intensity.",
+          answers: [
+          { text: "4 V/m", correct: true },
+          { text: "1.8 V/m", correct: false },
+          { text: "18 V/m", correct: false },
+          { text: "12 V/m", correct: false }
+          ],
+          explanation: "Electric field intensity (E) between plates of a capacitor is given by E = V / d, where V is the potential difference and d is the distance between plates."
+          },
+          {
+          question: "A cell whose internal resistance is 0.50 ohms delivers a current of 4A to an external resistor. The lost voltage of the cell is",
+          answers: [
+          { text: "2.00V", correct: true },
+          { text: "0.125V", correct: false },
+          { text: "8.00V", correct: false },
+          { text: "1.250V", correct: false }
+          ],
+          explanation: "The lost voltage (Vlost) of a cell is given by Vlost = I * r, where I is the current and r is the internal resistance of the cell."
+          },
+
+
 
 
         // Add more questions for Physics until you have 30
@@ -9455,7 +17679,7 @@ function startQuiz(subject) {
     score = 0;
     document.getElementById('subject-selection').style.display = 'none';
     document.getElementById('quiz-page').style.display = 'block';
-    startTimer(10 * 60); // 10 minutes in seconds
+    startTimer(15 * 60); // 15 minutes in seconds
     showQuestions();
 }
 
@@ -9554,4 +17778,3 @@ function startOver() {
     document.getElementById('subject-selection').style.display = 'block';
 }
 
-footer
