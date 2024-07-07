@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7063744355398141"
     crossorigin="anonymous"></script>
-
     <meta charset="UTF-8">
     <meta name="google-adsense-account" content="ca-pub-7063744355398141">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>102 Past Question By Emmanuel Jegede</title>
+    <title>Your LAUTECH Assistant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="subject-selection">
+    <!-- New Opening Page -->
+    <div id="opening-page" class="container">
+        <img src="LAUTECH-Logo_0.png" alt="LAUTECH Logo" class="logo">
+        <H2>Your LAUTECH Assistant</H2>
+          <center><small> by Emmanuel O.J</small></center> 
+        <img src="Line 1.png" alt="LAUTECH Logo" class="longline">
+        <button class="btn" onclick="showPage('class-page')">CLASS <img src="pngegg (2).png" alt="Class-image" class="book"></button>
+        <button class="btn" onclick="showPage('news-page')">NEWS  <img src="pngegg.png" alt="News-image" class="news"></button>
+        <nav>
+            <a href="#opening-page">Back</a>
+        </nav>
+    </div>
+
+    <!-- Subject Selection -->
+    <div id="subject-selection" style="display: none;">
         <h3>102 Past Questions - Neuerjr</h3>
         <h1>Select a Subject</h1>
         <button id="subject-container" onclick="startQuiz('biology')">BIO 102</button>
@@ -22,28 +34,126 @@
         <button id="subject-container" onclick="startQuiz('physics')">PHY 102</button>
     </div>
 
+    <!-- Class Page -->
+    <div id="class-page" class="container" style="display: none;">
+        <button class="butn" onclick="showPage('subject-selection')">Study Past Question</button>
+        <button class="bntn" onclick="showPage('topic-by-topic-page')">Topic by Topic</button>
+        <button class="butn" onclick="showPage('syllabus-page')">My Syllabus</button>
+    </div>
+
+    <!-- Topic by Topic Page -->
+    <div id="topic-by-topic-page" class="container" style="display: none;">
+        <label for="level">Level:</label>
+        <select id="level" name="level">
+            <option value="100">100 Level</option>
+        </select>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject">
+            <option value="bio102">Bio 102</option>
+            <option value="chm102">Chm 102</option>
+            <option value="phy102">Phy 102</option>
+            <option value="mth102">Mth 102</option>
+            <option value="gns102">Gns 102</option>
+        </select>
+
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic">
+            <option value="">Select a Topic</option>
+        </select>
+
+        <button class="bts" onclick="showArticles()">Show Articles</button>
+        <button class="btn" onclick="showPage('class-page')">Back to Class</button>
+    </div>
+
+    <div id="articles-page" class="container">
+        <div id="articles-content" class="article-box">
+            <!-- Article content will be dynamically inserted here -->
+        </div>
+        <button class="btn" onclick="goBackToTopics()">Back to Topics</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const params = new URLSearchParams(window.location.search);
+            const topic = params.get('topic');
+            
+            // Assuming articles is an object with topics as keys and content as values
+            const articles = {
+                "fungi": "Article on Classification of Living Things - Fungi...",
+                "chemical-bonds": "Article on Chemical Bonds...",
+                "stoichiometry": "Article on Stoichiometry...",
+                "optics": "Article on Optics...",
+                "kinematics": "Article on Kinematics...",
+                "algebra": "Article on Algebra...",
+                "calculus": "Article on Calculus...",
+                "english-grammar": "Article on English Grammar...",
+                "literature": "Article on Literature..."
+            };
+
+            let articleContent = articles[topic] || '<p>No articles found for the selected topic.</p>';
+            document.getElementById('articles-content').innerHTML = articleContent;
+        });
+
+        function goBackToTopics() {
+            window.location.href = 'index.html'; // Redirect back to the main page
+        }
+    </script>
+
+    <!-- Syllabus Page -->
+    <div id="syllabus-page" class="container" style="display: none;">
+        <label for="syllabus-level">Level:</label>
+        <select id="syllabus-level" name="level">
+            <option value="100">100 Level</option>
+        </select>
+
+        <label for="syllabus-subject">Subject:</label>
+        <select id="syllabus-subject" name="subject">
+            <option value="bio102">Bio 102</option>
+            <option value="chm102">Chm 102</option>
+            <option value="phy102">Phy 102</option>
+            <option value="mth102">Mth 102</option>
+            <option value="gns102">Gns 102</option>
+        </select>
+
+        <button class="btn" onclick="showSyllabus()">Show Syllabus</button>
+        <button class="btn" onclick="showPage('class-page')">Back to Class</button>
+    </div>
+
+    <!-- Articles Page -->
+    <div id="articles-page" class="container" style="display: none;">
+        <div id="articles-content" class="article-box">
+            <!-- Article content will be dynamically inserted here -->
+        </div>
+        <button class="btn" onclick="showPage('topic-by-topic-page')">Back to Topics</button>
+    </div>
+
+    <!-- Syllabus Content Page -->
+    <div id="syllabus-content-page" class="container" style="display: none;">
+        <div id="syllabus-content" class="article-box">
+            <!-- Syllabus content will be dynamically inserted here -->
+        </div>
+        <button class="btn" onclick="showPage('syllabus-page')">Back to Syllabus</button>
+    </div>
+
+
+    <!-- Quiz Page -->
     <div id="quiz-page" style="display: none;">
-        <div id="timer">15:00</div>
+        <div id="timer">15:00</div> 
         <div id="quiz-container"></div>
         <button id="submit-button" onclick="submitQuiz()">Submit</button>
     </div>
-    
-    <div class="" style="display: none;"></div>
-    
+
+    <!-- Results Page -->
     <div id="results-page" style="display: none;">
         <div id="results-container"></div>
         <button id="start-over-button" onclick="startOver()">Start Over</button>
     </div>
-    
 
     <script src="script.js"></script>
 
     <footer>
-        " <h3> For feedback, Message 08071761041 </h3> 
-        <h3>Wish you success as you prepare.</h3>
-        <h4> Source: General David (07063776455)</h4>. 
+        <h3> For feedback and complaint, Message 08071761041 </h3> 
     </footer>
-    
-
-    </body>
+</body>
 </html>

@@ -1,3 +1,132 @@
+// Function to switch between pages
+function showPage(pageId) {
+  const pages = document.querySelectorAll('.container');
+  pages.forEach(page => {
+      page.style.display = 'none';
+  });
+  document.getElementById(pageId).style.display = 'block';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Hide articles and syllabus content pages on load
+  document.getElementById('articles-page').style.display = 'none';
+  document.getElementById('syllabus-content-page').style.display = 'none';
+
+  // Add event listener to the Show Articles button
+  document.querySelector('#topic-by-topic-page .bts').addEventListener('click', showArticles);
+  document.querySelector('#syllabus-page .btn:nth-child(3)').addEventListener('click', showSyllabus);
+});
+
+
+const topics = {
+  bio102: [
+      { value: 'nomenclature', text: 'Bionomial Nomenclature'}, 
+      { value: 'intro', text: 'Review of Plant Kingdom I'},
+      { value: 'fungi', text: 'Review of Plant Kigdom II - Fungi' },
+      { value: 'plantae', text: 'Review of Plant Kigdom III - Bryophyta & Pteridophyta'},
+      { value: 'plantee', text: 'Review of Plant Kigdom IV - Spermatophyta'},
+      { value: 'animal', text: 'Review of Animal Kingdom I- Sarcomastigophora - PLlatyhelminthes'},
+      { value: 'annelids', text: 'Review of Animal Kingdom II- Nematoda - Mollusca'},
+      { value: 'arthopods', text: 'Review of Animal Kingdom III- Arthropoda & Echninodermata '},
+      { value: 'chordata', text: 'Review of Animal Kingdom IV- Chordata, Hemichordata - Pieces'},
+      { value: 'amps', text: 'Review of Animal Kingdom V- Amphibians - Aves'},
+      { value: 'mammals', text: 'Review of Animal Kingdom VI- Mammals'},
+      { value: 'ecology', text: 'Ecology'},
+  ],
+  chm102: [
+      { value: 'periodic', text: 'Periodic table properties' },
+      { value: 'aliphatic', text: 'Aliphatic' },
+      { value: 'fourthg', text: 'Group IV-V' },
+      { value: 'six', text: 'Group VI-VIII' },
+      { value: 'analysis', text: 'General Scheme of Analysis' },
+      { value: 'hybe', text: 'Hybridization of Carbon,Factors influncing Reaction' },
+  ],
+  phy102: [
+      { value: 'wave', text: 'Introduction to waves' },
+      { value: 'light', text: 'Optics' },
+      { value: 'refraction', text: 'Properties of light wave' },
+      { value: 'sound', text: 'Sound Wave' },
+      { value: 'electricity', text: 'Current Electricity' },
+      { value: 'field', text: 'Magnetic & Electric field' },
+      { value: 'ac', text: 'A.C Circuit' },
+      { value: 'quanta', text: 'Energy Quantazation' },
+  ],
+  mth102: [
+      { value: 'calculus', text: 'Calculus' },
+      { value: 'geometry', text: 'Co-ordinate Geometry' },
+      { value: 'conic', text: 'Conic Section' },
+      { value: 'trig', text: 'Trigonometry' },
+  ],
+  gns102: [
+      { value: 'word', text: 'Word Formation' },
+  ]
+};
+
+function showTopics(subjectCode) {
+  showPage('topic-by-topic-page');
+  const subjectSelect = document.getElementById('subject');
+  subjectSelect.value = subjectCode;
+  updateTopics();
+}
+
+function updateTopics() {
+  const subjectSelect = document.getElementById('subject');
+  const topicSelect = document.getElementById('topic');
+  const selectedSubject = subjectSelect.value;
+
+  topicSelect.innerHTML = ''; // Clear previous options
+
+  if (selectedSubject && topics[selectedSubject]) {
+      topics[selectedSubject].forEach(topic => {
+          const option = document.createElement('option');
+          option.value = topic.value;
+          option.textContent = topic.text;
+          topicSelect.appendChild(option);
+      });
+  } else {
+      const placeholderOption = document.createElement('option');
+      placeholderOption.value = '';
+      placeholderOption.textContent = 'Select a Topic';
+      topicSelect.appendChild(placeholderOption);
+  }
+}
+
+function showArticles() {
+  const topicSelect = document.getElementById('topic');
+  const selectedTopic = topicSelect.value;
+
+  if (selectedTopic) {
+      window.location.href = `articles.html?topic=${selectedTopic}`;
+  } else {
+      alert('Please select a topic to view the article.');
+  }
+}
+
+function showSyllabus() {
+  const subjectSelect = document.getElementById('syllabus-subject');
+  const selectedSubject = subjectSelect.value;
+
+  if (selectedSubject) {
+      window.location.href = `syllabus.html?subject=${selectedSubject}`;
+  } else {
+      alert('Please select a subject to view the syllabus.');
+  }
+}
+
+function showPage(pageId) {
+  const pages = document.querySelectorAll('.container');
+  pages.forEach(page => {
+      page.style.display = 'none';
+  });
+  document.getElementById(pageId).style.display = 'block';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const subjectSelect = document.getElementById('subject');
+  subjectSelect.addEventListener('change', updateTopics);
+});
+
+
 const quizData = {
     biology: [
         { question: "Which organelle is known as the 'brain' of the cell?", answers: [{ text: "Nucleus", correct: true }, { text: "Mitochondria", correct: false }, { text: "Ribosome", correct: false }, { text: "Endoplasmic Reticulum", correct: false }], explanation: "The nucleus controls cell activities and contains genetic material." },
@@ -523,8 +652,11 @@ const quizData = {
         {
             question: "Water and carbon dioxide are expelled out of the body through",
             answers: [
-                { text: "Lungs", correct: true }
-            ],
+              { text: "Trachea", correct: false },
+              { text: "Heart", correct: false },
+              { text: "Lungs", correct: true },
+              { text: "Nose", correct: false }
+          ],
             explanation: "The lungs expel water vapor and carbon dioxide as waste products of respiration."
         },
         {
@@ -17778,4 +17910,6 @@ function startOver() {
     document.getElementById('results-page').style.display = 'none';
     document.getElementById('subject-selection').style.display = 'block';
 }
+
+
 

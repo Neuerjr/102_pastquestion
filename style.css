@@ -1,12 +1,83 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 20px;
-    background-image: url(back.png);
+.hidden {
+    display: block;
+    font-size: large;
 }
 
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 2px;
+    background-image: url(back.png);
+}
+
+.nav-btn {
+    margin: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%; /* Or any specific width */
+    position: relative; /* Optional, for absolute positioning of the image within the box */
+}
+
+/* Logo styling */
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.book {
+    float: right;
+    width: 55px;
+    height: 50px;    
+}
+
+.news {
+    height: 77px;
+    width: 80px;
+    float: right;
+    margin: -20px;
+}
+
+/* Button styling */
+.btn{
+    background-color: #babeba; 
+    color: white;
+    padding: 15px 20px;
+    width: 400px;
+    height: 70px;
+    margin: 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size:36px;
+    @font-face {
+        font-family: 'CustomFont';
+        src: url("C:\Users\hp\102_pastquestion\IrishGrover-Regular.ttf");
+    }
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Optional border for definition */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), /* Shadow for 3D effect */
+                -5px -5px 15px rgba(255, 255, 255, 0.8); /* Highlight for 3D effect */
+    transform: perspective(1000px) rotateX(4deg) rotateY(8deg); /* Slight 3D rotation */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
 
 h1 {
     text-align: center;
@@ -22,7 +93,14 @@ h1 {
     max-width: 800px;
     margin: 25px ;
     text-align: center;
+    border: 1px solid #ccc; /* Optional border for definition */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), /* Shadow for 3D effect */
+                -5px -5px 15px rgba(255, 255, 255, 0.8); /* Highlight for 3D effect */
+    transform: perspective(1000px) rotateX(-4deg) rotateY(6deg); /* Slight 3D rotation */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
+
+
 
 footer {
     text-align: left;
@@ -32,13 +110,21 @@ footer {
     font-size: 12px;
 }
 
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    color:rgb(19, 29, 29);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-size: 12px;
+    color:rgb(34, 10, 73);
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 h4 {
@@ -56,14 +142,32 @@ h5 {
     font-size: 5px;
 }
 
+.leaf {
+    width: 200px;
+}
+
 button {
     padding: 10px 20px;
     margin: 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    background: linear-gradient(45deg, red, blue);
+    background: linear-gradient(45deg, red, rgb(226, 45, 69));
     color: white;
+}
+
+#opening-page {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 3px;
+    margin-top: 20px;
 }
 
 #timer {
@@ -100,7 +204,7 @@ button {
 }
 
 #quiz-container {
-    margin: 20px 0;
+   margin-top: 50px ;
 }
 
 .quiz-question {
@@ -129,7 +233,6 @@ button {
 }
 
 
-
 .quiz-answer.incorrect {
     background-color: lightcoral;
 }
@@ -153,3 +256,165 @@ button {
     text-align: center;
 }
 
+.longline {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.butn {
+    width: 500px;
+    height: 50px;
+    margin: 80px;
+    background-color: #babeba; 
+    color: white;
+    padding: 15px 20px;
+    width: 400px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size:36px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Optional border for definition */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), /* Shadow for 3D effect */
+                -5px -5px 15px rgba(255, 255, 255, 0.8); /* Highlight for 3D effect */
+    transform: perspective(1000px) rotateX(4deg) rotateY(8deg); /* Slight 3D rotation */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.butn:hover {
+    transform: scale(1.05);
+}
+
+.bntn {
+    width: 500px;
+    height: 50px;
+    margin: 80px;
+    background-color: #babeba; 
+    color: white;
+    padding: 15px 20px;
+    width: 400px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size:36px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Optional border for definition */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), /* Shadow for 3D effect */
+                -5px -5px 15px rgba(255, 255, 255, 0.8); /* Highlight for 3D effect */
+    transform: perspective(1000px) rotateX(-4deg) rotateY(-10deg); /* Slight 3D rotation */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.bntn:hover {
+    transform: scale(1.05);
+}
+
+#topic {
+width: 450px;
+height: 45px;
+font-size: 20px;
+text-align: center;
+outline-color: blue;
+stroke-width: 5px;
+font-weight: bold;
+margin: 60px;
+}
+
+#subject {
+    width: 450px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    outline-color: blue;
+    stroke-width: 5px;
+    font-weight: bold;
+    box-align: center;
+    margin: 60px;
+}
+
+#level {
+width: 450px;
+height: 45px;
+font-size: 20px;
+text-align: center;
+outline-color: blue;
+stroke-width: 5px;
+font-weight: bold;
+margin: 60px;
+}
+
+/* Add this CSS to style the article container */
+#article-container {
+    width: 75%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color:  #f0f8ff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: blue;
+    outline-width: 40px;
+    stroke-width: 30%;
+}
+
+/* Optionally, add some styling for headings and paragraphs within the article */
+#article-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#article-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #723737;
+}
+
+.bts {
+    border-radius: 15px;
+    width: 250px;
+    height: 65px;
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+    align-self: center;
+    float: none;    
+
+}
+
+.article-box {
+    background-color: #f0f8ff; /* Light blue background for cool effect */
+    color: #333; /* Dark text color for warm contrast */
+    padding: 20px;
+    border-radius: 4px;
+    width: 75%;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.fraction {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.fraction > .numerator {
+    border-bottom: 1px solid #000;
+    display: block;
+    padding: 0 0.5em;
+}
+.fraction > .denominator {
+    display: block;
+    padding: 0 0.5em;
+}
+.equation {
+    display: block;
+    margin: 1em 0;
+}
