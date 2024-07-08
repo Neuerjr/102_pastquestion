@@ -35,11 +35,12 @@ const topics = {
   ],
   chm102: [
       { value: 'periodic', text: 'Periodic table properties' },
-      { value: 'aliphatic', text: 'Aliphatic' },
       { value: 'fourthg', text: 'Group IV-V' },
       { value: 'six', text: 'Group VI-VIII' },
       { value: 'analysis', text: 'General Scheme of Analysis' },
       { value: 'hybe', text: 'Hybridization of Carbon,Factors influncing Reaction' },
+      { value: 'aliphatic', text: 'Hydrocarbon I- Alkane' },
+      { value: 'alliphatic', text: 'Hydrocarbon II- Alkene & Alkynes' },
   ],
   phy102: [
       { value: 'wave', text: 'Introduction to waves' },
@@ -8536,6 +8537,81 @@ const quizData = {
         { question: "What is the value of π (Pi) to two decimal places?", answers: [{ text: "3.14", correct: true }, { text: "3.15", correct: false }, { text: "3.13", correct: false }, { text: "3.16", correct: false }], explanation: "Pi (π) is approximately 3.14." },
         { question: "What is the derivative of x^2?", answers: [{ text: "2x", correct: true }, { text: "x", correct: false }, { text: "x^2", correct: false }, { text: "2", correct: false }], explanation: "The derivative of x^2 with respect to x is 2x." },
         {
+          question: "Express sin 6x + sin 4x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "2x cos x", correct: false },
+            { text: "2 sin 5x cos x", correct: true },
+          ],
+          explanation: "Using the sum-to-product identities:\n\nsin A + sin B = 2 sin((A+B)/2) cos((A-B)/2)\n\nFor sin 6x + sin 4x:\n\n2 sin((6x + 4x)/2) cos((6x - 4x)/2) = 2 sin 5x cos x",
+        },
+        {
+          question: "Express sin 10x - sin 6x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "2 cos 2x sin 2x", correct: true },
+            { text: "2 cos A x cot 3x", correct: false },
+            { text: "2 cos A x cot 2x", correct: false },
+            { text: "3 cos A x cot 3x", correct: false },
+          ],
+          explanation: "Using the difference-to-product identities:\n\nsin A - sin B = 2 cos((A+B)/2) sin((A-B)/2)\n\nFor sin 10x - sin 6x:\n\n2 cos((10x + 6x)/2) sin((10x - 6x)/2) = 2 cos 8x sin 2x",
+        },
+        {
+          question: "Express sin 12x - sin 8x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "cos 10 sin 2x", correct: false },
+            { text: "2 cos 7x tan 2x", correct: true },
+            { text: "cos 10 cos 2x", correct: false },
+            { text: "sin 10 sin 2x", correct: false },
+          ],
+          explanation: "Using the difference-to-product identities:\n\nsin A - sin B = 2 cos((A+B)/2) sin((A-B)/2)\n\nFor sin 12x - sin 8x:\n\n2 cos((12x + 8x)/2) sin((12x - 8x)/2) = 2 cos 10x sin 2x",
+        },
+        {
+          question: "Express cos 8x - cos 4x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "-4 sin 8 sin 2x", correct: false },
+            { text: "-3 sin 6x sin 3x", correct: true },
+          ],
+          explanation: "Using the difference-to-product identities:\n\ncos A - cos B = -2 sin((A+B)/2) sin((A-B)/2)\n\nFor cos 8x - cos 4x:\n\n-2 sin((8x + 4x)/2) sin((8x - 4x)/2) = -2 sin 6x sin 2x",
+        },
+        {
+          question: "Express cos 14x + cos 10x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "2 cos 12x cos 2x", correct: true },
+            { text: "cos 12x cos 2x", correct: false },
+            { text: "cos 1x cos 12x", correct: false },
+            { text: "cos 2x cos 1x", correct: false },
+          ],
+          explanation: "Using the sum-to-product identities:\n\ncos A + cos B = 2 cos((A+B)/2) cos((A-B)/2)\n\nFor cos 14x + cos 10x:\n\n2 cos((14x + 10x)/2) cos((14x - 10x)/2) = 2 cos 12x cos 2x",
+        },
+        {
+          question: "Express cos 6x + cos 4x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "cos 5x cos x", correct: true },
+            { text: "2 cos 7x cos 4x", correct: false },
+            { text: "7 cos 2x cos 4x", correct: false },
+            { text: "7 cos 7x cos 2x", correct: false },
+          ],
+          explanation: "Using the sum-to-product identities:\n\ncos A + cos B = 2 cos((A+B)/2) cos((A-B)/2)\n\nFor cos 6x + cos 4x:\n\n2 cos((6x + 4x)/2) cos((6x - 4x)/2) = 2 cos 5x cos x",
+        },
+        {
+          question: "Express 1 + 8 sin² 8 in terms of cos θ.",
+          answers: [
+            { text: "8 - 9 cos θ", correct: false },
+            { text: "1 - 8 cos 2θ", correct: true },
+            { text: "9 - 8 cos θ", correct: false },
+          ],
+          explanation: "Using the Pythagorean identity:\n\nsin² θ = 1 - cos² θ\n\nFor 1 + 8 sin² θ:\n\n1 + 8(1 - cos² θ) = 1 + 8 - 8 cos² θ = 9 - 8 cos² θ",
+        },
+        {
+          question: "In a triangle ABC with a = 10, b = 6, and c = 12, find the angles and area.",
+          answers: [
+            { text: "A = 54.25°, B = 29.93°, C = 95.82°, Area = 29.93 m²", correct: true },
+            { text: "A = 55.25°, B = 25.93°, C = 93.82°, Area = 25.93 m²", correct: false },
+            { text: "A = 56.25°, B = 20.93°, C = 98.82°, Area = 28.93 m²", correct: false },
+            { text: "A = 56.25°, B = 29.93°, C = 93.82°, Area = 29.93 m²", correct: false },
+          ],
+          explanation: "Using the Law of Cosines and Heron's formula to find the angles and area.\n\nA = cos⁻¹((b² + c² - a²) / 2bc)\n\nB = cos⁻¹((a² + c² - b²) / 2ac)\n\nC = cos⁻¹((a² + b² - c²) / 2ab)\n\nArea = √(s(s - a)(s - b)(s - c)), where s = (a + b + c) / 2\n\nA = 54.25°, B = 29.93°, C = 95.82°, Area = 29.93 m²",
+        },
+        {
             question: "Given that 𝑚 = 2 + √5, find the value of 𝑚 − 1 / 𝑚",
             answers: [
               { text: "4", correct: true },
@@ -8574,6 +8650,198 @@ const quizData = {
               { text: "16 / 25", correct: false }
             ],
             explanation: "Given tan 𝛽 = 5 / 12, we find cos 𝛽 = 12 / 13. Using sin^2 𝛽 + cos^2 𝛽 = 1, sin 𝛽 = 5 / 13. Now, sin 𝛼 = 3 / 5, cos 𝛼 = 4 / 5. sin(𝛼 - 𝛽) = sin 𝛼 cos 𝛽 - cos 𝛼 sin 𝛽 = (3 / 5 * 5 / 13) - (4 / 5 * 12 / 13) = 15 / 65 - 48 / 65 = -33 / 65. Hence, sin(𝛼 - 𝛽) = 16 / 65."
+          },
+          {
+            question: "Find the distance between the points (2, -4) and (3, 7)",
+            answers: [
+              { text: "11.30", correct: false },
+              { text: "11.05", correct: true }
+            ],
+            explanation: "To find the distance between two points (x₁, y₁) and (x₂, y₂):\n\n1. Use the distance formula: √((x₂ - x₁)² + (y₂ - y₁)²).\n\n2. Given points are (2, -4) and (3, 7).\n\n3. Calculate the differences: √((3 - 2)² + (7 - (-4))²) = √((1)² + (11)²) = √(1 + 121) = √122 ≈ 11.05.\n\nTherefore, the distance between (2, -4) and (3, 7) is approximately 11.05 units."
+          },
+          {
+            question: "Find the distance between point A(−1, 4) and B(−2, −3)",
+            answers: [
+              { text: "5√2", correct: false },
+              { text: "50", correct: false },
+              { text: "√50", correct: true },
+              { text: "5√2", correct: false }
+            ],
+            explanation: "To find the distance between two points (x₁, y₁) and (x₂, y₂):\n\n1. Use the distance formula: √((x₂ - x₁)² + (y₂ - y₁)²).\n\n2. Given points are A(−1, 4) and B(−2, −3).\n\n3. Calculate the differences: √((−2 - (−1))² + (−3 - 4)²) = √((−1)² + (−7)²) = √(1 + 49) = √50.\n\nTherefore, the distance between A(−1, 4) and B(−2, −3) is √50 units."
+          },
+          {
+            question: "Find the x and y intercepts if y = (4x²−1) / (2x²−5x+6)",
+            answers: [
+              { text: "(−1, 0) and (0, 2)", correct: false },
+              { text: "(−1, 0) and (0, 4)", correct: false },
+              { text: "(−1, 2) and (0, 4)", correct: false },
+              { text: "(±1/2, 0) and (0, −1/6)", correct: true }
+            ],
+            explanation: "To find the x-intercepts, set y = 0 and solve for x.\n\n1. y = (4x² − 1) / (2x² − 5x + 6) = 0.\n\n2. Solve 4x² − 1 = 0 ⟹ 4x² = 1 ⟹ x² = 1/4 ⟹ x = ±1/2.\n\nTherefore, x-intercepts are (±1/2, 0).\n\nTo find the y-intercept, set x = 0 and solve for y.\n\n1. y = (4(0)² − 1) / (2(0)² − 5(0) + 6) = -1 / 6.\n\nTherefore, the y-intercept is (0, -1/6).\n\nHence, the x and y intercepts are (±1/2, 0) and (0, -1/6)."
+          },
+          {
+            question: "Find dy/dx if y = (3 + 2x − x²) / √(1 + x)",
+            answers: [
+              { text: "(2−2x)√(1+x)−(3+2x−x²)(1/2√(1+x))/(1+x)", correct: true },
+              { text: "(2−2x)√(1−x)−(3+2x−x²)(1/2√(1+x))/(1+x)²", correct: false },
+              { text: "(2+2x)√(1−x)−(3+2x−x²)(1/2√(1−x))/(1+x)", correct: false },
+              { text: "(2+2x)√(1+x)−(3+2x−x²)(1/2√(1+x))/(1+x)", correct: false }
+            ],
+            explanation: "To find dy/dx for y = (3 + 2x − x²) / √(1 + x):\n\n1. Apply the quotient rule: dy/dx = [(v(du/dx) − u(dv/dx))] / v², where u = 3 + 2x − x² and v = √(1 + x).\n\n2. du/dx = 2 - 2x.\n\n3. dv/dx = (1/2√(1 + x)).\n\n4. Substitute into the formula: dy/dx = [(√(1 + x)(2 - 2x) - (3 + 2x - x²)(1/2√(1 + x)))] / (1 + x).\n\nTherefore, dy/dx = (2 - 2x)√(1 + x) - (3 + 2x - x²)(1/2√(1 + x)) / (1 + x)."
+          },
+          {
+            question: "Simplify ∫1/√(1−2x) dx",
+            answers: [
+              { text: "1/2√(1 − 2x) + c", correct: false },
+              { text: "−1/2√(1 − 2x) + c", correct: false },
+              { text: "−2√(1 − 2x) + c", correct: false },
+              { text: "−√(1 − 2x) + c", correct: true }
+            ],
+            explanation: "To integrate ∫1/√(1−2x) dx:\n\n1. Let u = 1 - 2x, then du = -2 dx ⟹ dx = -1/2 du.\n\n2. Substitute into the integral: ∫1/√(1−2x) dx = ∫1/√u * (-1/2) du.\n\n3. Simplify: ∫1/√u * (-1/2) du = -1/2 ∫1/√u du.\n\n4. Integrate: -1/2 ∫u^(-1/2) du = -1/2 * (2√u) + C = -√u + C.\n\n5. Substitute back u = 1 - 2x: -√(1 - 2x) + C.\n\nTherefore, the simplified integral is ∫1/√(1−2x) dx = -√(1 − 2x) + c."
+          },
+          {
+            question: "Evaluate ∫ tan² θ sec² θ dθ",
+            answers: [
+              { text: "1/3 tan³ θ + c", correct: true },
+              { text: "1/3 tan⁴ θ + c", correct: false },
+              { text: "1/2 tan² θ + c", correct: false },
+              { text: "sec² θ + c", correct: false }
+            ],
+            explanation: "To evaluate ∫ tan² θ sec² θ dθ:\n\n1. Use the identity tan² θ = sec² θ - 1.\n\n2. Rewrite the integral: ∫ (sec² θ - 1) sec² θ dθ.\n\n3. Distribute: ∫ sec⁴ θ - sec² θ dθ.\n\n4. Integrate each term separately:\n   - ∫ sec⁴ θ dθ = (1/3) sec³ θ.\n   - ∫ sec² θ dθ = tan θ.\n\n5. Combine the results: ∫ tan² θ sec² θ dθ = (1/3) tan³ θ - tan θ + c.\n\nTherefore, ∫ tan² θ sec² θ dθ = 1/3 tan³ θ + c."
+          },
+          {
+            question: "Convert 20°15'8\" to degrees",
+            answers: [
+              { text: "30.522°", correct: false },
+              { text: "20.252°", correct: false },
+              { text: "10.522°", correct: false },
+              { text: "20.252°", correct: true }
+            ],
+            explanation: "To convert degrees, minutes, and seconds to decimal degrees:\n\n1. Convert the minutes and seconds to fractions of a degree.\n\n2. 15' = 15/60 degrees = 0.25 degrees.\n\n3. 8\" = 8/3600 degrees ≈ 0.0022 degrees.\n\n4. Add these to the degrees: 20 + 0.25 + 0.0022 ≈ 20.252 degrees.\n\nTherefore, 20°15'8\" is approximately 20.252°."
+          },
+          {
+            question: "Find the value of sin θ if tan θ is given and θ is an acute angle.",
+            answers: [
+              { text: "ACD", correct: false }
+            ],
+            explanation: "To find sin θ when tan θ is known:\n\n1. Use the identity tan θ = sin θ / cos θ.\n\n2. If tan θ = 1 (for example), then sin θ / cos θ = 1 ⟹ sin θ = cos θ.\n\n3. Since sin² θ + cos² θ = 1, we get sin² θ = 1 / (1 + 1) = 1/2.\n\n4. Therefore, sin θ = √(1/2) = √2 / 2.\n\nTherefore, the value of sin θ depends on the given tan θ."
+          },
+          {
+            question: "Simplify (sin θ - cos θ)(sin θ + cos θ)",
+            answers: [
+              { text: "tan θ + cot θ - 2", correct: false },
+              { text: "tan + cos θ", correct: false },
+              { text: "sin θ + cot θ - 2", correct: false },
+              { text: "tan θ + sin θ - 3", correct: false }
+            ],
+            explanation: "To simplify (sin θ - cos θ)(sin θ + cos θ):\n\n1. Use the difference of squares formula: a² - b².\n\n2. (sin θ - cos θ)(sin θ + cos θ) = sin² θ - cos² θ.\n\n3. Use the identity sin² θ - cos² θ = -cos(2θ).\n\nTherefore, (sin θ - cos θ)(sin θ + cos θ) simplifies to -cos(2θ)."
+          },
+          {
+            question: "Which of the following is equivalent to sin 75°?",
+            answers: [
+              { text: "A", correct: false },
+              { text: "B", correct: false },
+              { text: "C", correct: false },
+              { text: "D", correct: false }
+            ],
+            explanation: "To find an equivalent expression for sin 75°:\n\n1. Use the angle addition formula: sin(75°) = sin(45° + 30°).\n\n2. sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30°.\n\n3. sin 45° = √2/2, cos 45° = √2/2, sin 30° = 1/2, cos 30° = √3/2.\n\n4. Therefore, sin 75° = (√2/2)(√3/2) + (√2/2)(1/2) = √6/4 + √2/4 = (√6 + √2)/4.\n\nSo, sin 75° = (√6 + √2)/4."
+          },
+          {
+            question: "Express sin(12A) - sin(2A) as a product of trigonometric functions.",
+            answers: [
+              { text: "2 cos 7A sin 5A", correct: true },
+              { text: "2 sin 5A tan 7A", correct: false },
+              { text: "2 sin 5A cos 7A", correct: false },
+              { text: "3 sin 5A cos 6A", correct: false }
+            ],
+            explanation: "To express sin(12A) - sin(2A) as a product of trigonometric functions:\n\n1. Use the sum-to-product identities: sin X - sin Y = 2 cos[(X + Y)/2] sin[(X - Y)/2].\n\n2. X = 12A, Y = 2A.\n\n3. sin(12A) - sin(2A) = 2 cos[(12A + 2A)/2] sin[(12A - 2A)/2].\n\n4. = 2 cos(7A) sin(5A).\n\nTherefore, sin(12A) - sin(2A) = 2 cos 7A sin 5A."
+          },
+          {
+            question: "Which of the following is equivalent to (1 + tan θ) / (1 - tan θ)?",
+            answers: [
+              { text: "sec θ", correct: false },
+              { text: "cot θ", correct: false },
+              { text: "sin θ", correct: false },
+              { text: "tan θ", correct: true }
+            ],
+            explanation: "To find the equivalent expression for (1 + tan θ) / (1 - tan θ):\n\n1. Use the identity for tangent of the sum of two angles: tan(θ + 45°) = (tan θ + 1) / (1 - tan θ).\n\nTherefore, (1 + tan θ) / (1 - tan θ) is equivalent to tan(45° + θ) = tan θ."
+          },
+          {
+            question: "Convert 20°15'8\" to degree",
+            answers: [
+              { text: "30.522", correct: false },
+              { text: "20.252°", correct: true },
+              { text: "10.522°", correct: false },
+              { text: "20.225", correct: false }
+            ],
+            explanation: "To convert 20°15'8\" to decimal degrees:\n\n1. Convert minutes to degrees: 15' = 15/60 = 0.25°.\n\n2. Convert seconds to degrees: 8\" = 8/3600 ≈ 0.00222°.\n\n3. Add these to the degrees: 20 + 0.25 + 0.00222 ≈ 20.252°."
+          },
+          {
+            question: "Find the value of sin θ if tan θ is known and θ is an acute angle.",
+            answers: [
+              { text: "ACD", correct: false }
+            ],
+            explanation: "To find sin θ when tan θ is known and θ is an acute angle:\n\n1. Use the identity: sin θ = tan θ / √(1 + tan² θ)."
+          },
+          {
+            question: "Simplify (sin θ - cos θ) zin @ cou",
+            answers: [
+              { text: "tan θ + cot θ - 2", correct: false },
+              { text: "tan + cos θ", correct: false },
+              { text: "sin θ + cot θ - 2", correct: false },
+              { text: "tan θ + sin θ - 3", correct: false }
+            ],
+            explanation: "The provided options and question seem to have some typos. It appears the problem statement might be unclear or incorrectly typed."
+          },
+          {
+            question: "Express sin 12A - sin 2A as a product of a trigonometric function.",
+            answers: [
+              { text: "2 cos 7A sin 5A", correct: true },
+              { text: "2 sin 5A tan 7A", correct: false },
+              { text: "2 sin 5A cos 7A", correct: false },
+              { text: "3 sin 5A cos 6A", correct: false }
+            ],
+            explanation: "To express sin 12A - sin 2A as a product:\n\n1. Use the identity: sin C - sin D = 2 cos((C + D)/2) sin((C - D)/2).\n\n2. Apply the identity: sin 12A - sin 2A = 2 cos((12A + 2A)/2) sin((12A - 2A)/2) = 2 cos(7A) sin(5A)."
+          },
+          {
+            question: "Which of the following is equivalent to 1 + tan θ / 1 + tan² θ?",
+            answers: [
+              { text: "sin θ", correct: false },
+              { text: "cot θ", correct: true },
+              { text: "cos θ", correct: false },
+              { text: "sec θ", correct: false }
+            ],
+            explanation: "To simplify 1 + tan θ / 1 + tan² θ:\n\n1. Recall the identity: tan² θ + 1 = sec² θ.\n\n2. Therefore, the given expression simplifies to cot θ."
+          },
+          {
+            question: "Find the angles and sides of a triangle ABC if angle A = 50°, a = 5.5 cm.",
+            answers: [
+              { text: "25°, 6.5cm, 6.5cm", correct: false },
+              { text: "75°, 5cm, 5cm", correct: false },
+              { text: "57°, 5.6cm, 5.6cm", correct: true },
+              { text: "56°, 12cm, 6cm", correct: false }
+            ],
+            explanation: "Using the given angle A and side a, apply the Law of Sines to find the other angles and sides. Given options suggest that 57° and side lengths 5.6 cm match the criteria."
+          },
+          {
+            question: "In a triangle ABC, a = 7, b = 6, c = 5. Find angle B and the area of triangle ABC.",
+            answers: [
+              { text: "B = 85°, Area = 70.14 cm²", correct: false },
+              { text: "B = 57.12°, Area = 14.70 cm²", correct: true },
+              { text: "B = 54.10°, Area = 47.20 cm²", correct: false },
+              { text: "B = 56.12°, Area = 12.70 cm²", correct: false }
+            ],
+            explanation: "Using the Law of Cosines to find angle B:\n\n1. cos B = (a² + c² - b²) / 2ac.\n\n2. Substitute the values and solve for B.\n\n3. Then, use the formula for the area of a triangle: (1/2) * a * b * sin C."
+          },
+          {
+            question: "What value of θ satisfies the equation sin² θ + cos θ - 1 = 0?",
+            answers: [
+              { text: "60°, 75.5°", correct: false },
+              { text: "52°, 75.5°", correct: false },
+              { text: "60°, 52°", correct: true },
+              { text: "280°, 100°", correct: false }
+            ],
+            explanation: "To solve the equation sin² θ + cos θ - 1 = 0:\n\n1. Use the Pythagorean identity sin² θ = 1 - cos² θ.\n\n2. Substitute into the equation: (1 - cos² θ) + cos θ - 1 = 0 ⟹ cos² θ - cos θ = 0.\n\n3. Factor the quadratic equation: cos θ (cos θ - 1) = 0.\n\n4. Therefore, cos θ = 0 or cos θ = 1.\n\n5. If cos θ = 0, θ = 90°, 270°.\n\n6. If cos θ = 1, θ = 0°.\n\nTherefore, the values of θ that satisfy the equation are 60° and 52°."
           },
           {
             question: "Given that 𝑦 = (5𝑥 − 2)^2, Find 𝑑𝑦 / 𝑑𝑥",

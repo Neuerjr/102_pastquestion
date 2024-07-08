@@ -102,13 +102,6 @@ h1 {
 
 
 
-footer {
-    text-align: left;
-    color:rgb(67, 119, 119);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-size: 12px;
-}
 
 h1 {
     font-weight: 800;
@@ -417,4 +410,14 @@ margin: 60px;
 .equation {
     display: block;
     margin: 1em 0;
+}
+
+footer {
+    text-align: left;
+    background-color: #f7eaeaef;
+    color:rgb(43, 40, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 40px;
 }
