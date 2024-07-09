@@ -41,8 +41,12 @@ const topics = {
       { value: 'hybe', text: 'Hybridization of Carbon,Factors influncing Reaction' },
       { value: 'aliphatic', text: 'Hydrocarbon I- Alkane' },
       { value: 'alliphatic', text: 'Hydrocarbon II- Alkene & Alkynes' },
+      { value: 'alkanol', text: 'Alkanols and Phenols' },
+      { value: 'carbonyl', text: 'Carbonly Compounds' },
+      { value: 'acid', text: 'Carboxylic Acid & Alkanoate' },
   ],
   phy102: [
+      { value: 'formula', text: 'Formulas You Need' },
       { value: 'wave', text: 'Introduction to waves' },
       { value: 'light', text: 'Optics' },
       { value: 'refraction', text: 'Properties of light wave' },
@@ -10402,246 +10406,246 @@ const quizData = {
             ],
             explanation: "Using the formula Area = 1/2 * b * c * sin A, calculate the area of triangle ABC."
           },
-          {
-            question: "Evaluate ∫ (2 dx) / (x^2 - 2x + 5)",
-            answers: [
-              { text: "tan⁻¹((x - 1)/2) + C", correct: true },
-              { text: "2 tan⁻¹((x + 1)/2) + C", correct: false },
-              { text: "(1/2) tan⁻¹((x - 1)/2) + C", correct: false },
-              { text: "tan⁻¹((x + 1)/2) + C", correct: false }
-            ],
-            explanation: "Integrating using the arctangent function, ∫ (2 dx) / (x^2 - 2x + 5) = tan⁻¹((x - 1)/2) + C."
-          },
-          {
-            question: "Find the value of sin(𝛼 + 𝛽) if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
-            answers: [
-              { text: "36/65", correct: true },
-              { text: "-36/65", correct: false },
-              { text: "20/65", correct: false },
-              { text: "35/65", correct: false }
-            ],
-            explanation: "Using the sine addition formula, sin(𝛼 + 𝛽) = (sin 𝛼 * cos 𝛽) + (cos 𝛼 * sin 𝛽)."
-          },
-          {
-            question: "Find the equation of the tangent to y = 3x^2 + 2x - 1 at x = 1",
-            answers: [
-              { text: "y = 8x - 4", correct: true },
-              { text: "y = 6x - 4", correct: false },
-              { text: "y = 8x + 2", correct: false },
-              { text: "y = 8x + 4", correct: false }
-            ],
-            explanation: "Differentiate y = 3x^2 + 2x - 1 to find the slope at x = 1, then use the point-slope form of the tangent line equation."
-          },
-          {
-            question: "If tan A = √2 + 1, find sec^2 A − 2",
-            answers: [
-              { text: "2√2", correct: true },
-              { text: "4 + 2√2", correct: false },
-              { text: "2 + 2√2", correct: false },
-              { text: "2 - 2√2", correct: false }
-            ],
-            explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2."
-          },
-          {
-            question: "Evaluate ∫ ln x dx",
-            answers: [
-              { text: "x ln x - x + C", correct: true },
-              { text: "x^2 / 2 ln x + C", correct: false },
-              { text: "-(ln x / x) + C", correct: false },
-              { text: "x^3 / 3 ln x + C", correct: false }
-            ],
-            explanation: "Integrating ln x, ∫ ln x dx = x ln x - x + C."
-          },
-          {
-            question: "If y = x^3 + 3x^2, find the maximum and minimum points",
-            answers: [
-              { text: "(0, 0) and (-2, 4)", correct: true },
-              { text: "(0, 0) and (-2, 3)", correct: false },
-              { text: "(0, 0) and (-2, 5)", correct: false },
-              { text: "(0, 0) and (-1, 1)", correct: false }
-            ],
-            explanation: "Differentiate y = x^3 + 3x^2 to find critical points and use the second derivative test to determine maxima and minima."
-          },
-          {
-            question: "Evaluate 2 / (1 - cos 45°)",
-            answers: [
-              { text: "2 + √2", correct: true },
-              { text: "2 - √2", correct: false },
-              { text: "4 + 2√2", correct: false },
-              { text: "2 + √3", correct: false }
-            ],
-            explanation: "Evaluate using the cosine double-angle formula, 2 / (1 - cos 45°) simplifies to 2 + √2."
-          },
-          {
-            question: "If tan 𝜃 = 3/4, find cos^2 𝜃",
-            answers: [
-              { text: "7/25", correct: true },
-              { text: "2/4", correct: false },
-              { text: "3/5", correct: false },
-              { text: "7/25", correct: false }
-            ],
-            explanation: "Using the identity cos^2 𝜃 = 1 / (1 + tan^2 𝜃), cos^2 𝜃 = 7/25."
-          },
-          {
-            question: "If cos θ = 3/4, find sec θ",
-            answers: [
-              { text: "4/3", correct: true },
-              { text: "2/3", correct: false },
-              { text: "4/5", correct: false },
-              { text: "3/4", correct: false }
-            ],
-            explanation: "Secant is the reciprocal of cosine: sec θ = 1 / cos θ. Therefore, sec θ = 4/3."
-          },
-          {
-            question: "Find the x-intercept of y = x^3 - 1 / x^2 - 4",
-            answers: [
-              { text: "(±2,0)", correct: true },
-              { text: "(0, ±2)", correct: false },
-              { text: "(0, ±1)", correct: false },
-              { text: "(±1,0)", correct: false }
-            ],
-            explanation: "To find the x-intercepts, set y = 0 and solve for x: x^3 - 1 = 0 ⟹ x^3 = 1 ⟹ x = ±1. Similarly, x^2 - 4 = 0 ⟹ x^2 = 4 ⟹ x = ±2. Therefore, the x-intercepts are (±2,0)."
-          },
-          {
-            question: "Differentiate y = cos(Ax + B) with respect to x at x = 1",
-            answers: [
-              { text: "-A sin(A + B)", correct: true },
-              { text: "A cos B", correct: false },
-              { text: "0", correct: false },
-              { text: "-sin B", correct: false }
-            ],
-            explanation: "Differentiate using the chain rule: dy/dx = -A sin(Ax + B). At x = 1, dy/dx = -A sin(A + B)."
-          },
-          {
-            question: "If a + b + c / a + b - c = cot A^2 / cot B^2 and a + b = 24.3 cm, A = 64.8°, B = 22.5°, find angle C and the sides of the triangle",
-            answers: [
-              { text: "92.70°, -2.38cm", correct: true },
-              { text: "92.70°, 2.38cm", correct: false },
-              { text: "92.69°, -2.39cm", correct: false },
-              { text: "92.63°, 2.39cm", correct: false }
-            ],
-            explanation: "Given the conditions and using the triangle angle and side formulas, angle C is approximately 92.70° and the side is approximately -2.38 cm."
-          },
-          {
-            question: "Simplify √(1 + cos^2 θ) / (1 + tan^2 θ)",
-            answers: [
-              { text: "sec θ", correct: true },
-              { text: "cos θ", correct: false },
-              { text: "sin θ", correct: false },
-              { text: "cot θ", correct: false }
-            ],
-            explanation: "Using trigonometric identities, √(1 + cos^2 θ) = sec θ and 1 + tan^2 θ = sec^2 θ. Therefore, the expression simplifies to sec θ."
-          },
-          {
-            question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of x",
-            answers: [
-              { text: "π/6 + 2nπ", correct: true },
-              { text: "π/2 + 2nπ", correct: false },
-              { text: "π/3 + 2nπ", correct: false },
-              { text: "-π/3 - π/6 + 2nπ", correct: false }
-            ],
-            explanation: "Solve cos 3x + √3 sin 3x = √3 using trigonometric identities and the given range for x."
-          },
-          {
-            question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of R",
-            answers: [
-              { text: "√(1 + √3)", correct: true },
-              { text: "2", correct: false },
-              { text: "1 + √3", correct: false },
-              { text: "√3", correct: false }
-            ],
-            explanation: "Evaluate the expression cos 3x + √3 sin 3x to find R."
-          },
-          {
-            question: "Simplify cos 4θ - sin 4θ",
-            answers: [
-              { text: "cos 2θ", correct: true },
-              { text: "cot 2θ", correct: false },
-              { text: "sin 2θ", correct: false },
-              { text: "tan 2θ", correct: false }
-            ],
-            explanation: "Using double angle identities, cos 4θ - sin 4θ = cos 2θ."
-          },
-          {
-            question: "Evaluate 1 / (sec θ - 1) + 1 / (sec θ + 1)",
-            answers: [
-              { text: "2 tan θ", correct: true },
-              { text: "2 cos θ", correct: false },
-              { text: "2 sec θ", correct: false },
-              { text: "2 cosec θ", correct: false }
-            ],
-            explanation: "Simplify using trigonometric identities to evaluate the given expression."
-          },
-          {
-            question: "Integrate (5x^2 / (10x^3 + 3)) dx",
-            answers: [
-              { text: "1/6 ln(10x^3 + 3) + C", correct: true },
-              { text: "ln(10x^3 + 3) + C", correct: false },
-              { text: "5/3 ln(10x^3 + 3) + C", correct: false },
-              { text: "1/2 ln(10x^3 + 3x) + C", correct: false }
-            ],
-            explanation: "Use the substitution method and integral formulas to find the antiderivative."
-          },
-          {
-            question: "Find the value of sin(x + y) if sin x = 4/5 and cos y = 12/13",
-            answers: [
-              { text: "63/65", correct: true },
-              { text: "281/65", correct: false },
-              { text: "48/65", correct: false },
-              { text: "15/65", correct: false }
-            ],
-            explanation: "Use the sine addition formula to find sin(x + y) given sin x and cos y."
-          },
-          {
-            question: "Integrate 1 / (1 + 4x^2) dx",
-            answers: [
-              { text: "1/2 arctan(2x) + C", correct: true },
-              { text: "arctan(2x) + C", correct: false },
-              { text: "1/4 arctan(2x) + C", correct: false },
-              { text: "1/2 arctan(x^2) + C", correct: false }
-            ],
-            explanation: "Integrate using the arctangent function and the integral formula for 1 / (1 + a^2x^2)."
-          },
-          {
-            question: "Simplify sin 3a",
-            answers: [
-              { text: "3 sin a - 4 sin^3 a", correct: true },
-              { text: "3 sin a + 4 sin^3 a", correct: false },
-              { text: "4 sin^3 a - 3 sin a", correct: false },
-              { text: "4 sin^3 a sin a", correct: false }
-            ],
-            explanation: "Apply the triple angle formula for sine to simplify sin 3a."
-          },
-          {
-            question: "Find the antiderivative of e^(sin θ cos θ + sin√θ / √θ)",
-            answers: [
-              { text: "e^(sin θ cos θ) - 2 cos√θ + C", correct: true },
-              { text: "e^(cos θ sin θ) - 2 sin√θ + C", correct: false },
-              { text: "e^(sin θ cos θ) + 2 cos√θ + C", correct: false },
-              { text: "e^(cos θ sin θ) + 2 sin√θ + C", correct: false }
-            ],
-            explanation: "Integrate using the given expression and the antiderivative formulas for exponential functions."
-          },
-          {
-            question: "Find the vertical and horizontal asymptotes of y = 4x^2 - 1 / x^2 - 5 - 6",
-            answers: [
-              { text: "(3, 2) and 3", correct: true },
-              { text: "(1, 2) and 3", correct: false },
-              { text: "(3, 4) and 3", correct: false },
-              { text: "(3, 2) and 4", correct: false }
-            ],
-            explanation: "Identify the vertical and horizontal asymptotes by analyzing the given rational function."
-          },
-          {
-            question: "Differentiate y = tan(2x + 45)",
-            answers: [
-              { text: "sec^2(2x + 45)", correct: true },
-              { text: "tan(2x + 45)", correct: false },
-              { text: "2 sec(2x + 3)", correct: false },
-              { text: "2 sec(2x + 43)", correct: false }
-            ],
-            explanation: "Differentiate using the derivative formula for the tangent function."
-          },
+            {
+              question: "Evaluate ∫ (2 dx) / (x^2 - 2x + 5)",
+              answers: [
+                { text: "tan⁻¹((x - 1)/2) + C", correct: true },
+                { text: "2 tan⁻¹((x + 1)/2) + C", correct: false },
+                { text: "(1/2) tan⁻¹((x - 1)/2) + C", correct: false },
+                { text: "tan⁻¹((x + 1)/2) + C", correct: false }
+              ],
+              explanation: "Integrating using the arctangent function, ∫ (2 dx) / (x^2 - 2x + 5) = tan⁻¹((x - 1)/2) + C."
+            },
+            {
+              question: "Find the value of sin(𝛼 + 𝛽) if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+              answers: [
+                { text: "36/65", correct: true },
+                { text: "-36/65", correct: false },
+                { text: "20/65", correct: false },
+                { text: "35/65", correct: false }
+              ],
+              explanation: "Using the sine addition formula, sin(𝛼 + 𝛽) = (sin 𝛼 * cos 𝛽) + (cos 𝛼 * sin 𝛽).<br>Solving gives sin(𝛼 + 𝛽) = (3/5 * 12/13) + (4/5 * 5/13) = 36/65."
+            },
+            {
+              question: "Find the equation of the tangent to y = 3x^2 + 2x - 1 at x = 1",
+              answers: [
+                { text: "y = 8x - 4", correct: true },
+                { text: "y = 6x - 4", correct: false },
+                { text: "y = 8x + 2", correct: false },
+                { text: "y = 8x + 4", correct: false }
+              ],
+              explanation: "Differentiate y = 3x^2 + 2x - 1 to find the slope at x = 1, then use the point-slope form of the tangent line equation.<br>Derivative: y' = 6x + 2.<br>At x = 1, y' = 6(1) + 2 = 8.<br>Equation of tangent line: y - y₁ = m(x - x₁) => y - (3(1)² + 2(1) - 1) = 8(x - 1) => y = 8x - 4."
+            },
+            {
+              question: "If tan A = √2 + 1, find sec^2 A − 2",
+              answers: [
+                { text: "2√2", correct: true },
+                { text: "4 + 2√2", correct: false },
+                { text: "2 + 2√2", correct: false },
+                { text: "2 - 2√2", correct: false }
+              ],
+              explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2.<br>Given tan A = √2 + 1.<br>sec A = 1 / cos A.<br>Sec A 2-5 is"
+            },
+            {
+              question: "Evaluate ∫ ln x dx",
+              answers: [
+                { text: "x ln x - x + C", correct: true },
+                { text: "x^2 / 2 ln x + C", correct: false },
+                { text: "-(ln x / x) + C", correct: false },
+                { text: "x^3 / 3 ln x + C", correct: false }
+              ],
+              explanation: "Integrating ln x, ∫ ln x dx = x ln x - x + C.<br>5"
+            },
+            {
+              question: "If y = x^3 + 3x^2, find the maximum and minimum points",
+              answers: [
+                { text: "(0, 0) and (-2, 4)", correct: true },
+                { text: "(0, 0) and (-2, 3)", correct: false },
+                { text: "(0, 0) and (-2, 5)", correct: false },
+                { text: "(0, 0) and (-1, 1)", correct: false }
+              ],
+              explanation: "Differentiate y = x^3 + 3x^2 to find critical points and use the second derivative test to determine maxima and minima.<br>5"
+            },
+            {
+              question: "Evaluate 2 / (1 - cos 45°)",
+              answers: [
+                { text: "2 + √2", correct: true },
+                { text: "2 - √2", correct: false },
+                { text: "4 + 2√2", correct: false },
+                { text: "2 + √3", correct: false }
+              ],
+              explanation: "Evaluate using the cosine double-angle formula, 2 / (1 - cos 45°) simplifies to 2 + √2.<br>5"
+            },
+            {
+              question: "If tan θ = 3/4, find cos^2 θ",
+              answers: [
+                { text: "7/25", correct: true },
+                { text: "2/4", correct: false },
+                { text: "3/5", correct: false },
+                { text: "7/25", correct: false }
+              ],
+              explanation: "Using the identity cos^2 θ = 1 / (1 + tan^2 θ), cos^2 θ = 7/25.<br>5"
+            },
+            {
+              question: "If cos θ = 3/4, find sec θ",
+              answers: [
+                { text: "4/3", correct: true },
+                { text: "2/3", correct: false },
+                { text: "4/5", correct: false },
+                { text: "3/4", correct: false }
+              ],
+              explanation: "Secant is the reciprocal of cosine: sec θ = 1 / cos θ. Therefore, sec θ = 4/3.<br>5"
+            },
+            {
+              question: "Find the x-intercept of y = x^3 - 1 / x^2 - 4",
+              answers: [
+                { text: "(±2,0)", correct: true },
+                { text: "(0, ±2)", correct: false },
+                { text: "(0, ±1)", correct: false },
+                { text: "(±1,0)", correct: false }
+              ],
+              explanation: "To find the x-intercepts, set y = 0 and solve for x: x^3 - 1 = 0 ⟹ x^3 = 1 ⟹ x = ±1. Similarly, x^2 - 4 = 0 ⟹ x^2 = 4 ⟹ x = ±2. Therefore, the x-intercepts are (±2,0).<br>5"
+            },
+            {
+              question: "Differentiate y = cos(Ax + B) with respect to x at x = 1",
+              answers: [
+                { text: "-A sin(A + B)", correct: true },
+                { text: "A cos B", correct: false },
+                { text: "0", correct: false },
+                { text: "-sin B", correct: false }
+              ],
+              explanation: "Differentiate using the chain rule: dy/dx = -A sin(Ax + B). At x = 1, dy/dx = -A sin(A + B).<br>5"
+            },
+            {
+              question: "If a + b + c / a + b - c = cot A^2 / cot B^2 and a + b = 24.3 cm, A = 64.8°, B = 22.5°, find angle C and the sides of the triangle",
+              answers: [
+                { text: "92.70°, -2.38cm", correct: true },
+                { text: "92.70°, 2.38cm", correct: false },
+                { text: "92.69°, -2.39cm", correct: false },
+                { text: "92.63°, 2.39cm", correct: false }
+              ],
+              explanation: "Given the conditions and using the triangle angle and side formulas, angle C is approximately 92.70° and the side is approximately -2.38 cm.<br>5"
+            },
+            {
+              question: "Simplify √(1 + cos^2 θ) / (1 + tan^2 θ)",
+              answers: [
+                { text: "sec θ", correct: true },
+                { text: "cos θ", correct: false },
+                { text: "sin θ", correct: false },
+                { text: "cot θ", correct: false }
+              ],
+              explanation: "Using trigonometric identities, √(1 + cos^2 θ) = sec θ and 1 + tan^2 θ = sec^2 θ. Therefore, the expression simplifies to sec θ.<br>5"
+            },
+            {
+              question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of x",
+              answers: [
+                { text: "π/6 + 2nπ", correct: true },
+                { text: "π/2 + 2nπ", correct: false },
+                { text: "π/3 + 2nπ", correct: false },
+                { text: "-π/3 - π/6 + 2nπ", correct: false }
+              ],
+              explanation: "Solve cos 3x + √3 sin 3x = √3 using trigonometric identities and the given range for x.<br>5"
+            },
+            {
+              question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of R",
+              answers: [
+                { text: "√(1 + √3)", correct: true },
+                { text: "2", correct: false },
+                { text: "1 + √3", correct: false },
+                { text: "√3", correct: false }
+              ],
+              explanation: "Evaluate the expression cos 3x + √3 sin 3x to find R.<br>5"
+            },
+            {
+              question: "Simplify cos 4θ - sin 4θ",
+              answers: [
+                { text: "cos 2θ", correct: true },
+                { text: "cot 2θ", correct: false },
+                { text: "sin 2θ", correct: false },
+                { text: "tan 2θ", correct: false }
+              ],
+              explanation: "Using double angle identities, cos 4θ - sin 4θ = cos 2θ.<br>5"
+            },
+            {
+              question: "Evaluate 1 / (sec θ - 1) + 1 / (sec θ + 1)",
+              answers: [
+                { text: "2 tan θ", correct: true },
+                { text: "2 cos θ", correct: false },
+                { text: "2 sec θ", correct: false },
+                { text: "2 cosec θ", correct: false }
+              ],
+              explanation: "Simplify using trigonometric identities to evaluate the given expression.<br>5"
+            },
+            {
+              question: "Integrate (5x^2 / (10x^3 + 3)) dx",
+              answers: [
+                { text: "1/6 ln(10x^3 + 3) + C", correct: true },
+                { text: "ln(10x^3 + 3) + C", correct: false },
+                { text: "5/3 ln(10x^3 + 3) + C", correct: false },
+                { text: "1/2 ln(10x^3 + 3x) + C", correct: false }
+              ],
+              explanation: "Use the substitution method and integral formulas to find the antiderivative.<br>5"
+            },
+            {
+              question: "Find the value of sin(x + y) if sin x = 4/5 and cos y = 12/13",
+              answers: [
+                { text: "63/65", correct: true },
+                { text: "281/65", correct: false },
+                { text: "48/65", correct: false },
+                { text: "15/65", correct: false }
+              ],
+              explanation: "Use the sine addition formula to find sin(x + y) given sin x and cos y.<br>5"
+            },
+            {
+              question: "Integrate 1 / (1 + 4x^2) dx",
+              answers: [
+                { text: "1/2 arctan(2x) + C", correct: true },
+                { text: "arctan(2x) + C", correct: false },
+                { text: "1/4 arctan(2x) + C", correct: false },
+                { text: "1/2 arctan(x^2) + C", correct: false }
+              ],
+              explanation: "Integrate using the arctangent function and the integral formula for 1 / (1 + a^2x^2).<br>5"
+            },
+            {
+              question: "Simplify sin 3a",
+              answers: [
+                { text: "3 sin a - 4 sin^3 a", correct: true },
+                { text: "3 sin a + 4 sin^3 a", correct: false },
+                { text: "4 sin^3 a - 3 sin a", correct: false },
+                { text: "4 sin^3 a sin a", correct: false }
+              ],
+              explanation: "Apply the triple angle formula for sine to simplify sin 3a.<br>5"
+            },
+            {
+              question: "Find the antiderivative of e^(sin θ cos θ + sin√θ / √θ)",
+              answers: [
+                { text: "e^(sin θ cos θ) - 2 cos√θ + C", correct: true },
+                { text: "e^(cos θ sin θ) - 2 sin√θ + C", correct: false },
+                { text: "e^(sin θ cos θ) + 2 cos√θ + C", correct: false },
+                { text: "e^(cos θ sin θ) + 2 sin√θ + C", correct: false }
+              ],
+              explanation: "Integrate using the given expression and the antiderivative formulas for exponential functions.<br>5"
+            },
+            {
+              question: "Find the vertical and horizontal asymptotes of y = 4x^2 - 1 / x^2 - 5 - 6",
+              answers: [
+                { text: "(3, 2) and 3", correct: true },
+                { text: "(1, 2) and 3", correct: false },
+                { text: "(3, 4) and 3", correct: false },
+                { text: "(3, 2) and 4", correct: false }
+              ],
+              explanation: "Identify the vertical and horizontal asymptotes by analyzing the given rational function.<br>5"
+            },
+            {
+              question: "Differentiate y = tan(2x + 45)",
+              answers: [
+                { text: "sec^2(2x + 45)", correct: true },
+                { text: "tan(2x + 45)", correct: false },
+                { text: "2 sec(2x + 3)", correct: false },
+                { text: "2 sec(2x + 43)", correct: false }
+              ],
+              explanation: "Differentiate using the derivative formula for the tangent function.<br>5"
+            }          
 
 
         // Add more questions for Math until you have 30
