@@ -4933,13 +4933,11 @@ If the image distance of a concave mirror is negative, it means that the image i
                 `,
 
                 ac: `
-                    <h2>Kinematics</h2>
-                    <h1>SIMPLE A.C CIRCUIT</h1>
+                    <h1>Simple A.C Circuit</h1>
 
-    <p>An alternating current (a.c) changes its direction periodically. A.C are produced by alternating voltages. Alternating currents and alternating voltages are represented as follows:</p>
-
-    <p class="equation">I = I<sub>o</sub> sin (2πft) or I = I<sub>o</sub> sin(ωt)</p>
-    <p class="equation">V = V<sub>o</sub> sin (2πft) or V = V<sub>o</sub> sin(ωt)</p>
+    <p>An alternating current (a.c) changes its direction periodically. A.C. are produced by alternating voltages. Alternating currents and alternating voltages are represented as follows:</p>
+    <p class="equation">I = I<sub>o</sub> * sin(2πft) or I = I<sub>a</sub> * sin(ωt)</p>
+    <p class="equation">V = V<sub>o</sub> * sin(2πft) or V = V<sub>o</sub> * sin(ωt)</p>
 
     <p>Where:</p>
     <ul>
@@ -4947,95 +4945,178 @@ If the image distance of a concave mirror is negative, it means that the image i
         <li>I<sub>o</sub> = Peak or maximum current (A)</li>
         <li>f = Frequency (Hz)</li>
         <li>t = Time (s)</li>
-        <li>ωt = Phase angle of current or voltage</li>
+        <li>ω = Phase angle of current or voltage</li>
         <li>V = Instantaneous voltage (V)</li>
         <li>V<sub>o</sub> = Peak or maximum voltage (V)</li>
     </ul>
 
-    <h2>PEAK AND ROOT MEAN SQUARE (r.m.s) VALUES</h2>
+    <h2>Peak and Root Mean Square (r.m.s) Values</h2>
+    <p>The peak value of an a.c. is the maximum value of the current recorded in an a.c. cycle.</p>
+    <p>The r.m.s. current is defined as the steady or direct current (d.c.) which produces the same heating effect per second in a given resistor.</p>
+    <p class="equation">I<sub>r.m.s</sub> = I<sub>o</sub> / √2 = 0.71I<sub>o</sub></p>
+    <p class="equation">I<sub>o</sub> = √2 * I<sub>r.m.s</sub> = 1.414I<sub>r.m.s</sub></p>
+    <p class="equation">V<sub>r.m.s</sub> = V<sub>o</sub> / √2 = 0.71V<sub>o</sub></p>
+    <p class="equation">V<sub>o</sub> = √2 * V<sub>r.m.s</sub> = 1.414V<sub>r.m.s</sub></p>
 
-    <p>The peak value of an a.c is the maximum value of the current recorded in an a.c cycle.</p>
-
-    <p>The r.m.s current is defined as the steady or direct current (d.c) which produces the same heating effect per second in a given resistor.</p>
-    <p class="equation">Root mean square current, I<sub>r.m.s</sub> = I<sub>o</sub>/√2 = 0.71I<sub>o</sub></p>
-    <p class="equation">Peak current, I<sub>o</sub> = √2 * I<sub>r.m.s</sub> = 1.414I<sub>r.m.s</sub></p>
-    <p class="equation">Root mean square voltage, V<sub>r.m.s</sub> = V<sub>o</sub>/√2 = 0.71V<sub>o</sub></p>
-    <p class="equation">Peak voltage, V<sub>o</sub> = √2 * V<sub>r.m.s</sub> = 1.414V<sub>r.m.s</sub></p>
-
-    <h2>Example 1</h2>
-    <p>The current, I, in an a.c circuit is given by the equation: I = 30sin(100πt) where t is the time in seconds. Deduce the following from this equation:</p>
+    <h3>Example 1</h3>
+    <p>The current, I in an a.c. circuit is given by the equation: I = 30sin(100πt) where t is the time in seconds. Deduce the following from this equation:</p>
     <ol>
         <li>Frequency of the current</li>
         <li>Peak value of the current</li>
         <li>r.m.s value of the current</li>
     </ol>
 
-    <h3>Solution</h3>
-    <p class="equation">The equation I = 30sin(100πt) can be compared with I = I<sub>o</sub> sin(2πft)</p>
+    <b>Solution</b>
+    <p>The equation I = 30sin(100πt) can be compared with I = I<sub>o</sub> * sin(2πft).</p>
     <ol>
-        <li>
-            <p class="equation">100πt = 2πft</p>
-            <p class="equation">100 = 2f</p>
-            <p class="equation">f = 100/2 = 50Hz</p>
-        </li>
-        <li>
-            <p class="equation">Peak current, I<sub>o</sub> = 30A</p>
-        </li>
-        <li>
-            <p class="equation">r.m.s current, I<sub>r.m.s</sub> = I<sub>o</sub>/√2 = 30/√2</p>
-            <p>Multiply the denominator and numerator by √2:</p>
-            <p class="equation">I<sub>r.m.s</sub> = (√2 * 30)/(√2 * √2) = (30√2)/2 = 15√2</p>
-            <p class="equation">I<sub>r.m.s</sub> = 15√2 A or 21.214 A</p>
-        </li>
+        <li>100πt = 2πft => 100 = 2f => f = 100/2 = 50Hz</li>
+        <li>Peak current I<sub>o</sub> = 30A</li>
+        <li>r.m.s current, I<sub>r.m.s</sub> = I<sub>o</sub> / √2 = 30 / √2</li>
+        <p>Multiply the denominator and numerator by √2:</p>
+        <p class="equation">I<sub>r.m.s</sub> = (30√2) / (√2 * √2) = (30√2) / 2 = 15√2 ≈ 21.21A</p>
     </ol>
 
-    <h2>Example 2</h2>
-    <p>Calculate the peak voltage of a mains supply of r.m.s value 220V. </p>
+    <h3>Example 2</h3>
+    <p>Calculate the peak voltage of a mains supply of r.m.s value 220V. (NECO 2004)</p>
 
-    <h3>Solution</h3>
-    <p class="equation">V<sub>r.m.s</sub> = 220V</p>
+    <b>Solution</b>
+    <p>Given: V<sub>r.m.s</sub> = 220V</p>
     <p class="equation">Peak voltage, V<sub>o</sub> = 1.414 * V<sub>r.m.s</sub> = 1.414 * 220 = 311V</p>
 
-    <h2>Example 3</h2>
-    <p>The current through a resistor in an a.c circuit is given as 2sin(ωt). Determine the d.c equivalent of the current.</p>
+    <h3>Example 3</h3>
+    <p>The current through a resistor in an a.c. circuit is given as 2sin(ωt). Determine the d.c. equivalent of the current. </p>
 
-    <h3>Solution</h3>
-    <p class="equation">From the given equation, I = 2sin(ωt), peak current I<sub>o</sub> = 2A</p>
-    <p class="equation">The direct current (d.c) equivalent of a.c is the root mean square current, I<sub>r.m.s</sub></p>
-    <p class="equation">I<sub>r.m.s</sub> = I<sub>o</sub>/√2 = 2/√2</p>
+    <b>Solution</b>
+    <p>From the given equation I = 2sin(ωt), peak current I<sub>o</sub> = 2A</p>
+    <p>The direct current (d.c.) equivalent of an a.c. is the root mean square current:</p>
+    <p class="equation">I<sub>r.m.s</sub> = I<sub>o</sub> / √2 = 2 / √2</p>
     <p>Multiply denominator and numerator by √2:</p>
-    <p class="equation">I<sub>r.m.s</sub> = (2/√2) * (√2/√2) = (2√2)/2 = √2 A</p>
+    <p class="equation">I<sub>r.m.s</sub> = 2 / √2 * √2 / √2 = (2√2) / √4 = (2√2) / 2 = √2A</p>
 
-    <h2>Example 4</h2>
-    <p>If an a.c is represented by I = I<sub>o</sub> sin(ωt). Calculate the instantaneous value of such a current, if in a circuit it has r.m.s value of 15A when its phase angle is 30°. </p>
+    <h3>Example 4</h3>
+    <p>If an a.c. is represented by I = I<sub>o</sub>. Calculate the instantaneous value of such a current, if in a circuit it has r.m.s value of 15A when its phase angle is 30°.</p>
 
-    <h3>Solution</h3>
-    <p class="equation">I<sub>r.m.s</sub> = 15A</p>
-    <p class="equation">From I<sub>r.m.s</sub> = I<sub>o</sub>/√2</p>
-    <p class="equation">Peak current, I<sub>o</sub> = √2 * I<sub>r.m.s</sub> = √2 * 15 = 21.21</p>
-    <p class="equation">Instantaneous current, I = I<sub>o</sub> sin(ωt) = 21.21sin(30°)</p>
-    <p class="equation">= 21.21 * 0.5 = 10.61A</p>
+    <b>Solution</b>
+    <p>Given: I<sub>r.m.s</sub> = 15A</p>
+    <p>From I<sub>r.m.s</sub> = I<sub>o</sub> / √2 and phase angle ωt = 30°</p>
+    <p>Peak current I<sub>o</sub> = √2 * I<sub>r.m.s</sub> = √2 * 15 ≈ 21.21A</p>
+    <p>Instantaneous current, I = I<sub>o</sub> * sin(ωt) = 21.21 * sin(30°) = 21.21 * 0.5 = 10.61A</p>
 
-    <h2>Example 5</h2>
-    <p>In an a.c circuit the peak value of the potential difference is 180V. What is the instantaneous potential difference when it has reached 1/8<sup>th</sup> of a cycle? </p>
+    <h3>Example 5</h3>
+    <p>In an a.c. circuit, the peak value of the potential difference is 180V. What is the instantaneous potential difference when it has reached 1/8th of a cycle?</p>
 
-    <h3>Solution</h3>
-    <p class="equation">Peak voltage, V<sub>o</sub> = 180V</p>
-    <p class="equation">A cycle is 360°</p>
-    <p class="equation">1/8<sup>th</sup> of a cycle = 1/8 * 360 = 45°</p>
-    <p class="equation">Phase angle, ωt = 45°</p>
-    <p class="equation">V = V<sub>o</sub> sin(ωt)</p>
-    <p class="equation">V = 180sin(45°)</p>
-    <p>From trigonometry, sin(45°) = √2/2:</p>
-    <p class="equation">V = 180 * (√2/2) = 90√2 V</p>
+    <b>Solution</b>
+    <p>Peak voltage V<sub>o</sub> = 180V</p>
+    <p>A cycle is 360°; 1/8th of a cycle = 1/8 * 360 = 45°</p>
+    <p>Phase angle ωt = 45°</p>
+    <p>V = V<sub>o</sub> * sin(ωt)</p>
+    <p>From trigonometry, sin(45°) = √2 / 2</p>
+    <p class="equation">V = 180 * (√2 / 2) = 90√2 V</p>
 
-    <h2>Example 6</h2>
-    <p>The instantaneous value of the induced e.m.f as a function of time is ε = ε<sub>o</sub> sin(ωt) where ε<sub>o</sub> is the peak value of the e.m.f. What will be the r.m.s value of the e.m.f? </p>
+    <h2>Reactance and Impedance</h2>
+    <p>Reactance is defined as the opposition offered to the passage of an a.c. by either the inductor or capacitor or both. Reactance due to an inductor is called inductive reactance. Reactance due to a capacitor is called capacitive reactance.</p>
+    <p>Impedance is the overall opposition offered to the passage of an a.c. mixed circuit containing a resistor and any one or both of an inductor and a capacitor. Reactance and impedance are both measured in ohms (Ω).</p>
 
-    <h3>Solution</h3>
-    <p class="equation">Instantaneous e.m.f, ε = ε<sub>o</sub> sin(ωt)</p>
-    <p class="equation">Peak value of the e.m.f = ε<sub>o</sub></p>
-    <p class="equation">r.m.s value of the e.m.f, ε<sub>r.m.s</sub> = ε<sub>o</sub>/√2</p>
+    <h2>A.C. Circuit Containing Only Resistor</h2>
+    <p>Ohm's law (V = IR) can be applied to the a.c. circuit with only resistance. Substitute V = V<sub>o</sub> sin(ωt) and I = I<sub>o</sub>:</p>
+    <p class="equation">Resistance, R = V / I = V<sub>o</sub> sin(ωt) / I<sub>o</sub> sin(ωt)</p>
+    <p class="equation">Substitute V<sub>o</sub> = √2 * V<sub>r.m.s</sub> and I<sub>o</sub> = √2 * I<sub>r.m.s</sub></p>
+    <p class="equation">Resistance R = V<sub>o</sub> / I<sub>o</sub> = √2 * V<sub>r.m.s</sub> / √2 * I<sub>r.m.s</sub></p>
+    <p class="equation">R = V<sub>r.m.s</sub> / I<sub>r.m.s</sub></p>
+
+     <h2>Resonance in A.C Circuit</h2>
+
+    <p>A resonance circuit is an RLC circuit through which maximum alternating current flows. The frequency at which resonance occurs is called the resonance frequency (f<sub>a</sub>) and it occurs when X<sub>L</sub> = X<sub>C</sub>. Also, at resonance, V<sub>L</sub> = V<sub>C</sub>.</p>
+    <p class="equation">Resonance frequency: f<sub>o</sub> = 1 / (2π * √(LC))</p>
+    <p class="equation">Maximum current at resonance: I = V / R</p>
+
+    <h3>Example 6</h3>
+    <p>In a series L-C circuit, the inductance and the capacitance are 5H and 2µF respectively. Calculate the resonance frequency of the circuit. (NECO 2000)</p>
+
+    <b>Solution</b>
+    <p>Inductance, L = 5H</p>
+    <p>Capacitance, C = 2µF = 2 * 10<sup>-6</sup>F</p>
+    <p class="equation">Resonance frequency: f<sub>o</sub> = 1 / (2π * √(LC))</p>
+    <p class="equation">f<sub>o</sub> = 1 / (2π * √(5 * 2 * 10<sup>-6</sup>))</p>
+    <p class="equation">f<sub>o</sub> = 1 / (2π * √(1 * 10<sup>-5</sup>))</p>
+    <p class="equation">f<sub>o</sub> = 1 / (2π * 3.16 * 10<sup>-3</sup>)</p>
+    <p class="equation">f<sub>o</sub> = 1 / (1.987 * 10<sup>-2</sup>)</p>
+    <p class="equation">f<sub>o</sub> = 50.3Hz</p>
+
+    <h7>Example 7</h3>
+    <p>In the circuit diagram below, the resonance frequency is</p>
+    <p>A. 5000 / (π * Hz)</p>
+    <p>B. 2500 / (π * Hz)</p>
+    <p>C. 5000 / (π * Hz)</p>
+    <p>D. 2500 / (π * Hz)</p>
+    
+
+    <b>Solution</b>
+    <p>Inductance, L = 8mH = 8 * 10<sup>-3</sup>H</p>
+    <p>Capacitance, C = 5µF = 5 * 10<sup>-6</sup>F</p>
+    <p class="equation">Resonance frequency: f<sub>a</sub> = 1 / (2π * √(LC))</p>
+    <p class="equation">f<sub>a</sub> = 1 / (2π * √(8 * 10<sup>-3</sup> * 5 * 10<sup>-6</sup>))</p>
+    <p class="equation">f<sub>a</sub> = 1 / (2π * √(4 * 10<sup>-8</sup>))</p>
+    <p class="equation">f<sub>a</sub> = 1 / (2π * 0.0002)</p>
+    <p class="equation">f<sub>a</sub> = 10000 / (4π)</p>
+    <p class="equation">f<sub>a</sub> = 2500 / π Hz</p>
+
+    <h3>Example 8</h3>
+    <p>A capacitor of 20 * 10<sup>-12</sup>F and an inductor are joined in series. The value of the inductance that will give the circuit a resonant frequency of 200kHz is</p>
+    <p>A. 1 / 16 H</p>
+    <p>B. 1 / π H</p>
+    <p>C. 1 / 68 H</p>
+    <p>D. 1 / 33 H</p>
+    
+
+    <b>Solution</b>
+    <p>Capacitance, C = 20 * 10<sup>-12</sup>F</p>
+    <p>Resonance frequency, f<sub>o</sub> = 200kHz = 200000Hz</p>
+    <p class="equation">Inductance, L: At resonance, X<sub>L</sub> = X<sub>C</sub> or 2πfL = 1 / (2πfC)</p>
+    <p class="equation">Rearrange and substitute: 2π * 200000 * L = 1 / (2π * 200000 * 20 * 10<sup>-12</sup>)</p>
+    <p class="equation">L = 1 / (2π * 200000 * 2π * 200000 * 20 * 10<sup>-12</sup>)</p>
+    <p class="equation">L = 1 / 32 H</p>
+
+    <h3>Example 9</h3>
+    <p>Given that the voltage amplitude of the a.c. source shown in Figure 5.19 is 1000V, determine the resonant frequency of the source and calculate the maximum current passing through the resistor.</p>
+    
+
+    <b>Solution</b>
+    <p>R = 100Ω</p>
+    <p>L = 0.1H</p>
+    <p>C = 0.1µF = 0.1 * 10<sup>-6</sup>F</p>
+    <p>V<sub>r.m.s</sub> = 1000V</p>
+    <p>(i) Resonant frequency: f<sub>o</sub> = 1 / (2π * √(LC))</p>
+    <p class="equation">f<sub>o</sub> = 1 / (2π * √(0.1 * 0.1 * 10<sup>-6</sup>))</p>
+    <p class="equation">f<sub>o</sub> = 1 / (2π * 0.0001)</p>
+    <p class="equation">f<sub>o</sub> = 1591.55Hz</p>
+    <p>(ii) Maximum current: I<sub>r.m.s</sub> = V<sub>r.m.s</sub> / Z</p>
+    <p class="equation">Z = √(R<sup>2</sup> + (X<sub>L</sub> - X<sub>C</sub>)<sup>2</sup>)</p>
+    <p>At resonance, X<sub>L</sub> = X<sub>C</sub> or X<sub>L</sub> - X<sub>C</sub> = 0</p>
+    <p class="equation">I<sub>r.m.s</sub> = V<sub>r.m.s</sub> / R = 1000 / 100 = 10A</p>
+
+    <h2>Power in A.C Circuit</h2>
+    <p>Average power in an a.c. circuit: P = IV * cos θ or P = I<sup>2</sup>R</p>
+    <p>Where:</p>
+    <ul>
+        <li>I = Root mean square current, I<sub>r.m.s</sub></li>
+        <li>V = Root mean square voltage, V<sub>r.m.s</sub></li>
+        <li>θ = Angle of lag or lead between I and V</li>
+        <li>cos θ = Power factor = Resistance / Impedance = R / Z</li>
+    </ul>
+
+    <h3>Example 10</h3>
+    <p>The power dissipated in an a.c. circuit with an r.m.s. current of 5A, r.m.s. voltage of 10V, and a phase angle of 60° is:</p>
+    <p>A. 25W</p>
+    <p>B. 70W</p>
+    <p>C. 120W</p>
+    <p>D. 125W</p>
+
+    <b>Solution</b>
+    <p>Using the formula: P = IV * cos θ</p>
+    <p class="equation">P = 5A * 10V * cos 60°</p>
+    <p class="equation">P = 5 * 10 * 0.5</p>
+    <p class="equation">P = 25W</p>
 
     
 

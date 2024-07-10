@@ -7,6 +7,14 @@ function showPage(pageId) {
   document.getElementById(pageId).style.display = 'block';
 }
 
+ // Add event listener for popstate event
+ window.addEventListener('popstate', function(event) {
+  if (event.state && event.state.pageId) {
+      showPage(event.state.pageId);
+  }
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
   // Hide articles and syllabus content pages on load
   document.getElementById('articles-page').style.display = 'none';
@@ -131,6 +139,15 @@ document.addEventListener('DOMContentLoaded', () => {
   subjectSelect.addEventListener('change', updateTopics);
 });
 
+// Function to go back to the previous page
+function goBack() {
+  window.history.back();
+}
+
+// Function to go back to the opening page
+function goHome() {
+  showPage('opening-page');
+}
 
 const quizData = {
     biology: [
