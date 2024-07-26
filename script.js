@@ -70,8 +70,15 @@ const topics = {
       { value: 'conic', text: 'Conic Section' },
       { value: 'trig', text: 'Trigonometry' },
   ],
-  gns102: [
+  gst112: [
       { value: 'word', text: 'Word Formation' },
+      { value: 'culture', text: 'Concept Classification of Culture' },
+      { value: 'trad', text: 'Traditional economy of pre-colonial Nigerian people' },
+      { value: 'nation', text: 'Nation-State' },
+      { value: 'environ', text: 'Nigeria Environmental, Moral, and Value Problems' },
+      { value: 'judge', text: 'The Role of the Judiciary in Upholding Peoples Fundamental Rights' },
+      { value: 'norm', text: 'Acceptable Norms and Values of the Major Ethnic Groups in Nigeria' },
+      { value: 'ethnic', text: 'Multi-Ethnic and Multilingual Nature of Nigeria' },
   ]
 };
 
