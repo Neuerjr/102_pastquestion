@@ -5533,7 +5533,7 @@ const quizData = {
       {
         question: "What is the defining characteristic of allotropes?",
         answers: [
-          { text: "Different physical states", correct: false },
+          { text: "Different physical states", correct: true },
           { text: "Same atomic arrangement", correct: false },
           { text: "Different chemical elements", correct: false },
           { text: "Same melting points", correct: false }
@@ -5800,16 +5800,7 @@ const quizData = {
         ],
         explanation: "Beryllium is an alkaline earth metal found in Group 2."
       },
-      {
-        question: "Which of these elements is a member of the lanthanide series?",
-        answers: [
-          { text: "Cerium", correct: true },
-          { text: "Zirconium", correct: false },
-          { text: "Tantalum", correct: false },
-          { text: "Ruthenium", correct: false }
-        ],
-        explanation: "Cerium is a lanthanide element."
-      },
+      
       {
         question: "Which of the following metals is found in Group 10 and is used in jewelry?",
         answers: [
@@ -5891,16 +5882,6 @@ const quizData = {
         explanation: "Fluorine is the lightest halogen."
       },
       {
-        question: "Which of the following is a lanthanide element?",
-        answers: [
-          { text: "Europium", correct: true },
-          { text: "Yttrium", correct: false },
-          { text: "Scandium", correct: false },
-          { text: "Zinc", correct: false }
-        ],
-        explanation: "Europium is a lanthanide element."
-      },
-      {
         question: "Which of the following is true for transition metals?",
         answers: [
           { text: "They have d-electrons in their outer shell", correct: true },
@@ -5913,12 +5894,12 @@ const quizData = {
       {
         question: "Which of the following elements is a Group 2 metal and is used in fireworks?",
         answers: [
-          { text: "Strontium", correct: true },
+          { text: "Strontium", correct: false },
           { text: "Calcium", correct: false },
           { text: "Barium", correct: false },
-          { text: "Magnesium", correct: false }
+          { text: "Magnesium", correct: true }
         ],
-        explanation: "Strontium is used in fireworks and is a Group 2 metal."
+        explanation: "Magneisum is used in fireworks and is a Group 2 metal."
       },
       {
         question: "Which of the following elements is a Group 18 noble gas with the highest atomic number?",
@@ -6033,22 +6014,12 @@ const quizData = {
       {
         question: "Which of the following elements is an alkaline earth metal used in fireworks?",
         answers: [
-          { text: "Strontium", correct: true },
+          { text: "Strontium", correct: false },
           { text: "Calcium", correct: false },
           { text: "Barium", correct: false },
-          { text: "Magnesium", correct: false }
+          { text: "Magnesium", correct: true }
         ],
-        explanation: "Strontium is an alkaline earth metal used in fireworks."
-      },
-      {
-        question: "Which of the following is a lanthanide element known for its use in phosphors?",
-        answers: [
-          { text: "Europium", correct: true },
-          { text: "Yttrium", correct: false },
-          { text: "Scandium", correct: false },
-          { text: "Zinc", correct: false }
-        ],
-        explanation: "Europium is used in phosphors and is a lanthanide element."
+        explanation: "Magnesium is an alkaline earth metal used in fireworks."
       },
       {
         question: "Which of the following elements is a transition metal used in jewelry?",
@@ -6139,16 +6110,6 @@ const quizData = {
           { text: "Argon", correct: false }
         ],
         explanation: "Neon is used in lighting displays and is a noble gas in Group 18."
-      },
-      {
-        question: "Which of the following elements is an alkaline earth metal used in fireworks?",
-        answers: [
-          { text: "Strontium", correct: true },
-          { text: "Calcium", correct: false },
-          { text: "Barium", correct: false },
-          { text: "Magnesium", correct: false }
-        ],
-        explanation: "Strontium is an alkaline earth metal used in fireworks."
       },
       {
         question: "Which element in Group 15 is used in the production of ammonia?",
@@ -6383,12 +6344,12 @@ const quizData = {
       {
         question: "Which element is used in creating red colors in fireworks?",
         answers: [
-          { text: "Strontium", correct: true },
+          { text: "Strontium", correct: false },
           { text: "Barium", correct: false },
           { text: "Calcium", correct: false },
-          { text: "Magnesium", correct: false }
+          { text: "Magnesium", correct: true }
         ],
-        explanation: "Strontium is used to create red colors in fireworks."
+        explanation: "Magnesium is used to create red colors in fireworks."
       },
       {
         question: "Which element is used in making incandescent light bulbs?",
