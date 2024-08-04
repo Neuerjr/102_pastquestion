@@ -5520,3033 +5520,2884 @@ const quizData = {
         // Add more questions for Biology until you have 30
     ],
     chemistry: [
-        { question: "What is the chemical formula for table salt?", answers: [{ text: "NaCl", correct: true }, { text: "KCl", correct: false }, { text: "Na2CO3", correct: false }, { text: "K2SO4", correct: false }], explanation: "Table salt is chemically known as sodium chloride (NaCl)." },
-        { question: "Which element is known as the 'King of Chemicals'?", answers: [{ text: "Sulfuric Acid", correct: true }, { text: "Hydrochloric Acid", correct: false }, { text: "Nitric Acid", correct: false }, { text: "Acetic Acid", correct: false }], explanation: "Sulfuric Acid is often called the 'King of Chemicals' due to its wide range of uses." },
-        {
-            question: "The third electronegativity after fluorine is ______",
-            answers: [
-                { text: "Chloride", correct: false },
-                { text: "Bromide", correct: false },
-                { text: "Iodine", correct: true },
-                { text: "Astatine", correct: false }
-            ],
-            explanation: "The third most electronegative element after fluorine is iodine."
-        },
-        {
-            question: "Bromination of ethene is done in the presence of _______",
-            answers: [
-                { text: "AlCl3", correct: false },
-                { text: "CCl4", correct: true },
-                { text: "AlBr", correct: false },
-                { text: "HBr", correct: false }
-            ],
-            explanation: "Bromination of ethene is typically carried out in the presence of carbon tetrachloride (CCl4) as a solvent."
-        },
-        {
-            question: "Two nitrogen atoms form a stable (Ne) configuration by sharing _______ pair of electrons to form a covalent bond",
-            answers: [
-                { text: "2", correct: false },
-                { text: "1", correct: false },
-                { text: "3", correct: true },
-                { text: "4", correct: false }
-            ],
-            explanation: "Nitrogen atoms share three pairs of electrons to form a triple bond."
-        },
-        {
-            question: "The IUPAC name of the compound CH3CH2CH=CHC≡CCH3",
-            answers: [
-                { text: "Hept,3-en-5,yne", correct: false },
-                { text: "Hept-3-en-5-yne", correct: false },
-                { text: "Hept-4-en-2-yne", correct: true },
-                { text: "Hept-4-en-2,yne", correct: false }
-            ],
-            explanation: "The correct IUPAC name for CH3CH2CH=CHC≡CCH3 is Hept-4-en-2-yne."
-        },
-        {
-            question: "How many carbon atoms are present in one molecule of 2-methylpentane",
-            answers: [
-                { text: "6", correct: true },
-                { text: "5", correct: false },
-                { text: "3", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "2-methylpentane has a total of six carbon atoms."
-        },
-        {
-            question: "Any species that contain an unpaired electron is called",
-            answers: [
-                { text: "Ionic", correct: false },
-                { text: "Anion", correct: false },
-                { text: "Free radical", correct: true },
-                { text: "Cation", correct: false }
-            ],
-            explanation: "A free radical is a species that contains an unpaired electron."
-        },
-        {
-            question: "Ethanol and dimethylether are best considered _______",
-            answers: [
-                { text: "Stereoisomers", correct: false },
-                { text: "Enantiomers", correct: false },
-                { text: "Structural", correct: true },
-                { text: "Diaster", correct: false }
-            ],
-            explanation: "Ethanol and dimethylether are structural isomers, as they have the same molecular formula but different structures."
-        },
-        {
-            question: "The donor ligand that shares a donor atom is",
-            answers: [
-                { text: "Bidentate", correct: false },
-                { text: "Monodentate", correct: true },
-                { text: "Multidentate", correct: false },
-                { text: "Tetradentate", correct: false }
-            ],
-            explanation: "A monodentate ligand shares a single donor atom with the central atom."
-        },
-        {
-            question: "Nitrogen forms which type of bond",
-            answers: [
-                { text: "Triple bond", correct: true },
-                { text: "Double bond", correct: false },
-                { text: "Single bond", correct: false }
-            ],
-            explanation: "Nitrogen typically forms a triple bond (N≡N) in diatomic nitrogen."
-        },
-        {
-            question: "Sodium donates how many electrons",
-            answers: [
-                { text: "4", correct: false },
-                { text: "1", correct: true },
-                { text: "3", correct: false },
-                { text: "2", correct: false }
-            ],
-            explanation: "Sodium donates one electron to achieve a stable electronic configuration."
-        },
-        {
-            question: "During the 2022 COVID-19 pandemic, remdesivir was approved or authorized for emergency use to treat COVID-19 in around 50 countries. If the molecular formula of remdesivir is C27H35N6O8P, the percentage carbon and phosphorus composition in remdesivir are [C = 12, N = 14, O = 16 and P = 31]",
-            answers: [
-                { text: "55.82% and 5.12% respectively", correct: false },
-                { text: "5.81% and 53.82% respectively", correct: false },
-                { text: "21.26% and 13.5% respectively", correct: false },
-                { text: "53.82% and 5.15% respectively", correct: true }
-            ],
-            explanation: "Using the molecular formula and atomic weights, the percentage composition of carbon and phosphorus can be calculated."
-        },
-        {
-            question: "Alkenes undergo the following reactions except",
-            answers: [
-                { text: "Combustion", correct: false },
-                { text: "Hydrogenation", correct: false },
-                { text: "Substitution", correct: true },
-                { text: "Polymerization", correct: false }
-            ],
-            explanation: "Alkenes typically do not undergo substitution reactions; they undergo addition reactions instead."
-        },
-        {
-            question: "Chlorine has an electronegativity value of 3.0. What type of bond is present in Cl-Cl molecule?",
-            answers: [
-                { text: "Dative covalent", correct: false },
-                { text: "Electrovalent", correct: false },
-                { text: "Covalent", correct: true },
-                { text: "Polar covalent", correct: false }
-            ],
-            explanation: "The bond between two chlorine atoms in Cl2 is a covalent bond."
-        },
-        {
-            question: "How many shells are in the nucleus of calcium",
-            answers: [
-                { text: "One", correct: false },
-                { text: "Two", correct: false },
-                { text: "Three", correct: false },
-                { text: "Four", correct: true }
-            ],
-            explanation: "Calcium has four electron shells, corresponding to its position in the fourth period of the periodic table."
-        },
-        {
-            question: "Reaction between C2H2 and HBr is called",
-            answers: [
-                { text: "Substitution", correct: false },
-                { text: "Oxidation", correct: false },
-                { text: "Addition", correct: true },
-                { text: "Polymerization", correct: false }
-            ],
-            explanation: "The reaction between C2H2 (acetylene) and HBr is an addition reaction."
-        },
-        {
-            question: "The name of the compound CH3CH2CH=CHC=CCH3 is",
-            answers: [
-                { text: "Hept, 4, en - 2, yne", correct: false },
-                { text: "Hept-4-en-2-yne", correct: true },
-                { text: "Hept-3-en-5-yne", correct: false },
-                { text: "Hept,3-en-5,yne", correct: false }
-            ],
-            explanation: "The correct IUPAC name for CH3CH2CH=CHC≡CCH3 is Hept-4-en-2-yne."
-        },
-        {
-            question: "Which of the following has the highest boiling point",
-            answers: [
-                { text: "Phenol", correct: false },
-                { text: "Ethanol", correct: false },
-                { text: "Methanol", correct: false },
-                { text: "Propanol", correct: true }
-            ],
-            explanation: "Propanol has the highest boiling point among the given alcohols due to increased molecular weight and stronger intermolecular forces."
-        },
-        {
-            question: "2,4,4-trimethylpent-1-ene is an example of an isomer of",
-            answers: [
-                { text: "Octane", correct: false },
-                { text: "Octene", correct: true },
-                { text: "Heptane", correct: false },
-                { text: "Heptene", correct: false }
-            ],
-            explanation: "2,4,4-trimethylpent-1-ene is an isomer of octene, having the same molecular formula but a different structure."
-        },
-        {
-            question: "Covalent character in group VII",
-            answers: [
-                { text: "Decreases down the group", correct: true },
-                { text: "Increases down the group", correct: false },
-                { text: "Decreases across the period", correct: false },
-                { text: "Increases across the period", correct: false }
-            ],
-            explanation: "Covalent character decreases down the group in Group VII elements."
-        },
-        {
-            question: "Which one has the highest boiling point",
-            answers: [
-                { text: "Pentane", correct: true },
-                { text: "Methane", correct: false },
-                { text: "Propane", correct: false },
-                { text: "Ethane", correct: false }
-            ],
-            explanation: "Pentane has the highest boiling point due to its larger molecular size and stronger van der Waals forces."
-        },
-        {
-            question: "Group 2 element which doesn't react with oxygen is",
-            answers: [
-                { text: "Be", correct: true },
-                { text: "Mg", correct: false },
-                { text: "Ba", correct: false },
-                { text: "Ca", correct: false }
-            ],
-            explanation: "Beryllium (Be) does not react with oxygen under normal conditions."
-        },
-        {
-            question: "Which of the following is a halide",
-            answers: [
-                { text: "Cl2", correct: false },
-                { text: "HCN", correct: false },
-                { text: "AlCl3", correct: true },
-                { text: "NaH", correct: false }
-            ],
-            explanation: "AlCl3 is a halide, as it contains a halogen (chlorine) bonded to aluminum."
-        },
-        {
-            question: "The reaction between C3H4 + H2O = CH3COCH3 takes place in the presence of",
-            answers: [
-                { text: "H2SO4/HgSO4", correct: true },
-                { text: "H2SO3/HgSO3", correct: false },
-                { text: "HCl/HgSO4", correct: false },
-                { text: "H2SO4/NaOH", correct: false }
-            ],
-            explanation: "This reaction occurs in the presence of sulfuric acid (H2SO4) and mercuric sulfate (HgSO4)."
-        },
-        {
-            question: "Which of the following has the greatest ionization energy",
-            answers: [
-                { text: "Kr", correct: false },
-                { text: "Xe", correct: false },
-                { text: "Ar", correct: true }
-            ],
-            explanation: "Argon (Ar) has the greatest ionization energy due to its smaller atomic radius and greater effective nuclear charge."
-        },
-        {
-            question: "Isomerization of alkanes occur in the presence of __________",
-            answers: [
-                { text: "SO3/300℃", correct: false },
-                { text: "AlCl3/300℃", correct: true },
-                { text: "CCl4/300℃", correct: false },
-                { text: "HCl/300℃", correct: false }
-            ],
-            explanation: "Isomerization of alkanes occurs in the presence of aluminum chloride (AlCl3) at 300℃."
-        },
-        {
-            question: "When pentene is burned in air ________ is given off",
-            answers: [
-                { text: "Carbon IV oxide", correct: true },
-                { text: "Pentanol", correct: false },
-                { text: "Pentanal", correct: false },
-                { text: "Pentene", correct: false }
-            ],
-            explanation: "Combustion of pentene in air produces carbon dioxide (CO2) and water."
-        },
-        {
-            question: "CaCO3 is a component of the following except",
-            answers: [
-                { text: "Limestone", correct: false },
-                { text: "Graphite", correct: true },
-                { text: "Snail shell", correct: false }
-            ],
-            explanation: "Calcium carbonate (CaCO3) is not a component of graphite."
-        },
-        {
-            question: "CaCO3 exists in _______",
-            answers: [
-                { text: "Snail shell", correct: false },
-                { text: "Limestone", correct: false },
-                { text: "Wood", correct: true },
-                { text: "Sand", correct: false }
-            ],
-            explanation: "Calcium carbonate (CaCO3) can be found in limestone and snail shells, but not in wood."
-        },
-        {
-            question: "The force that exists between noble gases and non-polar compounds is",
-            answers: [
-                { text: "Van der Waal", correct: false },
-                { text: "Dispersion forces", correct: true },
-                { text: "Hydrogen bonds", correct: false },
-                { text: "Covalent", correct: false }
-            ],
-            explanation: "The forces between noble gases and non-polar compounds are dispersion forces (also known as London dispersion forces)."
-        },
-        {
-            question: "The H-C-H bond angle in CH4 is",
-            answers: [
-                { text: "120°", correct: false },
-                { text: "90°", correct: false },
-                { text: "109.5°", correct: true },
-                { text: "180°", correct: false }
-            ],
-            explanation: "Methane (CH4) has a tetrahedral structure with an H-C-H bond angle of 109.5°."
-        },
-        {
-            question: "How many carbon molecules are in 2-methylpentane",
-            answers: [
-                { text: "3", correct: false },
-                { text: "6", correct: true },
-                { text: "5", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "2-methylpentane has a total of six carbon atoms."
-        },
-        {
-            question: "Alkane undergo the following except",
-            answers: [
-                { text: "Combustion", correct: false },
-                { text: "Hydrogenation", correct: false },
-                { text: "Substitution", correct: false },
-                { text: "Polymerization", correct: true }
-            ],
-            explanation: "Alkanes do not undergo polymerization reactions; they typically undergo combustion, hydrogenation, and substitution."
-        },
-        {
-            question: "The following compounds are polar solvent",
-            answers: [
-                { text: "CH4", correct: false },
-                { text: "HF", correct: true },
-                { text: "NH3", correct: false },
-                { text: "H2O", correct: false }
-            ],
-            explanation: "HF (hydrofluoric acid) is a polar solvent due to the significant electronegativity difference between hydrogen and fluorine."
-        },
-        {
-            question: "One of the following is an alkali metal",
-            answers: [
-                { text: "Group 3", correct: false },
-                { text: "Group 0", correct: false },
-                { text: "Group 1", correct: true },
-                { text: "Group 2", correct: false }
-            ],
-            explanation: "Alkali metals are found in Group 1 of the periodic table."
-        },
-        {
-            question: "Li2O is best prepared by ______ of Li2O2 at 450℃",
-            answers: [
-                { text: "Substitution", correct: false },
-                { text: "Thermal", correct: true },
-                { text: "Oxidation", correct: false },
-                { text: "Reduction", correct: false }
-            ],
-            explanation: "Li2O is prepared by the thermal decomposition of Li2O2 at 450℃."
-        },
-        {
-            question: "Which of the following is not correct",
-            answers: [
-                { text: "The longer the bond length, the higher the bond energy", correct: true },
-                { text: "The shorter the bond length, the greater the s character", correct: false },
-                { text: "Sigma bond is stronger than pi bond", correct: false }
-            ],
-            explanation: "The statement 'The longer the bond length, the higher the bond energy' is not correct; bond energy typically decreases with increasing bond length."
-        },
-        {
-            question: "The process of converting large alkanes to smaller ones, alkenes and hydrogen is _______",
-            answers: [
-                { text: "Knocking", correct: false },
-                { text: "Thermal cracking", correct: true },
-                { text: "Nitration", correct: false },
-                { text: "Isomerization", correct: false }
-            ],
-            explanation: "Thermal cracking is the process of breaking down large alkanes into smaller alkanes, alkenes, and hydrogen."
-        },
-        {
-            question: "The high melting and boiling point in ionic bonds is due to",
-            answers: [
-                { text: "Strong electrovalent bond", correct: true },
-                { text: "Intermolecular force", correct: false },
-                { text: "Intramolecular force", correct: false },
-                { text: "Dipole moment", correct: false }
-            ],
-            explanation: "Ionic compounds have high melting and boiling points due to the strong electrovalent (ionic) bonds between ions."
-        },
-        {
-            question: "The type of bond between carbon-carbon triple bond in ethyne is",
-            answers: [
-                { text: "Three sigma bonds", correct: false },
-                { text: "Three pi bonds", correct: false },
-                { text: "One sigma bond and two pi bonds", correct: true },
-                { text: "Two sigma bonds and one pi bond", correct: false }
-            ],
-            explanation: "In ethyne (C2H2), the carbon-carbon triple bond consists of one sigma bond and two pi bonds."
-        },
-        {
-            question: "How many isomers does the compound C4H8 has",
-            answers: [
-                { text: "4", correct: false },
-                { text: "3", correct: true },
-                { text: "5", correct: false },
-                { text: "2", correct: false }
-            ],
-            explanation: "C4H8 (butene) has three isomers: 1-butene, 2-butene, and isobutylene."
-        },
-        {
-            question: "How many electrons are present in the outermost shell of Mg",
-            answers: [
-                { text: "2", correct: true },
-                { text: "1", correct: false },
-                { text: "3", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "Magnesium (Mg) has 2 electrons in its outermost shell."
-        },
-        {
-            question: "The hybridization present in Alkenes is",
-            answers: [
-                { text: "Sp", correct: false },
-                { text: "Sp3", correct: false },
-                { text: "Spp", correct: false },
-                { text: "Sp2", correct: true }
-            ],
-            explanation: "Alkenes typically have sp2 hybridization, where each carbon atom forms three sigma bonds and one pi bond."
-        },
-        {
-            question: "Which of the following is responsible for high melting point and boiling point",
-            answers: [
-                { text: "Polarization", correct: false },
-                { text: "Dipole moment", correct: false },
-                { text: "Strong electrovalent compound", correct: true },
-                { text: "Intermolecular force", correct: false }
-            ],
-            explanation: "High melting and boiling points are characteristic of substances with strong electrovalent (ionic) bonds."
-        },
-        {
-            question: "Differences in the properties of isomers is due to",
-            answers: [
-                { text: "Differences in the arrangement of carbon atoms", correct: true },
-                { text: "Differences in the molecular weight", correct: false },
-                { text: "Differences in the functional groups", correct: false },
-                { text: "Differences in the boiling points", correct: false }
-            ],
-            explanation: "Isomers have different properties primarily because of their different arrangements of carbon atoms."
-        },
-        {
-            question: "Characteristics of metals with high electrical conductivity and high boiling point are due to",
-            answers: [
-                { text: "Electrovalent bond", correct: false },
-                { text: "Covalent bond", correct: false },
-                { text: "Metallic bond", correct: true },
-                { text: "Dative bond", correct: false }
-            ],
-            explanation: "Metals exhibit high electrical conductivity and boiling points due to metallic bonding."
-        },
-        {
-            question: "Ammonium ion is an example of ______ bond",
-            answers: [
-                { text: "Covalent bond", correct: false },
-                { text: "Ionic bond", correct: false },
-                { text: "Metallic bond", correct: false },
-                { text: "Dative bond", correct: true }
-            ],
-            explanation: "The ammonium ion (NH4+) forms through a dative covalent bond between ammonia (NH3) and a proton (H+)."
-        },
-        {
-            question: "What is the color of LiO2 and Na2O oxides",
-            answers: [
-                { text: "Orange", correct: false },
-                { text: "White", correct: true },
-                { text: "Pink", correct: false },
-                { text: "Yellow", correct: false }
-            ],
-            explanation: "Both LiO2 and Na2O oxides are white in color."
-        },
-        {
-            question: "The increase in electronegativity across a period is as a result of the increasing effective ______ charge",
-            answers: [
-                { text: "Positive", correct: false },
-                { text: "Negative", correct: false },
-                { text: "Nuclear", correct: true },
-                { text: "Electronic", correct: false }
-            ],
-            explanation: "Electronegativity increases across a period due to the increasing nuclear charge experienced by the electrons."
-        },
-        {
-            question: "Ra is an example of ______",
-            answers: [
-                { text: "A stable element", correct: false },
-                { text: "Inert gas", correct: false },
-                { text: "Radioactive", correct: true },
-                { text: "Transition metal", correct: false }
-            ],
-            explanation: "Radium (Ra) is a radioactive element."
-        },
-        {
-            question: "Which of the following compounds possesses an ionic bond",
-            answers: [
-                { text: "CH4", correct: false },
-                { text: "MgCl", correct: true },
-                { text: "NH3BF3", correct: false },
-                { text: "NH2", correct: false }
-            ],
-            explanation: "MgCl (magnesium chloride) contains an ionic bond between magnesium (Mg) and chlorine (Cl)."
-        },
-        {
-            question: "Group I and II elements are generally referred to as _________ elements",
-            answers: [
-                { text: "d-block", correct: false },
-                { text: "f-block", correct: false },
-                { text: "s-block", correct: true },
-                { text: "p-block", correct: false }
-            ],
-            explanation: "Group I (alkali metals) and Group II (alkaline earth metals) elements are found in the s-block of the periodic table."
-        },
-        {
-            question: "The product formed from halogenation of 4-methylpent-1-ene with HCl is",
-            answers: [
-                { text: "4-chloro-2-methylpentane", correct: false },
-                { text: "3-chloro-4-methylpentane", correct: false },
-                { text: "4-methyl-1-chloromethane", correct: false },
-                { text: "2-chloro-4-methylpentane", correct: true }
-            ],
-            explanation: "Halogenation of 4-methylpent-1-ene with HCl forms 2-chloro-4-methylpentane."
-        },
-        {
-            question: "A suitable reagent to distinguish between alkenes and alkynes is",
-            answers: [
-                { text: "Bromine water", correct: false },
-                { text: "Ammoniacal silver nitrate", correct: true },
-                { text: "KMnO4", correct: false },
-                { text: "Ammoniacal silver chloride", correct: false }
-            ],
-            explanation: "Ammoniacal silver nitrate (Tollen's reagent) is used to distinguish between alkenes and alkynes."
-        },
-        {
-            question: "Compounds like silver halide and zinc sulfide show covalent character in ionic bonding due to",
-            answers: [
-                { text: "Weak force of attraction", correct: false },
-                { text: "Strong force of attraction", correct: false },
-                { text: "Polarization of ions", correct: true },
-                { text: "Electronegativity", correct: false }
-            ],
-            explanation: "Silver halides and zinc sulfide exhibit covalent character in ionic bonds due to polarization of ions."
-        },
-        {
-            question: "The type of bond present in NH3BF3 is",
-            answers: [
-                { text: "Covalent bond", correct: false },
-                { text: "Hydrogen bond", correct: false },
-                { text: "Ionic bond", correct: false },
-                { text: "Dative covalent bond", correct: true }
-            ],
-            explanation: "NH3BF3 (ammonia boron trifluoride) involves a dative covalent bond between ammonia (NH3) and boron trifluoride (BF3)."
-        },
-        {
-            question: "Ammonia has how many lone electrons",
-            answers: [
-                { text: "1", correct: true },
-                { text: "2", correct: false },
-                { text: "3", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "Ammonia (NH3) has 1 lone pairs of electrons."
-        },
-        {
-            question: "3-methylpentan-3-ol and 2-methylpentan-2-ol are types of ________ and _____________alkanol respectively",
-            answers: [
-                { text: "Secondary and Tertiary", correct: false },
-                { text: "Tertiary and Tertiary", correct: false },
-                { text: "Tertiary and Secondary", correct: true },
-                { text: "Secondary and Secondary", correct: false }
-            ],
-            explanation: "3-methylpentan-3-ol is a tertiary alcohol, whereas 2-methylpentan-2-ol is a secondary alcohol."
-        },
-        {
-            question: "Bromine molecule is a _________ compound",
-            answers: [
-                { text: "Covalent", correct: true },
-                { text: "None of the above", correct: false },
-                { text: "Electrovalent", correct: false },
-                { text: "Dative", correct: false }
-            ],
-            explanation: "Bromine (Br2) exists as a covalent molecule."
-        },
-        {
-            question: "The gas liberated when ionic hydride of group II elements react with water is",
-            answers: [
-                { text: "Iodine", correct: false },
-                { text: "Hydrogen", correct: true },
-                { text: "Bromine", correct: false },
-                { text: "Chlorine", correct: false }
-            ],
-            explanation: "Group II ionic hydrides liberate hydrogen gas (H2) when they react with water."
-        },
-        {
-            question: "3-methylbutan-2-ol and 2-methylbutan-1-ol are isomeric with",
-            answers: [
-                { text: "4-methylbutan-1-ol", correct: false },
-                { text: "1-methylbutan-1-ol", correct: false },
-                { text: "3-methylbutan-3-ol", correct: false },
-                { text: "2-methylbutan-2-ol", correct: true }
-            ],
-            explanation: "3-methylbutan-2-ol and 2-methylbutan-1-ol are isomers with 2-methylbutan-2-ol."
-        },
-        {
-            question: "The IUPAC name of the compound (CH3)2CHC≡CCH3",
-            answers: [
-                { text: "2-Methylpent-3-yne", correct: false },
-                { text: "4,4-dimethylbut-2-yne", correct: false },
-                { text: "1,1-dimethylbut-2-yne", correct: false },
-                { text: "4-methylpent-2-yne", correct: true }
-            ],
-            explanation: "The compound (CH3)2CHC≡CCH3 is 4-methylpent-2-yne."
-        },
-        {
-            question: "__________ is used for etching a glass",
-            answers: [
-                { text: "HF", correct: true },
-                { text: "PK", correct: false },
-                { text: "KrF2", correct: false },
-                { text: "Cl2", correct: false }
-            ],
-            explanation: "Hydrofluoric acid (HF) is used for etching glass."
-        },
-        {
-            question: "The following are polar except",
-            answers: [
-                { text: "HF", correct: true },
-                { text: "NH3", correct: false },
-                { text: "H2O", correct: false },
-                { text: "CH4", correct: false }
-            ],
-            explanation: "HF is polar, whereas NH3, H2O, and CH4 are non-polar."
-        },
-        {
-            question: "The reaction of C3H4 + H2O → CH3COCH3 takes place in the presence of",
-            answers: [
-                { text: "H2SO4/NaOH", correct: false },
-                { text: "H2SO3/HgSO3", correct: false },
-                { text: "HCl/HgSO4", correct: false },
-                { text: "H2SO4/HgSO4", correct: true }
-            ],
-            explanation: "The reaction of C3H4 (propyne) with H2O (water) to form CH3COCH3 (acetone) takes place in the presence of H2SO4 (sulfuric acid) and HgSO4 (mercuric sulfate)."
-        },
-        {
-            question: "What is used to differentiate between alkene and alkyne",
-            answers: [
-                { text: "Ammoniacal silver chloride", correct: false },
-                { text: "Bromine water", correct: false },
-                { text: "Ammoniacal silver nitrate", correct: true },
-                { text: "H2SO4", correct: false }
-            ],
-            explanation: "Ammoniacal silver nitrate (Tollen's reagent) is used to differentiate between alkenes and alkynes."
-        },
-        {
-            question: "A suitable reagent to distinguish between Alkane and Alkene is ___________",
-            answers: [
-                { text: "Bromine water", correct: true },
-                { text: "Ammoniacal silver nitrate", correct: false },
-                { text: "Ammoniacal silver chloride", correct: false },
-                { text: "H2SO4", correct: false }
-            ],
-            explanation: "Bromine water is used to differentiate between alkanes and alkenes."
-        },
-        {
-            question: "Which of the following compounds is used to manufacture gym equipment",
-            answers: [
-                { text: "MgO3", correct: false },
-                { text: "MgCO3", correct: true },
-                { text: "MgNO3", correct: false }
-            ],
-            explanation: "Magnesium carbonate (MgCO3) is used in the manufacturing of gym equipment."
-        },
-        {
-            question: "Polar molecules such as HCl have _________ dipoles",
-            answers: [
-                { text: "Induced dipole", correct: false },
-                { text: "Dipole dipole", correct: false },
-                { text: "Instantaneous dipole", correct: true },
-                { text: "Permanent dipole", correct: false }
-            ],
-            explanation: "Polar molecules like HCl have instantaneous dipoles."
-        },
-        {
-            question: "Molten sodium chloride is called",
-            answers: [
-                { text: "Common salt", correct: false },
-                { text: "Rock salt", correct: false },
-                { text: "Brine", correct: false },
-                { text: "Cryolite", correct: true }
-            ],
-            explanation: "Molten sodium chloride (NaCl) is known as cryolite."
-        },
-        {
-            question: "How many isomers are possible for C4H8",
-            answers: [
-                { text: "4", correct: false },
-                { text: "6", correct: false },
-                { text: "2", correct: false },
-                { text: "8", correct: false }
-            ],
-            explanation: "The number of isomers for C4H8 (butene) is actually 3: 1-butene, 2-butene, and isobutylene."
-        },
-        {
-            question: "The electronic configuration of bromine is",
-            answers: [
-                { text: "[Xe]3d104d5 5s2", correct: false },
-                { text: "[Ar]3d104s2 5p5", correct: true },
-                { text: "[Ne]4f4 5d106s2 6p5", correct: false },
-                { text: "[He]3d104s2 4p3", correct: false }
-            ],
-            explanation: "The electronic configuration of bromine (Br) is [Ar]3d104s2 5p5."
-        },
-        {
-            question: "The calcination, slatting and carbonation steps involved in obtaining _________ from limestone",
-            answers: [
-                { text: "MgO", correct: false },
-                { text: "MgCO3", correct: false },
-                { text: "CaCO3", correct: true },
-                { text: "CaO", correct: false }
-            ],
-            explanation: "The steps involving calcination, slaking, and carbonation lead to the formation of CaCO3 (calcium carbonate) from limestone."
-        },
-        {
-            question: "The solubility of group II metal halides ___________ down the group",
-            answers: [
-                { text: "Remain constant", correct: false },
-                { text: "Undetermined", correct: false },
-                { text: "Increases", correct: false },
-                { text: "Decreases", correct: true }
-            ],
-            explanation: "The solubility of group II metal halides decreases down the group."
-        },
-        {
-            question: "The tendency of atom to attract bonding pair to itself is",
-            answers: [
-                { text: "Electronegativity", correct: true },
-                { text: "Dipole", correct: false }
-            ],
-            explanation: "The tendency of an atom to attract a bonding pair of electrons towards itself is known as electronegativity."
-        },
-        {
-            question: "Group 2 element that does not form peroxide and superoxide is",
-            answers: [
-                { text: "Li", correct: true },
-                { text: "Na", correct: false },
-                { text: "Cs", correct: false },
-                { text: "K", correct: false }
-            ],
-            explanation: "Lithium (Li) is the Group 2 element that does not form peroxide and superoxide."
-        },
-        {
-            question: "Which of the following alkanes has the highest boiling point",
-            answers: [
-                { text: "Ethane", correct: false },
-                { text: "Propane", correct: false },
-                { text: "Butane", correct: false },
-                { text: "Pentane", correct: true }
-            ],
-            explanation: "Pentane (C5H12) has the highest boiling point among the given alkanes."
-        },
-        {
-            question: "How many carbon atoms are present in one molecule of 2-methylpentane",
-            answers: [
-                { text: "6", correct: true },
-                { text: "5", correct: false },
-                { text: "3", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "2-methylpentane has 6 carbon atoms in its molecule."
-        },
-        {
-            question: "The correct decreasing order of polarization cation is",
-            answers: [
-                { text: "Mg2+ > Al3+ > Na+", correct: false },
-                { text: "Al3+ < Mg2+ < Na+", correct: false },
-                { text: "Al3+ > Mg2+ > Na+", correct: true },
-                { text: "Al3+ > Na+ > Mg2+", correct: false }
-            ],
-            explanation: "The correct order of decreasing polarization of cations is Al3+ > Mg2+ > Na+."
-        },
-        {
-            question: "Any species that contain an unpaired electron is called",
-            answers: [
-                { text: "Ionic", correct: false },
-                { text: "Anion", correct: false },
-                { text: "Free radicals", correct: true },
-                { text: "Cation", correct: false }
-            ],
-            explanation: "Species containing unpaired electrons are called free radicals."
-        },
-        {
-            question: "Ammonia has how many lone pair of electron",
-            answers: [
-                { text: "1", correct: true },
-                { text: "2", correct: false },
-                { text: "3", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "Ammonia (NH3) has 1 lone pair of electrons."
-        },
-        {
-            question: "Which of the following is a halide",
-            answers: [
-                { text: "NaCl", correct: true },
-                { text: "HCN", correct: false },
-                { text: "CaH", correct: false }
-            ],
-            explanation: "NaCl (Sodium chloride) is a halide."
-        },
-        {
-            question: "Magnesium has how many electron charge",
-            answers: [
-                { text: "3", correct: false },
-                { text: "2", correct: true },
-                { text: "1", correct: false }
-            ],
-            explanation: "Magnesium (Mg) has a 2+ charge."
-        },
-        {
-            question: "Lutein is a powerful antioxidant and anti-cancer carotenoid found in high quantities in green leafy vegetables and made up of 84.51% Carbon, 9.86% Hydrogen and 5.63% of Oxygen. If the molecular mass of Lutein is 568.871. Its empirical formula and molecular formula are",
-            answers: [
-                { text: "C40H56 and C5H7 respectively", correct: false },
-                { text: "C20H28O and C40H56O2 respectively", correct: true },
-                { text: "C5H7 and C40H56 respectively", correct: false },
-                { text: "C40H56O2 and C20H28O respectively", correct: false }
-            ],
-            explanation: "Given the composition and molecular mass, the empirical formula of Lutein is C20H28O and its molecular formula is C40H56O2."
-        },
-        {
-            question: "Which of the following is responsible for high melting and boiling point of ionic compound",
-            answers: [
-                { text: "Dipole moment", correct: false },
-                { text: "Polarization", correct: false },
-                { text: "Intermolecular forces", correct: false },
-                { text: "Strong electrovalent bond", correct: true }
-            ],
-            explanation: "The high melting and boiling points of ionic compounds are due to their strong electrovalent bonds."
-        },
-        {
-            question: "Ivermectin is on the World Health Organization (WHO) List of Essential Medicines and is FDA approved as an antiparasitic agent. It is currently being used as in the management of COVID-19. If its empirical formula is C24H37O7 and its molecular mass is 875.106, its molecular formula is",
-            answers: [
-                { text: "C24H42O8", correct: false },
-                { text: "C12H18O3", correct: false },
-                { text: "C24H37O7", correct: false },
-                { text: "C43H74O14", correct: true }
-            ],
-            explanation: "The molecular formula of Ivermectin, given its empirical formula and molecular mass, is C43H74O14."
-        },
-        {
-            question: "Hypochlorite is used for",
-            answers: [
-                { text: "Chlorinating drinking water", correct: true },
-                { text: "Etching glasses", correct: false },
-                { text: "Domestic blemishes", correct: false },
-                { text: "Oxidating fireworks and matches", correct: false }
-            ],
-            explanation: "Hypochlorite is used for chlorinating drinking water."
-        },
-        {
-            question: "Group I ion hydride has",
-            answers: [
-                { text: "Neutral ion", correct: false },
-                { text: "Positive ion", correct: false },
-                { text: "Negative ion", correct: true },
-                { text: "Neutral atom", correct: false }
-            ],
-            explanation: "Group I ion hydride has a negative ion."
-        },
-        {
-            question: "HCl has ____________ dipole molecules",
-            answers: [
-                { text: "Temporary", correct: false },
-                { text: "Instantaneous", correct: false },
-                { text: "Induced", correct: false },
-                { text: "Permanent", correct: true }
-            ],
-            explanation: "HCl (Hydrochloric acid) has permanent dipole molecules."
-        },
-        {
-            question: "Butanoic acid and ethyl ethanoate are isomers",
-            answers: [
-                { text: "True", correct: true },
-                { text: "False", correct: false },
-                { text: "None is correct", correct: false },
-                { text: "All are correct", correct: false }
-            ],
-            explanation: "Butanoic acid (CH3CH2CH2COOH) and ethyl ethanoate (CH3COOCH2CH3) are isomers."
-        },
-        {
-            question: "When calcium loses its valence electron, the electronic configuration becomes",
-            answers: [
-                { text: "That of Argon", correct: true },
-                { text: "That of Calcium", correct: false },
-                { text: "That of Chlorine", correct: false },
-                { text: "That of Calcium ion", correct: false }
-            ],
-            explanation: "When calcium loses its valence electron, its electronic configuration becomes that of Argon."
-        },
-        {
-            question: "In the Group VII, the first ionization energy is",
-            answers: [
-                { text: "Decreases down the group", correct: true },
-                { text: "Increases down the group", correct: false },
-                { text: "All of the above", correct: false },
-                { text: "Remain constant", correct: false }
-            ],
-            explanation: "The first ionization energy decreases down Group VII (halogens)."
-        },
-        {
-            question: "When Group I element forms ionic hydride, the hydrogen presents as",
-            answers: [
-                { text: "Neutral ion", correct: false },
-                { text: "Neutral atom", correct: false },
-                { text: "Negative ion", correct: true },
-                { text: "Positive ion", correct: false }
-            ],
-            explanation: "When Group I element forms ionic hydride, the hydrogen presents as a negative ion."
-        },
-        {
-            question: "Lithium stearate is used as ______________ while transforming oil to lubricating grease",
-            answers: [
-                { text: "Treatment solution", correct: false },
-                { text: "Cleaning solution", correct: false },
-                { text: "Thinner", correct: false },
-                { text: "Thicker", correct: true }
-            ],
-            explanation: "Lithium stearate is used as a thickener while transforming oil to lubricating grease."
-        },
-        {
-            question: "What type of reaction is this: CH3CH3 + Cl2 → CH3CH2Cl + HCl",
-            answers: [
-                { text: "An esterification reaction", correct: false },
-                { text: "A saponification reaction", correct: false },
-                { text: "A substitution reaction", correct: true },
-                { text: "An addition reaction", correct: false }
-            ],
-            explanation: "The reaction CH3CH3 + Cl2 → CH3CH2Cl + HCl is a substitution reaction."
-        },
-        {
-            question: "The type of hydrogen bonding found between different molecules is",
-            answers: [
-                { text: "Van der Waals", correct: false },
-                { text: "Intermolecular", correct: true },
-                { text: "Intramolecular", correct: false },
-                { text: "Covalent", correct: false }
-            ],
-            explanation: "Hydrogen bonding between different molecules is an example of intermolecular forces."
-        },
-        {
-            question: "The IUPAC name of the compound CH3CH(CH3)CH(OH)CH3 is",
-            answers: [
-                { text: "1-methylbutan-2-ol", correct: false },
-                { text: "3-methylbutan-2-ol", correct: true },
-                { text: "All are isomers", correct: false },
-                { text: "3-methylbutanol", correct: false }
-            ],
-            explanation: "The correct IUPAC name for CH3CH(CH3)CH(OH)CH3 is 3-methylbutan-2-ol."
-        },
-        {
-            question: "How many lone pair of electrons is/are present in anionic",
-            answers: [
-                { text: "2", correct: false },
-                { text: "3", correct: false },
-                { text: "0", correct: false },
-                { text: "1", correct: true }
-            ],
-            explanation: "An anion typically has one lone pair of electrons."
-        },
-        {
-            question: "The intermediate product of reaction between propene and H2SO4 is",
-            answers: [
-                { text: "CH2(SO3H)", correct: false },
-                { text: "CH3CH(OSO3H)CH3", correct: true },
-                { text: "CH2(OSO3H)CH2CH3", correct: false },
-                { text: "CH3CH2(SO3H)CH3", correct: false }
-            ],
-            explanation: "The intermediate product of the reaction between propene and H2SO4 is isopropylhydrogensulfate (CH3CH(OSO3H)CH3)."
-        },
-        {
-            question: "The product of the distance between a small positive pole and a small negative pole and the magnitude of the charges is called",
-            answers: [
-                { text: "Permanent dipole", correct: false },
-                { text: "Induced dipole", correct: false },
-                { text: "Dipole moment", correct: true },
-                { text: "Instantaneous dipole", correct: false }
-            ],
-            explanation: "The product of the distance between a small positive pole and a small negative pole and the magnitude of the charges is called dipole moment."
-        },
-        {
-            question: "__________ is the fluoride of Be which is soluble in water",
-            answers: [
-                { text: "BeF2", correct: true },
-                { text: "BeBr2", correct: false },
-                { text: "BeCl2", correct: false },
-                { text: "BeI2", correct: false }
-            ],
-            explanation: "BeF2 is the fluoride of Be which is soluble in water."
-        },
-        {
-            question: "Bromine molecule is a _________ compound",
-            answers: [
-                { text: "Covalent", correct: true },
-                { text: "Electrovalent", correct: false },
-                { text: "Dative", correct: false },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "Bromine molecule (Br2) is a covalent compound."
-        },
-        {
-            question: "Which of the following compound shows isomerism",
-            answers: [
-                { text: "2-pentene", correct: true },
-                { text: "2-methyl-2-butene", correct: false },
-                { text: "Ethene", correct: false },
-                { text: "1,2-dichloropropane", correct: false }
-            ],
-            explanation: "2-pentene shows geometric (cis-trans) isomerism."
-        },
-        {
-            question: "The group VII elements form halide ions by",
-            answers: [
-                { text: "Donating an electron", correct: false },
-                { text: "Accepting an electron", correct: true },
-                { text: "Donating a proton", correct: false },
-                { text: "Accepting a proton", correct: false }
-            ],
-            explanation: "Group VII elements (halogens) form halide ions by accepting an electron."
-        },
-        {
-            question: "What is the IUPAC name of (CH3)2CHCH2CH(CH3)CH2CH3",
-            answers: [
-                { text: "2,4-dimethylhexane", correct: true },
-                { text: "2,4-dimethylhexene", correct: false },
-                { text: "5,5-dimethylpentene", correct: false },
-                { text: "2-methylheptane", correct: false }
-            ],
-            explanation: "The IUPAC name of (CH3)2CHCH2CH(CH3)CH2CH3 is 2,4-dimethylhexane."
-        },
-        {
-            question: "Which of the following is ionic compound",
-            answers: [
-                { text: "CCl4", correct: false },
-                { text: "Br2", correct: false },
-                { text: "HCl", correct: false },
-                { text: "AlF3", correct: true }
-            ],
-            explanation: "AlF3 (Aluminum fluoride) is an ionic compound."
-        },
-        {
-            question: "Which of the following undergo reduction easily",
-            answers: [
-                { text: "Cl", correct: false },
-                { text: "F", correct: true },
-                { text: "I", correct: false },
-                { text: "As", correct: false }
-            ],
-            explanation: "Fluorine (F) undergoes reduction easily."
-        },
-        {
-            question: "Group III elements ionization energy",
-            answers: [
-                { text: "Increases down the group", correct: false },
-                { text: "Decreases down the group", correct: true },
-                { text: "Increases from He - Ar", correct: false },
-                { text: "Decreases from Ar - Xe", correct: false }
-            ],
-            explanation: "Ionization energy decreases down Group III elements."
-        },
-        {
-            question: "The type of ion formed when alkaline earth metals lose their outermost shell electron is",
-            answers: [
-                { text: "M2+ ion", correct: true },
-                { text: "M2− ion", correct: false },
-                { text: "M+ ion", correct: false },
-                { text: "M− ion", correct: false }
-            ],
-            explanation: "Alkaline earth metals form M2+ ions when they lose their outermost shell electron."
-        },
-        {
-            question: "The atomic radius of Group I elements from Li to Fr",
-            answers: [
-                { text: "Decreases", correct: false },
-                { text: "Undetermined", correct: false },
-                { text: "Increases", correct: true },
-                { text: "Remains constant", correct: false }
-            ],
-            explanation: "The atomic radius of Group I elements increases from Li to Fr."
-        },
-        {
-            question: "HF is a weak acid because the H-F bond is very",
-            answers: [
-                { text: "Polar", correct: false },
-                { text: "Weak", correct: false },
-                { text: "All of the above", correct: false },
-                { text: "Strong", correct: true }
-            ],
-            explanation: "HF is a weak acid primarily because the H-F bond is strong and not easily ionizable."
-        },
-        {
-            question: "Mg may be extracted in commercial scale from",
-            answers: [
-                { text: "Dolomite", correct: true },
-                { text: "Lepidolite", correct: false },
-                { text: "Rock salt", correct: false },
-                { text: "Limestone", correct: false }
-            ],
-            explanation: "Magnesium (Mg) may be extracted in commercial scale from dolomite."
-        },
-        {
-            question: "The general formula that can be used to represent group I metal halide is",
-            answers: [
-                { text: "MX2", correct: false },
-                { text: "MX3", correct: false },
-                { text: "MX4", correct: false },
-                { text: "MX", correct: true }
-            ],
-            explanation: "The general formula for group I metal halides is MX."
-        },
-        {
-            question: "Which of the following is used in the dehydration of ethanol to give ethene",
-            answers: [
-                { text: "Conc. HNO3", correct: false },
-                { text: "Conc. H2SO4", correct: true },
-                { text: "Dilute H2SO4", correct: false },
-                { text: "Dilute HNO3", correct: false }
-            ],
-            explanation: "Concentrated sulfuric acid (H2SO4) is used in the dehydration of ethanol to give ethene."
-        },
-        {
-            question: "The type of bond present in HNO3 molecules is",
-            answers: [
-                { text: "Hydrogen", correct: false },
-                { text: "Van der Waals", correct: false },
-                { text: "Covalent", correct: true },
-                { text: "Dative covalent", correct: false }
-            ],
-            explanation: "The bond present in HNO3 molecules is covalent."
-        },
-        {
-            question: "The IUPAC name for the compound CH2=CHCH(CH3)CH2CH(OH)(CH2)2CH3 is",
-            answers: [
-                { text: "6-methyloct-7-en-4-ol", correct: false },
-                { text: "5-hydroxyl-3-methyloct-1-ene", correct: false },
-                { text: "3, methyloct-1-en-5, ol", correct: false },
-                { text: "3-methyloct-en-5-ol", correct: true }
-            ],
-            explanation: "The IUPAC name for CH2=CHCH(CH3)CH2CH(OH)(CH2)2CH3 is 3-methyloct-en-5-ol."
-        },
-        {
-            question: "Group VII and Group VIII belong to __________ block on the periodic table",
-            answers: [
-                { text: "P", correct: true },
-                { text: "S", correct: false },
-                { text: "d", correct: false },
-                { text: "f", correct: false }
-            ],
-            explanation: "Group VII (halogens) and Group VIII (noble gases) belong to the p-block on the periodic table."
-        },
-        {
-            question: "The IUPAC name of H2C=C(CH3)CH3C(CH3)3 is",
-            answers: [
-                { text: "Octane", correct: false },
-                { text: "2, 4, 2-trimethylpentane", correct: false },
-                { text: "2, 4, 4-trimethylpent-1-ene", correct: true }
-            ],
-            explanation: "The IUPAC name of H2C=C(CH3)CH3C(CH3)3 is 2, 4, 4-trimethylpent-1-ene."
-        },
-        {
-            question: "Electronic configuration of Argon is given as",
-            answers: [
-                { text: "[He]2s2 2p6", correct: false },
-                { text: "[Rn]2s2 3p6", correct: false },
-                { text: "[Ar]3s2 3p6", correct: true },
-                { text: "[Ne]3s2 3p6", correct: false }
-            ],
-            explanation: "The electronic configuration of Argon is [Ar]3s2 3p6."
-        },
-        {
-            question: "The difference in the properties of isomers is due to __________",
-            answers: [
-                { text: "Different separation", correct: false },
-                { text: "Binding forces", correct: false },
-                { text: "Different mode of combination", correct: true },
-                { text: "Molecular theory", correct: false }
-            ],
-            explanation: "The difference in properties of isomers is due to their different mode of chemical combination."
-        },
-        {
-            question: "The IUPAC name for the compound H2C=CHCH2COOH is",
-            answers: [
-                { text: "But-3-enoic acid", correct: false },
-                { text: "But-3-en-1-oic acid", correct: true },
-                { text: "But-2-en-4-oic acid", correct: false },
-                { text: "But-2-enoic acid", correct: false }
-            ],
-            explanation: "The IUPAC name for H2C=CHCH2COOH is But-3-en-1-oic acid."
-        },
-        {
-            question: "The IUPAC name for CH3CH(CH3)CH(OH)CH3 is",
-            answers: [
-                { text: "1-methylbutan-2-ol", correct: false },
-                { text: "3-methylbutan-2-ol", correct: true },
-                { text: "All are isomers", correct: false },
-                { text: "3-methylbutanol", correct: false }
-            ],
-            explanation: "The correct IUPAC name for CH3CH(CH3)CH(OH)CH3 is 3-methylbutan-2-ol."
-        },
-        {
-            question: "The type of hydrogen bonding found between different molecules is",
-            answers: [
-                { text: "Van der Waals", correct: false },
-                { text: "Intermolecular", correct: true },
-                { text: "Intramolecular", correct: false },
-                { text: "Covalent", correct: false }
-            ],
-            explanation: "Hydrogen bonding between different molecules is classified as intermolecular."
-        },
-        {
-            question: "How many sigma and pi bonds present in a single bond",
-            answers: [
-                { text: "1, 0", correct: true },
-                { text: "3, 0", correct: false },
-                { text: "0, 0", correct: false },
-                { text: "2, 2", correct: false }
-            ],
-            explanation: "A single bond consists of 1 sigma bond and 0 pi bonds."
-        },
-        {
-            question: "Sigma and pi bonds in a double bond is",
-            answers: [
-                { text: "2, 1", correct: true },
-                { text: "1, 1", correct: false },
-                { text: "3, 1", correct: false },
-                { text: "2, 2", correct: false }
-            ],
-            explanation: "A double bond consists of 1 sigma bond and 1 pi bond."
-        },
-        {
-            question: "Halogens do not occur freely in nature because",
-            answers: [
-                { text: "They are too reactive", correct: true },
-                { text: "They are electronegative", correct: false }
-            ],
-            explanation: "Halogens do not occur freely in nature because they are too reactive."
-        },
-        {
-            question: "Two compounds have the same composition and also have same atoms attached to the same atoms although with different orientation in space",
-            answers: [
-                { text: "Stereoisomers", correct: true },
-                { text: "Structural isomers", correct: false },
-                { text: "Identical", correct: false }
-            ],
-            explanation: "Compounds with the same composition and same atoms attached in different spatial arrangements are called stereoisomers."
-        },
-        {
-            question: "Which of the following group one metal oxide has an orange coloration",
-            answers: [
-                { text: "Na2O", correct: true },
-                { text: "Rb2O", correct: false },
-                { text: "Cs2O", correct: false },
-                { text: "Li2O", correct: false }
-            ],
-            explanation: "Na2O (sodium oxide) has an orange coloration."
-        },
-        {
-            question: "Which of the following is an ionic compound",
-            answers: [
-                { text: "CCl4", correct: false },
-                { text: "Br2", correct: false },
-                { text: "AlF3", correct: true },
-                { text: "HCl", correct: false }
-            ],
-            explanation: "AlF3 (aluminum fluoride) is an ionic compound."
-        },
-        {
-            question: "Bromine is a _________ compound",
-            answers: [
-                { text: "Dative", correct: false },
-                { text: "Covalent", correct: true },
-                { text: "None", correct: false },
-                { text: "Ionic", correct: false }
-            ],
-            explanation: "Bromine (Br2) is a covalent compound."
-        },
-        {
-            question: "The rise in boiling points down Group VII and Group VIII is due to the increase in the number of electrons in the molecule which leads to",
-            answers: [
-                { text: "Greater intermolecular", correct: false },
-                { text: "Lesser intermolecular", correct: false },
-                { text: "Lesser van der Waals", correct: false },
-                { text: "Greater van der Waals", correct: true }
-            ],
-            explanation: "The increase in the number of electrons down Group VII and Group VIII leads to greater van der Waals forces, resulting in higher boiling points."
-        },
-        {
-            question: "The compound used by gymnasts to ensure firm grip is",
-            answers: [
-                { text: "MgO", correct: false },
-                { text: "Mg(OH)2", correct: false },
-                { text: "MgCO3", correct: true },
-                { text: "MgCl2", correct: false }
-            ],
-            explanation: "Gymnasts use MgCO3 (magnesium carbonate) to ensure a firm grip."
-        },
-        {
-            question: "When Na metal reacts with water the reaction is",
-            answers: [
-                { text: "Vigorous", correct: true },
-                { text: "Endothermic", correct: false },
-                { text: "Mild", correct: false },
-                { text: "Complex", correct: false }
-            ],
-            explanation: "The reaction of Na metal with water is vigorous."
-        },
-        {
-            question: "A strong dipolar between a lone pair of electrons of a highly electronegative atom and a slightly positively charged hydrogen atom of another molecule is known as",
-            answers: [
-                { text: "Covalent bond", correct: false },
-                { text: "Van der Waals force", correct: false },
-                { text: "Incomplete ionic transfer", correct: false },
-                { text: "Hydrogen bond", correct: true }
-            ],
-            explanation: "A hydrogen bond is a strong dipolar interaction between a lone pair on an electronegative atom and a hydrogen atom."
-        },
-        {
-            question: "Halogens do not exist freely in nature because",
-            answers: [
-                { text: "They are poisonous", correct: false },
-                { text: "They are too reactive", correct: true },
-                { text: "They are not reactive", correct: false }
-            ],
-            explanation: "Halogens do not exist freely in nature because they are highly reactive."
-        },
-        {
-            question: "Calculate the molecular formula of a compound containing 17.39% of C, 1.45% of H and 57.9% of Br if the vapor density is 166",
-            answers: [
-                { text: "C4H4BrO4", correct: true },
-                { text: "C2H2BrO2", correct: false },
-                { text: "C3H3BrO3", correct: false },
-                { text: "CHBrO", correct: false }
-            ],
-            explanation: "The molecular formula of the compound with the given composition and vapor density is C4H4BrO4."
-        },
-        {
-            question: "Which of the following is completely an acid",
-            answers: [
-                { text: "HCl", correct: true },
-                { text: "NaCl", correct: false },
-                { text: "HBr", correct: false },
-                { text: "HI", correct: false }
-            ],
-            explanation: "HCl (hydrochloric acid) is a completely acidic compound."
-        },
-        {
-            question: "The atomic radius of group I element _______ from Li to Fr",
-            answers: [
-                { text: "Remains constant", correct: false },
-                { text: "Increases", correct: true },
-                { text: "Decreases", correct: false },
-                { text: "Undetermined", correct: false }
-            ],
-            explanation: "The atomic radius of group I elements increases from Li to Fr."
-        },
-        {
-            question: "How many unsaturated isomers are possible for C4H8",
-            answers: [
-                { text: "4", correct: false },
-                { text: "6", correct: false },
-                { text: "5", correct: false },
-                { text: "3", correct: true }
-            ],
-            explanation: "There are 3 unsaturated isomers possible for C4H8."
-        },
-        {
-            question: "What is the chemical formula for Astatine",
-            answers: [
-                { text: "Tn", correct: false },
-                { text: "At", correct: true },
-                { text: "As", correct: false },
-                { text: "St", correct: false }
-            ],
-            explanation: "The chemical symbol for Astatine is At."
-        },
-        {
-            question: "How many moles of oxygen will be needed for the complete combustion of butene",
-            answers: [
-                { text: "6 moles", correct: true },
-                { text: "5 moles", correct: false },
-                { text: "5.5 moles", correct: false },
-                { text: "6.5 moles", correct: false }
-            ],
-            explanation: "6 moles of oxygen are needed for the complete combustion of butene."
-        },
-        {
-            question: "The bond angle in C2H4 is",
-            answers: [
-                { text: "180°", correct: false },
-                { text: "109°", correct: false },
-                { text: "90°", correct: false },
-                { text: "120°", correct: true }
-            ],
-            explanation: "The bond angle in C2H4 (ethylene) is approximately 120°."
-        },
-        {
-            question: "Alkanol reacts with Alkanoic acid to form",
-            answers: [
-                { text: "Alkanoates and water", correct: true },
-                { text: "Alkanoates and Alkanones", correct: false },
-                { text: "Alkanoates and phenol", correct: false },
-                { text: "Ester and Ethene", correct: false }
-            ],
-            explanation: "Alkanol reacts with Alkanoic acid to form alkanoates and water."
-        },
-        {
-            question: "Acetone reacting with HCN to form a cyanohydrin is an example of a/an ____",
-            answers: [
-                { text: "Nucleophilic substitution", correct: false },
-                { text: "Nucleophilic addition", correct: true },
-                { text: "Electrophilic addition", correct: false },
-                { text: "Electrophilic substitution", correct: false }
-            ],
-            explanation: "Acetone reacting with HCN to form a cyanohydrin is an example of nucleophilic addition."
-        },
-        {
-            question: "Which one is a group 1 element",
-            answers: [
-                { text: "Rb", correct: true },
-                { text: "Rn", correct: false },
-                { text: "Ra", correct: false },
-                { text: "Ru", correct: false }
-            ],
-            explanation: "Rb (Rubidium) is a group 1 element."
-        },
-        {
-            question: "__________ has the highest ionization potential",
-            answers: [
-                { text: "Helium", correct: true },
-                { text: "Radon", correct: false },
-                { text: "Xenon", correct: false },
-                { text: "Krypton", correct: false }
-            ],
-            explanation: "Helium has the highest ionization potential."
-        },
-        {
-            question: "What is the alkene hybridization",
-            answers: [
-                { text: "Sp", correct: false },
-                { text: "Sp2", correct: true },
-                { text: "Sp3", correct: false },
-                { text: "S2p", correct: false }
-            ],
-            explanation: "The alkene hybridization is sp2."
-        },
-        {
-            question: "The type of bonding with formation of an ammonium ion is known as",
-            answers: [
-                { text: "Coordinate covalent bond", correct: true },
-                { text: "Ionic bond", correct: false },
-                { text: "Covalent bond", correct: false }
-            ],
-            explanation: "The formation of an ammonium ion involves a coordinate covalent bond."
-        },
-        {
-            question: "__________ isomers are non-imposable",
-            answers: [
-                { text: "Stereoisomer", correct: false },
-                { text: "Geometric", correct: false },
-                { text: "Optical", correct: true },
-                { text: "Positional isomer", correct: false }
-            ],
-            explanation: "Optical isomers are non-superimposable mirror images of each other."
-        },
-        {
-            question: "Quantitative analysis shows that the empirical formula of a compound is CH. The vapor density is found to be 39. Find the molecular formula",
-            answers: [
-                { text: "C2H2", correct: false },
-                { text: "C6H6", correct: true },
-                { text: "C6H12", correct: false },
-                { text: "C2H6", correct: false }
-            ],
-            explanation: "Given the empirical formula CH and vapor density of 39, the molecular formula is C6H6 (benzene)."
-        },
-        {
-            question: "Group VII elements exist freely in the atmosphere as",
-            answers: [
-                { text: "Hybride", correct: false },
-                { text: "Diatomic molecules", correct: true },
-                { text: "Monoatomic", correct: false },
-                { text: "Ions", correct: false }
-            ],
-            explanation: "Group VII elements exist as diatomic molecules (e.g., Cl2, Br2) in the atmosphere."
-        },
-        {
-            question: "One of the products of combustion of pentene in excess air is",
-            answers: [
-                { text: "Pentene", correct: false },
-                { text: "Pentanol", correct: false },
-                { text: "Pentanal", correct: false },
-                { text: "Carbon (IV) oxide", correct: true }
-            ],
-            explanation: "One of the products of combustion of pentene in excess air is carbon dioxide (CO2)."
-        },
-        {
-            question: "How many structural isomers are present in C4H9OH",
-            answers: [
-                { text: "4", correct: true },
-                { text: "6", correct: false },
-                { text: "5", correct: false },
-                { text: "3", correct: false }
-            ],
-            explanation: "There are 4 structural isomers possible for C4H9OH."
-        },
-        {
-            question: "Group II of the periodic table is also known as",
-            answers: [
-                { text: "Alkali metals", correct: false },
-                { text: "Halogens", correct: false },
-                { text: "Alkaline earth metals", correct: true },
-                { text: "Noble gases", correct: false }
-            ],
-            explanation: "Group II of the periodic table is known as alkaline earth metals."
-        },
-        {
-            question: "Hybridization contains",
-            answers: [
-                { text: "Sigma bond throughout", correct: true },
-                { text: "Pi-bond throughout", correct: false },
-                { text: "One sigma and one pi bond", correct: false },
-                { text: "None", correct: false }
-            ],
-            explanation: "Hybridization involves sigma bonds throughout."
-        },
-        {
-            question: "___________ is the ability of an element to attract ions towards itself",
-            answers: [
-                { text: "Electron affinity", correct: false },
-                { text: "Electronegativity", correct: true },
-                { text: "Covalent", correct: false },
-                { text: "Ionic", correct: false }
-            ],
-            explanation: "Electronegativity is the ability of an element to attract electrons towards itself."
-        },
-        {
-            question: "Reaction between C2H2 and HBr is called",
-            answers: [
-                { text: "Polymerization", correct: false },
-                { text: "Substitution", correct: false },
-                { text: "Addition", correct: true },
-                { text: "Oxidation", correct: false }
-            ],
-            explanation: "The reaction between C2H2 (acetylene) and HBr (hydrobromic acid) is an addition reaction."
-        },
-        {
-            question: "Reduction of an organic acid gives",
-            answers: [
-                { text: "Secondary alcohol", correct: false },
-                { text: "Tertiary alcohol", correct: false },
-                { text: "Primary alcohol", correct: true },
-                { text: "Polyhydric alcohol", correct: false }
-            ],
-            explanation: "Reduction of an organic acid typically gives a primary alcohol."
-        },
-        {
-            question: "__________ is used in dry cleaning",
-            answers: [
-                { text: "CH3Cl3", correct: false },
-                { text: "CCl4", correct: true },
-                { text: "CH2Cl2", correct: false },
-                { text: "CH3Cl", correct: false }
-            ],
-            explanation: "CCl4 (carbon tetrachloride) is used in dry cleaning."
-        },
-        {
-            question: "Alkanes have _________ bond",
-            answers: [
-                { text: "Single", correct: true },
-                { text: "Double", correct: false },
-                { text: "Triple", correct: false },
-                { text: "Half", correct: false }
-            ],
-            explanation: "Alkanes have single bonds between carbon atoms."
-        },
-        {
-            question: "Alkanes are generally known as",
-            answers: [
-                { text: "Polar", correct: false },
-                { text: "Non-polar", correct: true },
-                { text: "Crystalline", correct: false },
-                { text: "Cycloalkanes", correct: false }
-            ],
-            explanation: "Alkanes are non-polar molecules."
-        },
-        {
-            question: "The most reactive element in group I (Alkali metals) is",
-            answers: [
-                { text: "Fr", correct: true },
-                { text: "Li", correct: false },
-                { text: "Na", correct: false },
-                { text: "Al", correct: false }
-            ],
-            explanation: "Francium (Fr) is the most reactive element in group I (Alkali metals)."
-        },
-        {
-            question: "The valence electron in alkali metal is",
-            answers: [
-                { text: "1", correct: true },
-                { text: "3", correct: false },
-                { text: "2", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "Alkali metals have 1 valence electron."
-        },
-        {
-            question: "Aldehyde undergoes oxidation with KMnO4 to give",
-            answers: [
-                { text: "Ketone", correct: false },
-                { text: "Alkanone", correct: false },
-                { text: "Carboxylic acid", correct: true }
-            ],
-            explanation: "Aldehyde undergoes oxidation with KMnO4 to give carboxylic acid."
-        },
-        {
-            question: "Conversion of pent-1-ene to pent-2-ene when heated at high temperature is called",
-            answers: [
-                { text: "Oxidation reaction", correct: false },
-                { text: "Isomerism reaction", correct: true },
-                { text: "Reduction reaction", correct: false },
-                { text: "Replacement reaction", correct: false }
-            ],
-            explanation: "Conversion of pent-1-ene to pent-2-ene due to rearrangement of atoms is an isomerism reaction."
-        },
-        {
-            question: "The central ion in Ni(CO)4 is",
-            answers: [
-                { text: "CO", correct: false },
-                { text: "C", correct: false },
-                { text: "Ni", correct: true },
-                { text: "(CO)4", correct: false }
-            ],
-            explanation: "The central ion in Ni(CO)4 is nickel (Ni)."
-        },
-        {
-            question: "What is the positive ion in Na[Au(CN)2]",
-            answers: [
-                { text: "Au", correct: false },
-                { text: "Na", correct: true },
-                { text: "Au(CN)2", correct: false },
-                { text: "CN", correct: false }
-            ],
-            explanation: "In Na[Au(CN)2], Na+ is the positive ion."
-        },
-        {
-            question: "Transition metals have what type of bond between atoms",
-            answers: [
-                { text: "Metallic", correct: false },
-                { text: "Ionic", correct: false },
-                { text: "Covalent", correct: false },
-                { text: "Dative", correct: true }
-            ],
-            explanation: "Transition metals often form dative bonds between atoms."
-        },
-        {
-            question: "Presence of ___________ dipole moment gives the fact that the compound has certain ionic character",
-            answers: [
-                { text: "Induced", correct: false },
-                { text: "Permanent", correct: false },
-                { text: "Electric", correct: false },
-                { text: "Instantaneous", correct: true }
-            ],
-            explanation: "Presence of instantaneous dipole moment indicates certain ionic character in a compound."
-        },
-        {
-            question: "Which of the following fluoride is not suitable",
-            answers: [
-                { text: "BaF", correct: false },
-                { text: "MgF2", correct: false },
-                { text: "BeF2", correct: false },
-                { text: "CaF2", correct: true }
-            ],
-            explanation: "CaF2 is not suitable as it does not have the appropriate properties compared to the others listed."
-        },
-        {
-            question: "__________ is a species that has an unpaired electron",
-            answers: [
-                { text: "Free radical", correct: true }
-            ],
-            explanation: "A free radical is a species that has an unpaired electron."
-        },
-        {
-            question: "Product of halogenation of 4-methylpent-1-ene with HCl is ________",
-            answers: [
-                { text: "4-methyl-1-chloropentane", correct: false },
-                { text: "2-chloro-4-methylpentane", correct: true },
-                { text: "3-chloro-4-methylpentane", correct: false },
-                { text: "4-chloro-2-methylbutane", correct: false }
-            ],
-            explanation: "The product of halogenation of 4-methylpent-1-ene with HCl is 2-chloro-4-methylpentane."
-        },
-        {
-            question: "The following are characteristics of halogens except",
-            answers: [
-                { text: "They are non-metals", correct: false },
-                { text: "They exist as diatomic molecules", correct: false },
-                { text: "They are all colored", correct: false },
-                { text: "They do not ionize to form univalent ion", correct: true }
-            ],
-            explanation: "Halogens do ionize to form univalent ions (e.g., Cl-, Br-, I-)."
-        },
-        {
-            question: "If the empirical formula of an organic compound is C24H37O7 and its molecular mass is 875.106, find the molecular formula",
-            answers: [
-                { text: "C24H42O8", correct: false },
-                { text: "C48H74O14", correct: true },
-                { text: "C14H37O7", correct: false },
-                { text: "C12H18O3", correct: false }
-            ],
-            explanation: "The molecular formula of the compound with empirical formula C24H37O7 and molecular mass 875.106 is C48H74O14."
-        },
-        {
-            question: "Li2O is best prepared by _______ of Li2O2 at 450℃",
-            answers: [
-                { text: "Substitution", correct: false },
-                { text: "Oxidation", correct: false },
-                { text: "Reduction", correct: false },
-                { text: "Thermal decomposition", correct: true }
-            ],
-            explanation: "Li2O is best prepared by thermal decomposition of Li2O2 at 450℃."
-        },
-        {
-            question: "The valence electrons in alkali metals is/are",
-            answers: [
-                { text: "1", correct: true },
-                { text: "3", correct: false },
-                { text: "2", correct: false },
-                { text: "4", correct: false }
-            ],
-            explanation: "Alkali metals have 1 valence electron."
-        },
-        {
-            question: "3-methylbutan-3-ol and 3-methylbutan-2-ol is ________ and ________",
-            answers: [
-                { text: "Secondary/Secondary", correct: false },
-                { text: "Tertiary/Secondary", correct: true },
-                { text: "Secondary/Tertiary", correct: false },
-                { text: "Tertiary/Tertiary", correct: false }
-            ],
-            explanation: "3-methylbutan-3-ol is tertiary and 3-methylbutan-2-ol is secondary."
-        },
-        {
-            question: "Which of the following is not an alcohol",
-            answers: [
-                { text: "Monohydric", correct: false },
-                { text: "Dihydric", correct: false },
-                { text: "Trihydric", correct: false },
-                { text: "Tetrahydric", correct: true }
-            ],
-            explanation: "Tetrahydric does not describe an alcohol; it refers to compounds with four hydrogens."
-        },
-        {
-            question: "The IUPAC name for CH3CH2CH=CHC≡CCH3 is",
-            answers: [
-                { text: "Hept-4-en-2-yne", correct: false },
-                { text: "Hept-3-en-5,yne", correct: false },
-                { text: "Hept-4-en,2,yne", correct: false },
-                { text: "Hept-3-en-5-yne", correct: true }
-            ],
-            explanation: "The correct IUPAC name for CH3CH2CH=CHC≡CCH3 is Hept-3-en-5-yne."
-        },
-        {
-            question: "When propene completely reacts with chlorine, the name of the products formed is",
-            answers: [
-                { text: "1, 2-dichloropropane", correct: false },
-                { text: "1, 1-dichloropropane", correct: false },
-                { text: "2, 2-dichloropropane", correct: false },
-                { text: "1-chloropropane", correct: true }
-            ],
-            explanation: "The product of propene reacting with chlorine is 1-chloropropane."
-        },
-        {
-            question: "CH3CH3 + Cl2 → CH3CH2Cl + HCl This reaction is",
-            answers: [
-                { text: "Saponification", correct: false },
-                { text: "Substitution", correct: true },
-                { text: "Esterification", correct: false },
-                { text: "Addition", correct: false }
-            ],
-            explanation: "This reaction is a substitution reaction, where chlorine substitutes a hydrogen atom."
-        },
-        {
-            question: "The bond in NH3BF3 molecule is",
-            answers: [
-                { text: "Ionic", correct: false },
-                { text: "Hydrogen", correct: false },
-                { text: "Covalent", correct: true },
-                { text: "Dative covalent", correct: false }
-            ],
-            explanation: "The bond in NH3BF3 molecule is covalent."
-        },
-        {
-            question: "How many possible structural isomers are in unsaturated monohydric alkanol C4H9OH",
-            answers: [
-                { text: "5", correct: false },
-                { text: "6", correct: false },
-                { text: "3", correct: false },
-                { text: "4", correct: true }
-            ],
-            explanation: "There are 4 possible structural isomers for C4H9OH."
-        },
-        {
-            question: "Fluorine in all compounds has an oxidation number of ________",
-            answers: [
-                { text: "-2", correct: false },
-                { text: "+2", correct: false },
-                { text: "-1", correct: true },
-                { text: "-7", correct: false }
-            ],
-            explanation: "Fluorine always has an oxidation number of -1 in compounds."
-        },
-        {
-            question: "Reduction of ketones gives",
-            answers: [
-                { text: "Secondary alcohol", correct: true },
-                { text: "Primary alcohol", correct: false },
-                { text: "Ketal", correct: false },
-                { text: "Carboxylic", correct: false }
-            ],
-            explanation: "Ketones are reduced to form secondary alcohols."
-        },
-        {
-            question: "Reduction of aldehyde gives",
-            answers: [
-                { text: "Primary alcohol", correct: true },
-                { text: "Secondary alcohol", correct: false },
-                { text: "Tertiary alcohol", correct: false },
-                { text: "None", correct: false }
-            ],
-            explanation: "Aldehydes are reduced to form primary alcohols."
-        },
-        {
-            question: "Sp2 hybridization has how many sigma (σ ) bond and pi ( π) bond",
-            answers: [
-                { text: "1, 2", correct: false },
-                { text: "1, 0", correct: false },
-                { text: "1, 1", correct: true },
-                { text: "0, 2", correct: false }
-            ],
-            explanation: "Sp2 hybridization has 1 sigma bond and 1 pi bond."
-        },
-        {
-            question: "When the carbonyl group of a hydrocarbon is located in between the methylene chain, the hydrocarbon is",
-            answers: [
-                { text: "An alkanal", correct: false },
-                { text: "An aldehyde", correct: false },
-                { text: "An alkanone", correct: true },
-                { text: "None", correct: false }
-            ],
-            explanation: "An alkanone has the carbonyl group (C=O) between two methylene groups."
-        },
-        {
-            question: "The dehydrating agent for secondary alcohol is",
-            answers: [
-                { text: "Weak acid", correct: false },
-                { text: "Dilute H2SO4", correct: false },
-                { text: "Conc. H2SO4", correct: true },
-                { text: "All acids", correct: false }
-            ],
-            explanation: "Concentrated sulfuric acid (Conc. H2SO4) is a strong dehydrating agent for secondary alcohols."
-        },
-        {
-            question: "C=O is called",
-            answers: [
-                { text: "Carboxylic group", correct: false },
-                { text: "Cabin group", correct: false },
-                { text: "Kanal group", correct: false },
-                { text: "Carbonyl group", correct: true }
-            ],
-            explanation: "The functional group C=O is called the carbonyl group."
-        },
-        {
-            question: "The solubility of phenol is",
-            answers: [
-                { text: "Higher in water than phenol", correct: false },
-                { text: "Higher in alcohol than water", correct: true },
-                { text: "Equal in both liquids", correct: false },
-                { text: "None", correct: false }
-            ],
-            explanation: "Phenol is more soluble in alcohol than in water."
-        },
-        {
-            question: "Which of the following exhibits isomerism",
-            answers: [
-                { text: "Ethyne", correct: false },
-                { text: "Propyne", correct: false },
-                { text: "Methane", correct: false },
-                { text: "Butane", correct: true }
-            ],
-            explanation: "Butane exhibits structural isomerism."
-        },
-        {
-            question: "The H-C-H bond angle in CH4 is",
-            answers: [
-                { text: "120°", correct: false },
-                { text: "90°", correct: false },
-                { text: "109° 28'", correct: true },
-                { text: "180°", correct: false }
-            ],
-            explanation: "The bond angle H-C-H in CH4 (methane) is approximately 109° 28'."
-        },
-        {
-            question: "_________ is the most reactive metal in the periodic table",
-            answers: [
-                { text: "Li", correct: false },
-                { text: "Fr", correct: true },
-                { text: "Ca", correct: false },
-                { text: "Na", correct: false }
-            ],
-            explanation: "Francium (Fr) is the most reactive metal in the periodic table."
-        },
-        {
-            question: "Al3+ is highly polarizing due to its",
-            answers: [
-                { text: "High melting point", correct: false },
-                { text: "Low melting point", correct: false },
-                { text: "High charge density", correct: true },
-                { text: "Low charge density", correct: false }
-            ],
-            explanation: "Al3+ has a high charge density, making it highly polarizing."
-        },
-        {
-            question: "Alkene undergoes the following reaction except",
-            answers: [
-                { text: "Substitution", correct: true },
-                { text: "Polymerization", correct: false },
-                { text: "Addition", correct: false },
-                { text: "Hydration", correct: false }
-            ],
-            explanation: "Alkenes do not typically undergo substitution reactions."
-        },
-        {
-            question: "Molten sodium chloride is also called",
-            answers: [
-                { text: "Common salt", correct: true },
-                { text: "Bawuire", correct: false },
-                { text: "Roar salt", correct: false },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "Molten sodium chloride refers to common salt in its molten state."
-        },
-        {
-            question: "How many structural isomers are possible in C4H9Br",
-            answers: [
-                { text: "5", correct: false },
-                { text: "3", correct: false },
-                { text: "2", correct: false },
-                { text: "4", correct: true }
-            ],
-            explanation: "There are 4 structural isomers possible for C4H9Br."
-        },
-        {
-            question: "Any species that contains unpaired electron are called __________",
-            answers: [
-                { text: "Anion", correct: false },
-                { text: "Free radicals", correct: true },
-                { text: "Cation", correct: false },
-                { text: "Ion", correct: false }
-            ],
-            explanation: "Species with unpaired electrons are called free radicals."
-        },
-        {
-            question: "How many sigma bonds and pi bonds are in a double bond",
-            answers: [
-                { text: "0, 3", correct: false },
-                { text: "1, 1", correct: true },
-                { text: "1, 2", correct: false },
-                { text: "1, 0", correct: false }
-            ],
-            explanation: "A double bond consists of 1 sigma bond and 1 pi bond."
-        },
-        {
-            question: "Sp3 hybridization has _______ sigma bond and ________ pi bond",
-            answers: [
-                { text: "3, 2", correct: false },
-                { text: "1, 0", correct: true },
-                { text: "4, 3", correct: false },
-                { text: "1, 2", correct: false }
-            ],
-            explanation: "Sp3 hybridization involves 1 sigma bond and 0 pi bonds."
-        },
-        {
-            question: "Alkanol form hydrogen bonding with _________",
-            answers: [
-                { text: "Another alkanol", correct: false },
-                { text: "H2O", correct: true },
-                { text: "Carboxylic acid", correct: false },
-                { text: "Ester", correct: false }
-            ],
-            explanation: "Alkanols (alcohols) can form hydrogen bonds with water."
-        },
-        {
-            question: "________ is called alkaline hydrolysis of esters",
-            answers: [
-                { text: "Esterification", correct: false },
-                { text: "Saponification", correct: true },
-                { text: "Dehydration", correct: false },
-                { text: "Fermentation", correct: false }
-            ],
-            explanation: "The process of esters reacting with alkalis to form alcohol and salt is called saponification."
-        },
-        {
-            question: "The reason why the boiling point of alkanol decreases with increased branching is",
-            answers: [
-                { text: "The molecule cools easily", correct: false },
-                { text: "The molecule assumes a circular shape", correct: false },
-                { text: "The molecules assume a tetrahedral shape", correct: false },
-                { text: "The molecule assumes a spherical shape", correct: true }
-            ],
-            explanation: "Increased branching in alkanols leads to a more spherical shape, reducing van der Waals forces and thus lowering boiling point."
-        },
-        {
-            question: "Which of the following has the highest boiling point",
-            answers: [
-                { text: "1° alcohol", correct: true },
-                { text: "3° alcohol", correct: false },
-                { text: "2° alcohol", correct: false },
-                { text: "Polyhydric alcohol", correct: false }
-            ],
-            explanation: "Primary alcohols (1° alcohol) generally have higher boiling points compared to other types."
-        },
-        {
-            question: "Which of the following has the highest solubility",
-            answers: [
-                { text: "Secondary alcohol", correct: false },
-                { text: "Polyhydric alcohol", correct: true },
-                { text: "Tertiary alcohol", correct: false },
-                { text: "Dihydric alcohol", correct: false }
-            ],
-            explanation: "Polyhydric alcohols have higher solubility due to multiple hydroxyl groups."
-        },
-        {
-            question: "The raw materials for a large-scale production of ethanol is",
-            answers: [
-                { text: "Starch", correct: true },
-                { text: "C2H6", correct: false },
-                { text: "C2H2", correct: false },
-                { text: "C2H6", correct: false }
-            ],
-            explanation: "Starch is a common raw material used in the production of ethanol."
-        },
-        {
-          question: "Butanoic acid and ethyl ethanoate are isomers (a)True (b)none of the options (c)False (d)all of the options",
-          answers: [
-            { text: "True", correct: false },
-            { text: "None of the options", correct: false },
-            { text: "False", correct: true },
-            { text: "All of the options", correct: false }
-          ],
-          explanation: "Butanoic acid (CH3CH2CH2COOH) and ethyl ethanoate (CH3COOC2H5) are not isomers."
-        },
-        {
-          question: "The carbonyl group in aldehydes is ͟͟ ͟͟ ͟͟ (a)C=O (b)C-O (c)CHO (d)CO",
-          answers: [
-            { text: "C=O", correct: true },
-            { text: "C-O", correct: false },
-            { text: "CHO", correct: false },
-            { text: "CO", correct: false }
-          ],
-          explanation: "The carbonyl group in aldehydes is represented as C=O."
-        },
-        {
-          question: "Which of the following could exhibit optical isomerism? (a)𝐶𝐻2𝐶𝑙𝐹 (b)𝐶2𝐻6 (c)𝐶5𝐻12 (d)𝐶𝐻3𝐶(𝐶𝑙)(𝐵𝑟)𝐶𝐻𝑂",
-          answers: [
-            { text: "𝐶𝐻2𝐶𝑙𝐹", correct: false },
-            { text: "𝐶2𝐻6", correct: false },
-            { text: "𝐶5𝐻12", correct: true },
-            { text: "𝐶𝐻3𝐶(𝐶𝑙)(𝐵𝑟)𝐶𝐻𝑂", correct: false }
-          ],
-          explanation: "Optical isomerism requires a chiral center, typically found in compounds like pentane (𝐶5𝐻12) but not in the other options."
-        },
-        {
-          question: "Which of the following is used in the dehydration of ethanol to give ethene? (a)Conc.𝐻𝑁𝑂3 (b)𝐻2𝑆𝑂4 (c)Dil.𝐻𝑁𝑂3 (d)Conc.𝐻2𝑆𝑂4",
-          answers: [
-            { text: "Conc.𝐻𝑁𝑂3", correct: false },
-            { text: "𝐻2𝑆𝑂4", correct: true },
-            { text: "Dil.𝐻𝑁𝑂3", correct: false },
-            { text: "Conc.𝐻2𝑆𝑂4", correct: false }
-          ],
-          explanation: "Concentrated sulfuric acid (𝐻2𝑆𝑂4) is commonly used in the dehydration of ethanol to ethene."
-        },
-        {
-          question: "Which of the following compounds shows geometrical isomerism (a)2-methyl-2-butene (b)Ethene-2-pentene (c)1,2-dichloropropane",
-          answers: [
-            { text: "2-methyl-2-butene", correct: true },
-            { text: "Ethene-2-pentene", correct: false },
-            { text: "1,2-dichloropropane", correct: false }
-          ],
-          explanation: "2-Methyl-2-butene exhibits geometrical isomerism due to the presence of a double bond with different groups attached."
-        },
-        {
-          question: "Aldehydes undergo oxidation with 𝐾𝑀𝑛𝑂4 in the presence of a mineral acid to form ͟͟ ͟͟ (a)Carboxylic acid (b)ketones (c)alcohol (d)acetals",
-          answers: [
-            { text: "Carboxylic acid", correct: true },
-            { text: "Ketones", correct: false },
-            { text: "Alcohol", correct: false },
-            { text: "Acetals", correct: false }
-          ],
-          explanation: "Aldehydes are oxidized by potassium permanganate (𝐾𝑀𝑛𝑂4) to form carboxylic acids."
-        },
-        {
-          question: "The conversion of pent-1-ene to pent-2-ene when heated at a high temperature is an example of (a)Replacement reaction (b)Isomerization reaction (c)Elimination reaction (d)Addition reaction",
-          answers: [
-            { text: "Replacement reaction", correct: false },
-            { text: "Isomerization reaction", correct: true },
-            { text: "Elimination reaction", correct: false },
-            { text: "Addition reaction", correct: false }
-          ],
-          explanation: "Heating pent-1-ene to form pent-2-ene involves rearranging the atoms within the molecule, which is an example of isomerization."
-        },
-        {
-          question: "The main factor that determines the order of boiling points of isomeric alcohols is (a)Molecular weight (b)Solubility in water (c)Halogen bonding (d)Hydrogen bonding",
-          answers: [
-            { text: "Molecular weight", correct: false },
-            { text: "Solubility in water", correct: false },
-            { text: "Halogen bonding", correct: false },
-            { text: "Hydrogen bonding", correct: true }
-          ],
-          explanation: "Hydrogen bonding between isomeric alcohols significantly affects their boiling points."
-        },
-        {
-          question: "Aldehydes can be distinguished from ketones by using (a)Phenylhydrazine (b)Saturated 𝑁𝑎𝐻𝑆𝑂3 solution (c)Ammoniacal 𝐴𝑔𝑁𝑂3 solution (d)Thionyl chloride",
-          answers: [
-            { text: "Phenylhydrazine", correct: true },
-            { text: "Saturated 𝑁𝑎𝐻𝑆𝑂3 solution", correct: false },
-            { text: "Ammoniacal 𝐴𝑔𝑁𝑂3 solution", correct: false },
-            { text: "Thionyl chloride", correct: false }
-          ],
-          explanation: "Aldehydes react with phenylhydrazine to form hydrazones, which can be used to distinguish them from ketones."
-        },
-        {
-          question: "The process of converting large alkanes to smaller ones, alkenes and hydrogen is called ͟͟ ͟͟ (a)Thermal cracking (b)Nitration (c)Isomerization (d)Knocking",
-          answers: [
-            { text: "Thermal cracking", correct: true },
-            { text: "Nitration", correct: false },
-            { text: "Isomerization", correct: false },
-            { text: "Knocking", correct: false }
-          ],
-          explanation: "Thermal cracking is the process of breaking down large hydrocarbons into smaller ones, including alkenes and hydrogen."
-        },
-        {
-          question: "A hydrocarbon is made up of 90% carbon. The empirical formula of the hydrocarbon is ͟͟ ͟͟ (a) 𝐶3𝐻4 (b) CH (c) 𝐶𝐻2 (d) 𝐶3𝐻6",
-          answers: [
-            { text: "𝐶3𝐻4", correct: false },
-            { text: "CH", correct: true },
-            { text: "𝐶𝐻2", correct: false },
-            { text: "𝐶3𝐻6", correct: false }
-          ],
-          explanation: "The empirical formula of a hydrocarbon that is 90% carbon would be CH."
-        },
-        {
-          question: "The carbon-carbon triple bond in the ethyne molecule consists of ͟͟ ͟͟ ͟͟ ͟͟ ͟͟",
-          answers: [
-            { text: "One sigma bond and two pi bonds", correct: true },
-            { text: "Two sigma bonds and one pi bond", correct: false },
-            { text: "Three sigma bonds", correct: false },
-            { text: "Two pi bonds", correct: false }
-          ],
-          explanation: "The triple bond in ethyne (acetylene) consists of one sigma bond and two pi bonds."
-        },
-        {
-          question: "Which hybridization of carbon has the lowest percentage of s character?",
-          answers: [
-            { text: "sp3", correct: true },
-            { text: "sp2", correct: false },
-            { text: "sp", correct: false },
-            { text: "sp3d", correct: false }
-          ],
-          explanation: "sp3 hybridized carbon has 25% s character, which is the lowest among the listed options."
-        },
-        {
-          question: "The hybridization present in alkene is",
-          answers: [
-            { text: "sp2", correct: true },
-            { text: "sp3", correct: false },
-            { text: "sp", correct: false },
-            { text: "sp3d", correct: false }
-          ],
-          explanation: "Alkenes have sp2 hybridization due to the presence of a double bond between carbon atoms."
-        },
-        {
-          question: "Which of the following has the highest boiling point?",
-          answers: [
-            { text: "2-pentanone", correct: false },
-            { text: "2-hexanone", correct: true },
-            { text: "Butanone", correct: false },
-            { text: "Propanone", correct: false }
-          ],
-          explanation: "2-Hexanone has the highest boiling point among the listed ketones due to its larger molecular size."
-        },
-        {
-          question: "Sigma bonds result from",
-          answers: [
-            { text: "End-to-end overlap of atomic orbitals", correct: true },
-            { text: "Side-to-side overlap of atomic orbitals", correct: false },
-            { text: "Overlap of p orbitals", correct: false },
-            { text: "Overlap of d orbitals", correct: false }
-          ],
-          explanation: "Sigma bonds result from end-to-end overlap of atomic orbitals."
-        },
-        {
-          question: "Ketones are prepared by the oxidation of",
-          answers: [
-            { text: "Alcohols", correct: true },
-            { text: "Aldehydes", correct: false },
-            { text: "Hydrocarbons", correct: false },
-            { text: "Ethers", correct: false }
-          ],
-          explanation: "Ketones can be prepared by the oxidation of secondary alcohols."
-        },
-        {
-          question: "How many unsaturated isomers are possible for 𝐶4𝐻8?",
-          answers: [
-            { text: "5", correct: true },
-            { text: "6", correct: false },
-            { text: "4", correct: false },
-            { text: "3", correct: false }
-          ],
-          explanation: "There are 5 unsaturated isomers possible for 𝐶4𝐻8."
-        },
-        {
-          question: "Which of the following will have the highest boiling point?",
-          answers: [
-            { text: "Ethanal", correct: false },
-            { text: "Butanal", correct: false },
-            { text: "Methanal", correct: false },
-            { text: "Propanal", correct: true }
-          ],
-          explanation: "Propanal (CH3CH2CHO) has the highest boiling point among the listed aldehydes."
-        },
-        {
-          question: "How many carbon atoms are present in a molecule of 2-methylpentane?",
-          answers: [
-            { text: "3", correct: false },
-            { text: "4", correct: false },
-            { text: "5", correct: true },
-            { text: "6", correct: false }
-          ],
-          explanation: "2-Methylpentane has 5 carbon atoms."
-        },
-        {
-          question: "How many moles of oxygen will be needed to complete combustion of butane?",
-          answers: [
-            { text: "6", correct: false },
-            { text: "5", correct: false },
-            { text: "4", correct: true },
-            { text: "6.5", correct: false }
-          ],
-          explanation: "The combustion of butane (C4H10) follows the equation: 2C4H10 + 13O2 → 8CO2 + 10H2O. From this equation, 13 moles of O2 are required to completely combust 2 moles of butane. Therefore, to combust 1 mole of butane, 13/2 = 6.5 moles of O2 are needed. For 2 moles of butane (which is C4H10), 2 * 6.5 = 13 moles of O2 are required. Hence, for 1 mole of butane, 6.5 moles of O2 are needed."
-        },
-        {
-          question: "When ketones react with a Grignard reagent and the complex hydrolyzed, the product is",
-          answers: [
-            { text: "Primary alcohol", correct: false },
-            { text: "Tertiary alcohol", correct: false },
-            { text: "Dihydric alcohol", correct: false },
-            { text: "Secondary alcohol", correct: true }
-          ],
-          explanation: "Ketones react with Grignard reagents (RMgX) to form a complex, which upon hydrolysis yields a secondary alcohol."
-        },
-        {
-          question: "The simplest formula of a compound which expresses its percentage composition is",
-          answers: [
-            { text: "Empirical formula", correct: true },
-            { text: "Chemical formula", correct: false },
-            { text: "Molecular formula", correct: false },
-            { text: "General formula", correct: false }
-          ],
-          explanation: "The empirical formula of a compound gives the simplest whole-number ratio of atoms of each element present in the compound."
-        },
-        {
-          question: "The number of structural isomers of saturated monohydric alcohol with molecular formula C4H9OH is",
-          answers: [
-            { text: "4", correct: true },
-            { text: "3", correct: false },
-            { text: "5", correct: false },
-            { text: "5", correct: false }
-          ],
-          explanation: "For C4H9OH (saturated monohydric alcohol), the structural isomers are: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, and 2-methylpropan-2-ol, totaling 4 isomers."
-        },
-        {
-          question: "Which reaction best accounts for the solubility of aldehydes?",
-          answers: [
-            { text: "Hydrogen bonding between solute and solvent", correct: true },
-            { text: "Hydrogen bonding between solute molecules", correct: false },
-            { text: "Van der Waals forces", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "Aldehydes exhibit solubility due to hydrogen bonding between the carbonyl oxygen and solvent molecules."
-        },
-        {
-          question: "Name this compound CH3CH2CH2CHO",
-          answers: [
-            { text: "Propanal", correct: true },
-            { text: "Propanone", correct: false },
-            { text: "Ethanal", correct: false },
-            { text: "Butanal", correct: false }
-          ],
-          explanation: "The compound CH3CH2CH2CHO is propanal."
-        },
-        {
-          question: "The IUPAC name of isopropyl alcohol is",
-          answers: [
-            { text: "2-methylpropan-2-ol", correct: true },
-            { text: "Propan-1-ol", correct: false },
-            { text: "Propan-2-ol", correct: false },
-            { text: "2-methylpropan-1-ol", correct: false }
-          ],
-          explanation: "The IUPAC name of isopropyl alcohol is 2-methylpropan-2-ol."
-        },
-        {
-          question: "Reduction of aldehydes and ketones gives",
-          answers: [
-            { text: "Primary and secondary alcohol", correct: false },
-            { text: "Secondary and tertiary alcohol", correct: false },
-            { text: "Primary and secondary alcohol", correct: true },
-            { text: "Primary and tertiary alcohol", correct: false }
-          ],
-          explanation: "Aldehydes are reduced to primary alcohols, and ketones are reduced to secondary alcohols."
-        },
-        {
-          question: "Ketones are prepared from",
-          answers: [
-            { text: "Oxidation of secondary alcohol", correct: true },
-            { text: "Reduction of acid halides with alcohol", correct: false },
-            { text: "Oxidation of primary alkanol", correct: false },
-            { text: "Hydrolysis of ester", correct: false }
-          ],
-          explanation: "Ketones can be prepared from the oxidation of secondary alcohols."
-        },
-        {
-          question: "The process of converting large alkanes to smaller ones, alkenes and H2 is",
-          answers: [
-            { text: "Nitration", correct: false },
-            { text: "Isomerization", correct: false },
-            { text: "Thermal cracking", correct: true },
-            { text: "Knocking", correct: false }
-          ],
-          explanation: "Thermal cracking is the process of breaking down large alkanes into smaller ones, alkenes, and hydrogen."
-        },
-        {
-          question: "A compound has the following percentage composition: 52.17% carbon, 13.04% hydrogen, and the remainder oxygen. The number of hydrogen atoms in the empirical formula is",
-          answers: [
-            { text: "3", correct: true },
-            { text: "6", correct: false },
-            { text: "4", correct: false },
-            { text: "5", correct: false }
-          ],
-          explanation: "To find the empirical formula, assume we have 100 g of the compound. Then, we have 52.17 g C, 13.04 g H, and the rest is oxygen. Convert grams to moles: C = 52.17 / 12.01 ≈ 4.34 moles, H = 13.04 / 1.01 ≈ 12.92 moles. Divide by the smallest number of moles (which is C) to get the empirical formula: C4H3. Multiply to get whole numbers: C4H3 × 3 = C12H9, which gives us 9 H atoms."
-        },
-        {
-          question: "When propene completely reacts with chlorine, the name of the product formed is",
-          answers: [
-            { text: "1,2-dichloropropane", correct: false },
-            { text: "2,2-dichloropropane", correct: true },
-            { text: "Dichloropropane", correct: false },
-            { text: "1-chloropropane", correct: false }
-          ],
-          explanation: "When propene (C3H6) reacts with chlorine, 2,2-dichloropropane is formed."
-        },
-        {
-          question: "Which of the following hybridizations has the lowest percentage of 's' character?",
-          answers: [
-            { text: "sp", correct: true },
-            { text: "sp2", correct: false },
-            { text: "sp3", correct: false },
-            { text: "All of the above", correct: false }
-          ],
-          explanation: "sp hybridization has 50% s character, which is lower than sp2 (33.33%) and sp3 (25%)."
-        },
-        {
-          question: "Bromination of ethane is done in the presence of",
-          answers: [
-            { text: "AlCl3", correct: false },
-            { text: "AlBr3", correct: false },
-            { text: "CCl4", correct: false },
-            { text: "HBr", correct: true }
-          ],
-          explanation: "Bromination of ethane is carried out using HBr (hydrobromic acid)."
-        },
-        {
-          question: "The general formula for alkanones is",
-          answers: [
-            { text: "RCOOH", correct: false },
-            { text: "RCOOR", correct: false },
-            { text: "R2CO", correct: false },
-            { text: "RCHO", correct: true }
-          ],
-          explanation: "Alkanones have the general formula R2CO, where R can be any alkyl group."
-        },
-        {
-          question: "Compounds with the same molecular formula but differ in the position of a functional group on the carbon chain are",
-          answers: [
-            { text: "Chain isomers", correct: false },
-            { text: "Tactomers", correct: false },
-            { text: "Positional isomers", correct: true },
-            { text: "Functional group isomers", correct: false }
-          ],
-          explanation: "Positional isomers have the same molecular formula but differ in the position of functional groups on the carbon chain."
-        },
-        {
-          question: "Reduction of ethanal with H2/Ni gives",
-          answers: [
-            { text: "Ethanone", correct: false },
-            { text: "Ethanol", correct: true },
-            { text: "Ethane", correct: false },
-            { text: "Ethanoic acid", correct: false }
-          ],
-          explanation: "Ethanal (CH3CHO) is reduced by H2/Ni to give ethanol (CH3CH2OH)."
-        },
-        {
-          question: "Butan-2-ol and butanal are",
-          answers: [
-            { text: "Geometric isomers", correct: false },
-            { text: "Chain isomers", correct: true },
-            { text: "Functional group isomers", correct: false },
-            { text: "Positional isomers", correct: false }
-          ],
-          explanation: "Butan-2-ol (CH3CH2CH(OH)CH3) and butanal (CH3CH2CH2CHO) are chain isomers."
-        },
-        {
-          question: "Which of these structures represents 3-ethyl-2-methylpentanal?",
-          answers: [
-            { text: "CH3(CH2)2CHCH(C2H5)COH", correct: true },
-            { text: "CH3CH2CH2CH(C2H3)CH(C2H5)COH", correct: false },
-            { text: "CH3(CH3)2CH(CH2)CH2CH(C2H5)OH", correct: false },
-            { text: "CH3CH2CH(CH2CH2)2CH(C2H5)OH", correct: false }
-          ],
-          explanation: "3-Ethyl-2-methylpentanal has the structure CH3(CH2)2CHCH(C2H5)COH."
-        },
-        {
-          question: "Butanoic acid and ethyl ethanoate are isomers",
-          answers: [
-            { text: "True", correct: true },
-            { text: "False", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "Butanoic acid (CH3CH2CH2COOH) and ethyl ethanoate (CH3COOC2H5) are structural isomers."
-        },
-        {
-          question: "The bond angle in C2H4 is",
-          answers: [
-            { text: "120°", correct: false },
-            { text: "90°", correct: false },
-            { text: "109.28°", correct: true },
-            { text: "180°", correct: false }
-          ],
-          explanation: "The bond angle in ethene (C2H4) is approximately 109.5° due to sp2 hybridization."
-        },
-        {
-          question: "Alkenes are generally",
-          answers: [
-            { text: "sp2", correct: true },
-            { text: "sp", correct: false },
-            { text: "s", correct: false },
-            { text: "sp3", correct: false }
-          ],
-          explanation: "Alkenes are generally sp2 hybridized due to the presence of a double bond."
-        },
-        {
-          question: "Which of the following effects is due to the size and shapes of molecules?",
-          answers: [
-            { text: "Steric", correct: true },
-            { text: "Electronic", correct: false },
-            { text: "Resonance", correct: false },
-            { text: "Inductive", correct: false }
-          ],
-          explanation: "Steric effects refer to the hindrance caused by the size and shape of molecules."
-        },
-        {
-          question: "The reaction of an alkyne with sodium in liquid ammonia yields",
-          answers: [
-            { text: "Basic oxide", correct: false },
-            { text: "Trans alkene", correct: false },
-            { text: "Acidic salt", correct: false },
-            { text: "Basic salt", correct: true }
-          ],
-          explanation: "The reaction of an alkyne with sodium in liquid ammonia (Sodamide) yields a basic salt."
-        },
-        {
-          question: "Sigma and pi bonds in alkyne are",
-          answers: [
-            { text: "2,1", correct: false },
-            { text: "3,1", correct: true },
-            { text: "1,3", correct: false },
-            { text: "1,2", correct: false }
-          ],
-          explanation: "In an alkyne, there are 3 sigma bonds and 1 pi bond between the carbon atoms."
-        },
-        {
-          question: "3-Methylbutan-2-ol and 2-methylbutanol are examples of",
-          answers: [
-            { text: "Chain isomers", correct: true },
-            { text: "Geometric isomers", correct: false },
-            { text: "Functional group isomers", correct: false },
-            { text: "Positional isomers", correct: false }
-          ],
-          explanation: "3-Methylbutan-2-ol and 2-methylbutanol are chain isomers."
-        },
-        {
-          question: "Which of the following has the highest boiling point?",
-          answers: [
-            { text: "Propane", correct: false },
-            { text: "Pentane", correct: true },
-            { text: "Methane", correct: false },
-            { text: "Ethane", correct: false }
-          ],
-          explanation: "Pentane (C5H12) has the highest boiling point among the listed compounds."
-        },
-        {
-          question: "Butanal is an example of",
-          answers: [
-            { text: "Geometric isomers", correct: false },
-            { text: "Chain isomers", correct: true },
-            { text: "Functional group isomers", correct: false },
-            { text: "Positional isomers", correct: false }
-          ],
-          explanation: "Butanal (CH3CH2CH2CHO) is an example of chain isomers."
-        },
-        {
-          question: "A hydrazone will result from the reaction of hydrazine with",
-          answers: [
-            { text: "Phenol", correct: false },
-            { text: "Alcohol", correct: true },
-            { text: "Acid", correct: false },
-            { text: "Aldehyde", correct: false }
-          ],
-          explanation: "Hydrazones are formed by the reaction of hydrazine with aldehydes or ketones."
-        },
-        {
-          question: "Which of the following has the highest solubility?",
-          answers: [
-            { text: "CH3OH", correct: false },
-            { text: "CH3CH2CH2OH", correct: false },
-            { text: "CH3CH2OH", correct: true },
-            { text: "CH3CH2CH2CH2OH", correct: false }
-          ],
-          explanation: "Among the given alcohols, ethanol (CH3CH2OH) has the highest solubility in water due to its ability to form hydrogen bonds with water molecules."
-        },
-        {
-          question: "The reduction of ketones gives",
-          answers: [
-            { text: "Primary alcohol", correct: false },
-            { text: "Secondary alcohol", correct: true },
-            { text: "Carboxyl acid", correct: false },
-            { text: "Ketal", correct: false }
-          ],
-          explanation: "Ketones, upon reduction, typically give secondary alcohols."
-        },
-        {
-          question: "The Fehling solution of Cu2+ reduced to reddish Cu+ is a confirmation of",
-          answers: [
-            { text: "Alcohol", correct: false },
-            { text: "Ketone", correct: false },
-            { text: "Aldehyde", correct: true },
-            { text: "Carboxyl", correct: false }
-          ],
-          explanation: "The reduction of Fehling's solution to form a reddish precipitate of Cu+ confirms the presence of an aldehyde."
-        },
-        {
-          question: "Which of the following does not represent the saturated monohydric alcohol?",
-          answers: [
-            { text: "CnH2n+2OH", correct: false },
-            { text: "CnH2n-1OH", correct: true },
-            { text: "CnH2n-2OH", correct: false },
-            { text: "ROH", correct: false }
-          ],
-          explanation: "The formula CnH2n-1OH does not represent a saturated monohydric alcohol."
-        },
-        {
-          question: "The intermediate product of reaction between propane and H2SO4 is",
-          answers: [
-            { text: "CH3CH2OSO3H", correct: false },
-            { text: "CH3CH2CH2SO3H", correct: false },
-            { text: "CH2(SO3H)CH2CH3", correct: false },
-            { text: "CH3CH(SO3H)CH3", correct: true }
-          ],
-          explanation: "The intermediate product formed during the reaction of propane with sulfuric acid (H2SO4) is CH3CH(SO3H)CH3."
-        },
-        {
-          question: "Isomerisation of alkane occurs at",
-          answers: [
-            { text: "HCl/300°C", correct: false },
-            { text: "CCl4/300°C", correct: false },
-            { text: "AlCl3/300°C", correct: true },
-            { text: "SO3/300°C", correct: false }
-          ],
-          explanation: "Isomerisation of alkanes typically occurs in the presence of AlCl3 catalyst at elevated temperatures."
-        },
-        {
-          question: "Which of the following has the highest boiling point?",
-          answers: [
-            { text: "CH3OH", correct: false },
-            { text: "CH3CH2CH2OH", correct: false },
-            { text: "CH3CH2OH", correct: true },
-            { text: "CH3CH2CH2CH2OH", correct: false }
-          ],
-          explanation: "Ethanol (CH3CH2OH) has the highest boiling point among the listed alcohols due to its larger size and stronger intermolecular forces."
-        },
-        {
-          question: "2-methylpentane and 2,2-dimethylbutene are isomeric with the following except",
-          answers: [
-            { text: "3-methyl pentane", correct: false },
-            { text: "2,3-dimethylbutane", correct: false },
-            { text: "2-methylhexane", correct: false },
-            { text: "hexane", correct: true }
-          ],
-          explanation: "Hexane is not an isomer of 2-methylpentane or 2,2-dimethylbutene."
-        },
-        {
-          question: "The differences in the properties of isomers is due to",
-          answers: [
-            { text: "Different chemical properties", correct: false },
-            { text: "Different functional groups", correct: false },
-            { text: "Different structural formulae", correct: false },
-            { text: "Different arrangement of atoms", correct: true }
-          ],
-          explanation: "Isomers differ primarily due to their different arrangement of atoms while having the same molecular formula."
-        },
-        {
-          question: "The presence of silver mirror in Tollen’s test indicates the presence of",
-          answers: [
-            { text: "Ketone", correct: false },
-            { text: "Alcohol", correct: true },
-            { text: "Aldehyde", correct: false },
-            { text: "Alkene", correct: false }
-          ],
-          explanation: "A silver mirror formed in Tollen's test confirms the presence of an alcohol."
-        },
-        {
-          question: "Which will react with Tollen’s reagent?",
-          answers: [
-            { text: "Alcohol", correct: true },
-            { text: "Alkanal", correct: false },
-            { text: "Alkanone", correct: false },
-            { text: "Alkanoate", correct: false }
-          ],
-          explanation: "Tollen's reagent reacts with alcohols to produce a silver mirror."
-        },
-        {
-          question: "One of the products of combustion of pentane in excess air is",
-          answers: [
-            { text: "Pentanol", correct: false },
-            { text: "Pentanal", correct: false },
-            { text: "Pentene", correct: false },
-            { text: "Carbon dioxide", correct: true }
-          ],
-          explanation: "Combustion of pentane in excess air produces carbon dioxide (CO2) as one of the products."
-        },
-        {
-          question: "The IUPAC name of CH3CH(CH3)CH(OH)CH3CH3 is",
-          answers: [
-            { text: "1-methyl but-2-ol", correct: false },
-            { text: "All is correct", correct: false },
-            { text: "3-methyl butanol", correct: false },
-            { text: "3-methylbutan-2-ol", correct: true }
-          ],
-          explanation: "The correct IUPAC name for the given structure is 3-methylbutan-2-ol."
-        },
-        {
-          question: "Sigma bond results from",
-          answers: [
-            { text: "Parallel overlapping of orbital", correct: false },
-            { text: "When the bond makes a pi", correct: false },
-            { text: "Direct overlapping of orbital", correct: true },
-            { text: "None of the above", correct: false }
-          ],
-          explanation: "A sigma bond results from the direct overlap of atomic orbitals along the bond axis."
-        },
-        {
-          question: "One of these is not a secondary alcohol",
-          answers: [
-            { text: "3-methylpent-3-ol", correct: false },
-            { text: "3-methylpent-2-ol", correct: false },
-            { text: "2-methylpent-3-ol", correct: true },
-            { text: "Hexan-2-ol", correct: false }
-          ],
-          explanation: "2-methylpent-3-ol is not a secondary alcohol; it's a tertiary alcohol."
-        },
-        {
-          question: "The reaction between C2H2 and HBr is called",
-          answers: [
-            { text: "Ammoniacal silver nitrate", correct: false },
-            { text: "Ammonia silver concentration", correct: false },
-            { text: "Bromine water", correct: true },
-            { text: "KMnO4", correct: false }
-          ],
-          explanation: "The reaction between acetylene (C2H2) and HBr is known as bromination."
-        },
-        {
-          question: "Ketones are prepared by the oxidation of",
-          answers: [
-            { text: "Tertiary alkanol", correct: false },
-            { text: "Monohydric alkanol", correct: false },
-            { text: "Primary alkanol", correct: false },
-            { text: "Secondary alkanol", correct: true }
-          ],
-          explanation: "Ketones are typically prepared by the oxidation of secondary alcohols."
-        },
-        {
-          question: "Propanal and propanone are examples of",
-          answers: [
-            { text: "Optical isomerism", correct: false },
-            { text: "Geometric isomerism", correct: false },
-            { text: "Positional isomerism", correct: false },
-            { text: "Functional isomerism", correct: true }
-          ],
-          explanation: "Propanal and propanone are functional isomers, differing in the position of the carbonyl group."
-        },
-        {
-          question: "Alcohols have a higher boiling point than expected from their molecular weight because",
-          answers: [
-            { text: "Hydrogen bond must be broken in the process of volatization", correct: false },
-            { text: "Ionic forces are very strong in alcohol molecules", correct: false },
-            { text: "Covalent bonds are very strong in alcohol molecules", correct: false },
-            { text: "Van der Waals forces of attraction are strong in alcohol molecules", correct: true }
-          ],
-          explanation: "Alcohols have higher boiling points due to the presence of hydrogen bonding and stronger van der Waals forces."
-        },
-        {
-          question: "Any species that contain unpaired electron is called",
-          answers: [
-            { text: "Anion", correct: false },
-            { text: "Ionic", correct: false },
-            { text: "Free radical", correct: true },
-            { text: "Cation", correct: false }
-          ],
-          explanation: "A species with an unpaired electron is termed a free radical."
-        },
-        {
-          question: "The number of saturated monohydric alcohol with molecular formula C4H9OH is",
-          answers: [
-            { text: "4", correct: false },
-            { text: "3", correct: true },
-            { text: "5", correct: false },
-            { text: "6", correct: false }
-          ],
-          explanation: "There are three saturated monohydric alcohols with the molecular formula C4H9OH."
-        },
-        {
-          question: "Isomers of a substance must have",
-          answers: [
-            { text: "Same structural formula", correct: true },
-            { text: "Same molecular weight", correct: false },
-            { text: "Same chemical properties", correct: false },
-            { text: "Same functional group", correct: false }
-          ],
-          explanation: "Isomers of a substance must have the same molecular formula but different structural formulae."
-        },
-        {
-          question: "The intermediate product of the reaction between propene and H2SO4 is",
-          answers: [
-            { text: "CH3CH2OSO3H", correct: false },
-            { text: "CH3CH2CH2SO3H", correct: false },
-            { text: "CH2(SO3H)CH2CH3", correct: false },
-            { text: "CH3CH(SO3H)CH3", correct: true }
-          ],
-          explanation: "The reaction of propene with sulfuric acid (H2SO4) produces CH3CH(SO3H)CH3 as an intermediate product."
-        },
-        {
-          question: "Which of the following show geometrical isomerism?",
-          answers: [
-            { text: "Ethane", correct: false },
-            { text: "1,2-dichloropropane", correct: true },
-            { text: "2-pentanone", correct: false },
-            { text: "2-methyl-2-butene", correct: false }
-          ],
-          explanation: "1,2-Dichloropropane exhibits geometrical isomerism due to the restricted rotation around the C-C bond."
-        },
-        {
-          question: "Which of the following has the highest boiling point?",
-          answers: [
-            { text: "2-hexanone", correct: true },
-            { text: "Butanone", correct: false },
-            { text: "Propanone", correct: false },
-            { text: "2-pentanone", correct: false }
-          ],
-          explanation: "2-hexanone has the highest boiling point among the given ketones due to its larger molecular size and increased van der Waals forces."
-        },
-        {
-          question: "What is the IUPAC name of (𝐶𝐻3)2𝐶𝐻𝐶𝐻2𝐶𝐻(𝐶𝐻3)𝐶𝐻2𝐶𝐻3?",
-          answers: [
-            { text: "2-methyl-4-ethylpentane", correct: false },
-            { text: "2-ethyl-4-methylpentane", correct: true },
-            { text: "Octane", correct: false },
-            { text: "2,4-dimethylhexane", correct: false }
-          ],
-          explanation: "The correct IUPAC name for the given structure is 2-ethyl-4-methylpentane."
-        },
-        {
-          question: "The main factors that determine the order of boiling points of isomeric alcohol",
-          answers: [
-            { text: "Molecular weight", correct: false },
-            { text: "Solubility in water", correct: false },
-            { text: "Hydrogen bonding", correct: true },
-            { text: "Halogen bonding", correct: false }
-          ],
-          explanation: "The order of boiling points of isomeric alcohols is primarily determined by their ability to form hydrogen bonds with each other."
-        },
-        {
-          question: "The condensed formula of 3-methylbutan-2-ol is",
-          answers: [
-            { text: "𝐶𝐻3𝐶𝐻2𝐶𝐻2𝐶𝐻(𝐶𝐻3)𝐶𝐻𝑂", correct: false },
-            { text: "𝐶𝐻3𝐶𝐻𝑂𝐻𝐶𝐻2𝐶𝐻2𝐶𝐻3", correct: false },
-            { text: "𝐶𝐻3𝐶𝐻(𝐶𝐻3)𝐶𝑂𝐶𝐻3", correct: false },
-            { text: "(𝐶𝐻3)2𝐶𝐻𝐶𝑂𝐶𝐻3", correct: true }
-          ],
-          explanation: "The condensed formula of 3-methylbutan-2-ol is (𝐶𝐻3)2𝐶𝐻𝐶𝑂𝐶𝐻3."
-        },
-        {
-          question: "Which of the following represent 5-bromopent-2-yne",
-          answers: [
-            { text: "𝐵𝑟𝐶𝐻2𝐶𝐻2 ≡ 𝐶𝐶𝐻3", correct: false },
-            { text: "𝐶𝐻3𝐶𝐻2𝐶 ≡ 𝐶𝐶𝐻𝐵𝑟", correct: false },
-            { text: "𝐵𝑟𝐶𝐻2𝐶𝐻(𝐵𝑟)𝐶 ≡ 𝐶𝐶𝐻3", correct: true },
-            { text: "𝐶𝐻3𝐶𝐻(𝐵𝑟)𝐶 ≡ 𝐶𝐶𝐻3", correct: false }
-          ],
-          explanation: "The structure 5-bromopent-2-yne is represented as 𝐵𝑟𝐶𝐻2𝐶𝐻(𝐵𝑟)𝐶 ≡ 𝐶𝐶𝐻3."
-        },
-        {
-          question: "What type of isomerism is in 𝐶𝐻3𝐶𝑂𝐶𝐻3",
-          answers: [
-            { text: "Geometrical isomerism", correct: false },
-            { text: "Positional isomerism", correct: false },
-            { text: "Functional group isomerism", correct: false },
-            { text: "Optical isomerism", correct: true }
-          ],
-          explanation: "𝐶𝐻3𝐶𝑂𝐶𝐻3 exhibits optical isomerism."
-        },
-        {
-          question: "The product of combustion of pentane in excess air is",
-          answers: [
-            { text: "𝐶𝑂2", correct: true },
-            { text: "Pentene", correct: false },
-            { text: "Pentanol", correct: false },
-            { text: "Pentanoic acid", correct: false }
-          ],
-          explanation: "Combustion of pentane in excess air produces carbon dioxide (𝐶𝑂2) as a product."
-        },
-        {
-          question: "Quantitative analysis show that the empirical formula of a compound is 𝐶𝐻 and the vapour density is 39, find the empirical formula",
-          answers: [
-            { text: "𝐶2𝐻2", correct: false },
-            { text: "𝐶6𝐻6", correct: true },
-            { text: "𝐶6𝐻12", correct: false },
-            { text: "𝐶2𝐻6", correct: false }
-          ],
-          explanation: "Given the vapour density of 39, the empirical formula of the compound is 𝐶6𝐻6."
-        },
-        {
-          question: "͟͟ ͟͟ ͟͟ is used in dry cleaning",
-          answers: [
-            { text: "𝐶𝐻3𝐶𝑙3", correct: true },
-            { text: "𝐶𝐶𝑙4", correct: false },
-            { text: "𝐶𝐻2𝐶𝑙2", correct: false },
-            { text: "𝐶𝐻3𝐶𝑙", correct: false }
-          ],
-          explanation: "𝐶𝐻3𝐶𝑙3 (perchloroethylene) is commonly used in dry cleaning."
-        },
-        {
-          question: "Alkenes show geometrical isomerism due to",
-          answers: [
-            { text: "Resonance", correct: false },
-            { text: "Rotation around single bond", correct: false },
-            { text: "Restricted rotation around a double bond", correct: true },
-            { text: "Asymmetry", correct: false }
-          ],
-          explanation: "Geometrical isomerism in alkenes arises due to restricted rotation around the carbon-carbon double bond."
-        },
-        {
-          question: "Which of these compounds will ͟͟ reduce ͟͟ Fehling’s ͟͟ solution?",
-          answers: [
-            { text: "𝐶𝐻3𝐶𝐻𝑂", correct: true },
-            { text: "𝐶𝐻3𝐶𝐻(𝑂𝐻)𝐶𝐻3", correct: false },
-            { text: "(𝐶𝐻3)2𝐶𝑂", correct: false },
-            { text: "𝐶𝐻3𝐶𝐻2𝐶𝐻2𝐶𝐻2𝑂𝐻", correct: false }
-          ],
-          explanation: "Alcohol (𝐶𝐻3𝐶𝐻𝑂) can reduce Fehling's solution."
-        },
-        {
-          question: "A hydrocarbon X which decolourize bromine water has no action on ammoniacal silver trioxonitrate(v) solution was found to have a molar mass 56𝑔𝑚𝑜𝑙−1. Which one of the following is the molecular formula of X?",
-          answers: [
-            { text: "None", correct: false },
-            { text: "𝐶4𝐻8", correct: true },
-            { text: "𝐶3𝐻6", correct: false },
-            { text: "𝐶4𝐻8", correct: false }
-          ],
-          explanation: "The molecular formula of X, given a molar mass of 56 g/mol and properties described, is 𝐶4𝐻8."
-        },
-        {
-          question: "How many structural isomerism is there in 𝐶2𝐻4𝑂𝐻?",
-          answers: [
-            { text: "2", correct: false },
-            { text: "4", correct: true },
-            { text: "6", correct: false },
-            { text: "3", correct: false }
-          ],
-          explanation: "𝐶2𝐻4𝑂𝐻 has 4 structural isomers."
-        },
-        {
-          question: "Name this (𝐶𝐻3)2𝐶𝐻𝐶 ≡ 𝐶𝐶𝐻3",
-          answers: [
-            { text: "4-methylpent-2-yne", correct: false },
-            { text: "4,4-dimethylbut-2-yne", correct: false },
-            { text: "1,1-dimethylpent-2-yne", correct: true },
-            { text: "2-methylpent-2-yne", correct: false }
-          ],
-          explanation: "The compound (𝐶𝐻3)2𝐶𝐻𝐶 ≡ 𝐶𝐶𝐻3 is named 1,1-dimethylpent-2-yne."
-        },
-        {
-          question: "Which of the following will react readily with both aldehyde and ketones?",
-          answers: [
-            { text: "Tollen’s reagent", correct: true },
-            { text: "Fehling’s reagent", correct: false },
-            { text: "Schiff’s reagent", correct: false },
-            { text: "Grignard reagent", correct: false }
-          ],
-          explanation: "Tollen’s reagent (ammoniacal silver nitrate) reacts readily with both aldehydes and ketones."
-        },
-        {
-          question: "Empirical formula 𝐶𝐻2𝑂 with molar mass 90. Calculate the molecular formula",
-          answers: [
-            { text: "𝐶3𝐻4𝑂6", correct: false },
-            { text: "𝐶3𝐻2𝑂3", correct: true },
-            { text: "𝐶3𝐻6𝑂2", correct: false },
-            { text: "𝐶2𝐻3𝑂4", correct: false }
-          ],
-          explanation: "The molecular formula corresponding to 𝐶𝐻2𝑂 with a molar mass of 90 is 𝐶3𝐻2𝑂3."
-        },
-        {
-          question: "Which type of reaction exist between 𝐶𝐻2 + 𝐻𝐵𝑟?",
-          answers: [
-            { text: "Polymerisation", correct: false },
-            { text: "Substitution", correct: false },
-            { text: "Addition", correct: true }
-          ],
-          explanation: "The reaction between 𝐶𝐻2 and 𝐻𝐵𝑟 is an addition reaction."
-        },
-        {
-          question: "Which of these is correct for 𝐶𝐻3 − 𝐶𝐻 = 𝐶(𝐶𝐻3)2𝐶𝐻3",
-          answers: [
-            { text: "2-methylbutene", correct: false },
-            { text: "2,2-dimethylbut-2-ene", correct: false },
-            { text: "2-dimethylbutene", correct: true }
-          ],
-          explanation: "The correct name for 𝐶𝐻3 − 𝐶𝐻 = 𝐶(𝐶𝐻3)2𝐶𝐻3 is 2-dimethylbutene."
-        },
-        {
-          question: "Ketones are partially oxidized to give",
-          answers: [
-            { text: "primary alcohol", correct: true },
-            { text: "Halides", correct: false },
-            { text: "ester", correct: false }
-          ],
-          explanation: "Partial oxidation of ketones results in the formation of primary alcohols."
-        },
-        {
-          question: "What is the chemical formula for astatine",
-          answers: [
-            { text: "Tn", correct: false },
-            { text: "At", correct: true },
-            { text: "As", correct: false },
-            { text: "St", correct: false }
-          ],
-          explanation: "The chemical symbol for astatine is At."
-        },
-        {
-          question: "Which one is group 1 element",
-          answers: [
-            { text: "Rb", correct: true },
-            { text: "Rn", correct: false },
-            { text: "Ra", correct: false },
-            { text: "Ru", correct: false }
-          ],
-          explanation: "Rb (Rubidium) is a Group 1 element."
-        },
-        {
-          question: "Which of the following is completely an acid",
-          answers: [
-            { text: "NaCl", correct: false },
-            { text: "HCl", correct: true },
-            { text: "HI", correct: false },
-            { text: "HBr", correct: false }
-          ],
-          explanation: "HCl (Hydrochloric acid) is a completely acidic compound."
-        },
-        {
-          question: "The melting point of aldehyde and ketones tends to",
-          answers: [
-            { text: "Remain unchanged", correct: false },
-            { text: "Increase with increasing molecular weight", correct: false },
-            { text: "Decrease with increasing molecular weight", correct: true }
-          ],
-          explanation: "Aldehydes and ketones generally have lower melting points which decrease with increasing molecular weight."
-        },
-        {
-          question: "Isomerism that differ in spatial arrangement is",
-          answers: [
-            { text: "Optical isomerism", correct: true },
-            { text: "Stereo isomerism", correct: false },
-            { text: "Positional isomerism", correct: false }
-          ],
-          explanation: "Isomerism that differs in spatial arrangement is called optical isomerism."
-        },
-        {
-          question: "The complete hydrogenation of 𝐶6𝐻6 in the presence of nickel catalyst at 200°C gives",
-          answers: [
-            { text: "𝐶6𝐻12", correct: false },
-            { text: "𝐶6𝐻8", correct: false },
-            { text: "𝐶6𝐻14", correct: true },
-            { text: "𝐶6𝐻10", correct: false }
-          ],
-          explanation: "Complete hydrogenation of 𝐶6𝐻6 gives 𝐶6𝐻14 (cyclohexane)."
-        },
-        {
-          question: "Two compounds have the same compounds and also have the same atoms attached, although with different orientation in space. The compounds are",
-          answers: [
-            { text: "Positional isomerism", correct: false },
-            { text: "Stereo isomerism", correct: true },
-            { text: "Structural isomerism", correct: false },
-            { text: "Identical isomerism", correct: false }
-          ],
-          explanation: "Compounds that have the same structural formula and atoms attached but differ in their spatial arrangement are stereo isomers."
-        },
+      {
+        question: "Which of the following is an allotrope of carbon?",
+        answers: [
+          { text: "Diamond" , correct: true },
+          { text: "Water", correct: false },
+          { text: "Oxygen", correct: false },
+          { text: "Sodium", correct: false }
+        ],
+        explanation: "Diamond is an allotrope of carbon, characterized by its unique crystalline structure."
+      },
+      {
+        question: "What is the defining characteristic of allotropes?",
+        answers: [
+          { text: "Different physical states", correct: false },
+          { text: "Same atomic arrangement", correct: false },
+          { text: "Different chemical elements", correct: false },
+          { text: "Same melting points", correct: false }
+        ],
+        explanation: "Allotropes are different forms of the same element, with the same chemical properties but different physical properties."
+      },
+      {
+        question: "Which allotrope of carbon is known for its hardness?",
+        answers: [
+          { text: "Graphite", correct: false },
+          { text: "Graphene", correct: false },
+          { text: "Diamond", correct: true },
+          { text: "Fullerene", correct: false }
+        ],
+        explanation: "Diamond is known for being the hardest natural substance."
+      },
+      {
+        question: "Fullerene is composed of which element?",
+        answers: [
+          { text: "Hydrogen", correct: false },
+          { text: "Carbon", correct: true },
+          { text: "Nitrogen", correct: false },
+          { text: "Oxygen", correct: false }
+        ],
+        explanation: "Fullerenes are molecules composed entirely of carbon atoms, arranged in a hollow sphere, ellipsoid, or tube."
+      },
+      {
+        question: "Who discovered fullerene?",
+        answers: [
+          { text: "Marie Curie", correct: false },
+          { text: "Isaac Newton", correct: false },
+          { text: "Richard Smalley", correct: true },
+          { text: "Albert Einstein", correct: false }
+        ],
+        explanation: "Fullerene was discovered by Richard Smalley, along with Robert Curl and Harold Kroto."
+      },
+      {
+        question: "What structure do the carbon atoms in fullerene form?",
+        answers: [
+          { text: "Square", correct: false },
+          { text: "Cubic", correct: false },
+          { text: "Cage-like", correct: true },
+          { text: "Linear", correct: false }
+        ],
+        explanation: "Fullerenes have a cage-like structure, which can enclose other atoms or molecules."
+      },
+      {
+        question: "Which allotrope of carbon has a structure similar to that of graphite?",
+        answers: [
+          { text: "Diamond", correct: false },
+          { text: "Graphene", correct: true },
+          { text: "Fullerene", correct: false },
+          { text: "Carbon nanotubes", correct: false }
+        ],
+        explanation: "Graphene consists of a single layer of carbon atoms arranged in a hexagonal lattice, similar to a single layer of graphite."
+      },
+      {
+        question: "What is the composition formula for fullerene?",
+        answers: [
+          { text: "C<sub>n</sub>H<sub>2n</sub>", correct: false },
+          { text: "C<sub>2n</sub> where n≥30", correct: true },
+          { text: "C<sub>n</sub>H<sub>2n+2</sub>", correct: false },
+          { text: "C<sub>n</sub>O<sub>n</sub>", correct: false }
+        ],
+        explanation: "Fullerenes are composed entirely of carbon atoms, with the general formula C<sub>2n</sub> where n≥30."
+      },
+      {
+        question: "Which of the following is a type of fullerene?",
+        answers: [
+          { text: "Diamond", correct: false },
+          { text: "Nanotubes", correct: true },
+          { text: "Graphite", correct: false },
+          { text: "Silicon", correct: false }
+        ],
+        explanation: "Carbon nanotubes are cylindrical fullerenes with unique electrical properties."
+      },
+      {
+        question: "Buckminsterfullerene is also known as?",
+        answers: [
+          { text: "C<sub>60</sub>", correct: true },
+          { text: "C<sub>70</sub>", correct: false },
+          { text: "C<sub>80</sub>", correct: false },
+          { text: "C<sub>90</sub>", correct: false }
+        ],
+        explanation: "Buckminsterfullerene, or C<sub>60</sub>, is a molecule composed of 60 carbon atoms arranged in a spherical shape."
+      },
+      {
+        question: "What shape is Buckminsterfullerene?",
+        answers: [
+          { text: "Cubic", correct: false },
+          { text: "Spherical", correct: true },
+          { text: "Tetrahedral", correct: false },
+          { text: "Linear", correct: false }
+        ],
+        explanation: "Buckminsterfullerene has a spherical structure, resembling a soccer ball."
+      },
+      {
+        question: "Nanotubes are a type of fullerene with what characteristic?",
+        answers: [
+          { text: "High electrical and thermal conductivity", correct: true },
+          { text: "Low density", correct: false },
+          { text: "Non-reactive", correct: false },
+          { text: "Brittle", correct: false }
+        ],
+        explanation: "Carbon nanotubes are known for their excellent electrical and thermal conductivity, as well as their mechanical strength."
+      },
+      {
+        question: "What is a key application of nano-onions?",
+        answers: [
+          { text: "Electronics", correct: false },
+          { text: "Lubricants", correct: true },
+          { text: "Building materials", correct: false },
+          { text: "Food industry", correct: false }
+        ],
+        explanation: "Nano-onions, a type of fullerene, are used as lubricants due to their unique layered structure."
+      },
+      {
+        question: "What is the difference between megatubes and nanotubes?",
+        answers: [
+          { text: "Size", correct: true },
+          { text: "Chemical composition", correct: false },
+          { text: "Electrical properties", correct: false },
+          { text: "Thermal stability", correct: false }
+        ],
+        explanation: "Megatubes are larger than nanotubes, with a diameter in the nanometer to micrometer range."
+      },
+      {
+        question: "Which of the following elements is a noble gas?",
+        answers: [
+          { text: "Neon", correct: true },
+          { text: "Nitrogen", correct: false },
+          { text: "Oxygen", correct: false },
+          { text: "Fluorine", correct: false }
+        ],
+        explanation: "Neon is a noble gas, which is found in Group 18 of the periodic table."
+      },
+      {
+        question: "Which element is found in Group 1 and is known for its high reactivity?",
+        answers: [
+          { text: "Lithium", correct: true },
+          { text: "Calcium", correct: false },
+          { text: "Magnesium", correct: false },
+          { text: "Aluminum", correct: false }
+        ],
+        explanation: "Lithium is an alkali metal in Group 1 and is highly reactive."
+      },
+      {
+        question: "Which of the following elements is in Group 14 of the periodic table?",
+        answers: [
+          { text: "Carbon", correct: true },
+          { text: "Oxygen", correct: false },
+          { text: "Neon", correct: false },
+          { text: "Sulfur", correct: false }
+        ],
+        explanation: "Carbon is an element in Group 14 of the periodic table."
+      },
+      {
+        question: "The element with atomic number 12 is in which group of the periodic table?",
+        answers: [
+          { text: "Group 1", correct: false },
+          { text: "Group 2", correct: true },
+          { text: "Group 13", correct: false },
+          { text: "Group 14", correct: false }
+        ],
+        explanation: "The element with atomic number 12 is magnesium, which is in Group 2."
+      },
+      {
+        question: "Which of the following is a halogen?",
+        answers: [
+          { text: "Chlorine", correct: true },
+          { text: "Sodium", correct: false },
+          { text: "Argon", correct: false },
+          { text: "Calcium", correct: false }
+        ],
+        explanation: "Chlorine is a halogen, found in Group 17 of the periodic table."
+      },
+      {
+        question: "Which of the following metals is an alkali metal?",
+        answers: [
+          { text: "Sodium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Gold", correct: false }
+        ],
+        explanation: "Sodium is an alkali metal found in Group 1."
+      },
+      {
+        question: "Which of the following elements is a transition metal?",
+        answers: [
+          { text: "Iron", correct: true },
+          { text: "Sulfur", correct: false },
+          { text: "Helium", correct: false },
+          { text: "Potassium", correct: false }
+        ],
+        explanation: "Iron is a transition metal located in the d-block of the periodic table."
+      },
+      {
+        question: "Which group contains elements that are known for having full outer electron shells?",
+        answers: [
+          { text: "Group 1", correct: false },
+          { text: "Group 17", correct: false },
+          { text: "Group 18", correct: true },
+          { text: "Group 14", correct: false }
+        ],
+        explanation: "Group 18 elements, known as noble gases, have full outer electron shells."
+      },
+      {
+        question: "Which element in Group 15 is known for being a common component of fertilizers?",
+        answers: [
+          { text: "Phosphorus", correct: true },
+          { text: "Nitrogen", correct: false },
+          { text: "Arsenic", correct: false },
+          { text: "Antimony", correct: false }
+        ],
+        explanation: "Phosphorus is commonly used in fertilizers and is in Group 15 of the periodic table."
+      },
+      {
+        question: "The element with the highest atomic number in Group 2 is:",
+        answers: [
+          { text: "Magnesium", correct: false },
+          { text: "Calcium", correct: false },
+          { text: "Strontium", correct: false },
+          { text: "Radium", correct: true }
+        ],
+        explanation: "Radium is the element with the highest atomic number in Group 2."
+      },
+      {
+        question: "Which element is commonly used in batteries and is found in Group 1?",
+        answers: [
+          { text: "Lithium", correct: true },
+          { text: "Rubidium", correct: false },
+          { text: "Cesium", correct: false },
+          { text: "Sodium", correct: false }
+        ],
+        explanation: "Lithium is commonly used in batteries and is an alkali metal in Group 1."
+      },
+      {
+        question: "Which of the following elements is found in Group 13 and is a metalloid?",
+        answers: [
+          { text: "Aluminum", correct: false },
+          { text: "Gallium", correct: false },
+          { text: "Boron", correct: true },
+          { text: "Indium", correct: false }
+        ],
+        explanation: "Boron is a metalloid found in Group 13 of the periodic table."
+      },
+      {
+        question: "Which of the following is an element in Group 16 known for its role in respiration?",
+        answers: [
+          { text: "Oxygen", correct: true },
+          { text: "Sulfur", correct: false },
+          { text: "Selenium", correct: false },
+          { text: "Tellurium", correct: false }
+        ],
+        explanation: "Oxygen is a Group 16 element essential for respiration."
+      },
+      {
+        question: "Which of the following elements is an alkali earth metal?",
+        answers: [
+          { text: "Beryllium", correct: true },
+          { text: "Sodium", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Neon", correct: false }
+        ],
+        explanation: "Beryllium is an alkaline earth metal found in Group 2."
+      },
+      {
+        question: "Which of these elements is a member of the lanthanide series?",
+        answers: [
+          { text: "Cerium", correct: true },
+          { text: "Zirconium", correct: false },
+          { text: "Tantalum", correct: false },
+          { text: "Ruthenium", correct: false }
+        ],
+        explanation: "Cerium is a lanthanide element."
+      },
+      {
+        question: "Which of the following metals is found in Group 10 and is used in jewelry?",
+        answers: [
+          { text: "Platinum", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Lead", correct: false },
+          { text: "Nickel", correct: false }
+        ],
+        explanation: "Platinum is a Group 10 metal often used in jewelry."
+      },
+      {
+        question: "Which of the following is a characteristic of the alkaline earth metals?",
+        answers: [
+          { text: "They are highly reactive and soft", correct: false },
+          { text: "They have two electrons in their outer shell", correct: true },
+          { text: "They are gaseous at room temperature", correct: false },
+          { text: "They have one electron in their outer shell", correct: false }
+        ],
+        explanation: "Alkaline earth metals have two electrons in their outer shell and are less reactive than alkali metals."
+      },
+      {
+        question: "Which element in Group 17 is commonly used as a disinfectant?",
+        answers: [
+          { text: "Chlorine", correct: true },
+          { text: "Fluorine", correct: false },
+          { text: "Iodine", correct: false },
+          { text: "Bromine", correct: false }
+        ],
+        explanation: "Chlorine is commonly used as a disinfectant."
+      },
+      {
+        question: "Which of the following elements is not a metalloid?",
+        answers: [
+          { text: "Silicon", correct: false },
+          { text: "Germanium", correct: false },
+          { text: "Arsenic", correct: false },
+          { text: "Magnesium", correct: true }
+        ],
+        explanation: "Magnesium is a metal, not a metalloid."
+      },
+      {
+        question: "Which of the following elements is found in Group 3 and is used in catalytic converters?",
+        answers: [
+          { text: "Rhodium", correct: true },
+          { text: "Boron", correct: false },
+          { text: "Sodium", correct: false },
+          { text: "Copper", correct: false }
+        ],
+        explanation: "Rhodium is a Group 3 element used in catalytic converters."
+      },
+      {
+        question: "Which of the following elements is a noble gas that is used in neon signs?",
+        answers: [
+          { text: "Neon", correct: true },
+          { text: "Argon", correct: false },
+          { text: "Krypton", correct: false },
+          { text: "Xenon", correct: false }
+        ],
+        explanation: "Neon is used in neon signs and is a noble gas."
+      },
+      {
+        question: "Which of the following elements is a member of Group 15 and is used in semiconductors?",
+        answers: [
+          { text: "Arsenic", correct: true },
+          { text: "Phosphorus", correct: false },
+          { text: "Antimony", correct: false },
+          { text: "Nitrogen", correct: false }
+        ],
+        explanation: "Arsenic is used in semiconductors and is a Group 15 element."
+      },
+      {
+        question: "Which element is known as the lightest halogen?",
+        answers: [
+          { text: "Fluorine", correct: true },
+          { text: "Chlorine", correct: false },
+          { text: "Bromine", correct: false },
+          { text: "Iodine", correct: false }
+        ],
+        explanation: "Fluorine is the lightest halogen."
+      },
+      {
+        question: "Which of the following is a lanthanide element?",
+        answers: [
+          { text: "Europium", correct: true },
+          { text: "Yttrium", correct: false },
+          { text: "Scandium", correct: false },
+          { text: "Zinc", correct: false }
+        ],
+        explanation: "Europium is a lanthanide element."
+      },
+      {
+        question: "Which of the following is true for transition metals?",
+        answers: [
+          { text: "They have d-electrons in their outer shell", correct: true },
+          { text: "They are highly reactive nonmetals", correct: false },
+          { text: "They form only one type of ion", correct: false },
+          { text: "They have full outer shells of electrons", correct: false }
+        ],
+        explanation: "Transition metals have d-electrons in their outer shell."
+      },
+      {
+        question: "Which of the following elements is a Group 2 metal and is used in fireworks?",
+        answers: [
+          { text: "Strontium", correct: true },
+          { text: "Calcium", correct: false },
+          { text: "Barium", correct: false },
+          { text: "Magnesium", correct: false }
+        ],
+        explanation: "Strontium is used in fireworks and is a Group 2 metal."
+      },
+      {
+        question: "Which of the following elements is a Group 18 noble gas with the highest atomic number?",
+        answers: [
+          { text: "Radon", correct: true },
+          { text: "Neon", correct: false },
+          { text: "Xenon", correct: false },
+          { text: "Argon", correct: false }
+        ],
+        explanation: "Radon is the noble gas with the highest atomic number in Group 18."
+      },
+      {
+        question: "Which of the following elements is a Group 17 halogen known for its yellow color?",
+        answers: [
+          { text: "Iodine", correct: false },
+          { text: "Fluorine", correct: false },
+          { text: "Chlorine", correct: false },
+          { text: "Bromine", correct: true }
+        ],
+        explanation: "Bromine is a yellow-colored halogen in Group 17."
+      },
+      {
+        question: "Which of the following metals is found in Group 6 and is used in stainless steel?",
+        answers: [
+          { text: "Chromium", correct: true },
+          { text: "Molybdenum", correct: false },
+          { text: "Tungsten", correct: false },
+          { text: "Iron", correct: false }
+        ],
+        explanation: "Chromium is used in stainless steel and is a Group 6 metal."
+      },
+      {
+        question: "Which element in Group 13 is commonly used as a conductor in electrical cables?",
+        answers: [
+          { text: "Aluminum", correct: true },
+          { text: "Gallium", correct: false },
+          { text: "Indium", correct: false },
+          { text: "Thallium", correct: false }
+        ],
+        explanation: "Aluminum is widely used as a conductor in electrical cables and is in Group 13."
+      },
+      {
+        question: "Which of the following elements is a metalloid and is used in semiconductors?",
+        answers: [
+          { text: "Silicon", correct: true },
+          { text: "Germanium", correct: false },
+          { text: "Arsenic", correct: false },
+          { text: "Selenium", correct: false }
+        ],
+        explanation: "Silicon is a metalloid used in semiconductors."
+      },
+      {
+        question: "Which of the following elements is in Group 14 and is a key component of organic compounds?",
+        answers: [
+          { text: "Carbon", correct: true },
+          { text: "Silicon", correct: false },
+          { text: "Germanium", correct: false },
+          { text: "Tin", correct: false }
+        ],
+        explanation: "Carbon is a Group 14 element and a key component of organic compounds."
+      },
+      {
+        question: "Which of the following elements is known for its use in batteries and is found in Group 2?",
+        answers: [
+          { text: "Magnesium", correct: false },
+          { text: "Calcium", correct: false },
+          { text: "Barium", correct: false },
+          { text: "Strontium", correct: true }
+        ],
+        explanation: "Strontium is used in certain types of batteries and is a Group 2 element."
+      },
+      {
+        question: "Which of the following elements is used in neon lights and is found in Group 18?",
+        answers: [
+          { text: "Neon", correct: true },
+          { text: "Krypton", correct: false },
+          { text: "Xenon", correct: false },
+          { text: "Argon", correct: false }
+        ],
+        explanation: "Neon is used in neon lights and is a Group 18 noble gas."
+      },
+      {
+        question: "Which element in Group 15 is used in fertilizers and explosives?",
+        answers: [
+          { text: "Nitrogen", correct: true },
+          { text: "Phosphorus", correct: false },
+          { text: "Arsenic", correct: false },
+          { text: "Antimony", correct: false }
+        ],
+        explanation: "Nitrogen is used in fertilizers and explosives and is in Group 15."
+      },
+      {
+        question: "Which of the following metals is used in jewelry and is found in Group 11?",
+        answers: [
+          { text: "Gold", correct: true },
+          { text: "Silver", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Platinum", correct: false }
+        ],
+        explanation: "Gold is a Group 11 metal used in jewelry."
+      },
+      {
+        question: "Which of the following elements is used in smoke detectors and is found in Group 16?",
+        answers: [
+          { text: "Radon", correct: true },
+          { text: "Sulfur", correct: false },
+          { text: "Selenium", correct: false },
+          { text: "Tellurium", correct: false }
+        ],
+        explanation: "Radon is used in smoke detectors and is a Group 16 element."
+      },
+      {
+        question: "Which of the following elements is an alkaline earth metal used in fireworks?",
+        answers: [
+          { text: "Strontium", correct: true },
+          { text: "Calcium", correct: false },
+          { text: "Barium", correct: false },
+          { text: "Magnesium", correct: false }
+        ],
+        explanation: "Strontium is an alkaline earth metal used in fireworks."
+      },
+      {
+        question: "Which of the following is a lanthanide element known for its use in phosphors?",
+        answers: [
+          { text: "Europium", correct: true },
+          { text: "Yttrium", correct: false },
+          { text: "Scandium", correct: false },
+          { text: "Zinc", correct: false }
+        ],
+        explanation: "Europium is used in phosphors and is a lanthanide element."
+      },
+      {
+        question: "Which of the following elements is a transition metal used in jewelry?",
+        answers: [
+          { text: "Platinum", correct: true },
+          { text: "Silver", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Nickel", correct: false }
+        ],
+        explanation: "Platinum is a transition metal often used in jewelry."
+      },
+      {
+        question: "Which element in Group 17 is a liquid at room temperature?",
+        answers: [
+          { text: "Bromine", correct: true },
+          { text: "Iodine", correct: false },
+          { text: "Chlorine", correct: false },
+          { text: "Fluorine", correct: false }
+        ],
+        explanation: "Bromine is a liquid at room temperature and is in Group 17."
+      },
+      {
+        question: "Which of the following elements is found in Group 15 and is used in semiconductors?",
+        answers: [
+          { text: "Arsenic", correct: true },
+          { text: "Phosphorus", correct: false },
+          { text: "Antimony", correct: false },
+          { text: "Nitrogen", correct: false }
+        ],
+        explanation: "Arsenic is used in semiconductors and is a Group 15 element."
+      },
+      {
+        question: "Which element is found in Group 16 and is essential for cellular respiration?",
+        answers: [
+          { text: "Oxygen", correct: true },
+          { text: "Sulfur", correct: false },
+          { text: "Selenium", correct: false },
+          { text: "Tellurium", correct: false }
+        ],
+        explanation: "Oxygen is essential for cellular respiration and is found in Group 16."
+      },
+      {
+        question: "Which of the following is a transition metal used in stainless steel?",
+        answers: [
+          { text: "Chromium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Manganese", correct: false }
+        ],
+        explanation: "Chromium is used in stainless steel and is a transition metal."
+      },
+      {
+        question: "Which of the following elements is known for its use in fire extinguishers and is found in Group 17?",
+        answers: [
+          { text: "Bromine", correct: true },
+          { text: "Chlorine", correct: false },
+          { text: "Iodine", correct: false },
+          { text: "Fluorine", correct: false }
+        ],
+        explanation: "Bromine is used in fire extinguishers and is a Group 17 element."
+      },
+      {
+        question: "Which element in Group 1 is known for its use in table salt?",
+        answers: [
+          { text: "Sodium", correct: true },
+          { text: "Potassium", correct: false },
+          { text: "Lithium", correct: false },
+          { text: "Rubidium", correct: false }
+        ],
+        explanation: "Sodium is used in table salt and is an alkali metal in Group 1."
+      },
+      {
+        question: "Which of the following is a member of Group 14 and is used in the manufacturing of semiconductors?",
+        answers: [
+          { text: "Silicon", correct: true },
+          { text: "Carbon", correct: false },
+          { text: "Germanium", correct: false },
+          { text: "Tin", correct: false }
+        ],
+        explanation: "Silicon is used in the manufacturing of semiconductors and is in Group 14."
+      },
+      {
+        question: "Which element is a noble gas and used in lighting displays?",
+        answers: [
+          { text: "Neon", correct: true },
+          { text: "Krypton", correct: false },
+          { text: "Xenon", correct: false },
+          { text: "Argon", correct: false }
+        ],
+        explanation: "Neon is used in lighting displays and is a noble gas in Group 18."
+      },
+      {
+        question: "Which of the following elements is an alkaline earth metal used in fireworks?",
+        answers: [
+          { text: "Strontium", correct: true },
+          { text: "Calcium", correct: false },
+          { text: "Barium", correct: false },
+          { text: "Magnesium", correct: false }
+        ],
+        explanation: "Strontium is an alkaline earth metal used in fireworks."
+      },
+      {
+        question: "Which element in Group 15 is used in the production of ammonia?",
+        answers: [
+          { text: "Nitrogen", correct: true },
+          { text: "Phosphorus", correct: false },
+          { text: "Arsenic", correct: false },
+          { text: "Antimony", correct: false }
+        ],
+        explanation: "Nitrogen is used in the production of ammonia and is a Group 15 element."
+      },
+      {
+        question: "Which of the following is a noble gas used in high-intensity lighting?",
+        answers: [
+          { text: "Krypton", correct: true },
+          { text: "Neon", correct: false },
+          { text: "Xenon", correct: false },
+          { text: "Argon", correct: false }
+        ],
+        explanation: "Krypton is used in high-intensity lighting and is a noble gas in Group 18."
+      },
+      {
+        question: "Which element in Group 1 is used in batteries for its light weight?",
+        answers: [
+          { text: "Lithium", correct: true },
+          { text: "Sodium", correct: false },
+          { text: "Potassium", correct: false },
+          { text: "Rubidium", correct: false }
+        ],
+        explanation: "Lithium is used in batteries due to its light weight and is an alkali metal in Group 1."
+      },
+      {
+        question: "Which of the following elements is a transition metal used in magnetic materials?",
+        answers: [
+          { text: "Iron", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Zinc", correct: false },
+          { text: "Lead", correct: false }
+        ],
+        explanation: "Iron is used in magnetic materials and is a transition metal."
+      },
+      {
+        question: "Which element in Group 16 is used in the production of sulfuric acid?",
+        answers: [
+          { text: "Sulfur", correct: true },
+          { text: "Oxygen", correct: false },
+          { text: "Selenium", correct: false },
+          { text: "Tellurium", correct: false }
+        ],
+        explanation: "Sulfur is used in the production of sulfuric acid and is a Group 16 element."
+      },
+      {
+        question: "Which of the following elements is found in Group 14 and is used in the manufacture of glass?",
+        answers: [
+          { text: "Silicon", correct: true },
+          { text: "Carbon", correct: false },
+          { text: "Germanium", correct: false },
+          { text: "Tin", correct: false }
+        ],
+        explanation: "Silicon is used in the manufacture of glass and is in Group 14."
+      },
+      {
+        question: "Which of the following elements is a halogen known for its use in bleach?",
+        answers: [
+          { text: "Chlorine", correct: true },
+          { text: "Bromine", correct: false },
+          { text: "Iodine", correct: false },
+          { text: "Fluorine", correct: false }
+        ],
+        explanation: "Chlorine is used in bleach and is a halogen in Group 17."
+      },
+      {
+        question: "Which element is a Group 18 noble gas used in some types of lasers?",
+        answers: [
+          { text: "Neon", correct: true },
+          { text: "Argon", correct: false },
+          { text: "Krypton", correct: false },
+          { text: "Xenon", correct: false }
+        ],
+        explanation: "Neon is used in some types of lasers and is a Group 18 noble gas."
+      },
+      {
+        question: "Which of the following is a transition metal used in making coins?",
+        answers: [
+          { text: "Copper", correct: true },
+          { text: "Silver", correct: false },
+          { text: "Gold", correct: false },
+          { text: "Nickel", correct: false }
+        ],
+        explanation: "Copper is commonly used in making coins and is a transition metal."
+      },
+      {
+        question: "Which of the following elements is a noble gas used in high-performance aircraft and spacecraft?",
+        answers: [
+          { text: "Argon", correct: true },
+          { text: "Neon", correct: false },
+          { text: "Krypton", correct: false },
+          { text: "Xenon", correct: false }
+        ],
+        explanation: "Argon is used in high-performance aircraft and spacecraft and is a noble gas in Group 18."
+      },
+      {
+        question: "Which of the following elements is a Group 2 metal used in fireworks to produce a green color?",
+        answers: [
+          { text: "Barium", correct: true },
+          { text: "Strontium", correct: false },
+          { text: "Calcium", correct: false },
+          { text: "Magnesium", correct: false }
+        ],
+        explanation: "Barium is used in fireworks to produce a green color and is a Group 2 metal."
+      },
+      {
+        question: "Which element is a metalloid used in the manufacture of semiconductors and is found in Group 14?",
+        answers: [
+          { text: "Silicon", correct: true },
+          { text: "Germanium", correct: false },
+          { text: "Carbon", correct: false },
+          { text: "Tin", correct: false }
+        ],
+        explanation: "Silicon is used in semiconductors and is a metalloid in Group 14."
+      },
+      {
+        question: "Which of the following elements is a halogen used in antiseptics?",
+        answers: [
+          { text: "Iodine", correct: true },
+          { text: "Chlorine", correct: false },
+          { text: "Bromine", correct: false },
+          { text: "Fluorine", correct: false }
+        ],
+        explanation: "Iodine is used in antiseptics and is a halogen in Group 17."
+      },
+      {
+        question: "What color is Chlorine gas at room temperature?",
+        answers: [
+          { text: "Greenish-yellow", correct: true },
+          { text: "Colorless", correct: false },
+          { text: "Blue", correct: false },
+          { text: "Red", correct: false }
+        ],
+        explanation: "Chlorine gas is greenish-yellow at room temperature."
+      },
+      {
+        question: "What is the physical appearance of Mercury at room temperature?",
+        answers: [
+          { text: "Liquid metal", correct: true },
+          { text: "Solid metal", correct: false },
+          { text: "Gas", correct: false },
+          { text: "Powder", correct: false }
+        ],
+        explanation: "Mercury is the only metal that is liquid at room temperature."
+      },
+      {
+        question: "What is the color of Gold?",
+        answers: [
+          { text: "Yellow", correct: true },
+          { text: "White", correct: false },
+          { text: "Red", correct: false },
+          { text: "Green", correct: false }
+        ],
+        explanation: "Gold is yellow in color."
+      },
+      {
+        question: "Which element reacts with water to produce a hydroxide and hydrogen gas and is stored under oil?",
+        answers: [
+          { text: "Sodium", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Silver", correct: false }
+        ],
+        explanation: "Sodium reacts with water to produce sodium hydroxide and hydrogen gas and is stored under oil."
+      },
+      {
+        question: "What color is Bromine at room temperature?",
+        answers: [
+          { text: "Dark red-brown liquid", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Green", correct: false },
+          { text: "Colorless", correct: false }
+        ],
+        explanation: "Bromine is a dark red-brown liquid at room temperature."
+      },
+      {
+        question: "Which element is known as 'quick silver'?",
+        answers: [
+          { text: "Mercury", correct: true },
+          { text: "Silver", correct: false },
+          { text: "Gold", correct: false },
+          { text: "Platinum", correct: false }
+        ],
+        explanation: "Mercury is known as 'quick silver' due to its liquid metal form."
+      },
+      {
+        question: "Which noble gas is used in neon signs?",
+        answers: [
+          { text: "Neon", correct: true },
+          { text: "Argon", correct: false },
+          { text: "Krypton", correct: false },
+          { text: "Xenon", correct: false }
+        ],
+        explanation: "Neon is used in neon signs due to its ability to emit bright colors when electrified."
+      },
+      {
+        question: "What is the simple reaction of Sodium with water?",
+        answers: [
+          { text: "2Na + 2H₂O → 2NaOH + H₂", correct: true },
+          { text: "Na + H₂O → NaOH + H₂", correct: false },
+          { text: "Na + 2H₂O → NaOH + 2H₂", correct: false },
+          { text: "2Na + H₂O → Na₂O + H₂", correct: false }
+        ],
+        explanation: "Sodium reacts with water to form sodium hydroxide and hydrogen gas."
+      },
+      {
+        question: "Which element has a characteristic pink color in its solid state?",
+        answers: [
+          { text: "Cobalt", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Copper", correct: false }
+        ],
+        explanation: "Cobalt is known for its characteristic pink color in its solid state."
+      },
+      {
+        question: "What color does Copper turn when it oxidizes in air?",
+        answers: [
+          { text: "Green", correct: true },
+          { text: "Blue", correct: false },
+          { text: "Brown", correct: false },
+          { text: "Yellow", correct: false }
+        ],
+        explanation: "Copper turns green when it oxidizes due to the formation of copper carbonate."
+      },
+      {
+        question: "Which element is used in creating red colors in fireworks?",
+        answers: [
+          { text: "Strontium", correct: true },
+          { text: "Barium", correct: false },
+          { text: "Calcium", correct: false },
+          { text: "Magnesium", correct: false }
+        ],
+        explanation: "Strontium is used to create red colors in fireworks."
+      },
+      {
+        question: "Which element is used in making incandescent light bulbs?",
+        answers: [
+          { text: "Tungsten", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Aluminum", correct: false }
+        ],
+        explanation: "Tungsten is used in incandescent light bulbs due to its high melting point."
+      },
+      {
+        question: "What is the physical appearance of Iodine at room temperature?",
+        answers: [
+          { text: "Purple solid", correct: true },
+          { text: "Yellow liquid", correct: false },
+          { text: "Colorless gas", correct: false },
+          { text: "Red liquid", correct: false }
+        ],
+        explanation: "Iodine is a purple solid at room temperature."
+      },
+      {
+        question: "Which element is used in batteries due to its high energy density?",
+        answers: [
+          { text: "Lithium", correct: true },
+          { text: "Sodium", correct: false },
+          { text: "Potassium", correct: false },
+          { text: "Rubidium", correct: false }
+        ],
+        explanation: "Lithium is used in batteries because of its high energy density."
+      },
+      {
+        question: "Which of the following elements is used in the production of sulfuric acid?",
+        answers: [
+          { text: "Sulfur", correct: true },
+          { text: "Oxygen", correct: false },
+          { text: "Phosphorus", correct: false },
+          { text: "Nitrogen", correct: false }
+        ],
+        explanation: "Sulfur is used in the production of sulfuric acid."
+      },
+      {
+        question: "What color is Potassium in its solid form?",
+        answers: [
+          { text: "Silvery-gray", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Red", correct: false },
+          { text: "Green", correct: false }
+        ],
+        explanation: "Potassium is a silvery-gray metal in its solid form."
+      },
+      {
+        question: "Which of the following elements is used as a disinfectant in water treatment?",
+        answers: [
+          { text: "Chlorine", correct: true },
+          { text: "Iodine", correct: false },
+          { text: "Fluorine", correct: false },
+          { text: "Bromine", correct: false }
+        ],
+        explanation: "Chlorine is commonly used as a disinfectant in water treatment."
+      },
+      {
+        question: "What is the simple reaction of Calcium with water?",
+        answers: [
+          { text: "Ca + 2H₂O → Ca(OH)₂ + H₂", correct: true },
+          { text: "Ca + H₂O → CaO + H₂", correct: false },
+          { text: "Ca + H₂O → Ca(OH)₂ + H₂", correct: false },
+          { text: "Ca + 2H₂O → Ca(OH)₂ + 2H₂", correct: false }
+        ],
+        explanation: "Calcium reacts with water to form calcium hydroxide and hydrogen gas."
+      },
+      {
+        question: "Which of the following elements is used in the manufacture of fertilizers?",
+        answers: [
+          { text: "Phosphorus", correct: true },
+          { text: "Potassium", correct: false },
+          { text: "Nitrogen", correct: false },
+          { text: "Sulfur", correct: false }
+        ],
+        explanation: "Phosphorus is used in the manufacture of fertilizers."
+      },
+      {
+        question: "What is the physical appearance of Aluminium?",
+        answers: [
+          { text: "Silver-white metal", correct: true },
+          { text: "Red metal", correct: false },
+          { text: "Yellow metal", correct: false },
+          { text: "Blue metal", correct: false }
+        ],
+        explanation: "Aluminium is a silver-white metal."
+      },
+      {
+        question: "Which element is used in the production of stainless steel?",
+        answers: [
+          { text: "Chromium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Manganese", correct: false }
+        ],
+        explanation: "Chromium is used in the production of stainless steel."
+      },
+      {
+        question: "Which of the following elements is used in the production of steel?",
+        answers: [
+          { text: "Iron", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Silver", correct: false },
+          { text: "Zinc", correct: false }
+        ],
+        explanation: "Iron is used in the production of steel."
+      },
+      {
+        question: "What color is Iodine vapor?",
+        answers: [
+          { text: "Purple", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Red", correct: false },
+          { text: "Colorless", correct: false }
+        ],
+        explanation: "Iodine vapor is purple in color."
+      },
+      {
+        question: "Which of the following elements is used in fireworks to produce blue colors?",
+        answers: [
+          { text: "Copper", correct: true },
+          { text: "Sodium", correct: false },
+          { text: "Strontium", correct: false },
+          { text: "Barium", correct: false }
+        ],
+        explanation: "Copper compounds are used to produce blue colors in fireworks."
+      },
+      {
+        question: "Which element is used in making dental amalgams?",
+        answers: [
+          { text: "Mercury", correct: true },
+          { text: "Silver", correct: false },
+          { text: "Gold", correct: false },
+          { text: "Platinum", correct: false }
+        ],
+        explanation: "Mercury is used in making dental amalgams."
+      },
+      {
+        question: "What is the color of the flame test for Lithium salts?",
+        answers: [
+          { text: "Crimson red", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Green", correct: false },
+          { text: "Blue", correct: false }
+        ],
+        explanation: "Lithium salts produce a crimson red flame in a flame test."
+      },
+      {
+        question: "Which element is used in the production of lightweight alloys?",
+        answers: [
+          { text: "Aluminium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Steel", correct: false },
+          { text: "Copper", correct: false }
+        ],
+        explanation: "Aluminium is used in the production of lightweight alloys."
+      },
+      {
+        question: "Which element forms a blue solution when dissolved in water?",
+        answers: [
+          { text: "Copper", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Cobalt", correct: false }
+        ],
+        explanation: "Copper forms a blue solution in water when dissolved."
+      },
+      {
+        question: "Which of the following metals is used in making thermometers?",
+        answers: [
+          { text: "Mercury", correct: true },
+          { text: "Lead", correct: false },
+          { text: "Zinc", correct: false },
+          { text: "Aluminium", correct: false }
+        ],
+        explanation: "Mercury is used in making thermometers due to its wide range of liquid temperature."
+      },
+      {
+        question: "What color flame does Potassium produce in a flame test?",
+        answers: [
+          { text: "Lilac", correct: true },
+          { text: "Green", correct: false },
+          { text: "Red", correct: false },
+          { text: "Yellow", correct: false }
+        ],
+        explanation: "Potassium produces a lilac flame in a flame test."
+      },
+      {
+        question: "Which element is commonly used as a catalyst in the Haber process for ammonia synthesis?",
+        answers: [
+          { text: "Iron", correct: true },
+          { text: "Nickel", correct: false },
+          { text: "Cobalt", correct: false },
+          { text: "Platinum", correct: false }
+        ],
+        explanation: "Iron is used as a catalyst in the Haber process for ammonia synthesis."
+      },
+      {
+        question: "Which element is known for its bright yellow color in its solid state?",
+        answers: [
+          { text: "Sulfur", correct: true },
+          { text: "Gold", correct: false },
+          { text: "Chromium", correct: false },
+          { text: "Iodine", correct: false }
+        ],
+        explanation: "Sulfur is known for its bright yellow color."
+      },
+      {
+        question: "Which metal is used in the production of electric cables due to its high conductivity?",
+        answers: [
+          { text: "Copper", correct: true },
+          { text: "Aluminium", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Silver", correct: false }
+        ],
+        explanation: "Copper is used in the production of electric cables due to its high electrical conductivity."
+      },
+      {
+        question: "Which element is known for forming a white oxide when burned in air?",
+        answers: [
+          { text: "Magnesium", correct: true },
+          { text: "Calcium", correct: false },
+          { text: "Sodium", correct: false },
+          { text: "Potassium", correct: false }
+        ],
+        explanation: "Magnesium forms a white oxide when burned in air."
+      },
+      {
+        question: "Which element is used in making strong permanent magnets?",
+        answers: [
+          { text: "Neodymium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Cobalt", correct: false },
+          { text: "Nickel", correct: false }
+        ],
+        explanation: "Neodymium is used in making strong permanent magnets."
+      },
+      {
+        question: "What color is the flame produced by burning Strontium salts?",
+        answers: [
+          { text: "Red", correct: true },
+          { text: "Blue", correct: false },
+          { text: "Green", correct: false },
+          { text: "Yellow", correct: false }
+        ],
+        explanation: "Strontium salts produce a red flame when burned."
+      },
+      {
+        question: "Which element is used in the production of lead-acid batteries?",
+        answers: [
+          { text: "Lead", correct: true },
+          { text: "Zinc", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Nickel", correct: false }
+        ],
+        explanation: "Lead is used in the production of lead-acid batteries."
+      },
+      {
+        question: "What is the appearance of Sodium chloride (table salt) in its solid form?",
+        answers: [
+          { text: "White crystalline solid", correct: true },
+          { text: "Yellow powder", correct: false },
+          { text: "Red liquid", correct: false },
+          { text: "Colorless gas", correct: false }
+        ],
+        explanation: "Sodium chloride is a white crystalline solid in its solid form."
+      },
+      {
+        question: "Which element is used in the manufacture of glass due to its high melting point?",
+        answers: [
+          { text: "Silicon", correct: true },
+          { text: "Aluminium", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Magnesium", correct: false }
+        ],
+        explanation: "Silicon is used in the manufacture of glass due to its high melting point."
+      },
+      {
+        question: "Which metal is used in the manufacture of airplane parts due to its strength and lightness?",
+        answers: [
+          { text: "Titanium", correct: true },
+          { text: "Aluminium", correct: false },
+          { text: "Steel", correct: false },
+          { text: "Iron", correct: false }
+        ],
+        explanation: "Titanium is used in the manufacture of airplane parts due to its strength and lightness."
+      },
+      {
+        question: "What is the color of a solution of Potassium permanganate?",
+        answers: [
+          { text: "Purple", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Green", correct: false },
+          { text: "Blue", correct: false }
+        ],
+        explanation: "Potassium permanganate forms a purple solution."
+      },
+      {
+        question: "Which element is used in the manufacture of rechargeable batteries?",
+        answers: [
+          { text: "Nickel", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Zinc", correct: false },
+          { text: "Iron", correct: false }
+        ],
+        explanation: "Nickel is used in the manufacture of rechargeable batteries."
+      },
+      {
+        question: "What color is the flame test for Calcium salts?",
+        answers: [
+          { text: "Orange-red", correct: true },
+          { text: "Green", correct: false },
+          { text: "Blue", correct: false },
+          { text: "Red", correct: false }
+        ],
+        explanation: "Calcium salts produce an orange-red flame in a flame test."
+      },
+      {
+        question: "Which element is used in the production of aluminum due to its reactivity?",
+        answers: [
+          { text: "Aluminium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Zinc", correct: false }
+        ],
+        explanation: "Aluminium is used in the production of aluminum products due to its reactivity and versatility."
+      },
+      {
+        question: "What is the physical state of Nitrogen at room temperature?",
+        answers: [
+          { text: "Gas", correct: true },
+          { text: "Liquid", correct: false },
+          { text: "Solid", correct: false },
+          { text: "Plasma", correct: false }
+        ],
+        explanation: "Nitrogen is a gas at room temperature."
+      },
+      {
+        question: "Which element is used as a catalyst in the production of sulfuric acid?",
+        answers: [
+          { text: "Vanadium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Cobalt", correct: false }
+        ],
+        explanation: "Vanadium is used as a catalyst in the production of sulfuric acid."
+      },
+      {
+        question: "What is the appearance of Potassium in its pure form?",
+        answers: [
+          { text: "Soft, silvery metal", correct: true },
+          { text: "Hard, reddish metal", correct: false },
+          { text: "Colorless liquid", correct: false },
+          { text: "Powdery yellow solid", correct: false }
+        ],
+        explanation: "Potassium is a soft, silvery metal in its pure form."
+      },
+      {
+        question: "Which of the following metals is used in the construction of aircraft due to its low density?",
+        answers: [
+          { text: "Aluminium", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Lead", correct: false }
+        ],
+        explanation: "Aluminium is used in the construction of aircraft due to its low density."
+      },
+      {
+        question: "Which element is used in the production of fertilizers and explosives?",
+        answers: [
+          { text: "Nitrogen", correct: true },
+          { text: "Phosphorus", correct: false },
+          { text: "Potassium", correct: false },
+          { text: "Sulfur", correct: false }
+        ],
+        explanation: "Nitrogen is used in the production of fertilizers and explosives."
+      },
+      {
+        question: "What is the physical appearance of Phosphorus in its white form?",
+        answers: [
+          { text: "White waxy solid", correct: true },
+          { text: "Red powder", correct: false },
+          { text: "Yellow liquid", correct: false },
+          { text: "Colorless gas", correct: false }
+        ],
+        explanation: "White phosphorus appears as a waxy solid."
+      },
+      {
+        question: "Which element is used in fireworks to produce green colors?",
+        answers: [
+          { text: "Barium", correct: true },
+          { text: "Strontium", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Lithium", correct: false }
+        ],
+        explanation: "Barium is used in fireworks to produce green colors."
+      },
+      {
+        question: "What is the flame color of Magnesium when burned?",
+        answers: [
+          { text: "White", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Red", correct: false },
+          { text: "Blue", correct: false }
+        ],
+        explanation: "Magnesium burns with a bright white flame."
+      },
+      {
+        question: "Which element is used in making high-temperature superconductors?",
+        answers: [
+          { text: "Yttrium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Nickel", correct: false }
+        ],
+        explanation: "Yttrium is used in making high-temperature superconductors."
+      },
+      {
+        question: "Which element is known for its use in making glass and ceramics?",
+        answers: [
+          { text: "Silicon", correct: true },
+          { text: "Titanium", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Gold", correct: false }
+        ],
+        explanation: "Silicon is known for its use in making glass and ceramics."
+      },
+      {
+        question: "What color is the flame test for Barium salts?",
+        answers: [
+          { text: "Green", correct: true },
+          { text: "Red", correct: false },
+          { text: "Blue", correct: false },
+          { text: "Yellow", correct: false }
+        ],
+        explanation: "Barium salts produce a green flame in a flame test."
+      },
+      {
+        question: "Which element is used in making high-strength steel?",
+        answers: [
+          { text: "Chromium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Manganese", correct: false }
+        ],
+        explanation: "Chromium is used in making high-strength steel."
+      },
+      {
+        question: "What is the appearance of Sodium in its solid state?",
+        answers: [
+          { text: "Soft, silvery metal", correct: true },
+          { text: "Hard, gray metal", correct: false },
+          { text: "Yellow powder", correct: false },
+          { text: "Colorless liquid", correct: false }
+        ],
+        explanation: "Sodium is a soft, silvery metal in its solid state."
+      },
+      {
+        question: "Which element is used in the production of stainless steel along with iron and chromium?",
+        answers: [
+          { text: "Nickel", correct: true },
+          { text: "Zinc", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Manganese", correct: false }
+        ],
+        explanation: "Nickel is used in the production of stainless steel along with iron and chromium."
+      },
+      {
+        question: "What is the appearance of the metal Bismuth?",
+        answers: [
+          { text: "Pinkish-silver", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Gray", correct: false },
+          { text: "Red", correct: false }
+        ],
+        explanation: "Bismuth is a pinkish-silver metal."
+      },
+      {
+        question: "Which of the following metals is used in the production of electric vehicle batteries?",
+        answers: [
+          { text: "Lithium", correct: true },
+          { text: "Aluminium", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Zinc", correct: false }
+        ],
+        explanation: "Lithium is used in the production of electric vehicle batteries."
+      },
+      {
+        question: "What is the physical appearance of Iron(III) oxide?",
+        answers: [
+          { text: "Red-brown powder", correct: true },
+          { text: "Yellow liquid", correct: false },
+          { text: "Colorless gas", correct: false },
+          { text: "Blue crystal", correct: false }
+        ],
+        explanation: "Iron(III) oxide is a red-brown powder."
+      },
+      {
+        question: "Which element is used in the production of ammonia?",
+        answers: [
+          { text: "Iron", correct: true },
+          { text: "Platinum", correct: false },
+          { text: "Nickel", correct: false },
+          { text: "Rhodium", correct: false }
+        ],
+        explanation: "Iron is used as a catalyst in the production of ammonia."
+      },
+      {
+        question: "What is the color of the flame produced by burning Lithium salts?",
+        answers: [
+          { text: "Crimson red", correct: true },
+          { text: "Blue", correct: false },
+          { text: "Yellow", correct: false },
+          { text: "Green", correct: false }
+        ],
+        explanation: "Lithium salts produce a crimson red flame when burned."
+      },
+      {
+        question: "Which element is used as a catalyst in the hydrogenation of vegetable oils?",
+        answers: [
+          { text: "Nickel", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Platinum", correct: false }
+        ],
+        explanation: "Nickel is used as a catalyst in the hydrogenation of vegetable oils."
+      },
+      {
+        question: "What is the physical state of Helium at room temperature?",
+        answers: [
+          { text: "Gas", correct: true },
+          { text: "Liquid", correct: false },
+          { text: "Solid", correct: false },
+          { text: "Plasma", correct: false }
+        ],
+        explanation: "Helium is a gas at room temperature."
+      },
+      {
+        question: "Which of the following elements is used in the production of light-emitting diodes (LEDs)?",
+        answers: [
+          { text: "Gallium", correct: true },
+          { text: "Iron", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Silver", correct: false }
+        ],
+        explanation: "Gallium is used in the production of light-emitting diodes (LEDs)."
+      },
+      {
+        question: "What color does Iodine produce in a flame test?",
+        answers: [
+          { text: "Purple", correct: true },
+          { text: "Yellow", correct: false },
+          { text: "Red", correct: false },
+          { text: "Green", correct: false }
+        ],
+        explanation: "Iodine produces a purple color in a flame test."
+      },
+      {
+        question: "Which element is used in the production of superconductors?",
+        answers: [
+          { text: "Yttrium", correct: true },
+          { text: "Copper", correct: false },
+          { text: "Iron", correct: false },
+          { text: "Gold", correct: false }
+        ],
+        explanation: "Yttrium is used in the production of superconductors."
+      },
+      {
+        question: "What element can replace carbon atoms in heterofullerenes?",
+        answers: [
+          { text: "Hydrogen", correct: false },
+          { text: "Nitrogen", correct: true },
+          { text: "Oxygen", correct: false },
+          { text: "Helium", correct: false }
+        ],
+        explanation: "Heterofullerenes are fullerenes in which carbon atoms are replaced by other elements, such as nitrogen."
+      },
+      {
+        question: "What are endohedral fullerenes known for?",
+        answers: [
+          { text: "Being hollow inside", correct: false },
+          { text: "Having additional atoms or ions inside", correct: true },
+          { text: "Being used in jewelry", correct: false },
+          { text: "Being unstable", correct: false }
+        ],
+        explanation: "Endohedral fullerenes are fullerenes that encapsulate other atoms, ions, or molecules within their structure."
+      },
+      {
+        question: "Metallofullerenes contain what type of atoms?",
+        answers: [
+          { text: "Non-metals", correct: false },
+          { text: "Metalloids", correct: false },
+          { text: "Metals", correct: true },
+          { text: "Noble gases", correct: false }
+        ],
+        explanation: "Metallofullerenes are fullerenes that contain metal atoms inside their structure."
+      },
+      {
+        question: "What is a characteristic of fullerene derivatives?",
+        answers: [
+          { text: "Insoluble in organic solvents", correct: false },
+          { text: "Chemically modified by functional groups", correct: true },
+          { text: "Completely inert", correct: false },
+          { text: "High melting point", correct: false }
+        ],
+        explanation: "Fullerene derivatives can be chemically modified with functional groups, altering their properties and solubility."
+      },
+      {
+        question: "What type of fullerene is linked by a carbon chain?",
+        answers: [
+          { text: "Buckminsterfullerene", correct: false },
+          { text: "Linked ball and chain dimer", correct: true },
+          { text: "Nanotubes", correct: false },
+          { text: "Graphene", correct: false }
+        ],
+        explanation: "Linked ball and chain dimers are fullerenes connected by a carbon chain."
+      },
+      {
+        question: "What is the smallest member of the fullerene group?",
+        answers: [
+          { text: "C<sub>60</sub>", correct: false },
+          { text: "C<sub>50</sub>", correct: false },
+          { text: "C<sub>20</sub>", correct: true },
+          { text: "C<sub>70</sub>", correct: false }
+        ],
+        explanation: "C<sub>20</sub> is the smallest fullerene, composed of 20 carbon atoms."
+      },
+      {
+        question: "What property of fullerene changes under different pressures?",
+        answers: [
+          { text: "Melting point", correct: false },
+          { text: "Structure", correct: true },
+          { text: "Color", correct: false },
+          { text: "Density", correct: false }
+        ],
+        explanation: "The structure of fullerene changes under different pressures, which can alter its physical and chemical properties."
+      },
+      {
+        question: "What is the density of fullerene compared to diamond and graphite?",
+        answers: [
+          { text: "Higher", correct: false },
+          { text: "Lower", correct: true },
+          { text: "Same", correct: false },
+          { text: "Unstable", correct: false }
+        ],
+        explanation: "Fullerene has a lower density compared to diamond and graphite due to its unique hollow structure."
+      },
+      {
+        question: "At what temperature does fullerene sublimate in a vacuum?",
+        answers: [
+          { text: "100°C", correct: false },
+          { text: "300°C", correct: false },
+          { text: "600°C", correct: false },
+          { text: "800°C", correct: true }
+        ],
+        explanation: "Fullerene sublimates at approximately 800°C in a vacuum."
+      },
+      {
+        question: "What can be used to identify fullerene?",
+        answers: [
+          { text: "Infrared absorption", correct: true },
+          { text: "X-ray diffraction", correct: false },
+          { text: "UV-visible absorption bands", correct: false },
+          { text: "NMR spectroscopy", correct: false }
+        ],
+        explanation: "Infrared absorption is commonly used to identify fullerene, as it provides information about its molecular vibrations."
+      },
+      {
+        question: "Fullerene exhibits what type of magnetic property?",
+        answers: [
+          { text: "Ferromagnetic", correct: false },
+          { text: "Paramagnetic", correct: false },
+          { text: "Diamagnetic", correct: true },
+          { text: "Antiferromagnetic", correct: false }
+        ],
+        explanation: "Fullerene is generally diamagnetic, meaning it creates an opposing magnetic field in the presence of an external magnetic field."
+      },
+      {
+        question: "What type of reaction does fullerene undergo with hydrogen?",
+        answers: [
+          { text: "Substitution", correct: false },
+          { text: "Addition", correct: true },
+          { text: "Elimination", correct: false },
+          { text: "Rearrangement", correct: false }
+        ],
+        explanation: "Fullerene undergoes addition reactions with hydrogen, forming hydrogenated fullerenes."
+      },
+      {
+        question: "Fullerene can be dissolved in which solvent?",
+        answers: [
+          { text: "Water", correct: false },
+          { text: "Benzene", correct: true },
+          { text: "Methanol", correct: false },
+          { text: "Acetone", correct: false }
+        ],
+        explanation: "Fullerene is soluble in nonpolar solvents like benzene."
+      },
+      {
+        question: "What is the electrophilic nature of fullerene?",
+        answers: [
+          { text: "Reducing agent", correct: false },
+          { text: "Oxidizing agent", correct: true },
+          { text: "Neutral", correct: false },
+          { text: "Inert", correct: false }
+        ],
+        explanation: "Fullerene can act as an oxidizing agent due to its ability to accept electrons."
+      },
+      {
+        question: "What ion does fullerene form upon reduction with alkali metals?",
+        answers: [
+          { text: "Fulleride ion", correct: true },
+          { text: "Hydride ion", correct: false },
+          { text: "Peroxide ion", correct: false },
+          { text: "Carbide ion", correct: false }
+        ],
+        explanation: "Fullerene can form fulleride ions when reduced by alkali metals."
+      },
+      {
+        question: "Fullerene can be functionalized with which group?",
+        answers: [
+          { text: "Hydroxyl group", correct: false },
+          { text: "Carboxyl group", correct: false },
+          { text: "Amine group", correct: false },
+          { text: "All of the above", correct: true }
+        ],
+        explanation: "Fullerene can be functionalized with various groups, including hydroxyl, carboxyl, and amine groups."
+      },
+      {
+        question: "What type of complex can fullerene form with metals?",
+        answers: [
+          { text: "Covalent", correct: false },
+          { text: "Endohedral", correct: true },
+          { text: "Ionic", correct: false },
+          { text: "Exothermic", correct: false }
+        ],
+        explanation: "Fullerene can form endohedral complexes with metals, where metal atoms are encapsulated inside the fullerene cage."
+      },
+      {
+        question: "What reaction does fullerene undergo due to light absorption?",
+        answers: [
+          { text: "Combustion", correct: false },
+          { text: "Polymerization", correct: false },
+          { text: "Photochemical reaction", correct: true },
+          { text: "Hydrolysis", correct: false }
+        ],
+        explanation: "Fullerene can undergo photochemical reactions when it absorbs light."
+      },
+      {
+        question: "What is a common use of fullerene derivatives?",
+        answers: [
+          { text: "Pesticides", correct: false },
+          { text: "Pharmaceuticals", correct: true },
+          { text: "Fertilizers", correct: false },
+          { text: "Detergents", correct: false }
+        ],
+        explanation: "Fullerene derivatives are often used in pharmaceuticals due to their unique properties."
+      },
+      {
+        question: "What is the structure of fullerene primarily based on?",
+        answers: [
+          { text: "Tetrahedral rings", correct: false },
+          { text: "Octahedral rings", correct: false },
+          { text: "Hexagonal and pentagonal rings", correct: true },
+          { text: "Cubic lattice", correct: false }
+        ],
+        explanation: "Fullerene's structure consists of hexagonal and pentagonal rings, forming a closed cage."
+      },
+      {
+        question: "Which allotrope of carbon has interconnected carbon atoms?",
+        answers: [
+          { text: "Diamond", correct: true },
+          { text: "Graphite", correct: false },
+          { text: "Fullerene", correct: false },
+          { text: "Graphene", correct: false }
+        ],
+        explanation: "Diamond has a three-dimensional network of interconnected carbon atoms, giving it its hardness."
+      },
+      {
+        question: "Who was fullerene named after?",
+        answers: [
+          { text: "Richard Smalley", correct: false },
+          { text: "Buckminster Fuller", correct: true },
+          { text: "James Heath", correct: false },
+          { text: "Harold Kroto", correct: false }
+        ],
+        explanation: "Fullerene was named after Buckminster Fuller, an architect known for his geodesic domes."
+      },
+      {
+        question: "What is the general chemical formula for fullerene?",
+        answers: [
+          { text: "C<sub>n</sub>H<sub>n</sub>", correct: false },
+          { text: "C<sub>2n</sub> where n≥30", correct: true },
+          { text: "C<sub>n</sub>O<sub>n</sub>", correct: false },
+          { text: "C<sub>n</sub>F<sub>n</sub>", correct: false }
+        ],
+        explanation: "The general formula for fullerene is C<sub>2n</sub>, where n is typically greater than or equal to 30."
+      },
+      {
+        question: "What physical property of fullerene is temperature-dependent?",
+        answers: [
+          { text: "Color", correct: false },
+          { text: "Behavior and structure", correct: true },
+          { text: "Boiling point", correct: false },
+          { text: "Hardness", correct: false }
+        ],
+        explanation: "The behavior and structure of fullerene can change with temperature, affecting its properties."
+      },
+      {
+        question: "Which allotrope of carbon is known for its electrical conductivity?",
+        answers: [
+          { text: "Diamond", correct: false },
+          { text: "Graphite", correct: true },
+          { text: "Graphene", correct: true },
+          { text: "Fullerene", correct: false }
+        ],
+        explanation: "Both graphite and graphene are known for their excellent electrical conductivity."
+      },
+      {
+        question: "What is a notable feature of the physical properties of fullerene?",
+        answers: [
+          { text: "High density", correct: false },
+          { text: "High melting point", correct: false },
+          { text: "Low elasticity", correct: false },
+          { text: "Temperature-dependent structure", correct: true }
+        ],
+        explanation: "Fullerene's structure and properties can change with temperature, making it unique among carbon allotropes."
+      },
+      {
+        question: "What is the primary component of fullerene?",
+        answers: [
+          { text: "Hydrogen", correct: false },
+          { text: "Nitrogen", correct: false },
+          { text: "Carbon", correct: true },
+          { text: "Oxygen", correct: false }
+        ],
+        explanation: "Fullerene is composed entirely of carbon atoms arranged in a unique structure."
+      },
+      {
+        question: "What type of bonds connect carbon atoms in fullerene?",
+        answers: [
+          { text: "Ionic bonds", correct: false },
+          { text: "Covalent bonds", correct: true },
+          { text: "Hydrogen bonds", correct: false },
+          { text: "Metallic bonds", correct: false }
+        ],
+        explanation: "The carbon atoms in fullerene are connected by covalent bonds, forming a stable structure."
+      },
+      {
+        question: "What is the molecular geometry of Buckminsterfullerene (C<sub>60</sub>)?",
+        answers: [
+          { text: "Linear", correct: false },
+          { text: "Tetrahedral", correct: false },
+          { text: "Truncated icosahedron", correct: true },
+          { text: "Octahedral", correct: false }
+        ],
+        explanation: "The molecular geometry of C<sub>60</sub> is a truncated icosahedron, resembling a soccer ball."
+      },
+      {
+        question: "Which of the following is not a characteristic of fullerene?",
+        answers: [
+          { text: "Low density", correct: false },
+          { text: "High hardness", correct: true },
+          { text: "Diamagnetic properties", correct: false },
+          { text: "High reactivity", correct: false }
+        ],
+        explanation: "Fullerenes are generally not known for high hardness, unlike diamond."
+      },
+      {
+        question: "Which fullerene structure is known for resembling a soccer ball?",
+        answers: [
+          { text: "Carbon nanotubes", correct: false },
+          { text: "Graphene", correct: false },
+          { text: "C<sub>60</sub>", correct: true },
+          { text: "Diamond", correct: false }
+        ],
+        explanation: "C<sub>60</sub>, also known as Buckminsterfullerene, has a structure resembling a soccer ball."
+      },
+      {
+        question: "Fullerenes are known to undergo which type of chemical reactions?",
+        answers: [
+          { text: "Polymerization", correct: true },
+          { text: "Substitution", correct: true },
+          { text: "Oxidation and reduction", correct: true },
+          { text: "Neutralization", correct: false }
+        ],
+        explanation: "Fullerenes can undergo various chemical reactions, including polymerization, substitution, and oxidation-reduction."
+      },
+      {
+        question: "What makes heterofullerenes chemically unique compared to other fullerenes?",
+        answers: [
+          { text: "They contain non-carbon elements", correct: true },
+          { text: "They are purely made of carbon", correct: false },
+          { text: "They are only spherical in shape", correct: false },
+          { text: "They have metallic properties", correct: false }
+        ],
+        explanation: "Heterofullerenes are unique because they contain non-carbon elements within the carbon cage structure."
+      },
+      {
+        question: "What application are carbon nanotubes particularly useful for?",
+        answers: [
+          { text: "Food additives", correct: false },
+          { text: "Conductors in electronic devices", correct: true },
+          { text: "Optical lenses", correct: false },
+          { text: "Agricultural fertilizers", correct: false }
+        ],
+        explanation: "Carbon nanotubes are widely used as conductors in electronic devices due to their excellent electrical properties."
+      },
+      {
+        question: "Which type of fullerene can encapsulate other atoms, ions, or molecules?",
+        answers: [
+          { text: "Metallofullerenes", correct: false },
+          { text: "Endohedral fullerenes", correct: true },
+          { text: "Exohedral fullerenes", correct: false },
+          { text: "Linked ball and chain dimers", correct: false }
+        ],
+        explanation: "Endohedral fullerenes can encapsulate other atoms, ions, or molecules within their carbon cage."
+      },
+      {
+        question: "What is a defining feature of fullerene derivatives?",
+        answers: [
+          { text: "They are unstable", correct: false },
+          { text: "They are chemically modified", correct: true },
+          { text: "They cannot conduct electricity", correct: false },
+          { text: "They are exclusively hydrophobic", correct: false }
+        ],
+        explanation: "Fullerene derivatives are chemically modified versions of fullerenes, often functionalized with various groups."
+      },
+      {
+        question: "How are fullerene nanotubes different from graphene?",
+        answers: [
+          { text: "Fullerene nanotubes are not conductive", correct: false },
+          { text: "Fullerene nanotubes are cylindrical", correct: true },
+          { text: "Graphene is three-dimensional", correct: false },
+          { text: "Graphene is not an allotrope of carbon", correct: false }
+        ],
+        explanation: "Fullerene nanotubes have a cylindrical shape, while graphene is a single-layer sheet of carbon atoms."
+      },
+      {
+        question: "What is one of the most stable forms of fullerene?",
+        answers: [
+          { text: "C<sub>70</sub>", correct: false },
+          { text: "C<sub>60</sub>", correct: true },
+          { text: "C<sub>80</sub>", correct: false },
+          { text: "C<sub>90</sub>", correct: false }
+        ],
+        explanation: "C<sub>60</sub> is one of the most stable forms of fullerene."
+      },
+      {
+        question: "Fullerenes can act as which of the following?",
+        answers: [
+          { text: "Oxidizing agents", correct: true },
+          { text: "Reducing agents", correct: true },
+          { text: "Catalysts", correct: true },
+          { text: "All of the above", correct: true }
+        ],
+        explanation: "Fullerenes can act as oxidizing agents, reducing agents, and catalysts due to their unique electronic structure."
+      },
+      {
+        question: "What is the appearance of fullerene in its solid state?",
+        answers: [
+          { text: "Colorless crystals", correct: false },
+          { text: "Metallic luster", correct: false },
+          { text: "Black crystals", correct: true },
+          { text: "White powder", correct: false }
+        ],
+        explanation: "Fullerene typically appears as black crystals in its solid state."
+      },
+      {
+        question: "Which of the following describes fullerene's thermal properties?",
+        answers: [
+          { text: "Poor thermal conductor", correct: false },
+          { text: "High thermal stability", correct: true },
+          { text: "Low thermal stability", correct: false },
+          { text: "Excellent thermal conductor", correct: false }
+        ],
+        explanation: "Fullerene has high thermal stability, making it resistant to decomposition at high temperatures."
+      },
+      {
+        question: "How are fullerenes typically produced?",
+        answers: [
+          { text: "By sublimation", correct: false },
+          { text: "By combustion of carbon materials", correct: false },
+          { text: "By chemical reduction", correct: false },
+          { text: "By laser vaporization of graphite", correct: true }
+        ],
+        explanation: "Fullerenes are often produced by laser vaporization of graphite."
+      },
+      {
+        question: "In what year was fullerene discovered?",
+        answers: [
+          { text: "1980", correct: false },
+          { text: "1985", correct: true },
+          { text: "1990", correct: false },
+          { text: "1995", correct: false }
+        ],
+        explanation: "Fullerene was discovered in 1985 by scientists who received the Nobel Prize in Chemistry for their work."
+      },
+      {
+        question: "What is the molecular formula of the most common fullerene?",
+        answers: [
+          { text: "C<sub>60</sub>", correct: true },
+          { text: "C<sub>50</sub>", correct: false },
+          { text: "C<sub>70</sub>", correct: false },
+          { text: "C<sub>80</sub>", correct: false }
+        ],
+        explanation: "The most common fullerene is C<sub>60</sub>, also known as Buckminsterfullerene."
+      },
+      {
+        question: "What kind of structural configuration does graphene have?",
+        answers: [
+          { text: "Single-layer sheet", correct: true },
+          { text: "Multi-layer spherical", correct: false },
+          { text: "Cylindrical tubes", correct: false },
+          { text: "Amorphous", correct: false }
+        ],
+        explanation: "Graphene is a single-layer sheet of carbon atoms arranged in a hexagonal lattice."
+      },
+      {
+        question: "What is a distinguishing feature of amorphous carbon?",
+        answers: [
+          { text: "Crystalline structure", correct: false },
+          { text: "Lack of a well-defined structure", correct: true },
+          { text: "High electrical conductivity", correct: false },
+          { text: "Hardness similar to diamond", correct: false },
+        ],
+        explanation: "amorphous carbon lacks well-defined structure",
+      },
+      {
+        question: "Which type of fullerene is used as a good lubricant?",
+        answers: [
+          { text: "Nanotubes", correct: false },
+          { text: "Nano-onions", correct: true },
+          { text: "Buckminsterfullerene", correct: false },
+          { text: "Amorphous carbon", correct: false }
+        ],
+        explanation: "Nano-onions are used as lubricants due to their layered spherical structure, which allows them to act as a ball bearing."
+      },
+      {
+        question: "Which fullerene structure is primarily spherical in shape?",
+        answers: [
+          { text: "Graphene", correct: false },
+          { text: "Nanotubes", correct: false },
+          { text: "Nano-onions", correct: true },
+          { text: "Amorphous carbon", correct: false }
+        ],
+        explanation: "Nano-onions are spherical fullerenes consisting of multiple concentric carbon shells."
+      },
+      {
+        question: "Which element can be found inside endohedral fullerenes?",
+        answers: [
+          { text: "Argon", correct: false },
+          { text: "Yttrium", correct: false },
+          { text: "Sodium", correct: false },
+          { text: "Helium", correct: true }
+        ],
+        explanation: "Helium atoms can be encapsulated within the fullerene cage structure in endohedral fullerenes."
+      },
+      {
+        question: "What happens to fullerene under high pressure?",
+        answers: [
+          { text: "It becomes metallic", correct: false },
+          { text: "It retains its structure", correct: false },
+          { text: "Its structure changes", correct: true },
+          { text: "It decomposes", correct: false }
+        ],
+        explanation: "Under high pressure, fullerene molecules can form a polymeric structure due to the reorganization of bonds."
+      },
+      {
+        question: "Which property makes fullerenes suitable for photochemical reactions?",
+        answers: [
+          { text: "High thermal conductivity", correct: false },
+          { text: "Ability to absorb light", correct: true },
+          { text: "High electrical resistance", correct: false },
+          { text: "Low chemical reactivity", correct: false }
+        ],
+        explanation: "Fullerenes can absorb light efficiently, making them suitable for photochemical reactions."
+      },
+      {
+        question: "The horizontal rows in the periodic table are called",
+        answers: [
+          { text: "Groups", correct: false },
+          { text: "Periods", correct: true },
+          { text: "Energy", correct: false },
+          { text: "Radius", correct: false }
+        ],
+        explanation: "Horizontal rows in the periodic table are called periods."
+      },
+      {
+        question: "Elements are arranged in groups due to the number of electrons in their outermost shell",
+        answers: [
+          { text: "Number of electrons", correct: true },
+          { text: "Number of protons", correct: false },
+          { text: "Number of neutrons", correct: false },
+          { text: "Number of nucleons", correct: false }
+        ],
+        explanation: "Elements in the same group have similar chemical properties due to having the same number of electrons in their outermost shell."
+      },
+      {
+        question: "The periodic table was brought about by a chemist",
+        answers: [
+          { text: "Dmitri Mendeleev", correct: true },
+          { text: "Antoine Lavoisier", correct: false },
+          { text: "John Dalton", correct: false },
+          { text: "J.J. Thomson", correct: false }
+        ],
+        explanation: "Dmitri Mendeleev is credited with creating the periodic table of elements."
+      },
+      {
+        question: "The nitrate of which of the following cations would exhibit paramagnetism to the greatest extent?",
+        answers: [
+          { text: "Co", correct: true },
+          { text: "Cr", correct: false },
+          { text: "Fe", correct: false },
+          { text: "Mn", correct: false }
+        ],
+        explanation: "Cobalt(II) nitrate exhibits the greatest extent of paramagnetism among the given options."
+      },
+      {
+        question: "Which element group is the most reactive of all?",
+        answers: [
+          { text: "Alkali metals", correct: true },
+          { text: "Alkaline earth metals", correct: false },
+          { text: "Transition metals", correct: false },
+          { text: "Noble gases", correct: false }
+        ],
+        explanation: "Alkali metals are the most reactive group of elements."
+      },
+      {
+        question: "Which of the following is NOT true for Group IA elements?",
+        answers: [
+          { text: "Most of them are soft, silvery metals", correct: false },
+          { text: "Their atomic radii increase with increasing molecular weight", correct: false },
+          { text: "They are named the alkaline earth metals", correct: true },
+          { text: "They are excellent conductors of heat and electricity", correct: false }
+        ],
+        explanation: "Group IA elements are known as alkali metals, not alkaline earth metals."
+      },
+      {
+        question: "The most abundant metal in the earth's crust is",
+        answers: [
+          { text: "Cu", correct: false },
+          { text: "Fe", correct: true },
+          { text: "Na", correct: false },
+          { text: "Al", correct: false }
+        ],
+        explanation: "Iron (Fe) is the most abundant metal in the Earth's crust."
+      },
+      {
+        question: "Which element has the highest first ionization energy?",
+        answers: [
+          { text: "Be", correct: false },
+          { text: "B", correct: false },
+          { text: "C", correct: true },
+          { text: "N", correct: false }
+        ],
+        explanation: "Carbon (C) has the highest first ionization energy among the given options."
+      },
+      {
+        question: "Which of the following is NOT true for the halogens?",
+        answers: [
+          { text: "They are nonmetals", correct: false },
+          { text: "They show the -1 oxidation number in most of their compounds", correct: false },
+          { text: "The electronic configuration of their outermost electrons is ns np", correct: false },
+          { text: "Their compounds with metals are generally ionic in nature", correct: true }
+        ],
+        explanation: "The halogens generally form ionic compounds with metals."
+      },
+      {
+        question: "The elements in group VIII are called",
+        answers: [
+          { text: "Carbon Family", correct: false },
+          { text: "Boron Family", correct: false },
+          { text: "Halogen Family", correct: false },
+          { text: "Inert Gases", correct: true }
+        ],
+        explanation: "Group VIII elements are known as Inert Gases or Noble Gases."
+      },
+      {
+        question: "The periodic table was brought about by a chemist",
+        answers: [
+          { text: "Antoine Lavoisier", correct: false },
+          { text: "John Dalton", correct: false },
+          { text: "Dmitri Mendeleev", correct: true },
+          { text: "J.J. Thomson", correct: false }
+        ],
+        explanation: "Dmitri Mendeleev is credited with creating the periodic table of elements."
+      },
+      {
+        question: "Which of these is not a group IA element?",
+        answers: [
+          { text: "Potassium", correct: false },
+          { text: "Rubidium", correct: false },
+          { text: "Iron", correct: true },
+          { text: "Sodium", correct: false }
+        ],
+        explanation: "Iron is not a Group IA element; it is a transition metal."
+      },
+      {
+        question: "The periodic table was brought about in the year",
+        answers: [
+          { text: "1980", correct: false },
+          { text: "1869", correct: true },
+          { text: "1860", correct: false },
+          { text: "1819", correct: false }
+        ],
+        explanation: "Dmitri Mendeleev's periodic table was published in 1869."
+      },
+      {
+        question: "In increasing order of their atomic numbers, there is a periodic repetition of their chemical and physical properties. This is known as",
+        answers: [
+          { text: "The atomic law", correct: false },
+          { text: "The periodic law", correct: true },
+          { text: "The redox law", correct: false },
+          { text: "The electrochemical law", correct: false }
+        ],
+        explanation: "The periodic law states that the properties of elements are periodic functions of their atomic numbers."
+      },
+      {
+        question: "The elements in group III are called",
+        answers: [
+          { text: "Boron Family", correct: true },
+          { text: "Carbon Family", correct: false },
+          { text: "Alkali Family", correct: false },
+          { text: "Nitrogen Family", correct: false }
+        ],
+        explanation: "Group III elements are known as the Boron Family."
+      },
+      {
+        question: "The elements in group IV are called",
+        answers: [
+          { text: "Nitrogen Family", correct: false },
+          { text: "Carbon Family", correct: true },
+          { text: "Halogen Family", correct: false },
+          { text: "Alkali Metal", correct: false }
+        ],
+        explanation: "Group IV elements are known as the Carbon Family."
+      },
+      {
+        question: "The elements in group V are called",
+        answers: [
+          { text: "Boron Family", correct: false },
+          { text: "Carbon Family", correct: false },
+          { text: "Nitrogen Family", correct: true },
+          { text: "Alkali Metal", correct: false }
+        ],
+        explanation: "Group V elements are known as the Nitrogen Family."
+      },
+      {
+        question: "The elements in group VI are called",
+        answers: [
+          { text: "Alkali Metal", correct: false },
+          { text: "Boron Family", correct: false },
+          { text: "Halogen Family", correct: false },
+          { text: "Chalcogen Family", correct: true }
+        ],
+        explanation: "Group VI elements are known as the Chalcogen Family."
+      },
+      {
+        question: "The elements in group VII are called",
+        answers: [
+          { text: "Halogen Family", correct: true },
+          { text: "Carbon Family", correct: false },
+          { text: "Boron Family", correct: false },
+          { text: "Nitrogen Family", correct: false }
+        ],
+        explanation: "Group VII elements are known as the Halogen Family."
+      },
+      {
+        question: "The elements in group VIII are called",
+        answers: [
+          { text: "Carbon Family", correct: false },
+          { text: "Boron Family", correct: false },
+          { text: "Halogen Family", correct: false },
+          { text: "Inert Gases", correct: true }
+        ],
+        explanation: "Group VIII elements are known as the Inert Gases or Noble Gases."
+      },
+      {
+        question: "Which is the energy required to remove an electron from its gaseous atom?",
+        answers: [
+          { text: "Ionization Energy", correct: true },
+          { text: "Electronegativity", correct: false },
+          { text: "Atomic Radius", correct: false },
+          { text: "Electron Affinity", correct: false }
+        ],
+        explanation: "Ionization energy is the energy required to remove an electron from a gaseous atom."
+      },
+      {
+        question: "The addition of hydrogen to a substance is called",
+        answers: [
+          { text: "Redox", correct: false },
+          { text: "Reduction", correct: true },
+          { text: "Oxidation", correct: false },
+          { text: "Transfer", correct: false }
+        ],
+        explanation: "Addition of hydrogen to a substance is known as reduction."
+      },
+      {
+        question: "Which process involves gaining electrons?",
+        answers: [
+          { text: "Reduction", correct: true },
+          { text: "Oxidation", correct: false },
+          { text: "Redox", correct: false },
+          { text: "Transfer", correct: false }
+        ],
+        explanation: "Gaining electrons is called reduction."
+      },
+      {
+        question: "Another name for ionization energy is",
+        answers: [
+          { text: "Redox Reaction", correct: false },
+          { text: "Ionization Potential", correct: true },
+          { text: "Electron Affinity", correct: false },
+          { text: "Atomic Radius", correct: false }
+        ],
+        explanation: "Ionization energy is also known as ionization potential."
+      },
+      {
+        question: "The energy released when a neutral atom adds an extra electron to itself in order to form a stable ion is called",
+        answers: [
+          { text: "Ionization Potential", correct: false },
+          { text: "Redox", correct: false },
+          { text: "Electron Affinity", correct: true },
+          { text: "Atomic Radius", correct: false }
+        ],
+        explanation: "The energy released when an atom gains an extra electron is called electron affinity."
+      },
+      {
+        question: "Electronegativity refers to the tendency of an atom in a covalent bond to",
+        answers: [
+          { text: "Attract electrons to itself", correct: true },
+          { text: "Lose electrons", correct: false },
+          { text: "Transfer electrons", correct: false },
+          { text: "Gain protons", correct: false }
+        ],
+        explanation: "Electronegativity is the tendency of an atom to attract electrons in a covalent bond."
+      },
+      {
+        question: "Which process involves a decrease in the oxidation number?",
+        answers: [
+          { text: "Reduction", correct: true },
+          { text: "Oxidation", correct: false },
+          { text: "Positivity", correct: false },
+          { text: "Negativity", correct: false }
+        ],
+        explanation: "A decrease in oxidation number is associated with reduction."
+      },
+      {
+        question: "All elements in period one have only",
+        answers: [
+          { text: "One", correct: true },
+          { text: "Three", correct: false },
+          { text: "Four", correct: false },
+          { text: "Two", correct: false }
+        ],
+        explanation: "Elements in period one have only one electron shell."
+      },
+      {
+        question: "Which of the following is NOT true for Group IA elements?",
+        answers: [
+          { text: "Most of them are soft, silvery metals", correct: false },
+          { text: "Their atomic radii increases with increasing molecular weight", correct: false },
+          { text: "They are named the alkaline earth metals", correct: true },
+          { text: "They are excellent conductors of heat and electricity", correct: false }
+        ],
+        explanation: "Group IA elements are known as alkali metals, not alkaline earth metals."
+      },
+      {
+        question: "The nitrate of which of the following cations would exhibit paramagnetism to the greatest extent?",
+        answers: [
+          { text: "Co", correct: true },
+          { text: "Cr", correct: false },
+          { text: "Fe", correct: false },
+          { text: "Mn", correct: false }
+        ],
+        explanation: "Cobalt (Co) exhibits the greatest extent of paramagnetism among the options given."
+      },
+      {
+        question: "Which element group is the most reactive of all?",
+        answers: [
+          { text: "Alkali metals", correct: true },
+          { text: "Alkaline earth metals", correct: false },
+          { text: "Coinage metals", correct: false },
+          { text: "Transition metals", correct: false }
+        ],
+        explanation: "Alkali metals are the most reactive group of elements."
+      },
+      {
+        question: "Which of the following groups contains the greatest number of gaseous elements?",
+        answers: [
+          { text: "Alkali metals", correct: false },
+          { text: "Alkaline earth metals", correct: false },
+          { text: "Coinage metals", correct: false },
+          { text: "Transition metals", correct: false }
+        ],
+        explanation: "This question appears incomplete. The correct group would be the Noble gases (Group VIII), which are not listed in the options provided."
+      },
+      {
+        question: "A relationship where beryllium resembles aluminum, and boron resembles silicon, is called",
+        answers: [
+          { text: "Amphoterism", correct: false },
+          { text: "An allotropic relationship", correct: false },
+          { text: "A diagonal relationship", correct: true },
+          { text: "Periodic relationship", correct: false }
+        ],
+        explanation: "A diagonal relationship describes similarities between elements in different groups but in the same periods."
+      },
+      {
+        question: "Which of the following properties of alkaline earth metals decreases with increasing atomic weight?",
+        answers: [
+          { text: "Ionic radii", correct: false },
+          { text: "Atomic radii", correct: false },
+          { text: "Ionization energy", correct: true },
+          { text: "Electronegativity", correct: false }
+        ],
+        explanation: "Ionization energy decreases with increasing atomic weight in alkaline earth metals."
+      },
+      {
+        question: "Which is the most basic of the following oxides?",
+        answers: [
+          { text: "MgO", correct: true },
+          { text: "Na₂O", correct: false },
+          { text: "PO", correct: false },
+          { text: "BeO", correct: false }
+        ],
+        explanation: "Magnesium oxide (MgO) is the most basic among the oxides listed."
+      },
+      {
+        question: "A 300 g sample of CaCO₃ was heated until 10.0 L of CO₂ was collected at 50.0°C and 742 torr. What percentage of the CaCO₃ had decomposed?",
+        answers: [
+          { text: "6.84%", correct: false },
+          { text: "9.10%", correct: false },
+          { text: "12.3%", correct: true },
+          { text: "15.8%", correct: false }
+        ],
+        explanation: "The percentage decomposed is calculated based on the collected volume of CO₂ and the initial mass of CaCO₃."
+      },
+      {
+        question: "What mass of lithium nitride could be formed from 104 g of lithium and excess nitrogen gas?",
+        answers: [
+          { text: "4.35 g", correct: false },
+          { text: "60 g", correct: false },
+          { text: "105 g", correct: false },
+          { text: "174 g", correct: true }
+        ],
+        explanation: "The mass of lithium nitride formed is based on stoichiometric calculations involving lithium and nitrogen."
+      },
+      {
+        question: "The most abundant metal in the earth's crust is",
+        answers: [
+          { text: "Cu", correct: false },
+          { text: "Fe", correct: true },
+          { text: "Na", correct: false },
+          { text: "Al", correct: false }
+        ],
+        explanation: "Iron (Fe) is the most abundant metal in the earth's crust."
+      },
+      {
+        question: "Which element has the electron configuration [Ar] 4s² 3d⁷?",
+        answers: [
+          { text: "Co", correct: true },
+          { text: "Cr", correct: false },
+          { text: "Fe", correct: false },
+          { text: "Mn", correct: false }
+        ],
+        explanation: "Cobalt (Co) has the electron configuration [Ar] 4s² 3d⁷."
+      },
+      {
+        question: "Which of the following is NOT true for the halogens?",
+        answers: [
+          { text: "They are nonmetals.", correct: false },
+          { text: "They show the -1 oxidation number in most of their compounds.", correct: false },
+          { text: "The electronic configuration of their outermost electrons is ns² np⁵.", correct: false },
+          { text: "Their compounds with metals are generally ionic in nature.", correct: true }
+        ],
+        explanation: "Halogens generally form ionic compounds with metals, not covalent."
+      },
+      {
+        question: "Which acid listed on the right cannot be obtained by adding water to the substance on the left?",
+        answers: [
+          { text: "HS₂O₄ - sulfuric acid", correct: false },
+          { text: "SeO₂ - selenous acid", correct: false },
+          { text: "SO₃ - sulfuric acid", correct: true },
+          { text: "TeO₂ - tellurous acid", correct: false }
+        ],
+        explanation: "SO₃ cannot be obtained by adding water to itself; it must react with water to form sulfuric acid."
+      },
+      {
+        question: "Which of the following statements about sulfuric acid is false?",
+        answers: [
+          { text: "It is a strong acid.", correct: false },
+          { text: "One mole of sulfuric acid reacts completely with two moles of potassium hydroxide.", correct: false },
+          { text: "The sulfur atom is sp² hybridized.", correct: true },
+          { text: "It is often present in acid rain.", correct: false }
+        ],
+        explanation: "The sulfur atom in sulfuric acid is sp³ hybridized, not sp²."
+      },
+      {
+        question: "What is the major mineral present in phosphate rock?",
+        answers: [
+          { text: "Ca(PO₄)₂", correct: true },
+          { text: "Na₃PO₄", correct: false },
+          { text: "CaPO₄", correct: false },
+          { text: "NaH₂PO₄", correct: false }
+        ],
+        explanation: "The major mineral in phosphate rock is calcium phosphate, Ca(PO₄)₂."
+      },
+      {
+        question: "Some metals are found in the uncombined free state while other metals are found in the combined state. What is a deciding factor?",
+        answers: [
+          { text: "Metals with negative reduction potentials can occur in the free state while metals with positive reduction potentials occur in the combined state", correct: false },
+          { text: "The active metals can occur in the free state while the less active metals occur in the combined state", correct: true },
+          { text: "Metals with positive reduction potentials can occur in the free state while metals with negative reduction potentials can occur in the combined state", correct: false },
+          { text: "There is no way we can predict which metals will be free or combined", correct: false }
+        ],
+        explanation: "Active metals are typically found in the combined state, while less active metals can be found in the free state."
+      },
+      {
+        question: "Soluble metal compounds tend to be found in whereas insoluble metal compounds tend to be found in the",
+        answers: [
+          { text: "Oceans; earth's crust", correct: true },
+          { text: "Earth's crust; oceans", correct: false },
+          { text: "Salt beds; oceans", correct: false },
+          { text: "Oceans; salt beds", correct: false }
+        ],
+        explanation: "Soluble metal compounds are commonly found in oceans, while insoluble metal compounds are found in the earth's crust."
+      },
+      {
+        question: "The process known as 'roasting' converts (a) Sulfide to (b) Oxide",
+        answers: [
+          { text: "Hydroxide; oxide", correct: false },
+          { text: "Carbonate; oxide", correct: false },
+          { text: "Oxide; sulfate", correct: false },
+          { text: "Sulfide; oxide", correct: true }
+        ],
+        explanation: "Roasting is the process where sulfide ores are converted to oxides."
+      },
+      {
+        question: "Which metal can be found as the free element?",
+        answers: [
+          { text: "W", correct: false },
+          { text: "Mn", correct: false },
+          { text: "Cu", correct: true },
+          { text: "Pr", correct: false }
+        ],
+        explanation: "Copper (Cu) can be found in its free elemental form."
+      },
+      {
+        question: "The Hall-Héroult process is used in the extraction of",
+        answers: [
+          { text: "Al", correct: true },
+          { text: "Fe", correct: false },
+          { text: "Cu", correct: false },
+          { text: "Au", correct: false }
+        ],
+        explanation: "The Hall-Héroult process is used to extract aluminum (Al)."
+      },
+      {
+        question: "The atom having the valence-shell configuration 4p would be in:",
+        answers: [
+          { text: "Group VIA and Period 5", correct: false },
+          { text: "Group IVB and Period 4", correct: false },
+          { text: "Group VIB and Period 7", correct: false },
+          { text: "Group VIIA and Period 4", correct: true }
+        ],
+        explanation: "The valence-shell configuration 4p corresponds to Group VIIA and Period 4."
+      },
+      {
+        question: "Select the term best describing the series of elements: Mn, Fe, Co, Ni, Cu.",
+        answers: [
+          { text: "Transition metals", correct: true },
+          { text: "Representative elements", correct: false },
+          { text: "Metalloids", correct: false },
+          { text: "Alkaline earth metals", correct: false }
+        ],
+        explanation: "Mn, Fe, Co, Ni, and Cu are all transition metals."
+      },
+      {
+        question: "Which element has the largest atomic radius?",
+        answers: [
+          { text: "Rb", correct: true },
+          { text: "Na", correct: false },
+          { text: "F", correct: false },
+          { text: "Cl", correct: false }
+        ],
+        explanation: "Rubidium (Rb) has the largest atomic radius among the elements listed."
+      },
+      {
+        question: "Which of the following terms accurately describes the energy associated with the process:",
+        answers: [
+          { text: "Electron affinity", correct: false },
+          { text: "Ionization energy", correct: true },
+          { text: "Binding energy", correct: false },
+          { text: "Electronegativity", correct: false }
+        ],
+        explanation: "Ionization energy is the energy required to remove an electron from an atom."
+      },
+      {
+        question: "The species that contains 24 protons, 26 neutrons, and 22 electrons would be represented by the symbol:",
+        answers: [
+          { text: "Cr²⁺", correct: true },
+          { text: "Mn²⁺", correct: false },
+          { text: "Fe²⁺", correct: false },
+          { text: "Ni²⁺", correct: false }
+        ],
+        explanation: "The species with 24 protons, 26 neutrons, and 22 electrons is Chromium (Cr²⁺)."
+      },
+      {
+        question: "Which element has the highest first ionization energy?",
+        answers: [
+          { text: "Be", correct: false },
+          { text: "B", correct: true },
+          { text: "C", correct: false },
+          { text: "N", correct: false }
+        ],
+        explanation: "Boron (B) has the highest first ionization energy among the given elements."
+      },
+      {
+        question: "Which of these isoelectronic species has the smallest radius?",
+        answers: [
+          { text: "Na⁺", correct: true },
+          { text: "Mg²⁺", correct: false },
+          { text: "Cl⁻", correct: false },
+          { text: "S²⁻", correct: false }
+        ],
+        explanation: "Isoelectronic species with the smallest radius is Na⁺ due to its higher nuclear charge."
+      },
+      {
+        question: "Which of the following elements has the greatest attraction for electrons in a covalent bond?",
+        answers: [
+          { text: "Ge", correct: false },
+          { text: "As", correct: false },
+          { text: "Sc", correct: false },
+          { text: "Br", correct: true }
+        ],
+        explanation: "Bromine (Br) has the greatest attraction for electrons in a covalent bond."
+      },
+      {
+        question: "Which statement is wrong?",
+        answers: [
+          { text: "The atomic weight of carbon is about 12.", correct: false },
+          { text: "The most stable ion of lithium is Li⁺", correct: false },
+          { text: "A phosphorus atom is larger than an antimony atom.", correct: true },
+          { text: "The radius of a sodium atom is larger than that of a sodium cation.", correct: false }
+        ],
+        explanation: "A phosphorus atom is smaller than an antimony atom, making this statement incorrect."
+      },
+      {
+        question: "All of the following properties of the alkaline earth metals group except which one increases down the group?",
+        answers: [
+          { text: "Atomic radius", correct: true },
+          { text: "First ionization energy", correct: false },
+          { text: "Ionic radius", correct: false },
+          { text: "Atomic mass", correct: false }
+        ],
+        explanation: "First ionization energy decreases, not increases, as you move down the alkaline earth metals group."
+      },
+      {
+        question: "Which of the following is an ionic hydride?",
+        answers: [
+          { text: "PH₃", correct: false },
+          { text: "HS", correct: false },
+          { text: "NaH", correct: true },
+          { text: "CH₄", correct: false }
+        ],
+        explanation: "Sodium hydride (NaH) is an ionic hydride."
+      },
+      {
+        question: "Which of the following is the most basic oxide?",
+        answers: [
+          { text: "NO", correct: false },
+          { text: "NO₂", correct: false },
+          { text: "PO", correct: false },
+          { text: "BaO", correct: true }
+        ],
+        explanation: "Barium oxide (BaO) is the most basic oxide among the options."
+      },
+      {
+        question: "Magnesium is in group 2 in the periodic table. Which of the following formulas for Magnesium compounds is correct?",
+        answers: [
+          { text: "MgO", correct: true },
+          { text: "MgS", correct: false },
+          { text: "MgF", correct: false },
+          { text: "MgO₂", correct: false }
+        ],
+        explanation: "Magnesium compounds commonly have the formula MgX₂, where X is a halogen or an oxide, such as MgO (magnesium oxide)."
+      },
+      {
+        question: "Why does NaCl (Sodium Chloride) not conduct electricity in its solid form?",
+        answers: [
+          { text: "Ions in its structure are fixed in positions", correct: true },
+          { text: "It contains no free electrons", correct: false },
+          { text: "It has a giant covalent structure", correct: false },
+          { text: "Ions in its structure only have single negative and single positive charges", correct: false }
+        ],
+        explanation: "In solid NaCl, ions are locked in a fixed position in a lattice structure and cannot move freely to conduct electricity."
+      },
+      {
+        question: "Which of the following compounds does not conduct electricity?",
+        answers: [
+          { text: "Irons", correct: false },
+          { text: "Copper", correct: false },
+          { text: "Carbon (graphite)", correct: false },
+          { text: "Carbon (diamond)", correct: true }
+        ],
+        explanation: "Diamond has a strong covalent network structure and does not have free electrons to conduct electricity, unlike graphite."
+      },
+      {
+        question: "Halogens have their outermost shell. Number of electrons:",
+        answers: [
+          { text: "1", correct: false },
+          { text: "7", correct: true },
+          { text: "2", correct: false },
+          { text: "5", correct: false }
+        ],
+        explanation: "Halogens are in Group VIIA and have seven electrons in their outermost shell."
+      },
+      {
+        question: "Down the group ionization energy decreases due to:",
+        answers: [
+          { text: "Decrease in atomic radii", correct: false },
+          { text: "Increase in atomic radii", correct: true },
+          { text: "Shielding effect", correct: true },
+          { text: "Electron Affinity", correct: false }
+        ],
+        explanation: "As you move down a group, the atomic radius increases and the shielding effect grows, which reduces the ionization energy."
+      },
+      {
+        question: "Electronegativity increases across the period due to:",
+        answers: [
+          { text: "Arrangement of electrons", correct: false },
+          { text: "Increase in the number of charges on the nucleus", correct: true },
+          { text: "Increase in nuclear weight charge exert contracting effect", correct: false },
+          { text: "Penultimate shell being filled", correct: false }
+        ],
+        explanation: "Across a period, the increase in nuclear charge attracts electrons more strongly, increasing electronegativity."
+      },
+      {
+        question: "Group VIIA elements exist as molecules:",
+        answers: [
+          { text: "Tetra-atomic", correct: false },
+          { text: "Triatomic", correct: false },
+          { text: "Monatomic", correct: false },
+          { text: "Diatomic", correct: true }
+        ],
+        explanation: "Group VIIA elements, or halogens, exist as diatomic molecules (e.g., Cl₂, F₂)."
+      },
+      {
+        question: "The following are group IVA elements except:",
+        answers: [
+          { text: "Carbon", correct: false },
+          { text: "Silicon", correct: false },
+          { text: "Lead", correct: false },
+          { text: "Antimony", correct: true }
+        ],
+        explanation: "Antimony is in Group VA, not IVA."
+      },
+      {
+        question: "The oxidation state of nitrogen in nitric oxide is:",
+        answers: [
+          { text: "-1", correct: false },
+          { text: "0", correct: false },
+          { text: "+2", correct: true },
+          { text: "+3", correct: false }
+        ],
+        explanation: "In nitric oxide (NO), nitrogen has an oxidation state of +2."
+      },
+      {
+        question: "Certain elements are named S block elements because:",
+        answers: [
+          { text: "Their outermost electron is contained in S subshell", correct: true },
+          { text: "They have one electron", correct: false },
+          { text: "They have S in their name", correct: false },
+          { text: "They are alkali metals", correct: false }
+        ],
+        explanation: "S block elements have their outermost electron in the S subshell, which includes groups 1 and 2."
+      },
+      {
+        question: "Which of these reactions represent the laboratory preparation of hydrogen?",
+        answers: [
+          { text: "CH₄ + H₂", correct: false },
+          { text: "2Na + 2H₂O → 2NaOH + H₂", correct: false },
+          { text: "Zn + 2HCl → ZnCl₂ + H₂", correct: true },
+          { text: "CuO + H₂", correct: false }
+        ],
+        explanation: "Hydrogen is prepared in the lab by the reaction of a metal (like zinc) with an acid (like hydrochloric acid)."
+      },
+      {
+        question: "The alkali metals exhibit similar chemical properties because:",
+        answers: [
+          { text: "They occur in the combined state", correct: false },
+          { text: "They are highly reactive", correct: false },
+          { text: "They form crystalline salts", correct: false },
+          { text: "They have the same number of outer electrons", correct: true }
+        ],
+        explanation: "All alkali metals have one electron in their outermost shell, which gives them similar chemical properties."
+      },
+      {
+        question: "Which element group is the most reactive?",
+        answers: [
+          { text: "Group VIIA", correct: true },
+          { text: "Noble gases", correct: false },
+          { text: "Group IIA", correct: false },
+          { text: "Group IIIA", correct: false }
+        ],
+        explanation: "Group VIIA elements (halogens) are the most reactive non-metals."
+      },
+      {
+        question: "Which of the following is a peroxide?",
+        answers: [
+          { text: "FeO", correct: false },
+          { text: "BaO₂", correct: true },
+          { text: "CuO", correct: false },
+          { text: "K₂O", correct: false }
+        ],
+        explanation: "BaO₂ is a peroxide, where oxygen is in the -1 oxidation state."
+      },
+      {
+        question: "Which of the following statements is true about metals?",
+        answers: [
+          { text: "They are good conductors of electricity", correct: true },
+          { text: "They are malleable and ductile", correct: true },
+          { text: "They are poor conductors of heat", correct: false },
+          { text: "They have high melting points", correct: true }
+        ],
+        explanation: "Metals are typically good conductors of electricity and heat, and are malleable and ductile."
+      },
+      {
+        question: "The reduction of CO₂ with hydrogen to produce water gas is termed:",
+        answers: [
+          { text: "Reduction reaction", correct: false },
+          { text: "Oxidation reaction", correct: false },
+          { text: "Combustion reaction", correct: false },
+          { text: "Water gas reaction", correct: true }
+        ],
+        explanation: "The reaction of CO₂ with hydrogen to produce water gas (a mixture of CO and H₂) is known as the water gas reaction."
+      },
+      {
+        question: "The vertical columns in the periodic table are called:",
+        answers: [
+          { text: "Groups", correct: true },
+          { text: "Periods", correct: false },
+          { text: "Energy levels", correct: false },
+          { text: "Orbitals", correct: false }
+        ],
+        explanation: "The vertical columns in the periodic table are called groups."
+      },
+      {
+        question: "The horizontal rows in the periodic table are called:",
+        answers: [
+          { text: "Groups", correct: false },
+          { text: "Periods", correct: true },
+          { text: "Series", correct: false },
+          { text: "Clusters", correct: false }
+        ],
+        explanation: "The horizontal rows in the periodic table are called periods."
+      },
+      {
+        question: "Elements are arranged in groups due to the number of electrons in their outermost shell.",
+        answers: [
+          { text: "True", correct: true },
+          { text: "False", correct: false }
+        ],
+        explanation: "Elements are arranged in groups based on the number of electrons in their outermost shell."
+      },
+      {
+        question: "All elements in group one have only one electron in their outermost shell.",
+        answers: [
+          { text: "True", correct: true },
+          { text: "False", correct: false }
+        ],
+        explanation: "Group one elements, or alkali metals, all have one electron in their outermost shell."
+      },
+      {
+        question: "The periodic table can be used to compare and predict properties of different elements.",
+        answers: [
+          { text: "Redox Reaction", correct: false },
+          { text: "Atomic Table", correct: false },
+          { text: "Periodic Table", correct: true },
+          { text: "Oxidation Reaction", correct: false }
+        ],
+        explanation: "The periodic table is a tool used to compare and predict properties of elements based on their position in the table."
+      },
+      {
+        question: "The periodic table was brought about by a chemist named:",
+        answers: [
+          { text: "Antoine Lavoisier", correct: false },
+          { text: "John Dalton", correct: false },
+          { text: "Dmitri Mendeleev", correct: true },
+          { text: "Marie Curie", correct: false }
+        ],
+        explanation: "Dmitri Mendeleev is credited with the development of the periodic table."
+      },
+      {
+        question: "The lightest known gas is:",
+        answers: [
+          { text: "Hydrogen", correct: true },
+          { text: "Helium", correct: false },
+          { text: "Nitrogen", correct: false },
+          { text: "Oxygen", correct: false }
+        ],
+        explanation: "Hydrogen is the lightest known gas."
+      },
+      {
+        question: "Elements that have the same number of protons but different numbers of neutrons are called:",
+        answers: [
+          { text: "Isotopes", correct: true },
+          { text: "Isobars", correct: false },
+          { text: "Isomers", correct: false },
+          { text: "Isotones", correct: false }
+        ],
+        explanation: "Isotopes are elements with the same number of protons but different numbers of neutrons."
+      },
+      {
+        question: "Which of these is not a group IA element?",
+        answers: [
+          { text: "Potassium", correct: false },
+          { text: "Rubidium", correct: false },
+          { text: "Iron", correct: true },
+          { text: "Lithium", correct: false }
+        ],
+        explanation: "Iron is not a group IA element; it is a transition metal."
+      },
+      {
+        question: "The periodic table was brought about in the year:",
+        answers: [
+          { text: "1890", correct: false },
+          { text: "1869", correct: true },
+          { text: "1860", correct: false },
+          { text: "1819", correct: false }
+        ],
+        explanation: "The periodic table was first developed by Dmitri Mendeleev in 1869."
+      },
+      {
+        question: "Halogens have how many electrons in their outermost shell?",
+        answers: [
+          { text: "1", correct: false },
+          { text: "7", correct: true },
+          { text: "2", correct: false },
+          { text: "5", correct: false }
+        ],
+        explanation: "Halogens have 7 electrons in their outermost shell, making them one electron short of a full octet."
+      },
+      {
+        question: "Down the group, ionization energy decreases due to",
+        answers: [
+          { text: "Decrease in atomic radii", correct: false },
+          { text: "Increase in atomic radii", correct: true },
+          { text: "Shielding effect", correct: true },
+          { text: "Electron Affinity", correct: false }
+        ],
+        explanation: "Ionization energy decreases down a group because of the increase in atomic radii and the shielding effect."
+      },
+      {
+        question: "Electronegativity increases across a period due to",
+        answers: [
+          { text: "Arrangement of electrons", correct: false },
+          { text: "Increase in the number of charges on the nucleus", correct: true },
+          { text: "Increase in nuclear weight charge exert contracting effect", correct: false },
+          { text: "Penultimate shell being filled", correct: false }
+        ],
+        explanation: "Electronegativity increases across a period primarily due to the increase in the number of protons in the nucleus, which attracts electrons more strongly."
+      },
+      {
+        question: "Group VIIA elements exist as",
+        answers: [
+          { text: "Tetra-atomic", correct: false },
+          { text: "Monatomic", correct: false },
+          { text: "Triatomic", correct: false },
+          { text: "Diatomic", correct: true }
+        ],
+        explanation: "Group VIIA elements, also known as halogens, exist as diatomic molecules (e.g., Cl<sub>2</sub>, F<sub>2</sub>)."
+      },
+      {
+        question: "Magnesium is in group 2 in the periodic table. Which of the following formulas for Magnesium compounds is correct?",
+        answers: [
+          { text: "MgO", correct: true },
+          { text: "MgS", correct: false },
+          { text: "MgF", correct: false },
+          { text: "MgO<sub>2</sub>", correct: false }
+        ],
+        explanation: "Magnesium forms Mg<sup>2+</sup> ions, so it combines with oxygen (O<sup>2-</sup>) to form MgO."
+      },
+      {
+        question: "Why does NaCl (Sodium Chloride) not conduct electricity in its solid form?",
+        answers: [
+          { text: "Ions in its structure are fixed in positions", correct: true },
+          { text: "It contains no free electrons", correct: false },
+          { text: "It has a giant covalent structure", correct: false },
+          { text: "It only has single positive and negative charges", correct: false }
+        ],
+        explanation: "In solid form, the ions in NaCl are fixed in a lattice and cannot move to conduct electricity. When melted or dissolved in water, the ions are free to move and can conduct electricity."
+      },
+      {
+        question: "When elements are arranged in order of increasing atomic numbers, there is a periodic repetition of their chemical and physical properties. This is known as:",
+        answers: [
+          { text: "The atomic law", correct: false },
+          { text: "The periodic law", correct: true },
+          { text: "The oxidation law", correct: false },
+          { text: "The redox law", correct: false }
+        ],
+        explanation: "This periodic repetition of properties is known as the periodic law."
+      },
+
+
         {
           question: "Acetone reacting with HCN to form a cyanohydrin is an example of",
           answers: [
