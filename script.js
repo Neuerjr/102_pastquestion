@@ -6424,10 +6424,10 @@ const quizData = {
       {
         question: "Which of the following elements is used in the manufacture of fertilizers?",
         answers: [
-          { text: "Phosphorus", correct: true },
-          { text: "Potassium", correct: false },
-          { text: "Nitrogen", correct: false },
-          { text: "Sulfur", correct: false }
+          { text: "Phosphorus only", correct: false },
+          { text: "Potassium only", correct: false },
+          { text: "Nitrogen only", correct: false },
+          { text: "All of the above", correct: true }
         ],
         explanation: "Phosphorus is used in the manufacture of fertilizers."
       },
