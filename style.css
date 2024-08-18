@@ -439,6 +439,7 @@ margin: 60px;
 
 .float{
 	position:fixed;
+    
 	width:60px;
 	height:60px;
 	bottom:40px;

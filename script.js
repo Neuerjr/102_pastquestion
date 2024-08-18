@@ -31,9 +31,11 @@ const topics = {
       { value: 'nomenclature', text: 'Bionomial Nomenclature'}, 
       { value: 'intro', text: 'Review of Plant Kingdom I'},
       { value: 'fungi', text: 'Review of Plant Kigdom II - Fungi' },
+      { value: 'note', text: 'Fundamental Principles of Plant Classification Kingdom Plantae (CLASS NOTE)'},
       { value: 'plantae', text: 'Review of Plant Kigdom III - Bryophyta & Pteridophyta'},
       { value: 'plantee', text: 'Review of Plant Kigdom IV - Spermatophyta'},
-      { value: 'animal', text: 'Review of Animal Kingdom I- Sarcomastigophora - PLlatyhelminthes'},
+      { value: 'notee', text: 'Fundamental Principles of Plant Classification Kingdom Animialia (CLASS NOTE)'},
+      { value: 'animal', text: 'Review of Animal Kingdom I- Sarcomastigophora - Pliatyhelminthes'},
       { value: 'annelids', text: 'Review of Animal Kingdom II- Nematoda - Mollusca'},
       { value: 'arthopods', text: 'Review of Animal Kingdom III- Arthropoda & Echninodermata '},
       { value: 'chordata', text: 'Review of Animal Kingdom IV- Chordata, Hemichordata - Pieces'},
@@ -55,12 +57,9 @@ const topics = {
   ],
   phy102: [
       { value: 'formula', text: 'Formulas You Need' },
-      { value: 'wave', text: 'Introduction to waves' },
-      { value: 'light', text: 'Optics' },
-      { value: 'refraction', text: 'Properties of light wave' },
-      { value: 'sound', text: 'Sound Wave' },
       { value: 'electricity', text: 'Current Electricity' },
       { value: 'field', text: 'Magnetic & Electric field' },
+      { value: 'ei', text: 'Electromagnetic Induction ( CLASS NOTE)' },
       { value: 'ac', text: 'A.C Circuit' },
       { value: 'quanta', text: 'Energy Quantazation' },
   ],
@@ -71,7 +70,6 @@ const topics = {
       { value: 'trig', text: 'Trigonometry' },
   ],
   gst112: [
-      { value: 'word', text: 'Word Formation' },
       { value: 'culture', text: 'Concept Classification of Culture' },
       { value: 'trad', text: 'Traditional economy of pre-colonial Nigerian people' },
       { value: 'nation', text: 'Nation-State' },
@@ -17288,7 +17286,7 @@ const quizData = {
             { text: "931 MeV", correct: true },
             { text: "1 x 10^-19 MeV", correct: false },
             { text: "421 MeV", correct: false },
-            { text: "", correct: false }
+            { text: "444 MeV", correct: false }
           ],
           explanation: "1 atomic mass unit (amu) is approximately equal to 931 Mega-electron volts (MeV)."
         },
@@ -17321,16 +17319,6 @@ const quizData = {
             { text: "Bat", correct: false }
           ],
           explanation: "Ultrasonic waves are not received by light, as light does not interact with sound waves in this frequency range."
-        },
-        {
-          question: "How much ice at 0°C should be added to 100g of water at 20°C so that the final temperature will be 50°C",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
         },
         {
           question: "How many lenses does a compound microscope have",

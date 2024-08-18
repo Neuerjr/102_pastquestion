@@ -45,6 +45,9 @@
         <button class="butn" onclick="showPage('subject-selection')">Study Past Question</button>
         <button class="bntn" onclick="showPage('topic-by-topic-page')">Topic by Topic</button>
         <button class="butn" onclick="showPage('syllabus-page')">My Syllabus</button>
+        <nav>
+            <a href="#opening-page"></a>
+        </nav>
     </div>
 
     <nav>
@@ -68,6 +71,7 @@
             <option value="gst112">GST 112</option>
         </select>
 
+
         <label for="topic">Topic:</label>
         <select id="topic" name="topic">
             <option value="">Select a Topic</option>
@@ -84,32 +88,6 @@
         <button class="btn" onclick="goBackToTopics()">Back to Topics</button>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const params = new URLSearchParams(window.location.search);
-            const topic = params.get('topic');
-            
-            // Assuming articles is an object with topics as keys and content as values
-            const articles = {
-                "fungi": "Article on Classification of Living Things - Fungi...",
-                "chemical-bonds": "Article on Chemical Bonds...",
-                "stoichiometry": "Article on Stoichiometry...",
-                "optics": "Article on Optics...",
-                "kinematics": "Article on Kinematics...",
-                "algebra": "Article on Algebra...",
-                "calculus": "Article on Calculus...",
-                "english-grammar": "Article on English Grammar...",
-                "literature": "Article on Literature..."
-            };
-
-            let articleContent = articles[topic] || '<p>No articles found for the selected topic.</p>';
-            document.getElementById('articles-content').innerHTML = articleContent;
-        });
-
-        function goBackToTopics() {
-            window.location.href = 'index.html'; // Redirect back to the main page
-        }
-    </script>
 
     <!-- Syllabus Page -->
     <div id="syllabus-page" class="container" style="display: none;">
