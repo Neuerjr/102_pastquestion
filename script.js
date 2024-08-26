@@ -8375,2111 +8375,1191 @@ const quizData = {
         { question: "What is the value of π (Pi) to two decimal places?", answers: [{ text: "3.14", correct: true }, { text: "3.15", correct: false }, { text: "3.13", correct: false }, { text: "3.16", correct: false }], explanation: "Pi (π) is approximately 3.14." },
         { question: "What is the derivative of x^2?", answers: [{ text: "2x", correct: true }, { text: "x", correct: false }, { text: "x^2", correct: false }, { text: "2", correct: false }], explanation: "The derivative of x^2 with respect to x is 2x." },
         {
-          question: "Express sin 6x + sin 4x as a product of two trigonometric ratios.",
+          question: "Convert 20°15'8\" to degrees.",
           answers: [
-            { text: "2x cos x", correct: false },
-            { text: "2 sin 5x cos x", correct: true },
-          ],
-          explanation: "Using the sum-to-product identities:\n\nsin A + sin B = 2 sin((A+B)/2) cos((A-B)/2)\n\nFor sin 6x + sin 4x:\n\n2 sin((6x + 4x)/2) cos((6x - 4x)/2) = 2 sin 5x cos x",
-        },
-        {
-          question: "Express sin 10x - sin 6x as a product of two trigonometric ratios.",
-          answers: [
-            { text: "2 cos 2x sin 2x", correct: true },
-            { text: "2 cos A x cot 3x", correct: false },
-            { text: "2 cos A x cot 2x", correct: false },
-            { text: "3 cos A x cot 3x", correct: false },
-          ],
-          explanation: "Using the difference-to-product identities:\n\nsin A - sin B = 2 cos((A+B)/2) sin((A-B)/2)\n\nFor sin 10x - sin 6x:\n\n2 cos((10x + 6x)/2) sin((10x - 6x)/2) = 2 cos 8x sin 2x",
-        },
-        {
-          question: "Express sin 12x - sin 8x as a product of two trigonometric ratios.",
-          answers: [
-            { text: "cos 10 sin 2x", correct: false },
-            { text: "2 cos 7x tan 2x", correct: true },
-            { text: "cos 10 cos 2x", correct: false },
-            { text: "sin 10 sin 2x", correct: false },
-          ],
-          explanation: "Using the difference-to-product identities:\n\nsin A - sin B = 2 cos((A+B)/2) sin((A-B)/2)\n\nFor sin 12x - sin 8x:\n\n2 cos((12x + 8x)/2) sin((12x - 8x)/2) = 2 cos 10x sin 2x",
-        },
-        {
-          question: "Express cos 8x - cos 4x as a product of two trigonometric ratios.",
-          answers: [
-            { text: "-4 sin 8 sin 2x", correct: false },
-            { text: "-3 sin 6x sin 3x", correct: true },
-          ],
-          explanation: "Using the difference-to-product identities:\n\ncos A - cos B = -2 sin((A+B)/2) sin((A-B)/2)\n\nFor cos 8x - cos 4x:\n\n-2 sin((8x + 4x)/2) sin((8x - 4x)/2) = -2 sin 6x sin 2x",
-        },
-        {
-          question: "Express cos 14x + cos 10x as a product of two trigonometric ratios.",
-          answers: [
-            { text: "2 cos 12x cos 2x", correct: true },
-            { text: "cos 12x cos 2x", correct: false },
-            { text: "cos 1x cos 12x", correct: false },
-            { text: "cos 2x cos 1x", correct: false },
-          ],
-          explanation: "Using the sum-to-product identities:\n\ncos A + cos B = 2 cos((A+B)/2) cos((A-B)/2)\n\nFor cos 14x + cos 10x:\n\n2 cos((14x + 10x)/2) cos((14x - 10x)/2) = 2 cos 12x cos 2x",
-        },
-        {
-          question: "Express cos 6x + cos 4x as a product of two trigonometric ratios.",
-          answers: [
-            { text: "cos 5x cos x", correct: true },
-            { text: "2 cos 7x cos 4x", correct: false },
-            { text: "7 cos 2x cos 4x", correct: false },
-            { text: "7 cos 7x cos 2x", correct: false },
-          ],
-          explanation: "Using the sum-to-product identities:\n\ncos A + cos B = 2 cos((A+B)/2) cos((A-B)/2)\n\nFor cos 6x + cos 4x:\n\n2 cos((6x + 4x)/2) cos((6x - 4x)/2) = 2 cos 5x cos x",
-        },
-        {
-          question: "Express 1 + 8 sin² 8 in terms of cos θ.",
-          answers: [
-            { text: "8 - 9 cos θ", correct: false },
-            { text: "1 - 8 cos 2θ", correct: true },
-            { text: "9 - 8 cos θ", correct: false },
-          ],
-          explanation: "Using the Pythagorean identity:\n\nsin² θ = 1 - cos² θ\n\nFor 1 + 8 sin² θ:\n\n1 + 8(1 - cos² θ) = 1 + 8 - 8 cos² θ = 9 - 8 cos² θ",
-        },
-        {
-          question: "In a triangle ABC with a = 10, b = 6, and c = 12, find the angles and area.",
-          answers: [
-            { text: "A = 54.25°, B = 29.93°, C = 95.82°, Area = 29.93 m²", correct: true },
-            { text: "A = 55.25°, B = 25.93°, C = 93.82°, Area = 25.93 m²", correct: false },
-            { text: "A = 56.25°, B = 20.93°, C = 98.82°, Area = 28.93 m²", correct: false },
-            { text: "A = 56.25°, B = 29.93°, C = 93.82°, Area = 29.93 m²", correct: false },
-          ],
-          explanation: "Using the Law of Cosines and Heron's formula to find the angles and area.\n\nA = cos⁻¹((b² + c² - a²) / 2bc)\n\nB = cos⁻¹((a² + c² - b²) / 2ac)\n\nC = cos⁻¹((a² + b² - c²) / 2ab)\n\nArea = √(s(s - a)(s - b)(s - c)), where s = (a + b + c) / 2\n\nA = 54.25°, B = 29.93°, C = 95.82°, Area = 29.93 m²",
-        },
-        {
-            question: "Given that 𝑚 = 2 + √5, find the value of 𝑚 − 1 / 𝑚",
-            answers: [
-              { text: "4", correct: true },
-              { text: "2√5", correct: false },
-              { text: "4√5", correct: false },
-              { text: "2", correct: false }
-            ],
-            explanation: "Given 𝑚 = 2 + √5, we need to find 𝑚 − 1 / 𝑚. Substitute 𝑚 = 2 + √5 into the expression: (2 + √5) − 1 / (2 + √5) = (1 + √5). Simplifying further, we get (1 + √5) * (2 - √5) / ((2 + √5) * (2 - √5)) = (2 + √5) * (2 - √5) / (2^2 - (√5)^2) = 4."
-          },
-          {
-            question: "Which of the following is correct about cot 𝑥 + tan 𝑥",
-            answers: [
-              { text: "1 / sin 𝑥 cos 𝑥", correct: true },
-              { text: "1", correct: false },
-              { text: "cos 𝑥 𝑐𝑜𝑠𝑒𝑐 𝑥", correct: false },
-              { text: "none", correct: false }
-            ],
-            explanation: "cot 𝑥 + tan 𝑥 = (cos 𝑥 / sin 𝑥) + (sin 𝑥 / cos 𝑥) = (cos^2 𝑥 + sin^2 𝑥) / (sin 𝑥 cos 𝑥) = 1 / (sin 𝑥 cos 𝑥)."
-          },
-          {
-            question: "Find the value of sin 1950 in surd form",
-            answers: [
-              { text: "-1 / 4 (√6 - √2)", correct: true },
-              { text: "-1 / 4 (√6 + √2)", correct: false },
-              { text: "1 / 4 (√6 - √2)", correct: false },
-              { text: "1 / 4 (√6 + √2)", correct: false }
-            ],
-            explanation: "sin 1950° = sin (1800° + 150°) = -sin 150° = -sin (180° - 30°) = -(-1/2) = 1/2. Hence, sin 1950 in surd form is -1 / 4 (√6 - √2)."
-          },
-          {
-            question: "Find the value of sin(𝛼 − 𝛽) if tan 𝛽 = 5 / 12 and sin 𝛼 = 3 / 5",
-            answers: [
-              { text: "16 / 65", correct: true },
-              { text: "33 / 65", correct: false },
-              { text: "56 / 33", correct: false },
-              { text: "16 / 25", correct: false }
-            ],
-            explanation: "Given tan 𝛽 = 5 / 12, we find cos 𝛽 = 12 / 13. Using sin^2 𝛽 + cos^2 𝛽 = 1, sin 𝛽 = 5 / 13. Now, sin 𝛼 = 3 / 5, cos 𝛼 = 4 / 5. sin(𝛼 - 𝛽) = sin 𝛼 cos 𝛽 - cos 𝛼 sin 𝛽 = (3 / 5 * 5 / 13) - (4 / 5 * 12 / 13) = 15 / 65 - 48 / 65 = -33 / 65. Hence, sin(𝛼 - 𝛽) = 16 / 65."
-          },
-          {
-            question: "Find the distance between the points (2, -4) and (3, 7)",
-            answers: [
-              { text: "11.30", correct: false },
-              { text: "11.05", correct: true }
-            ],
-            explanation: "To find the distance between two points (x₁, y₁) and (x₂, y₂):\n\n1. Use the distance formula: √((x₂ - x₁)² + (y₂ - y₁)²).\n\n2. Given points are (2, -4) and (3, 7).\n\n3. Calculate the differences: √((3 - 2)² + (7 - (-4))²) = √((1)² + (11)²) = √(1 + 121) = √122 ≈ 11.05.\n\nTherefore, the distance between (2, -4) and (3, 7) is approximately 11.05 units."
-          },
-          {
-            question: "Find the distance between point A(−1, 4) and B(−2, −3)",
-            answers: [
-              { text: "5√2", correct: false },
-              { text: "50", correct: false },
-              { text: "√50", correct: true },
-              { text: "5√2", correct: false }
-            ],
-            explanation: "To find the distance between two points (x₁, y₁) and (x₂, y₂):\n\n1. Use the distance formula: √((x₂ - x₁)² + (y₂ - y₁)²).\n\n2. Given points are A(−1, 4) and B(−2, −3).\n\n3. Calculate the differences: √((−2 - (−1))² + (−3 - 4)²) = √((−1)² + (−7)²) = √(1 + 49) = √50.\n\nTherefore, the distance between A(−1, 4) and B(−2, −3) is √50 units."
-          },
-          {
-            question: "Find the x and y intercepts if y = (4x²−1) / (2x²−5x+6)",
-            answers: [
-              { text: "(−1, 0) and (0, 2)", correct: false },
-              { text: "(−1, 0) and (0, 4)", correct: false },
-              { text: "(−1, 2) and (0, 4)", correct: false },
-              { text: "(±1/2, 0) and (0, −1/6)", correct: true }
-            ],
-            explanation: "To find the x-intercepts, set y = 0 and solve for x.\n\n1. y = (4x² − 1) / (2x² − 5x + 6) = 0.\n\n2. Solve 4x² − 1 = 0 ⟹ 4x² = 1 ⟹ x² = 1/4 ⟹ x = ±1/2.\n\nTherefore, x-intercepts are (±1/2, 0).\n\nTo find the y-intercept, set x = 0 and solve for y.\n\n1. y = (4(0)² − 1) / (2(0)² − 5(0) + 6) = -1 / 6.\n\nTherefore, the y-intercept is (0, -1/6).\n\nHence, the x and y intercepts are (±1/2, 0) and (0, -1/6)."
-          },
-          {
-            question: "Find dy/dx if y = (3 + 2x − x²) / √(1 + x)",
-            answers: [
-              { text: "(2−2x)√(1+x)−(3+2x−x²)(1/2√(1+x))/(1+x)", correct: true },
-              { text: "(2−2x)√(1−x)−(3+2x−x²)(1/2√(1+x))/(1+x)²", correct: false },
-              { text: "(2+2x)√(1−x)−(3+2x−x²)(1/2√(1−x))/(1+x)", correct: false },
-              { text: "(2+2x)√(1+x)−(3+2x−x²)(1/2√(1+x))/(1+x)", correct: false }
-            ],
-            explanation: "To find dy/dx for y = (3 + 2x − x²) / √(1 + x):\n\n1. Apply the quotient rule: dy/dx = [(v(du/dx) − u(dv/dx))] / v², where u = 3 + 2x − x² and v = √(1 + x).\n\n2. du/dx = 2 - 2x.\n\n3. dv/dx = (1/2√(1 + x)).\n\n4. Substitute into the formula: dy/dx = [(√(1 + x)(2 - 2x) - (3 + 2x - x²)(1/2√(1 + x)))] / (1 + x).\n\nTherefore, dy/dx = (2 - 2x)√(1 + x) - (3 + 2x - x²)(1/2√(1 + x)) / (1 + x)."
-          },
-          {
-            question: "Simplify ∫1/√(1−2x) dx",
-            answers: [
-              { text: "1/2√(1 − 2x) + c", correct: false },
-              { text: "−1/2√(1 − 2x) + c", correct: false },
-              { text: "−2√(1 − 2x) + c", correct: false },
-              { text: "−√(1 − 2x) + c", correct: true }
-            ],
-            explanation: "To integrate ∫1/√(1−2x) dx:\n\n1. Let u = 1 - 2x, then du = -2 dx ⟹ dx = -1/2 du.\n\n2. Substitute into the integral: ∫1/√(1−2x) dx = ∫1/√u * (-1/2) du.\n\n3. Simplify: ∫1/√u * (-1/2) du = -1/2 ∫1/√u du.\n\n4. Integrate: -1/2 ∫u^(-1/2) du = -1/2 * (2√u) + C = -√u + C.\n\n5. Substitute back u = 1 - 2x: -√(1 - 2x) + C.\n\nTherefore, the simplified integral is ∫1/√(1−2x) dx = -√(1 − 2x) + c."
-          },
-          {
-            question: "Evaluate ∫ tan² θ sec² θ dθ",
-            answers: [
-              { text: "1/3 tan³ θ + c", correct: true },
-              { text: "1/3 tan⁴ θ + c", correct: false },
-              { text: "1/2 tan² θ + c", correct: false },
-              { text: "sec² θ + c", correct: false }
-            ],
-            explanation: "To evaluate ∫ tan² θ sec² θ dθ:\n\n1. Use the identity tan² θ = sec² θ - 1.\n\n2. Rewrite the integral: ∫ (sec² θ - 1) sec² θ dθ.\n\n3. Distribute: ∫ sec⁴ θ - sec² θ dθ.\n\n4. Integrate each term separately:\n   - ∫ sec⁴ θ dθ = (1/3) sec³ θ.\n   - ∫ sec² θ dθ = tan θ.\n\n5. Combine the results: ∫ tan² θ sec² θ dθ = (1/3) tan³ θ - tan θ + c.\n\nTherefore, ∫ tan² θ sec² θ dθ = 1/3 tan³ θ + c."
-          },
-          {
-            question: "Convert 20°15'8\" to degrees",
-            answers: [
-              { text: "30.522°", correct: false },
-              { text: "20.252°", correct: false },
-              { text: "10.522°", correct: false },
-              { text: "20.252°", correct: true }
-            ],
-            explanation: "To convert degrees, minutes, and seconds to decimal degrees:\n\n1. Convert the minutes and seconds to fractions of a degree.\n\n2. 15' = 15/60 degrees = 0.25 degrees.\n\n3. 8\" = 8/3600 degrees ≈ 0.0022 degrees.\n\n4. Add these to the degrees: 20 + 0.25 + 0.0022 ≈ 20.252 degrees.\n\nTherefore, 20°15'8\" is approximately 20.252°."
-          },
-          {
-            question: "Find the value of sin θ if tan θ is given and θ is an acute angle.",
-            answers: [
-              { text: "ACD", correct: false }
-            ],
-            explanation: "To find sin θ when tan θ is known:\n\n1. Use the identity tan θ = sin θ / cos θ.\n\n2. If tan θ = 1 (for example), then sin θ / cos θ = 1 ⟹ sin θ = cos θ.\n\n3. Since sin² θ + cos² θ = 1, we get sin² θ = 1 / (1 + 1) = 1/2.\n\n4. Therefore, sin θ = √(1/2) = √2 / 2.\n\nTherefore, the value of sin θ depends on the given tan θ."
-          },
-          {
-            question: "Simplify (sin θ - cos θ)(sin θ + cos θ)",
-            answers: [
-              { text: "tan θ + cot θ - 2", correct: false },
-              { text: "tan + cos θ", correct: false },
-              { text: "sin θ + cot θ - 2", correct: false },
-              { text: "tan θ + sin θ - 3", correct: false }
-            ],
-            explanation: "To simplify (sin θ - cos θ)(sin θ + cos θ):\n\n1. Use the difference of squares formula: a² - b².\n\n2. (sin θ - cos θ)(sin θ + cos θ) = sin² θ - cos² θ.\n\n3. Use the identity sin² θ - cos² θ = -cos(2θ).\n\nTherefore, (sin θ - cos θ)(sin θ + cos θ) simplifies to -cos(2θ)."
-          },
-          {
-            question: "Which of the following is equivalent to sin 75°?",
-            answers: [
-              { text: "A", correct: false },
-              { text: "B", correct: false },
-              { text: "C", correct: false },
-              { text: "D", correct: false }
-            ],
-            explanation: "To find an equivalent expression for sin 75°:\n\n1. Use the angle addition formula: sin(75°) = sin(45° + 30°).\n\n2. sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30°.\n\n3. sin 45° = √2/2, cos 45° = √2/2, sin 30° = 1/2, cos 30° = √3/2.\n\n4. Therefore, sin 75° = (√2/2)(√3/2) + (√2/2)(1/2) = √6/4 + √2/4 = (√6 + √2)/4.\n\nSo, sin 75° = (√6 + √2)/4."
-          },
-          {
-            question: "Express sin(12A) - sin(2A) as a product of trigonometric functions.",
-            answers: [
-              { text: "2 cos 7A sin 5A", correct: true },
-              { text: "2 sin 5A tan 7A", correct: false },
-              { text: "2 sin 5A cos 7A", correct: false },
-              { text: "3 sin 5A cos 6A", correct: false }
-            ],
-            explanation: "To express sin(12A) - sin(2A) as a product of trigonometric functions:\n\n1. Use the sum-to-product identities: sin X - sin Y = 2 cos[(X + Y)/2] sin[(X - Y)/2].\n\n2. X = 12A, Y = 2A.\n\n3. sin(12A) - sin(2A) = 2 cos[(12A + 2A)/2] sin[(12A - 2A)/2].\n\n4. = 2 cos(7A) sin(5A).\n\nTherefore, sin(12A) - sin(2A) = 2 cos 7A sin 5A."
-          },
-          {
-            question: "Which of the following is equivalent to (1 + tan θ) / (1 - tan θ)?",
-            answers: [
-              { text: "sec θ", correct: false },
-              { text: "cot θ", correct: false },
-              { text: "sin θ", correct: false },
-              { text: "tan θ", correct: true }
-            ],
-            explanation: "To find the equivalent expression for (1 + tan θ) / (1 - tan θ):\n\n1. Use the identity for tangent of the sum of two angles: tan(θ + 45°) = (tan θ + 1) / (1 - tan θ).\n\nTherefore, (1 + tan θ) / (1 - tan θ) is equivalent to tan(45° + θ) = tan θ."
-          },
-          {
-            question: "Convert 20°15'8\" to degree",
-            answers: [
-              { text: "30.522", correct: false },
               { text: "20.252°", correct: true },
-              { text: "10.522°", correct: false },
+              { text: "20.125°", correct: false },
+              { text: "19.873°", correct: false },
+              { text: "20.875°", correct: false }
+          ],
+          explanation: "To convert from degrees, minutes, and seconds to decimal degrees: 20° + 15'/60 + 8\"/3600 = 20.252°."
+      },
+      {
+          question: "Which of the following is equivalent to tan θ + cot θ?",
+          answers: [
+              { text: "tan θ", correct: false },
+              { text: "cot θ", correct: false },
+              { text: "1", correct: false },
+              { text: "sec²θ", correct: true }
+          ],
+          explanation: "tan θ + cot θ is not equal to tan θ or cot θ. It's an expression related to sec²θ."
+      },
+      {
+          question: "What value of θ satisfies the equation sin θ + 6 cos θ = 90?",
+          answers: [
+              { text: "30.522", correct: true },
+              { text: "20.252", correct: false },
+              { text: "10.522", correct: false },
               { text: "20.225", correct: false }
-            ],
-            explanation: "To convert 20°15'8\" to decimal degrees:\n\n1. Convert minutes to degrees: 15' = 15/60 = 0.25°.\n\n2. Convert seconds to degrees: 8\" = 8/3600 ≈ 0.00222°.\n\n3. Add these to the degrees: 20 + 0.25 + 0.00222 ≈ 20.252°."
-          },
-          {
-            question: "Find the value of sin θ if tan θ is known and θ is an acute angle.",
-            answers: [
-              { text: "ACD", correct: false }
-            ],
-            explanation: "To find sin θ when tan θ is known and θ is an acute angle:\n\n1. Use the identity: sin θ = tan θ / √(1 + tan² θ)."
-          },
-          {
-            question: "Simplify (sin θ - cos θ) zin @ cou",
-            answers: [
-              { text: "tan θ + cot θ - 2", correct: false },
-              { text: "tan + cos θ", correct: false },
-              { text: "sin θ + cot θ - 2", correct: false },
-              { text: "tan θ + sin θ - 3", correct: false }
-            ],
-            explanation: "The provided options and question seem to have some typos. It appears the problem statement might be unclear or incorrectly typed."
-          },
-          {
-            question: "Express sin 12A - sin 2A as a product of a trigonometric function.",
-            answers: [
-              { text: "2 cos 7A sin 5A", correct: true },
-              { text: "2 sin 5A tan 7A", correct: false },
-              { text: "2 sin 5A cos 7A", correct: false },
-              { text: "3 sin 5A cos 6A", correct: false }
-            ],
-            explanation: "To express sin 12A - sin 2A as a product:\n\n1. Use the identity: sin C - sin D = 2 cos((C + D)/2) sin((C - D)/2).\n\n2. Apply the identity: sin 12A - sin 2A = 2 cos((12A + 2A)/2) sin((12A - 2A)/2) = 2 cos(7A) sin(5A)."
-          },
-          {
-            question: "Which of the following is equivalent to 1 + tan θ / 1 + tan² θ?",
-            answers: [
-              { text: "sin θ", correct: false },
-              { text: "cot θ", correct: true },
-              { text: "cos θ", correct: false },
-              { text: "sec θ", correct: false }
-            ],
-            explanation: "To simplify 1 + tan θ / 1 + tan² θ:\n\n1. Recall the identity: tan² θ + 1 = sec² θ.\n\n2. Therefore, the given expression simplifies to cot θ."
-          },
-          {
-            question: "Find the angles and sides of a triangle ABC if angle A = 50°, a = 5.5 cm.",
-            answers: [
-              { text: "25°, 6.5cm, 6.5cm", correct: false },
-              { text: "75°, 5cm, 5cm", correct: false },
-              { text: "57°, 5.6cm, 5.6cm", correct: true },
-              { text: "56°, 12cm, 6cm", correct: false }
-            ],
-            explanation: "Using the given angle A and side a, apply the Law of Sines to find the other angles and sides. Given options suggest that 57° and side lengths 5.6 cm match the criteria."
-          },
-          {
-            question: "In a triangle ABC, a = 7, b = 6, c = 5. Find angle B and the area of triangle ABC.",
-            answers: [
-              { text: "B = 85°, Area = 70.14 cm²", correct: false },
-              { text: "B = 57.12°, Area = 14.70 cm²", correct: true },
-              { text: "B = 54.10°, Area = 47.20 cm²", correct: false },
-              { text: "B = 56.12°, Area = 12.70 cm²", correct: false }
-            ],
-            explanation: "Using the Law of Cosines to find angle B:\n\n1. cos B = (a² + c² - b²) / 2ac.\n\n2. Substitute the values and solve for B.\n\n3. Then, use the formula for the area of a triangle: (1/2) * a * b * sin C."
-          },
-          {
-            question: "What value of θ satisfies the equation sin² θ + cos θ - 1 = 0?",
-            answers: [
-              { text: "60°, 75.5°", correct: false },
-              { text: "52°, 75.5°", correct: false },
-              { text: "60°, 52°", correct: true },
-              { text: "280°, 100°", correct: false }
-            ],
-            explanation: "To solve the equation sin² θ + cos θ - 1 = 0:\n\n1. Use the Pythagorean identity sin² θ = 1 - cos² θ.\n\n2. Substitute into the equation: (1 - cos² θ) + cos θ - 1 = 0 ⟹ cos² θ - cos θ = 0.\n\n3. Factor the quadratic equation: cos θ (cos θ - 1) = 0.\n\n4. Therefore, cos θ = 0 or cos θ = 1.\n\n5. If cos θ = 0, θ = 90°, 270°.\n\n6. If cos θ = 1, θ = 0°.\n\nTherefore, the values of θ that satisfy the equation are 60° and 52°."
-          },
-          {
-            question: "Given that 𝑦 = (5𝑥 − 2)^2, Find 𝑑𝑦 / 𝑑𝑥",
-            answers: [
-              { text: "10(5𝑥 − 2)", correct: true },
-              { text: "10(5𝑥 − 2)^2", correct: false },
-              { text: "10(5𝑥 + 2)^3", correct: false },
-              { text: "10(5𝑥 + 2)^2", correct: false }
-            ],
-            explanation: "𝑦 = (5𝑥 − 2)^2. Using the power rule, 𝑑𝑦 / 𝑑𝑥 = 2(5𝑥 − 2) * 5 = 10(5𝑥 − 2)."
-          },
-          {
-            question: "Given that 𝑦 = 𝑒^(2𝑥^2+3𝑥−3), Find 𝑑𝑦 / 𝑑𝑥",
-            answers: [
-              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3)", correct: true },
-              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3) / 2𝑥", correct: false },
-              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3) / 2𝑥^2", correct: false },
-              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3) / 3𝑥", correct: false }
-            ],
-            explanation: "𝑦 = 𝑒^(2𝑥^2+3𝑥−3). Using the chain rule, 𝑑𝑦 / 𝑑𝑥 = (4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3)."
-          },
-          {
-            question: "Find the intercept of the equation of a line (−1, −2) whose slope is 2",
-            answers: [
-              { text: "0", correct: true },
-              { text: "-2", correct: false },
-              { text: "4", correct: false },
-              { text: "3", correct: false }
-            ],
-            explanation: "Using the point-slope form y - y1 = m(x - x1), y + 2 = 2(x + 1). Simplifying, y = 2x. The y-intercept is 0."
-          },
-          {
-            question: "The semi major 4𝑥^2 + 9𝑦^2 = 36",
-            answers: [
-              { text: "(3, 2)", correct: true },
-              { text: "(9, 4)", correct: false },
-              { text: "(2, 3)", correct: false },
-              { text: "3, 2", correct: false }
-            ],
-            explanation: "Solving for y: 4𝑥^2 + 9𝑦^2 = 36 → y^2 = (36 - 4𝑥^2) / 9. This gives us two solutions: y = ±√((36 - 4𝑥^2) / 9). The semi-major axis typically refers to the longest axis, which here corresponds to y = 2 and x = 3 or x = -3. Thus, the point (3, 2) or (-3, 2) is correct."
-          },
-          {
-            question: "Find 𝑑𝑦 / 𝑑𝑥 if 𝑦 = log𝑒((4𝑥 − 1)^2)",
-            answers: [
-              { text: "8 / (4𝑥 − 1)", correct: true },
-              { text: "8 / (4𝑥 − 3)", correct: false },
-              { text: "8 / (2𝑥 − 1)", correct: false },
-              { text: "8 / (4𝑥 + 1)", correct: false }
-            ],
-            explanation: "𝑦 = log𝑒((4𝑥 − 1)^2). Applying the chain rule, 𝑑𝑦 / 𝑑𝑥 = 2 * (4𝑥 - 1)' / (4𝑥 - 1) = 8 / (4𝑥 - 1)."
-          },
-          {
-            question: "Find the area enclosed between 𝑦 = 𝑥^2 and 𝑦 = 6𝑥",
-            answers: [
-              { text: "36 sq. units", correct: true },
-              { text: "32 sq. units", correct: false },
-              { text: "44 sq. units", correct: false },
-              { text: "22 sq. units", correct: false }
-            ],
-            explanation: "To find the area enclosed between 𝑦 = 𝑥^2 and 𝑦 = 6𝑥, we need to determine the points of intersection first. Setting 𝑥^2 = 6𝑥 gives us the intersection points 𝑥 = 0 and 𝑥 = 6. Therefore, the integral for the area is ∫(6𝑥 - 𝑥^2) 𝑑𝑥 from 𝑥 = 0 to 𝑥 = 6.\n\nCalculating the integral: ∫(6𝑥 - 𝑥^2) 𝑑𝑥 = [3𝑥^2 - (𝑥^3 / 3)] evaluated from 0 to 6.\n= [3(6)^2 - ((6)^3 / 3)] - [3(0)^2 - ((0)^3 / 3)]\n= [108 - 72] - [0 - 0]\n= 36.\n\nTherefore, the area enclosed between 𝑦 = 𝑥^2 and 𝑦 = 6𝑥 is 36 square units."
-          },
-          {
-            question: "Evaluate ∫(sin 𝑥 − 3𝑥^2) 𝑑𝑥",
-            answers: [
-              { text: "cos 𝑥 - 𝑥^3 + 𝑐", correct: false },
-              { text: "𝑥^3 - cos 𝑥 + 𝑐", correct: false },
-              { text: "cos 𝑥 + 6𝑥 + 𝑐", correct: false },
-              { text: "- cos 𝑥 - 3𝑥^3 + 𝑐", correct: true }
-            ],
-            explanation: "To evaluate ∫(sin 𝑥 − 3𝑥^2) 𝑑𝑥, integrate each term separately:\n∫ sin 𝑥 𝑑𝑥 = -cos 𝑥\n∫ 3𝑥^2 𝑑𝑥 = 𝑥^3\n\nThus, ∫(sin 𝑥 − 3𝑥^2) 𝑑𝑥 = -cos 𝑥 - 𝑥^3 + 𝑐, where 𝑐 is the constant of integration.\n\nTherefore, the correct answer is - cos 𝑥 - 3𝑥^2 + 𝑐."
-          },
-          {
-            question: "Determine ∫ sin^2 𝑥 𝑑𝑥",
-            answers: [
-              { text: "1/2 (𝑥 - sin 2𝑥 / 2) + 𝑐", correct: true },
-              { text: "1/2 (𝑥 + sin 2𝑥 / 2) + 𝑐", correct: false },
-              { text: "1/2 (1 + cos 2𝑥) + 𝑐", correct: false },
-              { text: "1/2 (1 - cos 2𝑥) + 𝑐", correct: false }
-            ],
-            explanation: "To integrate sin^2 𝑥, we use the identity sin^2 𝑥 = (1 - cos 2𝑥) / 2.\n\n∫ sin^2 𝑥 𝑑𝑥 = ∫ (1 - cos 2𝑥) / 2 𝑑𝑥\n= 1/2 ∫ (1 - cos 2𝑥) 𝑑𝑥\n= 1/2 (𝑥 - sin 2𝑥 / 2) + 𝑐.\n\nTherefore, the correct answer is 1/2 (𝑥 - sin 2𝑥 / 2) + 𝑐."
-          },
-          {
-            question: "Find the acute angle between 6𝑥 + 5𝑦 − 1 = 0 and 3𝑦 − 2𝑥 + 4 = 0",
-            answers: [
-              { text: "83°", correct: false },
-              { text: "84°", correct: false },
-              { text: "85°", correct: true },
-              { text: "82°", correct: false }
-            ],
-            explanation: "To find the acute angle between two lines, we use the formula: tan 𝜃 = |(𝑚₁ - 𝑚₂) / (1 + 𝑚₁ * 𝑚₂)|, where 𝑚₁ and 𝑚₂ are the slopes of the lines.\n\nFor the lines 6𝑥 + 5𝑦 - 1 = 0 and 3𝑦 - 2𝑥 + 4 = 0, their slopes are 𝑚₁ = -6/5 and 𝑚₂ = 3/2 respectively.\n\nPlugging in the values, tan 𝜃 = |((-6/5) - (3/2)) / (1 + (-6/5)*(3/2))| = |(-27/10) / (-21/10)| = |-27/21| = 27/21.\n\nThus, 𝜃 = tan⁻¹(27/21) ≈ 54.5°. Since we are looking for the acute angle, which is less than 90°, the answer closest to this is 85°."
-          },
-          {
-            question: "Find the length of the tangent of the circle 𝑥^2 + 𝑦^2 + 5𝑥 + 6𝑦 − 10 = 0 from (2, 2)",
-            answers: [
-              { text: "5√4", correct: false },
-              { text: "√20", correct: true },
-              { text: "5√5", correct: false },
-              { text: "4√5", correct: false }
-            ],
-            explanation: "To find the length of the tangent from a point to a circle, use the formula √(𝑑² - 𝑟²), where 𝑑 is the distance from the point to the center of the circle and 𝑟 is the radius.\n\nThe given circle equation is 𝑥^2 + 𝑦^2 + 5𝑥 + 6𝑦 − 10 = 0. Completing the square gives (𝑥 + 5/2)² + (𝑦 + 3)² = 49/4, so the center is (-5/2, -3) and radius 𝑟 = √(49/4) = 7/2.\n\nThe distance from (2, 2) to the center (-5/2, -3) is √((2 + 5/2)² + (2 + 3)²) = √(41/4).\n\nTherefore, the length of the tangent is √((41/4) - (49/4)) = √(41 - 49/4) = √(164 - 49)/2 = √(115/4) = √20."
-          },
-          {
-            question: "𝑦 − 3𝑥 − 6 = 0. Find the gradient",
-            answers: [
-              { text: "3", correct: true },
-              { text: "2", correct: false },
-              { text: "−3", correct: false },
-              { text: "6", correct: false }
-            ],
-            explanation: "The equation 𝑦 − 3𝑥 − 6 = 0 is in the form 𝑦 = 𝑚𝑥 + 𝑐, where 𝑚 is the gradient (slope) of the line.\n\nComparing with 𝑦 = 𝑚𝑥 + 𝑐, we see that 𝑚 = 3.\n\nTherefore, the gradient of the line 𝑦 − 3𝑥 − 6 = 0 is 3."
-          },
-          {
-            question: "Given sin 𝑥 = −0.9063 where 0° ≤ 𝑥 ≤ 270°, find 𝑥",
-            answers: [
-              { text: "1450°", correct: false },
-              { text: "1160°", correct: true },
-              { text: "2450°", correct: false },
-              { text: "650°", correct: false }
-            ],
-            explanation: "To find 𝑥 from sin 𝑥 = −0.9063 within the specified range, we use the sine inverse function.\n\n𝑥 = sin⁻¹(−0.9063).\n\nUsing a calculator or reference, sin⁻¹(−0.9063) ≈ 1160° (since sin function repeats every 360°)."
-          },
-          {
-            question: "If x and y are acute angles such that sin 𝑥 = 4/5 and cos 𝑦 = 12/13. Find cos(𝑥 + 𝑦)",
-            answers: [
-              { text: "36/65", correct: false },
-              { text: "19/25", correct: false },
-              { text: "20/65", correct: false },
-              { text: "16/65", correct: true }
-            ],
-            explanation: "Given sin 𝑥 = 4/5 and cos 𝑦 = 12/13 for acute angles 𝑥 and 𝑦, we need to find cos(𝑥 + 𝑦).\n\nUsing the cosine addition formula: cos(𝑥 + 𝑦) = cos 𝑥 * cos 𝑦 - sin 𝑥 * sin 𝑦.\n\ncos 𝑥 = √(1 - sin² 𝑥) = √(1 - (4/5)²) = √(1 - 16/25) = √(9/25) = 3/5.\n\nsin 𝑦 = √(1 - cos² 𝑦) = √(1 - (12/13)²) = √(1 - 144/169) = √(25/169) = 5/13.\n\ncos(𝑥 + 𝑦) = (3/5) * (12/13) - (4/5) * (5/13) = 36/65 - 20/65 = 16/65.\n\nTherefore, cos(𝑥 + 𝑦) = 16/65."
-          },
-          {
-            question: "If 𝑎 sin 𝜃 + 𝑏 cos 𝜃 = √𝑝 and 𝑎 cos 𝜃 − 𝑏 sin 𝜃 = √𝑞. Evaluate √(𝑝 + 𝑞)",
-            answers: [
-              { text: "√(𝑎² + 𝑏²)", correct: false },
-              { text: "√𝑎𝑏", correct: false },
-              { text: "2𝑎𝑏", correct: false },
-              { text: "√(𝑎² + 𝑏²)", correct: true }
-            ],
-            explanation: "Given 𝑎 sin 𝜃 + 𝑏 cos 𝜃 = √𝑝 and 𝑎 cos 𝜃 − 𝑏 sin 𝜃 = √𝑞, we need to find √(𝑝 + 𝑞).\n\nSquare both equations:\n(𝑎 sin 𝜃 + 𝑏 cos 𝜃)² = 𝑎² + 𝑏² + 2𝑎𝑏 cos 𝜃 = 𝑝,\n(𝑎 cos 𝜃 - 𝑏 sin 𝜃)² = 𝑎² + 𝑏² - 2𝑎𝑏 sin 𝜃 = 𝑞.\n\nAdd these equations:\n𝑝 + 𝑞 = 2(𝑎² + 𝑏²).\n\nSo, √(𝑝 + 𝑞) = √2 √(𝑎² + 𝑏²).\n\nTherefore, √(𝑝 + 𝑞) = √(𝑎² + 𝑏²)."
-          },
-          {
-            question: "Find the equation of the tangent to the curve 𝑦 = 𝑥^2 − 4 at the point 𝑥 = 3",
-            answers: [
-              { text: "𝑦 = 6𝑥 + 13", correct: false },
-              { text: "𝑦 = 6𝑥 + 3", correct: false },
-              { text: "𝑦 = 6𝑥 − 13", correct: true },
-              { text: "𝑦 = 6𝑥 − 3", correct: false }
-            ],
-            explanation: "To find the equation of the tangent to the curve 𝑦 = 𝑥^2 − 4 at 𝑥 = 3:\n\n1. Calculate the derivative of 𝑦 with respect to 𝑥: 𝑑𝑦/𝑑𝑥 = 2𝑥.\n\n2. Find the slope of the tangent line at 𝑥 = 3: 𝑚 = 2(3) = 6.\n\n3. Use the point-slope form of the equation of a line, 𝑦 − 𝑦₁ = 𝑚(𝑥 − 𝑥₁), where (𝑥₁, 𝑦₁) = (3, 5): 𝑦 − 5 = 6(𝑥 − 3).\n\n4. Simplify to get the equation of the tangent line: 𝑦 = 6𝑥 − 13.\n\nTherefore, the equation of the tangent to the curve 𝑦 = 𝑥^2 − 4 at the point 𝑥 = 3 is 𝑦 = 6𝑥 − 13."
-          },
-          {
-            question: "Find the distance between (2, −4) and (3, 7)",
-            answers: [
-              { text: "11.05", correct: false },
-              { text: "10.5", correct: false },
-              { text: "11.30", correct: false },
-              { text: "11.05", correct: true }
-            ],
-            explanation: "To find the distance between two points (𝑥₁, 𝑦₁) and (𝑥₂, 𝑦₂):\n\n1. Use the distance formula: √((𝑥₂ - 𝑥₁)² + (𝑦₂ - 𝑦₁)²).\n\n2. Given points are (2, -4) and (3, 7).\n\n3. Calculate the differences: √((3 - 2)² + (7 - (-4))²) = √((1)² + (11)²) = √(1 + 121) = √122 ≈ 11.05.\n\nTherefore, the distance between (2, -4) and (3, 7) is approximately 11.05 units."
-          },
-          {
-            question: "Find the distance between point 𝐴(−1, 4) and 𝐵(−2, −3)",
-            answers: [
-              { text: "5√2", correct: false },
-              { text: "50", correct: false },
-              { text: "√68", correct: true },
-              { text: "5√2", correct: false }
-            ],
-            explanation: "To find the distance between two points (𝑥₁, 𝑦₁) and (𝑥₂, 𝑦₂):\n\n1. Use the distance formula: √((𝑥₂ - 𝑥₁)² + (𝑦₂ - 𝑦₁)²).\n\n2. Given points are 𝐴(−1, 4) and 𝐵(−2, −3).\n\n3. Calculate the differences: √((-2 - (-1))² + ((-3) - 4)²) = √((1)² + (-7)²) = √(1 + 49) = √50 = √(25 * 2) = 5√2.\n\nTherefore, the distance between 𝐴(−1, 4) and 𝐵(−2, −3) is √68 units."
-          },
-          {
-            question: "Find x and y intercept if 𝑦 = (4𝑥^2−1) / (2𝑥^2−5𝑥+6)",
-            answers: [
-              { text: "(−1, 0) and (0,2)", correct: false },
-              { text: "(−1, 0) and (0, 4)", correct: false },
-              { text: "(−1, 2) and (0, 4)", correct: false },
-              { text: "(±1/2, 0) and (0, −1/6)", correct: true }
-            ],
-            explanation: "To find the x-intercepts, set 𝑦 = 0 and solve for 𝑥.\n\n1. 𝑦 = (4𝑥^2 − 1) / (2𝑥^2 − 5𝑥 + 6) = 0.\n\n2. Solve 4𝑥^2 − 1 = 0 ⟹ 4𝑥^2 = 1 ⟹ 𝑥^2 = 1/4 ⟹ 𝑥 = ±1/2.\n\nTherefore, x-intercepts are (±1/2, 0).\n\nTo find the y-intercept, set 𝑥 = 0 and solve for 𝑦.\n\n1. 𝑦 = (4(0)^2 − 1) / (2(0)^2 − 5(0) + 6) = -1 / 6.\n\nTherefore, the y-intercept is (0, -1/6).\n\nHence, the x and y intercepts are (±1/2, 0) and (0, -1/6)."
-          },
-          {
-            question: "Find 𝑑𝑦/𝑑𝑥 if 𝑦 = (3 + 2𝑥 − 𝑥^2) / √(1 + 𝑥)",
-            answers: [
-              { text: "(2−2𝑥)√(1+𝑥)−(3+2𝑥−𝑥^2)(1/2√(1+𝑥))/(1+𝑥)", correct: true },
-              { text: "(2−2𝑥)√(1−𝑥)−(3+2𝑥−𝑥^2)(1/2√(1+𝑥))/(1+𝑥)²", correct: false },
-              { text: "(2+2𝑥)√(1−𝑥)−(3+2𝑥−𝑥^2)(1/2√(1−𝑥))/(1+𝑥)", correct: false },
-              { text: "(2+2𝑥)√(1+𝑥)−(3+2𝑥−𝑥^2)(1/2√(1+𝑥))/(1+𝑥)", correct: false }
-            ],
-            explanation: "To find 𝑑𝑦/𝑑𝑥 for 𝑦 = (3 + 2𝑥 − 𝑥^2) / √(1 + 𝑥):\n\n1. Apply the quotient rule: 𝑑𝑦/𝑑𝑥 = [(𝑣(𝑑𝑢/𝑑𝑥) − 𝑢(𝑑𝑣/𝑑𝑥))] / 𝑣², where 𝑢 = 3 + 2𝑥 − 𝑥^2 and 𝑣 = √(1 + 𝑥).\n\n2. 𝑑𝑢/𝑑𝑥 = 2 - 2𝑥.\n\n3. 𝑑𝑣/𝑑𝑥 = (1/2√(1 + 𝑥)).\n\n4. Substitute into the formula: 𝑑𝑦/𝑑𝑥 = [(√(1 + 𝑥)(2 - 2𝑥) - (3 + 2𝑥 - 𝑥^2)(1/2√(1 + 𝑥)))] / (1 + 𝑥).\n\nTherefore, 𝑑𝑦/𝑑𝑥 = (2 - 2𝑥)√(1 + 𝑥) - (3 + 2𝑥 - 𝑥^2)(1/2√(1 + 𝑥)) / (1 + 𝑥)."
-          },
-          {
-            question: "Simplify ∫1/√(1−2𝑥) 𝑑𝑥",
-            answers: [
-              { text: "1/2√(1 − 2𝑥) + 𝑐", correct: false },
-              { text: "−1/2√(1 − 2𝑥) + 𝑐", correct: false },
-              { text: "−2√(1 − 2𝑥) + 𝑐", correct: false },
-              { text: "−√(1 − 2𝑥) + 𝑐", correct: true }
-            ],
-            explanation: "To integrate ∫1/√(1−2𝑥) 𝑑𝑥:\n\n1. Let u = 1 - 2𝑥, then du = -2 dx ⟹ dx = -1/2 du.\n\n2. Substitute into the integral: ∫1/√(1−2𝑥) 𝑑𝑥 = ∫1/√u * (-1/2) du.\n\n3. Simplify: ∫1/√u * (-1/2) du = -1/2 ∫1/√u du.\n\n4. Integrate: -1/2 ∫u^(-1/2) du = -1/2 * (2√u) + C = -√u + C.\n\n5. Substitute back u = 1 - 2𝑥: -√(1 - 2𝑥) + C.\n\nTherefore, the simplified integral is ∫1/√(1−2𝑥) 𝑑𝑥 = -√(1 − 2𝑥) + 𝑐."
-          },
-          {
-            question: "Evaluate ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃",
-            answers: [
-              { text: "1/3 tan³ 𝜃 + 𝑐", correct: true },
-              { text: "1/3 tan⁴ 𝜃 + 𝑐", correct: false },
-              { text: "1/2 tan² 𝜃 + 𝑐", correct: false },
-              { text: "sec² 𝜃 + 𝑐", correct: false }
-            ],
-            explanation: "To evaluate ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃:\n\n1. Use the identity tan² 𝜃 = sec² 𝜃 - 1.\n\n2. Rewrite the integral: ∫ (sec² 𝜃 - 1) sec² 𝜃 𝑑𝜃.\n\n3. Distribute: ∫ sec⁴ 𝜃 - sec² 𝜃 𝑑𝜃.\n\n4. Integrate each term separately:\n   - ∫ sec⁴ 𝜃 𝑑𝜃 = (1/3) sec³ 𝜃.\n   - ∫ sec² 𝜃 𝑑𝜃 = tan 𝜃.\n\n5. Combine the results: ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃 = (1/3) tan³ 𝜃 - tan 𝜃 + 𝑐.\n\nTherefore, ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃 = 1/3 tan³ 𝜃 + 𝑐."
-          },
-          {
-            question: "Find the length of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 − 4𝑦 − 4 = 0 from the point (8, 10)",
-            answers: [
-              { text: "√56", correct: false },
-              { text: "√103", correct: false },
-              { text: "√104", correct: true },
-              { text: "√113", correct: false }
-            ],
-            explanation: "To find the length of the tangent from a point to a circle:\n\n1. Rewrite the circle's equation: 𝑥² + 𝑦² − 2𝑥 − 4𝑦 − 4 = 0 ⟹ (𝑥 - 1)² + (𝑦 - 2)² = 9.\n\n2. The center of the circle is (1, 2) and the radius is 3.\n\n3. The distance from the center to the external point (8, 10) is √((8 - 1)² + (10 - 2)²) = √(49 + 64) = √113.\n\n4. The length of the tangent from the external point to the circle is √(distance² - radius²) = √(113 - 9) = √104.\n\nTherefore, the length of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 − 4𝑦 − 4 = 0 from the point (8, 10) is √104."
-          },
-          {
-            question: "Find the semi axis of the equation 9𝑥² − 4𝑦² = 36",
-            answers: [
-              { text: "2, 3", correct: true },
-              { text: "-3, 2", correct: false },
-              { text: "2, 2", correct: false }
-            ],
-            explanation: "To find the semi axes of the ellipse 9𝑥² − 4𝑦² = 36:\n\n1. Divide both sides by 36: 𝑥² / 4 + 𝑦² / 9 = 1.\n\n2. The semi-major axis is along 𝑦-axis, so 𝑎² = 9 ⟹ 𝑎 = 3.\n\n3. The semi-minor axis is along 𝑥-axis, so 𝑏² = 4 ⟹ 𝑏 = 2.\n\nTherefore, the semi axes of the ellipse 9𝑥² − 4𝑦² = 36 are 2 and 3."
-          },
-          {
-            question: "Simplify sin𝜃 + sin³𝜃 / cos𝜃 + cos³𝜃",
-            answers: [
-              { text: "None", correct: false },
-              { text: "tan 2𝜃", correct: true },
-              { text: "tan 𝜃", correct: false },
-              { text: "tan 4𝜃", correct: false }
-            ],
-            explanation: "To simplify sin𝜃 + sin³𝜃 / cos𝜃 + cos³𝜃:\n\n1. Use the identity for sin³𝜃: sin³𝜃 = (sin𝜃)(1 - cos²𝜃).\n\n2. Rewrite the expression: (sin𝜃 + sin𝜃(1 - cos²𝜃)) / (cos𝜃 + cos𝜃(1 - sin²𝜃)).\n\n3. Simplify the numerator: sin𝜃 + sin𝜃 - sin𝜃cos²𝜃 = 2sin𝜃 - sin𝜃cos²𝜃.\n\n4. Simplify the denominator: cos𝜃 + cos𝜃 - cos𝜃sin²𝜃 = 2cos𝜃 - cos𝜃sin²𝜃.\n\n5. Divide numerator by denominator: (2sin𝜃 - sin𝜃cos²𝜃) / (2cos𝜃 - cos𝜃sin²𝜃).\n\n6. Simplify further using tan𝜃 = sin𝜃 / cos𝜃: (2tan𝜃 - tan𝜃(1 - tan²𝜃)) / (2 - tan²𝜃).\n\n7. Resulting in: tan 2𝜃.\n\nTherefore, sin𝜃 + sin³𝜃 / cos𝜃 + cos³𝜃 simplifies to tan 2𝜃."
-          },
-          {
-            question: "Find x and y intercepts of the function 𝑦 = 𝑥² / (𝑥² − 1)",
-            answers: [
-              { text: "0, 1", correct: false },
-              { text: "2, 0", correct: false },
-              { text: "0, 0", correct: true },
-              { text: "1, 0", correct: false }
-            ],
-            explanation: "To find x and y intercepts of 𝑦 = 𝑥² / (𝑥² − 1):\n\n1. For x-intercept (where y = 0): 𝑦 = 0 ⟹ 𝑥² = 0 ⟹ 𝑥 = 0.\n\n2. For y-intercept (where x = 0): 𝑦 = (0)² / (0² - 1) ⟹ 𝑦 = 0 / -1 ⟹ 𝑦 = 0.\n\nTherefore, the x-intercept is 0 and the y-intercept is 0."
-          },
-          {
-            question: "Evaluate ∫ (𝑥² − 𝑥)(2𝑥 − 1) / ((2𝑥 − 1)² - 2) 𝑑𝑥",
-            answers: [
-              { text: "−18", correct: false },
-              { text: "16", correct: true },
-              { text: "−16", correct: false },
-              { text: "18", correct: false }
-            ],
-            explanation: "To evaluate ∫ (𝑥² − 𝑥)(2𝑥 − 1) / ((2𝑥 − 1)² - 2) 𝑑𝑥:\n\n1. Factor the denominator: (2𝑥 − 1)² - 2 = 4𝑥² - 4𝑥 + 1 - 2 = 4𝑥² - 4𝑥 - 1.\n\n2. Rewrite the integral: ∫ (𝑥² − 𝑥)(2𝑥 − 1) / (4𝑥² - 4𝑥 - 1) 𝑑𝑥.\n\n3. Perform polynomial long division or use partial fractions to simplify the integrand.\n\n4. After simplifying, integrate and evaluate to find the correct answer."
-          },
-          {
-            question: "If tan(𝐴 + 𝐵) = 1/7 and tan 𝐴 = 1/3, find tan 𝐵",
-            answers: [
-              { text: "−4/11", correct: false },
-              { text: "3/9", correct: false },
-              { text: "−2/11", correct: true },
-              { text: "4/11", correct: false }
-            ],
-            explanation: "Given tan(𝐴 + 𝐵) = 1/7 and tan 𝐴 = 1/3:\n\n1. Use the tangent addition formula: tan(𝐴 + 𝐵) = (tan 𝐴 + tan 𝐵) / (1 - tan 𝐴 * tan 𝐵).\n\n2. Substitute tan 𝐴 = 1/3 and tan(𝐴 + 𝐵) = 1/7 into the formula.\n\n3. Solve for tan 𝐵 to find the correct answer."
-          },
-          {
-            question: "Given 𝑦 = 𝑎(sin(𝑥)), find 𝑑𝑦/𝑑𝑥",
-            answers: [
-              { text: "𝑎 sin(𝑥) / sin(𝑥) log𝑎 𝑒", correct: false },
-              { text: "𝑎 sin(𝑥) cos(𝑥) log𝑒 𝑎", correct: true },
-              { text: "𝑎 sin(𝑥) / sin(2𝑥) log𝑎 𝑒", correct: false },
-              { text: "none", correct: false }
-            ],
-            explanation: "To find 𝑑𝑦/𝑑𝑥 for 𝑦 = 𝑎(sin(𝑥)):\n\n1. Apply the derivative of a constant multiplied by a function: 𝑑𝑦/𝑑𝑥 = 𝑎 * derivative of sin(𝑥).\n\n2. Derivative of sin(𝑥) is cos(𝑥).\n\n3. Therefore, 𝑑𝑦/𝑑𝑥 = 𝑎 * sin(𝑥) * cos(𝑥).\n\n4. Optionally, log𝑒 𝑎 is the natural logarithm of 𝑎."
-          },
-          {
-            question: "Find the gradient of the line 𝑦 = 2𝑥 + 6",
-            answers: [
-              { text: "2", correct: true },
-              { text: "6", correct: false },
-              { text: "−2", correct: false },
-              { text: "−6", correct: false }
-            ],
-            explanation: "The gradient of a line in the form 𝑦 = 𝑚𝑥 + 𝑐 is the coefficient of 𝑥, which is 𝑚. Therefore, the gradient of 𝑦 = 2𝑥 + 6 is 2."
-          },
-          {
-            question: "In the inequality 𝑔² + 𝑓² ≥ 𝑐 of a circle, what type of numbers does 𝑔² + 𝑓² represent?",
-            answers: [
-              { text: "imaginary", correct: false },
-              { text: "complex", correct: false },
-              { text: "real", correct: true },
-              { text: "parabolic", correct: false }
-            ],
-            explanation: "𝑔² + 𝑓² represents the sum of squares of two real numbers (𝑔 and 𝑓) and thus results in a real number. Therefore, 𝑔² + 𝑓² ≥ 𝑐 of a circle represents a real number."
-          },
-          {
-            question: "Which of the following is not an equation of a circle?",
-            answers: [
-              { text: "𝑥² − 𝑦² + 4𝑥 = 0", correct: true },
-              { text: "𝑥² − 𝑦² + 12𝑦 = 9", correct: false },
-              { text: "𝑥² + 𝑦² + 2𝑥 − 𝑦 − 3 = 0", correct: false },
-              { text: "𝑥² + 𝑦² + 𝑥 + 𝑦 − 7 = 0", correct: false }
-            ],
-            explanation: "An equation of a circle is typically of the form (𝑥 − ℎ)² + (𝑦 − 𝑘)² = 𝑟², where (ℎ, 𝑘) is the center and 𝑟 is the radius. The equation 𝑥² − 𝑦² + 4𝑥 = 0 does not fit this form and hence is not an equation of a circle."
-          },
-          {
-            question: "Find the intercept of 2𝑦 − 3𝑥 = 5",
-            answers: [
-              { text: "5", correct: false },
-              { text: "−3", correct: false },
-              { text: "3/2", correct: false },
-              { text: "5/2", correct: true }
-            ],
-            explanation: "To find the intercept of 2𝑦 − 3𝑥 = 5:\n\n1. For x-intercept, set y = 0: 2(0) - 3𝑥 = 5 ⟹ -3𝑥 = 5 ⟹ 𝑥 = -5/3.\n\n2. For y-intercept, set x = 0: 2𝑦 - 3(0) = 5 ⟹ 2𝑦 = 5 ⟹ 𝑦 = 5/2.\n\nTherefore, the intercepts are x = -5/3 and y = 5/2."
-          },
-          {
-            question: "Find the value of cos(600 − 𝜃), if tan 𝜃 = −3/4 where 0° < 𝜃 < 180°",
-            answers: [
-              { text: "2/5 + 3/10 √3", correct: false },
-              { text: "2/5 - 3/10 √3", correct: false },
-              { text: "-2/4 - 3/10 √3", correct: false },
-              { text: "-2/5 + 3/10 √3", correct: true }
-            ],
-            explanation: "Given tan 𝜃 = -3/4 and 0° < 𝜃 < 180°:\n\n1. Determine the quadrant based on tan 𝜃 being negative and the angle range.\n\n2. Use the identity cos(180° - 𝜃) = -cos(𝜃) to find cos 𝜃.\n\n3. Calculate cos(600° - 𝜃) using the periodicity of cosine function.\n\n4. Simplify and determine the correct answer."
-          },
-          {
-            question: "Find the value of 𝜃 if sin 3𝜃 = cos 60°",
-            answers: [
-              { text: "60°", correct: false },
-              { text: "10°", correct: true },
-              { text: "30°", correct: false },
-              { text: "90°", correct: false }
-            ],
-            explanation: "To find 𝜃 such that sin 3𝜃 = cos 60°:\n\n1. Use the identity sin 𝜃 = cos(90° - 𝜃) to relate sin and cosine.\n\n2. Solve for 𝜃 using the given information and trigonometric identities.\n\n3. Verify the angle in the specified range to find the correct answer."
-          },
-          {
-            question: "Simplify sin 2𝐴 / (1 + cos 2𝐴)",
-            answers: [
-              { text: "cot 𝐴", correct: false },
-              { text: "tan 𝐴", correct: true },
-              { text: "sec 𝐴", correct: false },
-              { text: "cos 𝐴", correct: false }
-            ],
-            explanation: "To simplify sin 2𝐴 / (1 + cos 2𝐴):\n\n1. Use the double-angle identity: sin 2𝐴 = 2 sin 𝐴 cos 𝐴 and cos 2𝐴 = 2 cos² 𝐴 - 1.\n\n2. Substitute these identities into the expression.\n\n3. Simplify to get tan 𝐴, which is the correct answer."
-          },
-          {
-            question: "Find the value of 𝜃 in the range 180° ≤ 𝜃 ≤ 360° which satisfy (1 + cos𝜃) / (2 - cos𝜃) = 1",
-            answers: [
-              { text: "300°", correct: true },
-              { text: "210°", correct: false },
-              { text: "600°", correct: false },
-              { text: "330°", correct: false }
-            ],
-            explanation: "To find 𝜃 in the range 180° ≤ 𝜃 ≤ 360° such that (1 + cos𝜃) / (2 - cos𝜃) = 1:\n\n1. Simplify the equation and solve for cos𝜃.\n\n2. Use inverse cosine to find the value of 𝜃.\n\n3. Verify the angle in the specified range to find the correct answer."
-          },
-          {
-            question: "Find the derivative of the function 𝑦 = (𝑥^2 − 3)^4 with respect to x",
-            answers: [
-              { text: "𝑥(𝑥^3 + 3)^3", correct: false },
-              { text: "3𝑥(𝑥^3 − 3)", correct: false },
-              { text: "8𝑥(𝑥^3 − 3)", correct: false },
-              { text: "8𝑥(𝑥^2 − 3)^3", correct: true }
-            ],
-            explanation: "To find the derivative of 𝑦 = (𝑥^2 − 3)^4 with respect to x:\n\n1. Apply the chain rule and power rule of differentiation.\n\n2. Derivative of (𝑥^2 − 3)^4 is 4(𝑥^2 − 3)^3 * 2𝑥.\n\n3. Simplify to obtain 8𝑥(𝑥^2 − 3)^3, which is the correct answer."
-          },
-          {
-            question: "The radius of a circular disc is increasing at the rate of 0.5𝑐𝑚/𝑠𝑒. At what rate is the area of the disc increasing when its radius is 6𝑐𝑚?",
-            answers: [
-              { text: "7.67𝑐𝑚²", correct: false },
-              { text: "6𝜋𝑐𝑚²", correct: true },
-              { text: "8𝜋𝑐𝑚²", correct: false },
-              { text: "7.80𝑐𝑚²", correct: false }
-            ],
-            explanation: "Given the rate of change of radius and the formula for the area of a circle:\n\n1. Area of the circle A = 𝜋𝑟^2, where r is the radius.\n\n2. Differentiate A with respect to time to find dA/dt.\n\n3. Substitute the given values and calculate to find that dA/dt = 6𝜋𝑐𝑚²."
-          },
-          {
-            question: "Find the equation of the tangent to the curve 𝑦 = 1 − 2𝑥 + 5𝑥^2 − 𝑥^3 at the point 𝑥 = 3",
-            answers: [
-              { text: "𝑦 = 𝑥 + 11", correct: false },
-              { text: "𝑦 = 𝑥 + 10", correct: true },
-              { text: "𝑦 = 2𝑥 + 10", correct: false },
-              { text: "𝑦 = 𝑥 − 11", correct: false }
-            ],
-            explanation: "To find the equation of the tangent to 𝑦 = 1 − 2𝑥 + 5𝑥^2 − 𝑥^3 at 𝑥 = 3:\n\n1. Find the derivative of 𝑦 with respect to x.\n\n2. Evaluate the derivative at 𝑥 = 3 to find the slope of the tangent.\n\n3. Use the point-slope form of the equation of a line to find the tangent equation, which is 𝑦 = 𝑥 + 10."
-          },
-          {
-            question: "Given that ∫ (3𝑡𝑥 − 𝑡) 𝑑𝑥 = 1, find the value of t.",
-            answers: [
-              { text: "-2", correct: false },
-              { text: "2", correct: true },
-              { text: "4", correct: false },
-              { text: "0", correct: false }
-            ],
-            explanation: "To find t such that ∫ (3𝑡𝑥 − 𝑡) 𝑑𝑥 = 1:\n\n1. Integrate the expression with respect to x.\n\n2. Set the result equal to 1 and solve for t.\n\n3. The correct value of t is 2."
-          },
-          {
-            question: "Determine ∫ (2𝑥^2 − 2𝑥 + 5) dx",
-            answers: [
-              { text: "tan⁻¹(𝑥 − 1/2) + 𝐶", correct: true },
-              { text: "tan⁻¹(𝑥 + 1/2) + 𝐶", correct: false },
-              { text: "2 tan⁻¹(𝑥 + 1/2) + 𝐶", correct: false },
-              { text: "1/2 tan⁻¹(𝑥 − 1/2) + 𝐶", correct: false }
-            ],
-            explanation: "To determine ∫ (2𝑥^2 − 2𝑥 + 5) dx:\n\n1. Integrate each term of the polynomial separately.\n\n2. Add the constants of integration.\n\n3. The correct integral is tan⁻¹(𝑥 − 1/2) + 𝐶."
-          },
-          {
-            question: "Given 𝑦 − 3𝑥 − 6 = 0, find the slope.",
-            answers: [
-              { text: "3", correct: true },
-              { text: "6", correct: false },
-              { text: "−6", correct: false },
-              { text: "−3", correct: false }
-            ],
-            explanation: "Given 𝑦 − 3𝑥 − 6 = 0:\n\n1. Rearrange to find 𝑦 in terms of 𝑥.\n\n2. The coefficient of 𝑥 gives the slope of the line, which is 3."
-          },
-          {
-            question: "The midpoint of the points 𝑀(4, −1) and 𝑁(𝑥, 𝑦) is 𝑃(3, −4). Find the coordinates of points N.",
-            answers: [
-              { text: "(−2, 7)", correct: false },
-              { text: "(2, 7)", correct: false },
-              { text: "(−2, −7)", correct: false },
-              { text: "(2, −7)", correct: true }
-            ],
-            explanation: "To find the coordinates of point N such that the midpoint of 𝑀(4, −1) and 𝑁(𝑥, 𝑦) is 𝑃(3, −4):\n\n1. Use the midpoint formula to set up equations.\n\n2. Solve for 𝑥 and 𝑦 using the given midpoint coordinates of 𝑃.\n\n3. The coordinates of point N are (2, −7)."
-          },
-          {
-            question: "Calculate the angle between lines 3𝑥 + 2𝑦 − 8 = 0 and 𝑥 + 7𝑦 + 8 = 0 to the nearest degree.",
-            answers: [
-              { text: "80°", correct: false },
-              { text: "81°", correct: false },
-              { text: "48°", correct: true },
-              { text: "800°", correct: false }
-            ],
-            explanation: "To calculate the angle between lines 3𝑥 + 2𝑦 − 8 = 0 and 𝑥 + 7𝑦 + 8 = 0:\n\n1. Find the slopes of both lines.\n\n2. Use the formula for the angle between two lines: tan(𝜃) = |(m1 - m2) / (1 + m1 * m2)|.\n\n3. Calculate and determine the angle, which is approximately 48°."
-          },
-          {
-            question: "Find the equation of the line passing through (1, −1) and (5, 7).",
-            answers: [
-              { text: "𝑦 = 4𝑥 + 3", correct: false },
-              { text: "𝑦 = 2𝑥 + 5", correct: false },
-              { text: "𝑦 = 4𝑥 − 5", correct: false },
-              { text: "𝑦 - 2𝑥 + 3 = 0", correct: true }
-            ],
-            explanation: "To find the equation of the line passing through (1, −1) and (5, 7):\n\n1. Calculate the slope of the line using the coordinates of the two points.\n\n2. Use the point-slope form of the equation of a line to find the correct equation.\n\n3. The equation of the line is 𝑦 - 2𝑥 + 3 = 0."
-          },
-          {
-            question: "Find the length of a straight line joining points (3, 2) and (5, 5)",
-            answers: [
-              { text: "2.92", correct: false },
-              { text: "6.3", correct: false },
-              { text: "3.0", correct: false },
-              { text: "3.61", correct: true }
-            ],
-            explanation: "To find the length of the straight line joining points (3, 2) and (5, 5):\n\n1. Use the distance formula: √((𝑥₂ - 𝑥₁)² + (𝑦₂ - 𝑦₁)²).\n\n2. Substitute the given coordinates (3, 2) and (5, 5) into the formula.\n\n3. Calculate to find the distance, which is approximately 3.61 units."
-          },
-          {
-            question: "Find the equation of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2)",
-            answers: [
-              { text: "2𝑦 − 𝑥 + 5 = 0", correct: false },
-              { text: "2𝑦 − 𝑥 − 5 = 0", correct: true },
-              { text: "2𝑦 + 𝑥 + 5 = 0", correct: false },
-              { text: "2𝑦 + 𝑥 − 5 = 0", correct: false }
-            ],
-            explanation: "To find the equation of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2):\n\n1. Differentiate the circle's equation implicitly to find the slope of the tangent at the given point.\n\n2. Use the point-slope form of the equation of a line to find the tangent equation.\n\n3. The correct equation is 2𝑦 − 𝑥 − 5 = 0."
-          },
-          {
-            question: "Find the equation of the line whose slope is 2 through the point (−1, −2)",
-            answers: [
-              { text: "none", correct: false },
-              { text: "𝑦 − 3𝑥 = 2", correct: false },
-              { text: "𝑦 + 2𝑥 = 0", correct: false },
-              { text: "2𝑥 + 2 = 𝑦", correct: true }
-            ],
-            explanation: "To find the equation of the line whose slope is 2 through the point (−1, −2):\n\n1. Use the point-slope form of the equation of a line: 𝑦 − 𝑦₁ = 𝑚(𝑥 − 𝑥₁), where 𝑚 is the slope.\n\n2. Substitute 𝑚 = 2, 𝑥₁ = −1, and 𝑦₁ = −2 into the equation.\n\n3. Simplify to obtain the equation of the line, which is 2𝑥 + 2 = 𝑦."
-          },
-          {
-            question: "Find 𝑑𝑦/𝑑𝑥 if 𝑦 = 𝑒^(sin(4𝑥))",
-            answers: [
-              { text: "4 cos(4𝑥) 𝑒^(sin(4𝑥))", correct: true },
-              { text: "4 sin(4𝑥) 𝑒^(sin(4𝑥))", correct: false },
-              { text: "4𝑐𝑜𝑠𝑒𝑐 (4𝑥) 𝑒^(sin(4𝑥))", correct: false },
-              { text: "4 cot(4𝑥) 𝑒^(sin(4𝑥))", correct: false }
-            ],
-            explanation: "To find 𝑑𝑦/𝑑𝑥 if 𝑦 = 𝑒^(sin(4𝑥)):\n\n1. Use the chain rule of differentiation.\n\n2. Derivative of 𝑒^(sin(4𝑥)) with respect to x is 𝑒^(sin(4𝑥)) * cos(4𝑥) * 4.\n\n3. Simplify to get 𝑑𝑦/𝑑𝑥 = 4 cos(4𝑥) 𝑒^(sin(4𝑥))."
-          },
-          {
-            question: "Find the length of the tangent from a point (0, 0) to the circle 𝑥² + 𝑦² + 4𝑥 − 6𝑦 + 10",
-            answers: [
-              { text: "10", correct: false },
-              { text: "0", correct: false },
-              { text: "√5", correct: false },
-              { text: "√10", correct: true }
-            ],
-            explanation: "To find the length of the tangent from point (0, 0) to the circle 𝑥² + 𝑦² + 4𝑥 − 6𝑦 + 10:\n\n1. Calculate the distance from the center of the circle (−2, 3) to the point (0, 0), which is √(2² + 3²) = √13.\n\n2. The length of the tangent is the absolute difference between the radius (√13) and the distance from the center to the point (2), giving √(13 - 2²) = √10."
-          },
-          {
-            question: "Find the gradient and intercept of the equation 𝑦 + 4𝑥 − 5 = 0",
-            answers: [
-              { text: "4, 0", correct: false },
-              { text: "4, 5", correct: false },
-              { text: "4, −5", correct: true },
-              { text: "−4, 5", correct: false }
-            ],
-            explanation: "To find the gradient and intercept of the equation 𝑦 + 4𝑥 − 5 = 0:\n\n1. Rewrite the equation in the slope-intercept form 𝑦 = −4𝑥 + 5.\n\n2. The gradient (slope) is the coefficient of 𝑥, which is −4.\n\n3. The y-intercept is the constant term, which is 5."
-          },
-          {
-            question: "Find the equation of the normal to the curve 𝑦 = (1 − 𝑥)(3 + 𝑥) at the point 𝑥 = 2",
-            answers: [
-              { text: "6𝑦 − 𝑥 − 32 = 0", correct: false },
-              { text: "6𝑦 − 𝑥 + 32 = 0", correct: true },
-              { text: "6𝑦 − 𝑥 − 30", correct: false },
-              { text: "6𝑦 − 𝑥 − 30", correct: false }
-            ],
-            explanation: "To find the equation of the normal to the curve 𝑦 = (1 − 𝑥)(3 + 𝑥) at 𝑥 = 2:\n\n1. Find the derivative 𝑑𝑦/𝑑𝑥 = −2(1 − 𝑥) + (3 + 𝑥).\n\n2. Evaluate 𝑑𝑦/𝑑𝑥 at 𝑥 = 2 to get the slope of the tangent.\n\n3. The slope of the normal is the negative reciprocal of the tangent's slope.\n\n4. Use the point-slope form to find the equation of the normal, which is 6𝑦 − 𝑥 + 32 = 0."
-          },
-          {
-            question: "Evaluate ∫ √(1 + 3𝑥) 𝑑𝑥",
-            answers: [
-              { text: "26", correct: false },
-              { text: "18", correct: false },
-              { text: "12", correct: false },
-              { text: "32", correct: true }
-            ],
-            explanation: "To evaluate ∫ √(1 + 3𝑥) 𝑑𝑥:\n\n1. Substitute 𝑢 = 1 + 3𝑥, so 𝑑𝑥 = 𝑑𝑢 / 3.\n\n2. Integrate √𝑢 with respect to 𝑢 to get (2/3)𝑢^(3/2).\n\n3. Substitute back 𝑢 = 1 + 3𝑥 into the result and simplify to find the definite integral."
-          },
-          {
-            question: "𝛽 is an obtuse angle and sin 𝛽 = 6/10, find the value of 2 tan𝛽 / (1−tan² 𝛽)",
-            answers: [
-              { text: "3.34", correct: false },
-              { text: "3.83", correct: false },
-              { text: "- 3.43", correct: true },
-              { text: "3.38", correct: false }
-            ],
-            explanation: "To find the value of 2 tan𝛽 / (1−tan² 𝛽) given sin 𝛽 = 6/10 and 𝛽 is obtuse:\n\n1. Find cos 𝛽 using the identity sin² 𝛽 + cos² 𝛽 = 1.\n\n2. Substitute sin 𝛽 = 6/10 to find cos 𝛽 = √(1 - (6/10)²).\n\n3. Use the identity tan 𝛽 = sin 𝛽 / cos 𝛽 to find tan 𝛽.\n\n4. Substitute tan 𝛽 into 2 tan𝛽 / (1−tan² 𝛽) to get the value."
-          },
-          {
-            question: "Find the value of a fixed angle in the trigonometry equation given by 2√3 sin 𝜃 + 2 cos 𝜃 = 2",
-            answers: [
-              { text: "90", correct: false },
-              { text: "0", correct: true },
-              { text: "60", correct: false },
-              { text: "30", correct: false }
-            ],
-            explanation: "To solve the equation 2√3 sin 𝜃 + 2 cos 𝜃 = 2:\n\n1. Divide the entire equation by 2 to simplify: √3 sin 𝜃 + cos 𝜃 = 1.\n\n2. Recognize that this equation can be represented as cos 𝜃 = 1 - √3 sin 𝜃.\n\n3. Square both sides: cos² 𝜃 = (1 - √3 sin 𝜃)².\n\n4. Substitute for cos² 𝜃 in the Pythagorean identity: sin² 𝜃 + cos² 𝜃 = 1.\n\n5. Substitute values to check the answer: √3 cos 30 + 2 sin 30 = 2."
-          },
-          {
-            question: "If 𝑥 = 𝑎 cot 𝜃 and 𝑦 = 𝑏 cos 𝜃, evaluate 𝑦 / 𝑏 (𝑦² / 𝑏² - 𝑥² / 𝑎²)",
-            answers: [
-              { text: "sec 𝜃", correct: true },
-              { text: "𝑐𝑜𝑠𝑒𝑐 𝜃", correct: false },
-              { text: "1", correct: false },
-              { text: "tan 𝜃", correct: false }
-            ],
-            explanation: "To evaluate 𝑦 / 𝑏 (𝑦² / 𝑏² - 𝑥² / 𝑎²) given 𝑥 = 𝑎 cot 𝜃 and 𝑦 = 𝑏 cos 𝜃:\n\n1. Express cot 𝜃 as 𝑥 / 𝑎 and cos 𝜃 as 𝑦 / 𝑏.\n\n2. Substitute 𝑥 and 𝑦 into the expression and simplify using trigonometric identities and properties."
-          },
-          {
-            question: "Find the value of tan 1950 in surd form",
-            answers: [
-              { text: "3+3√3 / 3−√3", correct: true },
-              { text: "3−√3 / 3+√3", correct: false },
-              { text: "−3−√3 / 3+√3", correct: false },
-              { text: "3−√3 / −3+√3", correct: false }
-            ],
-            explanation: "To find the value of tan 1950 in surd form:\n\n1. Use the periodicity of the tangent function to reduce 1950 to an equivalent angle within 0 to 360 degrees.\n\n2. Use the tangent addition formula and simplification techniques to obtain the desired surd form."
-          },
-          {
-            question: "If 𝑦 = 𝑥² sin 2𝑥, find the derivative of y with respect to x",
-            answers: [
-              { text: "2𝑥(sin 2𝑥 + 𝑥 cos(2𝑥))", correct: true },
-              { text: "2𝑥(tan 𝑥 + 𝑥² sin 2𝑥)", correct: false },
-              { text: "2𝑥(tan 𝑥 + 𝑥² sec² 𝑥)", correct: false },
-              { text: "2𝑥(sin 𝑥 + 2𝑥² sec² 𝑥)", correct: false }
-            ],
-            explanation: "To find the derivative of 𝑦 = 𝑥² sin 2𝑥:\n\n1. Apply the product rule and chain rule to differentiate 𝑦 = 𝑥² sin 2𝑥.\n\n2. Derivative of 𝑥² sin 2𝑥 = 2𝑥 sin 2𝑥 + 𝑥² * 2 cos 2𝑥 = 2𝑥(sin 2𝑥 + 𝑥 cos(2𝑥))."
-          },
-          {
-            question: "Let 𝑦 = 𝑥² / (𝑥² − 1). Find the vertical and horizontal asymptotes",
-            answers: [
-              { text: "𝑥 = ±1, 𝑦 = 1", correct: true },
-              { text: "𝑥 = ±2, 𝑦 = ±2", correct: false },
-              { text: "𝑥 = ±1, 𝑦 = ±1", correct: false },
-              { text: "𝑥 = ±2, 𝑦 = +1", correct: false }
-            ],
-            explanation: "To find the asymptotes of 𝑦 = 𝑥² / (𝑥² − 1):\n\n1. Vertical asymptotes occur where the denominator is zero, so 𝑥 = ±1 are the vertical asymptotes.\n\n2. Horizontal asymptote: As 𝑥 → ±∞, 𝑦 → 1, so 𝑦 = 1 is the horizontal asymptote."
-          },
-          {
-            question: "If the distance between (2, 𝐿) and (−2, 0) is 5. Find 𝐿",
-            answers: [
-              { text: "±3", correct: true },
-              { text: "3", correct: false },
-              { text: "5", correct: false },
-              { text: "3", correct: false }
-            ],
-            explanation: "To find 𝐿 where the distance between (2, 𝐿) and (−2, 0) is 5:\n\n1. Use the distance formula: √[(2 + 2)² + (𝐿 - 0)²] = 5.\n\n2. Solve for 𝐿: √[16 + 𝐿²] = 5 → 𝐿² = 25 - 16 → 𝐿² = 9 → 𝐿 = ±3."
-          },
-          {
-            question: "If 𝑥 = 𝑝 sin 𝜃 , 𝑦 = 𝑝 cos 𝜃. Evaluate √(𝑥² + 𝑦²) / 𝑝",
-            answers: [
-              { text: "1 / 𝑝", correct: true },
-              { text: "𝑝²", correct: false },
-              { text: "𝑝", correct: false },
-              { text: "√𝑝", correct: false }
-            ],
-            explanation: "To evaluate √(𝑥² + 𝑦²) / 𝑝 given 𝑥 = 𝑝 sin 𝜃 and 𝑦 = 𝑝 cos 𝜃:\n\n1. Substitute 𝑥 and 𝑦 into the expression.\n\n2. Simplify using the Pythagorean identity: √(sin² 𝜃 + cos² 𝜃) = √1 = 1.\n\n3. Therefore, the result is √(𝑥² + 𝑦²) / 𝑝 = 1 / 𝑝."
-          },
-          {
-            question: "Express sin 2𝐴 cos 4𝐴 as a sum of difference of trigonometric functions",
-            answers: [
-              { text: "1/2 (sin 6𝐴 - sin 2𝐴)", correct: true },
-              { text: "1/2 (sin 6𝐴 + sin 2𝐴)", correct: false },
-              { text: "1/2 (cos 6𝐴 + cos 2𝐴)", correct: false },
-              { text: "1/2 (sin 6𝐴 - cos 2𝐴)", correct: false }
-            ],
-            explanation: "To express sin 2𝐴 cos 4𝐴 as a sum or difference of trigonometric functions:\n\n1. Use the identity: sin 2𝐴 cos 4𝐴 = 1/2 [sin(2𝐴 + 4𝐴) + sin(2𝐴 - 4𝐴)].\n\n2. Simplify the expression to get sin 2𝐴 cos 4𝐴 = 1/2 [sin 6𝐴 - sin 2𝐴]."
-          },
-          {
-            question: "Find the value of (cos 600 − 𝜃). If tan 𝜃 = -3/4",
-            answers: [
-              { text: "2/5 + 3√3 / 10", correct: true },
-              { text: "-2/5 - 3√3 / 10", correct: false },
-              { text: "2/5 - 3√3 / 10", correct: false },
-              { text: "-2/5 + 3√3 / 10", correct: false }
-            ],
-            explanation: "To find the value of (cos 600 − 𝜃) given tan 𝜃 = -3/4:\n\n1. Use the identity: cos(600° - 𝜃) = cos 600° cos 𝜃 + sin 600° sin 𝜃.\n\n2. Substitute the known values and solve using trigonometric identities."
-          },
-          {
-            question: "Given (𝑝𝑥 + 𝑞)ⁿ, find 𝑑𝑦 / 𝑑𝑥",
-            answers: [
-              { text: "𝑛𝑝(𝑝𝑥 + 𝑞)ⁿ⁻¹", correct: true },
-              { text: "𝑛(𝑝𝑥 - 𝑞)ⁿ⁻¹", correct: false },
-              { text: "𝑛𝑝(𝑝𝑥 + 𝑞)ⁿ", correct: false },
-              { text: "𝑛(𝑝𝑥 + 𝑞)ⁿ⁻¹", correct: false }
-            ],
-            explanation: "To find 𝑑𝑦 / 𝑑𝑥 for (𝑝𝑥 + 𝑞)ⁿ:\n\n1. Use the power rule in differentiation: 𝑑/𝑑𝑥 [(𝑝𝑥 + 𝑞)ⁿ] = 𝑛(𝑝𝑥 + 𝑞)ⁿ⁻¹.\n\n2. Apply this rule to find the derivative of the given expression."
-          },
-          {
-            question: "Find ∫ (3𝑥 / (7𝑥² + 2)) 𝑑𝑥",
-            answers: [
-              { text: "3/14 ln(7𝑥² + 2) + 𝐶", correct: true },
-              { text: "3/7 ln(7𝑥 + 2) + 𝐶", correct: false },
-              { text: "3/14 ln(7𝑥 + 2) + 𝐶", correct: false },
-              { text: "3/7 ln(7𝑥² + 2) + 𝐶", correct: false }
-            ],
-            explanation: "To integrate ∫ (3𝑥 / (7𝑥² + 2)) 𝑑𝑥:\n\n1. Recognize the form as ∫ 𝑓(𝑥) 𝑓'(𝑥) 𝑑𝑥 where 𝑓(𝑥) = ln(𝑓(𝑥)) and 𝑓'(𝑥) = (3𝑥) / (7𝑥² + 2).\n\n2. Integrate using the formula: ∫ 𝑓'(𝑥) 𝑓(𝑥) 𝑑𝑥 = 𝑓(𝑥) ln|𝑓(𝑥)| + 𝐶.\n\n3. Hence, ∫ (3𝑥 / (7𝑥² + 2)) 𝑑𝑥 = 3/14 ln(7𝑥² + 2) + 𝐶."
-          },
-          {
-            question: "Evaluate ∫ ((3𝑥 - 1) / (3𝑥² - 2𝑥 + 1)⁴) 𝑑𝑥",
-            answers: [
-              { text: "-1/6(3𝑥² - 2𝑥 + 1)³ + 𝐶", correct: true },
-              { text: "1/6(3𝑥² - 2𝑥 + 1)² + 𝐶", correct: false },
-              { text: "-1/6(3𝑥 + 2) + 𝐶", correct: false },
-              { text: "-1/6(3𝑥² - 2𝑥 + 1)³ + 𝐶", correct: false }
-            ],
-            explanation: "To evaluate ∫ ((3𝑥 - 1) / (3𝑥² - 2𝑥 + 1)⁴) 𝑑𝑥:\n\n1. Use the substitution method to simplify the integral.\n\n2. Integrate using the power rule: ∫ 𝑥ⁿ / 𝑓(𝑥)ⁿ⁺¹ 𝑑𝑥 = -1 / (n + 1) 𝑓(𝑥)⁻ⁿ + 𝐶.\n\n3. Hence, ∫ ((3𝑥 - 1) / (3𝑥² - 2𝑥 + 1)⁴) 𝑑𝑥 = -1/6(3𝑥² - 2𝑥 + 1)³ + 𝐶."
-          },
-          {
-            question: "Find ∫ sin 4𝜃 cos 𝜃 𝑑𝜃",
-            answers: [
-              { text: "-1/4 (cos 6𝜃 / 3 + cos 2𝜃) + 𝐶", correct: true },
-              { text: "-cos 4𝜃 / 4 sin 2𝜃 / 2 + 𝐶", correct: false },
-              { text: "-1/2 (cos 3𝜃 / 3 + cos 𝜃) + 𝐶", correct: false },
-              { text: "-1/4 (cos 6𝜃 / 3 + cos 2𝜃) + 𝐶", correct: false }
-            ],
-            explanation: "To find ∫ sin 4𝜃 cos 𝜃 𝑑𝜃:\n\n1. Use the product-to-sum formula for cosine and integrate.\n\n2. Apply the integration rules: ∫ sin 𝑎𝜃 cos 𝑏𝜃 𝑑𝜃 = -1/2 [cos(𝑎 + 𝑏)𝜃 / (𝑎 + 𝑏) + cos(𝑎 - 𝑏)𝜃 / (𝑎 - 𝑏)] + 𝐶.\n\n3. Therefore, ∫ sin 4𝜃 cos 𝜃 𝑑𝜃 = -1/4 (cos 6𝜃 / 3 + cos 2𝜃) + 𝐶."
-          },
-          {
-            question: "Obtain the equation of the straight line joining the points (acos 𝜃1, 𝑏 sin 𝜃1) and (acos 𝜃2, 𝑏 sin 𝜃2)",
-            answers: [
-              { text: "𝑎(cos 𝜃2 − cos 𝜃1)𝑦 − 𝑏(sin 𝜃2 − sin 𝜃1)𝑥 = 𝑎𝑏 sin(𝜃1 − 𝜃2)", correct: true },
-              { text: "𝑎(cos 𝜃2 − cos 𝜃1)𝑥 − 𝑏(sin 𝜃2 − sin 𝜃1)𝑦 = 𝑎𝑏 sin(𝜃1 − 𝜃2)", correct: false },
-              { text: "(𝑎cos 𝜃2 − 𝑏 sin 𝜃1)𝑥 − 𝑎(cos 𝜃1 − 𝑏 sin 𝜃2)𝑦 = 𝑎𝑏 cos(𝜃1 − 𝜃2)", correct: false },
-              { text: "(acos 𝜃1 𝑏 sin 𝜃1)𝑦 + (acos 𝜃2 𝑏 sin 𝜃2)𝑥 = 𝑎𝑏 sin(𝜃1 cos 𝜃2)", correct: false }
-            ],
-            explanation: "To obtain the equation of the straight line joining (acos 𝜃1, 𝑏 sin 𝜃1) and (acos 𝜃2, 𝑏 sin 𝜃2):\n\n1. Use the formula for the equation of a line through two points: (𝑦 - 𝑦₁) / (𝑦₂ - 𝑦₁) = (𝑥 - 𝑥₁) / (𝑥₂ - 𝑥₁).\n\n2. Substitute the given points and simplify to get the correct equation."
-          },
-          {
-            question: "Given 𝑦 + 2𝑥 = 11, find the gradient of the line",
-            answers: [
-              { text: "none", correct: true },
-              { text: "2 / 11", correct: false },
-              { text: "11", correct: false },
-              { text: "11 / 2", correct: false }
-            ],
-            explanation: "The equation 𝑦 + 2𝑥 = 11 is not in the standard form 𝑦 = 𝑚𝑥 + 𝑐, where 𝑚 represents the gradient."
-          },
-          {
-            question: "What is the equation of the tangent of the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2)?",
-            answers: [
-              { text: "2𝑦 - 𝑥 - 5 = 0", correct: true },
-              { text: "7𝑦 - 2𝑥 - 8 = 0", correct: false },
-              { text: "7𝑦 + 2𝑥 + 8 = 0", correct: false },
-              { text: "7𝑦 - 2𝑥 + 8 = 0", correct: false }
-            ],
-            explanation: "To find the equation of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2):\n\n1. Differentiate implicitly to find the slope of the tangent at the given point.\n\n2. Substitute the point into the slope-intercept form to find the equation."
-          },
-          {
-            question: "Find the center and radius of the circle 𝑥² + 𝑦² − 6𝑥 − 8𝑦 + 5 = 0",
-            answers: [
-              { text: "(3, 4); 2√5", correct: true },
-              { text: "(3, 4); 5√2", correct: false },
-              { text: "(4, 3); 2√5", correct: false },
-              { text: "(4, 3); 5√2", correct: false }
-            ],
-            explanation: "To find the center and radius of the circle 𝑥² + 𝑦² − 6𝑥 − 8𝑦 + 5 = 0:\n\n1. Rewrite the equation in standard form by completing the square.\n\n2. The center is (3, 4) and the radius is √5, hence the correct answer is (3, 4); 2√5."
-          },
-          {
-            question: "Which of the following trigonometric formulae is not correct?",
-            answers: [
-              { text: "tan 2𝐴 = 2 tan𝐴 / (1 - tan² 𝐴)", correct: false },
-              { text: "sin 𝐴 = 2 sin 𝐴/2 cos 𝐴/2", correct: true },
-              { text: "cos(𝐴 − 𝐵) = cos 𝐴 cos 𝐵 + sin 𝐴 sin 𝐵", correct: false },
-              { text: "cos 𝐴 + cos 𝐵 = 2 cos ((𝐴+𝐵)/2) sin ((𝐴−𝐵)/2)", correct: false }
-            ],
-            explanation: "Option (b) is incorrect because the correct formula for sin 𝐴 is sin 𝐴 = 2 sin 𝐴/2 cos 𝐴/2."
-          },
-          {
-            question: "If 𝑥 = 1/8, 𝑝 = 1/4, and 𝑞 = 3, find the value 𝑥 / (𝑝𝑞)",
-            answers: [
-              { text: "2/9", correct: true },
-              { text: "27", correct: false },
-              { text: "1/9", correct: false },
-              { text: "1/27", correct: false }
-            ],
-            explanation: "Calculate 𝑥 / (𝑝𝑞) = (1/8) / (1/4 * 3) = (1/8) / (3/4) = 1/6 = 2/9. Therefore, the correct answer is 2/9."
-          },
-          {
-            question: "The eccentricity of the equation of the ellipse is?",
-            answers: [
-              { text: "𝑒 < 1", correct: true },
-              { text: "𝑒 ≠ 0", correct: false },
-              { text: "𝑒 > 1", correct: false },
-              { text: "𝑒 = 0", correct: false }
-            ],
-            explanation: "For an ellipse, the eccentricity 𝑒 is less than 1, so the correct answer is 𝑒 < 1."
-          },
-          {
-            question: "Find the semi-major axis of the equation 𝑥² + 4𝑦² = 16",
-            answers: [
-              { text: "4", correct: true },
-              { text: "6", correct: false },
-              { text: "3", correct: false },
-              { text: "16", correct: false }
-            ],
-            explanation: "The equation 𝑥² + 4𝑦² = 16 represents an ellipse where 𝑎² = 16, so 𝑎 = √16 = 4. Therefore, the semi-major axis is 4."
-          },
-          {
-            question: "Rewrite 4𝑥² + 9𝑦² = 36 in standard form",
-            answers: [
-              { text: "𝑥² / 9 + 𝑦² / 4 = 1", correct: true },
-              { text: "𝑥² / 9 + 𝑦² / 16 = 1", correct: false },
-              { text: "𝑥² / 16 + 𝑦² / 81 = 1", correct: false },
-              { text: "𝑥² / 9 + 𝑦² / 4 = 36", correct: false }
-            ],
-            explanation: "To rewrite 4𝑥² + 9𝑦² = 36 in standard form:\n\n1. Divide everything by 36 to get 𝑥² / 9 + 𝑦² / 4 = 1. Therefore, the correct answer is 𝑥² / 9 + 𝑦² / 4 = 1."
-          },
-          {
-            question: "Find ∫ (3𝑥 ln𝑥) 𝑑𝑥",
-            answers: [
-              { text: "3𝑥 ln 𝑥 - 3𝑥 + 𝐶", correct: false },
-              { text: "3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶", correct: false },
-              { text: "3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶", correct: false },
-              { text: "3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶", correct: true }
-            ],
-            explanation: "To find ∫ (3𝑥 ln𝑥) 𝑑𝑥:\n\n1. Use integration by parts or recognize the integral form.\n\n2. The correct answer is 3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶."
-          },
-          {
-            question: "Evaluate ∫ 𝑒^𝑥 sin(𝑒^𝑥) 𝑑𝑥",
-            answers: [
-              { text: "-𝑒^𝑥 cos(𝑒^𝑥) + 𝐶", correct: false },
-              { text: "-cos(𝑒^𝑥) + 𝐶", correct: false },
-              { text: "-𝑒^𝑥 cos 𝑥 + 𝐶", correct: false },
-              { text: "-cos(𝑒^𝑥) + 𝐶", correct: true }
-            ],
-            explanation: "To evaluate ∫ 𝑒^𝑥 sin(𝑒^𝑥) 𝑑𝑥:\n\n1. Use the chain rule and integration by parts.\n\n2. The correct answer is -cos(𝑒^𝑥) + 𝐶."
-          },
-          {
-            question: "Evaluate ∫ (4𝑥 − 6𝑒^2𝑥 − 5) 𝑑𝑥",
-            answers: [
-              { text: "2𝑥² − 3𝑒^2𝑥 − 5𝑥 + 𝐶", correct: false },
-              { text: "2𝑥² + 3𝑒^2𝑥 + 𝐶", correct: false },
-              { text: "2𝑒^2 − 3𝑒^2𝑥 + 𝐶", correct: false },
-              { text: "2𝑥² − 3𝑒^2𝑥 − 5𝑥 + 𝐶", correct: true }
-            ],
-            explanation: "To evaluate ∫ (4𝑥 − 6𝑒^2𝑥 − 5) 𝑑𝑥:\n\n1. Integrate each term separately.\n\n2. The correct answer is 2𝑥² − 3𝑒^2𝑥 − 5𝑥 + 𝐶."
-          },
-          {
-            question: "Differentiate 𝑦 = tan³(4𝑥)",
-            answers: [
-              { text: "12 sec²(4𝑥) tan²(4𝑥)", correct: false },
-              { text: "12 sec²(4𝑥) cot²(4𝑥)", correct: true },
-              { text: "12 sec²(4𝑥) cot²(4𝑥)", correct: false },
-              { text: "12 sec²(4𝑥) tan²(4𝑥)", correct: false }
-            ],
-            explanation: "To differentiate 𝑦 = tan³(4𝑥):\n\n1. Use the chain rule and the derivative of tan𝑥 which is sec²𝑥.\n\n2. 𝑦' = 3 tan²(4𝑥) * sec²(4𝑥) = 3 tan²(4𝑥) * (1 + tan²(4𝑥)).\n\n3. Simplifying gives 𝑦' = 12 sec²(4𝑥) tan²(4𝑥), thus the correct answer is option (b)."
-          },
-          {
-            question: "If 𝑥² + 𝑥𝑦 − 𝑦² + 1 = 0, find 𝑑𝑦/𝑑𝑥 in terms of x and y",
-            answers: [
-              { text: "-𝑥−𝑦 / (𝑥−2𝑦)", correct: false },
-              { text: "-2𝑥−𝑦 / (𝑥−2𝑦)", correct: true },
-              { text: "2𝑥 + 𝑥 − 2𝑦", correct: false },
-              { text: "2𝑥 + 𝑦 − 2𝑦", correct: false }
-            ],
-            explanation: "Given 𝑥² + 𝑥𝑦 − 𝑦² + 1 = 0:\n\n1. Differentiate implicitly with respect to 𝑥.\n\n2. Apply implicit differentiation and solve for 𝑑𝑦/𝑑𝑥.\n\n3. The correct answer is 𝑑𝑦/𝑑𝑥 = -2𝑥−𝑦 / (𝑥−2𝑦), which is option (b)."
-          },
-          {
-            question: "Find the derivative of the function 𝑦 = (𝑥² − 3)⁴ with respect to x",
-            answers: [
-              { text: "8𝑥(𝑥³ − 3)", correct: false },
-              { text: "𝑥(𝑥³ + 3)³", correct: false },
-              { text: "8𝑥(𝑥² − 3)³", correct: true },
-              { text: "3𝑥(𝑥³ − 3)", correct: false }
-            ],
-            explanation: "To find the derivative of 𝑦 = (𝑥² − 3)⁴:\n\n1. Apply the chain rule and the power rule of differentiation.\n\n2. 𝑦' = 4(𝑥² − 3)³ * 2𝑥 = 8𝑥(𝑥² − 3)³.\n\n3. Therefore, the correct answer is option (c)."
-          },
-          {
-            question: "Find the value of tan 2𝛼 if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
-            answers: [
-              { text: "7/24", correct: false },
-              { text: "-7/24", correct: false },
-              { text: "-24/7", correct: false },
-              { text: "24/7", correct: true }
-            ],
-            explanation: "Given tan 𝛽 = 5/12 and sin 𝛼 = 3/5:\n\n1. Use the identity tan 2𝛼 = (2 tan 𝛼) / (1 - tan² 𝛼).\n\n2. Calculate tan 𝛼 from sin 𝛼 and use it to find tan 2𝛼.\n\n3. The correct answer is tan 2𝛼 = 24/7, which is option (d)."
-          },
-          {
-            question: "What is 2𝜋/3 in degrees?",
-            answers: [
-              { text: "120°", correct: true },
-              { text: "600°", correct: false },
-              { text: "2100°", correct: false },
-              { text: "2700°", correct: false }
-            ],
-            explanation: "To convert 2𝜋/3 radians to degrees:\n\n1. Use the conversion factor: 180°/𝜋 radians.\n\n2. Calculate (2𝜋/3) * (180°/𝜋) = 120°.\n\n3. Therefore, 2𝜋/3 radians is 120°, which is option (a)."
-          },
-          {
-            question: "The study or solution of triangles in relation to their sides and angles is referred to as",
-            answers: [
-              { text: "line geometry", correct: false },
-              { text: "circle geometry", correct: false },
-              { text: "none", correct: true },
-              { text: "poly geometry", correct: false }
-            ],
-            explanation: "The study or solution of triangles in relation to their sides and angles is simply called 'trigonometry', not any form of geometry mentioned. Therefore, the correct answer is 'none'."
-          },
-          {
-            question: "Find the value of 'a' such that the area of triangle ABC is 3, angle 𝐶 = 90°, and 𝑎 + 𝑏 = 12",
-            answers: [
-              { text: "11.48", correct: true },
-              { text: "16.25", correct: false },
-              { text: "6.5", correct: false },
-              { text: "9.25", correct: false }
-            ],
-            explanation: "Given the conditions, use the formula for the area of a right triangle: area = 0.5 * 𝑎 * 𝑏. Substitute 𝑎 + 𝑏 = 12 and solve for 'a'. The correct answer is 'a ≈ 11.48', which matches option (a)."
-          },
-          {
-            question: "Given 𝑦 = (5𝑥 − 2)². Find 𝑑𝑦/𝑑𝑥",
-            answers: [
-              { text: "10(5𝑥 − 2)²", correct: false },
-              { text: "10(5𝑥 − 2)", correct: true },
-              { text: "10(5𝑥 + 2)²", correct: false },
-              { text: "10(5𝑥 + 2)³", correct: false }
-            ],
-            explanation: "To differentiate 𝑦 = (5𝑥 − 2)²:\n\n1. Apply the power rule and chain rule.\n\n2. 𝑦' = 2 * (5𝑥 − 2) * 5 = 10(5𝑥 − 2).\n\n3. Therefore, the correct answer is option (b)."
-          },
-          {
-            question: "Let 𝑦 = 𝑥² / (𝑥² − 1), find the vertical asymptote and horizontal asymptote",
-            answers: [
-              { text: "𝑥 = ±2, 𝑦 = 1", correct: true },
-              { text: "𝑥 = ±1, 𝑦 = 1", correct: false },
-              { text: "𝑥 = ±2, 𝑦 = 2", correct: false },
-              { text: "𝑥 = 1, 𝑦 = 1", correct: false }
-            ],
-            explanation: "To find the vertical and horizontal asymptotes of 𝑦 = 𝑥² / (𝑥² − 1):\n\n1. Vertical asymptotes occur where the denominator equals zero, 𝑥 = ±1.\n\n2. Horizontal asymptote is found by comparing degrees of numerator and denominator, 𝑦 = 1.\n\n3. Hence, the correct answer is option (a)."
-          },
-          {
-            question: "If 𝑥⁴ + 𝑥𝑦 = 2𝑥, 𝑑𝑦/𝑑𝑥 is",
-            answers: [
-              { text: "2 + 4𝑥³ − 𝑦 / 𝑥", correct: false },
-              { text: "2 + 4𝑥³ + 𝑦 / 𝑥", correct: false },
-              { text: "2 − 4𝑥³ + 𝑦 / 𝑥", correct: false },
-              { text: "2 − 4𝑥³ − 𝑦 / 𝑥", correct: true }
-            ],
-            explanation: "Given 𝑥⁴ + 𝑥𝑦 = 2𝑥:\n\n1. Differentiate implicitly with respect to 𝑥.\n\n2. Solve for 𝑑𝑦/𝑑𝑥.\n\n3. The correct answer is 𝑑𝑦/𝑑𝑥 = 2 − 4𝑥³ − 𝑦 / 𝑥, which is option (d)."
-          },
-          {
-            question: "Find the area enclosed between curves 𝑦 = 𝑥² and 𝑦 = 6𝑥",
-            answers: [
-              { text: "44 sq. units", correct: false },
-              { text: "36 sq. units", correct: true },
-              { text: "32 sq. units", correct: false },
-              { text: "22 sq. units", correct: false }
-            ],
-            explanation: "To find the area enclosed between 𝑦 = 𝑥² and 𝑦 = 6𝑥:\n\n1. Set up the integral ∫(6𝑥 - 𝑥²)𝑑𝑥 from 0 to 3.\n\n2. Calculate the definite integral.\n\n3. The correct answer is 36 sq. units, which matches option (b)."
-          },
-          {
-            question: "∫ 𝑥²(𝑥³ + 1)𝑑𝑥 from 0 to 2",
-            answers: [
-              { text: "19/4", correct: false },
-              { text: "-9/4", correct: false },
-              { text: "40/3", correct: true },
-              { text: "18/7", correct: false }
-            ],
-            explanation: "To evaluate ∫ 𝑥²(𝑥³ + 1)𝑑𝑥 from 0 to 2:\n\n1. Expand the integrand and integrate term by term.\n\n2. Evaluate the definite integral from 0 to 2.\n\n3. The correct answer is 40/3, which is option (c)."
-          },
-          {
-            question: "The equation 𝑥²/4 + 𝑦²/5 = 1 represents",
-            answers: [
-              { text: "hyperbola", correct: false },
-              { text: "parabola", correct: false },
-              { text: "none", correct: false },
-              { text: "ellipse", correct: true }
-            ],
-            explanation: "The equation 𝑥²/4 + 𝑦²/5 = 1 describes an ellipse, where the sum of the squares of 𝑥 and 𝑦 variables equals 1. Therefore, the correct answer is 'ellipse' which is option (d)."
-          },
-          {
-            question: "Find the center of the circle 𝑥² + 𝑦² − 8𝑥 + 6𝑦 + 16 = 0",
-            answers: [
-              { text: "(-4, -3)", correct: false },
-              { text: "(-4, 3)", correct: false },
-              { text: "(4, 3)", correct: false },
-              { text: "(4, -3)", correct: true }
-            ],
-            explanation: "To find the center of the circle 𝑥² + 𝑦² − 8𝑥 + 6𝑦 + 16 = 0:\n\n1. Complete the square for 𝑥 and 𝑦 terms.\n\n2. The center is (4, -3), thus the correct answer is option (d)."
-          },
-          {
-            question: "Find the area enclosed between the curves 𝑦 = 𝑥³ − 2𝑥² and 𝑦 = 2𝑥 − 𝑥²",
-            answers: [
-              { text: "27/12 sq. units", correct: true },
-              { text: "8/3 sq. units", correct: false },
-              { text: "37/12 sq. units", correct: false },
-              { text: "none", correct: false }
-            ],
-            explanation: "To find the area enclosed between 𝑦 = 𝑥³ − 2𝑥² and 𝑦 = 2𝑥 − 𝑥²:\n\n1. Find the points of intersection and set up the integral.\n\n2. Evaluate the definite integral.\n\n3. The correct answer is 27/12 sq. units, which simplifies to 9/4 or 2.25 sq. units, matching option (a)."
-          },
-          {
-            question: "Determine the intercept of the equation 𝑦 = 28𝑥 − 4",
-            answers: [
-              { text: "28", correct: false },
-              { text: "4", correct: false },
-              { text: "none", correct: true },
-              { text: "7", correct: false }
-            ],
-            explanation: "The equation 𝑦 = 28𝑥 − 4 represents a linear function with no y-intercept. Therefore, the correct answer is 'none', which is option (c)."
-          },
-          {
-            question: "Equation of the form 3𝑥² + 6𝑦² = 12 is called?",
-            answers: [
-              { text: "circle", correct: false },
-              { text: "hyperbola", correct: false },
-              { text: "ellipse", correct: true },
-              { text: "parabola", correct: false }
-            ],
-            explanation: "The equation 3𝑥² + 6𝑦² = 12 represents an ellipse, as it is of the form (𝑥²)/(4) + (𝑦²)/(2) = 1. Therefore, the correct answer is option (c), ellipse."
-          },
-          {
-            question: "Integrate cos 𝑥 sin³ 𝑥 with respect to x",
-            answers: [
-              { text: "sin⁴ 𝑥 / 4", correct: false },
-              { text: "cos⁴ 𝑥 / 4", correct: false },
-              { text: "cos⁴ 𝑥 / 4", correct: false },
-              { text: "sin⁴ 𝑥 / 4", correct: true }
-            ],
-            explanation: "To integrate cos 𝑥 sin³ 𝑥:\n\n1. Use the reduction formula or substitution method.\n\n2. The correct antiderivative is sin⁴ 𝑥 / 4 + C. Therefore, the correct answer is option (d), sin⁴ 𝑥 / 4."
-          },
-          {
-            question: "If 𝑃 = 2𝑠³ − 𝑠² − 28𝑠, find the value of s which makes 𝑑𝑃/𝑑𝑠 = 0",
-            answers: [
-              { text: "2, 7", correct: false },
-              { text: "-2, 7", correct: false },
-              { text: "-2, 7/3", correct: true },
-              { text: "-3, 4", correct: false }
-            ],
-            explanation: "To find the value of s that makes 𝑑𝑃/𝑑𝑠 = 0 for 𝑃 = 2𝑠³ − 𝑠² − 28𝑠:\n\n1. Differentiate 𝑃 with respect to s and set it to zero.\n\n2. Solve the resulting equation.\n\n3. The correct answer is s = -2, 7/3, which matches option (c)."
-          },
-          {
-            question: "Find the eccentricity of the ellipse equation 𝑥²/25 + 𝑦²/16 = 1",
-            answers: [
-              { text: "3/5", correct: true },
-              { text: "1/5", correct: false },
-              { text: "2/5", correct: false },
-              { text: "4/5", correct: false }
-            ],
-            explanation: "The eccentricity of an ellipse given by 𝑥²/25 + 𝑦²/16 = 1 is calculated as e = √(1 - b²/a²), where a = √25 = 5 and b = √16 = 4.\n\n1. Calculate e = √(1 - 16/25) = √(9/25) = 3/5.\n\n2. Therefore, the correct answer is option (a), 3/5."
-          },
-          {
-            question: "Find the radius of the circle 5𝑥² + 5𝑦² + 10𝑥 + 20𝑦 + 15 = 0",
-            answers: [
-              { text: "2", correct: false },
-              { text: "√3", correct: false },
-              { text: "√2", correct: true },
-              { text: "3", correct: false }
-            ],
-            explanation: "To find the radius of the circle 5𝑥² + 5𝑦² + 10𝑥 + 20𝑦 + 15 = 0:\n\n1. Complete the square for 𝑥 and 𝑦 terms.\n\n2. The radius is given by √(𝑔² + 𝑓² - 𝑐), where 𝑔 = 5/2, 𝑓 = 10/2, and 𝑐 = 15.\n\n3. Calculate √2.\n\n4. Therefore, the correct answer is option (c), √2."
-          },
-          {
-            question: "Evaluate ∫ (𝑥³ + 𝑥)⁴ (3𝑥² + 1) 𝑑𝑥 from 0 to 1",
-            answers: [
-              { text: "32/5", correct: false },
-              { text: "4", correct: false },
-              { text: "8", correct: false },
-              { text: "32/5", correct: true }
-            ],
-            explanation: "To evaluate ∫ (𝑥³ + 𝑥)⁴ (3𝑥² + 1) 𝑑𝑥 from 0 to 1:\n\n1. Expand the integrand and integrate term by term.\n\n2. Evaluate the definite integral from 0 to 1.\n\n3. The correct answer is 32/5, which is option (d)."
-          },
-          {
-            question: "Evaluate ∫ sec² 𝑥 𝑑𝑥",
-            answers: [
-              { text: "sec 𝑥 tan 𝑥 + 𝑐", correct: false },
-              { text: "cos 𝑥 + 𝑐", correct: false },
-              { text: "sec 𝑥 + 𝑐", correct: false },
-              { text: "tan 𝑥 + 𝑐", correct: true }
-            ],
-            explanation: "The integral of sec² 𝑥 with respect to 𝑥 is tan 𝑥 + 𝑐. Therefore, the correct answer is option (d), tan 𝑥 + 𝑐."
-          },
-          {
-            question: "Simplify cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°)",
-            answers: [
-              { text: "(1 + √3) cos 𝑥", correct: true },
-              { text: "(√3 − 1) sin 𝑥", correct: false },
-              { text: "(1 + √3) sin 𝑥", correct: false },
-              { text: "(1 − 3) cos 𝑥", correct: false }
-            ],
-            explanation: "To simplify cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°):\n\n1. Use trigonometric identities and simplify.\n\n2. The correct simplification is (1 + √3) cos 𝑥, which is option (a)."
-          },
-          {
-            question: "Find the value of 𝐾, if sin 50° + sin 40° = 𝐾 cos 50°",
-            answers: [
-              { text: "2", correct: false },
-              { text: "√2", correct: true },
-              { text: "√3", correct: false },
-              { text: "3", correct: false }
-            ],
-            explanation: "Given sin 50° + sin 40° = 𝐾 cos 50°:\n\n1. Use trigonometric identities and solve for 𝐾.\n\n2. The correct value of 𝐾 is √2, which is option (b)."
-          },
-          {
-            question: "Differentiate 𝑦 = log𝑒 √(1 + 𝑥)",
-            answers: [
-              { text: "1 / (2(1 + 𝑥))", correct: false },
-              { text: "1 / (2(1 + 𝑥))", correct: true },
-              { text: "1 / (2(1 - 𝑥))", correct: false },
-              { text: "1 / (2(1 - 𝑥))", correct: false }
-            ],
-            explanation: "To differentiate 𝑦 = log𝑒 √(1 + 𝑥):\n\n1. Apply the chain rule and simplify.\n\n2. The correct derivative is 1 / (2(1 + 𝑥)), which is option (b)."
-          },
-          {
-            question: "Determine the y-intercept of the straight line represented by the equation 5𝑥 − 7𝑦 + 13 = 0",
-            answers: [
-              { text: "5/13", correct: false },
-              { text: "1/6", correct: false },
-              { text: "7/13", correct: false },
-              { text: "5/7", correct: true }
-            ],
-            explanation: "To find the y-intercept, set 𝑥 = 0 in the equation 5𝑥 − 7𝑦 + 13 = 0:\n\n1. Solve for 𝑦.\n\n2. The y-intercept is 𝑦 = 5/7.\n\n3. Therefore, the correct answer is option (d), 5/7."
-          },
-          {
-            question: "In a triangle 𝐴𝐵𝐶, 𝑎 = 6, 𝑐 = 4, 𝐴 = 30°. Find the value of 𝐵",
-            answers: [
-              { text: "0.30", correct: false },
-              { text: "19.50", correct: false },
-              { text: "1500", correct: false },
-              { text: "130.50", correct: true }
-            ],
-            explanation: "In triangle 𝐴𝐵𝐶, using the Law of Sines:\n\n1. sin 𝐵 / 𝑏 = sin 𝐴 / 𝑐\n\n2. Calculate sin 𝐵.\n\n3. Find 𝐵 in degrees.\n\n4. The correct answer is option (d), 130.50."
-          },
-          {
-            question: "Given 𝑡 = tan (𝑥/2), transforming 𝑑𝑥 into the integral of a rational function of t gives",
-            answers: [
-              { text: "𝑡² / (1 + 𝑡²) 𝑑𝑡", correct: false },
-              { text: "2 / (1 + 𝑡²) 𝑑𝑡", correct: true },
-              { text: "2𝑡 / (1 + 𝑡²) 𝑑𝑡", correct: false },
-              { text: "𝑡 / (1 + 𝑡²) 𝑑𝑡", correct: false }
-            ],
-            explanation: "Given 𝑡 = tan (𝑥/2), the differential 𝑑𝑥 transforms into the integral of a rational function of t:\n\n1. Substitute 𝑡 = tan (𝑥/2).\n\n2. Use the substitution method to find the correct integral.\n\n3. The correct transformation is 2 / (1 + 𝑡²) 𝑑𝑡, which corresponds to option (b)."
-          },
-          {
-            question: "Find the value of 𝛼 if cos𝛼 tan 𝛼 = 1 using the half-angle substitution method",
-            answers: [
-              { text: "30", correct: false },
-              { text: "1", correct: false },
-              { text: "180", correct: false },
-              { text: "0", correct: true }
-            ],
-            explanation: "Using the half-angle substitution method for cos𝛼 tan 𝛼 = 1:\n\n1. Let tan(𝛼/2) = 𝑡 and solve.\n\n2. Find the corresponding value of 𝛼 in degrees.\n\n3. The correct value of 𝛼 is 0, which is option (d)."
-          },
-          {
-            question: "Find tan 𝐴, if tan(𝐴 − 450°) = 3/5",
-            answers: [
-              { text: "2", correct: false },
-              { text: "4", correct: true },
-              { text: "6", correct: false },
-              { text: "8", correct: false }
-            ],
-            explanation: "Given tan(𝐴 − 450°) = 3/5:\n\n1. Calculate 𝐴 − 450°.\n\n2. Find 𝐴 by adding 450° to the calculated angle.\n\n3. Calculate tan 𝐴.\n\n4. The correct answer is option (b), 4."
-          },
-          {
-            question: "If 𝑦 = (𝑥)(𝑥 − 2)(𝑥 + 3) at point 𝑥 = −1, find the equation of the circle",
-            answers: [
-              { text: "5𝑦 − 2𝑥 − 31 = 0", correct: false },
-              { text: "5𝑦 − 𝑥 − 30 = 0", correct: false },
-              { text: "𝑦 − 𝑥 − 31 = 0", correct: false },
-              { text: "5𝑦 − 𝑥 − 31 = 0", correct: true }
-            ],
-            explanation: "Evaluate 𝑦 at 𝑥 = −1:\n\n1. Substitute 𝑥 = −1 into 𝑦 = (𝑥)(𝑥 − 2)(𝑥 + 3).\n\n2. Use the result to find the equation of the circle.\n\n3. The correct equation is option (d), 5𝑦 − 𝑥 − 31 = 0."
-          },
-          {
-            question: "Which is not correct?",
-            answers: [
-              { text: "sin(−𝛼) = −sin 𝛼", correct: false },
-              { text: "none", correct: true },
-              { text: "tan(−𝛼) = −tan 𝛼", correct: false },
-              { text: "cos(−𝛼) = cos 𝛼", correct: false }
-            ],
-            explanation: "Option (b) is correct because 'none' indicates that there is no correct answer among the options given."
-          },
-          {
-            question: "Find ∫ (3𝑥 + 4)^6 𝑑𝑥",
-            answers: [
-              { text: "−64", correct: false },
-              { text: "32", correct: false },
-              { text: "−32", correct: false },
-              { text: "64", correct: true }
-            ],
-            explanation: "Integrate (3𝑥 + 4)^6 with respect to 𝑥:\n\n1. Use the power rule of integration.\n\n2. Evaluate the integral.\n\n3. The correct answer is option (d), 64."
-          },
-          {
-            question: "If 𝑤 = ∫ 𝑓(𝑥)𝑑𝑥 from 𝑎 to 𝑏, which is true?",
-            answers: [
-              { text: "𝑤 = definite integral, 𝑓(𝑥) = integrand", correct: true },
-              { text: "𝑤 = indefinite integral, 𝑓(𝑥) = integrand", correct: false },
-              { text: "𝑤 = finite integral, 𝑎 = lower unit, 𝑓(𝑥) = differential", correct: false },
-              { text: "𝑤 = definite integral, 𝑏 = lower limit and 𝑓(𝑥) = integral", correct: false }
-            ],
-            explanation: "In the notation ∫ 𝑓(𝑥)𝑑𝑥 from 𝑎 to 𝑏:\n\n1. 𝑤 represents the definite integral.\n\n2. 𝑓(𝑥) is the integrand.\n\n3. Therefore, the correct statement is option (a)."
-          },
-          {
-            question: "Acute angle in two straight lines is",
-            answers: [
-              { text: "tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚1𝑚2 ≠ −1", correct: true },
-              { text: "tan 𝐵 = |(𝑚1−𝑚2)/(𝑚2𝑚1+1)|", correct: false },
-              { text: "tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚1 ≠ −1", correct: false },
-              { text: "tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚2 ≠ −1", correct: false }
-            ],
-            explanation: "For acute angles between two straight lines:\n\n1. Use the formula tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚1𝑚2 ≠ −1.\n\n2. This corresponds to option (a) as the correct answer."
-          },
-          {
-            question: "Evaluate cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°)",
-            answers: [
-              { text: "(1 − √3) cos 𝑥", correct: false },
-              { text: "(√3 − 1) sin 𝑥", correct: false },
-              { text: "(1 + √3) cos 𝑥", correct: true },
-              { text: "(1 + √3) sin 𝑥", correct: false }
-            ],
-            explanation: "Evaluate cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°):\n\n1. Use cosine and sine addition formulas.\n\n2. Simplify to find the correct expression.\n\n3. The correct answer is option (c), (1 + √3) cos 𝑥."
-          },
-          {
-            question: "sin 𝑥 = −0.9063, where 0° ≤ 𝑥 ≤ 270°. Find 𝑥",
-            answers: [
-              { text: "2450°", correct: false },
-              { text: "1150°", correct: true },
-              { text: "650°", correct: false },
-              { text: "1450°", correct: false }
-            ],
-            explanation: "Given sin 𝑥 = −0.9063 and the range 0° ≤ 𝑥 ≤ 270°:\n\n1. Find the reference angle and determine 𝑥.\n\n2. The correct answer is option (b), 1150°."
-          },
-          {
-            question: "If 𝑓(𝑥) = 3𝑥 + 2 with 𝑥1 = 0 and 𝑥2 = 3, find the rate of change",
-            answers: [
-              { text: "3", correct: true },
-              { text: "15", correct: false },
-              { text: "10", correct: false },
-              { text: "13", correct: false }
-            ],
-            explanation: "Calculate the rate of change of 𝑓(𝑥) = 3𝑥 + 2 between 𝑥1 = 0 and 𝑥2 = 3:\n\n1. Find 𝑓(3) and 𝑓(0).\n\n2. Use the formula (𝑓(𝑥2) - 𝑓(𝑥1)) / (𝑥2 - 𝑥1) to find the rate of change.\n\n3. The correct rate of change is option (a), 3."
-          },
-          {
-            question: "If 𝑔^2 + 𝑡^2 ≥ 𝑐 in the equation of a circle, the circle is ____________?",
-            answers: [
-              { text: "real", correct: true },
-              { text: "complex", correct: false },
-              { text: "imaginary", correct: false },
-              { text: "complete", correct: false }
-            ],
-            explanation: "The condition 𝑔^2 + 𝑡^2 ≥ 𝑐 in the equation of a circle determines whether the circle is real:\n\n1. If 𝑔^2 + 𝑡^2 ≥ 𝑐, the circle exists in the real plane.\n\n2. Therefore, the correct answer is option (a), real."
-          },
-          {
-            question: "Find the intercept of a line given by 𝑦 = 𝑎𝑥 + 𝑏",
-            answers: [
-              { text: "0", correct: false },
-              { text: "a", correct: false },
-              { text: "b", correct: true },
-              { text: "x", correct: false }
-            ],
-            explanation: "For the equation 𝑦 = 𝑎𝑥 + 𝑏, the intercept is represented by 𝑏, which is the y-intercept when 𝑥 = 0. Therefore, the correct answer is option (c), b."
-          },
-          {
-            question: "Which of the following is a basic identity?",
-            answers: [
-              { text: "1 + tan² 𝜃 = sec² 𝜃", correct: true },
-              { text: "cot² 𝜃 − cos² 𝜃 = 1", correct: false },
-              { text: "sin² 𝜃 + 1 = cos² 𝜃", correct: false },
-              { text: "none", correct: false }
-            ],
-            explanation: "The identity 1 + tan² 𝜃 = sec² 𝜃 is a fundamental trigonometric identity. Therefore, the correct answer is option (a)."
-          },
-          {
-            question: "Which represents the line perpendicular to a curve?",
-            answers: [
-              { text: "−𝑚1𝑚2 = 1", correct: true },
-              { text: "𝑚1𝑚2 = 0", correct: false },
-              { text: "𝑚2 = 0", correct: false },
-              { text: "none", correct: false }
-            ],
-            explanation: "The condition for perpendicular lines in terms of slopes is given by −𝑚1𝑚2 = 1. This indicates that the product of the slopes of two perpendicular lines is -1. Therefore, the correct answer is option (a)."
-          },
-          {
-            question: "Evaluate cos(π/3) cos(π/6) + sin(π/3) sin(π/6)",
-            answers: [
-              { text: "√3/2", correct: true },
-              { text: "1/2", correct: false },
-              { text: "√3", correct: false },
-              { text: "2√3", correct: false }
-            ],
-            explanation: "Use the cosine and sine addition formulas:\n\n1. cos(π/3) cos(π/6) + sin(π/3) sin(π/6) simplifies to cos(π/2), which equals √3/2.\n\n2. Therefore, the correct answer is option (a), √3/2."
-          },
-          {
-            question: "The formula for distance between two points is given as",
-            answers: [
-              { text: "𝑑² = [(𝑥₂ − 𝑥₁)² + (𝑦₂ − 𝑦₁)²]", correct: true },
-              { text: "𝑑 = [(𝑥₁(𝑥₂ − 𝑥₁))² + (𝑦₁(𝑦₂ − 𝑦₁))²", correct: false },
-              { text: "𝑑² = √(𝑥₂)² + (𝑦₂)²", correct: false },
-              { text: "none of the above", correct: false }
-            ],
-            explanation: "The correct formula for the distance between two points (𝑥₁, 𝑦₁) and (𝑥₂, 𝑦₂) in a Cartesian plane is 𝑑² = [(𝑥₂ − 𝑥₁)² + (𝑦₂ − 𝑦₁)²]. Therefore, the correct answer is option (a)."
-          },
-          {
-            question: "Evaluate ∫ sin𝜃 / cos𝜃 𝑑𝜃 from 0 to π/3",
-            answers: [
-              { text: "1", correct: true },
-              { text: "2", correct: false },
-              { text: "3", correct: false },
-              { text: "4", correct: false }
-            ],
-            explanation: "Integrate sin𝜃 / cos𝜃 with respect to 𝜃:\n\n1. ∫ sin𝜃 / cos𝜃 𝑑𝜃 = ln|cos𝜃| from 0 to π/3.\n\n2. Evaluate the integral at the limits.\n\n3. The correct answer is option (a), 1."
-          },
-          {
-            question: "Simplify sin𝛼 + cos𝛼 / (cos⁴𝛼 − sin⁴𝛼)",
-            answers: [
-              { text: "1 / (sin𝛼 cos𝛼)", correct: true },
-              { text: "1 / (sin𝛼 − cos𝛼)", correct: false },
-              { text: "1", correct: false },
-              { text: "sin𝛼 + cos𝛼", correct: false }
-            ],
-            explanation: "Simplify sin𝛼 + cos𝛼 / (cos⁴𝛼 − sin⁴𝛼):\n\n1. Factorize the denominator to (cos²𝛼 - sin²𝛼)(cos²𝛼 + sin²𝛼).\n\n2. Simplify using identities.\n\n3. The correct answer is option (a), 1 / (sin𝛼 cos𝛼)."
-          },
-          {
-            question: "Find the slope of the function 𝑦(𝑡) = 2𝑡² − 5𝑡 + 30, given 𝑡₁ = 3 and 𝑡₂ = 5",
-            answers: [
-              { text: "11", correct: true },
-              { text: "23", correct: false },
-              { text: "10", correct: false },
-              { text: "21", correct: false }
-            ],
-            explanation: "Calculate the slope between 𝑡₁ = 3 and 𝑡₂ = 5 for 𝑦(𝑡) = 2𝑡² − 5𝑡 + 30:\n\n1. Find 𝑦(3) and 𝑦(5).\n\n2. Use the slope formula (𝑦(𝑡₂) - 𝑦(𝑡₁)) / (𝑡₂ - 𝑡₁).\n\n3. The correct answer is option (a), 11."
-          },
-          {
-            question: "Find the volume obtained by rotating the area under the curve 𝑦 = 𝑥² from 𝑥 = 0 to 𝑥 = 1",
-            answers: [
-              { text: "16𝜋/5", correct: false },
-              { text: "2𝜋/5", correct: false },
-              { text: "3𝜋/5", correct: false },
-              { text: "𝜋/5", correct: true }
-            ],
-            explanation: "To find the volume obtained by rotating the area under the curve 𝑦 = 𝑥² from 𝑥 = 0 to 𝑥 = 1:\n\n1. Use the formula for volume of revolution V = ∫[π(𝑓(𝑥))²] 𝑑𝑥 from 𝑎 to 𝑏.\n\n2. Calculate the integral.\n\n3. The correct answer is option (d), 𝜋/5."
-          },
-          {
-            question: "When two lines are parallel",
-            answers: [
-              { text: "𝑚₁ = 𝑚₂", correct: true },
-              { text: "𝑚₁ = 1 + 𝑚", correct: false },
-              { text: "𝑚₁ ÷ 𝑚₂ = 0", correct: false },
-              { text: "𝑚₁ ≠ 𝑚₂", correct: false }
-            ],
-            explanation: "For two lines to be parallel, their slopes (𝑚₁ and 𝑚₂) must be equal. Therefore, the correct answer is option (a), 𝑚₁ = 𝑚₂."
-          },
-          {
-            question: "Evaluate ∫ (4𝑥 − 6𝑒^(1/2𝑥) − 5) 𝑑𝑥",
-            answers: [
-              { text: "2𝑥² − 12𝑒^(1/2𝑥) − 5𝑥 + 𝑐", correct: true },
-              { text: "2𝑥² − 3𝑒^(1/2𝑥) − 5𝑥 + 𝑐", correct: false },
-              { text: "2𝑥² − 3𝑒^(1/2𝑥) + 𝑐", correct: false },
-              { text: "2𝑥² + 12𝑒^(1/2𝑥) + 𝑐", correct: false }
-            ],
-            explanation: "Integrate (4𝑥 − 6𝑒^(1/2𝑥) − 5) 𝑑𝑥:\n\n1. ∫ 4𝑥 𝑑𝑥 = 2𝑥²\n2. ∫ 6𝑒^(1/2𝑥) 𝑑𝑥 = -12𝑒^(1/2𝑥)\n3. ∫ 5 𝑑𝑥 = 5𝑥\n4. Combine the results and add the constant of integration 𝑐.\n\nThe correct answer is option (a), 2𝑥² − 12𝑒^(1/2𝑥) − 5𝑥 + 𝑐."
-          },
-          {
-            question: "Evaluate ∫ 𝑥𝑒^(2𝑥) 𝑑𝑥",
-            answers: [
-              { text: "1/2 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/4 + 𝑐", correct: true },
-              { text: "1/4 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/2 + 𝑐", correct: false },
-              { text: "1/2 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/2 + 𝑐", correct: false },
-              { text: "1/4 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/4 + 𝑐", correct: false }
-            ],
-            explanation: "Integrate 𝑥𝑒^(2𝑥) 𝑑𝑥:\n\n1. Let 𝑢 = 𝑥, 𝑑𝑣 = 𝑒^(2𝑥) 𝑑𝑥. Then, integrate by parts.\n2. Apply the integration by parts formula and solve for the integral.\n\nThe correct answer is option (a), 1/2 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/4 + 𝑐."
-          },
-          {
-            question: "Find the area of ∆𝐴𝐵𝐶 if 𝐴 = 400, 𝐵 = 700, and 𝑎 = 3.5",
-            answers: [
-              { text: "3.64", correct: false },
-              { text: "9.86", correct: false },
-              { text: "4.93", correct: false },
-              { text: "8.42", correct: true }
-            ],
-            explanation: "To find the area of ∆𝐴𝐵𝐶, use the formula Area = 1/2 * 𝑎 * 𝑏 * sin(𝐶).\n1. Calculate the area using the given sides 𝐴 = 400, 𝐵 = 700, and 𝐶 = 3.5.\n2. The correct answer is option (d), 8.42."
-          },
-          {
-            question: "Evaluate ∫ 𝑑𝑥 / (1 − cos 𝑥)",
-            answers: [
-              { text: "ln |tan(𝑥/2)| + 𝑐", correct: false },
-              { text: "− tan(𝑥/2) + 𝑐", correct: false },
-              { text: "none", correct: true },
-              { text: "tan⁻¹(𝑥/2) + 𝑐", correct: false }
-            ],
-            explanation: "The integral ∫ 𝑑𝑥 / (1 − cos 𝑥) is not expressible in elementary functions, hence the correct answer is option (c), none."
-          },
-          {
-            question: "Integrate 3√𝑥 / 𝑥^(3/4) with respect to x",
-            answers: [
-              { text: "12𝑥^(7/4) / 7 + 𝑐", correct: false },
-              { text: "12𝑥^(4/7) / 7 + 𝑐", correct: false },
-              { text: "12𝑥^(4/7) / 7 + 𝑐", correct: false },
-              { text: "12𝑥^(7/4) / 7 + 𝑐", correct: true }
-            ],
-            explanation: "To integrate 3√𝑥 / 𝑥^(3/4), rewrite it as 3𝑥^(1/2) / 𝑥^(3/4) = 3𝑥^(7/4).\n1. Integrate to get 12𝑥^(7/4) / 7 + 𝑐.\n2. The correct answer is option (d), 12𝑥^(7/4) / 7 + 𝑐."
-          },
-          {
-            question: "Find the derivative of the function 𝑦 = √(7 − 2𝑥)^4 with respect to x",
-            answers: [
-              { text: "8𝑥 − 28", correct: false },
-              { text: "6𝑥 + 8", correct: false },
-              { text: "6𝑥 − 5", correct: false },
-              { text: "8𝑥 − 28", correct: true }
-            ],
-            explanation: "Differentiate 𝑦 = √(7 − 2𝑥)^4 with respect to x:\n1. Use chain rule and power rule to differentiate.\n2. The correct answer is option (d), 8𝑥 − 28."
-          },
-          {
-            question: "A straight line which is perpendicular to a tangent at the curve 𝑦 = 𝑓(𝑥) is called",
-            answers: [
-              { text: "asymptote", correct: false },
-              { text: "intercept", correct: false },
-              { text: "normal", correct: true },
-              { text: "none", correct: false }
-            ],
-            explanation: "A straight line which is perpendicular to a tangent at the curve 𝑦 = 𝑓(𝑥) is called the normal to the curve at that point. Therefore, the correct answer is option (c), normal."
-          },
-          {
-            question: "Simplify (tan 𝜃 − sec𝜃) / 2",
-            answers: [
-              { text: "(sin 𝜃 - 1) / (2cos𝜃)", correct: true },
-              { text: "(sin 𝜃 + 1) / (2cos𝜃)", correct: false },
-              { text: "(tan 𝜃 - 1) / (2sin𝜃)", correct: false },
-              { text: "(sin 𝜃 - 1) / (2sin𝜃)", correct: false }
-            ],
-            explanation: "To simplify (tan 𝜃 − sec𝜃) / 2, we use trigonometric identities: (sin 𝜃 - 1) / (2cos𝜃)."
-          },
-          {
-            question: "Find the range of -1, -2, -3, -5, -22",
-            answers: [
-              { text: "21", correct: true },
-              { text: "22", correct: false },
-              { text: "20", correct: false },
-              { text: "23", correct: false }
-            ],
-            explanation: "To find the range, subtract the minimum value from the maximum value: Range = -1 - (-22) = 21."
-          },
-          {
-            question: "Simplify sin 𝜃 + sin3𝜃 / cos𝜃 cos3𝜃",
-            answers: [
-              { text: "(sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: true },
-              { text: "(sin 𝜃 - 3sin 𝜃 + 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: false },
-              { text: "(sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 + 3cos 𝜃))", correct: false },
-              { text: "(sin 𝜃 + 3sin 𝜃 + 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: false }
-            ],
-            explanation: "Using trigonometric identities, we simplify sin 𝜃 + sin3𝜃 / cos𝜃 cos3𝜃 to (sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))."
-          },
-          {
-            question: "Simplify (tan 𝜃 - sec𝜃) / (2tan 𝜃 sec𝜃)",
-            answers: [
-              { text: "1 / 2", correct: true },
-              { text: "tan 𝜃 / 2", correct: false },
-              { text: "sec 𝜃 / 2", correct: false },
-              { text: "1 / tan 𝜃", correct: false }
-            ],
-            explanation: "To simplify (tan 𝜃 - sec𝜃) / (2tan 𝜃 sec𝜃), we factor out 1 / 2."
-          },
-          {
-            question: "Find the range of -1, -2, -3, -5, -22",
-            answers: [
-              { text: "21", correct: true },
-              { text: "22", correct: false },
-              { text: "20", correct: false },
-              { text: "23", correct: false }
-            ],
-            explanation: "To find the range, subtract the minimum value from the maximum value: Range = -1 - (-22) = 21."
-          },
-          {
-            question: "Simplify sin 𝜃 + sin3𝜃 / (cos𝜃 cos3𝜃)",
-            answers: [
-              { text: "tan 𝜃", correct: true },
-              { text: "cot 𝜃", correct: false },
-              { text: "sec 𝜃", correct: false },
-              { text: "csc 𝜃", correct: false }
-            ],
-            explanation: "Using trigonometric identities, sin 𝜃 + sin3𝜃 / (cos𝜃 cos3𝜃) simplifies to tan 𝜃."
-          },
-          {
-            question: "Find the value of sin 2𝛼 if tan𝛽 = 5/12 and sin 𝛼 = 3/5",
-            answers: [
-              { text: "24/25", correct: true },
-              { text: "36/65", correct: false },
-              { text: "20/65", correct: false },
-              { text: "36/35", correct: false }
-            ],
-            explanation: "Using double angle formula, sin 2𝛼 = 2 sin 𝛼 cos 𝛼 = 2 * (3/5) * (√(1 - (3/5)^2)) = 24/25."
-          },
-          {
-            question: "Find 𝑑𝑦 / 𝑑𝑥, if 𝑥^2 / a^2 + 𝑦^2 / b^2 = 1",
-            answers: [
-              { text: "-𝑏^2𝑥 / 𝑎^2𝑦", correct: true },
-              { text: "𝑎^2𝑥 / 𝑏^2𝑦", correct: false },
-              { text: "𝑏𝑥 / 𝑎𝑦", correct: false },
-              { text: "𝑎𝑥 / 𝑏𝑦", correct: false }
-            ],
-            explanation: "Differentiating implicitly, 𝑑𝑦 / 𝑑𝑥 = -𝑏^2𝑥 / 𝑎^2𝑦."
-          },
-          {
-            question: "Simplify cos^4 𝜃 − sin^4 𝜃",
-            answers: [
-              { text: "cos 2𝜃", correct: true },
-              { text: "cot 2𝜃", correct: false },
-              { text: "sin 2𝜃", correct: false },
-              { text: "tan 2𝜃", correct: false }
-            ],
-            explanation: "Using the identity cos^2 𝜃 = 1 - sin^2 𝜃, cos^4 𝜃 − sin^4 𝜃 simplifies to cos 2𝜃."
-          },
-          {
-            question: "Evaluate ∫ (sec^2 𝑥 + sec 𝑥 tan 𝑥) / (sec 𝑥 + tan 𝑥) dx",
-            answers: [
-              { text: "ln |sec 𝑥 + tan 𝑥| + C", correct: true },
-              { text: "2 sec 𝑥 + C", correct: false },
-              { text: "x + C", correct: false },
-              { text: "sec 𝑥 + tan 𝑥 + C", correct: false }
-            ],
-            explanation: "Integrating, we get ∫ (sec^2 𝑥 + sec 𝑥 tan 𝑥) / (sec 𝑥 + tan 𝑥) dx = ln |sec 𝑥 + tan 𝑥| + C."
-          },
-          {
-            question: "If tan A = √2 + 1, find sec^2 A − 2",
-            answers: [
-              { text: "2√2", correct: true },
-              { text: "2 - 2√2", correct: false },
-              { text: "4 + 2√2", correct: false },
-              { text: "2 + 2√2", correct: false }
-            ],
-            explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2."
-          },
-          {
-            question: "If tan (A + B) = 1/7 and tan A = 1/3, find tan B",
-            answers: [
-              { text: "-4/11", correct: true },
-              { text: "3/7", correct: false },
-              { text: "-2/11", correct: false },
-              { text: "4/11", correct: false }
-            ],
-            explanation: "Using the tangent addition formula, tan B = (tan (A + B) - tan A) / (1 + tan (A + B) * tan A)."
-          },
-          {
-            question: "Find the value of tan 2𝛼, if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
-            answers: [
-              { text: "24/7", correct: true },
-              { text: "7/24", correct: false },
-              { text: "-24/7", correct: false },
-              { text: "-7/24", correct: false }
-            ],
-            explanation: "Using the double angle formula for tangent, tan 2𝛼 = (2 tan 𝛼) / (1 - tan^2 𝛼)."
-          },
-          {
-            question: "Find the value of cos 22.5° in surd form",
-            answers: [
-              { text: "√(2+√2) / 2", correct: true },
-              { text: "√(√2−1) / 2", correct: false },
-              { text: "√(2−√2) / 2", correct: false },
-              { text: "√(√2−2) / 2", correct: false }
-            ],
-            explanation: "Using the angle addition formula, cos 22.5° = √(2 + √2) / 2."
-          },
-          {
-            question: "Find the value of 195° in surd form",
-            answers: [
-              { text: "3 + √3 / 3 - √3", correct: true },
-              { text: "3 + √3 / 3 + √3", correct: false },
-              { text: "-3 - √3 / 3 + √3", correct: false },
-              { text: "3 - √3 / 3 + √3", correct: false }
-            ],
-            explanation: "Using the angle reduction formula, 195° = 3 + √3 / 3 - √3."
-          },
-          {
-            question: "Find the derivative of 𝑦 = 𝑒^(2𝑥+3) with respect to x",
-            answers: [
-              { text: "2𝑒^(2𝑥+3)", correct: true },
-              { text: "2𝑒^(2𝑥-3)", correct: false },
-              { text: "𝑒^(2𝑥+3)", correct: false },
-              { text: "3𝑒^(2𝑥+3)", correct: false }
-            ],
-            explanation: "Differentiating 𝑦 = 𝑒^(2𝑥+3) with respect to x gives 𝑑𝑦 / 𝑑𝑥 = 2𝑒^(2𝑥+3)."
-          },
-          {
-            question: "Find 𝑑𝑦 / 𝑑𝑥, if 𝑥^2 / a^2 + 𝑦^2 / b^2 = 1",
-            answers: [
-              { text: "-𝑏^2𝑥 / 𝑎^2𝑦", correct: true },
-              { text: "-𝑎^2𝑥 / 𝑏^2𝑦", correct: false },
-              { text: "-𝑏𝑥 / 𝑎𝑦", correct: false },
-              { text: "𝑏^2𝑥 / 𝑎^2𝑦", correct: false }
-            ],
-            explanation: "Differentiating implicitly, 𝑑𝑦 / 𝑑𝑥 = -𝑏^2𝑥 / 𝑎^2𝑦."
-          },
-          {
-            question: "Find the value of sin 22.5° in surd form",
-            answers: [
-              { text: "√(2 - √2) / 2", correct: true },
-              { text: "√(√2 - 2) / 2", correct: false },
-              { text: "√(2 + √2) / 2", correct: false },
-              { text: "-√(√2 - 2) / 2", correct: false }
-            ],
-            explanation: "Using the angle addition formula, sin 22.5° = √(2 - √2) / 2."
-          },
-          {
-            question: "If tan⁻¹(3x) + tan⁻¹(2x) = π/4, find the value of x",
-            answers: [
-              { text: "1/6", correct: true },
-              { text: "-1, -1/6", correct: false },
-              { text: "1/6, 1", correct: false },
-              { text: "1, -1/6", correct: false }
-            ],
-            explanation: "Given tan⁻¹(3x) + tan⁻¹(2x) = π/4, solve for x."
-          },
-          {
-            question: "In a triangle ABC, ∠A = 53°, sides b = 4.2 cm, and c = 3.5 cm. Find the area of ∆ABC",
-            answers: [
-              { text: "4.87 cm²", correct: true },
-              { text: "8.70 cm²", correct: false },
-              { text: "16.24 cm²", correct: false },
-              { text: "5.87 cm²", correct: false }
-            ],
-            explanation: "Using the formula Area = 1/2 * b * c * sin A, calculate the area of triangle ABC."
-          },
-            {
-              question: "Evaluate ∫ (2 dx) / (x^2 - 2x + 5)",
-              answers: [
-                { text: "tan⁻¹((x - 1)/2) + C", correct: true },
-                { text: "2 tan⁻¹((x + 1)/2) + C", correct: false },
-                { text: "(1/2) tan⁻¹((x - 1)/2) + C", correct: false },
-                { text: "tan⁻¹((x + 1)/2) + C", correct: false }
-              ],
-              explanation: "Integrating using the arctangent function, ∫ (2 dx) / (x^2 - 2x + 5) = tan⁻¹((x - 1)/2) + C."
-            },
-            {
-              question: "Find the value of sin(𝛼 + 𝛽) if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
-              answers: [
-                { text: "36/65", correct: true },
-                { text: "-36/65", correct: false },
-                { text: "20/65", correct: false },
-                { text: "35/65", correct: false }
-              ],
-              explanation: "Using the sine addition formula, sin(𝛼 + 𝛽) = (sin 𝛼 * cos 𝛽) + (cos 𝛼 * sin 𝛽).<br>Solving gives sin(𝛼 + 𝛽) = (3/5 * 12/13) + (4/5 * 5/13) = 36/65."
-            },
-            {
-              question: "Find the equation of the tangent to y = 3x^2 + 2x - 1 at x = 1",
-              answers: [
-                { text: "y = 8x - 4", correct: true },
-                { text: "y = 6x - 4", correct: false },
-                { text: "y = 8x + 2", correct: false },
-                { text: "y = 8x + 4", correct: false }
-              ],
-              explanation: "Differentiate y = 3x^2 + 2x - 1 to find the slope at x = 1, then use the point-slope form of the tangent line equation.<br>Derivative: y' = 6x + 2.<br>At x = 1, y' = 6(1) + 2 = 8.<br>Equation of tangent line: y - y₁ = m(x - x₁) => y - (3(1)² + 2(1) - 1) = 8(x - 1) => y = 8x - 4."
-            },
-            {
-              question: "If tan A = √2 + 1, find sec^2 A − 2",
-              answers: [
-                { text: "2√2", correct: true },
-                { text: "4 + 2√2", correct: false },
-                { text: "2 + 2√2", correct: false },
-                { text: "2 - 2√2", correct: false }
-              ],
-              explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2.<br>Given tan A = √2 + 1.<br>sec A = 1 / cos A.<br>Sec A 2-5 is"
-            },
-            {
-              question: "Evaluate ∫ ln x dx",
-              answers: [
-                { text: "x ln x - x + C", correct: true },
-                { text: "x^2 / 2 ln x + C", correct: false },
-                { text: "-(ln x / x) + C", correct: false },
-                { text: "x^3 / 3 ln x + C", correct: false }
-              ],
-              explanation: "Integrating ln x, ∫ ln x dx = x ln x - x + C.<br>5"
-            },
-            {
-              question: "If y = x^3 + 3x^2, find the maximum and minimum points",
-              answers: [
-                { text: "(0, 0) and (-2, 4)", correct: true },
-                { text: "(0, 0) and (-2, 3)", correct: false },
-                { text: "(0, 0) and (-2, 5)", correct: false },
-                { text: "(0, 0) and (-1, 1)", correct: false }
-              ],
-              explanation: "Differentiate y = x^3 + 3x^2 to find critical points and use the second derivative test to determine maxima and minima.<br>5"
-            },
-            {
-              question: "Evaluate 2 / (1 - cos 45°)",
-              answers: [
-                { text: "2 + √2", correct: true },
-                { text: "2 - √2", correct: false },
-                { text: "4 + 2√2", correct: false },
-                { text: "2 + √3", correct: false }
-              ],
-              explanation: "Evaluate using the cosine double-angle formula, 2 / (1 - cos 45°) simplifies to 2 + √2.<br>5"
-            },
-            {
-              question: "If tan θ = 3/4, find cos^2 θ",
-              answers: [
-                { text: "7/25", correct: true },
-                { text: "2/4", correct: false },
-                { text: "3/5", correct: false },
-                { text: "7/25", correct: false }
-              ],
-              explanation: "Using the identity cos^2 θ = 1 / (1 + tan^2 θ), cos^2 θ = 7/25.<br>5"
-            },
-            {
-              question: "If cos θ = 3/4, find sec θ",
-              answers: [
-                { text: "4/3", correct: true },
-                { text: "2/3", correct: false },
-                { text: "4/5", correct: false },
-                { text: "3/4", correct: false }
-              ],
-              explanation: "Secant is the reciprocal of cosine: sec θ = 1 / cos θ. Therefore, sec θ = 4/3.<br>5"
-            },
-            {
-              question: "Find the x-intercept of y = x^3 - 1 / x^2 - 4",
-              answers: [
-                { text: "(±2,0)", correct: true },
-                { text: "(0, ±2)", correct: false },
-                { text: "(0, ±1)", correct: false },
-                { text: "(±1,0)", correct: false }
-              ],
-              explanation: "To find the x-intercepts, set y = 0 and solve for x: x^3 - 1 = 0 ⟹ x^3 = 1 ⟹ x = ±1. Similarly, x^2 - 4 = 0 ⟹ x^2 = 4 ⟹ x = ±2. Therefore, the x-intercepts are (±2,0).<br>5"
-            },
-            {
-              question: "Differentiate y = cos(Ax + B) with respect to x at x = 1",
-              answers: [
-                { text: "-A sin(A + B)", correct: true },
-                { text: "A cos B", correct: false },
-                { text: "0", correct: false },
-                { text: "-sin B", correct: false }
-              ],
-              explanation: "Differentiate using the chain rule: dy/dx = -A sin(Ax + B). At x = 1, dy/dx = -A sin(A + B).<br>5"
-            },
-            {
-              question: "If a + b + c / a + b - c = cot A^2 / cot B^2 and a + b = 24.3 cm, A = 64.8°, B = 22.5°, find angle C and the sides of the triangle",
-              answers: [
-                { text: "92.70°, -2.38cm", correct: true },
-                { text: "92.70°, 2.38cm", correct: false },
-                { text: "92.69°, -2.39cm", correct: false },
-                { text: "92.63°, 2.39cm", correct: false }
-              ],
-              explanation: "Given the conditions and using the triangle angle and side formulas, angle C is approximately 92.70° and the side is approximately -2.38 cm.<br>5"
-            },
-            {
-              question: "Simplify √(1 + cos^2 θ) / (1 + tan^2 θ)",
-              answers: [
-                { text: "sec θ", correct: true },
-                { text: "cos θ", correct: false },
-                { text: "sin θ", correct: false },
-                { text: "cot θ", correct: false }
-              ],
-              explanation: "Using trigonometric identities, √(1 + cos^2 θ) = sec θ and 1 + tan^2 θ = sec^2 θ. Therefore, the expression simplifies to sec θ.<br>5"
-            },
-            {
-              question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of x",
-              answers: [
-                { text: "π/6 + 2nπ", correct: true },
-                { text: "π/2 + 2nπ", correct: false },
-                { text: "π/3 + 2nπ", correct: false },
-                { text: "-π/3 - π/6 + 2nπ", correct: false }
-              ],
-              explanation: "Solve cos 3x + √3 sin 3x = √3 using trigonometric identities and the given range for x.<br>5"
-            },
-            {
-              question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of R",
-              answers: [
-                { text: "√(1 + √3)", correct: true },
-                { text: "2", correct: false },
-                { text: "1 + √3", correct: false },
-                { text: "√3", correct: false }
-              ],
-              explanation: "Evaluate the expression cos 3x + √3 sin 3x to find R.<br>5"
-            },
-            {
-              question: "Simplify cos 4θ - sin 4θ",
-              answers: [
-                { text: "cos 2θ", correct: true },
-                { text: "cot 2θ", correct: false },
-                { text: "sin 2θ", correct: false },
-                { text: "tan 2θ", correct: false }
-              ],
-              explanation: "Using double angle identities, cos 4θ - sin 4θ = cos 2θ.<br>5"
-            },
-            {
-              question: "Evaluate 1 / (sec θ - 1) + 1 / (sec θ + 1)",
-              answers: [
-                { text: "2 tan θ", correct: true },
-                { text: "2 cos θ", correct: false },
-                { text: "2 sec θ", correct: false },
-                { text: "2 cosec θ", correct: false }
-              ],
-              explanation: "Simplify using trigonometric identities to evaluate the given expression.<br>5"
-            },
-            {
-              question: "Integrate (5x^2 / (10x^3 + 3)) dx",
-              answers: [
-                { text: "1/6 ln(10x^3 + 3) + C", correct: true },
-                { text: "ln(10x^3 + 3) + C", correct: false },
-                { text: "5/3 ln(10x^3 + 3) + C", correct: false },
-                { text: "1/2 ln(10x^3 + 3x) + C", correct: false }
-              ],
-              explanation: "Use the substitution method and integral formulas to find the antiderivative.<br>5"
-            },
-            {
-              question: "Find the value of sin(x + y) if sin x = 4/5 and cos y = 12/13",
-              answers: [
-                { text: "63/65", correct: true },
-                { text: "281/65", correct: false },
-                { text: "48/65", correct: false },
-                { text: "15/65", correct: false }
-              ],
-              explanation: "Use the sine addition formula to find sin(x + y) given sin x and cos y.<br>5"
-            },
-            {
-              question: "Integrate 1 / (1 + 4x^2) dx",
-              answers: [
-                { text: "1/2 arctan(2x) + C", correct: true },
-                { text: "arctan(2x) + C", correct: false },
-                { text: "1/4 arctan(2x) + C", correct: false },
-                { text: "1/2 arctan(x^2) + C", correct: false }
-              ],
-              explanation: "Integrate using the arctangent function and the integral formula for 1 / (1 + a^2x^2).<br>5"
-            },
-            {
-              question: "Simplify sin 3a",
-              answers: [
-                { text: "3 sin a - 4 sin^3 a", correct: true },
-                { text: "3 sin a + 4 sin^3 a", correct: false },
-                { text: "4 sin^3 a - 3 sin a", correct: false },
-                { text: "4 sin^3 a sin a", correct: false }
-              ],
-              explanation: "Apply the triple angle formula for sine to simplify sin 3a.<br>5"
-            },
-            {
-              question: "Find the antiderivative of e^(sin θ cos θ + sin√θ / √θ)",
-              answers: [
-                { text: "e^(sin θ cos θ) - 2 cos√θ + C", correct: true },
-                { text: "e^(cos θ sin θ) - 2 sin√θ + C", correct: false },
-                { text: "e^(sin θ cos θ) + 2 cos√θ + C", correct: false },
-                { text: "e^(cos θ sin θ) + 2 sin√θ + C", correct: false }
-              ],
-              explanation: "Integrate using the given expression and the antiderivative formulas for exponential functions.<br>5"
-            },
-            {
-              question: "Find the vertical and horizontal asymptotes of y = 4x^2 - 1 / x^2 - 5 - 6",
-              answers: [
-                { text: "(3, 2) and 3", correct: true },
-                { text: "(1, 2) and 3", correct: false },
-                { text: "(3, 4) and 3", correct: false },
-                { text: "(3, 2) and 4", correct: false }
-              ],
-              explanation: "Identify the vertical and horizontal asymptotes by analyzing the given rational function.<br>5"
-            },
-            {
-              question: "Differentiate y = tan(2x + 45)",
-              answers: [
-                { text: "sec^2(2x + 45)", correct: true },
-                { text: "tan(2x + 45)", correct: false },
-                { text: "2 sec(2x + 3)", correct: false },
-                { text: "2 sec(2x + 43)", correct: false }
-              ],
-              explanation: "Differentiate using the derivative formula for the tangent function.<br>5"
-            }          
+          ],
+          explanation: "By solving sin θ + 6 cos θ = 90 using a calculator, θ is approximately 30.522 degrees."
+      },
+      {
+          question: "Find the value of sin θ if tan θ is undefined and θ is an acute angle.",
+          answers: [
+              { text: "sin θ = 1", correct: true },
+              { text: "sin θ = 0.5", correct: false },
+              { text: "sin θ = 0", correct: false },
+              { text: "sin θ = 0.707", correct: false }
+          ],
+          explanation: "If tan θ is undefined and θ is acute, θ = 90°, and sin 90° = 1."
+      },
+      {
+          question: "Find the angles and sides of a triangle ABC if angle A = 50°, and side a = 5.5 cm.",
+          answers: [
+              { text: "Angle B = 26°, sides b = 6.5 cm, c = 6.5 cm", correct: true },
+              { text: "Angle B = 75°, sides b = 5 cm, c = 5 cm", correct: false },
+              { text: "Angle B = 57°, sides b = 5.6 cm, c = 5.6 cm", correct: false },
+              { text: "Angle B = 56°, sides b = 12 cm, c = 6 cm", correct: false }
+          ],
+          explanation: "Using the law of cosines and sines, we can determine the other angles and sides of triangle ABC."
+      },
+      {
+        question: "Express sin 6x + sin 4x as a product of two trigonometric ratios.",
+        answers: [
+            { text: "2x cosx", correct: false },
+            { text: "2 sin 5x cos x", correct: true },
+            { text: "2 sin 4x cos x", correct: false },
+            { text: "2 sin 6x cos x", correct: false }
+        ],
+        explanation: "Using the sum-to-product identities: sin A + sin B = 2 sin((A+B)/2) cos((A-B)/2), we get 2 sin 5x cos x."
+    },
+    {
+        question: "Express sin 10x - sin 6x as a product of two trigonometric ratios.",
+        answers: [
+            { text: "2 cos 2x sin 2x", correct: true },
+            { text: "2 sin 8x cos 2x", correct: false },
+            { text: "2 cos 4x cot 3x", correct: false },
+            { text: "2 cos 5x tan 4x", correct: false }
+        ],
+        explanation: "Using the difference-to-product identity: sin A - sin B = 2 cos((A+B)/2) sin((A-B)/2), we get 2 cos 8x sin 2x."
+    },
+    {
+        question: "Express sin 12x - sin 8x as a product of two trigonometric ratios.",
+        answers: [
+            { text: "cos 10x sin 2x", correct: false },
+            { text: "2 cos 7x tan 2x", correct: false },
+            { text: "2 cos 10x sin 2x", correct: true },
+            { text: "cos 8x sin 2x", correct: false }
+        ],
+        explanation: "Using the difference-to-product identity: sin A - sin B = 2 cos((A+B)/2) sin((A-B)/2), we get 2 cos 10x sin 2x."
+    },
+    {
+        question: "Express cos 8x - cos 4x as a product of two trigonometric ratios.",
+        answers: [
+            { text: "2 sin x cos 5x", correct: false },
+            { text: "2 cos 8x sin 2x", correct: true },
+            { text: "4 cos 4x tan 2x", correct: false },
+            { text: "2 sin 6x cos 2x", correct: false }
+        ],
+        explanation: "Using the difference-to-product identity: cos A - cos B = -2 sin((A+B)/2) sin((A-B)/2), we get 2 cos 8x sin 2x."
+    },
+    {
+        question: "Express cos 7x cos 5x as a product of two trigonometric ratios.",
+        answers: [
+            { text: "(cos 12x + cos 2x)", correct: true },
+            { text: "(cos 10x - cos 2x)", correct: false },
+            { text: "(cos 6x + cos 6x)", correct: false },
+            { text: "(cos 12x - cos 4x)", correct: false }
+        ],
+        explanation: "Using the product-to-sum identity: cos A cos B = 1/2 [cos(A+B) + cos(A-B)], we get (cos 12x + cos 2x)."
+    },
+    {
+        question: "Express sin 5x sin x as a product of two trigonometric ratios.",
+        answers: [
+            { text: "(cos 6x + cos 4x)", correct: false },
+            { text: "(cos 4x + cos 2x)", correct: false },
+            { text: "(cos 5x + cos x)", correct: false },
+            { text: "(cos 6x - cos 4x)", correct: true }
+        ],
+        explanation: "Using the product-to-sum identity: sin A sin B = 1/2 [cos(A-B) - cos(A+B)], we get (cos 6x - cos 4x)."
+    },
+    {
+        question: "Express 1 + 8 sin θ in terms of cos θ.",
+        answers: [
+            { text: "8 - 9 cos θ", correct: false },
+            { text: "1 - 8 cos θ", correct: true },
+            { text: "9 - 8 cos θ", correct: false },
+            { text: "8 - 4 cos² θ", correct: false }
+        ],
+        explanation: "Using trigonometric identities, 1 + 8 sin θ can be expressed as 1 - 8 cos θ."
+    },
+    {
+      question: "Express cos 6x + cos 4x as a product of two trigonometric ratios.",
+      answers: [
+          { text: "cos 5x cos x", correct: false },
+          { text: "2 sin 6x sin 2x", correct: false },
+          { text: "2 cos 7x cos 4x", correct: false },
+          { text: "2 cos 6x cos 2x", correct: true }
+      ],
+      explanation: "Using the sum-to-product identity: cos A + cos B = 2 cos((A+B)/2) cos((A-B)/2), we get 2 cos 6x cos 2x."
+  },
+  {
+      question: "Find the sum of two trigonometric ratios for sin 5x cos x.",
+      answers: [
+          { text: "(sin 2x + sin 2x)", correct: false },
+          { text: "(sin x + sin x)", correct: true },
+          { text: "(sin 3x + sin 2x)", correct: false },
+          { text: "(sin x - sin x)", correct: false }
+      ],
+      explanation: "The product-to-sum identity can be applied here to simplify sin 5x cos x into (sin x + sin x)."
+  },
+  {
+      question: "Express cos 9x sin 5x as a sum of two trigonometric ratios.",
+      answers: [
+          { text: "sin 14x - sin 4x", correct: true },
+          { text: "cos 4x + sin 2x", correct: false },
+          { text: "sin 2x + cos 2x", correct: false },
+          { text: "tan 14x + sin 2x", correct: false }
+      ],
+      explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A+B) - sin(A-B)], we get sin 14x - sin 4x."
+  },
+  {
+      question: "In a triangle ABC, a = 10, b = 6, c = 12. Find the angles and area of the triangle.",
+      answers: [
+          { text: "A = 54.25°, Area = 29.93m²", correct: false },
+          { text: "A = 45.25°, Area = 25.93m²", correct: true },
+          { text: "A = 56.25°, Area = 28.93m²", correct: false },
+          { text: "A = 56.25°, Area = 29.93m²", correct: false }
+      ],
+      explanation: "Using the cosine rule and the formula for the area of a triangle, the correct answer is A = 45.25°, Area = 25.93m²."
+  },
+  {
+      question: "If cos θ = 1, then 1 + tan θ is:",
+      answers: [
+          { text: "2", correct: false },
+          { text: "1", correct: false },
+          { text: "tan θ + 1", correct: false },
+          { text: "undefined", correct: true }
+      ],
+      explanation: "If cos θ = 1, then θ = 0°, which makes tan θ = 0. Thus, 1 + tan θ = 1."
+  },
+  {
+      question: "Express sin 11x cos 7x as a product of two trigonometric ratios.",
+      answers: [
+          { text: "sin 14x + sin 4x", correct: false },
+          { text: "sin 11x - sin 7x", correct: false },
+          { text: "sin 18x - sin 4x", correct: true },
+          { text: "sin 12x + sin 2x", correct: false }
+      ],
+      explanation: "Using the product-to-sum identity, sin 11x cos 7x can be expressed as sin 18x - sin 4x."
+  },
+  {
+    question: "Simplify cos 15x sin 9x.",
+    answers: [
+        { text: "sin 24x - sin 6x", correct: true },
+        { text: "sin 6x + sin 3x", correct: false },
+        { text: "cos 24x + cos 12x", correct: false },
+        { text: "cos 15x - cos 9x", correct: false }
+    ],
+    explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A+B) - sin(A-B)], we get sin 24x - sin 6x."
+},
+{
+    question: "Find the value of sin 30° cos 45° without using tables.",
+    answers: [
+        { text: "1/√2", correct: false },
+        { text: "√2/4", correct: true },
+        { text: "1/4", correct: false },
+        { text: "√3/2", correct: false }
+    ],
+    explanation: "sin 30° = 1/2 and cos 45° = 1/√2, so sin 30° cos 45° = (1/2) * (1/√2) = √2/4."
+},
+{
+    question: "In triangle ABC, a = 7m, b = 4m, c = 5m, A = 25°. Find angle C and the area of the triangle.",
+    answers: [
+        { text: "C = 15.57°, Area = 2.23m²", correct: true },
+        { text: "C = 14.57°, Area = 6.23m²", correct: false },
+        { text: "C = 17.57°, Area = 4.23m²", correct: false },
+        { text: "C = 13.57°, Area = 3.23m²", correct: false }
+    ],
+    explanation: "Using the sine rule to find angle C and applying the area formula: Area = 1/2 * a * b * sin C, we get C = 15.57°, Area = 2.23m²."
+},
+{
+    question: "Simplify (sin θ + cos θ)².",
+    answers: [
+        { text: "1 + 2sinθcosθ", correct: true },
+        { text: "sin²θ + cos²θ", correct: false },
+        { text: "2sinθcosθ", correct: false },
+        { text: "1 - 2sinθcosθ", correct: false }
+    ],
+    explanation: "Expanding (sin θ + cos θ)² results in sin²θ + cos²θ + 2sinθcosθ, and since sin²θ + cos²θ = 1, the expression simplifies to 1 + 2sinθcosθ."
+},
+{
+    question: "Solve: (sin θ cos θ) + (sin θ + cos θ).",
+    answers: [
+        { text: "2", correct: false },
+        { text: "1", correct: false },
+        { text: "sin θ + cos θ", correct: false },
+        { text: "sin 2θ + 1", correct: true }
+    ],
+    explanation: "The expression can be rewritten as sin θ cos θ + sin θ + cos θ. Using the identity sin θ cos θ = 1/2 sin 2θ, the result is sin 2θ + 1."
+},
+{
+    question: "If sin 45° = cos 45°, find tan 45°.",
+    answers: [
+        { text: "1", correct: true },
+        { text: "√2", correct: false },
+        { text: "1/√2", correct: false },
+        { text: "√3/2", correct: false }
+    ],
+    explanation: "Since sin 45° = cos 45°, and tan θ = sin θ / cos θ, tan 45° = 1."
+},
+{
+    question: "If tan θ = 1, find sec² θ.",
+    answers: [
+        { text: "2", correct: true },
+        { text: "1", correct: false },
+        { text: "√2", correct: false },
+        { text: "3", correct: false }
+    ],
+    explanation: "Using the identity sec² θ = 1 + tan² θ, and since tan θ = 1, sec² θ = 1 + 1 = 2."
+},
+{
+  question: "Simplify: sin 4x + sin 2x.",
+  answers: [
+      { text: "2 sin 3x cos x", correct: true },
+      { text: "2 sin 2x cos 3x", correct: false },
+      { text: "sin 6x", correct: false },
+      { text: "cos 2x + cos 4x", correct: false }
+  ],
+  explanation: "Using the sum-to-product identity: sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2), we get sin 4x + sin 2x = 2 sin 3x cos x."
+},
+{
+  question: "Simplify: cos 6x + cos 4x.",
+  answers: [
+      { text: "2 cos 5x cos x", correct: true },
+      { text: "2 cos 6x cos 2x", correct: false },
+      { text: "cos 5x + cos x", correct: false },
+      { text: "2 cos 7x cos 3x", correct: false }
+  ],
+  explanation: "Using the sum-to-product identity: cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2), we get cos 6x + cos 4x = 2 cos 5x cos x."
+},
+{
+  question: "Find the product of sin 5x cos x.",
+  answers: [
+      { text: "1/2 [sin 6x + sin 4x]", correct: true },
+      { text: "sin 6x + cos 4x", correct: false },
+      { text: "sin 5x", correct: false },
+      { text: "cos 6x - cos 4x", correct: false }
+  ],
+  explanation: "Using the product-to-sum identity: sin A cos B = 1/2 [sin(A + B) + sin(A - B)], we get sin 5x cos x = 1/2 [sin 6x + sin 4x]."
+},
+{
+  question: "Simplify: cos 9x sin 5x.",
+  answers: [
+      { text: "1/2 [sin 14x - sin 4x]", correct: true },
+      { text: "sin 9x cos 5x", correct: false },
+      { text: "cos 14x - sin 5x", correct: false },
+      { text: "sin 14x + sin 4x", correct: false }
+  ],
+  explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A + B) - sin(A - B)], we get cos 9x sin 5x = 1/2 [sin 14x - sin 4x]."
+},
+{
+  question: "Simplify: cos 15x sin 9x.",
+  answers: [
+      { text: "1/2 [sin 24x - sin 6x]", correct: true },
+      { text: "sin 12x + cos 6x", correct: false },
+      { text: "cos 15x + sin 9x", correct: false },
+      { text: "sin 15x - cos 9x", correct: false }
+  ],
+  explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A + B) - sin(A - B)], we get cos 15x sin 9x = 1/2 [sin 24x - sin 6x]."
+},
+{
+  question: "Solve: sin θ cos θ + sin θ + cos θ.",
+  answers: [
+      { text: "sin 2θ + 1", correct: true },
+      { text: "sin 2θ - 1", correct: false },
+      { text: "1 + 2sin θ cos θ", correct: false },
+      { text: "2sin θ cos θ", correct: false }
+  ],
+  explanation: "The expression can be rewritten as sin θ cos θ + sin θ + cos θ. Using the identity sin θ cos θ = 1/2 sin 2θ, the result is sin 2θ + 1."
+},
+{
+  question: "Simplify: (sin θ + cos θ)².",
+  answers: [
+      { text: "1 + 2sin θ cos θ", correct: true },
+      { text: "1 - 2sin θ cos θ", correct: false },
+      { text: "2 sin θ cos θ", correct: false },
+      { text: "sin²θ + cos²θ", correct: false }
+  ],
+  explanation: "Expanding (sin θ + cos θ)² results in sin²θ + cos²θ + 2sin θ cos θ, and since sin²θ + cos²θ = 1, the expression simplifies to 1 + 2sin θ cos θ."
+},
+{
+  question: "If tan θ = 1, find sec² θ.",
+  answers: [
+      { text: "2", correct: true },
+      { text: "1", correct: false },
+      { text: "√2", correct: false },
+      { text: "3", correct: false }
+  ],
+  explanation: "Using the identity sec² θ = 1 + tan² θ, and since tan θ = 1, sec² θ = 1 + 1 = 2."
+},
+{
+  question: "Solve: cos² θ + sin² θ.",
+  answers: [
+      { text: "1", correct: true },
+      { text: "2", correct: false },
+      { text: "0", correct: false },
+      { text: "sin θ", correct: false }
+  ],
+  explanation: "This is a fundamental trigonometric identity: cos² θ + sin² θ = 1."
+},
+{
+  question: "Simplify: cos 2θ - sin 2θ.",
+  answers: [
+      { text: "cos 4θ", correct: false },
+      { text: "sin 4θ", correct: false },
+      { text: "cos 2θ - sin² θ", correct: false },
+      { text: "cos 2θ - sin 2θ = √2 cos(θ + π/4)", correct: true }
+  ],
+  explanation: "The expression cos 2θ - sin 2θ is simplified using sum and difference formulas, resulting in √2 cos(θ + π/4)."
+},
+{
+  question: "Solve for tan θ if sin θ = 1/2 and cos θ = √3/2.",
+  answers: [
+      { text: "1/√3", correct: true },
+      { text: "√3", correct: false },
+      { text: "1", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "Using the identity tan θ = sin θ / cos θ, tan θ = (1/2) / (√3/2) = 1/√3."
+},
+{
+  question: "Simplify: (1 + tan² θ).",
+  answers: [
+      { text: "sec² θ", correct: true },
+      { text: "cosec² θ", correct: false },
+      { text: "1 - tan² θ", correct: false },
+      { text: "tan θ + 1", correct: false }
+  ],
+  explanation: "Using the Pythagorean identity: 1 + tan² θ = sec² θ."
+},
+{
+  question: "Simplify: (sin θ + cos θ)(sin θ - cos θ).",
+  answers: [
+      { text: "sin² θ - cos² θ", correct: true },
+      { text: "sin² θ + cos² θ", correct: false },
+      { text: "2sin θ cos θ", correct: false },
+      { text: "1", correct: false }
+  ],
+  explanation: "Using the difference of squares: (sin θ + cos θ)(sin θ - cos θ) = sin² θ - cos² θ."
+},
+{
+  question: "Find the area of a triangle given a = 10, b = 6, c = 12.",
+  answers: [
+      { text: "Area = 29.93m²", correct: true },
+      { text: "Area = 25.93m²", correct: false },
+      { text: "Area = 20.93m²", correct: false },
+      { text: "Area = 15.93m²", correct: false }
+  ],
+  explanation: "Using Heron's formula, the area is calculated as: √[s(s - a)(s - b)(s - c)], where s = (a + b + c)/2. Substituting values, the area = 29.93m²."
+},
+{
+  question: "Simplify: 1 + tan² θ = ?",
+  answers: [
+      { text: "sec² θ", correct: true },
+      { text: "cosec² θ", correct: false },
+      { text: "sin² θ", correct: false },
+      { text: "tan θ", correct: false }
+  ],
+  explanation: "This is a basic identity: 1 + tan² θ = sec² θ."
+},
+{
+  question: "Find the value of cot θ if sin θ = 3/5.",
+  answers: [
+      { text: "4/3", correct: true },
+      { text: "3/4", correct: false },
+      { text: "5/4", correct: false },
+      { text: "1/2", correct: false }
+  ],
+  explanation: "Using the Pythagorean identity, cos² θ = 1 - sin² θ = 1 - (3/5)² = 16/25, so cos θ = 4/5. Then cot θ = cos θ / sin θ = (4/5) / (3/5) = 4/3."
+},
+{
+  question: "Find sec θ if cos θ = 3/5.",
+  answers: [
+      { text: "5/3", correct: true },
+      { text: "3/5", correct: false },
+      { text: "4/3", correct: false },
+      { text: "5", correct: false }
+  ],
+  explanation: "Secant is the reciprocal of cosine, so sec θ = 1/cos θ = 5/3."
+},
+{
+  question: "Solve: sin² θ + cos² θ = ?",
+  answers: [
+      { text: "1", correct: true },
+      { text: "2", correct: false },
+      { text: "0", correct: false },
+      { text: "tan² θ", correct: false }
+  ],
+  explanation: "This is a basic identity: sin² θ + cos² θ = 1."
+},
+{
+  question: " Simplify (tan 𝜃 − sec𝜃)² / (tan 𝜃 sec𝜃)",
+  answers: [
+      { text: "(tan 𝜃 − sec𝜃)²", correct: true },
+      { text: "(sec 𝜃 − tan𝜃)²", correct: false },
+      { text: "tan²𝜃 + sec²𝜃", correct: false },
+      { text: "1 + tan²𝜃", correct: false }
+  ],
+  explanation: "Simplification of the expression leads to (tan 𝜃 − sec𝜃)² / (tan 𝜃 sec𝜃)."
+},
+{
+  question: " find the range of the set {-1, -2, -3, -5, -22, -21}",
+  answers: [
+      { text: "21", correct: true },
+      { text: "23", correct: false },
+      { text: "22", correct: false },
+      { text: "24", correct: false }
+  ],
+  explanation: "The range is calculated as the difference between the largest and smallest values: -1 - (-22) = 21."
+},
+{
+  question: " Simplify (sin 𝜃 + sin 3𝜃) / (cos 𝜃 cos 3𝜃)",
+  answers: [
+      { text: "tan(𝜃 + 3𝜃)", correct: true },
+      { text: "tan 4𝜃", correct: false },
+      { text: "sin(𝜃 + 3𝜃)", correct: false },
+      { text: "cos(𝜃 - 3𝜃)", correct: false }
+  ],
+  explanation: "Using sum-to-product identities, (sin 𝜃 + sin 3𝜃) / (cos 𝜃 cos 3𝜃) simplifies to tan(𝜃 + 3𝜃)."
+},
+{
+  question: " Find the value of sin 2𝛼 if tan𝛽 = 5/12 and sin 𝛼 = 3/5",
+  answers: [
+      { text: "24/25", correct: true },
+      { text: "36/65", correct: false },
+      { text: "20/65", correct: false },
+      { text: "36/35", correct: false }
+  ],
+  explanation: "Using trigonometric identities for sin 2𝛼 and given values, the correct answer is 24/25."
+},
+{
+  question: " Find dy/dx, if (x²/a²) + (y²/b²) = 1",
+  answers: [
+      { text: "-(b²x)/(a²y)", correct: true },
+      { text: "a²x / b²y", correct: false },
+      { text: "-a²x / b²y", correct: false },
+      { text: "b²x / a²y", correct: false }
+  ],
+  explanation: "Implicit differentiation gives dy/dx = -(b²x)/(a²y)."
+},
+{
+  question: " Simplify cos⁴ 𝜃 − sin⁴ 𝜃",
+  answers: [
+      { text: "cos² 2𝜃", correct: true },
+      { text: "cot² 2𝜃", correct: false },
+      { text: "sin² 2𝜃", correct: false },
+      { text: "tan² 2𝜃", correct: false }
+  ],
+  explanation: "This simplifies using the difference of squares: cos² 2𝜃."
+},
+{
+  question: "7. ∫ (sec²x + sec x tan x) / (sec x + tan x) dx",
+  answers: [
+      { text: "ln |sec x + tan x| + C", correct: true },
+      { text: "2 sec x + C", correct: false },
+      { text: "x + C", correct: false },
+      { text: "sec x + tan x + C", correct: false }
+  ],
+  explanation: "The integral simplifies to ln |sec x + tan x| + C."
+},
+{
+  question: "8. If tan A = √2 + 1, Find sec²A − 2",
+  answers: [
+      { text: "2√2", correct: false },
+      { text: "2 − 2√2", correct: true },
+      { text: "4 + 2√2", correct: false },
+      { text: "2 + 2√2", correct: false }
+  ],
+  explanation: "Using the identity sec² A = 1 + tan² A and substituting tan A = √2 + 1, the answer is 2 − 2√2."
+},
+{
+  question: "9. If tan (A+B) = 1/7, tan A = 1/3, find tan B",
+  answers: [
+      { text: "3/7", correct: false },
+      { text: "-4/11", correct: true },
+      { text: "-2/11", correct: false },
+      { text: "4/11", correct: false }
+  ],
+  explanation: "Using the sum of angles formula for tangent, we solve for tan B = -4/11."
+},
+{
+  question: "10. Find the value of tan 2𝛼 if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+  answers: [
+      { text: "7/24", correct: false },
+      { text: "24/7", correct: false },
+      { text: "-24/7", correct: true },
+      { text: "-7/24", correct: false }
+  ],
+  explanation: "Using trigonometric identities for tan 2𝛼 and the given values, the answer is -24/7."
+},
+{
+  question: "11. Find the value of cos 22.5° in surd form",
+  answers: [
+      { text: "√(√2−1)/2", correct: true },
+      { text: "√(2+√2)/2", correct: false },
+      { text: "√(2−√2)/2", correct: false },
+      { text: "√(√2−2)/2", correct: false }
+  ],
+  explanation: "Using half-angle formulas, cos 22.5° in surd form is √(√2−1)/2."
+},
+{
+  question: "12. Find the value of 195° in surd form",
+  answers: [
+      { text: "(3−√3)/(3+√3)", correct: true },
+      { text: "(3+√3)/(3−√3)", correct: false },
+      { text: "(-3−√3)/(3+√3)", correct: false },
+      { text: "(3−√3)/(3+√3)", correct: false }
+  ],
+  explanation: "Using appropriate trigonometric identities, the answer is (3−√3)/(3+√3)."
+},
+{
+  question: "13. Find the derivative of y = e^(2x + 3) with respect to x",
+  answers: [
+      { text: "2e^(2x + 3)", correct: true },
+      { text: "2e^(2x - 3)", correct: false },
+      { text: "e^(2x + 3)", correct: false },
+      { text: "3e^(2x + 3)", correct: false }
+  ],
+  explanation: "The derivative of e^(2x + 3) is 2e^(2x + 3), using the chain rule."
+},
+{
+  question: "14. Find dy/dx, If (x²/a²) + (y²/b²) = 1",
+  answers: [
+      { text: "-(b²x)/(a²y)", correct: true },
+      { text: "a²x / b²y", correct: false },
+      { text: "-a²x / b²y", correct: false },
+      { text: "b²x / a²y", correct: false }
+  ],
+  explanation: "By implicit differentiation of (x²/a²) + (y²/b²) = 1, dy/dx = -(b²x)/(a²y)."
+},
+{
+  question: "15. Find the value of sin 22.5° in surd form",
+  answers: [
+      { text: "√(2+√2)/2", correct: true },
+      { text: "-√(√2−2)/2", correct: false },
+      { text: "√(√2−1)/2", correct: false },
+      { text: "√(2−√2)/2", correct: false }
+  ],
+  explanation: "Using half-angle formulas, sin 22.5° in surd form is √(2+√2)/2."
+},
+{
+  question: "16. If tan⁻¹(3x) + tan⁻¹(2x) = π/4, Find the value of x",
+  answers: [
+      { text: "1/6, -1", correct: true },
+      { text: "-1, -1/6", correct: false },
+      { text: "1/6, 1", correct: false },
+      { text: "1, -1/6", correct: false }
+  ],
+  explanation: "Using the addition formula for inverse tangents, solving gives x = 1/6 and x = -1."
+},
+{
+  question: "17. In a triangle ABC, A = 53°, sides b and c are 4.2 cm and 3.5 cm respectively. Find the area of ∆ABC",
+  answers: [
+      { text: "8.70 cm²", correct: true },
+      { text: "16.24 cm²", correct: false },
+      { text: "4.87 cm²", correct: false },
+      { text: "5.87 cm²", correct: false }
+  ],
+  explanation: "The area is calculated using the formula (1/2) * b * c * sin A, which gives 8.70 cm²."
+},
+{
+  question: "18. Determine ∫ 2dx / (x² - 2x + 5)",
+  answers: [
+      { text: "tan⁻¹((x-1)/2) + C", correct: true },
+      { text: "2tan⁻¹((x+1)/2) + C", correct: false },
+      { text: "1/2 tan⁻¹((x-1)/2) + C", correct: false },
+      { text: "tan⁻¹((x+1)/2) + C", correct: false }
+  ],
+  explanation: "The integral is solved by completing the square in the denominator and applying the standard arctangent formula."
+},
+{
+  question: "Find the semi-major axis, semi-minor axis, and eccentricity of the ellipse x² + 7y² = 49.",
+  answers: [
+    { text: "a = 7, b = √7, e = √42", correct: false },
+    { text: "a = 3, b = 4, e = √7", correct: true },
+    { text: "a = 10, b = 5, e = √6", correct: false },
+    { text: "a = 1, b = 2, e = 0", correct: false }
+  ],
+  explanation: "For the ellipse x²/a² + y²/b² = 1, comparing x² + 7y² = 49 with this form, we get a² = 49 and b² = 7. Thus, a = 7 and b = √7. The eccentricity is e = √(a² - b²)/a."
+},
+{
+  question: "Find the equation of the line AM, where A, B, and C are at (1,-4), (3,1), and (5,3), and M is the midpoint of BC.",
+  answers: [
+    { text: "y - 2x + 6 = 0", correct: true },
+    { text: "x + y - 6 = 0", correct: false },
+    { text: "y - x + 3 = 0", correct: false },
+    { text: "None of the above", correct: false }
+  ],
+  explanation: "The midpoint of BC is M = (4, 2). The slope of AM is found using the coordinates of A and M, and the equation of the line is derived using point-slope form."
+},
+{
+  question: "Write down the coordinates of the midpoint M of BC, where B = (3,1) and C = (5,3).",
+  answers: [
+    { text: "(3, 1)", correct: false },
+    { text: "(1, 3)", correct: false },
+    { text: "(4, 2)", correct: true },
+    { text: "(3, 5)", correct: false }
+  ],
+  explanation: "The midpoint M of BC is calculated as ((3 + 5)/2, (1 + 3)/2) = (4, 2)."
+},
+{
+  question: "Find the coordinates of the point P on AM such that AP:PM = 2:1.",
+  answers: [
+    { text: "(1, 2)", correct: false },
+    { text: "(3, 0)", correct: true },
+    { text: "(4, 2)", correct: false },
+    { text: "(7, 5)", correct: false }
+  ],
+  explanation: "Using the section formula, P divides AM in the ratio 2:1, so its coordinates are found as (x1 + 2x2)/(2+1), (y1 + 2y2)/(2+1)."
+},
+{
+  question: "What is the gradient of the line joining the points (5, -1) and (-3, 7)?",
+  answers: [
+    { text: "3", correct: false },
+    { text: "1/3", correct: false },
+    { text: "-3/4", correct: true },
+    { text: "1", correct: false }
+  ],
+  explanation: "The gradient of a line joining two points (x1, y1) and (x2, y2) is given by (y2 - y1)/(x2 - x1)."
+},
+{
+  question: "What is the distance between the points (3, -2) and (8, 10)?",
+  answers: [
+    { text: "5", correct: false },
+    { text: "12", correct: false },
+    { text: "13", correct: true },
+    { text: "19", correct: false }
+  ],
+  explanation: "The distance between two points is calculated using the distance formula √((x2 - x1)² + (y2 - y1)²)."
+},
+{
+  question: "What is the value of b if the gradient of the line joining (-1, b) and (b, 4) is 2/3?",
+  answers: [
+    { text: "b = 1", correct: true },
+    { text: "b = 2", correct: false },
+    { text: "b = -1", correct: false },
+    { text: "b = 0", correct: false }
+  ],
+  explanation: "Using the formula for the gradient (y2 - y1)/(x2 - x1) = 2/3, solve for b."
+},
+{
+  question: "What is the equation of the straight line with gradient 1/3 that passes through the point (1, 2)?",
+  answers: [
+    { text: "2x - y - 1 = 0", correct: true },
+    { text: "x - 3y + 5 = 0", correct: false },
+    { text: "3x - y + 10 = 0", correct: false },
+    { text: "x + y - 1 = 0", correct: false }
+  ],
+  explanation: "Using the point-slope form of a line equation y - y1 = m(x - x1) with gradient 1/3 and point (1, 2), we find the equation."
+},
+{
+  question: "The gradient of the line joining (1, 4) and (1, 2) is 1/2. Find the value of n.",
+  answers: [
+    { text: "n = 3", correct: false },
+    { text: "n = -3", correct: true },
+    { text: "n = -5", correct: false },
+    { text: "n = 5", correct: false }
+  ],
+  explanation: "The line is vertical since both points have the same x-coordinate. Thus, the gradient is undefined. The given gradient suggests there's an error, and n must be corrected to fit the slope of 1/2."
+},
+{
+  question: "What is the angle of slope of the line joining points (4, 3) and (6, 8)?",
+  answers: [
+    { text: "120°", correct: false },
+    { text: "110°", correct: false },
+    { text: "85°", correct: false },
+    { text: "79.7°", correct: true }
+  ],
+  explanation: "The angle of slope can be found using tan⁻¹(m), where m is the gradient of the line. Here, m = (8 - 3) / (6 - 4), and the angle is approximately 79.7°."
+},
+{
+  question: "The equation of a straight line with gradient 1/3 which passes through the point (1, 2) is:",
+  answers: [
+    { text: "2x - y - 1 = 0", correct: true },
+    { text: "3x + y - 5 = 0", correct: false },
+    { text: "x - y + 5 = 0", correct: false },
+    { text: "x + y - 10 = 0", correct: false }
+  ],
+  explanation: "Using the point-slope form with m = 1/3 and passing through (1, 2), we derive the equation 2x - y - 1 = 0."
+},
+{
+  question: "If the lines 3y = 4x + 1 and kx + 3y = 1 are perpendicular to each other, find k.",
+  answers: [
+    { text: "k = 4/3", correct: false },
+    { text: "k = -3/4", correct: true },
+    { text: "k = 3/4", correct: false },
+    { text: "k = 1/3", correct: false }
+  ],
+  explanation: "The slopes of two perpendicular lines are negative reciprocals of each other. The slope of the first line is 4/3, so the slope of the second must be -3/4, making k = -3/4."
+},
+{
+  question: "If the points (-3, 4), (k, -1), and (5, -6) are collinear, find the value of k.",
+  answers: [
+    { text: "k = -7", correct: true },
+    { text: "k = -5", correct: false },
+    { text: "k = 1", correct: false },
+    { text: "k = 9", correct: false }
+  ],
+  explanation: "For the points to be collinear, the slope between any two pairs of points must be equal. Solving the equation formed by equating the slopes gives k = -7."
+},
+{
+  question: "The midpoint of the line joining the points (4, 2) and (-5, 0) is:",
+  answers: [
+    { text: "(9, 2)", correct: false },
+    { text: "(-1, 2)", correct: true },
+    { text: "(1/2, 1)", correct: false },
+    { text: "(0, 1)", correct: false }
+  ],
+  explanation: "The midpoint formula is ((x1 + x2)/2, (y1 + y2)/2). Substituting the values, we get the midpoint as (-1, 2)."
+},
+{
+  question: "What is the equation of the line which makes intercepts of 2 and 3 on the x and y axes respectively?",
+  answers: [
+    { text: "2x + 3y = 1", correct: true },
+    { text: "3x + 2y = 1", correct: false },
+    { text: "3x - 2y = 1", correct: false },
+    { text: "2x - 3y = 1", correct: false }
+  ],
+  explanation: "The equation of a line in intercept form is x/a + y/b = 1. With intercepts 2 and 3, the equation becomes 2x + 3y = 1."
+},
+{
+  question: "Which of the following does not represent a circle?",
+  answers: [
+    { text: "x² + y² = 9", correct: false },
+    { text: "x² + y² + 7x + 3y = 0", correct: false },
+    { text: "3x² + 4y² - 5x + 6y = 0", correct: true },
+    { text: "x² + y² + 2x - 4y = 0", correct: false }
+  ],
+  explanation: "A circle's equation is of the form x² + y² + Dx + Ey + F = 0. The equation 3x² + 4y² is an ellipse, not a circle."
+},
+{
+  question: "What is the value of k if the midpoint of the line joining (1 - k, 4) and (2k + 1, -1) is (k, k)?",
+  answers: [
+    { text: "k = -1", correct: false },
+    { text: "k = -2", correct: true },
+    { text: "k = -3", correct: false },
+    { text: "k = 4", correct: false }
+  ],
+  explanation: "Using the midpoint formula and solving for k, we get k = -2."
+},
+{
+  question: "Find the equation of the asymptotes of the hyperbola 4x² - 9y² = 36.",
+  answers: [
+    { text: "y = ±x", correct: true },
+    { text: "y = ±(2/3)x", correct: false },
+    { text: "y = ±(3/4)x", correct: false },
+    { text: "y = ±(4/3)x", correct: false }
+  ],
+  explanation: "For the hyperbola (x²/a²) - (y²/b²) = 1, the asymptotes are given by y = ±(b/a)x. Here, a = 3 and b = 2, so y = ±x."
+},
+{
+  question: "If (3, -4) is a point on the line y = ax + 2, find the value of a.",
+  options: [
+    { option: "-1", correct: false },
+    { option: "3", correct: true },
+    { option: "2", correct: false },
+    { option: "3/2", correct: false }
+  ],
+  explanation: "Substitute the coordinates (3, -4) into the line equation: -4 = 3a + 2. Solve for a, giving a = 3."
+},
+
+{
+  question: "Find the locus of a point that is equidistant from the points (1,2) and (3,8).",
+  options: [
+    { option: "y = 17/4", correct: false },
+    { option: "y = (x + 12)", correct: false },
+    { option: "y = (x + 8)", correct: false },
+    { option: "y = (11 - x)", correct: true }
+  ],
+  explanation: "The locus of points equidistant from (1,2) and (3,8) is the perpendicular bisector of the line segment joining the points."
+},
+
+{
+  question: "The equation of a circle having the points (2,3) and (-4,5) as the ends of its diameter is:",
+  options: [
+    { option: "x² + y² + 2x - 8y = 70", correct: true },
+    { option: "x² + y² + xy = 130", correct: false },
+    { option: "x² + y² + 2x + 8y = 70", correct: false },
+    { option: "x² + y² + 2x - 8y = 30", correct: false }
+  ],
+  explanation: "Use the formula for the equation of a circle where the endpoints of the diameter are known."
+},
+
+{
+  question: "Find the equation of a parabola with vertex (5,-2) and focus (5,2).",
+  options: [
+    { option: "x² - 10x + 16y = 70", correct: true },
+    { option: "x² + 6x + 10y = 170", correct: false },
+    { option: "2x² + 16x + 10y = 170", correct: false },
+    { option: "2x² + x + 11y + 5 = 0", correct: false }
+  ],
+  explanation: "The equation of a parabola is derived using the vertex and focus coordinates."
+},
+
+{
+  question: "Find the possible values of the constant m for which the curve (m + 5)x² + (m² - 1)y² + 2x + 5y + 5 = 0 is a circle.",
+  options: [
+    { option: "2 and 3", correct: false },
+    { option: "2 and -3", correct: false },
+    { option: "-2 and -3", correct: false },
+    { option: "-2 and 3", correct: true }
+  ],
+  explanation: "The equation represents a circle if the coefficients of x² and y² are equal. Solving for m gives the correct values."
+},
+
+{
+  question: "If the line ax + 4y - 50 is perpendicular to the line 4x - 2y + 60, find the value of a.",
+  options: [
+    { option: "-2", correct: true },
+    { option: "-1/2", correct: false },
+    { option: "1/2", correct: false },
+    { option: "2", correct: false }
+  ],
+  explanation: "For perpendicular lines, the product of the slopes must be -1. Using this, solve for a."
+},
+
+{
+  question: "What is the equation of the circle, center (2, -3) which touches the x-axis?",
+  options: [
+    { option: "x² + y² - 3x + 4y + 20 = 0", correct: false },
+    { option: "x² + y² + 2x + 4y + 10 = 0", correct: false },
+    { option: "x² + y² + 4x + 6y + 40 = 0", correct: false },
+    { option: "x² + y² + 2x + 8y + 10 = 0", correct: true }
+  ],
+  explanation: "The equation of the circle is found using the condition that it touches the x-axis, and its center is at (2, -3)."
+},
+
+{
+  question: "Find the equation of the circle with center (-3,4) and radius 4 units.",
+  options: [
+    { option: "x² + y² + 6x + 8y + 21 = 0", correct: false },
+    { option: "x² + y² + 6x + 8y + 90 = 0", correct: true },
+    { option: "x² + y² - 6x + 8y + 21 = 0", correct: false },
+    { option: "x² + y² + 6x - 8y + 21 = 0", correct: false }
+  ],
+  explanation: "The equation of a circle is derived using its center and radius."
+},
+
+{
+  question: "Evaluate ∫ cos(x) dx.",
+  options: [
+    { option: "sin(x) + C", correct: true },
+    { option: "cos(x) + C", correct: false },
+    { option: "sin(x) - C", correct: false },
+    { option: "cos(x) - C", correct: false }
+  ],
+  explanation: "The integral of cos(x) is sin(x), plus a constant of integration."
+},
+
+{
+  question: "Evaluate ∫ (sec(x) tan(x) √(1 + sec(x))) dx.",
+  options: [
+    { option: "(1 + sec(x)) + C", correct: false },
+    { option: "√(1 + sec(x)) + C", correct: true },
+    { option: "2/(1 + sec(x)) + C", correct: false },
+    { option: "(1 + tan(x)) + C", correct: false }
+  ],
+  explanation: "The integral is solved using standard integration techniques for trigonometric functions."
+},
+{
+  question: "Evaluate ∫ x²e^x dx",
+  options: [
+    { option: "e^x(x² + 2x + 2) + c", correct: true },
+    { option: "e^x(x² + 2x + 20) + c", correct: false },
+    { option: "-xe^(-x) + c", correct: false },
+    { option: "(x² + 2x) + c", correct: false }
+  ],
+  explanation: "Using integration by parts, ∫ x²e^x dx = e^x(x² + 2x + 2) + c."
+},
+{
+  question: "Solve the expression ∫ (x + sin(x)) dx",
+  options: [
+    { option: "x tan(x) + c", correct: false },
+    { option: "2x tan(x) + 2 ln(cos(x)) + c", correct: false },
+    { option: "x tan(x) + ln(x cos(x)) + c", correct: true },
+    { option: "x tan(x) + c", correct: false }
+  ],
+  explanation: "The integral of x is straightforward, and the integral of sin(x) is -cos(x)."
+},
+{
+  question: "Solve the expression ∫ (x² + 4) dx",
+  options: [
+    { option: "tan⁻¹(x) + ln(x) - 3 ln(x + 1) + c", correct: false },
+    { option: "-tan⁻¹(x) - 2 + c", correct: true },
+    { option: "tan(x) + tan(x) + c", correct: false },
+    { option: "3 ln(x) + ln(x² + 4) - tan(x) + c", correct: false }
+  ],
+  explanation: "We integrate the polynomial terms and apply standard integral formulas."
+},
+{
+  question: "Evaluate ∫ (x - 1)² dx",
+  options: [
+    { option: "9", correct: false },
+    { option: "10", correct: false },
+    { option: "11", correct: false },
+    { option: "13", correct: true }
+  ],
+  explanation: "Expand (x - 1)² to get x² - 2x + 1, then integrate term by term."
+},
+{
+  question: "The gradient of a curve at any point is 2x. If the curve passes through the origin, find the coordinates of the other point at which it crosses the x-axis.",
+  options: [
+    { option: "(2, 0)", correct: false },
+    { option: "(-1, 0)", correct: false },
+    { option: "(-4, 0)", correct: false },
+    { option: "(4, 0)", correct: true }
+  ],
+  explanation: "Integrating the gradient function gives the equation of the curve. Solving for where y = 0 gives the x-intercepts."
+},
+{
+  question: "What is the area between the line y = x and the curve y = 4x²?",
+  options: [
+    { option: "1/71", correct: false },
+    { option: "-2/37", correct: false },
+    { option: "-1/96", correct: false },
+    { option: "3/10", correct: true }
+  ],
+  explanation: "The area is found by subtracting the two curves and integrating between the points of intersection."
+},
+{
+  question: "Given that ∫ (2x - 1) dx = 4, find the value of k.",
+  options: [
+    { option: "-2", correct: true },
+    { option: "3", correct: false },
+    { option: "4", correct: false },
+    { option: "6", correct: false }
+  ],
+  explanation: "Solve the equation ∫ (2x - 1) dx = 4 and substitute limits to find k."
+},
+{
+  question: "Evaluate ∫ e^x sin(e^x) dx",
+  options: [
+    { option: "e^x sin(e^x) + c", correct: true },
+    { option: "cos(e^x) + c", correct: false },
+    { option: "cos(e) + c", correct: false },
+    { option: "2 sin(e) + c", correct: false }
+  ],
+  explanation: "This integral can be solved by substitution, setting u = e^x."
+},
+{
+  question: "The gradient of a curve at any point (x, y) is 2x + 5. If the curve passes through the point (-2, -1), find the value of y when x = -4.",
+  options: [
+    { option: "-2", correct: false },
+    { option: "1", correct: false },
+    { option: "30", correct: false },
+    { option: "31", correct: true }
+  ],
+  explanation: "Integrating the gradient and applying the boundary condition, we solve for y at x = -4."
+},
+{
+  question: "Find the area under the curve y = 2x² + 3x between the ordinates x = 1 and x = 2.",
+  options: [
+    { option: "9", correct: true },
+    { option: "5", correct: false },
+    { option: "4", correct: false },
+    { option: "6", correct: false }
+  ],
+  explanation: "To find the area, integrate 2x² + 3x between the given limits."
+},
+{
+  question: " Evaluate ∫(ax+b)dx √(ax²+2bx+c)",
+  options: [
+    { option: "√(ax² + 2bx + c) + k", correct: false },
+    { option: "√(ax² + 2bx + c) + k", correct: true },
+    { option: "ax² + 2bx + c + k", correct: false },
+    { option: "ax² + bx² + k", correct: false }
+  ],
+  explanation: "The integral of an expression involving a quadratic under a square root is solved using substitution. The answer includes the square root expression plus a constant of integration."
+},
+
+{
+  question: " Evaluate ∫ dx / (x² + x + 1)",
+  options: [
+    { option: "-1 + ln(x+1) + c", correct: false },
+    { option: "x + ln(x+1) + c", correct: false },
+    { option: "ln(x² + x + 1) + c", correct: true },
+    { option: "-x + ln(x+1) + c", correct: false }
+  ],
+  explanation: "The integral involves a logarithmic function based on the structure of the quadratic expression. It evaluates to the natural logarithm plus a constant of integration."
+},
+
+{
+  question: " Evaluate ∫ dx / ln(x)",
+  options: [
+    { option: "ln(ln(x)) + c", correct: true },
+    { option: "ln(x²) + c", correct: false },
+    { option: "ln(x) + c", correct: false },
+    { option: "ln(ln(x²)) + c", correct: false }
+  ],
+  explanation: "This is an integral involving the logarithm of x. The result is a double logarithmic function plus a constant."
+},
+
+{
+  question: " Differentiate y = xe²x + sinx with respect to x",
+  options: [
+    { option: "e²x(2x + 1) + cosx", correct: true },
+    { option: "2xe²x + cosx", correct: false },
+    { option: "2e²x(2x + 1) + cosx", correct: false },
+    { option: "2x + e²x + cosx", correct: false }
+  ],
+  explanation: "The derivative of xe²x uses the product rule, and the derivative of sinx is cosx. The correct differentiation applies the product rule and the sum rule."
+},
+
+{
+  question: " Find the value of x for which the function y = 2x - 3x² - 36x + 6 is a minimum",
+  options: [
+    { option: "x = 3", correct: true },
+    { option: "x = 2", correct: false },
+    { option: "x = 6", correct: false },
+    { option: "x = -1", correct: false }
+  ],
+  explanation: "To find the minimum value, we first find the derivative of the function, set it equal to zero, and solve for x. This results in x = 3."
+},
+{
+  question: "Find the slope of the function y = f(t) = 5t² + 30 at t₁ = 1 and t₂ = 5",
+  answers: [
+    { text: "10 and 45", correct: true },
+    { text: "5 and 40", correct: false },
+    { text: "10 and 25", correct: false },
+    { text: "10 and 40", correct: false }
+  ],
+  explanation: "The slope is found by differentiating the function y = 5t² + 30 to get dy/dt = 10t. Substituting t₁ = 1 and t₂ = 5 into the derivative gives 10(1) = 10 and 10(5) = 50."
+},
+{
+  question: "Differentiate y = 3x² - 2 / (x+1)²",
+  answers: [
+    { text: "x√(x + 1)", correct: false },
+    { text: "x√(x² + 1)", correct: false },
+    { text: "2x(x + 1) - 2", correct: true },
+    { text: "3x² - 2x", correct: false }
+  ],
+  explanation: "This problem requires using the quotient rule for differentiation. The numerator and denominator are both differentiated and combined according to the quotient rule."
+},
+{
+  question: "If xy = x² + y², find dy/dx",
+  answers: [
+    { text: "1", correct: false },
+    { text: "0", correct: false },
+    { text: "-5", correct: false },
+    { text: "x/y", correct: true }
+  ],
+  explanation: "Implicit differentiation is used here. By differentiating both sides of the equation with respect to x and solving for dy/dx, we get x/y."
+},
+{
+  question: "If y = x²cos(2x), find dy/dx when x = 1",
+  answers: [
+    { text: "-2cos(2) + 2sin(2)", correct: true },
+    { text: "cos(2)", correct: false },
+    { text: "1", correct: false },
+    { text: "-1", correct: false }
+  ],
+  explanation: "Using the product rule for differentiation, the derivative of x²cos(2x) is 2xcos(2x) - 2x²sin(2x). Substituting x = 1 gives the correct result."
+},
+{
+  question: "If y = tan(2x - 1), find dy/dx",
+  answers: [
+    { text: "2sec²(2x - 1)", correct: true },
+    { text: "2x³ - 4x² + 4", correct: false },
+    { text: "2x² - 2x + 1", correct: false },
+    { text: "(2x² - 2 + 1)sec²x", correct: false }
+  ],
+  explanation: "The derivative of tan(2x - 1) is 2sec²(2x - 1) due to the chain rule."
+},
+{
+  question: "Find the average rate of change of s(t) = 2t² - 5t + 30 between t₁ = 3 and t₂ = 5",
+  answers: [
+    { text: "20", correct: true },
+    { text: "17", correct: false },
+    { text: "25", correct: false },
+    { text: "11", correct: false }
+  ],
+  explanation: "The average rate of change is given by [s(t₂) - s(t₁)] / (t₂ - t₁). Substituting t₁ = 3 and t₂ = 5 into the equation gives 20."
+},
+{
+  question: "Find the derivative of y = sin(x)cos(x) in terms of sin(x)",
+  answers: [
+    { text: "sin(x)cos(x)", correct: false },
+    { text: "1 - 2sin²(x)", correct: true },
+    { text: "sin²(x)", correct: false },
+    { text: "cos²(x)", correct: false }
+  ],
+  explanation: "Using the double angle identity sin(2x) = 2sin(x)cos(x) and differentiating, the derivative is 1 - 2sin²(x)."
+},
+{
+  question: "Given that y = a^(x+1), find dy/dx",
+  answers: [
+    { text: "a^(x+1) log(a)", correct: true },
+    { text: "2a^(x+1) log(a)", correct: false },
+    { text: "a^(2x)", correct: false },
+    { text: "log(a^(x+1))", correct: false }
+  ],
+  explanation: "The derivative of a^x with respect to x is a^x ln(a). Here, the chain rule applies since the exponent is x+1, yielding a^(x+1) log(a)."
+},
+{
+  question: "The gradient of the curve y = 3x² + 11x + 7 at point P(x, y) is -1. Find the coordinate of P.",
+  answers: [
+    { text: "(-2, -3)", correct: true },
+    { text: "(-1, -5/2)", correct: false },
+    { text: "(-3, -2)", correct: false },
+    { text: "(-2, -3)", correct: false }
+  ],
+  explanation: "Using differentiation, the gradient of the curve is found to be -1 at P(x, y), and solving for x gives the coordinate (-2, -3)."
+},
+{
+  question: "If y = sin(2x), find dy/dx.",
+  answers: [
+    { text: "2 cos(2x)", correct: true },
+    { text: "cos(2x)", correct: false },
+    { text: "sin(2x)", correct: false },
+    { text: "2 sin(2x)", correct: false }
+  ],
+  explanation: "Differentiating y = sin(2x) gives dy/dx = 2 cos(2x) by the chain rule."
+},
+{
+  question: "Which of the following is correct about cos(4+5)?",
+  answers: [
+    { text: "cos + cos", correct: false },
+    { text: "sin + sin", correct: false },
+    { text: "sin(4+5)", correct: true },
+    { text: "cos(4+5)", correct: false }
+  ],
+  explanation: "The correct trigonometric identity for cos(4+5) is sin(4+5)."
+},
+{
+  question: "The value of 1 + sec²(60) is:",
+  answers: [
+    { text: "2", correct: true },
+    { text: "4", correct: false },
+    { text: "5", correct: false },
+    { text: "3", correct: false }
+  ],
+  explanation: "By using the trigonometric identity, sec²(60) = 3, so 1 + sec²(60) = 2."
+},
+{
+  question: "The expression (1 + cosB) / (1 - cosB) can be simplified to:",
+  answers: [
+    { text: "sin B", correct: false },
+    { text: "cos B", correct: false },
+    { text: "1 - sin B", correct: true },
+    { text: "1 + sin B", correct: false }
+  ],
+  explanation: "By using trigonometric identities, the expression can be simplified to 1 - sin B."
+},
+
+
+
 
 
         // Add more questions for Math until you have 30
