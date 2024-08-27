@@ -8374,884 +8374,2995 @@ const quizData = {
     math: [
         { question: "What is the value of π (Pi) to two decimal places?", answers: [{ text: "3.14", correct: true }, { text: "3.15", correct: false }, { text: "3.13", correct: false }, { text: "3.16", correct: false }], explanation: "Pi (π) is approximately 3.14." },
         { question: "What is the derivative of x^2?", answers: [{ text: "2x", correct: true }, { text: "x", correct: false }, { text: "x^2", correct: false }, { text: "2", correct: false }], explanation: "The derivative of x^2 with respect to x is 2x." },
+        { question: "What is the value of π (Pi) to two decimal places?", answers: [{ text: "3.14", correct: true }, { text: "3.15", correct: false }, { text: "3.13", correct: false }, { text: "3.16", correct: false }], explanation: "Pi (π) is approximately 3.14." },
+        { question: "What is the derivative of x^2?", answers: [{ text: "2x", correct: true }, { text: "x", correct: false }, { text: "x^2", correct: false }, { text: "2", correct: false }], explanation: "The derivative of x^2 with respect to x is 2x." },
         {
-          question: "Convert 20°15'8\" to degrees.",
+          question: "Express sin 6x + sin 4x as a product of two trigonometric ratios.",
           answers: [
-              { text: "20.252°", correct: true },
-              { text: "20.125°", correct: false },
-              { text: "19.873°", correct: false },
-              { text: "20.875°", correct: false }
-          ],
-          explanation: "To convert from degrees, minutes, and seconds to decimal degrees: 20° + 15'/60 + 8\"/3600 = 20.252°."
-      },
-      {
-          question: "Which of the following is equivalent to tan θ + cot θ?",
-          answers: [
-              { text: "tan θ", correct: false },
-              { text: "cot θ", correct: false },
-              { text: "1", correct: false },
-              { text: "sec²θ", correct: true }
-          ],
-          explanation: "tan θ + cot θ is not equal to tan θ or cot θ. It's an expression related to sec²θ."
-      },
-      {
-          question: "What value of θ satisfies the equation sin θ + 6 cos θ = 90?",
-          answers: [
-              { text: "30.522", correct: true },
-              { text: "20.252", correct: false },
-              { text: "10.522", correct: false },
-              { text: "20.225", correct: false }
-          ],
-          explanation: "By solving sin θ + 6 cos θ = 90 using a calculator, θ is approximately 30.522 degrees."
-      },
-      {
-          question: "Find the value of sin θ if tan θ is undefined and θ is an acute angle.",
-          answers: [
-              { text: "sin θ = 1", correct: true },
-              { text: "sin θ = 0.5", correct: false },
-              { text: "sin θ = 0", correct: false },
-              { text: "sin θ = 0.707", correct: false }
-          ],
-          explanation: "If tan θ is undefined and θ is acute, θ = 90°, and sin 90° = 1."
-      },
-      {
-          question: "Find the angles and sides of a triangle ABC if angle A = 50°, and side a = 5.5 cm.",
-          answers: [
-              { text: "Angle B = 26°, sides b = 6.5 cm, c = 6.5 cm", correct: true },
-              { text: "Angle B = 75°, sides b = 5 cm, c = 5 cm", correct: false },
-              { text: "Angle B = 57°, sides b = 5.6 cm, c = 5.6 cm", correct: false },
-              { text: "Angle B = 56°, sides b = 12 cm, c = 6 cm", correct: false }
-          ],
-          explanation: "Using the law of cosines and sines, we can determine the other angles and sides of triangle ABC."
-      },
-      {
-        question: "Express sin 6x + sin 4x as a product of two trigonometric ratios.",
-        answers: [
-            { text: "2x cosx", correct: false },
+            { text: "2x cos x", correct: false },
             { text: "2 sin 5x cos x", correct: true },
-            { text: "2 sin 4x cos x", correct: false },
-            { text: "2 sin 6x cos x", correct: false }
-        ],
-        explanation: "Using the sum-to-product identities: sin A + sin B = 2 sin((A+B)/2) cos((A-B)/2), we get 2 sin 5x cos x."
-    },
-    {
-        question: "Express sin 10x - sin 6x as a product of two trigonometric ratios.",
-        answers: [
+          ],
+          explanation: "Using the sum-to-product identities:\n\nsin A + sin B = 2 sin((A+B)/2) cos((A-B)/2)\n\nFor sin 6x + sin 4x:\n\n2 sin((6x + 4x)/2) cos((6x - 4x)/2) = 2 sin 5x cos x",
+        },
+        {
+          question: "Express sin 10x - sin 6x as a product of two trigonometric ratios.",
+          answers: [
             { text: "2 cos 2x sin 2x", correct: true },
-            { text: "2 sin 8x cos 2x", correct: false },
-            { text: "2 cos 4x cot 3x", correct: false },
-            { text: "2 cos 5x tan 4x", correct: false }
-        ],
-        explanation: "Using the difference-to-product identity: sin A - sin B = 2 cos((A+B)/2) sin((A-B)/2), we get 2 cos 8x sin 2x."
-    },
-    {
-        question: "Express sin 12x - sin 8x as a product of two trigonometric ratios.",
-        answers: [
-            { text: "cos 10x sin 2x", correct: false },
-            { text: "2 cos 7x tan 2x", correct: false },
-            { text: "2 cos 10x sin 2x", correct: true },
-            { text: "cos 8x sin 2x", correct: false }
-        ],
-        explanation: "Using the difference-to-product identity: sin A - sin B = 2 cos((A+B)/2) sin((A-B)/2), we get 2 cos 10x sin 2x."
-    },
-    {
-        question: "Express cos 8x - cos 4x as a product of two trigonometric ratios.",
-        answers: [
-            { text: "2 sin x cos 5x", correct: false },
-            { text: "2 cos 8x sin 2x", correct: true },
-            { text: "4 cos 4x tan 2x", correct: false },
-            { text: "2 sin 6x cos 2x", correct: false }
-        ],
-        explanation: "Using the difference-to-product identity: cos A - cos B = -2 sin((A+B)/2) sin((A-B)/2), we get 2 cos 8x sin 2x."
-    },
-    {
-        question: "Express cos 7x cos 5x as a product of two trigonometric ratios.",
-        answers: [
-            { text: "(cos 12x + cos 2x)", correct: true },
-            { text: "(cos 10x - cos 2x)", correct: false },
-            { text: "(cos 6x + cos 6x)", correct: false },
-            { text: "(cos 12x - cos 4x)", correct: false }
-        ],
-        explanation: "Using the product-to-sum identity: cos A cos B = 1/2 [cos(A+B) + cos(A-B)], we get (cos 12x + cos 2x)."
-    },
-    {
-        question: "Express sin 5x sin x as a product of two trigonometric ratios.",
-        answers: [
-            { text: "(cos 6x + cos 4x)", correct: false },
-            { text: "(cos 4x + cos 2x)", correct: false },
-            { text: "(cos 5x + cos x)", correct: false },
-            { text: "(cos 6x - cos 4x)", correct: true }
-        ],
-        explanation: "Using the product-to-sum identity: sin A sin B = 1/2 [cos(A-B) - cos(A+B)], we get (cos 6x - cos 4x)."
-    },
-    {
-        question: "Express 1 + 8 sin θ in terms of cos θ.",
-        answers: [
+            { text: "2 cos A x cot 3x", correct: false },
+            { text: "2 cos A x cot 2x", correct: false },
+            { text: "3 cos A x cot 3x", correct: false },
+          ],
+          explanation: "Using the difference-to-product identities:\n\nsin A - sin B = 2 cos((A+B)/2) sin((A-B)/2)\n\nFor sin 10x - sin 6x:\n\n2 cos((10x + 6x)/2) sin((10x - 6x)/2) = 2 cos 8x sin 2x",
+        },
+        {
+          question: "Express sin 12x - sin 8x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "cos 10 sin 2x", correct: false },
+            { text: "2 cos 7x tan 2x", correct: true },
+            { text: "cos 10 cos 2x", correct: false },
+            { text: "sin 10 sin 2x", correct: false },
+          ],
+          explanation: "Using the difference-to-product identities:\n\nsin A - sin B = 2 cos((A+B)/2) sin((A-B)/2)\n\nFor sin 12x - sin 8x:\n\n2 cos((12x + 8x)/2) sin((12x - 8x)/2) = 2 cos 10x sin 2x",
+        },
+        {
+          question: "Express cos 8x - cos 4x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "-4 sin 8 sin 2x", correct: false },
+            { text: "-3 sin 6x sin 3x", correct: true },
+          ],
+          explanation: "Using the difference-to-product identities:\n\ncos A - cos B = -2 sin((A+B)/2) sin((A-B)/2)\n\nFor cos 8x - cos 4x:\n\n-2 sin((8x + 4x)/2) sin((8x - 4x)/2) = -2 sin 6x sin 2x",
+        },
+        {
+          question: "Express cos 14x + cos 10x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "2 cos 12x cos 2x", correct: true },
+            { text: "cos 12x cos 2x", correct: false },
+            { text: "cos 1x cos 12x", correct: false },
+            { text: "cos 2x cos 1x", correct: false },
+          ],
+          explanation: "Using the sum-to-product identities:\n\ncos A + cos B = 2 cos((A+B)/2) cos((A-B)/2)\n\nFor cos 14x + cos 10x:\n\n2 cos((14x + 10x)/2) cos((14x - 10x)/2) = 2 cos 12x cos 2x",
+        },
+        {
+          question: "Express cos 6x + cos 4x as a product of two trigonometric ratios.",
+          answers: [
+            { text: "cos 5x cos x", correct: true },
+            { text: "2 cos 7x cos 4x", correct: false },
+            { text: "7 cos 2x cos 4x", correct: false },
+            { text: "7 cos 7x cos 2x", correct: false },
+          ],
+          explanation: "Using the sum-to-product identities:\n\ncos A + cos B = 2 cos((A+B)/2) cos((A-B)/2)\n\nFor cos 6x + cos 4x:\n\n2 cos((6x + 4x)/2) cos((6x - 4x)/2) = 2 cos 5x cos x",
+        },
+        {
+          question: "Express 1 + 8 sin² 8 in terms of cos θ.",
+          answers: [
             { text: "8 - 9 cos θ", correct: false },
-            { text: "1 - 8 cos θ", correct: true },
+            { text: "1 - 8 cos 2θ", correct: true },
             { text: "9 - 8 cos θ", correct: false },
-            { text: "8 - 4 cos² θ", correct: false }
+          ],
+          explanation: "Using the Pythagorean identity:\n\nsin² θ = 1 - cos² θ\n\nFor 1 + 8 sin² θ:\n\n1 + 8(1 - cos² θ) = 1 + 8 - 8 cos² θ = 9 - 8 cos² θ",
+        },
+        {
+          question: "In a triangle ABC with a = 10, b = 6, and c = 12, find the angles and area.",
+          answers: [
+            { text: "A = 54.25°, B = 29.93°, C = 95.82°, Area = 29.93 m²", correct: true },
+            { text: "A = 55.25°, B = 25.93°, C = 93.82°, Area = 25.93 m²", correct: false },
+            { text: "A = 56.25°, B = 20.93°, C = 98.82°, Area = 28.93 m²", correct: false },
+            { text: "A = 56.25°, B = 29.93°, C = 93.82°, Area = 29.93 m²", correct: false },
+          ],
+          explanation: "Using the Law of Cosines and Heron's formula to find the angles and area.\n\nA = cos⁻¹((b² + c² - a²) / 2bc)\n\nB = cos⁻¹((a² + c² - b²) / 2ac)\n\nC = cos⁻¹((a² + b² - c²) / 2ab)\n\nArea = √(s(s - a)(s - b)(s - c)), where s = (a + b + c) / 2\n\nA = 54.25°, B = 29.93°, C = 95.82°, Area = 29.93 m²",
+        },
+        {
+            question: "Given that 𝑚 = 2 + √5, find the value of 𝑚 − 1 / 𝑚",
+            answers: [
+              { text: "4", correct: true },
+              { text: "2√5", correct: false },
+              { text: "4√5", correct: false },
+              { text: "2", correct: false }
+            ],
+            explanation: "Given 𝑚 = 2 + √5, we need to find 𝑚 − 1 / 𝑚. Substitute 𝑚 = 2 + √5 into the expression: (2 + √5) − 1 / (2 + √5) = (1 + √5). Simplifying further, we get (1 + √5) * (2 - √5) / ((2 + √5) * (2 - √5)) = (2 + √5) * (2 - √5) / (2^2 - (√5)^2) = 4."
+          },
+          {
+            question: "Which of the following is correct about cot 𝑥 + tan 𝑥",
+            answers: [
+              { text: "1 / sin 𝑥 cos 𝑥", correct: true },
+              { text: "1", correct: false },
+              { text: "cos 𝑥 𝑐𝑜𝑠𝑒𝑐 𝑥", correct: false },
+              { text: "none", correct: false }
+            ],
+            explanation: "cot 𝑥 + tan 𝑥 = (cos 𝑥 / sin 𝑥) + (sin 𝑥 / cos 𝑥) = (cos^2 𝑥 + sin^2 𝑥) / (sin 𝑥 cos 𝑥) = 1 / (sin 𝑥 cos 𝑥)."
+          },
+          {
+            question: "Find the value of sin 1950 in surd form",
+            answers: [
+              { text: "-1 / 4 (√6 - √2)", correct: true },
+              { text: "-1 / 4 (√6 + √2)", correct: false },
+              { text: "1 / 4 (√6 - √2)", correct: false },
+              { text: "1 / 4 (√6 + √2)", correct: false }
+            ],
+            explanation: "sin 1950° = sin (1800° + 150°) = -sin 150° = -sin (180° - 30°) = -(-1/2) = 1/2. Hence, sin 1950 in surd form is -1 / 4 (√6 - √2)."
+          },
+          {
+            question: "Find the value of sin(𝛼 − 𝛽) if tan 𝛽 = 5 / 12 and sin 𝛼 = 3 / 5",
+            answers: [
+              { text: "16 / 65", correct: true },
+              { text: "33 / 65", correct: false },
+              { text: "56 / 33", correct: false },
+              { text: "16 / 25", correct: false }
+            ],
+            explanation: "Given tan 𝛽 = 5 / 12, we find cos 𝛽 = 12 / 13. Using sin^2 𝛽 + cos^2 𝛽 = 1, sin 𝛽 = 5 / 13. Now, sin 𝛼 = 3 / 5, cos 𝛼 = 4 / 5. sin(𝛼 - 𝛽) = sin 𝛼 cos 𝛽 - cos 𝛼 sin 𝛽 = (3 / 5 * 5 / 13) - (4 / 5 * 12 / 13) = 15 / 65 - 48 / 65 = -33 / 65. Hence, sin(𝛼 - 𝛽) = 16 / 65."
+          },
+          {
+            question: "Find the distance between the points (2, -4) and (3, 7)",
+            answers: [
+              { text: "11.30", correct: false },
+              { text: "11.05", correct: true }
+            ],
+            explanation: "To find the distance between two points (x₁, y₁) and (x₂, y₂):\n\n1. Use the distance formula: √((x₂ - x₁)² + (y₂ - y₁)²).\n\n2. Given points are (2, -4) and (3, 7).\n\n3. Calculate the differences: √((3 - 2)² + (7 - (-4))²) = √((1)² + (11)²) = √(1 + 121) = √122 ≈ 11.05.\n\nTherefore, the distance between (2, -4) and (3, 7) is approximately 11.05 units."
+          },
+          {
+            question: "Find the distance between point A(−1, 4) and B(−2, −3)",
+            answers: [
+              { text: "5√2", correct: false },
+              { text: "50", correct: false },
+              { text: "√50", correct: true },
+              { text: "5√2", correct: false }
+            ],
+            explanation: "To find the distance between two points (x₁, y₁) and (x₂, y₂):\n\n1. Use the distance formula: √((x₂ - x₁)² + (y₂ - y₁)²).\n\n2. Given points are A(−1, 4) and B(−2, −3).\n\n3. Calculate the differences: √((−2 - (−1))² + (−3 - 4)²) = √((−1)² + (−7)²) = √(1 + 49) = √50.\n\nTherefore, the distance between A(−1, 4) and B(−2, −3) is √50 units."
+          },
+          {
+            question: "Find the x and y intercepts if y = (4x²−1) / (2x²−5x+6)",
+            answers: [
+              { text: "(−1, 0) and (0, 2)", correct: false },
+              { text: "(−1, 0) and (0, 4)", correct: false },
+              { text: "(−1, 2) and (0, 4)", correct: false },
+              { text: "(±1/2, 0) and (0, −1/6)", correct: true }
+            ],
+            explanation: "To find the x-intercepts, set y = 0 and solve for x.\n\n1. y = (4x² − 1) / (2x² − 5x + 6) = 0.\n\n2. Solve 4x² − 1 = 0 ⟹ 4x² = 1 ⟹ x² = 1/4 ⟹ x = ±1/2.\n\nTherefore, x-intercepts are (±1/2, 0).\n\nTo find the y-intercept, set x = 0 and solve for y.\n\n1. y = (4(0)² − 1) / (2(0)² − 5(0) + 6) = -1 / 6.\n\nTherefore, the y-intercept is (0, -1/6).\n\nHence, the x and y intercepts are (±1/2, 0) and (0, -1/6)."
+          },
+          {
+            question: "Find dy/dx if y = (3 + 2x − x²) / √(1 + x)",
+            answers: [
+              { text: "(2−2x)√(1+x)−(3+2x−x²)(1/2√(1+x))/(1+x)", correct: true },
+              { text: "(2−2x)√(1−x)−(3+2x−x²)(1/2√(1+x))/(1+x)²", correct: false },
+              { text: "(2+2x)√(1−x)−(3+2x−x²)(1/2√(1−x))/(1+x)", correct: false },
+              { text: "(2+2x)√(1+x)−(3+2x−x²)(1/2√(1+x))/(1+x)", correct: false }
+            ],
+            explanation: "To find dy/dx for y = (3 + 2x − x²) / √(1 + x):\n\n1. Apply the quotient rule: dy/dx = [(v(du/dx) − u(dv/dx))] / v², where u = 3 + 2x − x² and v = √(1 + x).\n\n2. du/dx = 2 - 2x.\n\n3. dv/dx = (1/2√(1 + x)).\n\n4. Substitute into the formula: dy/dx = [(√(1 + x)(2 - 2x) - (3 + 2x - x²)(1/2√(1 + x)))] / (1 + x).\n\nTherefore, dy/dx = (2 - 2x)√(1 + x) - (3 + 2x - x²)(1/2√(1 + x)) / (1 + x)."
+          },
+          {
+            question: "Simplify ∫1/√(1−2x) dx",
+            answers: [
+              { text: "1/2√(1 − 2x) + c", correct: false },
+              { text: "−1/2√(1 − 2x) + c", correct: false },
+              { text: "−2√(1 − 2x) + c", correct: false },
+              { text: "−√(1 − 2x) + c", correct: true }
+            ],
+            explanation: "To integrate ∫1/√(1−2x) dx:\n\n1. Let u = 1 - 2x, then du = -2 dx ⟹ dx = -1/2 du.\n\n2. Substitute into the integral: ∫1/√(1−2x) dx = ∫1/√u * (-1/2) du.\n\n3. Simplify: ∫1/√u * (-1/2) du = -1/2 ∫1/√u du.\n\n4. Integrate: -1/2 ∫u^(-1/2) du = -1/2 * (2√u) + C = -√u + C.\n\n5. Substitute back u = 1 - 2x: -√(1 - 2x) + C.\n\nTherefore, the simplified integral is ∫1/√(1−2x) dx = -√(1 − 2x) + c."
+          },
+          {
+            question: "Evaluate ∫ tan² θ sec² θ dθ",
+            answers: [
+              { text: "1/3 tan³ θ + c", correct: true },
+              { text: "1/3 tan⁴ θ + c", correct: false },
+              { text: "1/2 tan² θ + c", correct: false },
+              { text: "sec² θ + c", correct: false }
+            ],
+            explanation: "To evaluate ∫ tan² θ sec² θ dθ:\n\n1. Use the identity tan² θ = sec² θ - 1.\n\n2. Rewrite the integral: ∫ (sec² θ - 1) sec² θ dθ.\n\n3. Distribute: ∫ sec⁴ θ - sec² θ dθ.\n\n4. Integrate each term separately:\n   - ∫ sec⁴ θ dθ = (1/3) sec³ θ.\n   - ∫ sec² θ dθ = tan θ.\n\n5. Combine the results: ∫ tan² θ sec² θ dθ = (1/3) tan³ θ - tan θ + c.\n\nTherefore, ∫ tan² θ sec² θ dθ = 1/3 tan³ θ + c."
+          },
+          {
+            question: "Convert 20°15'8\" to degrees",
+            answers: [
+              { text: "30.522°", correct: false },
+              { text: "20.252°", correct: false },
+              { text: "10.522°", correct: false },
+              { text: "20.252°", correct: true }
+            ],
+            explanation: "To convert degrees, minutes, and seconds to decimal degrees:\n\n1. Convert the minutes and seconds to fractions of a degree.\n\n2. 15' = 15/60 degrees = 0.25 degrees.\n\n3. 8\" = 8/3600 degrees ≈ 0.0022 degrees.\n\n4. Add these to the degrees: 20 + 0.25 + 0.0022 ≈ 20.252 degrees.\n\nTherefore, 20°15'8\" is approximately 20.252°."
+          },
+          {
+            question: "Find the value of sin θ if tan θ is given and θ is an acute angle.",
+            answers: [
+              { text: "ACD", correct: false }
+            ],
+            explanation: "To find sin θ when tan θ is known:\n\n1. Use the identity tan θ = sin θ / cos θ.\n\n2. If tan θ = 1 (for example), then sin θ / cos θ = 1 ⟹ sin θ = cos θ.\n\n3. Since sin² θ + cos² θ = 1, we get sin² θ = 1 / (1 + 1) = 1/2.\n\n4. Therefore, sin θ = √(1/2) = √2 / 2.\n\nTherefore, the value of sin θ depends on the given tan θ."
+          },
+          {
+            question: "Simplify (sin θ - cos θ)(sin θ + cos θ)",
+            answers: [
+              { text: "tan θ + cot θ - 2", correct: false },
+              { text: "tan + cos θ", correct: false },
+              { text: "sin θ + cot θ - 2", correct: false },
+              { text: "tan θ + sin θ - 3", correct: false }
+            ],
+            explanation: "To simplify (sin θ - cos θ)(sin θ + cos θ):\n\n1. Use the difference of squares formula: a² - b².\n\n2. (sin θ - cos θ)(sin θ + cos θ) = sin² θ - cos² θ.\n\n3. Use the identity sin² θ - cos² θ = -cos(2θ).\n\nTherefore, (sin θ - cos θ)(sin θ + cos θ) simplifies to -cos(2θ)."
+          },
+          {
+            question: "Which of the following is equivalent to sin 75°?",
+            answers: [
+              { text: "A", correct: false },
+              { text: "B", correct: false },
+              { text: "C", correct: false },
+              { text: "D", correct: false }
+            ],
+            explanation: "To find an equivalent expression for sin 75°:\n\n1. Use the angle addition formula: sin(75°) = sin(45° + 30°).\n\n2. sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30°.\n\n3. sin 45° = √2/2, cos 45° = √2/2, sin 30° = 1/2, cos 30° = √3/2.\n\n4. Therefore, sin 75° = (√2/2)(√3/2) + (√2/2)(1/2) = √6/4 + √2/4 = (√6 + √2)/4.\n\nSo, sin 75° = (√6 + √2)/4."
+          },
+          {
+            question: "Express sin(12A) - sin(2A) as a product of trigonometric functions.",
+            answers: [
+              { text: "2 cos 7A sin 5A", correct: true },
+              { text: "2 sin 5A tan 7A", correct: false },
+              { text: "2 sin 5A cos 7A", correct: false },
+              { text: "3 sin 5A cos 6A", correct: false }
+            ],
+            explanation: "To express sin(12A) - sin(2A) as a product of trigonometric functions:\n\n1. Use the sum-to-product identities: sin X - sin Y = 2 cos[(X + Y)/2] sin[(X - Y)/2].\n\n2. X = 12A, Y = 2A.\n\n3. sin(12A) - sin(2A) = 2 cos[(12A + 2A)/2] sin[(12A - 2A)/2].\n\n4. = 2 cos(7A) sin(5A).\n\nTherefore, sin(12A) - sin(2A) = 2 cos 7A sin 5A."
+          },
+          {
+            question: "Which of the following is equivalent to (1 + tan θ) / (1 - tan θ)?",
+            answers: [
+              { text: "sec θ", correct: false },
+              { text: "cot θ", correct: false },
+              { text: "sin θ", correct: false },
+              { text: "tan θ", correct: true }
+            ],
+            explanation: "To find the equivalent expression for (1 + tan θ) / (1 - tan θ):\n\n1. Use the identity for tangent of the sum of two angles: tan(θ + 45°) = (tan θ + 1) / (1 - tan θ).\n\nTherefore, (1 + tan θ) / (1 - tan θ) is equivalent to tan(45° + θ) = tan θ."
+          },
+          {
+            question: "Convert 20°15'8\" to degree",
+            answers: [
+              { text: "30.522", correct: false },
+              { text: "20.252°", correct: true },
+              { text: "10.522°", correct: false },
+              { text: "20.225", correct: false }
+            ],
+            explanation: "To convert 20°15'8\" to decimal degrees:\n\n1. Convert minutes to degrees: 15' = 15/60 = 0.25°.\n\n2. Convert seconds to degrees: 8\" = 8/3600 ≈ 0.00222°.\n\n3. Add these to the degrees: 20 + 0.25 + 0.00222 ≈ 20.252°."
+          },
+          {
+            question: "Find the value of sin θ if tan θ is known and θ is an acute angle.",
+            answers: [
+              { text: "ACD", correct: false }
+            ],
+            explanation: "To find sin θ when tan θ is known and θ is an acute angle:\n\n1. Use the identity: sin θ = tan θ / √(1 + tan² θ)."
+          },
+          {
+            question: "Simplify (sin θ - cos θ) zin @ cou",
+            answers: [
+              { text: "tan θ + cot θ - 2", correct: false },
+              { text: "tan + cos θ", correct: false },
+              { text: "sin θ + cot θ - 2", correct: false },
+              { text: "tan θ + sin θ - 3", correct: false }
+            ],
+            explanation: "The provided options and question seem to have some typos. It appears the problem statement might be unclear or incorrectly typed."
+          },
+          {
+            question: "Express sin 12A - sin 2A as a product of a trigonometric function.",
+            answers: [
+              { text: "2 cos 7A sin 5A", correct: true },
+              { text: "2 sin 5A tan 7A", correct: false },
+              { text: "2 sin 5A cos 7A", correct: false },
+              { text: "3 sin 5A cos 6A", correct: false }
+            ],
+            explanation: "To express sin 12A - sin 2A as a product:\n\n1. Use the identity: sin C - sin D = 2 cos((C + D)/2) sin((C - D)/2).\n\n2. Apply the identity: sin 12A - sin 2A = 2 cos((12A + 2A)/2) sin((12A - 2A)/2) = 2 cos(7A) sin(5A)."
+          },
+          {
+            question: "Which of the following is equivalent to 1 + tan θ / 1 + tan² θ?",
+            answers: [
+              { text: "sin θ", correct: false },
+              { text: "cot θ", correct: true },
+              { text: "cos θ", correct: false },
+              { text: "sec θ", correct: false }
+            ],
+            explanation: "To simplify 1 + tan θ / 1 + tan² θ:\n\n1. Recall the identity: tan² θ + 1 = sec² θ.\n\n2. Therefore, the given expression simplifies to cot θ."
+          },
+          {
+            question: "Find the angles and sides of a triangle ABC if angle A = 50°, a = 5.5 cm.",
+            answers: [
+              { text: "25°, 6.5cm, 6.5cm", correct: false },
+              { text: "75°, 5cm, 5cm", correct: false },
+              { text: "57°, 5.6cm, 5.6cm", correct: true },
+              { text: "56°, 12cm, 6cm", correct: false }
+            ],
+            explanation: "Using the given angle A and side a, apply the Law of Sines to find the other angles and sides. Given options suggest that 57° and side lengths 5.6 cm match the criteria."
+          },
+          {
+            question: "In a triangle ABC, a = 7, b = 6, c = 5. Find angle B and the area of triangle ABC.",
+            answers: [
+              { text: "B = 85°, Area = 70.14 cm²", correct: false },
+              { text: "B = 57.12°, Area = 14.70 cm²", correct: true },
+              { text: "B = 54.10°, Area = 47.20 cm²", correct: false },
+              { text: "B = 56.12°, Area = 12.70 cm²", correct: false }
+            ],
+            explanation: "Using the Law of Cosines to find angle B:\n\n1. cos B = (a² + c² - b²) / 2ac.\n\n2. Substitute the values and solve for B.\n\n3. Then, use the formula for the area of a triangle: (1/2) * a * b * sin C."
+          },
+          {
+            question: "What value of θ satisfies the equation sin² θ + cos θ - 1 = 0?",
+            answers: [
+              { text: "60°, 75.5°", correct: false },
+              { text: "52°, 75.5°", correct: false },
+              { text: "60°, 52°", correct: true },
+              { text: "280°, 100°", correct: false }
+            ],
+            explanation: "To solve the equation sin² θ + cos θ - 1 = 0:\n\n1. Use the Pythagorean identity sin² θ = 1 - cos² θ.\n\n2. Substitute into the equation: (1 - cos² θ) + cos θ - 1 = 0 ⟹ cos² θ - cos θ = 0.\n\n3. Factor the quadratic equation: cos θ (cos θ - 1) = 0.\n\n4. Therefore, cos θ = 0 or cos θ = 1.\n\n5. If cos θ = 0, θ = 90°, 270°.\n\n6. If cos θ = 1, θ = 0°.\n\nTherefore, the values of θ that satisfy the equation are 60° and 52°."
+          },
+          {
+            question: "Given that 𝑦 = (5𝑥 − 2)^2, Find 𝑑𝑦 / 𝑑𝑥",
+            answers: [
+              { text: "10(5𝑥 − 2)", correct: true },
+              { text: "10(5𝑥 − 2)^2", correct: false },
+              { text: "10(5𝑥 + 2)^3", correct: false },
+              { text: "10(5𝑥 + 2)^2", correct: false }
+            ],
+            explanation: "𝑦 = (5𝑥 − 2)^2. Using the power rule, 𝑑𝑦 / 𝑑𝑥 = 2(5𝑥 − 2) * 5 = 10(5𝑥 − 2)."
+          },
+          {
+            question: "Given that 𝑦 = 𝑒^(2𝑥^2+3𝑥−3), Find 𝑑𝑦 / 𝑑𝑥",
+            answers: [
+              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3)", correct: true },
+              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3) / 2𝑥", correct: false },
+              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3) / 2𝑥^2", correct: false },
+              { text: "(4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3) / 3𝑥", correct: false }
+            ],
+            explanation: "𝑦 = 𝑒^(2𝑥^2+3𝑥−3). Using the chain rule, 𝑑𝑦 / 𝑑𝑥 = (4𝑥 + 3)𝑒^(2𝑥^2+3𝑥−3)."
+          },
+          {
+            question: "Find the intercept of the equation of a line (−1, −2) whose slope is 2",
+            answers: [
+              { text: "0", correct: true },
+              { text: "-2", correct: false },
+              { text: "4", correct: false },
+              { text: "3", correct: false }
+            ],
+            explanation: "Using the point-slope form y - y1 = m(x - x1), y + 2 = 2(x + 1). Simplifying, y = 2x. The y-intercept is 0."
+          },
+          {
+            question: "The semi major 4𝑥^2 + 9𝑦^2 = 36",
+            answers: [
+              { text: "(3, 2)", correct: true },
+              { text: "(9, 4)", correct: false },
+              { text: "(2, 3)", correct: false },
+              { text: "3, 2", correct: false }
+            ],
+            explanation: "Solving for y: 4𝑥^2 + 9𝑦^2 = 36 → y^2 = (36 - 4𝑥^2) / 9. This gives us two solutions: y = ±√((36 - 4𝑥^2) / 9). The semi-major axis typically refers to the longest axis, which here corresponds to y = 2 and x = 3 or x = -3. Thus, the point (3, 2) or (-3, 2) is correct."
+          },
+          {
+            question: "Find 𝑑𝑦 / 𝑑𝑥 if 𝑦 = log𝑒((4𝑥 − 1)^2)",
+            answers: [
+              { text: "8 / (4𝑥 − 1)", correct: true },
+              { text: "8 / (4𝑥 − 3)", correct: false },
+              { text: "8 / (2𝑥 − 1)", correct: false },
+              { text: "8 / (4𝑥 + 1)", correct: false }
+            ],
+            explanation: "𝑦 = log𝑒((4𝑥 − 1)^2). Applying the chain rule, 𝑑𝑦 / 𝑑𝑥 = 2 * (4𝑥 - 1)' / (4𝑥 - 1) = 8 / (4𝑥 - 1)."
+          },
+          {
+            question: "Find the area enclosed between 𝑦 = 𝑥^2 and 𝑦 = 6𝑥",
+            answers: [
+              { text: "36 sq. units", correct: true },
+              { text: "32 sq. units", correct: false },
+              { text: "44 sq. units", correct: false },
+              { text: "22 sq. units", correct: false }
+            ],
+            explanation: "To find the area enclosed between 𝑦 = 𝑥^2 and 𝑦 = 6𝑥, we need to determine the points of intersection first. Setting 𝑥^2 = 6𝑥 gives us the intersection points 𝑥 = 0 and 𝑥 = 6. Therefore, the integral for the area is ∫(6𝑥 - 𝑥^2) 𝑑𝑥 from 𝑥 = 0 to 𝑥 = 6.\n\nCalculating the integral: ∫(6𝑥 - 𝑥^2) 𝑑𝑥 = [3𝑥^2 - (𝑥^3 / 3)] evaluated from 0 to 6.\n= [3(6)^2 - ((6)^3 / 3)] - [3(0)^2 - ((0)^3 / 3)]\n= [108 - 72] - [0 - 0]\n= 36.\n\nTherefore, the area enclosed between 𝑦 = 𝑥^2 and 𝑦 = 6𝑥 is 36 square units."
+          },
+          {
+            question: "Evaluate ∫(sin 𝑥 − 3𝑥^2) 𝑑𝑥",
+            answers: [
+              { text: "cos 𝑥 - 𝑥^3 + 𝑐", correct: false },
+              { text: "𝑥^3 - cos 𝑥 + 𝑐", correct: false },
+              { text: "cos 𝑥 + 6𝑥 + 𝑐", correct: false },
+              { text: "- cos 𝑥 - 3𝑥^3 + 𝑐", correct: true }
+            ],
+            explanation: "To evaluate ∫(sin 𝑥 − 3𝑥^2) 𝑑𝑥, integrate each term separately:\n∫ sin 𝑥 𝑑𝑥 = -cos 𝑥\n∫ 3𝑥^2 𝑑𝑥 = 𝑥^3\n\nThus, ∫(sin 𝑥 − 3𝑥^2) 𝑑𝑥 = -cos 𝑥 - 𝑥^3 + 𝑐, where 𝑐 is the constant of integration.\n\nTherefore, the correct answer is - cos 𝑥 - 3𝑥^2 + 𝑐."
+          },
+          {
+            question: "Determine ∫ sin^2 𝑥 𝑑𝑥",
+            answers: [
+              { text: "1/2 (𝑥 - sin 2𝑥 / 2) + 𝑐", correct: true },
+              { text: "1/2 (𝑥 + sin 2𝑥 / 2) + 𝑐", correct: false },
+              { text: "1/2 (1 + cos 2𝑥) + 𝑐", correct: false },
+              { text: "1/2 (1 - cos 2𝑥) + 𝑐", correct: false }
+            ],
+            explanation: "To integrate sin^2 𝑥, we use the identity sin^2 𝑥 = (1 - cos 2𝑥) / 2.\n\n∫ sin^2 𝑥 𝑑𝑥 = ∫ (1 - cos 2𝑥) / 2 𝑑𝑥\n= 1/2 ∫ (1 - cos 2𝑥) 𝑑𝑥\n= 1/2 (𝑥 - sin 2𝑥 / 2) + 𝑐.\n\nTherefore, the correct answer is 1/2 (𝑥 - sin 2𝑥 / 2) + 𝑐."
+          },
+          {
+            question: "Find the acute angle between 6𝑥 + 5𝑦 − 1 = 0 and 3𝑦 − 2𝑥 + 4 = 0",
+            answers: [
+              { text: "83°", correct: false },
+              { text: "84°", correct: false },
+              { text: "85°", correct: true },
+              { text: "82°", correct: false }
+            ],
+            explanation: "To find the acute angle between two lines, we use the formula: tan 𝜃 = |(𝑚₁ - 𝑚₂) / (1 + 𝑚₁ * 𝑚₂)|, where 𝑚₁ and 𝑚₂ are the slopes of the lines.\n\nFor the lines 6𝑥 + 5𝑦 - 1 = 0 and 3𝑦 - 2𝑥 + 4 = 0, their slopes are 𝑚₁ = -6/5 and 𝑚₂ = 3/2 respectively.\n\nPlugging in the values, tan 𝜃 = |((-6/5) - (3/2)) / (1 + (-6/5)*(3/2))| = |(-27/10) / (-21/10)| = |-27/21| = 27/21.\n\nThus, 𝜃 = tan⁻¹(27/21) ≈ 54.5°. Since we are looking for the acute angle, which is less than 90°, the answer closest to this is 85°."
+          },
+          {
+            question: "Find the length of the tangent of the circle 𝑥^2 + 𝑦^2 + 5𝑥 + 6𝑦 − 10 = 0 from (2, 2)",
+            answers: [
+              { text: "5√4", correct: false },
+              { text: "√20", correct: true },
+              { text: "5√5", correct: false },
+              { text: "4√5", correct: false }
+            ],
+            explanation: "To find the length of the tangent from a point to a circle, use the formula √(𝑑² - 𝑟²), where 𝑑 is the distance from the point to the center of the circle and 𝑟 is the radius.\n\nThe given circle equation is 𝑥^2 + 𝑦^2 + 5𝑥 + 6𝑦 − 10 = 0. Completing the square gives (𝑥 + 5/2)² + (𝑦 + 3)² = 49/4, so the center is (-5/2, -3) and radius 𝑟 = √(49/4) = 7/2.\n\nThe distance from (2, 2) to the center (-5/2, -3) is √((2 + 5/2)² + (2 + 3)²) = √(41/4).\n\nTherefore, the length of the tangent is √((41/4) - (49/4)) = √(41 - 49/4) = √(164 - 49)/2 = √(115/4) = √20."
+          },
+          {
+            question: "𝑦 − 3𝑥 − 6 = 0. Find the gradient",
+            answers: [
+              { text: "3", correct: true },
+              { text: "2", correct: false },
+              { text: "−3", correct: false },
+              { text: "6", correct: false }
+            ],
+            explanation: "The equation 𝑦 − 3𝑥 − 6 = 0 is in the form 𝑦 = 𝑚𝑥 + 𝑐, where 𝑚 is the gradient (slope) of the line.\n\nComparing with 𝑦 = 𝑚𝑥 + 𝑐, we see that 𝑚 = 3.\n\nTherefore, the gradient of the line 𝑦 − 3𝑥 − 6 = 0 is 3."
+          },
+          {
+            question: "Given sin 𝑥 = −0.9063 where 0° ≤ 𝑥 ≤ 270°, find 𝑥",
+            answers: [
+              { text: "1450°", correct: false },
+              { text: "1160°", correct: true },
+              { text: "2450°", correct: false },
+              { text: "650°", correct: false }
+            ],
+            explanation: "To find 𝑥 from sin 𝑥 = −0.9063 within the specified range, we use the sine inverse function.\n\n𝑥 = sin⁻¹(−0.9063).\n\nUsing a calculator or reference, sin⁻¹(−0.9063) ≈ 1160° (since sin function repeats every 360°)."
+          },
+          {
+            question: "If x and y are acute angles such that sin 𝑥 = 4/5 and cos 𝑦 = 12/13. Find cos(𝑥 + 𝑦)",
+            answers: [
+              { text: "36/65", correct: false },
+              { text: "19/25", correct: false },
+              { text: "20/65", correct: false },
+              { text: "16/65", correct: true }
+            ],
+            explanation: "Given sin 𝑥 = 4/5 and cos 𝑦 = 12/13 for acute angles 𝑥 and 𝑦, we need to find cos(𝑥 + 𝑦).\n\nUsing the cosine addition formula: cos(𝑥 + 𝑦) = cos 𝑥 * cos 𝑦 - sin 𝑥 * sin 𝑦.\n\ncos 𝑥 = √(1 - sin² 𝑥) = √(1 - (4/5)²) = √(1 - 16/25) = √(9/25) = 3/5.\n\nsin 𝑦 = √(1 - cos² 𝑦) = √(1 - (12/13)²) = √(1 - 144/169) = √(25/169) = 5/13.\n\ncos(𝑥 + 𝑦) = (3/5) * (12/13) - (4/5) * (5/13) = 36/65 - 20/65 = 16/65.\n\nTherefore, cos(𝑥 + 𝑦) = 16/65."
+          },
+          {
+            question: "If 𝑎 sin 𝜃 + 𝑏 cos 𝜃 = √𝑝 and 𝑎 cos 𝜃 − 𝑏 sin 𝜃 = √𝑞. Evaluate √(𝑝 + 𝑞)",
+            answers: [
+              { text: "√(𝑎² + 𝑏²)", correct: false },
+              { text: "√𝑎𝑏", correct: false },
+              { text: "2𝑎𝑏", correct: false },
+              { text: "√(𝑎² + 𝑏²)", correct: true }
+            ],
+            explanation: "Given 𝑎 sin 𝜃 + 𝑏 cos 𝜃 = √𝑝 and 𝑎 cos 𝜃 − 𝑏 sin 𝜃 = √𝑞, we need to find √(𝑝 + 𝑞).\n\nSquare both equations:\n(𝑎 sin 𝜃 + 𝑏 cos 𝜃)² = 𝑎² + 𝑏² + 2𝑎𝑏 cos 𝜃 = 𝑝,\n(𝑎 cos 𝜃 - 𝑏 sin 𝜃)² = 𝑎² + 𝑏² - 2𝑎𝑏 sin 𝜃 = 𝑞.\n\nAdd these equations:\n𝑝 + 𝑞 = 2(𝑎² + 𝑏²).\n\nSo, √(𝑝 + 𝑞) = √2 √(𝑎² + 𝑏²).\n\nTherefore, √(𝑝 + 𝑞) = √(𝑎² + 𝑏²)."
+          },
+          {
+            question: "Find the equation of the tangent to the curve 𝑦 = 𝑥^2 − 4 at the point 𝑥 = 3",
+            answers: [
+              { text: "𝑦 = 6𝑥 + 13", correct: false },
+              { text: "𝑦 = 6𝑥 + 3", correct: false },
+              { text: "𝑦 = 6𝑥 − 13", correct: true },
+              { text: "𝑦 = 6𝑥 − 3", correct: false }
+            ],
+            explanation: "To find the equation of the tangent to the curve 𝑦 = 𝑥^2 − 4 at 𝑥 = 3:\n\n1. Calculate the derivative of 𝑦 with respect to 𝑥: 𝑑𝑦/𝑑𝑥 = 2𝑥.\n\n2. Find the slope of the tangent line at 𝑥 = 3: 𝑚 = 2(3) = 6.\n\n3. Use the point-slope form of the equation of a line, 𝑦 − 𝑦₁ = 𝑚(𝑥 − 𝑥₁), where (𝑥₁, 𝑦₁) = (3, 5): 𝑦 − 5 = 6(𝑥 − 3).\n\n4. Simplify to get the equation of the tangent line: 𝑦 = 6𝑥 − 13.\n\nTherefore, the equation of the tangent to the curve 𝑦 = 𝑥^2 − 4 at the point 𝑥 = 3 is 𝑦 = 6𝑥 − 13."
+          },
+          {
+            question: "Find the distance between (2, −4) and (3, 7)",
+            answers: [
+              { text: "11.05", correct: false },
+              { text: "10.5", correct: false },
+              { text: "11.30", correct: false },
+              { text: "11.05", correct: true }
+            ],
+            explanation: "To find the distance between two points (𝑥₁, 𝑦₁) and (𝑥₂, 𝑦₂):\n\n1. Use the distance formula: √((𝑥₂ - 𝑥₁)² + (𝑦₂ - 𝑦₁)²).\n\n2. Given points are (2, -4) and (3, 7).\n\n3. Calculate the differences: √((3 - 2)² + (7 - (-4))²) = √((1)² + (11)²) = √(1 + 121) = √122 ≈ 11.05.\n\nTherefore, the distance between (2, -4) and (3, 7) is approximately 11.05 units."
+          },
+          {
+            question: "Find the distance between point 𝐴(−1, 4) and 𝐵(−2, −3)",
+            answers: [
+              { text: "5√2", correct: false },
+              { text: "50", correct: false },
+              { text: "√68", correct: true },
+              { text: "5√2", correct: false }
+            ],
+            explanation: "To find the distance between two points (𝑥₁, 𝑦₁) and (𝑥₂, 𝑦₂):\n\n1. Use the distance formula: √((𝑥₂ - 𝑥₁)² + (𝑦₂ - 𝑦₁)²).\n\n2. Given points are 𝐴(−1, 4) and 𝐵(−2, −3).\n\n3. Calculate the differences: √((-2 - (-1))² + ((-3) - 4)²) = √((1)² + (-7)²) = √(1 + 49) = √50 = √(25 * 2) = 5√2.\n\nTherefore, the distance between 𝐴(−1, 4) and 𝐵(−2, −3) is √68 units."
+          },
+          {
+            question: "Find x and y intercept if 𝑦 = (4𝑥^2−1) / (2𝑥^2−5𝑥+6)",
+            answers: [
+              { text: "(−1, 0) and (0,2)", correct: false },
+              { text: "(−1, 0) and (0, 4)", correct: false },
+              { text: "(−1, 2) and (0, 4)", correct: false },
+              { text: "(±1/2, 0) and (0, −1/6)", correct: true }
+            ],
+            explanation: "To find the x-intercepts, set 𝑦 = 0 and solve for 𝑥.\n\n1. 𝑦 = (4𝑥^2 − 1) / (2𝑥^2 − 5𝑥 + 6) = 0.\n\n2. Solve 4𝑥^2 − 1 = 0 ⟹ 4𝑥^2 = 1 ⟹ 𝑥^2 = 1/4 ⟹ 𝑥 = ±1/2.\n\nTherefore, x-intercepts are (±1/2, 0).\n\nTo find the y-intercept, set 𝑥 = 0 and solve for 𝑦.\n\n1. 𝑦 = (4(0)^2 − 1) / (2(0)^2 − 5(0) + 6) = -1 / 6.\n\nTherefore, the y-intercept is (0, -1/6).\n\nHence, the x and y intercepts are (±1/2, 0) and (0, -1/6)."
+          },
+          {
+            question: "Find 𝑑𝑦/𝑑𝑥 if 𝑦 = (3 + 2𝑥 − 𝑥^2) / √(1 + 𝑥)",
+            answers: [
+              { text: "(2−2𝑥)√(1+𝑥)−(3+2𝑥−𝑥^2)(1/2√(1+𝑥))/(1+𝑥)", correct: true },
+              { text: "(2−2𝑥)√(1−𝑥)−(3+2𝑥−𝑥^2)(1/2√(1+𝑥))/(1+𝑥)²", correct: false },
+              { text: "(2+2𝑥)√(1−𝑥)−(3+2𝑥−𝑥^2)(1/2√(1−𝑥))/(1+𝑥)", correct: false },
+              { text: "(2+2𝑥)√(1+𝑥)−(3+2𝑥−𝑥^2)(1/2√(1+𝑥))/(1+𝑥)", correct: false }
+            ],
+            explanation: "To find 𝑑𝑦/𝑑𝑥 for 𝑦 = (3 + 2𝑥 − 𝑥^2) / √(1 + 𝑥):\n\n1. Apply the quotient rule: 𝑑𝑦/𝑑𝑥 = [(𝑣(𝑑𝑢/𝑑𝑥) − 𝑢(𝑑𝑣/𝑑𝑥))] / 𝑣², where 𝑢 = 3 + 2𝑥 − 𝑥^2 and 𝑣 = √(1 + 𝑥).\n\n2. 𝑑𝑢/𝑑𝑥 = 2 - 2𝑥.\n\n3. 𝑑𝑣/𝑑𝑥 = (1/2√(1 + 𝑥)).\n\n4. Substitute into the formula: 𝑑𝑦/𝑑𝑥 = [(√(1 + 𝑥)(2 - 2𝑥) - (3 + 2𝑥 - 𝑥^2)(1/2√(1 + 𝑥)))] / (1 + 𝑥).\n\nTherefore, 𝑑𝑦/𝑑𝑥 = (2 - 2𝑥)√(1 + 𝑥) - (3 + 2𝑥 - 𝑥^2)(1/2√(1 + 𝑥)) / (1 + 𝑥)."
+          },
+          {
+            question: "Simplify ∫1/√(1−2𝑥) 𝑑𝑥",
+            answers: [
+              { text: "1/2√(1 − 2𝑥) + 𝑐", correct: false },
+              { text: "−1/2√(1 − 2𝑥) + 𝑐", correct: false },
+              { text: "−2√(1 − 2𝑥) + 𝑐", correct: false },
+              { text: "−√(1 − 2𝑥) + 𝑐", correct: true }
+            ],
+            explanation: "To integrate ∫1/√(1−2𝑥) 𝑑𝑥:\n\n1. Let u = 1 - 2𝑥, then du = -2 dx ⟹ dx = -1/2 du.\n\n2. Substitute into the integral: ∫1/√(1−2𝑥) 𝑑𝑥 = ∫1/√u * (-1/2) du.\n\n3. Simplify: ∫1/√u * (-1/2) du = -1/2 ∫1/√u du.\n\n4. Integrate: -1/2 ∫u^(-1/2) du = -1/2 * (2√u) + C = -√u + C.\n\n5. Substitute back u = 1 - 2𝑥: -√(1 - 2𝑥) + C.\n\nTherefore, the simplified integral is ∫1/√(1−2𝑥) 𝑑𝑥 = -√(1 − 2𝑥) + 𝑐."
+          },
+          {
+            question: "Evaluate ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃",
+            answers: [
+              { text: "1/3 tan³ 𝜃 + 𝑐", correct: true },
+              { text: "1/3 tan⁴ 𝜃 + 𝑐", correct: false },
+              { text: "1/2 tan² 𝜃 + 𝑐", correct: false },
+              { text: "sec² 𝜃 + 𝑐", correct: false }
+            ],
+            explanation: "To evaluate ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃:\n\n1. Use the identity tan² 𝜃 = sec² 𝜃 - 1.\n\n2. Rewrite the integral: ∫ (sec² 𝜃 - 1) sec² 𝜃 𝑑𝜃.\n\n3. Distribute: ∫ sec⁴ 𝜃 - sec² 𝜃 𝑑𝜃.\n\n4. Integrate each term separately:\n   - ∫ sec⁴ 𝜃 𝑑𝜃 = (1/3) sec³ 𝜃.\n   - ∫ sec² 𝜃 𝑑𝜃 = tan 𝜃.\n\n5. Combine the results: ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃 = (1/3) tan³ 𝜃 - tan 𝜃 + 𝑐.\n\nTherefore, ∫ tan² 𝜃 sec² 𝜃 𝑑𝜃 = 1/3 tan³ 𝜃 + 𝑐."
+          },
+          {
+            question: "Find the length of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 − 4𝑦 − 4 = 0 from the point (8, 10)",
+            answers: [
+              { text: "√56", correct: false },
+              { text: "√103", correct: false },
+              { text: "√104", correct: true },
+              { text: "√113", correct: false }
+            ],
+            explanation: "To find the length of the tangent from a point to a circle:\n\n1. Rewrite the circle's equation: 𝑥² + 𝑦² − 2𝑥 − 4𝑦 − 4 = 0 ⟹ (𝑥 - 1)² + (𝑦 - 2)² = 9.\n\n2. The center of the circle is (1, 2) and the radius is 3.\n\n3. The distance from the center to the external point (8, 10) is √((8 - 1)² + (10 - 2)²) = √(49 + 64) = √113.\n\n4. The length of the tangent from the external point to the circle is √(distance² - radius²) = √(113 - 9) = √104.\n\nTherefore, the length of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 − 4𝑦 − 4 = 0 from the point (8, 10) is √104."
+          },
+          {
+            question: "Find the semi axis of the equation 9𝑥² − 4𝑦² = 36",
+            answers: [
+              { text: "2, 3", correct: true },
+              { text: "-3, 2", correct: false },
+              { text: "2, 2", correct: false }
+            ],
+            explanation: "To find the semi axes of the ellipse 9𝑥² − 4𝑦² = 36:\n\n1. Divide both sides by 36: 𝑥² / 4 + 𝑦² / 9 = 1.\n\n2. The semi-major axis is along 𝑦-axis, so 𝑎² = 9 ⟹ 𝑎 = 3.\n\n3. The semi-minor axis is along 𝑥-axis, so 𝑏² = 4 ⟹ 𝑏 = 2.\n\nTherefore, the semi axes of the ellipse 9𝑥² − 4𝑦² = 36 are 2 and 3."
+          },
+          {
+            question: "Simplify sin𝜃 + sin³𝜃 / cos𝜃 + cos³𝜃",
+            answers: [
+              { text: "None", correct: false },
+              { text: "tan 2𝜃", correct: true },
+              { text: "tan 𝜃", correct: false },
+              { text: "tan 4𝜃", correct: false }
+            ],
+            explanation: "To simplify sin𝜃 + sin³𝜃 / cos𝜃 + cos³𝜃:\n\n1. Use the identity for sin³𝜃: sin³𝜃 = (sin𝜃)(1 - cos²𝜃).\n\n2. Rewrite the expression: (sin𝜃 + sin𝜃(1 - cos²𝜃)) / (cos𝜃 + cos𝜃(1 - sin²𝜃)).\n\n3. Simplify the numerator: sin𝜃 + sin𝜃 - sin𝜃cos²𝜃 = 2sin𝜃 - sin𝜃cos²𝜃.\n\n4. Simplify the denominator: cos𝜃 + cos𝜃 - cos𝜃sin²𝜃 = 2cos𝜃 - cos𝜃sin²𝜃.\n\n5. Divide numerator by denominator: (2sin𝜃 - sin𝜃cos²𝜃) / (2cos𝜃 - cos𝜃sin²𝜃).\n\n6. Simplify further using tan𝜃 = sin𝜃 / cos𝜃: (2tan𝜃 - tan𝜃(1 - tan²𝜃)) / (2 - tan²𝜃).\n\n7. Resulting in: tan 2𝜃.\n\nTherefore, sin𝜃 + sin³𝜃 / cos𝜃 + cos³𝜃 simplifies to tan 2𝜃."
+          },
+          {
+            question: "Find x and y intercepts of the function 𝑦 = 𝑥² / (𝑥² − 1)",
+            answers: [
+              { text: "0, 1", correct: false },
+              { text: "2, 0", correct: false },
+              { text: "0, 0", correct: true },
+              { text: "1, 0", correct: false }
+            ],
+            explanation: "To find x and y intercepts of 𝑦 = 𝑥² / (𝑥² − 1):\n\n1. For x-intercept (where y = 0): 𝑦 = 0 ⟹ 𝑥² = 0 ⟹ 𝑥 = 0.\n\n2. For y-intercept (where x = 0): 𝑦 = (0)² / (0² - 1) ⟹ 𝑦 = 0 / -1 ⟹ 𝑦 = 0.\n\nTherefore, the x-intercept is 0 and the y-intercept is 0."
+          },
+          {
+            question: "Evaluate ∫ (𝑥² − 𝑥)(2𝑥 − 1) / ((2𝑥 − 1)² - 2) 𝑑𝑥",
+            answers: [
+              { text: "−18", correct: false },
+              { text: "16", correct: true },
+              { text: "−16", correct: false },
+              { text: "18", correct: false }
+            ],
+            explanation: "To evaluate ∫ (𝑥² − 𝑥)(2𝑥 − 1) / ((2𝑥 − 1)² - 2) 𝑑𝑥:\n\n1. Factor the denominator: (2𝑥 − 1)² - 2 = 4𝑥² - 4𝑥 + 1 - 2 = 4𝑥² - 4𝑥 - 1.\n\n2. Rewrite the integral: ∫ (𝑥² − 𝑥)(2𝑥 − 1) / (4𝑥² - 4𝑥 - 1) 𝑑𝑥.\n\n3. Perform polynomial long division or use partial fractions to simplify the integrand.\n\n4. After simplifying, integrate and evaluate to find the correct answer."
+          },
+          {
+            question: "If tan(𝐴 + 𝐵) = 1/7 and tan 𝐴 = 1/3, find tan 𝐵",
+            answers: [
+              { text: "−4/11", correct: false },
+              { text: "3/9", correct: false },
+              { text: "−2/11", correct: true },
+              { text: "4/11", correct: false }
+            ],
+            explanation: "Given tan(𝐴 + 𝐵) = 1/7 and tan 𝐴 = 1/3:\n\n1. Use the tangent addition formula: tan(𝐴 + 𝐵) = (tan 𝐴 + tan 𝐵) / (1 - tan 𝐴 * tan 𝐵).\n\n2. Substitute tan 𝐴 = 1/3 and tan(𝐴 + 𝐵) = 1/7 into the formula.\n\n3. Solve for tan 𝐵 to find the correct answer."
+          },
+          {
+            question: "Given 𝑦 = 𝑎(sin(𝑥)), find 𝑑𝑦/𝑑𝑥",
+            answers: [
+              { text: "𝑎 sin(𝑥) / sin(𝑥) log𝑎 𝑒", correct: false },
+              { text: "𝑎 sin(𝑥) cos(𝑥) log𝑒 𝑎", correct: true },
+              { text: "𝑎 sin(𝑥) / sin(2𝑥) log𝑎 𝑒", correct: false },
+              { text: "none", correct: false }
+            ],
+            explanation: "To find 𝑑𝑦/𝑑𝑥 for 𝑦 = 𝑎(sin(𝑥)):\n\n1. Apply the derivative of a constant multiplied by a function: 𝑑𝑦/𝑑𝑥 = 𝑎 * derivative of sin(𝑥).\n\n2. Derivative of sin(𝑥) is cos(𝑥).\n\n3. Therefore, 𝑑𝑦/𝑑𝑥 = 𝑎 * sin(𝑥) * cos(𝑥).\n\n4. Optionally, log𝑒 𝑎 is the natural logarithm of 𝑎."
+          },
+          {
+            question: "Find the gradient of the line 𝑦 = 2𝑥 + 6",
+            answers: [
+              { text: "2", correct: true },
+              { text: "6", correct: false },
+              { text: "−2", correct: false },
+              { text: "−6", correct: false }
+            ],
+            explanation: "The gradient of a line in the form 𝑦 = 𝑚𝑥 + 𝑐 is the coefficient of 𝑥, which is 𝑚. Therefore, the gradient of 𝑦 = 2𝑥 + 6 is 2."
+          },
+          {
+            question: "In the inequality 𝑔² + 𝑓² ≥ 𝑐 of a circle, what type of numbers does 𝑔² + 𝑓² represent?",
+            answers: [
+              { text: "imaginary", correct: false },
+              { text: "complex", correct: false },
+              { text: "real", correct: true },
+              { text: "parabolic", correct: false }
+            ],
+            explanation: "𝑔² + 𝑓² represents the sum of squares of two real numbers (𝑔 and 𝑓) and thus results in a real number. Therefore, 𝑔² + 𝑓² ≥ 𝑐 of a circle represents a real number."
+          },
+          {
+            question: "Which of the following is not an equation of a circle?",
+            answers: [
+              { text: "𝑥² − 𝑦² + 4𝑥 = 0", correct: true },
+              { text: "𝑥² − 𝑦² + 12𝑦 = 9", correct: false },
+              { text: "𝑥² + 𝑦² + 2𝑥 − 𝑦 − 3 = 0", correct: false },
+              { text: "𝑥² + 𝑦² + 𝑥 + 𝑦 − 7 = 0", correct: false }
+            ],
+            explanation: "An equation of a circle is typically of the form (𝑥 − ℎ)² + (𝑦 − 𝑘)² = 𝑟², where (ℎ, 𝑘) is the center and 𝑟 is the radius. The equation 𝑥² − 𝑦² + 4𝑥 = 0 does not fit this form and hence is not an equation of a circle."
+          },
+          {
+            question: "Find the intercept of 2𝑦 − 3𝑥 = 5",
+            answers: [
+              { text: "5", correct: false },
+              { text: "−3", correct: false },
+              { text: "3/2", correct: false },
+              { text: "5/2", correct: true }
+            ],
+            explanation: "To find the intercept of 2𝑦 − 3𝑥 = 5:\n\n1. For x-intercept, set y = 0: 2(0) - 3𝑥 = 5 ⟹ -3𝑥 = 5 ⟹ 𝑥 = -5/3.\n\n2. For y-intercept, set x = 0: 2𝑦 - 3(0) = 5 ⟹ 2𝑦 = 5 ⟹ 𝑦 = 5/2.\n\nTherefore, the intercepts are x = -5/3 and y = 5/2."
+          },
+          {
+            question: "Find the value of cos(600 − 𝜃), if tan 𝜃 = −3/4 where 0° < 𝜃 < 180°",
+            answers: [
+              { text: "2/5 + 3/10 √3", correct: false },
+              { text: "2/5 - 3/10 √3", correct: false },
+              { text: "-2/4 - 3/10 √3", correct: false },
+              { text: "-2/5 + 3/10 √3", correct: true }
+            ],
+            explanation: "Given tan 𝜃 = -3/4 and 0° < 𝜃 < 180°:\n\n1. Determine the quadrant based on tan 𝜃 being negative and the angle range.\n\n2. Use the identity cos(180° - 𝜃) = -cos(𝜃) to find cos 𝜃.\n\n3. Calculate cos(600° - 𝜃) using the periodicity of cosine function.\n\n4. Simplify and determine the correct answer."
+          },
+          {
+            question: "Find the value of 𝜃 if sin 3𝜃 = cos 60°",
+            answers: [
+              { text: "60°", correct: false },
+              { text: "10°", correct: true },
+              { text: "30°", correct: false },
+              { text: "90°", correct: false }
+            ],
+            explanation: "To find 𝜃 such that sin 3𝜃 = cos 60°:\n\n1. Use the identity sin 𝜃 = cos(90° - 𝜃) to relate sin and cosine.\n\n2. Solve for 𝜃 using the given information and trigonometric identities.\n\n3. Verify the angle in the specified range to find the correct answer."
+          },
+          {
+            question: "Simplify sin 2𝐴 / (1 + cos 2𝐴)",
+            answers: [
+              { text: "cot 𝐴", correct: false },
+              { text: "tan 𝐴", correct: true },
+              { text: "sec 𝐴", correct: false },
+              { text: "cos 𝐴", correct: false }
+            ],
+            explanation: "To simplify sin 2𝐴 / (1 + cos 2𝐴):\n\n1. Use the double-angle identity: sin 2𝐴 = 2 sin 𝐴 cos 𝐴 and cos 2𝐴 = 2 cos² 𝐴 - 1.\n\n2. Substitute these identities into the expression.\n\n3. Simplify to get tan 𝐴, which is the correct answer."
+          },
+          {
+            question: "Find the value of 𝜃 in the range 180° ≤ 𝜃 ≤ 360° which satisfy (1 + cos𝜃) / (2 - cos𝜃) = 1",
+            answers: [
+              { text: "300°", correct: true },
+              { text: "210°", correct: false },
+              { text: "600°", correct: false },
+              { text: "330°", correct: false }
+            ],
+            explanation: "To find 𝜃 in the range 180° ≤ 𝜃 ≤ 360° such that (1 + cos𝜃) / (2 - cos𝜃) = 1:\n\n1. Simplify the equation and solve for cos𝜃.\n\n2. Use inverse cosine to find the value of 𝜃.\n\n3. Verify the angle in the specified range to find the correct answer."
+          },
+          {
+            question: "Find the derivative of the function 𝑦 = (𝑥^2 − 3)^4 with respect to x",
+            answers: [
+              { text: "𝑥(𝑥^3 + 3)^3", correct: false },
+              { text: "3𝑥(𝑥^3 − 3)", correct: false },
+              { text: "8𝑥(𝑥^3 − 3)", correct: false },
+              { text: "8𝑥(𝑥^2 − 3)^3", correct: true }
+            ],
+            explanation: "To find the derivative of 𝑦 = (𝑥^2 − 3)^4 with respect to x:\n\n1. Apply the chain rule and power rule of differentiation.\n\n2. Derivative of (𝑥^2 − 3)^4 is 4(𝑥^2 − 3)^3 * 2𝑥.\n\n3. Simplify to obtain 8𝑥(𝑥^2 − 3)^3, which is the correct answer."
+          },
+          {
+            question: "The radius of a circular disc is increasing at the rate of 0.5𝑐𝑚/𝑠𝑒. At what rate is the area of the disc increasing when its radius is 6𝑐𝑚?",
+            answers: [
+              { text: "7.67𝑐𝑚²", correct: false },
+              { text: "6𝜋𝑐𝑚²", correct: true },
+              { text: "8𝜋𝑐𝑚²", correct: false },
+              { text: "7.80𝑐𝑚²", correct: false }
+            ],
+            explanation: "Given the rate of change of radius and the formula for the area of a circle:\n\n1. Area of the circle A = 𝜋𝑟^2, where r is the radius.\n\n2. Differentiate A with respect to time to find dA/dt.\n\n3. Substitute the given values and calculate to find that dA/dt = 6𝜋𝑐𝑚²."
+          },
+          {
+            question: "Find the equation of the tangent to the curve 𝑦 = 1 − 2𝑥 + 5𝑥^2 − 𝑥^3 at the point 𝑥 = 3",
+            answers: [
+              { text: "𝑦 = 𝑥 + 11", correct: false },
+              { text: "𝑦 = 𝑥 + 10", correct: true },
+              { text: "𝑦 = 2𝑥 + 10", correct: false },
+              { text: "𝑦 = 𝑥 − 11", correct: false }
+            ],
+            explanation: "To find the equation of the tangent to 𝑦 = 1 − 2𝑥 + 5𝑥^2 − 𝑥^3 at 𝑥 = 3:\n\n1. Find the derivative of 𝑦 with respect to x.\n\n2. Evaluate the derivative at 𝑥 = 3 to find the slope of the tangent.\n\n3. Use the point-slope form of the equation of a line to find the tangent equation, which is 𝑦 = 𝑥 + 10."
+          },
+          {
+            question: "Given that ∫ (3𝑡𝑥 − 𝑡) 𝑑𝑥 = 1, find the value of t.",
+            answers: [
+              { text: "-2", correct: false },
+              { text: "2", correct: true },
+              { text: "4", correct: false },
+              { text: "0", correct: false }
+            ],
+            explanation: "To find t such that ∫ (3𝑡𝑥 − 𝑡) 𝑑𝑥 = 1:\n\n1. Integrate the expression with respect to x.\n\n2. Set the result equal to 1 and solve for t.\n\n3. The correct value of t is 2."
+          },
+          {
+            question: "Determine ∫ (2𝑥^2 − 2𝑥 + 5) dx",
+            answers: [
+              { text: "tan⁻¹(𝑥 − 1/2) + 𝐶", correct: true },
+              { text: "tan⁻¹(𝑥 + 1/2) + 𝐶", correct: false },
+              { text: "2 tan⁻¹(𝑥 + 1/2) + 𝐶", correct: false },
+              { text: "1/2 tan⁻¹(𝑥 − 1/2) + 𝐶", correct: false }
+            ],
+            explanation: "To determine ∫ (2𝑥^2 − 2𝑥 + 5) dx:\n\n1. Integrate each term of the polynomial separately.\n\n2. Add the constants of integration.\n\n3. The correct integral is tan⁻¹(𝑥 − 1/2) + 𝐶."
+          },
+          {
+            question: "Given 𝑦 − 3𝑥 − 6 = 0, find the slope.",
+            answers: [
+              { text: "3", correct: true },
+              { text: "6", correct: false },
+              { text: "−6", correct: false },
+              { text: "−3", correct: false }
+            ],
+            explanation: "Given 𝑦 − 3𝑥 − 6 = 0:\n\n1. Rearrange to find 𝑦 in terms of 𝑥.\n\n2. The coefficient of 𝑥 gives the slope of the line, which is 3."
+          },
+          {
+            question: "The midpoint of the points 𝑀(4, −1) and 𝑁(𝑥, 𝑦) is 𝑃(3, −4). Find the coordinates of points N.",
+            answers: [
+              { text: "(−2, 7)", correct: false },
+              { text: "(2, 7)", correct: false },
+              { text: "(−2, −7)", correct: false },
+              { text: "(2, −7)", correct: true }
+            ],
+            explanation: "To find the coordinates of point N such that the midpoint of 𝑀(4, −1) and 𝑁(𝑥, 𝑦) is 𝑃(3, −4):\n\n1. Use the midpoint formula to set up equations.\n\n2. Solve for 𝑥 and 𝑦 using the given midpoint coordinates of 𝑃.\n\n3. The coordinates of point N are (2, −7)."
+          },
+          {
+            question: "Calculate the angle between lines 3𝑥 + 2𝑦 − 8 = 0 and 𝑥 + 7𝑦 + 8 = 0 to the nearest degree.",
+            answers: [
+              { text: "80°", correct: false },
+              { text: "81°", correct: false },
+              { text: "48°", correct: true },
+              { text: "800°", correct: false }
+            ],
+            explanation: "To calculate the angle between lines 3𝑥 + 2𝑦 − 8 = 0 and 𝑥 + 7𝑦 + 8 = 0:\n\n1. Find the slopes of both lines.\n\n2. Use the formula for the angle between two lines: tan(𝜃) = |(m1 - m2) / (1 + m1 * m2)|.\n\n3. Calculate and determine the angle, which is approximately 48°."
+          },
+          {
+            question: "Find the equation of the line passing through (1, −1) and (5, 7).",
+            answers: [
+              { text: "𝑦 = 4𝑥 + 3", correct: false },
+              { text: "𝑦 = 2𝑥 + 5", correct: false },
+              { text: "𝑦 = 4𝑥 − 5", correct: false },
+              { text: "𝑦 - 2𝑥 + 3 = 0", correct: true }
+            ],
+            explanation: "To find the equation of the line passing through (1, −1) and (5, 7):\n\n1. Calculate the slope of the line using the coordinates of the two points.\n\n2. Use the point-slope form of the equation of a line to find the correct equation.\n\n3. The equation of the line is 𝑦 - 2𝑥 + 3 = 0."
+          },
+          {
+            question: "Find the length of a straight line joining points (3, 2) and (5, 5)",
+            answers: [
+              { text: "2.92", correct: false },
+              { text: "6.3", correct: false },
+              { text: "3.0", correct: false },
+              { text: "3.61", correct: true }
+            ],
+            explanation: "To find the length of the straight line joining points (3, 2) and (5, 5):\n\n1. Use the distance formula: √((𝑥₂ - 𝑥₁)² + (𝑦₂ - 𝑦₁)²).\n\n2. Substitute the given coordinates (3, 2) and (5, 5) into the formula.\n\n3. Calculate to find the distance, which is approximately 3.61 units."
+          },
+          {
+            question: "Find the equation of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2)",
+            answers: [
+              { text: "2𝑦 − 𝑥 + 5 = 0", correct: false },
+              { text: "2𝑦 − 𝑥 − 5 = 0", correct: true },
+              { text: "2𝑦 + 𝑥 + 5 = 0", correct: false },
+              { text: "2𝑦 + 𝑥 − 5 = 0", correct: false }
+            ],
+            explanation: "To find the equation of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2):\n\n1. Differentiate the circle's equation implicitly to find the slope of the tangent at the given point.\n\n2. Use the point-slope form of the equation of a line to find the tangent equation.\n\n3. The correct equation is 2𝑦 − 𝑥 − 5 = 0."
+          },
+          {
+            question: "Find the equation of the line whose slope is 2 through the point (−1, −2)",
+            answers: [
+              { text: "none", correct: false },
+              { text: "𝑦 − 3𝑥 = 2", correct: false },
+              { text: "𝑦 + 2𝑥 = 0", correct: false },
+              { text: "2𝑥 + 2 = 𝑦", correct: true }
+            ],
+            explanation: "To find the equation of the line whose slope is 2 through the point (−1, −2):\n\n1. Use the point-slope form of the equation of a line: 𝑦 − 𝑦₁ = 𝑚(𝑥 − 𝑥₁), where 𝑚 is the slope.\n\n2. Substitute 𝑚 = 2, 𝑥₁ = −1, and 𝑦₁ = −2 into the equation.\n\n3. Simplify to obtain the equation of the line, which is 2𝑥 + 2 = 𝑦."
+          },
+          {
+            question: "Find 𝑑𝑦/𝑑𝑥 if 𝑦 = 𝑒^(sin(4𝑥))",
+            answers: [
+              { text: "4 cos(4𝑥) 𝑒^(sin(4𝑥))", correct: true },
+              { text: "4 sin(4𝑥) 𝑒^(sin(4𝑥))", correct: false },
+              { text: "4𝑐𝑜𝑠𝑒𝑐 (4𝑥) 𝑒^(sin(4𝑥))", correct: false },
+              { text: "4 cot(4𝑥) 𝑒^(sin(4𝑥))", correct: false }
+            ],
+            explanation: "To find 𝑑𝑦/𝑑𝑥 if 𝑦 = 𝑒^(sin(4𝑥)):\n\n1. Use the chain rule of differentiation.\n\n2. Derivative of 𝑒^(sin(4𝑥)) with respect to x is 𝑒^(sin(4𝑥)) * cos(4𝑥) * 4.\n\n3. Simplify to get 𝑑𝑦/𝑑𝑥 = 4 cos(4𝑥) 𝑒^(sin(4𝑥))."
+          },
+          {
+            question: "Find the length of the tangent from a point (0, 0) to the circle 𝑥² + 𝑦² + 4𝑥 − 6𝑦 + 10",
+            answers: [
+              { text: "10", correct: false },
+              { text: "0", correct: false },
+              { text: "√5", correct: false },
+              { text: "√10", correct: true }
+            ],
+            explanation: "To find the length of the tangent from point (0, 0) to the circle 𝑥² + 𝑦² + 4𝑥 − 6𝑦 + 10:\n\n1. Calculate the distance from the center of the circle (−2, 3) to the point (0, 0), which is √(2² + 3²) = √13.\n\n2. The length of the tangent is the absolute difference between the radius (√13) and the distance from the center to the point (2), giving √(13 - 2²) = √10."
+          },
+          {
+            question: "Find the gradient and intercept of the equation 𝑦 + 4𝑥 − 5 = 0",
+            answers: [
+              { text: "4, 0", correct: false },
+              { text: "4, 5", correct: false },
+              { text: "4, −5", correct: true },
+              { text: "−4, 5", correct: false }
+            ],
+            explanation: "To find the gradient and intercept of the equation 𝑦 + 4𝑥 − 5 = 0:\n\n1. Rewrite the equation in the slope-intercept form 𝑦 = −4𝑥 + 5.\n\n2. The gradient (slope) is the coefficient of 𝑥, which is −4.\n\n3. The y-intercept is the constant term, which is 5."
+          },
+          {
+            question: "Find the equation of the normal to the curve 𝑦 = (1 − 𝑥)(3 + 𝑥) at the point 𝑥 = 2",
+            answers: [
+              { text: "6𝑦 − 𝑥 − 32 = 0", correct: false },
+              { text: "6𝑦 − 𝑥 + 32 = 0", correct: true },
+              { text: "6𝑦 − 𝑥 − 30", correct: false },
+              { text: "6𝑦 − 𝑥 − 30", correct: false }
+            ],
+            explanation: "To find the equation of the normal to the curve 𝑦 = (1 − 𝑥)(3 + 𝑥) at 𝑥 = 2:\n\n1. Find the derivative 𝑑𝑦/𝑑𝑥 = −2(1 − 𝑥) + (3 + 𝑥).\n\n2. Evaluate 𝑑𝑦/𝑑𝑥 at 𝑥 = 2 to get the slope of the tangent.\n\n3. The slope of the normal is the negative reciprocal of the tangent's slope.\n\n4. Use the point-slope form to find the equation of the normal, which is 6𝑦 − 𝑥 + 32 = 0."
+          },
+          {
+            question: "Evaluate ∫ √(1 + 3𝑥) 𝑑𝑥",
+            answers: [
+              { text: "26", correct: false },
+              { text: "18", correct: false },
+              { text: "12", correct: false },
+              { text: "32", correct: true }
+            ],
+            explanation: "To evaluate ∫ √(1 + 3𝑥) 𝑑𝑥:\n\n1. Substitute 𝑢 = 1 + 3𝑥, so 𝑑𝑥 = 𝑑𝑢 / 3.\n\n2. Integrate √𝑢 with respect to 𝑢 to get (2/3)𝑢^(3/2).\n\n3. Substitute back 𝑢 = 1 + 3𝑥 into the result and simplify to find the definite integral."
+          },
+          {
+            question: "𝛽 is an obtuse angle and sin 𝛽 = 6/10, find the value of 2 tan𝛽 / (1−tan² 𝛽)",
+            answers: [
+              { text: "3.34", correct: false },
+              { text: "3.83", correct: false },
+              { text: "- 3.43", correct: true },
+              { text: "3.38", correct: false }
+            ],
+            explanation: "To find the value of 2 tan𝛽 / (1−tan² 𝛽) given sin 𝛽 = 6/10 and 𝛽 is obtuse:\n\n1. Find cos 𝛽 using the identity sin² 𝛽 + cos² 𝛽 = 1.\n\n2. Substitute sin 𝛽 = 6/10 to find cos 𝛽 = √(1 - (6/10)²).\n\n3. Use the identity tan 𝛽 = sin 𝛽 / cos 𝛽 to find tan 𝛽.\n\n4. Substitute tan 𝛽 into 2 tan𝛽 / (1−tan² 𝛽) to get the value."
+          },
+          {
+            question: "Find the value of a fixed angle in the trigonometry equation given by 2√3 sin 𝜃 + 2 cos 𝜃 = 2",
+            answers: [
+              { text: "90", correct: false },
+              { text: "0", correct: true },
+              { text: "60", correct: false },
+              { text: "30", correct: false }
+            ],
+            explanation: "To solve the equation 2√3 sin 𝜃 + 2 cos 𝜃 = 2:\n\n1. Divide the entire equation by 2 to simplify: √3 sin 𝜃 + cos 𝜃 = 1.\n\n2. Recognize that this equation can be represented as cos 𝜃 = 1 - √3 sin 𝜃.\n\n3. Square both sides: cos² 𝜃 = (1 - √3 sin 𝜃)².\n\n4. Substitute for cos² 𝜃 in the Pythagorean identity: sin² 𝜃 + cos² 𝜃 = 1.\n\n5. Substitute values to check the answer: √3 cos 30 + 2 sin 30 = 2."
+          },
+          {
+            question: "If 𝑥 = 𝑎 cot 𝜃 and 𝑦 = 𝑏 cos 𝜃, evaluate 𝑦 / 𝑏 (𝑦² / 𝑏² - 𝑥² / 𝑎²)",
+            answers: [
+              { text: "sec 𝜃", correct: true },
+              { text: "𝑐𝑜𝑠𝑒𝑐 𝜃", correct: false },
+              { text: "1", correct: false },
+              { text: "tan 𝜃", correct: false }
+            ],
+            explanation: "To evaluate 𝑦 / 𝑏 (𝑦² / 𝑏² - 𝑥² / 𝑎²) given 𝑥 = 𝑎 cot 𝜃 and 𝑦 = 𝑏 cos 𝜃:\n\n1. Express cot 𝜃 as 𝑥 / 𝑎 and cos 𝜃 as 𝑦 / 𝑏.\n\n2. Substitute 𝑥 and 𝑦 into the expression and simplify using trigonometric identities and properties."
+          },
+          {
+            question: "Find the value of tan 1950 in surd form",
+            answers: [
+              { text: "3+3√3 / 3−√3", correct: true },
+              { text: "3−√3 / 3+√3", correct: false },
+              { text: "−3−√3 / 3+√3", correct: false },
+              { text: "3−√3 / −3+√3", correct: false }
+            ],
+            explanation: "To find the value of tan 1950 in surd form:\n\n1. Use the periodicity of the tangent function to reduce 1950 to an equivalent angle within 0 to 360 degrees.\n\n2. Use the tangent addition formula and simplification techniques to obtain the desired surd form."
+          },
+          {
+            question: "If 𝑦 = 𝑥² sin 2𝑥, find the derivative of y with respect to x",
+            answers: [
+              { text: "2𝑥(sin 2𝑥 + 𝑥 cos(2𝑥))", correct: true },
+              { text: "2𝑥(tan 𝑥 + 𝑥² sin 2𝑥)", correct: false },
+              { text: "2𝑥(tan 𝑥 + 𝑥² sec² 𝑥)", correct: false },
+              { text: "2𝑥(sin 𝑥 + 2𝑥² sec² 𝑥)", correct: false }
+            ],
+            explanation: "To find the derivative of 𝑦 = 𝑥² sin 2𝑥:\n\n1. Apply the product rule and chain rule to differentiate 𝑦 = 𝑥² sin 2𝑥.\n\n2. Derivative of 𝑥² sin 2𝑥 = 2𝑥 sin 2𝑥 + 𝑥² * 2 cos 2𝑥 = 2𝑥(sin 2𝑥 + 𝑥 cos(2𝑥))."
+          },
+          {
+            question: "Let 𝑦 = 𝑥² / (𝑥² − 1). Find the vertical and horizontal asymptotes",
+            answers: [
+              { text: "𝑥 = ±1, 𝑦 = 1", correct: true },
+              { text: "𝑥 = ±2, 𝑦 = ±2", correct: false },
+              { text: "𝑥 = ±1, 𝑦 = ±1", correct: false },
+              { text: "𝑥 = ±2, 𝑦 = +1", correct: false }
+            ],
+            explanation: "To find the asymptotes of 𝑦 = 𝑥² / (𝑥² − 1):\n\n1. Vertical asymptotes occur where the denominator is zero, so 𝑥 = ±1 are the vertical asymptotes.\n\n2. Horizontal asymptote: As 𝑥 → ±∞, 𝑦 → 1, so 𝑦 = 1 is the horizontal asymptote."
+          },
+          {
+            question: "If the distance between (2, 𝐿) and (−2, 0) is 5. Find 𝐿",
+            answers: [
+              { text: "±3", correct: true },
+              { text: "3", correct: false },
+              { text: "5", correct: false },
+              { text: "3", correct: false }
+            ],
+            explanation: "To find 𝐿 where the distance between (2, 𝐿) and (−2, 0) is 5:\n\n1. Use the distance formula: √[(2 + 2)² + (𝐿 - 0)²] = 5.\n\n2. Solve for 𝐿: √[16 + 𝐿²] = 5 → 𝐿² = 25 - 16 → 𝐿² = 9 → 𝐿 = ±3."
+          },
+          {
+            question: "If 𝑥 = 𝑝 sin 𝜃 , 𝑦 = 𝑝 cos 𝜃. Evaluate √(𝑥² + 𝑦²) / 𝑝",
+            answers: [
+              { text: "1 / 𝑝", correct: true },
+              { text: "𝑝²", correct: false },
+              { text: "𝑝", correct: false },
+              { text: "√𝑝", correct: false }
+            ],
+            explanation: "To evaluate √(𝑥² + 𝑦²) / 𝑝 given 𝑥 = 𝑝 sin 𝜃 and 𝑦 = 𝑝 cos 𝜃:\n\n1. Substitute 𝑥 and 𝑦 into the expression.\n\n2. Simplify using the Pythagorean identity: √(sin² 𝜃 + cos² 𝜃) = √1 = 1.\n\n3. Therefore, the result is √(𝑥² + 𝑦²) / 𝑝 = 1 / 𝑝."
+          },
+          {
+            question: "Express sin 2𝐴 cos 4𝐴 as a sum of difference of trigonometric functions",
+            answers: [
+              { text: "1/2 (sin 6𝐴 - sin 2𝐴)", correct: true },
+              { text: "1/2 (sin 6𝐴 + sin 2𝐴)", correct: false },
+              { text: "1/2 (cos 6𝐴 + cos 2𝐴)", correct: false },
+              { text: "1/2 (sin 6𝐴 - cos 2𝐴)", correct: false }
+            ],
+            explanation: "To express sin 2𝐴 cos 4𝐴 as a sum or difference of trigonometric functions:\n\n1. Use the identity: sin 2𝐴 cos 4𝐴 = 1/2 [sin(2𝐴 + 4𝐴) + sin(2𝐴 - 4𝐴)].\n\n2. Simplify the expression to get sin 2𝐴 cos 4𝐴 = 1/2 [sin 6𝐴 - sin 2𝐴]."
+          },
+          {
+            question: "Find the value of (cos 600 − 𝜃). If tan 𝜃 = -3/4",
+            answers: [
+              { text: "2/5 + 3√3 / 10", correct: true },
+              { text: "-2/5 - 3√3 / 10", correct: false },
+              { text: "2/5 - 3√3 / 10", correct: false },
+              { text: "-2/5 + 3√3 / 10", correct: false }
+            ],
+            explanation: "To find the value of (cos 600 − 𝜃) given tan 𝜃 = -3/4:\n\n1. Use the identity: cos(600° - 𝜃) = cos 600° cos 𝜃 + sin 600° sin 𝜃.\n\n2. Substitute the known values and solve using trigonometric identities."
+          },
+          {
+            question: "Given (𝑝𝑥 + 𝑞)ⁿ, find 𝑑𝑦 / 𝑑𝑥",
+            answers: [
+              { text: "𝑛𝑝(𝑝𝑥 + 𝑞)ⁿ⁻¹", correct: true },
+              { text: "𝑛(𝑝𝑥 - 𝑞)ⁿ⁻¹", correct: false },
+              { text: "𝑛𝑝(𝑝𝑥 + 𝑞)ⁿ", correct: false },
+              { text: "𝑛(𝑝𝑥 + 𝑞)ⁿ⁻¹", correct: false }
+            ],
+            explanation: "To find 𝑑𝑦 / 𝑑𝑥 for (𝑝𝑥 + 𝑞)ⁿ:\n\n1. Use the power rule in differentiation: 𝑑/𝑑𝑥 [(𝑝𝑥 + 𝑞)ⁿ] = 𝑛(𝑝𝑥 + 𝑞)ⁿ⁻¹.\n\n2. Apply this rule to find the derivative of the given expression."
+          },
+          {
+            question: "Find ∫ (3𝑥 / (7𝑥² + 2)) 𝑑𝑥",
+            answers: [
+              { text: "3/14 ln(7𝑥² + 2) + 𝐶", correct: true },
+              { text: "3/7 ln(7𝑥 + 2) + 𝐶", correct: false },
+              { text: "3/14 ln(7𝑥 + 2) + 𝐶", correct: false },
+              { text: "3/7 ln(7𝑥² + 2) + 𝐶", correct: false }
+            ],
+            explanation: "To integrate ∫ (3𝑥 / (7𝑥² + 2)) 𝑑𝑥:\n\n1. Recognize the form as ∫ 𝑓(𝑥) 𝑓'(𝑥) 𝑑𝑥 where 𝑓(𝑥) = ln(𝑓(𝑥)) and 𝑓'(𝑥) = (3𝑥) / (7𝑥² + 2).\n\n2. Integrate using the formula: ∫ 𝑓'(𝑥) 𝑓(𝑥) 𝑑𝑥 = 𝑓(𝑥) ln|𝑓(𝑥)| + 𝐶.\n\n3. Hence, ∫ (3𝑥 / (7𝑥² + 2)) 𝑑𝑥 = 3/14 ln(7𝑥² + 2) + 𝐶."
+          },
+          {
+            question: "Evaluate ∫ ((3𝑥 - 1) / (3𝑥² - 2𝑥 + 1)⁴) 𝑑𝑥",
+            answers: [
+              { text: "-1/6(3𝑥² - 2𝑥 + 1)³ + 𝐶", correct: true },
+              { text: "1/6(3𝑥² - 2𝑥 + 1)² + 𝐶", correct: false },
+              { text: "-1/6(3𝑥 + 2) + 𝐶", correct: false },
+              { text: "-1/6(3𝑥² - 2𝑥 + 1)³ + 𝐶", correct: false }
+            ],
+            explanation: "To evaluate ∫ ((3𝑥 - 1) / (3𝑥² - 2𝑥 + 1)⁴) 𝑑𝑥:\n\n1. Use the substitution method to simplify the integral.\n\n2. Integrate using the power rule: ∫ 𝑥ⁿ / 𝑓(𝑥)ⁿ⁺¹ 𝑑𝑥 = -1 / (n + 1) 𝑓(𝑥)⁻ⁿ + 𝐶.\n\n3. Hence, ∫ ((3𝑥 - 1) / (3𝑥² - 2𝑥 + 1)⁴) 𝑑𝑥 = -1/6(3𝑥² - 2𝑥 + 1)³ + 𝐶."
+          },
+          {
+            question: "Find ∫ sin 4𝜃 cos 𝜃 𝑑𝜃",
+            answers: [
+              { text: "-1/4 (cos 6𝜃 / 3 + cos 2𝜃) + 𝐶", correct: true },
+              { text: "-cos 4𝜃 / 4 sin 2𝜃 / 2 + 𝐶", correct: false },
+              { text: "-1/2 (cos 3𝜃 / 3 + cos 𝜃) + 𝐶", correct: false },
+              { text: "-1/4 (cos 6𝜃 / 3 + cos 2𝜃) + 𝐶", correct: false }
+            ],
+            explanation: "To find ∫ sin 4𝜃 cos 𝜃 𝑑𝜃:\n\n1. Use the product-to-sum formula for cosine and integrate.\n\n2. Apply the integration rules: ∫ sin 𝑎𝜃 cos 𝑏𝜃 𝑑𝜃 = -1/2 [cos(𝑎 + 𝑏)𝜃 / (𝑎 + 𝑏) + cos(𝑎 - 𝑏)𝜃 / (𝑎 - 𝑏)] + 𝐶.\n\n3. Therefore, ∫ sin 4𝜃 cos 𝜃 𝑑𝜃 = -1/4 (cos 6𝜃 / 3 + cos 2𝜃) + 𝐶."
+          },
+          {
+            question: "Obtain the equation of the straight line joining the points (acos 𝜃1, 𝑏 sin 𝜃1) and (acos 𝜃2, 𝑏 sin 𝜃2)",
+            answers: [
+              { text: "𝑎(cos 𝜃2 − cos 𝜃1)𝑦 − 𝑏(sin 𝜃2 − sin 𝜃1)𝑥 = 𝑎𝑏 sin(𝜃1 − 𝜃2)", correct: true },
+              { text: "𝑎(cos 𝜃2 − cos 𝜃1)𝑥 − 𝑏(sin 𝜃2 − sin 𝜃1)𝑦 = 𝑎𝑏 sin(𝜃1 − 𝜃2)", correct: false },
+              { text: "(𝑎cos 𝜃2 − 𝑏 sin 𝜃1)𝑥 − 𝑎(cos 𝜃1 − 𝑏 sin 𝜃2)𝑦 = 𝑎𝑏 cos(𝜃1 − 𝜃2)", correct: false },
+              { text: "(acos 𝜃1 𝑏 sin 𝜃1)𝑦 + (acos 𝜃2 𝑏 sin 𝜃2)𝑥 = 𝑎𝑏 sin(𝜃1 cos 𝜃2)", correct: false }
+            ],
+            explanation: "To obtain the equation of the straight line joining (acos 𝜃1, 𝑏 sin 𝜃1) and (acos 𝜃2, 𝑏 sin 𝜃2):\n\n1. Use the formula for the equation of a line through two points: (𝑦 - 𝑦₁) / (𝑦₂ - 𝑦₁) = (𝑥 - 𝑥₁) / (𝑥₂ - 𝑥₁).\n\n2. Substitute the given points and simplify to get the correct equation."
+          },
+          {
+            question: "Given 𝑦 + 2𝑥 = 11, find the gradient of the line",
+            answers: [
+              { text: "none", correct: true },
+              { text: "2 / 11", correct: false },
+              { text: "11", correct: false },
+              { text: "11 / 2", correct: false }
+            ],
+            explanation: "The equation 𝑦 + 2𝑥 = 11 is not in the standard form 𝑦 = 𝑚𝑥 + 𝑐, where 𝑚 represents the gradient."
+          },
+          {
+            question: "What is the equation of the tangent of the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2)?",
+            answers: [
+              { text: "2𝑦 - 𝑥 - 5 = 0", correct: true },
+              { text: "7𝑦 - 2𝑥 - 8 = 0", correct: false },
+              { text: "7𝑦 + 2𝑥 + 8 = 0", correct: false },
+              { text: "7𝑦 - 2𝑥 + 8 = 0", correct: false }
+            ],
+            explanation: "To find the equation of the tangent to the circle 𝑥² + 𝑦² − 2𝑥 + 4𝑦 = 15 at the point (−1, 2):\n\n1. Differentiate implicitly to find the slope of the tangent at the given point.\n\n2. Substitute the point into the slope-intercept form to find the equation."
+          },
+          {
+            question: "Find the center and radius of the circle 𝑥² + 𝑦² − 6𝑥 − 8𝑦 + 5 = 0",
+            answers: [
+              { text: "(3, 4); 2√5", correct: true },
+              { text: "(3, 4); 5√2", correct: false },
+              { text: "(4, 3); 2√5", correct: false },
+              { text: "(4, 3); 5√2", correct: false }
+            ],
+            explanation: "To find the center and radius of the circle 𝑥² + 𝑦² − 6𝑥 − 8𝑦 + 5 = 0:\n\n1. Rewrite the equation in standard form by completing the square.\n\n2. The center is (3, 4) and the radius is √5, hence the correct answer is (3, 4); 2√5."
+          },
+          {
+            question: "Which of the following trigonometric formulae is not correct?",
+            answers: [
+              { text: "tan 2𝐴 = 2 tan𝐴 / (1 - tan² 𝐴)", correct: false },
+              { text: "sin 𝐴 = 2 sin 𝐴/2 cos 𝐴/2", correct: true },
+              { text: "cos(𝐴 − 𝐵) = cos 𝐴 cos 𝐵 + sin 𝐴 sin 𝐵", correct: false },
+              { text: "cos 𝐴 + cos 𝐵 = 2 cos ((𝐴+𝐵)/2) sin ((𝐴−𝐵)/2)", correct: false }
+            ],
+            explanation: "Option (b) is incorrect because the correct formula for sin 𝐴 is sin 𝐴 = 2 sin 𝐴/2 cos 𝐴/2."
+          },
+          {
+            question: "If 𝑥 = 1/8, 𝑝 = 1/4, and 𝑞 = 3, find the value 𝑥 / (𝑝𝑞)",
+            answers: [
+              { text: "2/9", correct: true },
+              { text: "27", correct: false },
+              { text: "1/9", correct: false },
+              { text: "1/27", correct: false }
+            ],
+            explanation: "Calculate 𝑥 / (𝑝𝑞) = (1/8) / (1/4 * 3) = (1/8) / (3/4) = 1/6 = 2/9. Therefore, the correct answer is 2/9."
+          },
+          {
+            question: "The eccentricity of the equation of the ellipse is?",
+            answers: [
+              { text: "𝑒 < 1", correct: true },
+              { text: "𝑒 ≠ 0", correct: false },
+              { text: "𝑒 > 1", correct: false },
+              { text: "𝑒 = 0", correct: false }
+            ],
+            explanation: "For an ellipse, the eccentricity 𝑒 is less than 1, so the correct answer is 𝑒 < 1."
+          },
+          {
+            question: "Find the semi-major axis of the equation 𝑥² + 4𝑦² = 16",
+            answers: [
+              { text: "4", correct: true },
+              { text: "6", correct: false },
+              { text: "3", correct: false },
+              { text: "16", correct: false }
+            ],
+            explanation: "The equation 𝑥² + 4𝑦² = 16 represents an ellipse where 𝑎² = 16, so 𝑎 = √16 = 4. Therefore, the semi-major axis is 4."
+          },
+          {
+            question: "Rewrite 4𝑥² + 9𝑦² = 36 in standard form",
+            answers: [
+              { text: "𝑥² / 9 + 𝑦² / 4 = 1", correct: true },
+              { text: "𝑥² / 9 + 𝑦² / 16 = 1", correct: false },
+              { text: "𝑥² / 16 + 𝑦² / 81 = 1", correct: false },
+              { text: "𝑥² / 9 + 𝑦² / 4 = 36", correct: false }
+            ],
+            explanation: "To rewrite 4𝑥² + 9𝑦² = 36 in standard form:\n\n1. Divide everything by 36 to get 𝑥² / 9 + 𝑦² / 4 = 1. Therefore, the correct answer is 𝑥² / 9 + 𝑦² / 4 = 1."
+          },
+          {
+            question: "Find ∫ (3𝑥 ln𝑥) 𝑑𝑥",
+            answers: [
+              { text: "3𝑥 ln 𝑥 - 3𝑥 + 𝐶", correct: false },
+              { text: "3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶", correct: false },
+              { text: "3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶", correct: false },
+              { text: "3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶", correct: true }
+            ],
+            explanation: "To find ∫ (3𝑥 ln𝑥) 𝑑𝑥:\n\n1. Use integration by parts or recognize the integral form.\n\n2. The correct answer is 3𝑥 ln 𝑥 - 3/2𝑥² + 𝐶."
+          },
+          {
+            question: "Evaluate ∫ 𝑒^𝑥 sin(𝑒^𝑥) 𝑑𝑥",
+            answers: [
+              { text: "-𝑒^𝑥 cos(𝑒^𝑥) + 𝐶", correct: false },
+              { text: "-cos(𝑒^𝑥) + 𝐶", correct: false },
+              { text: "-𝑒^𝑥 cos 𝑥 + 𝐶", correct: false },
+              { text: "-cos(𝑒^𝑥) + 𝐶", correct: true }
+            ],
+            explanation: "To evaluate ∫ 𝑒^𝑥 sin(𝑒^𝑥) 𝑑𝑥:\n\n1. Use the chain rule and integration by parts.\n\n2. The correct answer is -cos(𝑒^𝑥) + 𝐶."
+          },
+          {
+            question: "Evaluate ∫ (4𝑥 − 6𝑒^2𝑥 − 5) 𝑑𝑥",
+            answers: [
+              { text: "2𝑥² − 3𝑒^2𝑥 − 5𝑥 + 𝐶", correct: false },
+              { text: "2𝑥² + 3𝑒^2𝑥 + 𝐶", correct: false },
+              { text: "2𝑒^2 − 3𝑒^2𝑥 + 𝐶", correct: false },
+              { text: "2𝑥² − 3𝑒^2𝑥 − 5𝑥 + 𝐶", correct: true }
+            ],
+            explanation: "To evaluate ∫ (4𝑥 − 6𝑒^2𝑥 − 5) 𝑑𝑥:\n\n1. Integrate each term separately.\n\n2. The correct answer is 2𝑥² − 3𝑒^2𝑥 − 5𝑥 + 𝐶."
+          },
+          {
+            question: "Differentiate 𝑦 = tan³(4𝑥)",
+            answers: [
+              { text: "12 sec²(4𝑥) tan²(4𝑥)", correct: false },
+              { text: "12 sec²(4𝑥) cot²(4𝑥)", correct: true },
+              { text: "12 sec²(4𝑥) cot²(4𝑥)", correct: false },
+              { text: "12 sec²(4𝑥) tan²(4𝑥)", correct: false }
+            ],
+            explanation: "To differentiate 𝑦 = tan³(4𝑥):\n\n1. Use the chain rule and the derivative of tan𝑥 which is sec²𝑥.\n\n2. 𝑦' = 3 tan²(4𝑥) * sec²(4𝑥) = 3 tan²(4𝑥) * (1 + tan²(4𝑥)).\n\n3. Simplifying gives 𝑦' = 12 sec²(4𝑥) tan²(4𝑥), thus the correct answer is option (b)."
+          },
+          {
+            question: "If 𝑥² + 𝑥𝑦 − 𝑦² + 1 = 0, find 𝑑𝑦/𝑑𝑥 in terms of x and y",
+            answers: [
+              { text: "-𝑥−𝑦 / (𝑥−2𝑦)", correct: false },
+              { text: "-2𝑥−𝑦 / (𝑥−2𝑦)", correct: true },
+              { text: "2𝑥 + 𝑥 − 2𝑦", correct: false },
+              { text: "2𝑥 + 𝑦 − 2𝑦", correct: false }
+            ],
+            explanation: "Given 𝑥² + 𝑥𝑦 − 𝑦² + 1 = 0:\n\n1. Differentiate implicitly with respect to 𝑥.\n\n2. Apply implicit differentiation and solve for 𝑑𝑦/𝑑𝑥.\n\n3. The correct answer is 𝑑𝑦/𝑑𝑥 = -2𝑥−𝑦 / (𝑥−2𝑦), which is option (b)."
+          },
+          {
+            question: "Find the derivative of the function 𝑦 = (𝑥² − 3)⁴ with respect to x",
+            answers: [
+              { text: "8𝑥(𝑥³ − 3)", correct: false },
+              { text: "𝑥(𝑥³ + 3)³", correct: false },
+              { text: "8𝑥(𝑥² − 3)³", correct: true },
+              { text: "3𝑥(𝑥³ − 3)", correct: false }
+            ],
+            explanation: "To find the derivative of 𝑦 = (𝑥² − 3)⁴:\n\n1. Apply the chain rule and the power rule of differentiation.\n\n2. 𝑦' = 4(𝑥² − 3)³ * 2𝑥 = 8𝑥(𝑥² − 3)³.\n\n3. Therefore, the correct answer is option (c)."
+          },
+          {
+            question: "Find the value of tan 2𝛼 if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+            answers: [
+              { text: "7/24", correct: false },
+              { text: "-7/24", correct: false },
+              { text: "-24/7", correct: false },
+              { text: "24/7", correct: true }
+            ],
+            explanation: "Given tan 𝛽 = 5/12 and sin 𝛼 = 3/5:\n\n1. Use the identity tan 2𝛼 = (2 tan 𝛼) / (1 - tan² 𝛼).\n\n2. Calculate tan 𝛼 from sin 𝛼 and use it to find tan 2𝛼.\n\n3. The correct answer is tan 2𝛼 = 24/7, which is option (d)."
+          },
+          {
+            question: "What is 2𝜋/3 in degrees?",
+            answers: [
+              { text: "120°", correct: true },
+              { text: "600°", correct: false },
+              { text: "2100°", correct: false },
+              { text: "2700°", correct: false }
+            ],
+            explanation: "To convert 2𝜋/3 radians to degrees:\n\n1. Use the conversion factor: 180°/𝜋 radians.\n\n2. Calculate (2𝜋/3) * (180°/𝜋) = 120°.\n\n3. Therefore, 2𝜋/3 radians is 120°, which is option (a)."
+          },
+          {
+            question: "The study or solution of triangles in relation to their sides and angles is referred to as",
+            answers: [
+              { text: "line geometry", correct: false },
+              { text: "circle geometry", correct: false },
+              { text: "none", correct: true },
+              { text: "poly geometry", correct: false }
+            ],
+            explanation: "The study or solution of triangles in relation to their sides and angles is simply called 'trigonometry', not any form of geometry mentioned. Therefore, the correct answer is 'none'."
+          },
+          {
+            question: "Find the value of 'a' such that the area of triangle ABC is 3, angle 𝐶 = 90°, and 𝑎 + 𝑏 = 12",
+            answers: [
+              { text: "11.48", correct: true },
+              { text: "16.25", correct: false },
+              { text: "6.5", correct: false },
+              { text: "9.25", correct: false }
+            ],
+            explanation: "Given the conditions, use the formula for the area of a right triangle: area = 0.5 * 𝑎 * 𝑏. Substitute 𝑎 + 𝑏 = 12 and solve for 'a'. The correct answer is 'a ≈ 11.48', which matches option (a)."
+          },
+          {
+            question: "Given 𝑦 = (5𝑥 − 2)². Find 𝑑𝑦/𝑑𝑥",
+            answers: [
+              { text: "10(5𝑥 − 2)²", correct: false },
+              { text: "10(5𝑥 − 2)", correct: true },
+              { text: "10(5𝑥 + 2)²", correct: false },
+              { text: "10(5𝑥 + 2)³", correct: false }
+            ],
+            explanation: "To differentiate 𝑦 = (5𝑥 − 2)²:\n\n1. Apply the power rule and chain rule.\n\n2. 𝑦' = 2 * (5𝑥 − 2) * 5 = 10(5𝑥 − 2).\n\n3. Therefore, the correct answer is option (b)."
+          },
+          {
+            question: "Let 𝑦 = 𝑥² / (𝑥² − 1), find the vertical asymptote and horizontal asymptote",
+            answers: [
+              { text: "𝑥 = ±2, 𝑦 = 1", correct: true },
+              { text: "𝑥 = ±1, 𝑦 = 1", correct: false },
+              { text: "𝑥 = ±2, 𝑦 = 2", correct: false },
+              { text: "𝑥 = 1, 𝑦 = 1", correct: false }
+            ],
+            explanation: "To find the vertical and horizontal asymptotes of 𝑦 = 𝑥² / (𝑥² − 1):\n\n1. Vertical asymptotes occur where the denominator equals zero, 𝑥 = ±1.\n\n2. Horizontal asymptote is found by comparing degrees of numerator and denominator, 𝑦 = 1.\n\n3. Hence, the correct answer is option (a)."
+          },
+          {
+            question: "If 𝑥⁴ + 𝑥𝑦 = 2𝑥, 𝑑𝑦/𝑑𝑥 is",
+            answers: [
+              { text: "2 + 4𝑥³ − 𝑦 / 𝑥", correct: false },
+              { text: "2 + 4𝑥³ + 𝑦 / 𝑥", correct: false },
+              { text: "2 − 4𝑥³ + 𝑦 / 𝑥", correct: false },
+              { text: "2 − 4𝑥³ − 𝑦 / 𝑥", correct: true }
+            ],
+            explanation: "Given 𝑥⁴ + 𝑥𝑦 = 2𝑥:\n\n1. Differentiate implicitly with respect to 𝑥.\n\n2. Solve for 𝑑𝑦/𝑑𝑥.\n\n3. The correct answer is 𝑑𝑦/𝑑𝑥 = 2 − 4𝑥³ − 𝑦 / 𝑥, which is option (d)."
+          },
+          {
+            question: "Find the area enclosed between curves 𝑦 = 𝑥² and 𝑦 = 6𝑥",
+            answers: [
+              { text: "44 sq. units", correct: false },
+              { text: "36 sq. units", correct: true },
+              { text: "32 sq. units", correct: false },
+              { text: "22 sq. units", correct: false }
+            ],
+            explanation: "To find the area enclosed between 𝑦 = 𝑥² and 𝑦 = 6𝑥:\n\n1. Set up the integral ∫(6𝑥 - 𝑥²)𝑑𝑥 from 0 to 3.\n\n2. Calculate the definite integral.\n\n3. The correct answer is 36 sq. units, which matches option (b)."
+          },
+          {
+            question: "∫ 𝑥²(𝑥³ + 1)𝑑𝑥 from 0 to 2",
+            answers: [
+              { text: "19/4", correct: false },
+              { text: "-9/4", correct: false },
+              { text: "40/3", correct: true },
+              { text: "18/7", correct: false }
+            ],
+            explanation: "To evaluate ∫ 𝑥²(𝑥³ + 1)𝑑𝑥 from 0 to 2:\n\n1. Expand the integrand and integrate term by term.\n\n2. Evaluate the definite integral from 0 to 2.\n\n3. The correct answer is 40/3, which is option (c)."
+          },
+          {
+            question: "The equation 𝑥²/4 + 𝑦²/5 = 1 represents",
+            answers: [
+              { text: "hyperbola", correct: false },
+              { text: "parabola", correct: false },
+              { text: "none", correct: false },
+              { text: "ellipse", correct: true }
+            ],
+            explanation: "The equation 𝑥²/4 + 𝑦²/5 = 1 describes an ellipse, where the sum of the squares of 𝑥 and 𝑦 variables equals 1. Therefore, the correct answer is 'ellipse' which is option (d)."
+          },
+          {
+            question: "Find the center of the circle 𝑥² + 𝑦² − 8𝑥 + 6𝑦 + 16 = 0",
+            answers: [
+              { text: "(-4, -3)", correct: false },
+              { text: "(-4, 3)", correct: false },
+              { text: "(4, 3)", correct: false },
+              { text: "(4, -3)", correct: true }
+            ],
+            explanation: "To find the center of the circle 𝑥² + 𝑦² − 8𝑥 + 6𝑦 + 16 = 0:\n\n1. Complete the square for 𝑥 and 𝑦 terms.\n\n2. The center is (4, -3), thus the correct answer is option (d)."
+          },
+          {
+            question: "Find the area enclosed between the curves 𝑦 = 𝑥³ − 2𝑥² and 𝑦 = 2𝑥 − 𝑥²",
+            answers: [
+              { text: "27/12 sq. units", correct: true },
+              { text: "8/3 sq. units", correct: false },
+              { text: "37/12 sq. units", correct: false },
+              { text: "none", correct: false }
+            ],
+            explanation: "To find the area enclosed between 𝑦 = 𝑥³ − 2𝑥² and 𝑦 = 2𝑥 − 𝑥²:\n\n1. Find the points of intersection and set up the integral.\n\n2. Evaluate the definite integral.\n\n3. The correct answer is 27/12 sq. units, which simplifies to 9/4 or 2.25 sq. units, matching option (a)."
+          },
+          {
+            question: "Determine the intercept of the equation 𝑦 = 28𝑥 − 4",
+            answers: [
+              { text: "28", correct: false },
+              { text: "4", correct: false },
+              { text: "none", correct: true },
+              { text: "7", correct: false }
+            ],
+            explanation: "The equation 𝑦 = 28𝑥 − 4 represents a linear function with no y-intercept. Therefore, the correct answer is 'none', which is option (c)."
+          },
+          {
+            question: "Equation of the form 3𝑥² + 6𝑦² = 12 is called?",
+            answers: [
+              { text: "circle", correct: false },
+              { text: "hyperbola", correct: false },
+              { text: "ellipse", correct: true },
+              { text: "parabola", correct: false }
+            ],
+            explanation: "The equation 3𝑥² + 6𝑦² = 12 represents an ellipse, as it is of the form (𝑥²)/(4) + (𝑦²)/(2) = 1. Therefore, the correct answer is option (c), ellipse."
+          },
+          {
+            question: "Integrate cos 𝑥 sin³ 𝑥 with respect to x",
+            answers: [
+              { text: "sin⁴ 𝑥 / 4", correct: false },
+              { text: "cos⁴ 𝑥 / 4", correct: false },
+              { text: "cos⁴ 𝑥 / 4", correct: false },
+              { text: "sin⁴ 𝑥 / 4", correct: true }
+            ],
+            explanation: "To integrate cos 𝑥 sin³ 𝑥:\n\n1. Use the reduction formula or substitution method.\n\n2. The correct antiderivative is sin⁴ 𝑥 / 4 + C. Therefore, the correct answer is option (d), sin⁴ 𝑥 / 4."
+          },
+          {
+            question: "If 𝑃 = 2𝑠³ − 𝑠² − 28𝑠, find the value of s which makes 𝑑𝑃/𝑑𝑠 = 0",
+            answers: [
+              { text: "2, 7", correct: false },
+              { text: "-2, 7", correct: false },
+              { text: "-2, 7/3", correct: true },
+              { text: "-3, 4", correct: false }
+            ],
+            explanation: "To find the value of s that makes 𝑑𝑃/𝑑𝑠 = 0 for 𝑃 = 2𝑠³ − 𝑠² − 28𝑠:\n\n1. Differentiate 𝑃 with respect to s and set it to zero.\n\n2. Solve the resulting equation.\n\n3. The correct answer is s = -2, 7/3, which matches option (c)."
+          },
+          {
+            question: "Find the eccentricity of the ellipse equation 𝑥²/25 + 𝑦²/16 = 1",
+            answers: [
+              { text: "3/5", correct: true },
+              { text: "1/5", correct: false },
+              { text: "2/5", correct: false },
+              { text: "4/5", correct: false }
+            ],
+            explanation: "The eccentricity of an ellipse given by 𝑥²/25 + 𝑦²/16 = 1 is calculated as e = √(1 - b²/a²), where a = √25 = 5 and b = √16 = 4.\n\n1. Calculate e = √(1 - 16/25) = √(9/25) = 3/5.\n\n2. Therefore, the correct answer is option (a), 3/5."
+          },
+          {
+            question: "Find the radius of the circle 5𝑥² + 5𝑦² + 10𝑥 + 20𝑦 + 15 = 0",
+            answers: [
+              { text: "2", correct: false },
+              { text: "√3", correct: false },
+              { text: "√2", correct: true },
+              { text: "3", correct: false }
+            ],
+            explanation: "To find the radius of the circle 5𝑥² + 5𝑦² + 10𝑥 + 20𝑦 + 15 = 0:\n\n1. Complete the square for 𝑥 and 𝑦 terms.\n\n2. The radius is given by √(𝑔² + 𝑓² - 𝑐), where 𝑔 = 5/2, 𝑓 = 10/2, and 𝑐 = 15.\n\n3. Calculate √2.\n\n4. Therefore, the correct answer is option (c), √2."
+          },
+          {
+            question: "Evaluate ∫ (𝑥³ + 𝑥)⁴ (3𝑥² + 1) 𝑑𝑥 from 0 to 1",
+            answers: [
+              { text: "32/5", correct: false },
+              { text: "4", correct: false },
+              { text: "8", correct: false },
+              { text: "32/5", correct: true }
+            ],
+            explanation: "To evaluate ∫ (𝑥³ + 𝑥)⁴ (3𝑥² + 1) 𝑑𝑥 from 0 to 1:\n\n1. Expand the integrand and integrate term by term.\n\n2. Evaluate the definite integral from 0 to 1.\n\n3. The correct answer is 32/5, which is option (d)."
+          },
+          {
+            question: "Evaluate ∫ sec² 𝑥 𝑑𝑥",
+            answers: [
+              { text: "sec 𝑥 tan 𝑥 + 𝑐", correct: false },
+              { text: "cos 𝑥 + 𝑐", correct: false },
+              { text: "sec 𝑥 + 𝑐", correct: false },
+              { text: "tan 𝑥 + 𝑐", correct: true }
+            ],
+            explanation: "The integral of sec² 𝑥 with respect to 𝑥 is tan 𝑥 + 𝑐. Therefore, the correct answer is option (d), tan 𝑥 + 𝑐."
+          },
+          {
+            question: "Simplify cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°)",
+            answers: [
+              { text: "(1 + √3) cos 𝑥", correct: true },
+              { text: "(√3 − 1) sin 𝑥", correct: false },
+              { text: "(1 + √3) sin 𝑥", correct: false },
+              { text: "(1 − 3) cos 𝑥", correct: false }
+            ],
+            explanation: "To simplify cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°):\n\n1. Use trigonometric identities and simplify.\n\n2. The correct simplification is (1 + √3) cos 𝑥, which is option (a)."
+          },
+          {
+            question: "Find the value of 𝐾, if sin 50° + sin 40° = 𝐾 cos 50°",
+            answers: [
+              { text: "2", correct: false },
+              { text: "√2", correct: true },
+              { text: "√3", correct: false },
+              { text: "3", correct: false }
+            ],
+            explanation: "Given sin 50° + sin 40° = 𝐾 cos 50°:\n\n1. Use trigonometric identities and solve for 𝐾.\n\n2. The correct value of 𝐾 is √2, which is option (b)."
+          },
+          {
+            question: "Differentiate 𝑦 = log𝑒 √(1 + 𝑥)",
+            answers: [
+              { text: "1 / (2(1 + 𝑥))", correct: false },
+              { text: "1 / (2(1 + 𝑥))", correct: true },
+              { text: "1 / (2(1 - 𝑥))", correct: false },
+              { text: "1 / (2(1 - 𝑥))", correct: false }
+            ],
+            explanation: "To differentiate 𝑦 = log𝑒 √(1 + 𝑥):\n\n1. Apply the chain rule and simplify.\n\n2. The correct derivative is 1 / (2(1 + 𝑥)), which is option (b)."
+          },
+          {
+            question: "Determine the y-intercept of the straight line represented by the equation 5𝑥 − 7𝑦 + 13 = 0",
+            answers: [
+              { text: "5/13", correct: false },
+              { text: "1/6", correct: false },
+              { text: "7/13", correct: false },
+              { text: "5/7", correct: true }
+            ],
+            explanation: "To find the y-intercept, set 𝑥 = 0 in the equation 5𝑥 − 7𝑦 + 13 = 0:\n\n1. Solve for 𝑦.\n\n2. The y-intercept is 𝑦 = 5/7.\n\n3. Therefore, the correct answer is option (d), 5/7."
+          },
+          {
+            question: "In a triangle 𝐴𝐵𝐶, 𝑎 = 6, 𝑐 = 4, 𝐴 = 30°. Find the value of 𝐵",
+            answers: [
+              { text: "0.30", correct: false },
+              { text: "19.50", correct: false },
+              { text: "1500", correct: false },
+              { text: "130.50", correct: true }
+            ],
+            explanation: "In triangle 𝐴𝐵𝐶, using the Law of Sines:\n\n1. sin 𝐵 / 𝑏 = sin 𝐴 / 𝑐\n\n2. Calculate sin 𝐵.\n\n3. Find 𝐵 in degrees.\n\n4. The correct answer is option (d), 130.50."
+          },
+          {
+            question: "Given 𝑡 = tan (𝑥/2), transforming 𝑑𝑥 into the integral of a rational function of t gives",
+            answers: [
+              { text: "𝑡² / (1 + 𝑡²) 𝑑𝑡", correct: false },
+              { text: "2 / (1 + 𝑡²) 𝑑𝑡", correct: true },
+              { text: "2𝑡 / (1 + 𝑡²) 𝑑𝑡", correct: false },
+              { text: "𝑡 / (1 + 𝑡²) 𝑑𝑡", correct: false }
+            ],
+            explanation: "Given 𝑡 = tan (𝑥/2), the differential 𝑑𝑥 transforms into the integral of a rational function of t:\n\n1. Substitute 𝑡 = tan (𝑥/2).\n\n2. Use the substitution method to find the correct integral.\n\n3. The correct transformation is 2 / (1 + 𝑡²) 𝑑𝑡, which corresponds to option (b)."
+          },
+          {
+            question: "Find the value of 𝛼 if cos𝛼 tan 𝛼 = 1 using the half-angle substitution method",
+            answers: [
+              { text: "30", correct: false },
+              { text: "1", correct: false },
+              { text: "180", correct: false },
+              { text: "0", correct: true }
+            ],
+            explanation: "Using the half-angle substitution method for cos𝛼 tan 𝛼 = 1:\n\n1. Let tan(𝛼/2) = 𝑡 and solve.\n\n2. Find the corresponding value of 𝛼 in degrees.\n\n3. The correct value of 𝛼 is 0, which is option (d)."
+          },
+          {
+            question: "Find tan 𝐴, if tan(𝐴 − 450°) = 3/5",
+            answers: [
+              { text: "2", correct: false },
+              { text: "4", correct: true },
+              { text: "6", correct: false },
+              { text: "8", correct: false }
+            ],
+            explanation: "Given tan(𝐴 − 450°) = 3/5:\n\n1. Calculate 𝐴 − 450°.\n\n2. Find 𝐴 by adding 450° to the calculated angle.\n\n3. Calculate tan 𝐴.\n\n4. The correct answer is option (b), 4."
+          },
+          {
+            question: "If 𝑦 = (𝑥)(𝑥 − 2)(𝑥 + 3) at point 𝑥 = −1, find the equation of the circle",
+            answers: [
+              { text: "5𝑦 − 2𝑥 − 31 = 0", correct: false },
+              { text: "5𝑦 − 𝑥 − 30 = 0", correct: false },
+              { text: "𝑦 − 𝑥 − 31 = 0", correct: false },
+              { text: "5𝑦 − 𝑥 − 31 = 0", correct: true }
+            ],
+            explanation: "Evaluate 𝑦 at 𝑥 = −1:\n\n1. Substitute 𝑥 = −1 into 𝑦 = (𝑥)(𝑥 − 2)(𝑥 + 3).\n\n2. Use the result to find the equation of the circle.\n\n3. The correct equation is option (d), 5𝑦 − 𝑥 − 31 = 0."
+          },
+          {
+            question: "Which is not correct?",
+            answers: [
+              { text: "sin(−𝛼) = −sin 𝛼", correct: false },
+              { text: "none", correct: true },
+              { text: "tan(−𝛼) = −tan 𝛼", correct: false },
+              { text: "cos(−𝛼) = cos 𝛼", correct: false }
+            ],
+            explanation: "Option (b) is correct because 'none' indicates that there is no correct answer among the options given."
+          },
+          {
+            question: "Find ∫ (3𝑥 + 4)^6 𝑑𝑥",
+            answers: [
+              { text: "−64", correct: false },
+              { text: "32", correct: false },
+              { text: "−32", correct: false },
+              { text: "64", correct: true }
+            ],
+            explanation: "Integrate (3𝑥 + 4)^6 with respect to 𝑥:\n\n1. Use the power rule of integration.\n\n2. Evaluate the integral.\n\n3. The correct answer is option (d), 64."
+          },
+          {
+            question: "If 𝑤 = ∫ 𝑓(𝑥)𝑑𝑥 from 𝑎 to 𝑏, which is true?",
+            answers: [
+              { text: "𝑤 = definite integral, 𝑓(𝑥) = integrand", correct: true },
+              { text: "𝑤 = indefinite integral, 𝑓(𝑥) = integrand", correct: false },
+              { text: "𝑤 = finite integral, 𝑎 = lower unit, 𝑓(𝑥) = differential", correct: false },
+              { text: "𝑤 = definite integral, 𝑏 = lower limit and 𝑓(𝑥) = integral", correct: false }
+            ],
+            explanation: "In the notation ∫ 𝑓(𝑥)𝑑𝑥 from 𝑎 to 𝑏:\n\n1. 𝑤 represents the definite integral.\n\n2. 𝑓(𝑥) is the integrand.\n\n3. Therefore, the correct statement is option (a)."
+          },
+          {
+            question: "Acute angle in two straight lines is",
+            answers: [
+              { text: "tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚1𝑚2 ≠ −1", correct: true },
+              { text: "tan 𝐵 = |(𝑚1−𝑚2)/(𝑚2𝑚1+1)|", correct: false },
+              { text: "tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚1 ≠ −1", correct: false },
+              { text: "tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚2 ≠ −1", correct: false }
+            ],
+            explanation: "For acute angles between two straight lines:\n\n1. Use the formula tan 𝐵 = |(𝑚2−𝑚1)/(1+𝑚2𝑚1)| where 𝑚1𝑚2 ≠ −1.\n\n2. This corresponds to option (a) as the correct answer."
+          },
+          {
+            question: "Evaluate cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°)",
+            answers: [
+              { text: "(1 − √3) cos 𝑥", correct: false },
+              { text: "(√3 − 1) sin 𝑥", correct: false },
+              { text: "(1 + √3) cos 𝑥", correct: true },
+              { text: "(1 + √3) sin 𝑥", correct: false }
+            ],
+            explanation: "Evaluate cos 𝑥 + cos(𝑥 + 30°) + sin(𝑥 + 60°):\n\n1. Use cosine and sine addition formulas.\n\n2. Simplify to find the correct expression.\n\n3. The correct answer is option (c), (1 + √3) cos 𝑥."
+          },
+          {
+            question: "sin 𝑥 = −0.9063, where 0° ≤ 𝑥 ≤ 270°. Find 𝑥",
+            answers: [
+              { text: "2450°", correct: false },
+              { text: "1150°", correct: true },
+              { text: "650°", correct: false },
+              { text: "1450°", correct: false }
+            ],
+            explanation: "Given sin 𝑥 = −0.9063 and the range 0° ≤ 𝑥 ≤ 270°:\n\n1. Find the reference angle and determine 𝑥.\n\n2. The correct answer is option (b), 1150°."
+          },
+          {
+            question: "If 𝑓(𝑥) = 3𝑥 + 2 with 𝑥1 = 0 and 𝑥2 = 3, find the rate of change",
+            answers: [
+              { text: "3", correct: true },
+              { text: "15", correct: false },
+              { text: "10", correct: false },
+              { text: "13", correct: false }
+            ],
+            explanation: "Calculate the rate of change of 𝑓(𝑥) = 3𝑥 + 2 between 𝑥1 = 0 and 𝑥2 = 3:\n\n1. Find 𝑓(3) and 𝑓(0).\n\n2. Use the formula (𝑓(𝑥2) - 𝑓(𝑥1)) / (𝑥2 - 𝑥1) to find the rate of change.\n\n3. The correct rate of change is option (a), 3."
+          },
+          {
+            question: "If 𝑔^2 + 𝑡^2 ≥ 𝑐 in the equation of a circle, the circle is ____________?",
+            answers: [
+              { text: "real", correct: true },
+              { text: "complex", correct: false },
+              { text: "imaginary", correct: false },
+              { text: "complete", correct: false }
+            ],
+            explanation: "The condition 𝑔^2 + 𝑡^2 ≥ 𝑐 in the equation of a circle determines whether the circle is real:\n\n1. If 𝑔^2 + 𝑡^2 ≥ 𝑐, the circle exists in the real plane.\n\n2. Therefore, the correct answer is option (a), real."
+          },
+          {
+            question: "Find the intercept of a line given by 𝑦 = 𝑎𝑥 + 𝑏",
+            answers: [
+              { text: "0", correct: false },
+              { text: "a", correct: false },
+              { text: "b", correct: true },
+              { text: "x", correct: false }
+            ],
+            explanation: "For the equation 𝑦 = 𝑎𝑥 + 𝑏, the intercept is represented by 𝑏, which is the y-intercept when 𝑥 = 0. Therefore, the correct answer is option (c), b."
+          },
+          {
+            question: "Which of the following is a basic identity?",
+            answers: [
+              { text: "1 + tan² 𝜃 = sec² 𝜃", correct: true },
+              { text: "cot² 𝜃 − cos² 𝜃 = 1", correct: false },
+              { text: "sin² 𝜃 + 1 = cos² 𝜃", correct: false },
+              { text: "none", correct: false }
+            ],
+            explanation: "The identity 1 + tan² 𝜃 = sec² 𝜃 is a fundamental trigonometric identity. Therefore, the correct answer is option (a)."
+          },
+          {
+            question: "Which represents the line perpendicular to a curve?",
+            answers: [
+              { text: "−𝑚1𝑚2 = 1", correct: true },
+              { text: "𝑚1𝑚2 = 0", correct: false },
+              { text: "𝑚2 = 0", correct: false },
+              { text: "none", correct: false }
+            ],
+            explanation: "The condition for perpendicular lines in terms of slopes is given by −𝑚1𝑚2 = 1. This indicates that the product of the slopes of two perpendicular lines is -1. Therefore, the correct answer is option (a)."
+          },
+          {
+            question: "Evaluate cos(π/3) cos(π/6) + sin(π/3) sin(π/6)",
+            answers: [
+              { text: "√3/2", correct: true },
+              { text: "1/2", correct: false },
+              { text: "√3", correct: false },
+              { text: "2√3", correct: false }
+            ],
+            explanation: "Use the cosine and sine addition formulas:\n\n1. cos(π/3) cos(π/6) + sin(π/3) sin(π/6) simplifies to cos(π/2), which equals √3/2.\n\n2. Therefore, the correct answer is option (a), √3/2."
+          },
+          {
+            question: "The formula for distance between two points is given as",
+            answers: [
+              { text: "𝑑² = [(𝑥₂ − 𝑥₁)² + (𝑦₂ − 𝑦₁)²]", correct: true },
+              { text: "𝑑 = [(𝑥₁(𝑥₂ − 𝑥₁))² + (𝑦₁(𝑦₂ − 𝑦₁))²", correct: false },
+              { text: "𝑑² = √(𝑥₂)² + (𝑦₂)²", correct: false },
+              { text: "none of the above", correct: false }
+            ],
+            explanation: "The correct formula for the distance between two points (𝑥₁, 𝑦₁) and (𝑥₂, 𝑦₂) in a Cartesian plane is 𝑑² = [(𝑥₂ − 𝑥₁)² + (𝑦₂ − 𝑦₁)²]. Therefore, the correct answer is option (a)."
+          },
+          {
+            question: "Evaluate ∫ sin𝜃 / cos𝜃 𝑑𝜃 from 0 to π/3",
+            answers: [
+              { text: "1", correct: true },
+              { text: "2", correct: false },
+              { text: "3", correct: false },
+              { text: "4", correct: false }
+            ],
+            explanation: "Integrate sin𝜃 / cos𝜃 with respect to 𝜃:\n\n1. ∫ sin𝜃 / cos𝜃 𝑑𝜃 = ln|cos𝜃| from 0 to π/3.\n\n2. Evaluate the integral at the limits.\n\n3. The correct answer is option (a), 1."
+          },
+          {
+            question: "Simplify sin𝛼 + cos𝛼 / (cos⁴𝛼 − sin⁴𝛼)",
+            answers: [
+              { text: "1 / (sin𝛼 cos𝛼)", correct: true },
+              { text: "1 / (sin𝛼 − cos𝛼)", correct: false },
+              { text: "1", correct: false },
+              { text: "sin𝛼 + cos𝛼", correct: false }
+            ],
+            explanation: "Simplify sin𝛼 + cos𝛼 / (cos⁴𝛼 − sin⁴𝛼):\n\n1. Factorize the denominator to (cos²𝛼 - sin²𝛼)(cos²𝛼 + sin²𝛼).\n\n2. Simplify using identities.\n\n3. The correct answer is option (a), 1 / (sin𝛼 cos𝛼)."
+          },
+          {
+            question: "Find the slope of the function 𝑦(𝑡) = 2𝑡² − 5𝑡 + 30, given 𝑡₁ = 3 and 𝑡₂ = 5",
+            answers: [
+              { text: "11", correct: true },
+              { text: "23", correct: false },
+              { text: "10", correct: false },
+              { text: "21", correct: false }
+            ],
+            explanation: "Calculate the slope between 𝑡₁ = 3 and 𝑡₂ = 5 for 𝑦(𝑡) = 2𝑡² − 5𝑡 + 30:\n\n1. Find 𝑦(3) and 𝑦(5).\n\n2. Use the slope formula (𝑦(𝑡₂) - 𝑦(𝑡₁)) / (𝑡₂ - 𝑡₁).\n\n3. The correct answer is option (a), 11."
+          },
+          {
+            question: "Find the volume obtained by rotating the area under the curve 𝑦 = 𝑥² from 𝑥 = 0 to 𝑥 = 1",
+            answers: [
+              { text: "16𝜋/5", correct: false },
+              { text: "2𝜋/5", correct: false },
+              { text: "3𝜋/5", correct: false },
+              { text: "𝜋/5", correct: true }
+            ],
+            explanation: "To find the volume obtained by rotating the area under the curve 𝑦 = 𝑥² from 𝑥 = 0 to 𝑥 = 1:\n\n1. Use the formula for volume of revolution V = ∫[π(𝑓(𝑥))²] 𝑑𝑥 from 𝑎 to 𝑏.\n\n2. Calculate the integral.\n\n3. The correct answer is option (d), 𝜋/5."
+          },
+          {
+            question: "When two lines are parallel",
+            answers: [
+              { text: "𝑚₁ = 𝑚₂", correct: true },
+              { text: "𝑚₁ = 1 + 𝑚", correct: false },
+              { text: "𝑚₁ ÷ 𝑚₂ = 0", correct: false },
+              { text: "𝑚₁ ≠ 𝑚₂", correct: false }
+            ],
+            explanation: "For two lines to be parallel, their slopes (𝑚₁ and 𝑚₂) must be equal. Therefore, the correct answer is option (a), 𝑚₁ = 𝑚₂."
+          },
+          {
+            question: "Evaluate ∫ (4𝑥 − 6𝑒^(1/2𝑥) − 5) 𝑑𝑥",
+            answers: [
+              { text: "2𝑥² − 12𝑒^(1/2𝑥) − 5𝑥 + 𝑐", correct: true },
+              { text: "2𝑥² − 3𝑒^(1/2𝑥) − 5𝑥 + 𝑐", correct: false },
+              { text: "2𝑥² − 3𝑒^(1/2𝑥) + 𝑐", correct: false },
+              { text: "2𝑥² + 12𝑒^(1/2𝑥) + 𝑐", correct: false }
+            ],
+            explanation: "Integrate (4𝑥 − 6𝑒^(1/2𝑥) − 5) 𝑑𝑥:\n\n1. ∫ 4𝑥 𝑑𝑥 = 2𝑥²\n2. ∫ 6𝑒^(1/2𝑥) 𝑑𝑥 = -12𝑒^(1/2𝑥)\n3. ∫ 5 𝑑𝑥 = 5𝑥\n4. Combine the results and add the constant of integration 𝑐.\n\nThe correct answer is option (a), 2𝑥² − 12𝑒^(1/2𝑥) − 5𝑥 + 𝑐."
+          },
+          {
+            question: "Evaluate ∫ 𝑥𝑒^(2𝑥) 𝑑𝑥",
+            answers: [
+              { text: "1/2 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/4 + 𝑐", correct: true },
+              { text: "1/4 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/2 + 𝑐", correct: false },
+              { text: "1/2 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/2 + 𝑐", correct: false },
+              { text: "1/4 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/4 + 𝑐", correct: false }
+            ],
+            explanation: "Integrate 𝑥𝑒^(2𝑥) 𝑑𝑥:\n\n1. Let 𝑢 = 𝑥, 𝑑𝑣 = 𝑒^(2𝑥) 𝑑𝑥. Then, integrate by parts.\n2. Apply the integration by parts formula and solve for the integral.\n\nThe correct answer is option (a), 1/2 𝑥𝑒^(2𝑥) − 𝑒^(2𝑥)/4 + 𝑐."
+          },
+          {
+            question: "Find the area of ∆𝐴𝐵𝐶 if 𝐴 = 400, 𝐵 = 700, and 𝑎 = 3.5",
+            answers: [
+              { text: "3.64", correct: false },
+              { text: "9.86", correct: false },
+              { text: "4.93", correct: false },
+              { text: "8.42", correct: true }
+            ],
+            explanation: "To find the area of ∆𝐴𝐵𝐶, use the formula Area = 1/2 * 𝑎 * 𝑏 * sin(𝐶).\n1. Calculate the area using the given sides 𝐴 = 400, 𝐵 = 700, and 𝐶 = 3.5.\n2. The correct answer is option (d), 8.42."
+          },
+          {
+            question: "Evaluate ∫ 𝑑𝑥 / (1 − cos 𝑥)",
+            answers: [
+              { text: "ln |tan(𝑥/2)| + 𝑐", correct: false },
+              { text: "− tan(𝑥/2) + 𝑐", correct: false },
+              { text: "none", correct: true },
+              { text: "tan⁻¹(𝑥/2) + 𝑐", correct: false }
+            ],
+            explanation: "The integral ∫ 𝑑𝑥 / (1 − cos 𝑥) is not expressible in elementary functions, hence the correct answer is option (c), none."
+          },
+          {
+            question: "Integrate 3√𝑥 / 𝑥^(3/4) with respect to x",
+            answers: [
+              { text: "12𝑥^(7/4) / 7 + 𝑐", correct: false },
+              { text: "12𝑥^(4/7) / 7 + 𝑐", correct: false },
+              { text: "12𝑥^(4/7) / 7 + 𝑐", correct: false },
+              { text: "12𝑥^(7/4) / 7 + 𝑐", correct: true }
+            ],
+            explanation: "To integrate 3√𝑥 / 𝑥^(3/4), rewrite it as 3𝑥^(1/2) / 𝑥^(3/4) = 3𝑥^(7/4).\n1. Integrate to get 12𝑥^(7/4) / 7 + 𝑐.\n2. The correct answer is option (d), 12𝑥^(7/4) / 7 + 𝑐."
+          },
+          {
+            question: "Find the derivative of the function 𝑦 = √(7 − 2𝑥)^4 with respect to x",
+            answers: [
+              { text: "8𝑥 − 28", correct: false },
+              { text: "6𝑥 + 8", correct: false },
+              { text: "6𝑥 − 5", correct: false },
+              { text: "8𝑥 − 28", correct: true }
+            ],
+            explanation: "Differentiate 𝑦 = √(7 − 2𝑥)^4 with respect to x:\n1. Use chain rule and power rule to differentiate.\n2. The correct answer is option (d), 8𝑥 − 28."
+          },
+          {
+            question: "A straight line which is perpendicular to a tangent at the curve 𝑦 = 𝑓(𝑥) is called",
+            answers: [
+              { text: "asymptote", correct: false },
+              { text: "intercept", correct: false },
+              { text: "normal", correct: true },
+              { text: "none", correct: false }
+            ],
+            explanation: "A straight line which is perpendicular to a tangent at the curve 𝑦 = 𝑓(𝑥) is called the normal to the curve at that point. Therefore, the correct answer is option (c), normal."
+          },
+          {
+            question: "Simplify (tan 𝜃 − sec𝜃) / 2",
+            answers: [
+              { text: "(sin 𝜃 - 1) / (2cos𝜃)", correct: true },
+              { text: "(sin 𝜃 + 1) / (2cos𝜃)", correct: false },
+              { text: "(tan 𝜃 - 1) / (2sin𝜃)", correct: false },
+              { text: "(sin 𝜃 - 1) / (2sin𝜃)", correct: false }
+            ],
+            explanation: "To simplify (tan 𝜃 − sec𝜃) / 2, we use trigonometric identities: (sin 𝜃 - 1) / (2cos𝜃)."
+          },
+          {
+            question: "Find the range of -1, -2, -3, -5, -22",
+            answers: [
+              { text: "21", correct: true },
+              { text: "22", correct: false },
+              { text: "20", correct: false },
+              { text: "23", correct: false }
+            ],
+            explanation: "To find the range, subtract the minimum value from the maximum value: Range = -1 - (-22) = 21."
+          },
+          {
+            question: "Simplify sin 𝜃 + sin3𝜃 / cos𝜃 cos3𝜃",
+            answers: [
+              { text: "(sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: true },
+              { text: "(sin 𝜃 - 3sin 𝜃 + 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: false },
+              { text: "(sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 + 3cos 𝜃))", correct: false },
+              { text: "(sin 𝜃 + 3sin 𝜃 + 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))", correct: false }
+            ],
+            explanation: "Using trigonometric identities, we simplify sin 𝜃 + sin3𝜃 / cos𝜃 cos3𝜃 to (sin 𝜃 + 3sin 𝜃 - 4sin^3 𝜃) / (cos𝜃 * (4cos^3 𝜃 - 3cos 𝜃))."
+          },
+          {
+            question: "Simplify (tan 𝜃 - sec𝜃) / (2tan 𝜃 sec𝜃)",
+            answers: [
+              { text: "1 / 2", correct: true },
+              { text: "tan 𝜃 / 2", correct: false },
+              { text: "sec 𝜃 / 2", correct: false },
+              { text: "1 / tan 𝜃", correct: false }
+            ],
+            explanation: "To simplify (tan 𝜃 - sec𝜃) / (2tan 𝜃 sec𝜃), we factor out 1 / 2."
+          },
+          {
+            question: "Find the range of -1, -2, -3, -5, -22",
+            answers: [
+              { text: "21", correct: true },
+              { text: "22", correct: false },
+              { text: "20", correct: false },
+              { text: "23", correct: false }
+            ],
+            explanation: "To find the range, subtract the minimum value from the maximum value: Range = -1 - (-22) = 21."
+          },
+          {
+            question: "Simplify sin 𝜃 + sin3𝜃 / (cos𝜃 cos3𝜃)",
+            answers: [
+              { text: "tan 𝜃", correct: true },
+              { text: "cot 𝜃", correct: false },
+              { text: "sec 𝜃", correct: false },
+              { text: "csc 𝜃", correct: false }
+            ],
+            explanation: "Using trigonometric identities, sin 𝜃 + sin3𝜃 / (cos𝜃 cos3𝜃) simplifies to tan 𝜃."
+          },
+          {
+            question: "Find the value of sin 2𝛼 if tan𝛽 = 5/12 and sin 𝛼 = 3/5",
+            answers: [
+              { text: "24/25", correct: true },
+              { text: "36/65", correct: false },
+              { text: "20/65", correct: false },
+              { text: "36/35", correct: false }
+            ],
+            explanation: "Using double angle formula, sin 2𝛼 = 2 sin 𝛼 cos 𝛼 = 2 * (3/5) * (√(1 - (3/5)^2)) = 24/25."
+          },
+          {
+            question: "Find 𝑑𝑦 / 𝑑𝑥, if 𝑥^2 / a^2 + 𝑦^2 / b^2 = 1",
+            answers: [
+              { text: "-𝑏^2𝑥 / 𝑎^2𝑦", correct: true },
+              { text: "𝑎^2𝑥 / 𝑏^2𝑦", correct: false },
+              { text: "𝑏𝑥 / 𝑎𝑦", correct: false },
+              { text: "𝑎𝑥 / 𝑏𝑦", correct: false }
+            ],
+            explanation: "Differentiating implicitly, 𝑑𝑦 / 𝑑𝑥 = -𝑏^2𝑥 / 𝑎^2𝑦."
+          },
+          {
+            question: "Simplify cos^4 𝜃 − sin^4 𝜃",
+            answers: [
+              { text: "cos 2𝜃", correct: true },
+              { text: "cot 2𝜃", correct: false },
+              { text: "sin 2𝜃", correct: false },
+              { text: "tan 2𝜃", correct: false }
+            ],
+            explanation: "Using the identity cos^2 𝜃 = 1 - sin^2 𝜃, cos^4 𝜃 − sin^4 𝜃 simplifies to cos 2𝜃."
+          },
+          {
+            question: "Evaluate ∫ (sec^2 𝑥 + sec 𝑥 tan 𝑥) / (sec 𝑥 + tan 𝑥) dx",
+            answers: [
+              { text: "ln |sec 𝑥 + tan 𝑥| + C", correct: true },
+              { text: "2 sec 𝑥 + C", correct: false },
+              { text: "x + C", correct: false },
+              { text: "sec 𝑥 + tan 𝑥 + C", correct: false }
+            ],
+            explanation: "Integrating, we get ∫ (sec^2 𝑥 + sec 𝑥 tan 𝑥) / (sec 𝑥 + tan 𝑥) dx = ln |sec 𝑥 + tan 𝑥| + C."
+          },
+          {
+            question: "If tan A = √2 + 1, find sec^2 A − 2",
+            answers: [
+              { text: "2√2", correct: true },
+              { text: "2 - 2√2", correct: false },
+              { text: "4 + 2√2", correct: false },
+              { text: "2 + 2√2", correct: false }
+            ],
+            explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2."
+          },
+          {
+            question: "If tan (A + B) = 1/7 and tan A = 1/3, find tan B",
+            answers: [
+              { text: "-4/11", correct: true },
+              { text: "3/7", correct: false },
+              { text: "-2/11", correct: false },
+              { text: "4/11", correct: false }
+            ],
+            explanation: "Using the tangent addition formula, tan B = (tan (A + B) - tan A) / (1 + tan (A + B) * tan A)."
+          },
+          {
+            question: "Find the value of tan 2𝛼, if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+            answers: [
+              { text: "24/7", correct: true },
+              { text: "7/24", correct: false },
+              { text: "-24/7", correct: false },
+              { text: "-7/24", correct: false }
+            ],
+            explanation: "Using the double angle formula for tangent, tan 2𝛼 = (2 tan 𝛼) / (1 - tan^2 𝛼)."
+          },
+          {
+            question: "Find the value of cos 22.5° in surd form",
+            answers: [
+              { text: "√(2+√2) / 2", correct: true },
+              { text: "√(√2−1) / 2", correct: false },
+              { text: "√(2−√2) / 2", correct: false },
+              { text: "√(√2−2) / 2", correct: false }
+            ],
+            explanation: "Using the angle addition formula, cos 22.5° = √(2 + √2) / 2."
+          },
+          {
+            question: "Find the value of 195° in surd form",
+            answers: [
+              { text: "3 + √3 / 3 - √3", correct: true },
+              { text: "3 + √3 / 3 + √3", correct: false },
+              { text: "-3 - √3 / 3 + √3", correct: false },
+              { text: "3 - √3 / 3 + √3", correct: false }
+            ],
+            explanation: "Using the angle reduction formula, 195° = 3 + √3 / 3 - √3."
+          },
+          {
+            question: "Find the derivative of 𝑦 = 𝑒^(2𝑥+3) with respect to x",
+            answers: [
+              { text: "2𝑒^(2𝑥+3)", correct: true },
+              { text: "2𝑒^(2𝑥-3)", correct: false },
+              { text: "𝑒^(2𝑥+3)", correct: false },
+              { text: "3𝑒^(2𝑥+3)", correct: false }
+            ],
+            explanation: "Differentiating 𝑦 = 𝑒^(2𝑥+3) with respect to x gives 𝑑𝑦 / 𝑑𝑥 = 2𝑒^(2𝑥+3)."
+          },
+          {
+            question: "Find 𝑑𝑦 / 𝑑𝑥, if 𝑥^2 / a^2 + 𝑦^2 / b^2 = 1",
+            answers: [
+              { text: "-𝑏^2𝑥 / 𝑎^2𝑦", correct: true },
+              { text: "-𝑎^2𝑥 / 𝑏^2𝑦", correct: false },
+              { text: "-𝑏𝑥 / 𝑎𝑦", correct: false },
+              { text: "𝑏^2𝑥 / 𝑎^2𝑦", correct: false }
+            ],
+            explanation: "Differentiating implicitly, 𝑑𝑦 / 𝑑𝑥 = -𝑏^2𝑥 / 𝑎^2𝑦."
+          },
+          {
+            question: "Find the value of sin 22.5° in surd form",
+            answers: [
+              { text: "√(2 - √2) / 2", correct: true },
+              { text: "√(√2 - 2) / 2", correct: false },
+              { text: "√(2 + √2) / 2", correct: false },
+              { text: "-√(√2 - 2) / 2", correct: false }
+            ],
+            explanation: "Using the angle addition formula, sin 22.5° = √(2 - √2) / 2."
+          },
+          {
+            question: "If tan⁻¹(3x) + tan⁻¹(2x) = π/4, find the value of x",
+            answers: [
+              { text: "1/6", correct: true },
+              { text: "-1, -1/6", correct: false },
+              { text: "1/6, 1", correct: false },
+              { text: "1, -1/6", correct: false }
+            ],
+            explanation: "Given tan⁻¹(3x) + tan⁻¹(2x) = π/4, solve for x."
+          },
+          {
+            question: "In a triangle ABC, ∠A = 53°, sides b = 4.2 cm, and c = 3.5 cm. Find the area of ∆ABC",
+            answers: [
+              { text: "4.87 cm²", correct: true },
+              { text: "8.70 cm²", correct: false },
+              { text: "16.24 cm²", correct: false },
+              { text: "5.87 cm²", correct: false }
+            ],
+            explanation: "Using the formula Area = 1/2 * b * c * sin A, calculate the area of triangle ABC."
+          },
+            {
+              question: "Evaluate ∫ (2 dx) / (x^2 - 2x + 5)",
+              answers: [
+                { text: "tan⁻¹((x - 1)/2) + C", correct: true },
+                { text: "2 tan⁻¹((x + 1)/2) + C", correct: false },
+                { text: "(1/2) tan⁻¹((x - 1)/2) + C", correct: false },
+                { text: "tan⁻¹((x + 1)/2) + C", correct: false }
+              ],
+              explanation: "Integrating using the arctangent function, ∫ (2 dx) / (x^2 - 2x + 5) = tan⁻¹((x - 1)/2) + C."
+            },
+            {
+              question: "Find the value of sin(𝛼 + 𝛽) if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+              answers: [
+                { text: "36/65", correct: true },
+                { text: "-36/65", correct: false },
+                { text: "20/65", correct: false },
+                { text: "35/65", correct: false }
+              ],
+              explanation: "Using the sine addition formula, sin(𝛼 + 𝛽) = (sin 𝛼 * cos 𝛽) + (cos 𝛼 * sin 𝛽).<br>Solving gives sin(𝛼 + 𝛽) = (3/5 * 12/13) + (4/5 * 5/13) = 36/65."
+            },
+            {
+              question: "Find the equation of the tangent to y = 3x^2 + 2x - 1 at x = 1",
+              answers: [
+                { text: "y = 8x - 4", correct: true },
+                { text: "y = 6x - 4", correct: false },
+                { text: "y = 8x + 2", correct: false },
+                { text: "y = 8x + 4", correct: false }
+              ],
+              explanation: "Differentiate y = 3x^2 + 2x - 1 to find the slope at x = 1, then use the point-slope form of the tangent line equation.<br>Derivative: y' = 6x + 2.<br>At x = 1, y' = 6(1) + 2 = 8.<br>Equation of tangent line: y - y₁ = m(x - x₁) => y - (3(1)² + 2(1) - 1) = 8(x - 1) => y = 8x - 4."
+            },
+            {
+              question: "If tan A = √2 + 1, find sec^2 A − 2",
+              answers: [
+                { text: "2√2", correct: true },
+                { text: "4 + 2√2", correct: false },
+                { text: "2 + 2√2", correct: false },
+                { text: "2 - 2√2", correct: false }
+              ],
+              explanation: "Using sec^2 A = 1 + tan^2 A, sec^2 A − 2 simplifies to 2√2.<br>Given tan A = √2 + 1.<br>sec A = 1 / cos A.<br>Sec A 2-5 is"
+            },
+            {
+              question: "Evaluate ∫ ln x dx",
+              answers: [
+                { text: "x ln x - x + C", correct: true },
+                { text: "x^2 / 2 ln x + C", correct: false },
+                { text: "-(ln x / x) + C", correct: false },
+                { text: "x^3 / 3 ln x + C", correct: false }
+              ],
+              explanation: "Integrating ln x, ∫ ln x dx = x ln x - x + C.<br>5"
+            },
+            {
+              question: "If y = x^3 + 3x^2, find the maximum and minimum points",
+              answers: [
+                { text: "(0, 0) and (-2, 4)", correct: true },
+                { text: "(0, 0) and (-2, 3)", correct: false },
+                { text: "(0, 0) and (-2, 5)", correct: false },
+                { text: "(0, 0) and (-1, 1)", correct: false }
+              ],
+              explanation: "Differentiate y = x^3 + 3x^2 to find critical points and use the second derivative test to determine maxima and minima.<br>5"
+            },
+            {
+              question: "Evaluate 2 / (1 - cos 45°)",
+              answers: [
+                { text: "2 + √2", correct: true },
+                { text: "2 - √2", correct: false },
+                { text: "4 + 2√2", correct: false },
+                { text: "2 + √3", correct: false }
+              ],
+              explanation: "Evaluate using the cosine double-angle formula, 2 / (1 - cos 45°) simplifies to 2 + √2.<br>5"
+            },
+            {
+              question: "If tan θ = 3/4, find cos^2 θ",
+              answers: [
+                { text: "7/25", correct: true },
+                { text: "2/4", correct: false },
+                { text: "3/5", correct: false },
+                { text: "7/25", correct: false }
+              ],
+              explanation: "Using the identity cos^2 θ = 1 / (1 + tan^2 θ), cos^2 θ = 7/25.<br>5"
+            },
+            {
+              question: "If cos θ = 3/4, find sec θ",
+              answers: [
+                { text: "4/3", correct: true },
+                { text: "2/3", correct: false },
+                { text: "4/5", correct: false },
+                { text: "3/4", correct: false }
+              ],
+              explanation: "Secant is the reciprocal of cosine: sec θ = 1 / cos θ. Therefore, sec θ = 4/3.<br>5"
+            },
+            {
+              question: "Find the x-intercept of y = x^3 - 1 / x^2 - 4",
+              answers: [
+                { text: "(±2,0)", correct: true },
+                { text: "(0, ±2)", correct: false },
+                { text: "(0, ±1)", correct: false },
+                { text: "(±1,0)", correct: false }
+              ],
+              explanation: "To find the x-intercepts, set y = 0 and solve for x: x^3 - 1 = 0 ⟹ x^3 = 1 ⟹ x = ±1. Similarly, x^2 - 4 = 0 ⟹ x^2 = 4 ⟹ x = ±2. Therefore, the x-intercepts are (±2,0).<br>5"
+            },
+            {
+              question: "Differentiate y = cos(Ax + B) with respect to x at x = 1",
+              answers: [
+                { text: "-A sin(A + B)", correct: true },
+                { text: "A cos B", correct: false },
+                { text: "0", correct: false },
+                { text: "-sin B", correct: false }
+              ],
+              explanation: "Differentiate using the chain rule: dy/dx = -A sin(Ax + B). At x = 1, dy/dx = -A sin(A + B).<br>5"
+            },
+            {
+              question: "If a + b + c / a + b - c = cot A^2 / cot B^2 and a + b = 24.3 cm, A = 64.8°, B = 22.5°, find angle C and the sides of the triangle",
+              answers: [
+                { text: "92.70°, -2.38cm", correct: true },
+                { text: "92.70°, 2.38cm", correct: false },
+                { text: "92.69°, -2.39cm", correct: false },
+                { text: "92.63°, 2.39cm", correct: false }
+              ],
+              explanation: "Given the conditions and using the triangle angle and side formulas, angle C is approximately 92.70° and the side is approximately -2.38 cm.<br>5"
+            },
+            {
+              question: "Simplify √(1 + cos^2 θ) / (1 + tan^2 θ)",
+              answers: [
+                { text: "sec θ", correct: true },
+                { text: "cos θ", correct: false },
+                { text: "sin θ", correct: false },
+                { text: "cot θ", correct: false }
+              ],
+              explanation: "Using trigonometric identities, √(1 + cos^2 θ) = sec θ and 1 + tan^2 θ = sec^2 θ. Therefore, the expression simplifies to sec θ.<br>5"
+            },
+            {
+              question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of x",
+              answers: [
+                { text: "π/6 + 2nπ", correct: true },
+                { text: "π/2 + 2nπ", correct: false },
+                { text: "π/3 + 2nπ", correct: false },
+                { text: "-π/3 - π/6 + 2nπ", correct: false }
+              ],
+              explanation: "Solve cos 3x + √3 sin 3x = √3 using trigonometric identities and the given range for x.<br>5"
+            },
+            {
+              question: "If cos 3x + √3 sin 3x = √3, 0 ≤ x ≤ 180°, find the value of R",
+              answers: [
+                { text: "√(1 + √3)", correct: true },
+                { text: "2", correct: false },
+                { text: "1 + √3", correct: false },
+                { text: "√3", correct: false }
+              ],
+              explanation: "Evaluate the expression cos 3x + √3 sin 3x to find R.<br>5"
+            },
+            {
+              question: "Simplify cos 4θ - sin 4θ",
+              answers: [
+                { text: "cos 2θ", correct: true },
+                { text: "cot 2θ", correct: false },
+                { text: "sin 2θ", correct: false },
+                { text: "tan 2θ", correct: false }
+              ],
+              explanation: "Using double angle identities, cos 4θ - sin 4θ = cos 2θ.<br>5"
+            },
+            {
+              question: "Evaluate 1 / (sec θ - 1) + 1 / (sec θ + 1)",
+              answers: [
+                { text: "2 tan θ", correct: true },
+                { text: "2 cos θ", correct: false },
+                { text: "2 sec θ", correct: false },
+                { text: "2 cosec θ", correct: false }
+              ],
+              explanation: "Simplify using trigonometric identities to evaluate the given expression.<br>5"
+            },
+            {
+              question: "Integrate (5x^2 / (10x^3 + 3)) dx",
+              answers: [
+                { text: "1/6 ln(10x^3 + 3) + C", correct: true },
+                { text: "ln(10x^3 + 3) + C", correct: false },
+                { text: "5/3 ln(10x^3 + 3) + C", correct: false },
+                { text: "1/2 ln(10x^3 + 3x) + C", correct: false }
+              ],
+              explanation: "Use the substitution method and integral formulas to find the antiderivative.<br>5"
+            },
+            {
+              question: "Find the value of sin(x + y) if sin x = 4/5 and cos y = 12/13",
+              answers: [
+                { text: "63/65", correct: true },
+                { text: "281/65", correct: false },
+                { text: "48/65", correct: false },
+                { text: "15/65", correct: false }
+              ],
+              explanation: "Use the sine addition formula to find sin(x + y) given sin x and cos y.<br>5"
+            },
+            {
+              question: "Integrate 1 / (1 + 4x^2) dx",
+              answers: [
+                { text: "1/2 arctan(2x) + C", correct: true },
+                { text: "arctan(2x) + C", correct: false },
+                { text: "1/4 arctan(2x) + C", correct: false },
+                { text: "1/2 arctan(x^2) + C", correct: false }
+              ],
+              explanation: "Integrate using the arctangent function and the integral formula for 1 / (1 + a^2x^2).<br>5"
+            },
+            {
+              question: "Simplify sin 3a",
+              answers: [
+                { text: "3 sin a - 4 sin^3 a", correct: true },
+                { text: "3 sin a + 4 sin^3 a", correct: false },
+                { text: "4 sin^3 a - 3 sin a", correct: false },
+                { text: "4 sin^3 a sin a", correct: false }
+              ],
+              explanation: "Apply the triple angle formula for sine to simplify sin 3a.<br>5"
+            },
+            {
+              question: "Convert 20°15'8\" to degrees.",
+              answers: [
+                  { text: "20.252°", correct: true },
+                  { text: "20.125°", correct: false },
+                  { text: "19.873°", correct: false },
+                  { text: "20.875°", correct: false }
+              ],
+              explanation: "To convert from degrees, minutes, and seconds to decimal degrees: 20° + 15'/60 + 8\"/3600 = 20.252°."
+          },
+          {
+              question: "Which of the following is equivalent to tan θ + cot θ?",
+              answers: [
+                  { text: "tan θ", correct: false },
+                  { text: "cot θ", correct: false },
+                  { text: "1", correct: false },
+                  { text: "sec²θ", correct: true }
+              ],
+              explanation: "tan θ + cot θ is not equal to tan θ or cot θ. It's an expression related to sec²θ."
+          },
+          {
+            question: "If (3, -4) is a point on the line y = ax + 2, find the value of a.",
+            answers: [
+              { text: "-1", correct: false },
+              { text: "3", correct: true },
+              { text: "2", correct: false },
+              { text: "3/2", correct: false }
+            ],
+            explanation: "Substitute the coordinates (3, -4) into the line equation: -4 = 3a + 2. Solve for a, giving a = 3."
+          },
+          
+          {
+            question: "Find the locus of a point that is equidistant from the points (1,2) and (3,8).",
+            answers: [
+              { text: "y = 17/4", correct: false },
+              { text: "y = (x + 12)", correct: false },
+              { text: "y = (x + 8)", correct: false },
+              { text: "y = (11 - x)", correct: true }
+            ],
+            explanation: "The locus of points equidistant from (1,2) and (3,8) is the perpendicular bisector of the line segment joining the points."
+          },
+          
+          {
+            question: "The equation of a circle having the points (2,3) and (-4,5) as the ends of its diameter is:",
+            answers: [
+              { text: "x² + y² + 2x - 8y = 70", correct: true },
+              { text: "x² + y² + xy = 130", correct: false },
+              { text: "x² + y² + 2x + 8y = 70", correct: false },
+              { text: "x² + y² + 2x - 8y = 30", correct: false }
+            ],
+            explanation: "Use the formula for the equation of a circle where the endpoints of the diameter are known."
+          },
+          
+          {
+            question: "Find the equation of a parabola with vertex (5,-2) and focus (5,2).",
+            answers: [
+              { text: "x² - 10x + 16y = 70", correct: true },
+              { text: "x² + 6x + 10y = 170", correct: false },
+              { text: "2x² + 16x + 10y = 170", correct: false },
+              { text: "2x² + x + 11y + 5 = 0", correct: false }
+            ],
+            explanation: "The equation of a parabola is derived using the vertex and focus coordinates."
+          },
+          
+          {
+            question: "Find the possible values of the constant m for which the curve (m + 5)x² + (m² - 1)y² + 2x + 5y + 5 = 0 is a circle.",
+            answers: [
+              { text: "2 and 3", correct: false },
+              { text: "2 and -3", correct: false },
+              { text: "-2 and -3", correct: false },
+              { text: "-2 and 3", correct: true }
+            ],
+            explanation: "The equation represents a circle if the coefficients of x² and y² are equal. Solving for m gives the correct values."
+          },
+          
+          {
+            question: "If the line ax + 4y - 50 is perpendicular to the line 4x - 2y + 60, find the value of a.",
+            answers: [
+              { text: "-2", correct: true },
+              { text: "-1/2", correct: false },
+              { text: "1/2", correct: false },
+              { text: "2", correct: false }
+            ],
+            explanation: "For perpendicular lines, the product of the slopes must be -1. Using this, solve for a."
+          },
+          {
+            question: "Evaluate ∫ cos(x) dx.",
+            answers: [
+              { text: "sin(x) + C", correct: true },
+              { text: "cos(x) + C", correct: false },
+              { text: "sin(x) - C", correct: false },
+              { text: "cos(x) - C", correct: false }
+            ],
+            explanation: "The integral of cos(x) is sin(x), plus a constant of integration."
+          },
+          {
+              question: "What value of θ satisfies the equation sin θ + 6 cos θ = 90?",
+              answers: [
+                  { text: "30.522", correct: true },
+                  { text: "20.252", correct: false },
+                  { text: "10.522", correct: false },
+                  { text: "20.225", correct: false }
+              ],
+              explanation: "By solving sin θ + 6 cos θ = 90 using a calculator, θ is approximately 30.522 degrees."
+          },
+          {
+              question: "Find the value of sin θ if tan θ is undefined and θ is an acute angle.",
+              answers: [
+                  { text: "sin θ = 1", correct: true },
+                  { text: "sin θ = 0.5", correct: false },
+                  { text: "sin θ = 0", correct: false },
+                  { text: "sin θ = 0.707", correct: false }
+              ],
+              explanation: "If tan θ is undefined and θ is acute, θ = 90°, and sin 90° = 1."
+          },
+          {
+              question: "Find the angles and sides of a triangle ABC if angle A = 50°, and side a = 5.5 cm.",
+              answers: [
+                  { text: "Angle B = 26°, sides b = 6.5 cm, c = 6.5 cm", correct: true },
+                  { text: "Angle B = 75°, sides b = 5 cm, c = 5 cm", correct: false },
+                  { text: "Angle B = 57°, sides b = 5.6 cm, c = 5.6 cm", correct: false },
+                  { text: "Angle B = 56°, sides b = 12 cm, c = 6 cm", correct: false }
+              ],
+              explanation: "Using the law of cosines and sines, we can determine the other angles and sides of triangle ABC."
+          },
+          {
+            question: "Express sin 6x + sin 4x as a product of two trigonometric ratios.",
+            answers: [
+                { text: "2x cosx", correct: false },
+                { text: "2 sin 5x cos x", correct: true },
+                { text: "2 sin 4x cos x", correct: false },
+                { text: "2 sin 6x cos x", correct: false }
+            ],
+            explanation: "Using the sum-to-product identities: sin A + sin B = 2 sin((A+B)/2) cos((A-B)/2), we get 2 sin 5x cos x."
+        },
+        {
+            question: "Express sin 10x - sin 6x as a product of two trigonometric ratios.",
+            answers: [
+                { text: "2 cos 2x sin 2x", correct: true },
+                { text: "2 sin 8x cos 2x", correct: false },
+                { text: "2 cos 4x cot 3x", correct: false },
+                { text: "2 cos 5x tan 4x", correct: false }
+            ],
+            explanation: "Using the difference-to-product identity: sin A - sin B = 2 cos((A+B)/2) sin((A-B)/2), we get 2 cos 8x sin 2x."
+        },
+        {
+            question: "Express sin 12x - sin 8x as a product of two trigonometric ratios.",
+            answers: [
+                { text: "cos 10x sin 2x", correct: false },
+                { text: "2 cos 7x tan 2x", correct: false },
+                { text: "2 cos 10x sin 2x", correct: true },
+                { text: "cos 8x sin 2x", correct: false }
+            ],
+            explanation: "Using the difference-to-product identity: sin A - sin B = 2 cos((A+B)/2) sin((A-B)/2), we get 2 cos 10x sin 2x."
+        },
+        {
+            question: "Express cos 8x - cos 4x as a product of two trigonometric ratios.",
+            answers: [
+                { text: "2 sin x cos 5x", correct: false },
+                { text: "2 cos 8x sin 2x", correct: true },
+                { text: "4 cos 4x tan 2x", correct: false },
+                { text: "2 sin 6x cos 2x", correct: false }
+            ],
+            explanation: "Using the difference-to-product identity: cos A - cos B = -2 sin((A+B)/2) sin((A-B)/2), we get 2 cos 8x sin 2x."
+        },
+        {
+            question: "Express cos 7x cos 5x as a product of two trigonometric ratios.",
+            answers: [
+                { text: "(cos 12x + cos 2x)", correct: true },
+                { text: "(cos 10x - cos 2x)", correct: false },
+                { text: "(cos 6x + cos 6x)", correct: false },
+                { text: "(cos 12x - cos 4x)", correct: false }
+            ],
+            explanation: "Using the product-to-sum identity: cos A cos B = 1/2 [cos(A+B) + cos(A-B)], we get (cos 12x + cos 2x)."
+        },
+        {
+            question: "Express sin 5x sin x as a product of two trigonometric ratios.",
+            answers: [
+                { text: "(cos 6x + cos 4x)", correct: false },
+                { text: "(cos 4x + cos 2x)", correct: false },
+                { text: "(cos 5x + cos x)", correct: false },
+                { text: "(cos 6x - cos 4x)", correct: true }
+            ],
+            explanation: "Using the product-to-sum identity: sin A sin B = 1/2 [cos(A-B) - cos(A+B)], we get (cos 6x - cos 4x)."
+        },
+        {
+            question: "Express 1 + 8 sin θ in terms of cos θ.",
+            answers: [
+                { text: "8 - 9 cos θ", correct: false },
+                { text: "1 - 8 cos θ", correct: true },
+                { text: "9 - 8 cos θ", correct: false },
+                { text: "8 - 4 cos² θ", correct: false }
+            ],
+            explanation: "Using trigonometric identities, 1 + 8 sin θ can be expressed as 1 - 8 cos θ."
+        },
+        {
+          question: "Express cos 6x + cos 4x as a product of two trigonometric ratios.",
+          answers: [
+              { text: "cos 5x cos x", correct: false },
+              { text: "2 sin 6x sin 2x", correct: false },
+              { text: "2 cos 7x cos 4x", correct: false },
+              { text: "2 cos 6x cos 2x", correct: true }
+          ],
+          explanation: "Using the sum-to-product identity: cos A + cos B = 2 cos((A+B)/2) cos((A-B)/2), we get 2 cos 6x cos 2x."
+      },
+      {
+          question: "Find the sum of two trigonometric ratios for sin 5x cos x.",
+          answers: [
+              { text: "(sin 2x + sin 2x)", correct: false },
+              { text: "(sin x + sin x)", correct: true },
+              { text: "(sin 3x + sin 2x)", correct: false },
+              { text: "(sin x - sin x)", correct: false }
+          ],
+          explanation: "The product-to-sum identity can be applied here to simplify sin 5x cos x into (sin x + sin x)."
+      },
+      {
+          question: "Express cos 9x sin 5x as a sum of two trigonometric ratios.",
+          answers: [
+              { text: "sin 14x - sin 4x", correct: true },
+              { text: "cos 4x + sin 2x", correct: false },
+              { text: "sin 2x + cos 2x", correct: false },
+              { text: "tan 14x + sin 2x", correct: false }
+          ],
+          explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A+B) - sin(A-B)], we get sin 14x - sin 4x."
+      },
+      {
+          question: "In a triangle ABC, a = 10, b = 6, c = 12. Find the angles and area of the triangle.",
+          answers: [
+              { text: "A = 54.25°, Area = 29.93m²", correct: false },
+              { text: "A = 45.25°, Area = 25.93m²", correct: true },
+              { text: "A = 56.25°, Area = 28.93m²", correct: false },
+              { text: "A = 56.25°, Area = 29.93m²", correct: false }
+          ],
+          explanation: "Using the cosine rule and the formula for the area of a triangle, the correct answer is A = 45.25°, Area = 25.93m²."
+      },
+      {
+          question: "If cos θ = 1, then 1 + tan θ is:",
+          answers: [
+              { text: "2", correct: false },
+              { text: "1", correct: false },
+              { text: "tan θ + 1", correct: false },
+              { text: "undefined", correct: true }
+          ],
+          explanation: "If cos θ = 1, then θ = 0°, which makes tan θ = 0. Thus, 1 + tan θ = 1."
+      },
+      {
+          question: "Express sin 11x cos 7x as a product of two trigonometric ratios.",
+          answers: [
+              { text: "sin 14x + sin 4x", correct: false },
+              { text: "sin 11x - sin 7x", correct: false },
+              { text: "sin 18x - sin 4x", correct: true },
+              { text: "sin 12x + sin 2x", correct: false }
+          ],
+          explanation: "Using the product-to-sum identity, sin 11x cos 7x can be expressed as sin 18x - sin 4x."
+      },
+      {
+        question: "Simplify cos 15x sin 9x.",
+        answers: [
+            { text: "sin 24x - sin 6x", correct: true },
+            { text: "sin 6x + sin 3x", correct: false },
+            { text: "cos 24x + cos 12x", correct: false },
+            { text: "cos 15x - cos 9x", correct: false }
         ],
-        explanation: "Using trigonometric identities, 1 + 8 sin θ can be expressed as 1 - 8 cos θ."
+        explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A+B) - sin(A-B)], we get sin 24x - sin 6x."
     },
     {
-      question: "Express cos 6x + cos 4x as a product of two trigonometric ratios.",
+        question: "Find the value of sin 30° cos 45° without using tables.",
+        answers: [
+            { text: "1/√2", correct: false },
+            { text: "√2/4", correct: true },
+            { text: "1/4", correct: false },
+            { text: "√3/2", correct: false }
+        ],
+        explanation: "sin 30° = 1/2 and cos 45° = 1/√2, so sin 30° cos 45° = (1/2) * (1/√2) = √2/4."
+    },
+    {
+        question: "In triangle ABC, a = 7m, b = 4m, c = 5m, A = 25°. Find angle C and the area of the triangle.",
+        answers: [
+            { text: "C = 15.57°, Area = 2.23m²", correct: true },
+            { text: "C = 14.57°, Area = 6.23m²", correct: false },
+            { text: "C = 17.57°, Area = 4.23m²", correct: false },
+            { text: "C = 13.57°, Area = 3.23m²", correct: false }
+        ],
+        explanation: "Using the sine rule to find angle C and applying the area formula: Area = 1/2 * a * b * sin C, we get C = 15.57°, Area = 2.23m²."
+    },
+    {
+        question: "Simplify (sin θ + cos θ)².",
+        answers: [
+            { text: "1 + 2sinθcosθ", correct: true },
+            { text: "sin²θ + cos²θ", correct: false },
+            { text: "2sinθcosθ", correct: false },
+            { text: "1 - 2sinθcosθ", correct: false }
+        ],
+        explanation: "Expanding (sin θ + cos θ)² results in sin²θ + cos²θ + 2sinθcosθ, and since sin²θ + cos²θ = 1, the expression simplifies to 1 + 2sinθcosθ."
+    },
+    {
+        question: "Solve: (sin θ cos θ) + (sin θ + cos θ).",
+        answers: [
+            { text: "2", correct: false },
+            { text: "1", correct: false },
+            { text: "sin θ + cos θ", correct: false },
+            { text: "sin 2θ + 1", correct: true }
+        ],
+        explanation: "The expression can be rewritten as sin θ cos θ + sin θ + cos θ. Using the identity sin θ cos θ = 1/2 sin 2θ, the result is sin 2θ + 1."
+    },
+    {
+        question: "If sin 45° = cos 45°, find tan 45°.",
+        answers: [
+            { text: "1", correct: true },
+            { text: "√2", correct: false },
+            { text: "1/√2", correct: false },
+            { text: "√3/2", correct: false }
+        ],
+        explanation: "Since sin 45° = cos 45°, and tan θ = sin θ / cos θ, tan 45° = 1."
+    },
+    {
+        question: "If tan θ = 1, find sec² θ.",
+        answers: [
+            { text: "2", correct: true },
+            { text: "1", correct: false },
+            { text: "√2", correct: false },
+            { text: "3", correct: false }
+        ],
+        explanation: "Using the identity sec² θ = 1 + tan² θ, and since tan θ = 1, sec² θ = 1 + 1 = 2."
+    },
+    {
+      question: "Simplify: sin 4x + sin 2x.",
       answers: [
-          { text: "cos 5x cos x", correct: false },
-          { text: "2 sin 6x sin 2x", correct: false },
-          { text: "2 cos 7x cos 4x", correct: false },
-          { text: "2 cos 6x cos 2x", correct: true }
+          { text: "2 sin 3x cos x", correct: true },
+          { text: "2 sin 2x cos 3x", correct: false },
+          { text: "sin 6x", correct: false },
+          { text: "cos 2x + cos 4x", correct: false }
       ],
-      explanation: "Using the sum-to-product identity: cos A + cos B = 2 cos((A+B)/2) cos((A-B)/2), we get 2 cos 6x cos 2x."
-  },
-  {
-      question: "Find the sum of two trigonometric ratios for sin 5x cos x.",
+      explanation: "Using the sum-to-product identity: sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2), we get sin 4x + sin 2x = 2 sin 3x cos x."
+    },
+    {
+      question: "Simplify: cos 6x + cos 4x.",
       answers: [
-          { text: "(sin 2x + sin 2x)", correct: false },
-          { text: "(sin x + sin x)", correct: true },
-          { text: "(sin 3x + sin 2x)", correct: false },
-          { text: "(sin x - sin x)", correct: false }
+          { text: "2 cos 5x cos x", correct: true },
+          { text: "2 cos 6x cos 2x", correct: false },
+          { text: "cos 5x + cos x", correct: false },
+          { text: "2 cos 7x cos 3x", correct: false }
       ],
-      explanation: "The product-to-sum identity can be applied here to simplify sin 5x cos x into (sin x + sin x)."
-  },
-  {
-      question: "Express cos 9x sin 5x as a sum of two trigonometric ratios.",
+      explanation: "Using the sum-to-product identity: cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2), we get cos 6x + cos 4x = 2 cos 5x cos x."
+    },
+    {
+      question: "Find the product of sin 5x cos x.",
       answers: [
-          { text: "sin 14x - sin 4x", correct: true },
-          { text: "cos 4x + sin 2x", correct: false },
-          { text: "sin 2x + cos 2x", correct: false },
-          { text: "tan 14x + sin 2x", correct: false }
+          { text: "1/2 [sin 6x + sin 4x]", correct: true },
+          { text: "sin 6x + cos 4x", correct: false },
+          { text: "sin 5x", correct: false },
+          { text: "cos 6x - cos 4x", correct: false }
       ],
-      explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A+B) - sin(A-B)], we get sin 14x - sin 4x."
-  },
-  {
-      question: "In a triangle ABC, a = 10, b = 6, c = 12. Find the angles and area of the triangle.",
+      explanation: "Using the product-to-sum identity: sin A cos B = 1/2 [sin(A + B) + sin(A - B)], we get sin 5x cos x = 1/2 [sin 6x + sin 4x]."
+    },
+    {
+      question: "Simplify: cos 9x sin 5x.",
       answers: [
-          { text: "A = 54.25°, Area = 29.93m²", correct: false },
-          { text: "A = 45.25°, Area = 25.93m²", correct: true },
-          { text: "A = 56.25°, Area = 28.93m²", correct: false },
-          { text: "A = 56.25°, Area = 29.93m²", correct: false }
+          { text: "1/2 [sin 14x - sin 4x]", correct: true },
+          { text: "sin 9x cos 5x", correct: false },
+          { text: "cos 14x - sin 5x", correct: false },
+          { text: "sin 14x + sin 4x", correct: false }
       ],
-      explanation: "Using the cosine rule and the formula for the area of a triangle, the correct answer is A = 45.25°, Area = 25.93m²."
-  },
-  {
-      question: "If cos θ = 1, then 1 + tan θ is:",
+      explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A + B) - sin(A - B)], we get cos 9x sin 5x = 1/2 [sin 14x - sin 4x]."
+    },
+    {
+      question: "Simplify: cos 15x sin 9x.",
       answers: [
-          { text: "2", correct: false },
+          { text: "1/2 [sin 24x - sin 6x]", correct: true },
+          { text: "sin 12x + cos 6x", correct: false },
+          { text: "cos 15x + sin 9x", correct: false },
+          { text: "sin 15x - cos 9x", correct: false }
+      ],
+      explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A + B) - sin(A - B)], we get cos 15x sin 9x = 1/2 [sin 24x - sin 6x]."
+    },
+    {
+      question: "Solve: sin θ cos θ + sin θ + cos θ.",
+      answers: [
+          { text: "sin 2θ + 1", correct: true },
+          { text: "sin 2θ - 1", correct: false },
+          { text: "1 + 2sin θ cos θ", correct: false },
+          { text: "2sin θ cos θ", correct: false }
+      ],
+      explanation: "The expression can be rewritten as sin θ cos θ + sin θ + cos θ. Using the identity sin θ cos θ = 1/2 sin 2θ, the result is sin 2θ + 1."
+    },
+    {
+      question: "Simplify: (sin θ + cos θ)².",
+      answers: [
+          { text: "1 + 2sin θ cos θ", correct: true },
+          { text: "1 - 2sin θ cos θ", correct: false },
+          { text: "2 sin θ cos θ", correct: false },
+          { text: "sin²θ + cos²θ", correct: false }
+      ],
+      explanation: "Expanding (sin θ + cos θ)² results in sin²θ + cos²θ + 2sin θ cos θ, and since sin²θ + cos²θ = 1, the expression simplifies to 1 + 2sin θ cos θ."
+    },
+    {
+      question: "If tan θ = 1, find sec² θ.",
+      answers: [
+          { text: "2", correct: true },
           { text: "1", correct: false },
-          { text: "tan θ + 1", correct: false },
-          { text: "undefined", correct: true }
+          { text: "√2", correct: false },
+          { text: "3", correct: false }
       ],
-      explanation: "If cos θ = 1, then θ = 0°, which makes tan θ = 0. Thus, 1 + tan θ = 1."
-  },
-  {
-      question: "Express sin 11x cos 7x as a product of two trigonometric ratios.",
+      explanation: "Using the identity sec² θ = 1 + tan² θ, and since tan θ = 1, sec² θ = 1 + 1 = 2."
+    },
+    {
+      question: "Solve: cos² θ + sin² θ.",
       answers: [
-          { text: "sin 14x + sin 4x", correct: false },
-          { text: "sin 11x - sin 7x", correct: false },
-          { text: "sin 18x - sin 4x", correct: true },
-          { text: "sin 12x + sin 2x", correct: false }
+          { text: "1", correct: true },
+          { text: "2", correct: false },
+          { text: "0", correct: false },
+          { text: "sin θ", correct: false }
       ],
-      explanation: "Using the product-to-sum identity, sin 11x cos 7x can be expressed as sin 18x - sin 4x."
-  },
-  {
-    question: "Simplify cos 15x sin 9x.",
-    answers: [
-        { text: "sin 24x - sin 6x", correct: true },
-        { text: "sin 6x + sin 3x", correct: false },
-        { text: "cos 24x + cos 12x", correct: false },
-        { text: "cos 15x - cos 9x", correct: false }
-    ],
-    explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A+B) - sin(A-B)], we get sin 24x - sin 6x."
-},
-{
-    question: "Find the value of sin 30° cos 45° without using tables.",
-    answers: [
-        { text: "1/√2", correct: false },
-        { text: "√2/4", correct: true },
-        { text: "1/4", correct: false },
-        { text: "√3/2", correct: false }
-    ],
-    explanation: "sin 30° = 1/2 and cos 45° = 1/√2, so sin 30° cos 45° = (1/2) * (1/√2) = √2/4."
-},
-{
-    question: "In triangle ABC, a = 7m, b = 4m, c = 5m, A = 25°. Find angle C and the area of the triangle.",
-    answers: [
-        { text: "C = 15.57°, Area = 2.23m²", correct: true },
-        { text: "C = 14.57°, Area = 6.23m²", correct: false },
-        { text: "C = 17.57°, Area = 4.23m²", correct: false },
-        { text: "C = 13.57°, Area = 3.23m²", correct: false }
-    ],
-    explanation: "Using the sine rule to find angle C and applying the area formula: Area = 1/2 * a * b * sin C, we get C = 15.57°, Area = 2.23m²."
-},
-{
-    question: "Simplify (sin θ + cos θ)².",
-    answers: [
-        { text: "1 + 2sinθcosθ", correct: true },
-        { text: "sin²θ + cos²θ", correct: false },
-        { text: "2sinθcosθ", correct: false },
-        { text: "1 - 2sinθcosθ", correct: false }
-    ],
-    explanation: "Expanding (sin θ + cos θ)² results in sin²θ + cos²θ + 2sinθcosθ, and since sin²θ + cos²θ = 1, the expression simplifies to 1 + 2sinθcosθ."
-},
-{
-    question: "Solve: (sin θ cos θ) + (sin θ + cos θ).",
-    answers: [
-        { text: "2", correct: false },
-        { text: "1", correct: false },
-        { text: "sin θ + cos θ", correct: false },
-        { text: "sin 2θ + 1", correct: true }
-    ],
-    explanation: "The expression can be rewritten as sin θ cos θ + sin θ + cos θ. Using the identity sin θ cos θ = 1/2 sin 2θ, the result is sin 2θ + 1."
-},
-{
-    question: "If sin 45° = cos 45°, find tan 45°.",
-    answers: [
-        { text: "1", correct: true },
-        { text: "√2", correct: false },
-        { text: "1/√2", correct: false },
-        { text: "√3/2", correct: false }
-    ],
-    explanation: "Since sin 45° = cos 45°, and tan θ = sin θ / cos θ, tan 45° = 1."
-},
-{
-    question: "If tan θ = 1, find sec² θ.",
-    answers: [
-        { text: "2", correct: true },
-        { text: "1", correct: false },
-        { text: "√2", correct: false },
-        { text: "3", correct: false }
-    ],
-    explanation: "Using the identity sec² θ = 1 + tan² θ, and since tan θ = 1, sec² θ = 1 + 1 = 2."
-},
-{
-  question: "Simplify: sin 4x + sin 2x.",
-  answers: [
-      { text: "2 sin 3x cos x", correct: true },
-      { text: "2 sin 2x cos 3x", correct: false },
-      { text: "sin 6x", correct: false },
-      { text: "cos 2x + cos 4x", correct: false }
-  ],
-  explanation: "Using the sum-to-product identity: sin A + sin B = 2 sin((A + B)/2) cos((A - B)/2), we get sin 4x + sin 2x = 2 sin 3x cos x."
-},
-{
-  question: "Simplify: cos 6x + cos 4x.",
-  answers: [
-      { text: "2 cos 5x cos x", correct: true },
-      { text: "2 cos 6x cos 2x", correct: false },
-      { text: "cos 5x + cos x", correct: false },
-      { text: "2 cos 7x cos 3x", correct: false }
-  ],
-  explanation: "Using the sum-to-product identity: cos A + cos B = 2 cos((A + B)/2) cos((A - B)/2), we get cos 6x + cos 4x = 2 cos 5x cos x."
-},
-{
-  question: "Find the product of sin 5x cos x.",
-  answers: [
-      { text: "1/2 [sin 6x + sin 4x]", correct: true },
-      { text: "sin 6x + cos 4x", correct: false },
-      { text: "sin 5x", correct: false },
-      { text: "cos 6x - cos 4x", correct: false }
-  ],
-  explanation: "Using the product-to-sum identity: sin A cos B = 1/2 [sin(A + B) + sin(A - B)], we get sin 5x cos x = 1/2 [sin 6x + sin 4x]."
-},
-{
-  question: "Simplify: cos 9x sin 5x.",
-  answers: [
-      { text: "1/2 [sin 14x - sin 4x]", correct: true },
-      { text: "sin 9x cos 5x", correct: false },
-      { text: "cos 14x - sin 5x", correct: false },
-      { text: "sin 14x + sin 4x", correct: false }
-  ],
-  explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A + B) - sin(A - B)], we get cos 9x sin 5x = 1/2 [sin 14x - sin 4x]."
-},
-{
-  question: "Simplify: cos 15x sin 9x.",
-  answers: [
-      { text: "1/2 [sin 24x - sin 6x]", correct: true },
-      { text: "sin 12x + cos 6x", correct: false },
-      { text: "cos 15x + sin 9x", correct: false },
-      { text: "sin 15x - cos 9x", correct: false }
-  ],
-  explanation: "Using the product-to-sum identity: cos A sin B = 1/2 [sin(A + B) - sin(A - B)], we get cos 15x sin 9x = 1/2 [sin 24x - sin 6x]."
-},
-{
-  question: "Solve: sin θ cos θ + sin θ + cos θ.",
-  answers: [
-      { text: "sin 2θ + 1", correct: true },
-      { text: "sin 2θ - 1", correct: false },
-      { text: "1 + 2sin θ cos θ", correct: false },
-      { text: "2sin θ cos θ", correct: false }
-  ],
-  explanation: "The expression can be rewritten as sin θ cos θ + sin θ + cos θ. Using the identity sin θ cos θ = 1/2 sin 2θ, the result is sin 2θ + 1."
-},
-{
-  question: "Simplify: (sin θ + cos θ)².",
-  answers: [
-      { text: "1 + 2sin θ cos θ", correct: true },
-      { text: "1 - 2sin θ cos θ", correct: false },
-      { text: "2 sin θ cos θ", correct: false },
-      { text: "sin²θ + cos²θ", correct: false }
-  ],
-  explanation: "Expanding (sin θ + cos θ)² results in sin²θ + cos²θ + 2sin θ cos θ, and since sin²θ + cos²θ = 1, the expression simplifies to 1 + 2sin θ cos θ."
-},
-{
-  question: "If tan θ = 1, find sec² θ.",
-  answers: [
-      { text: "2", correct: true },
-      { text: "1", correct: false },
-      { text: "√2", correct: false },
-      { text: "3", correct: false }
-  ],
-  explanation: "Using the identity sec² θ = 1 + tan² θ, and since tan θ = 1, sec² θ = 1 + 1 = 2."
-},
-{
-  question: "Solve: cos² θ + sin² θ.",
-  answers: [
-      { text: "1", correct: true },
-      { text: "2", correct: false },
-      { text: "0", correct: false },
-      { text: "sin θ", correct: false }
-  ],
-  explanation: "This is a fundamental trigonometric identity: cos² θ + sin² θ = 1."
-},
-{
-  question: "Simplify: cos 2θ - sin 2θ.",
-  answers: [
-      { text: "cos 4θ", correct: false },
-      { text: "sin 4θ", correct: false },
-      { text: "cos 2θ - sin² θ", correct: false },
-      { text: "cos 2θ - sin 2θ = √2 cos(θ + π/4)", correct: true }
-  ],
-  explanation: "The expression cos 2θ - sin 2θ is simplified using sum and difference formulas, resulting in √2 cos(θ + π/4)."
-},
-{
-  question: "Solve for tan θ if sin θ = 1/2 and cos θ = √3/2.",
-  answers: [
-      { text: "1/√3", correct: true },
-      { text: "√3", correct: false },
-      { text: "1", correct: false },
-      { text: "2", correct: false }
-  ],
-  explanation: "Using the identity tan θ = sin θ / cos θ, tan θ = (1/2) / (√3/2) = 1/√3."
-},
-{
-  question: "Simplify: (1 + tan² θ).",
-  answers: [
-      { text: "sec² θ", correct: true },
-      { text: "cosec² θ", correct: false },
-      { text: "1 - tan² θ", correct: false },
-      { text: "tan θ + 1", correct: false }
-  ],
-  explanation: "Using the Pythagorean identity: 1 + tan² θ = sec² θ."
-},
-{
-  question: "Simplify: (sin θ + cos θ)(sin θ - cos θ).",
-  answers: [
-      { text: "sin² θ - cos² θ", correct: true },
-      { text: "sin² θ + cos² θ", correct: false },
-      { text: "2sin θ cos θ", correct: false },
-      { text: "1", correct: false }
-  ],
-  explanation: "Using the difference of squares: (sin θ + cos θ)(sin θ - cos θ) = sin² θ - cos² θ."
-},
-{
-  question: "Find the area of a triangle given a = 10, b = 6, c = 12.",
-  answers: [
-      { text: "Area = 29.93m²", correct: true },
-      { text: "Area = 25.93m²", correct: false },
-      { text: "Area = 20.93m²", correct: false },
-      { text: "Area = 15.93m²", correct: false }
-  ],
-  explanation: "Using Heron's formula, the area is calculated as: √[s(s - a)(s - b)(s - c)], where s = (a + b + c)/2. Substituting values, the area = 29.93m²."
-},
-{
-  question: "Simplify: 1 + tan² θ = ?",
-  answers: [
-      { text: "sec² θ", correct: true },
-      { text: "cosec² θ", correct: false },
-      { text: "sin² θ", correct: false },
-      { text: "tan θ", correct: false }
-  ],
-  explanation: "This is a basic identity: 1 + tan² θ = sec² θ."
-},
-{
-  question: "Find the value of cot θ if sin θ = 3/5.",
-  answers: [
-      { text: "4/3", correct: true },
-      { text: "3/4", correct: false },
-      { text: "5/4", correct: false },
-      { text: "1/2", correct: false }
-  ],
-  explanation: "Using the Pythagorean identity, cos² θ = 1 - sin² θ = 1 - (3/5)² = 16/25, so cos θ = 4/5. Then cot θ = cos θ / sin θ = (4/5) / (3/5) = 4/3."
-},
-{
-  question: "Find sec θ if cos θ = 3/5.",
-  answers: [
-      { text: "5/3", correct: true },
-      { text: "3/5", correct: false },
-      { text: "4/3", correct: false },
-      { text: "5", correct: false }
-  ],
-  explanation: "Secant is the reciprocal of cosine, so sec θ = 1/cos θ = 5/3."
-},
-{
-  question: "Solve: sin² θ + cos² θ = ?",
-  answers: [
-      { text: "1", correct: true },
-      { text: "2", correct: false },
-      { text: "0", correct: false },
-      { text: "tan² θ", correct: false }
-  ],
-  explanation: "This is a basic identity: sin² θ + cos² θ = 1."
-},
-{
-  question: " Simplify (tan 𝜃 − sec𝜃)² / (tan 𝜃 sec𝜃)",
-  answers: [
-      { text: "(tan 𝜃 − sec𝜃)²", correct: true },
-      { text: "(sec 𝜃 − tan𝜃)²", correct: false },
-      { text: "tan²𝜃 + sec²𝜃", correct: false },
-      { text: "1 + tan²𝜃", correct: false }
-  ],
-  explanation: "Simplification of the expression leads to (tan 𝜃 − sec𝜃)² / (tan 𝜃 sec𝜃)."
-},
-{
-  question: " find the range of the set {-1, -2, -3, -5, -22, -21}",
-  answers: [
-      { text: "21", correct: true },
-      { text: "23", correct: false },
-      { text: "22", correct: false },
-      { text: "24", correct: false }
-  ],
-  explanation: "The range is calculated as the difference between the largest and smallest values: -1 - (-22) = 21."
-},
-{
-  question: " Simplify (sin 𝜃 + sin 3𝜃) / (cos 𝜃 cos 3𝜃)",
-  answers: [
-      { text: "tan(𝜃 + 3𝜃)", correct: true },
-      { text: "tan 4𝜃", correct: false },
-      { text: "sin(𝜃 + 3𝜃)", correct: false },
-      { text: "cos(𝜃 - 3𝜃)", correct: false }
-  ],
-  explanation: "Using sum-to-product identities, (sin 𝜃 + sin 3𝜃) / (cos 𝜃 cos 3𝜃) simplifies to tan(𝜃 + 3𝜃)."
-},
-{
-  question: " Find the value of sin 2𝛼 if tan𝛽 = 5/12 and sin 𝛼 = 3/5",
-  answers: [
-      { text: "24/25", correct: true },
-      { text: "36/65", correct: false },
-      { text: "20/65", correct: false },
-      { text: "36/35", correct: false }
-  ],
-  explanation: "Using trigonometric identities for sin 2𝛼 and given values, the correct answer is 24/25."
-},
-{
-  question: " Find dy/dx, if (x²/a²) + (y²/b²) = 1",
-  answers: [
-      { text: "-(b²x)/(a²y)", correct: true },
-      { text: "a²x / b²y", correct: false },
-      { text: "-a²x / b²y", correct: false },
-      { text: "b²x / a²y", correct: false }
-  ],
-  explanation: "Implicit differentiation gives dy/dx = -(b²x)/(a²y)."
-},
-{
-  question: " Simplify cos⁴ 𝜃 − sin⁴ 𝜃",
-  answers: [
-      { text: "cos² 2𝜃", correct: true },
-      { text: "cot² 2𝜃", correct: false },
-      { text: "sin² 2𝜃", correct: false },
-      { text: "tan² 2𝜃", correct: false }
-  ],
-  explanation: "This simplifies using the difference of squares: cos² 2𝜃."
-},
-{
-  question: "7. ∫ (sec²x + sec x tan x) / (sec x + tan x) dx",
-  answers: [
-      { text: "ln |sec x + tan x| + C", correct: true },
-      { text: "2 sec x + C", correct: false },
-      { text: "x + C", correct: false },
-      { text: "sec x + tan x + C", correct: false }
-  ],
-  explanation: "The integral simplifies to ln |sec x + tan x| + C."
-},
-{
-  question: "8. If tan A = √2 + 1, Find sec²A − 2",
-  answers: [
-      { text: "2√2", correct: false },
-      { text: "2 − 2√2", correct: true },
-      { text: "4 + 2√2", correct: false },
-      { text: "2 + 2√2", correct: false }
-  ],
-  explanation: "Using the identity sec² A = 1 + tan² A and substituting tan A = √2 + 1, the answer is 2 − 2√2."
-},
-{
-  question: "9. If tan (A+B) = 1/7, tan A = 1/3, find tan B",
-  answers: [
-      { text: "3/7", correct: false },
-      { text: "-4/11", correct: true },
-      { text: "-2/11", correct: false },
-      { text: "4/11", correct: false }
-  ],
-  explanation: "Using the sum of angles formula for tangent, we solve for tan B = -4/11."
-},
-{
-  question: "10. Find the value of tan 2𝛼 if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
-  answers: [
-      { text: "7/24", correct: false },
-      { text: "24/7", correct: false },
-      { text: "-24/7", correct: true },
-      { text: "-7/24", correct: false }
-  ],
-  explanation: "Using trigonometric identities for tan 2𝛼 and the given values, the answer is -24/7."
-},
-{
-  question: "11. Find the value of cos 22.5° in surd form",
-  answers: [
-      { text: "√(√2−1)/2", correct: true },
-      { text: "√(2+√2)/2", correct: false },
-      { text: "√(2−√2)/2", correct: false },
-      { text: "√(√2−2)/2", correct: false }
-  ],
-  explanation: "Using half-angle formulas, cos 22.5° in surd form is √(√2−1)/2."
-},
-{
-  question: "12. Find the value of 195° in surd form",
-  answers: [
-      { text: "(3−√3)/(3+√3)", correct: true },
-      { text: "(3+√3)/(3−√3)", correct: false },
-      { text: "(-3−√3)/(3+√3)", correct: false },
-      { text: "(3−√3)/(3+√3)", correct: false }
-  ],
-  explanation: "Using appropriate trigonometric identities, the answer is (3−√3)/(3+√3)."
-},
-{
-  question: "13. Find the derivative of y = e^(2x + 3) with respect to x",
-  answers: [
-      { text: "2e^(2x + 3)", correct: true },
-      { text: "2e^(2x - 3)", correct: false },
-      { text: "e^(2x + 3)", correct: false },
-      { text: "3e^(2x + 3)", correct: false }
-  ],
-  explanation: "The derivative of e^(2x + 3) is 2e^(2x + 3), using the chain rule."
-},
-{
-  question: "14. Find dy/dx, If (x²/a²) + (y²/b²) = 1",
-  answers: [
-      { text: "-(b²x)/(a²y)", correct: true },
-      { text: "a²x / b²y", correct: false },
-      { text: "-a²x / b²y", correct: false },
-      { text: "b²x / a²y", correct: false }
-  ],
-  explanation: "By implicit differentiation of (x²/a²) + (y²/b²) = 1, dy/dx = -(b²x)/(a²y)."
-},
-{
-  question: "15. Find the value of sin 22.5° in surd form",
-  answers: [
-      { text: "√(2+√2)/2", correct: true },
-      { text: "-√(√2−2)/2", correct: false },
-      { text: "√(√2−1)/2", correct: false },
-      { text: "√(2−√2)/2", correct: false }
-  ],
-  explanation: "Using half-angle formulas, sin 22.5° in surd form is √(2+√2)/2."
-},
-{
-  question: "16. If tan⁻¹(3x) + tan⁻¹(2x) = π/4, Find the value of x",
-  answers: [
-      { text: "1/6, -1", correct: true },
-      { text: "-1, -1/6", correct: false },
-      { text: "1/6, 1", correct: false },
-      { text: "1, -1/6", correct: false }
-  ],
-  explanation: "Using the addition formula for inverse tangents, solving gives x = 1/6 and x = -1."
-},
-{
-  question: "17. In a triangle ABC, A = 53°, sides b and c are 4.2 cm and 3.5 cm respectively. Find the area of ∆ABC",
-  answers: [
-      { text: "8.70 cm²", correct: true },
-      { text: "16.24 cm²", correct: false },
-      { text: "4.87 cm²", correct: false },
-      { text: "5.87 cm²", correct: false }
-  ],
-  explanation: "The area is calculated using the formula (1/2) * b * c * sin A, which gives 8.70 cm²."
-},
-{
-  question: "18. Determine ∫ 2dx / (x² - 2x + 5)",
-  answers: [
-      { text: "tan⁻¹((x-1)/2) + C", correct: true },
-      { text: "2tan⁻¹((x+1)/2) + C", correct: false },
-      { text: "1/2 tan⁻¹((x-1)/2) + C", correct: false },
-      { text: "tan⁻¹((x+1)/2) + C", correct: false }
-  ],
-  explanation: "The integral is solved by completing the square in the denominator and applying the standard arctangent formula."
-},
-{
-  question: "Find the semi-major axis, semi-minor axis, and eccentricity of the ellipse x² + 7y² = 49.",
-  answers: [
-    { text: "a = 7, b = √7, e = √42", correct: false },
-    { text: "a = 3, b = 4, e = √7", correct: true },
-    { text: "a = 10, b = 5, e = √6", correct: false },
-    { text: "a = 1, b = 2, e = 0", correct: false }
-  ],
-  explanation: "For the ellipse x²/a² + y²/b² = 1, comparing x² + 7y² = 49 with this form, we get a² = 49 and b² = 7. Thus, a = 7 and b = √7. The eccentricity is e = √(a² - b²)/a."
-},
-{
-  question: "Find the equation of the line AM, where A, B, and C are at (1,-4), (3,1), and (5,3), and M is the midpoint of BC.",
-  answers: [
-    { text: "y - 2x + 6 = 0", correct: true },
-    { text: "x + y - 6 = 0", correct: false },
-    { text: "y - x + 3 = 0", correct: false },
-    { text: "None of the above", correct: false }
-  ],
-  explanation: "The midpoint of BC is M = (4, 2). The slope of AM is found using the coordinates of A and M, and the equation of the line is derived using point-slope form."
-},
-{
-  question: "Write down the coordinates of the midpoint M of BC, where B = (3,1) and C = (5,3).",
-  answers: [
-    { text: "(3, 1)", correct: false },
-    { text: "(1, 3)", correct: false },
-    { text: "(4, 2)", correct: true },
-    { text: "(3, 5)", correct: false }
-  ],
-  explanation: "The midpoint M of BC is calculated as ((3 + 5)/2, (1 + 3)/2) = (4, 2)."
-},
-{
-  question: "Find the coordinates of the point P on AM such that AP:PM = 2:1.",
-  answers: [
-    { text: "(1, 2)", correct: false },
-    { text: "(3, 0)", correct: true },
-    { text: "(4, 2)", correct: false },
-    { text: "(7, 5)", correct: false }
-  ],
-  explanation: "Using the section formula, P divides AM in the ratio 2:1, so its coordinates are found as (x1 + 2x2)/(2+1), (y1 + 2y2)/(2+1)."
-},
-{
-  question: "What is the gradient of the line joining the points (5, -1) and (-3, 7)?",
-  answers: [
-    { text: "3", correct: false },
-    { text: "1/3", correct: false },
-    { text: "-3/4", correct: true },
-    { text: "1", correct: false }
-  ],
-  explanation: "The gradient of a line joining two points (x1, y1) and (x2, y2) is given by (y2 - y1)/(x2 - x1)."
-},
-{
-  question: "What is the distance between the points (3, -2) and (8, 10)?",
-  answers: [
-    { text: "5", correct: false },
-    { text: "12", correct: false },
-    { text: "13", correct: true },
-    { text: "19", correct: false }
-  ],
-  explanation: "The distance between two points is calculated using the distance formula √((x2 - x1)² + (y2 - y1)²)."
-},
-{
-  question: "What is the value of b if the gradient of the line joining (-1, b) and (b, 4) is 2/3?",
-  answers: [
-    { text: "b = 1", correct: true },
-    { text: "b = 2", correct: false },
-    { text: "b = -1", correct: false },
-    { text: "b = 0", correct: false }
-  ],
-  explanation: "Using the formula for the gradient (y2 - y1)/(x2 - x1) = 2/3, solve for b."
-},
-{
-  question: "What is the equation of the straight line with gradient 1/3 that passes through the point (1, 2)?",
-  answers: [
-    { text: "2x - y - 1 = 0", correct: true },
-    { text: "x - 3y + 5 = 0", correct: false },
-    { text: "3x - y + 10 = 0", correct: false },
-    { text: "x + y - 1 = 0", correct: false }
-  ],
-  explanation: "Using the point-slope form of a line equation y - y1 = m(x - x1) with gradient 1/3 and point (1, 2), we find the equation."
-},
-{
-  question: "The gradient of the line joining (1, 4) and (1, 2) is 1/2. Find the value of n.",
-  answers: [
-    { text: "n = 3", correct: false },
-    { text: "n = -3", correct: true },
-    { text: "n = -5", correct: false },
-    { text: "n = 5", correct: false }
-  ],
-  explanation: "The line is vertical since both points have the same x-coordinate. Thus, the gradient is undefined. The given gradient suggests there's an error, and n must be corrected to fit the slope of 1/2."
-},
-{
-  question: "What is the angle of slope of the line joining points (4, 3) and (6, 8)?",
-  answers: [
-    { text: "120°", correct: false },
-    { text: "110°", correct: false },
-    { text: "85°", correct: false },
-    { text: "79.7°", correct: true }
-  ],
-  explanation: "The angle of slope can be found using tan⁻¹(m), where m is the gradient of the line. Here, m = (8 - 3) / (6 - 4), and the angle is approximately 79.7°."
-},
-{
-  question: "The equation of a straight line with gradient 1/3 which passes through the point (1, 2) is:",
-  answers: [
-    { text: "2x - y - 1 = 0", correct: true },
-    { text: "3x + y - 5 = 0", correct: false },
-    { text: "x - y + 5 = 0", correct: false },
-    { text: "x + y - 10 = 0", correct: false }
-  ],
-  explanation: "Using the point-slope form with m = 1/3 and passing through (1, 2), we derive the equation 2x - y - 1 = 0."
-},
-{
-  question: "If the lines 3y = 4x + 1 and kx + 3y = 1 are perpendicular to each other, find k.",
-  answers: [
-    { text: "k = 4/3", correct: false },
-    { text: "k = -3/4", correct: true },
-    { text: "k = 3/4", correct: false },
-    { text: "k = 1/3", correct: false }
-  ],
-  explanation: "The slopes of two perpendicular lines are negative reciprocals of each other. The slope of the first line is 4/3, so the slope of the second must be -3/4, making k = -3/4."
-},
-{
-  question: "If the points (-3, 4), (k, -1), and (5, -6) are collinear, find the value of k.",
-  answers: [
-    { text: "k = -7", correct: true },
-    { text: "k = -5", correct: false },
-    { text: "k = 1", correct: false },
-    { text: "k = 9", correct: false }
-  ],
-  explanation: "For the points to be collinear, the slope between any two pairs of points must be equal. Solving the equation formed by equating the slopes gives k = -7."
-},
-{
-  question: "The midpoint of the line joining the points (4, 2) and (-5, 0) is:",
-  answers: [
-    { text: "(9, 2)", correct: false },
-    { text: "(-1, 2)", correct: true },
-    { text: "(1/2, 1)", correct: false },
-    { text: "(0, 1)", correct: false }
-  ],
-  explanation: "The midpoint formula is ((x1 + x2)/2, (y1 + y2)/2). Substituting the values, we get the midpoint as (-1, 2)."
-},
-{
-  question: "What is the equation of the line which makes intercepts of 2 and 3 on the x and y axes respectively?",
-  answers: [
-    { text: "2x + 3y = 1", correct: true },
-    { text: "3x + 2y = 1", correct: false },
-    { text: "3x - 2y = 1", correct: false },
-    { text: "2x - 3y = 1", correct: false }
-  ],
-  explanation: "The equation of a line in intercept form is x/a + y/b = 1. With intercepts 2 and 3, the equation becomes 2x + 3y = 1."
-},
-{
-  question: "Which of the following does not represent a circle?",
-  answers: [
-    { text: "x² + y² = 9", correct: false },
-    { text: "x² + y² + 7x + 3y = 0", correct: false },
-    { text: "3x² + 4y² - 5x + 6y = 0", correct: true },
-    { text: "x² + y² + 2x - 4y = 0", correct: false }
-  ],
-  explanation: "A circle's equation is of the form x² + y² + Dx + Ey + F = 0. The equation 3x² + 4y² is an ellipse, not a circle."
-},
-{
-  question: "What is the value of k if the midpoint of the line joining (1 - k, 4) and (2k + 1, -1) is (k, k)?",
-  answers: [
-    { text: "k = -1", correct: false },
-    { text: "k = -2", correct: true },
-    { text: "k = -3", correct: false },
-    { text: "k = 4", correct: false }
-  ],
-  explanation: "Using the midpoint formula and solving for k, we get k = -2."
-},
-{
-  question: "Find the equation of the asymptotes of the hyperbola 4x² - 9y² = 36.",
-  answers: [
-    { text: "y = ±x", correct: true },
-    { text: "y = ±(2/3)x", correct: false },
-    { text: "y = ±(3/4)x", correct: false },
-    { text: "y = ±(4/3)x", correct: false }
-  ],
-  explanation: "For the hyperbola (x²/a²) - (y²/b²) = 1, the asymptotes are given by y = ±(b/a)x. Here, a = 3 and b = 2, so y = ±x."
-},
-{
-  question: "If (3, -4) is a point on the line y = ax + 2, find the value of a.",
-  options: [
-    { option: "-1", correct: false },
-    { option: "3", correct: true },
-    { option: "2", correct: false },
-    { option: "3/2", correct: false }
-  ],
-  explanation: "Substitute the coordinates (3, -4) into the line equation: -4 = 3a + 2. Solve for a, giving a = 3."
-},
-
-{
-  question: "Find the locus of a point that is equidistant from the points (1,2) and (3,8).",
-  options: [
-    { option: "y = 17/4", correct: false },
-    { option: "y = (x + 12)", correct: false },
-    { option: "y = (x + 8)", correct: false },
-    { option: "y = (11 - x)", correct: true }
-  ],
-  explanation: "The locus of points equidistant from (1,2) and (3,8) is the perpendicular bisector of the line segment joining the points."
-},
-
-{
-  question: "The equation of a circle having the points (2,3) and (-4,5) as the ends of its diameter is:",
-  options: [
-    { option: "x² + y² + 2x - 8y = 70", correct: true },
-    { option: "x² + y² + xy = 130", correct: false },
-    { option: "x² + y² + 2x + 8y = 70", correct: false },
-    { option: "x² + y² + 2x - 8y = 30", correct: false }
-  ],
-  explanation: "Use the formula for the equation of a circle where the endpoints of the diameter are known."
-},
-
-{
-  question: "Find the equation of a parabola with vertex (5,-2) and focus (5,2).",
-  options: [
-    { option: "x² - 10x + 16y = 70", correct: true },
-    { option: "x² + 6x + 10y = 170", correct: false },
-    { option: "2x² + 16x + 10y = 170", correct: false },
-    { option: "2x² + x + 11y + 5 = 0", correct: false }
-  ],
-  explanation: "The equation of a parabola is derived using the vertex and focus coordinates."
-},
-
-{
-  question: "Find the possible values of the constant m for which the curve (m + 5)x² + (m² - 1)y² + 2x + 5y + 5 = 0 is a circle.",
-  options: [
-    { option: "2 and 3", correct: false },
-    { option: "2 and -3", correct: false },
-    { option: "-2 and -3", correct: false },
-    { option: "-2 and 3", correct: true }
-  ],
-  explanation: "The equation represents a circle if the coefficients of x² and y² are equal. Solving for m gives the correct values."
-},
-
-{
-  question: "If the line ax + 4y - 50 is perpendicular to the line 4x - 2y + 60, find the value of a.",
-  options: [
-    { option: "-2", correct: true },
-    { option: "-1/2", correct: false },
-    { option: "1/2", correct: false },
-    { option: "2", correct: false }
-  ],
-  explanation: "For perpendicular lines, the product of the slopes must be -1. Using this, solve for a."
-},
-
-{
-  question: "What is the equation of the circle, center (2, -3) which touches the x-axis?",
-  options: [
-    { option: "x² + y² - 3x + 4y + 20 = 0", correct: false },
-    { option: "x² + y² + 2x + 4y + 10 = 0", correct: false },
-    { option: "x² + y² + 4x + 6y + 40 = 0", correct: false },
-    { option: "x² + y² + 2x + 8y + 10 = 0", correct: true }
-  ],
-  explanation: "The equation of the circle is found using the condition that it touches the x-axis, and its center is at (2, -3)."
-},
-
-{
-  question: "Find the equation of the circle with center (-3,4) and radius 4 units.",
-  options: [
-    { option: "x² + y² + 6x + 8y + 21 = 0", correct: false },
-    { option: "x² + y² + 6x + 8y + 90 = 0", correct: true },
-    { option: "x² + y² - 6x + 8y + 21 = 0", correct: false },
-    { option: "x² + y² + 6x - 8y + 21 = 0", correct: false }
-  ],
-  explanation: "The equation of a circle is derived using its center and radius."
-},
-
+      explanation: "This is a fundamental trigonometric identity: cos² θ + sin² θ = 1."
+    },
+    {
+      question: "Simplify: cos 2θ - sin 2θ.",
+      answers: [
+          { text: "cos 4θ", correct: false },
+          { text: "sin 4θ", correct: false },
+          { text: "cos 2θ - sin² θ", correct: false },
+          { text: "cos 2θ - sin 2θ = √2 cos(θ + π/4)", correct: true }
+      ],
+      explanation: "The expression cos 2θ - sin 2θ is simplified using sum and difference formulas, resulting in √2 cos(θ + π/4)."
+    },
+    {
+      question: "Solve for tan θ if sin θ = 1/2 and cos θ = √3/2.",
+      answers: [
+          { text: "1/√3", correct: true },
+          { text: "√3", correct: false },
+          { text: "1", correct: false },
+          { text: "2", correct: false }
+      ],
+      explanation: "Using the identity tan θ = sin θ / cos θ, tan θ = (1/2) / (√3/2) = 1/√3."
+    },
+    {
+      question: "Find the area of a triangle given a = 10, b = 6, c = 12.",
+      answers: [
+          { text: "Area = 29.93m²", correct: true },
+          { text: "Area = 25.93m²", correct: false },
+          { text: "Area = 20.93m²", correct: false },
+          { text: "Area = 15.93m²", correct: false }
+      ],
+      explanation: "Using Heron's formula, the area is calculated as: √[s(s - a)(s - b)(s - c)], where s = (a + b + c)/2. Substituting values, the area = 29.93m²."
+    },
+    {
+      question: "Simplify: 1 + tan² θ = ?",
+      answers: [
+          { text: "sec² θ", correct: true },
+          { text: "cosec² θ", correct: false },
+          { text: "sin² θ", correct: false },
+          { text: "tan θ", correct: false }
+      ],
+      explanation: "This is a basic identity: 1 + tan² θ = sec² θ."
+    },
+    {
+      question: "Find the value of cot θ if sin θ = 3/5.",
+      answers: [
+          { text: "4/3", correct: true },
+          { text: "3/4", correct: false },
+          { text: "5/4", correct: false },
+          { text: "1/2", correct: false }
+      ],
+      explanation: "Using the Pythagorean identity, cos² θ = 1 - sin² θ = 1 - (3/5)² = 16/25, so cos θ = 4/5. Then cot θ = cos θ / sin θ = (4/5) / (3/5) = 4/3."
+    },
+    {
+      question: "Find sec θ if cos θ = 3/5.",
+      answers: [
+          { text: "5/3", correct: true },
+          { text: "3/5", correct: false },
+          { text: "4/3", correct: false },
+          { text: "5", correct: false }
+      ],
+      explanation: "Secant is the reciprocal of cosine, so sec θ = 1/cos θ = 5/3."
+    },
+    {
+      question: "Solve: sin² θ + cos² θ = ?",
+      answers: [
+          { text: "1", correct: true },
+          { text: "2", correct: false },
+          { text: "0", correct: false },
+          { text: "tan² θ", correct: false }
+      ],
+      explanation: "This is a basic identity: sin² θ + cos² θ = 1."
+    },
+    {
+      question: " Simplify (tan 𝜃 − sec𝜃)² / (tan 𝜃 sec𝜃)",
+      answers: [
+          { text: "(tan 𝜃 − sec𝜃)²", correct: true },
+          { text: "(sec 𝜃 − tan𝜃)²", correct: false },
+          { text: "tan²𝜃 + sec²𝜃", correct: false },
+          { text: "1 + tan²𝜃", correct: false }
+      ],
+      explanation: "Simplification of the expression leads to (tan 𝜃 − sec𝜃)² / (tan 𝜃 sec𝜃)."
+    },
+    {
+      question: " find the range of the set {-1, -2, -3, -5, -22, -21}",
+      answers: [
+          { text: "21", correct: true },
+          { text: "23", correct: false },
+          { text: "22", correct: false },
+          { text: "24", correct: false }
+      ],
+      explanation: "The range is calculated as the difference between the largest and smallest values: -1 - (-22) = 21."
+    },
+    {
+      question: " Simplify (sin 𝜃 + sin 3𝜃) / (cos 𝜃 cos 3𝜃)",
+      answers: [
+          { text: "tan(𝜃 + 3𝜃)", correct: true },
+          { text: "tan 4𝜃", correct: false },
+          { text: "sin(𝜃 + 3𝜃)", correct: false },
+          { text: "cos(𝜃 - 3𝜃)", correct: false }
+      ],
+      explanation: "Using sum-to-product identities, (sin 𝜃 + sin 3𝜃) / (cos 𝜃 cos 3𝜃) simplifies to tan(𝜃 + 3𝜃)."
+    },
+    {
+      question: " Find the value of sin 2𝛼 if tan𝛽 = 5/12 and sin 𝛼 = 3/5",
+      answers: [
+          { text: "24/25", correct: true },
+          { text: "36/65", correct: false },
+          { text: "20/65", correct: false },
+          { text: "36/35", correct: false }
+      ],
+      explanation: "Using trigonometric identities for sin 2𝛼 and given values, the correct answer is 24/25."
+    },
+    {
+      question: " Find dy/dx, if (x²/a²) + (y²/b²) = 1",
+      answers: [
+          { text: "-(b²x)/(a²y)", correct: true },
+          { text: "a²x / b²y", correct: false },
+          { text: "-a²x / b²y", correct: false },
+          { text: "b²x / a²y", correct: false }
+      ],
+      explanation: "Implicit differentiation gives dy/dx = -(b²x)/(a²y)."
+    },
+    {
+      question: " Simplify cos⁴ 𝜃 − sin⁴ 𝜃",
+      answers: [
+          { text: "cos² 2𝜃", correct: true },
+          { text: "cot² 2𝜃", correct: false },
+          { text: "sin² 2𝜃", correct: false },
+          { text: "tan² 2𝜃", correct: false }
+      ],
+      explanation: "This simplifies using the difference of squares: cos² 2𝜃."
+    },
+    {
+      question: "7. ∫ (sec²x + sec x tan x) / (sec x + tan x) dx",
+      answers: [
+          { text: "ln |sec x + tan x| + C", correct: true },
+          { text: "2 sec x + C", correct: false },
+          { text: "x + C", correct: false },
+          { text: "sec x + tan x + C", correct: false }
+      ],
+      explanation: "The integral simplifies to ln |sec x + tan x| + C."
+    },
+    {
+      question: "8. If tan A = √2 + 1, Find sec²A − 2",
+      answers: [
+          { text: "2√2", correct: false },
+          { text: "2 − 2√2", correct: true },
+          { text: "4 + 2√2", correct: false },
+          { text: "2 + 2√2", correct: false }
+      ],
+      explanation: "Using the identity sec² A = 1 + tan² A and substituting tan A = √2 + 1, the answer is 2 − 2√2."
+    },
+    {
+      question: "9. If tan (A+B) = 1/7, tan A = 1/3, find tan B",
+      answers: [
+          { text: "3/7", correct: false },
+          { text: "-4/11", correct: true },
+          { text: "-2/11", correct: false },
+          { text: "4/11", correct: false }
+      ],
+      explanation: "Using the sum of angles formula for tangent, we solve for tan B = -4/11."
+    },
+    {
+      question: "10. Find the value of tan 2𝛼 if tan 𝛽 = 5/12 and sin 𝛼 = 3/5",
+      answers: [
+          { text: "7/24", correct: false },
+          { text: "24/7", correct: false },
+          { text: "-24/7", correct: true },
+          { text: "-7/24", correct: false }
+      ],
+      explanation: "Using trigonometric identities for tan 2𝛼 and the given values, the answer is -24/7."
+    },
+    {
+      question: "11. Find the value of cos 22.5° in surd form",
+      answers: [
+          { text: "√(√2−1)/2", correct: true },
+          { text: "√(2+√2)/2", correct: false },
+          { text: "√(2−√2)/2", correct: false },
+          { text: "√(√2−2)/2", correct: false }
+      ],
+      explanation: "Using half-angle formulas, cos 22.5° in surd form is √(√2−1)/2."
+    },
+    {
+      question: "12. Find the value of 195° in surd form",
+      answers: [
+          { text: "(3−√3)/(3+√3)", correct: true },
+          { text: "(3+√3)/(3−√3)", correct: false },
+          { text: "(-3−√3)/(3+√3)", correct: false },
+          { text: "(3−√3)/(3+√3)", correct: false }
+      ],
+      explanation: "Using appropriate trigonometric identities, the answer is (3−√3)/(3+√3)."
+    },
+    {
+      question: "13. Find the derivative of y = e^(2x + 3) with respect to x",
+      answers: [
+          { text: "2e^(2x + 3)", correct: true },
+          { text: "2e^(2x - 3)", correct: false },
+          { text: "e^(2x + 3)", correct: false },
+          { text: "3e^(2x + 3)", correct: false }
+      ],
+      explanation: "The derivative of e^(2x + 3) is 2e^(2x + 3), using the chain rule."
+    },
+    {
+      question: "14. Find dy/dx, If (x²/a²) + (y²/b²) = 1",
+      answers: [
+          { text: "-(b²x)/(a²y)", correct: true },
+          { text: "a²x / b²y", correct: false },
+          { text: "-a²x / b²y", correct: false },
+          { text: "b²x / a²y", correct: false }
+      ],
+      explanation: "By implicit differentiation of (x²/a²) + (y²/b²) = 1, dy/dx = -(b²x)/(a²y)."
+    },
+    {
+      question: "15. Find the value of sin 22.5° in surd form",
+      answers: [
+          { text: "√(2+√2)/2", correct: true },
+          { text: "-√(√2−2)/2", correct: false },
+          { text: "√(√2−1)/2", correct: false },
+          { text: "√(2−√2)/2", correct: false }
+      ],
+      explanation: "Using half-angle formulas, sin 22.5° in surd form is √(2+√2)/2."
+    },
+    {
+      question: "16. If tan⁻¹(3x) + tan⁻¹(2x) = π/4, Find the value of x",
+      answers: [
+          { text: "1/6, -1", correct: true },
+          { text: "-1, -1/6", correct: false },
+          { text: "1/6, 1", correct: false },
+          { text: "1, -1/6", correct: false }
+      ],
+      explanation: "Using the addition formula for inverse tangents, solving gives x = 1/6 and x = -1."
+    },
+    {
+      question: "17. In a triangle ABC, A = 53°, sides b and c are 4.2 cm and 3.5 cm respectively. Find the area of ∆ABC",
+      answers: [
+          { text: "8.70 cm²", correct: true },
+          { text: "16.24 cm²", correct: false },
+          { text: "4.87 cm²", correct: false },
+          { text: "5.87 cm²", correct: false }
+      ],
+      explanation: "The area is calculated using the formula (1/2) * b * c * sin A, which gives 8.70 cm²."
+    },
+    {
+      question: "18. Determine ∫ 2dx / (x² - 2x + 5)",
+      answers: [
+          { text: "tan⁻¹((x-1)/2) + C", correct: true },
+          { text: "2tan⁻¹((x+1)/2) + C", correct: false },
+          { text: "1/2 tan⁻¹((x-1)/2) + C", correct: false },
+          { text: "tan⁻¹((x+1)/2) + C", correct: false }
+      ],
+      explanation: "The integral is solved by completing the square in the denominator and applying the standard arctangent formula."
+    },
+    {
+      question: "Find the semi-major axis, semi-minor axis, and eccentricity of the ellipse x² + 7y² = 49.",
+      answers: [
+        { text: "a = 7, b = √7, e = √42", correct: false },
+        { text: "a = 3, b = 4, e = √7", correct: true },
+        { text: "a = 10, b = 5, e = √6", correct: false },
+        { text: "a = 1, b = 2, e = 0", correct: false }
+      ],
+      explanation: "For the ellipse x²/a² + y²/b² = 1, comparing x² + 7y² = 49 with this form, we get a² = 49 and b² = 7. Thus, a = 7 and b = √7. The eccentricity is e = √(a² - b²)/a."
+    },
+    {
+      question: "Find the equation of the line AM, where A, B, and C are at (1,-4), (3,1), and (5,3), and M is the midpoint of BC.",
+      answers: [
+        { text: "y - 2x + 6 = 0", correct: true },
+        { text: "x + y - 6 = 0", correct: false },
+        { text: "y - x + 3 = 0", correct: false },
+        { text: "None of the above", correct: false }
+      ],
+      explanation: "The midpoint of BC is M = (4, 2). The slope of AM is found using the coordinates of A and M, and the equation of the line is derived using point-slope form."
+    },
+    {
+      question: "Write down the coordinates of the midpoint M of BC, where B = (3,1) and C = (5,3).",
+      answers: [
+        { text: "(3, 1)", correct: false },
+        { text: "(1, 3)", correct: false },
+        { text: "(4, 2)", correct: true },
+        { text: "(3, 5)", correct: false }
+      ],
+      explanation: "The midpoint M of BC is calculated as ((3 + 5)/2, (1 + 3)/2) = (4, 2)."
+    },
+    {
+      question: "Find the coordinates of the point P on AM such that AP:PM = 2:1.",
+      answers: [
+        { text: "(1, 2)", correct: false },
+        { text: "(3, 0)", correct: true },
+        { text: "(4, 2)", correct: false },
+        { text: "(7, 5)", correct: false }
+      ],
+      explanation: "Using the section formula, P divides AM in the ratio 2:1, so its coordinates are found as (x1 + 2x2)/(2+1), (y1 + 2y2)/(2+1)."
+    },
+    {
+      question: "What is the gradient of the line joining the points (5, -1) and (-3, 7)?",
+      answers: [
+        { text: "3", correct: false },
+        { text: "1/3", correct: false },
+        { text: "-3/4", correct: true },
+        { text: "1", correct: false }
+      ],
+      explanation: "The gradient of a line joining two points (x1, y1) and (x2, y2) is given by (y2 - y1)/(x2 - x1)."
+    },
+    {
+      question: "What is the distance between the points (3, -2) and (8, 10)?",
+      answers: [
+        { text: "5", correct: false },
+        { text: "12", correct: false },
+        { text: "13", correct: true },
+        { text: "19", correct: false }
+      ],
+      explanation: "The distance between two points is calculated using the distance formula √((x2 - x1)² + (y2 - y1)²)."
+    },
+    {
+      question: "What is the value of b if the gradient of the line joining (-1, b) and (b, 4) is 2/3?",
+      answers: [
+        { text: "b = 1", correct: true },
+        { text: "b = 2", correct: false },
+        { text: "b = -1", correct: false },
+        { text: "b = 0", correct: false }
+      ],
+      explanation: "Using the formula for the gradient (y2 - y1)/(x2 - x1) = 2/3, solve for b."
+    },
+    {
+      question: "What is the equation of the straight line with gradient 1/3 that passes through the point (1, 2)?",
+      answers: [
+        { text: "2x - y - 1 = 0", correct: true },
+        { text: "x - 3y + 5 = 0", correct: false },
+        { text: "3x - y + 10 = 0", correct: false },
+        { text: "x + y - 1 = 0", correct: false }
+      ],
+      explanation: "Using the point-slope form of a line equation y - y1 = m(x - x1) with gradient 1/3 and point (1, 2), we find the equation."
+    },
+    {
+      question: "The gradient of the line joining (1, 4) and (1, 2) is 1/2. Find the value of n.",
+      answers: [
+        { text: "n = 3", correct: false },
+        { text: "n = -3", correct: true },
+        { text: "n = -5", correct: false },
+        { text: "n = 5", correct: false }
+      ],
+      explanation: "The line is vertical since both points have the same x-coordinate. Thus, the gradient is undefined. The given gradient suggests there's an error, and n must be corrected to fit the slope of 1/2."
+    },
+    {
+      question: "What is the angle of slope of the line joining points (4, 3) and (6, 8)?",
+      answers: [
+        { text: "120°", correct: false },
+        { text: "110°", correct: false },
+        { text: "85°", correct: false },
+        { text: "79.7°", correct: true }
+      ],
+      explanation: "The angle of slope can be found using tan⁻¹(m), where m is the gradient of the line. Here, m = (8 - 3) / (6 - 4), and the angle is approximately 79.7°."
+    },
+    {
+      question: "The equation of a straight line with gradient 1/3 which passes through the point (1, 2) is:",
+      answers: [
+        { text: "2x - y - 1 = 0", correct: true },
+        { text: "3x + y - 5 = 0", correct: false },
+        { text: "x - y + 5 = 0", correct: false },
+        { text: "x + y - 10 = 0", correct: false }
+      ],
+      explanation: "Using the point-slope form with m = 1/3 and passing through (1, 2), we derive the equation 2x - y - 1 = 0."
+    },
+    {
+      question: "If the lines 3y = 4x + 1 and kx + 3y = 1 are perpendicular to each other, find k.",
+      answers: [
+        { text: "k = 4/3", correct: false },
+        { text: "k = -3/4", correct: true },
+        { text: "k = 3/4", correct: false },
+        { text: "k = 1/3", correct: false }
+      ],
+      explanation: "The slopes of two perpendicular lines are negative reciprocals of each other. The slope of the first line is 4/3, so the slope of the second must be -3/4, making k = -3/4."
+    },
+    {
+      question: "If the points (-3, 4), (k, -1), and (5, -6) are collinear, find the value of k.",
+      answers: [
+        { text: "k = -7", correct: true },
+        { text: "k = -5", correct: false },
+        { text: "k = 1", correct: false },
+        { text: "k = 9", correct: false }
+      ],
+      explanation: "For the points to be collinear, the slope between any two pairs of points must be equal. Solving the equation formed by equating the slopes gives k = -7."
+    },
+    {
+      question: "The midpoint of the line joining the points (4, 2) and (-5, 0) is:",
+      answers: [
+        { text: "(9, 2)", correct: false },
+        { text: "(-1, 2)", correct: true },
+        { text: "(1/2, 1)", correct: false },
+        { text: "(0, 1)", correct: false }
+      ],
+      explanation: "The midpoint formula is ((x1 + x2)/2, (y1 + y2)/2). Substituting the values, we get the midpoint as (-1, 2)."
+    },
+    {
+      question: "What is the equation of the line which makes intercepts of 2 and 3 on the x and y axes respectively?",
+      answers: [
+        { text: "2x + 3y = 1", correct: true },
+        { text: "3x + 2y = 1", correct: false },
+        { text: "3x - 2y = 1", correct: false },
+        { text: "2x - 3y = 1", correct: false }
+      ],
+      explanation: "The equation of a line in intercept form is x/a + y/b = 1. With intercepts 2 and 3, the equation becomes 2x + 3y = 1."
+    },
+    {
+      question: "Which of the following does not represent a circle?",
+      answers: [
+        { text: "x² + y² = 9", correct: false },
+        { text: "x² + y² + 7x + 3y = 0", correct: false },
+        { text: "3x² + 4y² - 5x + 6y = 0", correct: true },
+        { text: "x² + y² + 2x - 4y = 0", correct: false }
+      ],
+      explanation: "A circle's equation is of the form x² + y² + Dx + Ey + F = 0. The equation 3x² + 4y² is an ellipse, not a circle."
+    },
+    {
+      question: "What is the value of k if the midpoint of the line joining (1 - k, 4) and (2k + 1, -1) is (k, k)?",
+      answers: [
+        { text: "k = -1", correct: false },
+        { text: "k = -2", correct: true },
+        { text: "k = -3", correct: false },
+        { text: "k = 4", correct: false }
+      ],
+      explanation: "Using the midpoint formula and solving for k, we get k = -2."
+    },
+    {
+      question: "Find the equation of the asymptotes of the hyperbola 4x² - 9y² = 36.",
+      answers: [
+        { text: "y = ±x", correct: true },
+        { text: "y = ±(2/3)x", correct: false },
+        { text: "y = ±(3/4)x", correct: false },
+        { text: "y = ±(4/3)x", correct: false }
+      ],
+      explanation: "For the hyperbola (x²/a²) - (y²/b²) = 1, the asymptotes are given by y = ±(b/a)x. Here, a = 3 and b = 2, so y = ±x."
+    },
+    {
+      question: "If (3, -4) is a point on the line y = ax + 2, find the value of a.",
+      options: [
+        { option: "-1", correct: false },
+        { option: "3", correct: true },
+        { option: "2", correct: false },
+        { option: "3/2", correct: false }
+      ],
+      explanation: "Substitute the coordinates (3, -4) into the line equation: -4 = 3a + 2. Solve for a, giving a = 3."
+    },
+    
+    {
+      question: "Find the locus of a point that is equidistant from the points (1,2) and (3,8).",
+      options: [
+        { option: "y = 17/4", correct: false },
+        { option: "y = (x + 12)", correct: false },
+        { option: "y = (x + 8)", correct: false },
+        { option: "y = (11 - x)", correct: true }
+      ],
+      explanation: "The locus of points equidistant from (1,2) and (3,8) is the perpendicular bisector of the line segment joining the points."
+    },
+    
+    {
+      question: "The equation of a circle having the points (2,3) and (-4,5) as the ends of its diameter is:",
+      options: [
+        { option: "x² + y² + 2x - 8y = 70", correct: true },
+        { option: "x² + y² + xy = 130", correct: false },
+        { option: "x² + y² + 2x + 8y = 70", correct: false },
+        { option: "x² + y² + 2x - 8y = 30", correct: false }
+      ],
+      explanation: "Use the formula for the equation of a circle where the endpoints of the diameter are known."
+    },
+    
+    {
+      question: "Find the equation of a parabola with vertex (5,-2) and focus (5,2).",
+      options: [
+        { option: "x² - 10x + 16y = 70", correct: true },
+        { option: "x² + 6x + 10y = 170", correct: false },
+        { option: "2x² + 16x + 10y = 170", correct: false },
+        { option: "2x² + x + 11y + 5 = 0", correct: false }
+      ],
+      explanation: "The equation of a parabola is derived using the vertex and focus coordinates."
+    },
+    
+    {
+      question: "Find the possible values of the constant m for which the curve (m + 5)x² + (m² - 1)y² + 2x + 5y + 5 = 0 is a circle.",
+      options: [
+        { option: "2 and 3", correct: false },
+        { option: "2 and -3", correct: false },
+        { option: "-2 and -3", correct: false },
+        { option: "-2 and 3", correct: true }
+      ],
+      explanation: "The equation represents a circle if the coefficients of x² and y² are equal. Solving for m gives the correct values."
+    },
+    
+    {
+      question: "If the line ax + 4y - 50 is perpendicular to the line 4x - 2y + 60, find the value of a.",
+      options: [
+        { option: "-2", correct: true },
+        { option: "-1/2", correct: false },
+        { option: "1/2", correct: false },
+        { option: "2", correct: false }
+      ],
+      explanation: "For perpendicular lines, the product of the slopes must be -1. Using this, solve for a."
+    },
+    
 {
   question: "Evaluate ∫ cos(x) dx.",
   options: [
@@ -9557,3507 +11668,1431 @@ const quizData = {
   ],
   explanation: "By using trigonometric identities, the expression can be simplified to 1 - sin B."
 },
-
-
-
-
+    {
+      question: "What is the equation of the circle, center (2, -3) which touches the x-axis?",
+      options: [
+        { option: "x² + y² - 3x + 4y + 20 = 0", correct: false },
+        { option: "x² + y² + 2x + 4y + 10 = 0", correct: false },
+        { option: "x² + y² + 4x + 6y + 40 = 0", correct: false },
+        { option: "x² + y² + 2x + 8y + 10 = 0", correct: true }
+      ],
+      explanation: "The equation of the circle is found using the condition that it touches the x-axis, and its center is at (2, -3)."
+    },
+    
+    {
+      question: "Find the equation of the circle with center (-3,4) and radius 4 units.",
+      options: [
+        { option: "x² + y² + 6x + 8y + 21 = 0", correct: false },
+        { option: "x² + y² + 6x + 8y + 90 = 0", correct: true },
+        { option: "x² + y² - 6x + 8y + 21 = 0", correct: false },
+        { option: "x² + y² + 6x - 8y + 21 = 0", correct: false }
+      ],
+      explanation: "The equation of a circle is derived using its center and radius."
+    },
+    {
+      question: "Simplify: (1 + tan² θ).",
+      answers: [
+          { text: "sec² θ", correct: true },
+          { text: "cosec² θ", correct: false },
+          { text: "1 - tan² θ", correct: false },
+          { text: "tan θ + 1", correct: false }
+      ],
+      explanation: "Using the Pythagorean identity: 1 + tan² θ = sec² θ."
+    },
+    {
+      question: "Simplify: (sin θ + cos θ)(sin θ - cos θ).",
+      answers: [
+          { text: "sin² θ - cos² θ", correct: true },
+          { text: "sin² θ + cos² θ", correct: false },
+          { text: "2sin θ cos θ", correct: false },
+          { text: "1", correct: false }
+      ],
+      explanation: "Using the difference of squares: (sin θ + cos θ)(sin θ - cos θ) = sin² θ - cos² θ."
+    },
+          {
+            question: "What is the equation of the circle, center (2, -3) which touches the x-axis?",
+            answers: [
+              { text: "x² + y² - 3x + 4y + 20 = 0", correct: false },
+              { text: "x² + y² + 2x + 4y + 10 = 0", correct: false },
+              { text: "x² + y² + 4x + 6y + 40 = 0", correct: false },
+              { text: "x² + y² + 2x + 8y + 10 = 0", correct: true }
+            ],
+            explanation: "The equation of the circle is found using the condition that it touches the x-axis, and its center is at (2, -3)."
+          },
+          
+          {
+            question: "Find the equation of the circle with center (-3,4) and radius 4 units.",
+            answers: [
+              { text: "x² + y² + 6x + 8y + 21 = 0", correct: false },
+              { text: "x² + y² + 6x + 8y + 90 = 0", correct: true },
+              { text: "x² + y² - 6x + 8y + 21 = 0", correct: false },
+              { text: "x² + y² + 6x - 8y + 21 = 0", correct: false }
+            ],
+            explanation: "The equation of a circle is derived using its center and radius."
+          },
+          
+            {
+              question: "Find the antiderivative of e^(sin θ cos θ + sin√θ / √θ)",
+              answers: [
+                { text: "e^(sin θ cos θ) - 2 cos√θ + C", correct: true },
+                { text: "e^(cos θ sin θ) - 2 sin√θ + C", correct: false },
+                { text: "e^(sin θ cos θ) + 2 cos√θ + C", correct: false },
+                { text: "e^(cos θ sin θ) + 2 sin√θ + C", correct: false }
+              ],
+              explanation: "Integrate using the given expression and the antiderivative formulas for exponential functions.<br>5"
+            },
+            {
+              question: "Find the vertical and horizontal asymptotes of y = 4x^2 - 1 / x^2 - 5 - 6",
+              answers: [
+                { text: "(3, 2) and 3", correct: true },
+                { text: "(1, 2) and 3", correct: false },
+                { text: "(3, 4) and 3", correct: false },
+                { text: "(3, 2) and 4", correct: false }
+              ],
+              explanation: "Identify the vertical and horizontal asymptotes by analyzing the given rational function.<br>5"
+            },
+            {
+              question: "Differentiate y = tan(2x + 45)",
+              answers: [
+                { text: "sec^2(2x + 45)", correct: true },
+                { text: "tan(2x + 45)", correct: false },
+                { text: "2 sec(2x + 3)", correct: false },
+                { text: "2 sec(2x + 43)", correct: false }
+              ],
+              explanation: "Differentiate using the derivative formula for the tangent function.<br>5"
+            }          
 
         // Add more questions for Math until you have 30
     ],
     english: [
         { question: "Which word is an antonym of 'happy'?", answers: [{ text: "Sad", correct: true }, { text: "Joyful", correct: false }, { text: "Excited", correct: false }, { text: "Ecstatic", correct: false }], explanation: "Sad is an antonym of happy." },
         { question: "What is the past tense of 'run'?", answers: [{ text: "Ran", correct: true }, { text: "Running", correct: false }, { text: "Runs", correct: false }, { text: "Run", correct: false }], explanation: "The past tense of 'run' is 'ran'." },
+
         {
-            question: "The concept used to show the time of an action relative to the time the sentence is used is ......",
-            answers: [
-                { text: "An hypothesis", correct: false },
-                { text: "Concord", correct: false },
-                { text: "Tense", correct: true },
-                { text: "Pronominal", correct: false }
-            ],
-            explanation: "Tense is used to show the time of an action relative to the time the sentence is used."
-        },
-        {
-            question: "The tense of a sentence is manifested on ......",
-            answers: [
-                { text: "Nominal element", correct: false },
-                { text: "Verbal structure", correct: false },
-                { text: "Adjectival element", correct: false },
-                { text: "Verbal element", correct: true }
-            ],
-            explanation: "The tense of a sentence is manifested on the verbal element."
-        },
-        {
-            question: "The correspondence between the form of the verb and the concept of time is referred to as ......",
-            answers: [
-                { text: "Momegraph", correct: false },
-                { text: "Syntactic structure", correct: false },
-                { text: "Tense", correct: true },
-                { text: "Linguistic concept", correct: false }
-            ],
-            explanation: "The correspondence between the form of the verb and the concept of time is referred to as tense."
-        },
-        {
-            question: "He was playing with us when my father entered the room; The italicised portion of the sentence is an example of .......",
-            answers: [
-                { text: "Simple present tense", correct: false },
-                { text: "Past progressive tense", correct: true },
-                { text: "Past perfect tense", correct: false },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "The italicised portion 'was playing' is an example of past progressive tense."
-        },
-        {
-            question: "Scientific writings involving relating hypothesis usually make use of ......",
-            answers: [
-                { text: "Past progressive tense", correct: false },
-                { text: "Simple future tense", correct: true },
-                { text: "Present perfect tense", correct: false },
-                { text: "Present progressive tense", correct: false }
-            ],
-            explanation: "Scientific writings involving relating hypothesis usually make use of simple future tense."
-        },
-        {
-            question: "The word 'Photograph' writing or drawing with light; The quoted verb in the sentence is expressed in the .......",
-            answers: [
-                { text: "Simple present tense", correct: true },
-                { text: "Future tense", correct: false },
-                { text: "Present perfect progressive tense", correct: false },
-                { text: "A and B above", correct: false }
-            ],
-            explanation: "The verb 'writing' is expressed in the simple present tense."
-        },
-        {
-            question: "The research is given direction by .......",
-            answers: [
-                { text: "Good hypothesis", correct: true },
-                { text: "Classification", correct: false },
-                { text: "Generalizing", correct: false },
-                { text: "Inductive reasoning", correct: false }
-            ],
-            explanation: "Good hypothesis gives direction to the research."
-        },
-        {
-            question: "One of the following assists in making generalizations",
-            answers: [
-                { text: "Hypothesis", correct: false },
-                { text: "Deductive reasoning", correct: true },
-                { text: "Classification", correct: false },
-                { text: "Comparison", correct: false }
-            ],
-            explanation: "Deductive reasoning assists in making generalizations."
-        },
-        {
-            question: "One of the following is not a definition of hypothesis",
-            answers: [
-                { text: "A preposition assumed for the sake of an argument", correct: false },
-                { text: "A supposition", correct: false },
-                { text: "A theory to prove or to be disproved", correct: false },
-                { text: "To fix the boundary or limits of words", correct: true }
-            ],
-            explanation: "Hypothesis is not defined as fixing the boundary or limits of words."
-        },
-        {
-            question: "All the following are types of definitions except .....",
-            answers: [
-                { text: "Logical or formal definition", correct: false },
-                { text: "Definition by description", correct: false },
-                { text: "Definition by example", correct: false },
-                { text: "Definition by analysis", correct: true }
-            ],
-            explanation: "Definition by analysis is not considered a type of definition in this context."
-        },
-        {
-            question: "A major quality of definition by synonyms is ......",
-            answers: [
-                { text: "Brevity", correct: true },
-                { text: "Verbosity", correct: false },
-                { text: "Repetition", correct: false },
-                { text: "Emphasis", correct: false }
-            ],
-            explanation: "A major quality of definition by synonyms is brevity."
-        },
-        {
-            question: "Each of the types of definitions attempts to shed light on the following except ......",
-            answers: [
-                { text: "Topic", correct: false },
-                { text: "Comprehension", correct: true },
-                { text: "Concept", correct: false },
-                { text: "Subject", correct: false }
-            ],
-            explanation: "Each of the types of definitions attempts to shed light on the topic, concept, or subject but not specifically comprehension."
-        },
-        {
-            question: "Comparative and metaphorical definition is characterized by .......",
-            answers: [
-                { text: "Antonym", correct: false },
-                { text: "Description", correct: false },
-                { text: "Simile", correct: true },
-                { text: "Conciseness", correct: false }
-            ],
-            explanation: "Comparative and metaphorical definition is characterized by simile."
-        },
-        {
-            question: "One of the following depends on similarities and differences",
-            answers: [
-                { text: "Classification", correct: true },
-                { text: "Hypothesizing", correct: false },
-                { text: "Generalizing", correct: false },
-                { text: "Conclusion", correct: false }
-            ],
-            explanation: "Classification depends on similarities and differences."
-        },
-        {
-            question: "Inductive reasoning assists in .......",
-            answers: [
-                { text: "Forming a tentative opinion", correct: false },
-                { text: "Drawing conclusion", correct: true },
-                { text: "Making generalizations", correct: false },
-                { text: "Describing items", correct: false }
-            ],
-            explanation: "Inductive reasoning assists in drawing conclusions."
-        },
-        {
-            question: "One of the four communication skills is .......",
-            answers: [
-                { text: "Speaking", correct: false },
-                { text: "Reading", correct: false },
-                { text: "Writing", correct: true },
-                { text: "Listening", correct: false }
-            ],
-            explanation: "Writing is one of the four communication skills."
-        },
-        {
-            question: "An expressive skill central to academic performances is known as ...........",
-            answers: [
-                { text: "Examination", correct: false },
-                { text: "Writing", correct: true },
-                { text: "Note taking", correct: false },
-                { text: "Reading", correct: false }
-            ],
-            explanation: "Writing is an expressive skill central to academic performances."
-        },
-        {
-            question: "In writing, both mental and muscular tasks are employed to express the following except",
-            answers: [
-                { text: "Ideas", correct: false },
-                { text: "Concept", correct: false },
-                { text: "Intention", correct: true },
-                { text: "Phenomena", correct: false }
-            ],
-            explanation: "In writing, mental and muscular tasks are employed to express ideas, concepts, and phenomena, but not specifically intention."
-        },
-        {
-            question: "In a given text, it is essential that ....... leads accurately to further ones",
-            answers: [
-                { text: "Initial point", correct: true },
-                { text: "Writing up", correct: false },
-                { text: "Interactive act", correct: false },
-                { text: "Communication", correct: false }
-            ],
-            explanation: "In a given text, it is essential that the initial point leads accurately to further ones."
-        },
-        {
-            question: "Two things are joined together in English language through ............",
-            answers: [
-                { text: "Communication", correct: false },
-                { text: "Connectives", correct: true },
-                { text: "Replacives", correct: false },
-                { text: "Communicatives", correct: false }
-            ],
-            explanation: "In English language, two things are joined together through connectives."
-        },
-        {
-            question: "In writing, connectives are synonymous with",
-            answers: [
-                { text: "Connectors", correct: true },
-                { text: "Defectors", correct: false },
-                { text: "Denotors", correct: false },
-                { text: "Phrases", correct: false }
-            ],
-            explanation: "In writing, connectives are synonymous with connectors."
-        },
-        {
-            question: "'And' connective is useful in .......",
-            answers: [
-                { text: "Presenting idea", correct: true },
-                { text: "Re-grouping", correct: false },
-                { text: "Numbering", correct: false },
-                { text: "Formalising", correct: false }
-            ],
-            explanation: "The conjunction 'and' is primarily used to connect similar ideas or items in a sentence, making it useful for presenting ideas."
-        },
-        {
-            question: "Notably ........ connective comes in handy in perfect re-statement of ideas",
-            answers: [
-                { text: "And", correct: true },
-                { text: "Or", correct: false },
-                { text: "But", correct: false },
-                { text: "none of the above", correct: false }
-            ],
-            explanation: "The connective 'and' is often used to restate or add additional information to an idea already mentioned."
-        },
-        {
-            question: "For drawing contrast with ideas first presented,....... connective comes in handy",
-            answers: [
-                { text: "And", correct: false },
-                { text: "Or", correct: false },
-                { text: "But", correct: true },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "The conjunction 'but' is used to introduce a contrast or an exception to the previous statement."
-        },
-        {
-            question: "Summation as an instance of the but connective is denoted by",
-            answers: [
-                { text: "Therefore", correct: true },
-                { text: "Rather", correct: false },
-                { text: "By the way", correct: false },
-                { text: "Besides", correct: false }
-            ],
-            explanation: "'Therefore' is used to introduce a conclusion or summary that follows logically from previous statements, making it a type of summation."
-        },
-        {
-            question: "Discourse reference is known as",
-            answers: [
-                { text: "Communication", correct: false },
-                { text: "Connective", correct: false },
-                { text: "Phoric", correct: false },
-                { text: "Referencing", correct: true }
-            ],
-            explanation: "Discourse reference involves linking parts of the text to create cohesion and is commonly known as referencing."
-        },
-        {
-            question: "Phoric reference creates a link between",
-            answers: [
-                { text: "What is being said", correct: false },
-                { text: "What has been said before", correct: true },
-                { text: "A and b", correct: false },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "Phoric reference refers to previous elements in the discourse, thus linking what has been said before."
-        },
-        {
-            question: "Anaphoric reference refers",
-            answers: [
-                { text: "Forward", correct: false },
-                { text: "Backward", correct: true },
-                { text: "To discourse issues", correct: false },
-                { text: "To connectives", correct: false }
-            ],
-            explanation: "Anaphoric reference is when a word or phrase refers back to another word or phrase previously mentioned in the discourse."
-        },
-        {
-            question: "Cataphoric reference refers",
-            answers: [
-                { text: "Forward", correct: true },
-                { text: "Backward", correct: false },
-                { text: "To communicative elements", correct: false },
-                { text: "To aspects", correct: false }
-            ],
-            explanation: "Cataphoric reference is when a word or phrase refers forward to another word or phrase that will be mentioned later in the discourse."
-        },
-        {
-            question: "Lexical items such as here, thus, as follows, the following refers to",
-            answers: [
-                { text: "Anaphoric reference", correct: false },
-                { text: "Cataphoric reference", correct: true },
-                { text: "Phoric reference", correct: false },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "These lexical items (here, thus, as follows, the following) point forward to information that will come later in the text, indicating cataphoric reference."
-        },
-        {
-            question: "The statement 'this should interest you' is representative of .....",
-            answers: [
-                { text: "Cataphoric reference", correct: true },
-                { text: "Anaphoric reference", correct: false },
-                { text: "Demonstrative", correct: false },
-                { text: "Summation", correct: false }
-            ],
-            explanation: "The phrase 'this should interest you' refers to something that will be mentioned later, thus it is a cataphoric reference."
-        },
-        {
-            question: "When words are reported within the paragraph, there is",
-            answers: [
-                { text: "Repetition", correct: true },
-                { text: "Substitution", correct: false },
-                { text: "Ellipsis", correct: false },
-                { text: "Basis", correct: false }
-            ],
-            explanation: "When words are repeated within a paragraph, it helps to reinforce the idea being communicated."
-        },
-        {
-            question: "Repetition facilitates",
-            answers: [
-                { text: "Coherence of thoughts", correct: true },
-                { text: "Substitution of ideas", correct: false },
-                { text: "Purposeful discourse", correct: false },
-                { text: "Monotony", correct: false }
-            ],
-            explanation: "Repetition helps to maintain the coherence of thoughts, making the discourse more understandable."
-        },
-        {
-            question: "Words in substitution are",
-            answers: [
-                { text: "Repeated", correct: false },
-                { text: "Replaced", correct: true },
-                { text: "Removed", correct: false },
-                { text: "Omitted", correct: false }
-            ],
-            explanation: "Substitution involves replacing a word or phrase with another to avoid repetition."
-        },
-        {
-            question: "In ellipsis, words are",
-            answers: [
-                { text: "Omitted", correct: true },
-                { text: "Replaced", correct: false },
-                { text: "Repeated", correct: false },
-                { text: "Removed", correct: false }
-            ],
-            explanation: "Ellipsis is a grammatical feature where words are omitted because they are implied by the context."
-        },
-        {
-            question: "Punctuation marks such as comma, semicolon, colon, are recognized as",
-            answers: [
-                { text: "Repetition", correct: false },
-                { text: "Connectives", correct: true },
-                { text: "Substitution", correct: false },
-                { text: "Ellipsis", correct: false }
-            ],
-            explanation: "Punctuation marks like commas, semicolons, and colons help to connect parts of a sentence or different sentences, acting as connectives."
-        },
-        {
-            question: "A ....... highlights the information that an applicant for a job needs to supply for an employer",
-            answers: [
-                { text: "Personal detail", correct: false },
-                { text: "Curriculum vitae", correct: true },
-                { text: "Reference", correct: false },
-                { text: "Working experience", correct: false }
-            ],
-            explanation: "A curriculum vitae (CV) is a document that outlines an applicant's personal details, education, work experience, and other relevant information for an employer."
-        },
-        {
-            question: "The definition type which attempts to say concisely what something is by equaling it with what is similar to it is ......",
-            answers: [
-                { text: "Definition by synonyms", correct: true },
-                { text: "Definition by example", correct: false },
-                { text: "Definition by antonym", correct: false },
-                { text: "Definition by comparison", correct: false }
-            ],
-            explanation: "Definition by synonyms involves explaining what something is by comparing it to something similar."
-        },
-        {
-            question: "The first step in project writing is .......",
-            answers: [
-                { text: "Looking for a vacuum", correct: false },
-                { text: "Looking for aim and objectives", correct: true },
-                { text: "Picking a topic", correct: false },
-                { text: "Hypothesis", correct: false }
-            ],
-            explanation: "The first step in project writing is to look for the aim and objectives of the project to guide the research."
-        },
-        {
-            question: "Stating the hypothetical term of a project initiative statement waiting confirmation or rejection through research is known as",
-            answers: [
-                { text: "Statement of the problem", correct: false },
-                { text: "Background to the study", correct: false },
-                { text: "Hypothesis", correct: true },
-                { text: "Aim and objectives", correct: false }
-            ],
-            explanation: "A hypothesis is a statement that can be tested through research and is either confirmed or rejected based on the findings."
-        },
-        {
-            question: "A critique of existing points in project writing sets the basis for its",
-            answers: [
-                { text: "Aim and objectives", correct: true },
-                { text: "Significance", correct: false },
-                { text: "Method or procedure", correct: false },
-                { text: "Analysis", correct: false }
-            ],
-            explanation: "Critiquing existing points in a project allows the writer to identify gaps and areas of improvement, which then sets the basis for defining the aim and objectives of the project."
-        },
-        {
-            question: "It is usually significant to locate the statement of the problem of a project in a ........",
-            answers: [
-                { text: "Vacuum", correct: true },
-                { text: "Statement", correct: false },
-                { text: "Method", correct: false },
-                { text: "Background", correct: false }
-            ],
-            explanation: "Locating the statement of the problem in a vacuum means defining it in a context that is void of specific methods or background details, focusing purely on the issue at hand."
-        },
-        {
-            question: "Background to the study of a thesis reveals its",
-            answers: [
-                { text: "Introduction", correct: true },
-                { text: "Hypothesis", correct: false },
-                { text: "Problems", correct: false },
-                { text: "Objective", correct: false }
-            ],
-            explanation: "The background to the study in a thesis provides the introduction, setting the stage for the research by explaining the context and significance of the study."
-        },
-        {
-            question: "A good characteristic of an outline is",
-            answers: [
-                { text: "Brevity", correct: false },
-                { text: "Clarity", correct: true },
-                { text: "Accuracy", correct: false },
-                { text: "None of the above", correct: false }
-            ],
-            explanation: "A good outline should be clear, making it easy for readers to understand the structure and flow of the main text."
-        },
-        {
-            question: "The coherence of an outline is imperative here for it to serve as a visual aid that ........ represents the main text",
-            answers: [
-                { text: "Graphically", correct: true },
-                { text: "Tactically", correct: false },
-                { text: "Artistically", correct: false },
-                { text: "Sequentially", correct: false }
-            ],
-            explanation: "An outline serves as a visual aid that graphically represents the structure and main points of the text, aiding in comprehension and organization."
-        },
-        {
-            question: "Inductive reasoning assists a good deal in",
-            answers: [
-                { text: "Reasoning", correct: false },
-                { text: "Hypothesizing", correct: false },
-                { text: "Drawing conclusions", correct: true },
-                { text: "Classification", correct: false }
-            ],
-            explanation: "Inductive reasoning involves drawing general conclusions from specific observations, making it essential for forming conclusions based on gathered data."
-        },
-        {
-            question: "A good tool in making generalization is",
-            answers: [
-                { text: "Classification", correct: true },
-                { text: "Logical definition", correct: false },
-                { text: "Deductive reasoning", correct: false },
-                { text: "Hypothesizing", correct: false }
-            ],
-            explanation: "Classification helps in grouping similar items together, which is a fundamental step in making generalizations."
-        },
-        {
-            question: "Making generalization is assisted by ......",
-            answers: [
-                { text: "Generalizing", correct: false },
-                { text: "Deductive reasoning", correct: true },
-                { text: "Definition", correct: false },
-                { text: "Hypothesizing", correct: false }
-            ],
-            explanation: "Deductive reasoning starts with general principles to reach specific conclusions, assisting in making accurate generalizations."
-        },
-        {
-            question: "Structure symmetry in our expression is",
-            answers: [
-                { text: "Drawing conclusion", correct: false },
-                { text: "Synonyms", correct: false },
-                { text: "Generalizing", correct: false },
-                { text: "Concord", correct: true }
-            ],
-            explanation: "Concord refers to agreement in grammatical structure, ensuring symmetry and coherence in expressions."
-        },
-        {
-            question: "One of the following is a supposition, a proposition assumed for the sake of an argument",
-            answers: [
-                { text: "Generalizing", correct: false },
-                { text: "Classification", correct: false },
-                { text: "Hypothesis", correct: true },
-                { text: "Grammar", correct: false }
-            ],
-            explanation: "A hypothesis is a supposition made for the purpose of argument or investigation, to be tested through further research."
-        },
-        {
-            question: "To arrange or place into classes is a function of ........",
-            answers: [
-                { text: "Synonyms", correct: false },
-                { text: "Classification", correct: true },
-                { text: "Division", correct: false },
-                { text: "Definition", correct: false }
-            ],
-            explanation: "Classification involves organizing items into categories based on shared characteristics."
-        },
-        {
-            question: "Research is given a direction by .........",
-            answers: [
-                { text: "Generalization", correct: false },
-                { text: "Good Hypothesis", correct: true },
-                { text: "Deductive reasoning", correct: false },
-                { text: "Synonyms", correct: false }
-            ],
-            explanation: "A good hypothesis provides a clear direction for research, outlining what is to be tested or explored."
-        },
-        {
-            question: "One of the following set limits to idea?",
-            answers: [
-                { text: "Description", correct: false },
-                { text: "Classification", correct: false },
-                { text: "Definition", correct: true },
-                { text: "Hypothesis", correct: false }
-            ],
-            explanation: "Definition sets limits to ideas by clearly explaining what they are and distinguishing them from what they are not."
-        },
-        {
-            question: "The following are different types of definition except .........",
-            answers: [
-                { text: "Logical definition", correct: false },
-                { text: "Definition by description", correct: false },
-                { text: "Metaphorical definition", correct: false },
-                { text: "Definition by classification", correct: true }
-            ],
-            explanation: "Logical definition, definition by description, and metaphorical definition are recognized types of definitions, whereas definition by classification is not a standard type."
-        },
-        {
-            question: "One of the following types of definition attempts to say concisely what something is by equaling it with what is similar to it.",
-            answers: [
-                { text: "Definition by example", correct: false },
-                { text: "Formal definition", correct: false },
-                { text: "Definition by synonyms", correct: true },
-                { text: "Metaphoric definition", correct: false }
-            ],
-            explanation: "Definition by synonyms explains a term by comparing it to another word with a similar meaning."
-        },
-        {
-            question: "Which type of definition makes use of the characteristics of what is being described",
-            answers: [
-                { text: "Definition by description", correct: true },
-                { text: "Logical definition", correct: false },
-                { text: "Definition by synonyms", correct: false }
-            ],
-            explanation: "Definition by description involves detailing the characteristics and features of what is being defined."
-        },
-        {
-            question: "The function of grammatical statement that depends on similarities and differences in scientific English is .......",
-            answers: [
-                { text: "Definition", correct: false },
-                { text: "Classification", correct: true },
-                { text: "Reasoning", correct: false },
-                { text: "Generalizing", correct: false }
-            ],
-            explanation: "Classification in scientific English involves grouping based on similarities and differences, aiding in clear communication and understanding."
-        },
-        {
-            question: "Classification is often guided by the following except",
-            answers: [
-                { text: "Interest of the classifier", correct: false },
-                { text: "Nature of the data at hand", correct: false },
-                { text: "Provisional explanation of anything", correct: true },
-                { text: "Specification of certain fields", correct: false }
-            ],
-            explanation: "Provisional explanation, which refers to a hypothesis, is not a guiding factor in classification; instead, it is the classifier's interest, data nature, and field specifications."
-        },
-        {
-            question: "The plural form of hypothesis is ...............",
-            answers: [
-                { text: "Hypothesies", correct: false },
-                { text: "Hypothessis", correct: false },
-                { text: "Hypothesess", correct: false },
-                { text: "Hypotheses", correct: true }
-            ],
-            explanation: "The correct plural form of 'hypothesis' is 'hypotheses'."
-        },
-        {
-            question: "Theory to prove or to be disproved by reference to facts is",
-            answers: [
-                { text: "Hypothesizing", correct: false },
-                { text: "Definition", correct: false },
-                { text: "Hypothesis", correct: true },
-                { text: "Generalizing", correct: false }
-            ],
-            explanation: "A hypothesis is a theory or proposition that can be tested and proven or disproven by reference to facts."
-        },
-        {
-            question: "Conclusion is usually drawn using ........... (a) Hypothesizing (b) Deductive reasoning (c) Generalizing (d) Inductive Reasoning",
-            answers: [
-              { text: "Hypothesizing", correct: false },
-              { text: "Deductive reasoning", correct: false },
-              { text: "Generalizing", correct: false },
-              { text: "Inductive Reasoning", correct: true }
-            ],
-            explanation: "Conclusion is usually drawn using inductive reasoning, which involves making broad generalizations from specific observations."
-          },
-          {
-            question: "To outline means to............. (a) Define (b) List (c) Show structure (d) Delineate facts",
-            answers: [
-              { text: "Define", correct: false },
-              { text: "List", correct: false },
-              { text: "Show structure", correct: true },
-              { text: "Delineate facts", correct: false }
-            ],
-            explanation: "To outline means to show the structure of a document or a presentation, typically in a hierarchical manner."
-          },
-          {
-            question: "Outlining assists in..... (a) making good judgement (b) Organise thought flow (c) Being brief (d) Arriving at good conclusions",
-            answers: [
-              { text: "making good judgement", correct: false },
-              { text: "Organise thought flow", correct: true },
-              { text: "Being brief", correct: false },
-              { text: "Arriving at good conclusions", correct: false }
-            ],
-            explanation: "Outlining assists in organizing the flow of thoughts, which helps in structuring content logically."
-          },
-          {
-            question: "A good outline must reflect (a) Grammaticality (b) Orderliners (c) All examples (d) Good conclusion",
-            answers: [
-              { text: "Grammaticality", correct: false },
-              { text: "Orderliners", correct: true },
-              { text: "All examples", correct: false },
-              { text: "Good conclusion", correct: false }
-            ],
-            explanation: "A good outline must reflect orderliness, ensuring that the content follows a logical sequence."
-          },
-          {
-            question: "Outlining is good for examination purpose because it's ...... (a) Mnemonic potential (b) Stylistics features (c) Pedagogical importance (d) Linguistic applicability",
-            answers: [
-              { text: "Mnemonic potential", correct: true },
-              { text: "Stylistics features", correct: false },
-              { text: "Pedagogical importance", correct: false },
-              { text: "Linguistic applicability", correct: false }
-            ],
-            explanation: "Outlining is good for examination purposes because of its mnemonic potential, helping students remember key points."
-          },
-          {
-            question: "The central defining quality of outlining is ...... (a) Brevity (b) Hypothetical quality (c) Elucidatory nature (d) Simplicity",
-            answers: [
-              { text: "Brevity", correct: false },
-              { text: "Hypothetical quality", correct: false },
-              { text: "Elucidatory nature", correct: false },
-              { text: "Simplicity", correct: true }
-            ],
-            explanation: "The central defining quality of outlining is simplicity, making it easier to understand and follow the structure."
-          },
-          {
-            question: "Indentation in outlining enhances ...... (a) Graphic appeal (b) Logical appeal (c) Classificational appeal (d) Phonological appeal",
-            answers: [
-              { text: "Graphic appeal", correct: false },
-              { text: "Logical appeal", correct: false },
-              { text: "Classificational appeal", correct: true },
-              { text: "Phonological appeal", correct: false }
-            ],
-            explanation: "Indentation in outlining enhances classificational appeal, helping to visually distinguish different levels of hierarchy."
-          },
-          {
-            question: "Outlining also can be useful in the teaching of ..... (a) Morphology (b) Paragraphing (c) Lexis and structure (d) Punctuation",
-            answers: [
-              { text: "Morphology", correct: false },
-              { text: "Paragraphing", correct: true },
-              { text: "Lexis and structure", correct: false },
-              { text: "Punctuation", correct: false }
-            ],
-            explanation: "Outlining can be useful in the teaching of paragraphing, as it helps students organize their thoughts and structure their writing."
-          },
-          {
-            question: "The two clear structures of an outlined text are? (a) Theme and rheme (b) Major and sub-divisions (c) Introduction and body (d) The title and body of the text",
-            answers: [
-              { text: "Theme and rheme", correct: false },
-              { text: "Major and sub-divisions", correct: true },
-              { text: "Introduction and body", correct: false },
-              { text: "The title and body of the text", correct: false }
-            ],
-            explanation: "The two clear structures of an outlined text are major and sub-divisions, providing a clear hierarchy and organization of content."
-          },
-          {
-            question: "Most scientific definitions are ...... (a) Narrative (b) Descriptive (c) Expository (d) Analytical",
-            answers: [
-              { text: "Narrative", correct: false },
-              { text: "Descriptive", correct: true },
-              { text: "Expository", correct: false },
-              { text: "Analytical", correct: false }
-            ],
-            explanation: "Most scientific definitions are descriptive, providing detailed explanations and characteristics of the concept being defined."
-          },
-          {
-            question: "Classification of items could at times be ........ (a) Objective (b) Analytical (c) Subjective (d) Rhetorical",
-            answers: [
-              { text: "Objective", correct: false },
-              { text: "Analytical", correct: false },
-              { text: "Subjective", correct: true },
-              { text: "Rhetorical", correct: false }
-            ],
-            explanation: "Classification of items could at times be subjective, depending on the classifier's perspective or criteria."
-          },
-          {
-            question: "The word definition is from the Latin ...... (a) Definite (b) Definer (c) Diviner (d) Definal",
-            answers: [
-              { text: "Definite", correct: false },
-              { text: "Definer", correct: true },
-              { text: "Diviner", correct: false },
-              { text: "Definal", correct: false }
-            ],
-            explanation: "The word definition is from the Latin 'definer', meaning to set bounds or limits."
-          },
-          {
-            question: "Word formation means ..... (a) An attempt to use word appropriately (b) An attempt to manufacture sentence (c) A process by which words are structured, made or produced (d) A process wherein words are appropriately used and produced",
-            answers: [
-              { text: "An attempt to use word appropriately", correct: false },
-              { text: "An attempt to manufacture sentence", correct: false },
-              { text: "A process by which words are structured, made or produced", correct: true },
-              { text: "A process wherein words are appropriately used and produced", correct: false }
-            ],
-            explanation: "Word formation means a process by which words are structured, made, or produced, involving various morphological processes."
-          },
-          {
-            question: "Word formation assists students to ........ (a) Read well (b) Understand content of a text (c) Confuse one's reader or listener (d) Use bombast",
-            answers: [
-              { text: "Read well", correct: false },
-              { text: "Understand content of a text", correct: true },
-              { text: "Confuse one's reader or listener", correct: false },
-              { text: "Use bombast", correct: false }
-            ],
-            explanation: "Word formation assists students to understand the content of a text by breaking down complex words into their meaningful parts."
-          },
-          {
-            question: "Morpheme could be described as ...... (a) Smallest meaningful unit of a language (b) Smallest meaningless unit of a language (c) Highest meaningless unit of a language (d) Highest meaningful unit of a language",
-            answers: [
-              { text: "Smallest meaningful unit of a language", correct: true },
-              { text: "Smallest meaningless unit of a language", correct: false },
-              { text: "Highest meaningless unit of a language", correct: false },
-              { text: "Highest meaningful unit of a language", correct: false }
-            ],
-            explanation: "A morpheme is the smallest meaningful unit of a language, such as 'un-' in 'unhappy'."
-          },
-          {
-            question: "The word 'boy' is an example of a ....... (a) Fixed morpheme (b) Poor morpheme (c) Complex morpheme (d) Free morpheme",
-            answers: [
-              { text: "Fixed morpheme", correct: false },
-              { text: "Poor morpheme", correct: false },
-              { text: "Complex morpheme", correct: false },
-              { text: "Free morpheme", correct: true }
-            ],
-            explanation: "The word 'boy' is an example of a free morpheme, which can stand alone as a word."
-          },
-          {
-            question: "In the word 'affixes' the coted morpheme is ..... (a) A free morpheme (b) A bound morpheme (c) A complex morpheme (d) A multi-structure morpheme",
-            answers: [
-              { text: "A free morpheme", correct: false },
-              { text: "A bound morpheme", correct: true },
-              { text: "A complex morpheme", correct: false },
-              { text: "A multi-structure morpheme", correct: false }
-            ],
-            explanation: "In the word 'affixes', the morpheme 'fix' is bound because it cannot stand alone and needs to be attached to other morphemes."
-          },
-          {
-            question: "Affixation involves ..... (a) Combination of two free morphemes (b) Combination of two or more free morphemes (c) Combination of two bound morphemes (d) Prefixation and suffixation",
-            answers: [
-              { text: "Combination of two free morphemes", correct: false },
-              { text: "Combination of two or more free morphemes", correct: false },
-              { text: "Combination of two bound morphemes", correct: false },
-              { text: "Prefixation and suffixation", correct: true }
-            ],
-            explanation: "Affixation involves the process of adding prefixes or suffixes to base words or stems."
-          },
-          {
-            question: "The coted morpheme in the word 'PRE'fixation is an example of ..... (a) Suffix (b) Prefix (c) Prefixation (d) Suffixation",
-            answers: [
-              { text: "Suffix", correct: false },
-              { text: "Prefix", correct: true },
-              { text: "Prefixation", correct: false },
-              { text: "Suffixation", correct: false }
-            ],
-            explanation: "The morpheme 'PRE' in 'prefixation' is an example of a prefix, which is added to the beginning of the word."
-          },
-          {
-            question: "The coted morpheme in the word kitchen'ETTE' is a typical example of ..... (a) Suffix (b) Prefix (c) Prefixation (d) Suffixation",
-            answers: [
-              { text: "Suffix", correct: true },
-              { text: "Prefix", correct: false },
-              { text: "Prefixation", correct: false },
-              { text: "Suffixation", correct: false }
-            ],
-            explanation: "The morpheme 'ETTE' in 'kitchenette' is a suffix, added to the end of the word."
-          },
-          {
-            question: "Suffixation is a morpheme placed at ..... (a) The beginning of a word (b) The middle of a word (c) The end of a word (d) Nowhere in a word",
-            answers: [
-              { text: "The beginning of a word", correct: false },
-              { text: "The middle of a word", correct: false },
-              { text: "The end of a word", correct: true },
-              { text: "Nowhere in a word", correct: false }
-            ],
-            explanation: "Suffixation involves adding a morpheme at the end of a word."
-          },
-          {
-            question: "The morpheme 'un-' in the word 'unadvisable' is ...... (a) An inflectional morpheme (b) A noun forming morpheme (c) An adjective forming morpheme (d) A derivational morpheme",
-            answers: [
-              { text: "An inflectional morpheme", correct: false },
-              { text: "A noun forming morpheme", correct: false },
-              { text: "An adjective forming morpheme", correct: false },
-              { text: "A derivational morpheme", correct: true }
-            ],
-            explanation: "The morpheme 'un-' in 'unadvisable' is a derivational morpheme as it changes the meaning of the base word 'advisable'."
-          },
-          {
-            question: "The morpheme '-let' in the word 'leaflet' means ..... (a) 'Big' (b) Small (c) Large (d) Non",
-            answers: [
-              { text: "Big", correct: false },
-              { text: "Small", correct: true },
-              { text: "Large", correct: false },
-              { text: "Non", correct: false }
-            ],
-            explanation: "The morpheme '-let' in 'leaflet' indicates something small."
-          },
-          {
-            question: "Affixation is derivational when it brings about ...... (a) Change in the nominal word (b) Change in the word class alone (c) Change in the meaning of the morpheme",
-            answers: [
-              { text: "Change in the nominal word", correct: false },
-              { text: "Change in the word class alone", correct: false },
-              { text: "Change in the meaning of the morpheme", correct: true }
-            ],
-            explanation: "Affixation is considered derivational when it changes the meaning or part of speech of the base word."
-          },
-          {
-            question: "The process of joining two or more free morphemes together is called .... (a) Affixation (b) Compounding (c) Clipping (d) Suffixation",
-            answers: [
-              { text: "Affixation", correct: false },
-              { text: "Compounding", correct: true },
-              { text: "Clipping", correct: false },
-              { text: "Suffixation", correct: false }
-            ],
-            explanation: "The process of joining two or more free morphemes together is called compounding."
-          },
-          {
-            question: "'Sky-rocketting' is an example of ..... (a) Clipping (b) Blending (c) Acronymy (d) Compounding",
-            answers: [
-              { text: "Clipping", correct: false },
-              { text: "Blending", correct: false },
-              { text: "Acronymy", correct: false },
-              { text: "Compounding", correct: true }
-            ],
-            explanation: "'Sky-rocketting' is an example of compounding, combining 'sky' and 'rocketing'."
-          },
-          {
-            question: "'Flu' is an example of ..... (a) Clipping (b) Blending (c) Compounding (d) Affixation",
-            answers: [
-              { text: "Clipping", correct: true },
-              { text: "Blending", correct: false },
-              { text: "Compounding", correct: false },
-              { text: "Affixation", correct: false }
-            ],
-            explanation: "'Flu' is an example of clipping, shortened from 'influenza'."
-          },
-          {
-            question: "One of these is an example of blending (a) Smog (b) Piano (c) Serious (d) Flu",
-            answers: [
-              { text: "Smog", correct: true },
-              { text: "Piano", correct: false },
-              { text: "Serious", correct: false },
-              { text: "Flu", correct: false }
-            ],
-            explanation: "'Smog' is an example of blending, combining 'smoke' and 'fog'."
-          },
-          {
-            question: "'LAUTECH' is an example of (a) Blending (b) Compounding (c) Acronymy (d) Clipping",
-            answers: [
-              { text: "Blending", correct: false },
-              { text: "Compounding", correct: false },
-              { text: "Acronymy", correct: true },
-              { text: "Clipping", correct: false }
-            ],
-            explanation: "'LAUTECH' is an example of acronymy, derived from the initials of 'Ladoke Akintola University of Technology'."
-          },
-          {
-            question: "One of these is not an example of blending (a) Motel (b) Hotel (c) Smog (d) Transistore",
-            answers: [
-              { text: "Motel", correct: false },
-              { text: "Hotel", correct: true },
-              { text: "Smog", correct: false },
-              { text: "Transistore", correct: false }
-            ],
-            explanation: "'Hotel' is not an example of blending, while 'motel', 'smog', and 'transistore' are blends."
-          },
-          {
-            question: "One of these is not an example of clipping (a) Flu (b) Fridge (c) Piano (d) Smog",
-            answers: [
-              { text: "Flu", correct: false },
-              { text: "Fridge", correct: false },
-              { text: "Piano", correct: false },
-              { text: "Smog", correct: true }
-            ],
-            explanation: "'Smog' is not an example of clipping; it is a blend. 'Flu', 'fridge', and 'piano' are examples of clipping."
-          },
-          {
-            question: "One of the following is not an example of Acronymy (a) AC (b) Sg (c) Lifo (d) Piano",
-            answers: [
-              { text: "AC", correct: false },
-              { text: "Sg", correct: false },
-              { text: "Lifo", correct: false },
-              { text: "Piano", correct: true }
-            ],
-            explanation: "'Piano' is not an example of acronymy",
-          },
-          {
-            question: "The word 'hydrocephalic' is formed via ......",
-            answers: [
-              { text: "Affixation", correct: true },
-              { text: "Coinage", correct: false },
-              { text: "Acronymy", correct: false },
-              { text: "Summation", correct: false }
-            ],
-            explanation: "The word 'hydrocephalic' is formed by adding the prefix 'hydro-' (meaning water) and the suffix '-cephalic' (related to the head). This process is an example of affixation."
-          },
-          {
-            question: "The suffix in the word 'men' is .....",
-            answers: [
-              { text: "–n", correct: false },
-              { text: "–en", correct: false },
-              { text: "–s", correct: true },
-              { text: "–o", correct: false }
-            ],
-            explanation: "The plural form of 'man' is 'men'. The suffix '-s' is added to indicate pluralization in English."
-          },
-          {
-            question: "The inflected morpheme in the word 'children' is ......",
-            answers: [
-              { text: "–s", correct: true },
-              { text: "–d", correct: false },
-              { text: "–en", correct: false },
-              { text: "–ren", correct: false }
-            ],
-            explanation: "In the word 'children', the plural marker '-s' is an inflectional morpheme that changes the grammatical number from singular to plural."
-          },
-          {
-            question: "'AIDS' is an atypical example of .....",
-            answers: [
-              { text: "Idioms", correct: false },
-              { text: "Blending", correct: false },
-              { text: "Compounding", correct: false },
-              { text: "Neologism", correct: true }
-            ],
-            explanation: "'AIDS' stands for Acquired Immunodeficiency Syndrome and is an example of a neologism, a newly coined term or phrase that may not follow typical word formation patterns."
-          },
-          {
-            question: "The word 'amplification' could be broken into .....",
-            answers: [
-              { text: "Ampli+ -ify+ -ation", correct: true },
-              { text: "Ample+ -ify+ -ation", correct: false },
-              { text: "Amplify+ -ation", correct: false },
-              { text: "Amplify + ation", correct: false }
-            ],
-            explanation: "The word 'amplification' breaks down into 'ampli' (root), '-ify' (derivational suffix to form a verb), and '-ation' (suffix indicating a noun form)."
-          },
-          {
-            question: "The word 'multinational' could be segmented thus?",
-            answers: [
-              { text: "Multi-+nation+-al", correct: true },
-              { text: "Mult +-ation+-al", correct: false },
-              { text: "Multination + -al", correct: false },
-              { text: "-multi+action+-al", correct: false }
-            ],
-            explanation: "'Multinational' consists of the prefix 'multi-' meaning many, 'nation' as the root, and '-al' as a suffix indicating pertaining to."
-          },
-          {
-            question: "'Reproductive' contains the morphemes",
-            answers: [
-              { text: "Re-+produc(e)+(+)-ve", correct: true },
-              { text: "Re+product-+-ve", correct: false },
-              { text: "Re-+production+-ive", correct: false },
-              { text: "Re+-produc(e)+-ive", correct: false }
-            ],
-            explanation: "The word 'reproductive' is formed with the prefix 're-' indicating again, 'produc(e)' as the root, and '-ive' as the suffix meaning relating to."
-          },
-          {
-            question: "The word 'reproductive' has the structure?",
-            answers: [
-              { text: "Bound+free+bound", correct: false },
-              { text: "Free+bound+free", correct: true },
-              { text: "Free+free+bound", correct: false },
-              { text: "Bound+free+free", correct: false }
-            ],
-            explanation: "In 'reproductive', 're-' (prefix) is free, 'produc(e)' (root) is bound, and '-ive' (suffix) is free, making it a free+bound+free structure."
-          },
-          {
-            question: "'Cy' in the word 'translucency' indicates ......",
-            answers: [
-              { text: "State, condition or quality", correct: true },
-              { text: "Name, effect and time", correct: false },
-              { text: "State, effect and time", correct: false },
-              { text: "Quality, name and condition", correct: false }
-            ],
-            explanation: "The morpheme 'cy' in 'translucency' indicates a state, condition, or quality, relating to the property of being translucent."
-          },
-          {
-            question: "The morpheme '-ness' indicates",
-            answers: [
-              { text: "State or condition", correct: false },
-              { text: "Condition or quality", correct: false },
-              { text: "State, condition or quality", correct: true },
-              { text: "Process, state and condition", correct: false }
-            ],
-            explanation: "The suffix '-ness' in English forms abstract nouns indicating a state, condition, or quality, such as 'happiness' or 'darkness'."
-          },
-          {
-            question: "English is not used to perform one of the following functions by scientists.",
-            answers: [
-              { text: "Classify", correct: false },
-              { text: "Define", correct: false },
-              { text: "Hypothetical", correct: true },
-              { text: "Generalise", correct: false }
-            ],
-            explanation: "English is not used hypothetically by scientists; hypotheses and hypothetical scenarios are typically formed in a formal scientific manner, rather than through the language itself."
-          },
-          {
-            question: "The word 'definition' originates from",
-            answers: [
-              { text: "Greek", correct: false },
-              { text: "Latin", correct: true },
-              { text: "German", correct: false },
-              { text: "Spanish", correct: false }
-            ],
-            explanation: "The word 'definition' originates from Latin, derived from 'definitio' meaning a bounding, limitation, or definition."
-          },
-          {
-            question: "Definition fixes the ..... of words",
-            answers: [
-              { text: "Focus", correct: false },
-              { text: "Limits", correct: true },
-              { text: "Idea", correct: false },
-              { text: "Usage", correct: false }
-            ],
-            explanation: "Definition establishes the limits or boundaries of the meanings of words, providing clarity and precision in communication."
-          },
-          {
-            question: "Definitions used to achieve rhetorical ends may be influenced by...",
-            answers: [
-              { text: "Intention", correct: true },
-              { text: "Government", correct: false },
-              { text: "Impression", correct: false },
-              { text: "Personality", correct: false }
-            ],
-            explanation: "Definitions used for rhetorical purposes are influenced by the speaker or writer's intention to persuade or influence the audience."
-          },
-          {
-            question: "Definitions attempt to shed light on all but one of the following",
-            answers: [
-              { text: "Topic", correct: false },
-              { text: "Concept", correct: false },
-              { text: "Subject", correct: false },
-              { text: "Opinion", correct: true }
-            ],
-            explanation: "Definitions aim to clarify and explain topics, concepts, or subjects, not opinions, which are subjective viewpoints."
-          },
-          {
-            question: "Definition that is based on class consideration is",
-            answers: [
-              { text: "Logical", correct: true },
-              { text: "Descriptive", correct: false },
-              { text: "Comparative", correct: false },
-              { text: "Synonymous", correct: false }
-            ],
-            explanation: "A logical definition is based on class considerations or categorization, defining a term by placing it in a broader category or class."
-          },
-          {
-            question: "A lion is a wild cat is an example of",
-            answers: [
-              { text: "Definition by description", correct: true },
-              { text: "Formal definition", correct: false },
-              { text: "Definition by comparison", correct: false },
-              { text: "Definition by synonym", correct: false }
-            ],
-            explanation: "The statement 'a lion is a wild cat' defines 'lion' by describing its nature or characteristics, hence it is a definition by description."
-          },
-          {
-            question: "Which definition has the tendency to go circular?",
-            answers: [
-              { text: "Logical", correct: true },
-              { text: "Descriptive", correct: false },
-              { text: "Comparative", correct: false },
-              { text: "Synonymous", correct: false }
-            ],
-            explanation: "A logical definition can sometimes be circular if the defining term is used in the definition itself, potentially leading to circular reasoning."
-          },
-          {
-            question: "Which definition uses the characteristics of what is being defined?",
-            answers: [
-              { text: "Logical", correct: false },
-              { text: "Descriptive", correct: true },
-              { text: "Comparative", correct: false },
-              { text: "Synonymous", correct: false }
-            ],
-            explanation: "A descriptive definition uses the characteristics or attributes of what is being defined to explain its meaning. For example, 'A cleansing soap is a soap that cleanses' defines 'cleansing soap' by describing its function."
-          },
-          {
-            question: "The type of definition mostly used in the dictionary is",
-            answers: [
-              { text: "Logical", correct: false },
-              { text: "Descriptive", correct: true },
-              { text: "Comparative", correct: false },
-              { text: "Synonymous", correct: false }
-            ],
-            explanation: "Dictionaries primarily use descriptive definitions that outline the specific attributes or qualities of a word to clarify its meaning."
-          },
-          {
-            question: "Which of the following illustrates descriptive definition?",
-            answers: [
-              { text: "A cleansing soap is a soap that cleanses", correct: true },
-              { text: "Biology is the science that deals with all forms of life", correct: false },
-              { text: "A man is a rational animal", correct: false },
-              { text: "An acid is a hater of the skin", correct: false }
-            ],
-            explanation: "The statement 'A cleansing soap is a soap that cleanses' defines 'cleansing soap' by describing its function, making it an example of a descriptive definition."
-          },
-          {
-            question: "The type of definition characterized by brevity is",
-            answers: [
-              { text: "Definition by description", correct: false },
-              { text: "Formal definition", correct: false },
-              { text: "Definition by example", correct: false },
-              { text: "Definition by synonym", correct: true }
-            ],
-            explanation: "A definition by synonym provides a brief explanation by equating the term with another familiar term that has a similar meaning, hence characterized by brevity."
-          },
-          {
-            question: "In which of the following definitions are devices of comparison used?",
-            answers: [
-              { text: "Definition by description", correct: false },
-              { text: "Definition by examples", correct: false },
-              { text: "Metaphorical definition", correct: true },
-              { text: "Logical definition", correct: false }
-            ],
-            explanation: "Metaphorical definitions use devices of comparison, such as metaphor or analogy, to explain the meaning of a term by likening it to something else."
-          },
-          {
-            question: "Classification is not guided by one of the following",
-            answers: [
-              { text: "Interest of the classifier", correct: false },
-              { text: "Nature of the data at hand", correct: false },
-              { text: "Specification of certain fields", correct: false },
-              { text: "Subjectivity of the classifier", correct: true }
-            ],
-            explanation: "Classification should ideally be objective and systematic, not influenced by subjective opinions or biases of the classifier."
-          },
-          {
-            question: "Hypotheses can be validated or invalidated by",
-            answers: [
-              { text: "Confirmation", correct: false },
-              { text: "Definition", correct: false },
-              { text: "Experimentation", correct: true },
-              { text: "Conclusion", correct: false }
-            ],
-            explanation: "Hypotheses are tested through experimentation to determine if they are supported or refuted by empirical evidence."
-          },
-          {
-            question: "Research is given direction by",
-            answers: [
-              { text: "Definition", correct: false },
-              { text: "Classification", correct: false },
-              { text: "Hypothesis", correct: true },
-              { text: "Generalization", correct: false }
-            ],
-            explanation: "Research is guided by hypotheses, which serve as tentative explanations or predictions that researchers seek to test and validate through investigation."
-          },
-          {
-            question: "What type of reasoning assists in drawing conclusions?",
-            answers: [
-              { text: "Deductive", correct: false },
-              { text: "Inductive", correct: true },
-              { text: "Syllogistic", correct: false },
-              { text: "Premised", correct: false }
-            ],
-            explanation: "Inductive reasoning involves drawing general conclusions from specific observations or evidence, making it essential in scientific inquiry."
-          },
-          {
-            question: "Making generalizations is assisted by",
-            answers: [
-              { text: "Deductive reasoning", correct: true },
-              { text: "Inductive reasoning", correct: false },
-              { text: "Syllogistic reasoning", correct: false },
-              { text: "Premised reasoning", correct: false }
-            ],
-            explanation: "Deductive reasoning is used to make generalizations by applying general principles or theories to specific cases or observations."
-          },
-          {
-            question: "A consideration for syllogism is the characteristic of",
-            answers: [
-              { text: "Deductive reasoning", correct: true },
-              { text: "Inductive reasoning", correct: false },
-              { text: "Syllogistic reasoning", correct: false },
-              { text: "Premised reasoning", correct: false }
-            ],
-            explanation: "Syllogism involves deductive reasoning where a conclusion is drawn from two given or assumed propositions (premises)."
-          },
-          {
-            question: "Syllogism refers to",
-            answers: [
-              { text: "Reasoning syllogistically", correct: false },
-              { text: "Reasoning inductively", correct: false },
-              { text: "Drawing conclusion", correct: false },
-              { text: "Making logical statements having premises and conclusion", correct: true }
-            ],
-            explanation: "Syllogism is a form of reasoning in which a conclusion is drawn from two premises, following a specific logical structure."
-          },
-          {
-            question: "Which of the following does not fit into the same class with others?",
-            answers: [
-              { text: "Verbs", correct: false },
-              { text: "Nouns", correct: false },
-              { text: "Pronouns", correct: true },
-              { text: "Adjectives", correct: false }
-            ],
-            explanation: "Pronouns differ from verbs, nouns, and adjectives because they substitute for nouns or noun phrases, functioning differently in grammar and syntax."
-          },
-          {
-            question: "One of the following words belongs to a different disciplinary class?",
-            answers: [
-              { text: "Diagnose", correct: false },
-              { text: "Prescribe", correct: false },
-              { text: "Inject", correct: false },
-              { text: "Examine", correct: true }
-            ],
-            explanation: "'Examine' does not belong to the same disciplinary class as 'diagnose', 'prescribe', and 'inject', which are medical actions, whereas 'examine' is a more general term used in various contexts."
-          },
-          {
-            question: "What type of definition is mostly used for scientific definitions of terms and concepts?",
-            answers: [
-              { text: "Definition by logic", correct: false },
-              { text: "Definition by example", correct: false },
-              { text: "Definition by description", correct: true },
-              { text: "Definition by comparison", correct: false }
-            ],
-            explanation: "Scientific definitions often employ descriptive definitions that articulate the precise characteristics or properties of terms and concepts."
-          },
-          {
-            question: "Classificational yardsticks include",
-            answers: [
-              { text: "Arranging and placing words into classes", correct: true },
-              { text: "Items and individuals", correct: false },
-              { text: "Similarities and differences of items", correct: false },
-              { text: "Group of items and categories of classification", correct: false }
-            ],
-            explanation: "Classificational yardsticks involve the systematic arrangement and categorization of words or items into classes based on shared characteristics or criteria."
-          },
-          {
-            question: "The words 'conclusion and generalisation' are",
-            answers: [
-              { text: "Absolute synonyms", correct: false },
-              { text: "Complete synonyms", correct: false },
-              { text: "Hyponyms", correct: false },
-              { text: "Near synonyms", correct: true }
-            ],
-            explanation: "'Conclusion' and 'generalization' are near synonyms, as they both refer to the act of reaching an inference or summary based on evidence or reasoning, though 'conclusion' tends to be more specific."
-          },
-          {
-            question: "What definitional approach is recommended for scientists?",
-            answers: [
-              { text: "Logical approach", correct: false },
-              { text: "Single-definition approach", correct: false },
-              { text: "Bi-definition approach", correct: false },
-              { text: "Eclectic approach", correct: true }
-            ],
-            explanation: "Scientists often use an eclectic approach to definitions, combining logical, descriptive, and sometimes comparative methods to provide comprehensive explanations."
-          },
-          {
-            question: "The Formal definition was mostly used by logicians during the time of",
-            answers: [
-              { text: "Socrates", correct: false },
-              { text: "Bongo", correct: false },
-              { text: "Aristotle", correct: true },
-              { text: "Colby", correct: false }
-            ],
-            explanation: "Formal definitions, as used by logicians, were particularly prominent during the time of Aristotle, who contributed significantly to the development of logical reasoning."
-          },
-          {
-            question: "Most scientific definitions are largely influenced by",
-            answers: [
-              { text: "Description and characterization", correct: false },
-              { text: "Experiment and Observation", correct: true },
-              { text: "Apparatus and hypothesis", correct: false },
-              { text: "Comparison and observation", correct: false }
-            ],
-            explanation: "Scientific definitions are primarily influenced by empirical evidence gathered through experiments and observations, which provide the basis for accurate and objective definitions."
-          },
-          {
-            question: "The descriptive definition of thermal conductivity as the rate of passage of heat from face to face area per difference of temperature between faces when one is thick, is given by",
-            answers: [
-              { text: "Osuala", correct: false },
-              { text: "Odunjo J.F.", correct: false },
-              { text: "Sawe", correct: true },
-              { text: "Gorrel and Laid", correct: false }
-            ],
-            explanation: "The descriptive definition of thermal conductivity described in the question is attributed to Sawe."
-          },
-          {
-            question: "One of the following is not a diurnal usage of English language in modern times.",
-            answers: [
-              { text: "Academic discourse", correct: true },
-              { text: "Domestic interaction", correct: false },
-              { text: "Mercantile negotiation", correct: false },
-              { text: "Everytime interaction", correct: false }
-            ],
-            explanation: "Academic discourse does not refer to daily or commonplace usage but rather specialized communication within educational or scholarly contexts."
-          },
-          {
-            question: "Which of the following is a definition by synonyms?",
-            answers: [
-              { text: "Verbs are words like go, come", correct: false },
-              { text: "To be proud is to be humble", correct: false },
-              { text: "To lie is to recline", correct: false },
-              { text: "Facecap is a good lecturer", correct: true }
-            ],
-            explanation: "The statement 'Facecap is a good lecturer' defines 'Facecap' by comparing it to 'a good lecturer', making it an example of a definition by synonyms."
-          },
-          {
-            question: "Connectives are not used to connect one of the following in English discourse.",
-            answers: [
-              { text: "Expressions", correct: false },
-              { text: "Ideas", correct: false },
-              { text: "Information", correct: false },
-              { text: "System", correct: true }
-            ],
-            explanation: "Connectives in English discourse are used to link expressions, ideas, and information to enhance coherence and flow, but not typically to connect systems."
-          },
-          {
-            question: "Which of the following connectors is not used to signal movement from idea to idea?",
-            answers: [
-              { text: "Besides", correct: true },
-              { text: "Now", correct: false },
-              { text: "With reference to", correct: false },
-              { text: "By the way", correct: false }
-            ],
-            explanation: "'Besides' is not typically used to signal movement from one idea to another; instead, it indicates addition or an alternative."
-          },
-          {
-            question: "Ideas are summed up using one of the following connectives.",
-            answers: [
-              { text: "Consequently", correct: false },
-              { text: "Above all", correct: false },
-              { text: "As a result", correct: false },
-              { text: "So", correct: true }
-            ],
-            explanation: "'So' is used to summarize or conclude ideas, making it a connective that indicates summation."
-          },
-          {
-            question: "\"And connectives\" are used for all but one of the following functions.",
-            answers: [
-              { text: "Movement from idea to idea", correct: false },
-              { text: "Drawing contrast with earlier idea", correct: true },
-              { text: "Presenting result of ideas", correct: false },
-              { text: "Summing up idea", correct: false }
-            ],
-            explanation: "Connectives like \"and\" typically do not serve to draw contrast with earlier ideas but rather to add information or link related ideas."
-          },
-          {
-            question: "Which of the following connectives serves to restate ideas.",
-            answers: [
-              { text: "Instead", correct: false },
-              { text: "Conversely", correct: false },
-              { text: "Rather", correct: false },
-              { text: "Nevertheless", correct: true }
-            ],
-            explanation: "'Nevertheless' is a connective used to introduce a contrasting idea that serves to restate or affirm the original point."
-          },
-          {
-            question: "Which of the following connectives is functionally odd?",
-            answers: [
-              { text: "Accordingly", correct: false },
-              { text: "Consequently", correct: false },
-              { text: "Finally", correct: true },
-              { text: "So", correct: false }
-            ],
-            explanation: "'Finally' is functionally odd among the given connectives as it typically denotes the last in a series or sequence, rather than cause-effect relationships."
-          },
-          {
-            question: "Anaphoric reference points",
-            answers: [
-              { text: "Forward", correct: false },
-              { text: "Backward", correct: true },
-              { text: "Forward and Backward", correct: false },
-              { text: "None of the above", correct: false }
-            ],
-            explanation: "Anaphoric reference points in language refer backward to something previously mentioned, aiding in coherence and cohesion."
-          },
-          {
-            question: "Which of the following is not used for connecting functions?",
-            answers: [
-              { text: "Phoric reference", correct: false },
-              { text: "Substitution", correct: false },
-              { text: "Logical connectors", correct: false },
-              { text: "None of the above", correct: true }
-            ],
-            explanation: "None of the options listed is specifically used solely for connecting functions; they serve various roles in discourse."
-          },
-          {
-            question: "It was raining ....I took a taxi.",
-            answers: [
-              { text: "Or", correct: false },
-              { text: "So", correct: true },
-              { text: "But", correct: false },
-              { text: "Because", correct: false }
-            ],
-            explanation: "'So' is used here to indicate a consequence or result following the rain, making it the appropriate connective."
-          },
-          {
-            question: "She quit her job.. she is looking for a new one now.",
-            answers: [
-              { text: "As well as", correct: false },
-              { text: "Whereas", correct: false },
-              { text: "So", correct: true },
-              { text: "Because", correct: false }
-            ],
-            explanation: "'So' is used to show a consequence or subsequent action after quitting the job, linking the two sentences logically."
-          },
-          {
-            question: "He doesn't like her .... she is not honest.",
-            answers: [
-              { text: "Even if", correct: false },
-              { text: "Because", correct: true },
-              { text: "But", correct: false },
-              { text: "So", correct: false }
-            ],
-            explanation: "'Because' is used to indicate a reason or cause for the first statement ('He doesn't like her'), linking it to the second statement ('she is not honest')."
-          },
-          {
-            question: "They walked home ....there were no more buses.",
-            answers: [
-              { text: "Therefore", correct: false },
-              { text: "Although", correct: false },
-              { text: "Because", correct: true },
-              { text: "Or", correct: false }
-            ],
-            explanation: "'Because' is used to explain the reason ('there were no more buses') for the action ('They walked home')."
-          },
-          {
-            question: "It was cold ....I shut the window.",
-            answers: [
-              { text: "Unless", correct: false },
-              { text: "So", correct: true },
-              { text: "Because", correct: false },
-              { text: "Otherwise", correct: false }
-            ],
-            explanation: "'So' is used to indicate the consequence or action taken ('I shut the window') due to the cold weather."
-          },
-          {
-            question: "How many of you want to attend the seminar, ..... I was saying?",
-            answers: [
-              { text: "As", correct: true },
-              { text: "Therefore", correct: false },
-              { text: "And", correct: false },
-              { text: "So", correct: false }
-            ],
-            explanation: "'As' is used to introduce or link to a statement or topic that was previously mentioned ('the seminar')."
-          },
-          {
-            question: "He must be from a rich home .... he spends a lot of money on gifts for his girlfriend.",
-            answers: [
-              { text: "Because", correct: true },
-              { text: "Attend", correct: false },
-              { text: "So", correct: false },
-              { text: "Yet", correct: false }
-            ],
-            explanation: "'Because' is used to indicate a reason or cause for the conclusion drawn ('He must be from a rich home')."
-          },
-          {
-            question: "She punished the little girl .... put salt in his coffee.",
-            answers: [
-              { text: "When", correct: false },
-              { text: "Who", correct: true },
-              { text: "Even if", correct: false },
-              { text: "Therefore", correct: false }
-            ],
-            explanation: "'Who' is used here to refer back to 'the little girl', indicating that 'the little girl' is the one who put salt in his coffee."
-          },
-          {
-            question: "Joe is rich;.... his cousin Josephine is poor.",
-            answers: [
-              { text: "And", correct: false },
-              { text: "But", correct: true },
-              { text: "Nevertheless", correct: false },
-              { text: "Afterward", correct: false }
-            ],
-            explanation: "'But' is used to contrast the wealth of Joe with the poverty of his cousin Josephine."
-          },
-          {
-            question: "The children didn't study ...., they failed the course.",
-            answers: [
-              { text: "That", correct: false },
-              { text: "And", correct: false },
-              { text: "So", correct: true },
-              { text: "Hence", correct: false }
-            ],
-            explanation: "'So' is used here to indicate the consequence of not studying, which led to failing the course."
-          },
-          {
-            question: "We live in the same building,....we hardly see each other.",
-            answers: [
-              { text: "Because", correct: false },
-              { text: "So", correct: false },
-              { text: "Therefore", correct: false },
-              { text: "But", correct: true }
-            ],
-            explanation: "'But' is used to contrast the fact that they live in the same building with the fact that they hardly see each other."
-          },
-          {
-            question: "It was a windy and rainy night... I decided to go out.",
-            answers: [
-              { text: "But", correct: false },
-              { text: "So", correct: false },
-              { text: "Yet", correct: true },
-              { text: "Therefore", correct: false }
-            ],
-            explanation: "'Yet' is used to express contrast between the adverse weather conditions and the decision to go out."
-          },
-          {
-            question: "These tools are old ....still good.",
-            answers: [
-              { text: "And", correct: false },
-              { text: "Because", correct: false },
-              { text: "But", correct: true },
-              { text: "Therefore", correct: false }
-            ],
-            explanation: "'But' is used to contrast the age of the tools with their functionality, indicating that despite being old, they are still in good condition."
-          },
-          {
-            question: "The classes are quite difficult .....I'm doing well.",
-            answers: [
-              { text: "Therefore", correct: false },
-              { text: "Yet", correct: true },
-              { text: "But", correct: false },
-              { text: "Or", correct: false }
-            ],
-            explanation: "'Yet' is used here to contrast the difficulty of the classes with the speaker's good performance."
-          },
-          {
-            question: "They visited lots of castles ....palaces in England.",
-            answers: [
-              { text: "Or", correct: false },
-              { text: "And", correct: true },
-              { text: "But", correct: false },
-              { text: "Whereas", correct: false }
-            ],
-            explanation: "'And' is used to indicate the addition of visiting castles and palaces in England."
-          },
-          {
-            question: "Leafy vegetables, .... cabbage and lettuce, are good sources of many vitamins.",
-            answers: [
-              { text: "Unless", correct: false },
-              { text: "For instance", correct: true },
-              { text: "Hence", correct: false },
-              { text: "As well as", correct: false }
-            ],
-            explanation: "'For instance' is used to provide examples (cabbage and lettuce) of leafy vegetables, indicating they are good sources of many vitamins."
-          },
-          {
-            question: "You need to work hard .... you can have better result.",
-            answers: [
-              { text: "When", correct: false },
-              { text: "So that", correct: false },
-              { text: "And", correct: false },
-              { text: "Or", correct: true }
-            ],
-            explanation: "'Or' is used here to suggest a condition where either working hard or having better results are possible outcomes."
-          },
-          {
-            question: "Babalola wants to buy some new T-Shirts, ....he needs to save money to buy some new books.",
-            answers: [
-              { text: "So that", correct: false },
-              { text: "And", correct: false },
-              { text: "But", correct: true },
-              { text: "Although", correct: false }
-            ],
-            explanation: "'But' is used to contrast Babalola's desire to buy new T-Shirts with the necessity to save money for new books."
-          },
-          {
-            question: "Tola is selfish,...is rich.",
-            answers: [
-              { text: "When", correct: false },
-              { text: "But", correct: true },
-              { text: "So", correct: false },
-              { text: "Although", correct: false }
-            ],
-            explanation: "'But' is used to contrast Tola being selfish with the fact that she is rich."
-          },
-          {
-            question: "She can speak French ..... she can't write it.",
-            answers: [
-              { text: "So", correct: false },
-              { text: "However", correct: false },
-              { text: "But", correct: true },
-              { text: "Meanwhile", correct: false }
-            ],
-            explanation: "'But' is used to contrast the ability to speak French with the inability to write it."
-          },
-          {
-            question: "He worked hard ..... he passed all his examinations.",
-            answers: [
-              { text: "Because", correct: false },
-              { text: "However", correct: false },
-              { text: "Unless", correct: false },
-              { text: "So", correct: true }
-            ],
-            explanation: "'So' is used here to indicate the result of working hard, which is passing all his examinations."
-          },
-          {
-            question: "He went home .... he was tired.",
-            answers: [
-              { text: "Unless", correct: false },
-              { text: "Because", correct: true },
-              { text: "So", correct: false },
-              { text: "Therefore", correct: false }
-            ],
-            explanation: "'Because' is used to indicate the reason ('he was tired') for the action ('he went home')."
-          },
-          {
-            question: "She is working late next Friday ..... she can't come to the party.",
-            answers: [
-              { text: "So", correct: false },
-              { text: "Therefore", correct: false },
-              { text: "Unless", correct: false },
-              { text: "Whereas", correct: true }
-            ],
-            explanation: "'Whereas' is used here to contrast the fact that she is working late next Friday with the fact that she can't come to the party."
-          },
-          {
-            question: "We will not go for a walk,....it stops raining.",
-            answers: [
-              { text: "So", correct: false },
-              { text: "Unless", correct: false },
-              { text: "Until", correct: false },
-              { text: "Or", correct: true }
-            ],
-            explanation: "'Or' is used here to suggest an alternative condition where either going for a walk or it stopping raining are possible outcomes."
-          },
-          {
-            question: "I have to help my mother in her garden..... I can go to the cinema",
-            answers: [
-              { text: "Because", correct: false },
-              { text: "Unless", correct: false },
-              { text: "Yet", correct: false },
-              { text: "Therefore", correct: true }
-            ],
-            explanation: "'Therefore' is used to indicate the consequence of helping my mother in her garden, which allows me to go to the cinema."
-          },
-          {
-            question: "I will try to help her in the garden .... I have got little time",
-            answers: [
-              { text: "So that", correct: false },
-              { text: "Because", correct: false },
-              { text: "But", correct: true },
-              { text: "However", correct: false }
-            ],
-            explanation: "'But' is used here to contrast the willingness to help in the garden with the lack of time available."
-          },
-          {
-            question: "I like comedies ..... my friend prefers horror films",
-            answers: [
-              { text: "And", correct: false },
-              { text: "But", correct: true },
-              { text: "Therefore", correct: false },
-              { text: "Whereas", correct: false }
-            ],
-            explanation: "'But' is used to contrast the speaker's preference for comedies with the preference of their friend for horror films."
-          },
-          {
-            question: "She is always helpful and friendly to me .... I like her very much",
-            answers: [
-              { text: "But", correct: false },
-              { text: "So", correct: true },
-              { text: "Therefore", correct: false },
-              { text: "Unless", correct: false }
-            ],
-            explanation: "'So' is used here to indicate the reason ('she is always helpful and friendly to me') for the speaker liking her very much."
-          },
-          {
-            question: "You should learn more .... you might fail your exams",
-            answers: [
-              { text: "Unless", correct: false },
-              { text: "Because", correct: false },
-              { text: "So", correct: false },
-              { text: "Otherwise", correct: true }
-            ],
-            explanation: "'Otherwise' is used here to suggest an alternative outcome to not learning more, which is the possibility of failing exams."
-          },
-          {
-            question: "He must be very clever,.... he wouldn't have passed such a hard exam",
-            answers: [
-              { text: "However", correct: false },
-              { text: "Unless", correct: false },
-              { text: "Otherwise", correct: false },
-              { text: "So", correct: true }
-            ],
-            explanation: "'So' is used here to indicate the inference that he must be very clever because he passed such a hard exam."
-          },
-          {
-            question: "I am tired today.....I couldn't sleep last night",
-            answers: [
-              { text: "Therefore", correct: false },
-              { text: "But", correct: false },
-              { text: "Because", correct: false },
-              { text: "So", correct: true }
-            ],
-            explanation: "'So' is used here to indicate the reason ('I couldn't sleep last night') for being tired today."
-          },
-          {
-            question: "The word viophobic is formed through",
-            answers: [
-              { text: "Compounding", correct: false },
-              { text: "Reduplication", correct: false },
-              { text: "Affixation", correct: true },
-              { text: "Suffixation", correct: false }
-            ],
-            explanation: "The word 'viophobic' is formed by adding the suffix '-phobic' to the root 'vio-', which indicates fear. This process is known as affixation."
-          },
-          {
-            question: "The root morpheme in phi phobic is",
-            answers: [
-              { text: "Ophio", correct: false },
-              { text: "Phobic", correct: false },
-              { text: "phiophob", correct: false },
-              { text: "Phobia", correct: true }
-            ],
-            explanation: "The root morpheme in 'phiphobic' is 'phobia', which means fear."
-          },
-          {
-            question: "The headword of the expression full-blown panic episode is",
-            answers: [
-              { text: "Full", correct: false },
-              { text: "Panic", correct: false },
-              { text: "Episode", correct: true },
-              { text: "Full-blown", correct: false }
-            ],
-            explanation: "'Episode' is the headword in the expression 'full-blown panic episode', as it is the central word that denotes the occurrence or instance of a panic."
-          },
-          {
-            question: "The expression of a particular thing is a",
-            answers: [
-              { text: "Clause", correct: false },
-              { text: "Phrase", correct: true },
-              { text: "Sentence", correct: false },
-              { text: "Gerund", correct: false }
-            ],
-            explanation: "An expression of a particular thing is categorized as a 'phrase' in linguistic terms."
-          },
-          {
-            question: "One of the following is not a form of the main verb",
-            answers: [
-              { text: "Base", correct: false },
-              { text: "Ed", correct: false },
-              { text: "Es", correct: true },
-              { text: "Ing", correct: false }
-            ],
-            explanation: "'Es' is not a form of the main verb in English. The forms 'base', 'ed', and 'ing' are commonly recognized forms of verbs."
-          },
-          {
-            question: "The bound morpheme in oviophobic can be matched with which of the following, considering word class?",
-            answers: [
-              { text: "Situation", correct: false },
-              { text: "Irrational", correct: true },
-              { text: "Spiders", correct: false },
-              { text: "Anxiety", correct: false }
-            ],
-            explanation: "The bound morpheme '-phobic' in 'oviphobic' relates to 'irrational fear'. It is used to form adjectives indicating fear of something, in this case, 'oviphobic' refers to the fear of eggs."
-          },
-          {
-            question: "Which of the following is not a structural classification of English sentence?",
-            answers: [
-              { text: "Simple", correct: false },
-              { text: "Declarative", correct: true },
-              { text: "Complex", correct: false },
-              { text: "Compound-complex", correct: false }
-            ],
-            explanation: "'Declarative' is not a structural classification of English sentences. It is a functional classification that describes sentences that make a statement."
-          },
-          {
-            question: "The nominal structure of the sight of the thing feared is",
-            answers: [
-              { text: "MH", correct: false },
-              { text: "MHQ", correct: true },
-              { text: "HQ", correct: false },
-              { text: "H only", correct: false }
-            ],
-            explanation: "'MHQ' stands for 'modifier-head-quale'. It represents the structure of noun phrases where a modifier (like 'sight of the thing feared') modifies a head noun ('thing') with a quale ('feared')."
-          },
-          {
-            question: "One of the following is not a cohesive device.",
-            answers: [
-              { text: "Reference", correct: false },
-              { text: "Connection", correct: false },
-              { text: "Repetition", correct: false },
-              { text: "Substitution", correct: true }
-            ],
-            explanation: "'Substitution' is not typically considered a cohesive device in the same way as 'reference', 'connection', and 'repetition'. Cohesive devices are words or phrases that help connect ideas within a text."
-          },
-          {
-            question: "Which of the following is essential to the composition of words in English?",
-            answers: [
-              { text: "Languages", correct: false },
-              { text: "Morphemes", correct: true },
-              { text: "Units", correct: false },
-              { text: "Word formation", correct: false }
-            ],
-            explanation: "Morphemes are the smallest units of meaning in language. They are essential to the composition of words in English as they combine to form words by various processes of word formation."
-          },
-          {
-            question: "The suffix in manageable is a/an",
-            answers: [
-              { text: "Noun", correct: false },
-              { text: "Verb", correct: false },
-              { text: "Adjective", correct: true },
-              { text: "Adverb", correct: false }
-            ],
-            explanation: "The suffix '-able' in 'manageable' is used to form adjectives from verbs, indicating that something can be managed."
-          },
-          {
-            question: "Which of the following is not a word formation process?",
-            answers: [
-              { text: "Compounding", correct: false },
-              { text: "Affixational", correct: true },
-              { text: "Abbronymy", correct: false },
-              { text: "Neologism", correct: false }
-            ],
-            explanation: "'Affixational' is not a word formation process itself; rather, it describes a category of processes that involve adding affixes (prefixes and suffixes) to base words."
-          },
-          {
-            question: "Which is the odd item in the following?",
-            answers: [
-              { text: "Dr.", correct: false },
-              { text: "A. O.", correct: true },
-              { text: "Rev.", correct: false },
-              { text: "Lt.", correct: false }
-            ],
-            explanation: "'A. O.' is the odd item as it does not commonly represent a title or designation in the same way as 'Dr.', 'Rev.', and 'Lt.' do."
-          },
-          {
-            question: "Recent events strengthened her _____ to find out the truth about the stolen money.",
-            answers: [
-              { text: "Resolve", correct: true },
-              { text: "Decision", correct: false },
-              { text: "Interest", correct: false },
-              { text: "Zealousness", correct: false }
-            ],
-            explanation: "In this context, 'resolve' means determination or firmness of purpose, which fits naturally with the sentence."
-          },
-          {
-            question: "I should call _______ your place on my way home.",
-            answers: [
-              { text: "At", correct: false },
-              { text: "In", correct: false },
-              { text: "For", correct: false },
-              { text: "Of", correct: true }
-            ],
-            explanation: "The correct preposition to use in this sentence is 'of', indicating calling 'at' or 'to' your place."
-          },
-          {
-            question: "Your idea is _____ variance with mine.",
-            answers: [
-              { text: "At", correct: false },
-              { text: "In", correct: true },
-              { text: "To", correct: false },
-              { text: "For", correct: false }
-            ],
-            explanation: "The correct preposition to use in this sentence is 'in', indicating disagreement or difference between ideas."
-          },
-          {
-            question: "The man lives ______ Canada",
-            answers: [
-              { text: "At", correct: false },
-              { text: "In", correct: true },
-              { text: "Inside", correct: false },
-              { text: "Around", correct: false }
-            ],
-            explanation: "The correct preposition to use with 'Canada' is 'in', indicating the location where the man lives."
-          },
-          {
-            question: "I schooled _____ Ife .",
-            answers: [
-              { text: "At", correct: true },
-              { text: "In", correct: false },
-              { text: "By", correct: false },
-              { text: "Inside", correct: false }
-            ],
-            explanation: "The correct preposition to use with 'Ife' in this context is 'at', indicating the location where schooling took place."
-          },
-          {
-            question: "Outlining addresses the following except",
-            answers: [
-              { text: "Writing a structured detailed statement", correct: false },
-              { text: "Presenting essential contents of a passage", correct: false },
-              { text: "Representation of organizational pattern of a text", correct: false },
-              { text: "Reproducing a text in an abridged version", correct: true }
-            ],
-            explanation: "Outlining involves summarizing and organizing the structure and key points of a passage or text, not reproducing it in an abridged (shortened) version."
-          },
-          {
-            question: "An outline can be described as",
-            answers: [
-              { text: "Comprehensive statement of facts and points of an original text", correct: false },
-              { text: "The description of a passage", correct: false },
-              { text: "Representation of the shortened form of a passage", correct: true },
-              { text: "Representation of significant events in a passage", correct: false }
-            ],
-            explanation: "An outline is a representation of the shortened form of a passage or text, highlighting the structure and key points."
-          },
-          {
-            question: "To write a good outline, it is good to",
-            answers: [
-              { text: "Read the passage", correct: false },
-              { text: "Know the title of the passage", correct: false },
-              { text: "Have a good understanding of the passage", correct: true },
-              { text: "Know the number of sentences in the passage", correct: false }
-            ],
-            explanation: "Having a good understanding of the passage is essential for creating a well-structured outline that accurately reflects the main points and structure of the text."
-          },
-          {
-            question: "Good outline is",
-            answers: [
-              { text: "Structured", correct: true },
-              { text: "Not structured", correct: false },
-              { text: "Written free styled", correct: false },
-              { text: "A sort of rearrangement of the original text", correct: false }
-            ],
-            explanation: "A good outline is structured, meaning it organizes the main ideas and points of the original text in a logical and clear manner."
-          },
-          {
-            question: "An outline ought to",
-            answers: [
-              { text: "Be brief", correct: true },
-              { text: "Be lengthy", correct: false },
-              { text: "Include details", correct: false },
-              { text: "Include examples and illustrations", correct: false }
-            ],
-            explanation: "Outlines should be brief summaries of the main points and structure of a text, providing a concise overview."
-          },
-          {
-            question: "Clarity in outlining suggests",
-            answers: [
-              { text: "Use of simple words", correct: false },
-              { text: "Writer's own choice of words", correct: false },
-              { text: "Use of words freely", correct: false },
-              { text: "Ambiguous use of words", correct: true }
-            ],
-            explanation: "Clarity in outlining suggests avoiding ambiguous or unclear language, ensuring that the outline communicates the main ideas clearly and concisely."
-          },
-          {
-            question: "In outlining, there is no need to observe",
-            answers: [
-              { text: "Clarity", correct: false },
-              { text: "Brevity", correct: false },
-              { text: "Detailed content", correct: true },
-              { text: "The topic", correct: false }
-            ],
-            explanation: "Outlines are meant to provide a concise overview and structure of a text, so detailed content is not necessary in an outline."
-          },
-          {
-            question: "Accuracy in outlining is desired because",
-            answers: [
-              { text: "It is good to be accurate", correct: false },
-              { text: "It is good to use the writer's words", correct: false },
-              { text: "It is a graphic representation of the main text", correct: false },
-              { text: "It reflects what the topic is about", correct: true }
-            ],
-            explanation: "Accuracy in outlining ensures that the outline faithfully represents the main points and structure of the original text."
-          },
-          {
-            question: "The coherence of an outline implies",
-            answers: [
-              { text: "Orderliness", correct: true },
-              { text: "The use of words", correct: false },
-              { text: "The significance of the outline", correct: false },
-              { text: "Co-relatedness of the topic to the outline", correct: false }
-            ],
-            explanation: "The coherence of an outline means it is orderly and logically structured, presenting the main ideas in a clear and organized manner."
-          },
-          {
-            question: "Outlining shows the following except",
-            answers: [
-              { text: "A visual graphic representation of the original text", correct: false },
-              { text: "The structure of the original text", correct: false },
-              { text: "Sequential arrangement of ideas", correct: false },
-              { text: "Sequential arrangement of words", correct: true }
-            ],
-            explanation: "Outlining focuses on the structure and key points of a text, not on the sequential arrangement of individual words."
-          },
-          {
-            question: "A good outline enhances",
-            answers: [
-              { text: "Easy representation", correct: false },
-              { text: "Easy presentation", correct: false },
-              { text: "Easy recall", correct: true },
-              { text: "Easy link with the main text", correct: false }
-            ],
-            explanation: "A well-structured outline facilitates easy recall of the main points and structure of the original text."
-          },
-          {
-            question: "Arabic numerals is employed in outlining to",
-            answers: [
-              { text: "Show paragraphs", correct: false },
-              { text: "Represent actions", correct: false },
-              { text: "Indicate ideas", correct: true },
-              { text: "Make a brevity", correct: false }
-            ],
-            explanation: "Arabic numerals are used in outlining to indicate different levels of ideas or points within the outline."
-          },
-          {
-            question: "An outline is usually represented by",
-            answers: [
-              { text: "Divisions", correct: true },
-              { text: "Ranks", correct: false },
-              { text: "Sentences", correct: false },
-              { text: "Phrases", correct: false }
-            ],
-            explanation: "An outline is typically represented by divisions or levels that organize the main points and structure of a text."
-          },
-          {
-            question: "Full stop is used in outline to",
-            answers: [
-              { text: "Indicate the end of a sentence", correct: false },
-              { text: "Indicate the end of an idea", correct: false },
-              { text: "To demarcate intentions", correct: false },
-              { text: "To show divisions", correct: true }
-            ],
-            explanation: "In outlining, a full stop (period) is used to denote different levels or divisions within the outline structure."
-          },
-          {
-            question: "An outline being mnemonic means",
-            answers: [
-              { text: "An outline is encoded", correct: false },
-              { text: "An outline could be decoded", correct: false },
-              { text: "An outline could help the memory", correct: true },
-              { text: "An outline could be stylistically organized", correct: false }
-            ],
-            explanation: "A mnemonic outline aids memory by organizing information in a memorable and structured format."
-          },
-          {
-            question: "Outline is significant since",
-            answers: [
-              { text: "It represents original text", correct: false },
-              { text: "It presents a writer's worldview", correct: false },
-              { text: "It enhances the organization of our write ups", correct: true },
-              { text: "It deals with ideas", correct: false }
-            ],
-            explanation: "Outlining enhances the organization and clarity of written compositions by outlining the main points and structure beforehand."
-          },
-          {
-            question: "An outline could be a",
-            answers: [
-              { text: "Sketch", correct: true },
-              { text: "Write-up", correct: false },
-              { text: "Passage", correct: false },
-              { text: "Thought", correct: false }
-            ],
-            explanation: "An outline can be likened to a sketch or blueprint that outlines the structure and main points of a text."
-          },
-          {
-            question: "Subdivisions in outlining enhances",
-            answers: [
-              { text: "Graphical representation of ideas", correct: true },
-              { text: "Easy induction of ideas", correct: false },
-              { text: "Simple use of language", correct: false },
-              { text: "Easy marking", correct: false }
-            ],
-            explanation: "Subdivisions in outlining improve the graphical representation of ideas by organizing them into hierarchical levels or divisions."
-          },
-          {
-            question: "A good outline reflects",
-            answers: [
-              { text: "The language of the original", correct: false },
-              { text: "The intention of the writer", correct: false },
-              { text: "The divisions", correct: true },
-              { text: "The topic of the original text", correct: false }
-            ],
-            explanation: "A well-structured outline reflects the divisions and hierarchical structure of the main points in the original text."
-          },
-          {
-            question: "The special graphic structure of an outline",
-            answers: [
-              { text: "Could not be mistaken anywhere it is seen", correct: true },
-              { text: "Make writers to be cantrons", correct: false },
-              { text: "Shows the storyline of a passage", correct: false },
-              { text: "Shows the writer's pattern of writing", correct: false }
-            ],
-            explanation: "The graphic structure of an outline is distinctive and clear, making it easily recognizable and understandable."
-          },
-          {
-            question: "The name given to the variety of language distinguished according to use is",
-            answers: [
-              { text: "Cronym", correct: false },
-              { text: "Morpheme", correct: false },
-              { text: "Register", correct: true },
-              { text: "Affixation", correct: false }
-            ],
-            explanation: "Register refers to the variety of language used in different contexts or situations, such as formal or informal register."
-          },
-          {
-            question: "One of the following connectives is not used to show movement from one idea to another",
-            answers: [
-            { text: "with regard to", correct: false },
-            { text: "now", correct: false },
-            { text: "as well as", correct: false },
-            { text: "let us consider", correct: true }
-            ],
-            explanation: "The connective 'let us consider' is not typically used to show movement from one idea to another."
-            },
-            {
-            question: "Anaphoric reference points",
-            answers: [
-            { text: "forward and backward", correct: false },
-            { text: "forward", correct: false },
-            { text: "none", correct: false },
-            { text: "backward", correct: true }
-            ],
-            explanation: "Anaphoric reference points backward to a previously mentioned entity."
-            },
-            {
-            question: "Using 'app' for application is an example of word formation with the use of",
-            answers: [
-            { text: "acronym", correct: false },
-            { text: "compounding", correct: false },
-            { text: "clipping", correct: true },
-            { text: "affixation", correct: false }
-            ],
-            explanation: "Using 'app' for application is an example of word formation through clipping."
-            },
-            {
-            question: "Which definition uses the characteristics of what is being described?",
-            answers: [
-            { text: "comparative definition", correct: false },
-            { text: "descriptive definition", correct: true },
-            { text: "logical definition", correct: false },
-            { text: "synonymous definition", correct: false }
-            ],
-            explanation: "A descriptive definition uses the characteristics of what is being described."
-            },
-            {
-            question: "The root in multicellular is",
-            answers: [
-            { text: "multi", correct: true },
-            { text: "cell", correct: false },
-            { text: "multicellular", correct: false },
-            { text: "ular", correct: false }
-            ],
-            explanation: "The root in multicellular is 'multi'."
-            },
-            {
-            question: "The morphemes in 'gone' are",
-            answers: [
-            { text: "go + root", correct: false },
-            { text: "go + ed", correct: false },
-            { text: "go + ne", correct: false },
-            { text: "go + en", correct: true }
-            ],
-            explanation: "The morphemes in 'gone' are 'go' and 'en'."
-            },
-            {
-            question: "The word 'definition' is gotten from",
-            answers: [
-            { text: "Latin", correct: true },
-            { text: "Greek", correct: false },
-            { text: "German", correct: false },
-            { text: "Spanish", correct: false }
-            ],
-            explanation: "The word 'definition' is derived from Latin."
-            },
-            {
-            question: "Outline is significant since",
-            answers: [
-            { text: "it deals with ideas", correct: false },
-            { text: "represents original texts", correct: false },
-            { text: "It enhances the organization of our writers", correct: false },
-            { text: "it represents a writer’s worldview", correct: true }
-            ],
-            explanation: "Outline is significant since it represents a writer’s worldview."
-            },
-            {
-            question: "A morpheme that does not have independent status is",
-            answers: [
-            { text: "free", correct: false },
-            { text: "bound", correct: true },
-            { text: "none", correct: false },
-            { text: "bind", correct: false }
-            ],
-            explanation: "A bound morpheme does not have independent status."
-            },
-            {
-            question: "Outline shows the following except",
-            answers: [
-            { text: "the structure of the original text", correct: false },
-            { text: "a visual graphic representation of the original text", correct: false },
-            { text: "sequential arrangement of words", correct: true },
-            { text: "sequential arrangement of ideas", correct: false }
-            ],
-            explanation: "An outline shows the structure of the original text, a visual graphic representation, and sequential arrangement of ideas, but not sequential arrangement of words."
-            },
-            {
-            question: "Which is the odd one among the following?",
-            answers: [
-            { text: "subject", correct: false },
-            { text: "mathematics", correct: false },
-            { text: "physics", correct: false },
-            { text: "measles", correct: true }
-            ],
-            explanation: "Measles is the odd one among the listed options."
-            },
-            {
-            question: "In which of the following definitions are devices for comparison used?",
-            answers: [
-            { text: "metaphorical", correct: true },
-            { text: "definition by example", correct: false },
-            { text: "definition by synonyms", correct: false },
-            { text: "formal definition", correct: false }
-            ],
-            explanation: "Devices for comparison are used in metaphorical definitions."
-            },
-            {
-            question: "Research is given direction by",
-            answers: [
-            { text: "classification", correct: false },
-            { text: "hypothesis", correct: true },
-            { text: "generating", correct: false },
-            { text: "", correct: false }
-            ],
-            explanation: "Research is given direction by a hypothesis."
-            },
-            {
-            question: "One of these does not shed light on the types of definition",
-            answers: [
-            { text: "opinion", correct: true },
-            { text: "concept", correct: false },
-            { text: "subject", correct: false },
-            { text: "hypothesis", correct: false }
-            ],
-            explanation: "Opinion does not shed light on the types of definition."
-            },
-            {
-            question: "Which connective is used for summing",
-            answers: [
-            { text: "and", correct: true },
-            { text: "or", correct: false },
-            { text: "all", correct: false },
-            { text: "but", correct: false }
-            ],
-            explanation: "The connective 'and' is used for summing."
-            },
-            {
-            question: "Which of the following shows backward",
-            answers: [
-            { text: "anaphoric reference", correct: true },
-            { text: "cataphoric comprehension", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-            ],
-            explanation: "Anaphoric reference shows backward reference."
-            },
-            {
-            question: "The word pseudoscience is formed from ",
-            answers: [
-            { text: "coinage", correct: false },
-            { text: "suffixation", correct: false },
-            { text: "prefixation", correct: true },
-            { text: "affixation", correct: false }
-            ],
-            explanation: "The word 'pseudoscience' is formed by prefixation."
-            },
-            {
-            question: "The root word in hyphenation is",
-            answers: [
-            { text: "hyphen", correct: true },
-            { text: "nation", correct: false },
-            { text: "na", correct: false },
-            { text: "tion", correct: false }
-            ],
-            explanation: "The root word in 'hyphenation' is 'hyphen'."
-            },
-            {
-            question: "__ definition is used by dictionary",
-            answers: [
-            { text: "comparative", correct: false },
-            { text: "formal", correct: false },
-            { text: "descriptive", correct: true },
-            { text: "metaphorical", correct: false }
-            ],
-            explanation: "Dictionary uses descriptive definitions."
-            },
-            {
-            question: "Scientist uses ________ and __________ to draw conclusion",
-            answers: [
-            { text: "experiment & observation", correct: true },
-            { text: "descriptive & hypothesis", correct: false },
-            { text: "comparative & observation", correct: false },
-            { text: "", correct: false }
-            ],
-            explanation: "Scientists use experiment and observation to draw conclusions."
-            },
-            {
-            question: "An animal is a goat, dog, lion, this type of definition is",
-            answers: [
-            { text: "definition by example", correct: true },
-            { text: "comparative", correct: false },
-            { text: "descriptive", correct: false },
-            { text: "formal", correct: false }
-            ],
-            explanation: "This type of definition is 'definition by example'."
-            },
-            {
-            question: "The odd classification is ___________",
-            answers: [
-            { text: "test", correct: false },
-            { text: "wet", correct: true },
-            { text: "needle", correct: false },
-            { text: "treat", correct: false }
-            ],
-            explanation: "'Wet' is the odd classification among the given options."
-            },
-            {
-            question: "For a student to write an outline for a passage, he/she must _",
-            answers: [
-            { text: "understand the passage", correct: true },
-            { text: "read the passage", correct: false },
-            { text: "view the passage", correct: false },
-            { text: "", correct: false }
-            ],
-            explanation: "For a student to write an outline, understanding the passage is necessary."
-            },
-            {
-            question: "One of the following connectives is not used for presenting result",
-            answers: [
-            { text: "again", correct: true },
-            { text: "accordingly", correct: false },
-            { text: "consequently", correct: false },
-            { text: "so", correct: false }
-            ],
-            explanation: "The connective 'again' is not typically used for presenting a result."
-            },
-            {
-            question: "Which of the following is a derivative morpheme",
-            answers: [
-            { text: "interest", correct: false },
-            { text: "driving", correct: false },
-            { text: "boys", correct: false },
-            { text: "asymmetry", correct: true }
-            ],
-            explanation: "'Asymmetry' is a derivative morpheme."
-            },
-            {
-            question: "The second part to be outlined in an essay based outline is",
-            answers: [
-            { text: "conclusion", correct: false },
-            { text: "methodology", correct: false },
-            { text: "introduction", correct: false },
-            { text: "body", correct: true }
-            ],
-            explanation: "The body is the second part to be outlined in an essay."
-            },
-            {
-            question: "The definition 'an acid is a dangerous liquid' is based on",
-            answers: [
-            { text: "subjective", correct: false },
-            { text: "class", correct: false },
-            { text: "circular", correct: true },
-            { text: "topical", correct: false }
-            ],
-            explanation: "The definition 'an acid is a dangerous liquid' is based on circular consideration."
-            },
-            {
-            question: "An outline shows",
-            answers: [
-            { text: "a fact and point of an essay", correct: false },
-            { text: "pattern and structure of a text", correct: true },
-            { text: "content and organization of a text", correct: false },
-            { text: "essential and representation of a text", correct: false }
-            ],
-            explanation: "An outline shows the pattern and structure of a text."
-            },
-            {
-            question: "Cataphoric reference refers to",
-            answers: [
-            { text: "backward", correct: false },
-            { text: "forward", correct: true },
-            { text: "to communicate", correct: false },
-            { text: "to connect", correct: false }
-            ],
-            explanation: "Cataphoric reference refers to forward reference."
-            },
-            {
-            question: "The word Asuu is formed using",
-            answers: [
-            { text: "acronym", correct: true },
-            { text: "affixation", correct: false },
-            { text: "neologism", correct: false },
-            { text: "blending", correct: false }
-            ],
-            explanation: "The word 'Asuu' is formed using acronym."
-            },
-            {
-            question: "The root morpheme in the word 'retroviral' is",
-            answers: [
-            { text: "al", correct: false },
-            { text: "virus", correct: true },
-            { text: "retro", correct: false },
-            { text: "viral", correct: false }
-            ],
-            explanation: "The root morpheme in 'retroviral' is 'virus'."
-            },
-            {
-            question: "Subdivision in outlining enhances",
-            answers: [
-            { text: "simple use of language", correct: false },
-            { text: "easy marking", correct: false },
-            { text: "graphical representation of ideas", correct: false },
-            { text: "easy indention of ideas", correct: true }
-            ],
-            explanation: "Subdivision in outlining enhances easy indention of ideas."
-            },
-            {
-            question: "An outline could be",
-            answers: [
-            { text: "thought", correct: false },
-            { text: "passage", correct: false },
-            { text: "write-up", correct: false },
-            { text: "sketch", correct: true }
-            ],
-            explanation: "An outline could be a sketch."
-            },
-            {
-            question: "The cohesive device that prevents redundancy of word usage is",
-            answers: [
-            { text: "substitution", correct: false },
-            { text: "repetition", correct: false },
-            { text: "ellipsis", correct: true },
-            { text: "reference", correct: false }
-            ],
-            explanation: "The cohesive device that prevents redundancy of word usage is ellipsis."
-            },
-            {
-            question: "The special graphic structure of an outline",
-            answers: [
-            { text: "makes writers to be cautious", correct: false },
-            { text: "show the writer’s pattern of writing", correct: false },
-            { text: "shows storyline", correct: false },
-            { text: "could not be mistaken anywhere it is seen", correct: true }
-            ],
-            explanation: "The special graphic structure of an outline is distinctive and recognizable."
-            },
-            {
-            question: "The root in amplification is",
-            answers: [
-            { text: "amplify", correct: false },
-            { text: "amplificate", correct: false },
-            { text: "ample", correct: false },
-            { text: "amplification", correct: true }
-            ],
-            explanation: "The root in 'amplification' is 'ample'."
-            },
-            {
-            question: "The root in the word 'usurpation' is",
-            answers: [
-            { text: "usurper", correct: false },
-            { text: "userpal", correct: false },
-            { text: "usurp", correct: true },
-            { text: "usurpate", correct: false }
-            ],
-            explanation: "The root in 'usurpation' is 'usurp'."
-            },
-            {
-            question: " is a unit that must be joined to another unit",
-            answers: [
-            { text: "bound morpheme", correct: true },
-            { text: "root", correct: false },
-            { text: "free", correct: false },
-            { text: "word", correct: false }
-            ],
-            explanation: "A bound morpheme is a unit that must be joined to another unit."
-            },
-            {
-            question: "Arabic numerals is employed in outlining to",
-            answers: [
-            { text: "represent action", correct: false },
-            { text: "indicate ideas create a new action", correct: true },
-            { text: "", correct: false },
-            { text: "", correct: false }
-            ],
-            explanation: "Arabic numerals are employed in outlining to indicate ideas and create a new action."
-            },
-            {
-            question: "Outline is represented by",
-            answers: [
-            { text: "divisions", correct: false },
-            { text: "ranks", correct: false },
-            { text: "phrases", correct: false },
-            { text: "clauses", correct: true }
-            ],
-            explanation: "Outline is represented by clauses."
-            },
-            {
-            question: "For idea multiplying which one is odd?",
-            answers: [
-            { text: "Besides", correct: false },
-            { text: "above all", correct: false },
-            { text: "moreover", correct: false },
-            { text: "now", correct: true }
-            ],
-            explanation: "'Now' is odd in the context of multiplying ideas."
-            },
-            {
-            question: "Intextual cohesive in discourse can be achieved through one of the following",
-            answers: [
-            { text: "semicolon", correct: true },
-            { text: "logical connectives", correct: false },
-            { text: "but-connectives", correct: false },
-            { text: "catastrophic connective", correct: false }
-            ],
-            explanation: "Intextual cohesive in discourse can be achieved through a semicolon."
-            },
-            {
-              question: "The central definition quality of outlining is...",
-              answers: [
-              { text: "Brevity", correct: true },
-              { text: "Hypothetical quality", correct: false },
-              { text: "Elucidatory nature", correct: false },
-              { text: "Simplicity", correct: false }
-              ],
-              explanation: "The central quality of outlining is brevity, which emphasizes concise representation of ideas."
-              },
-              {
-              question: "Definition used to achieve rhetorical ends may be influenced by...",
-              answers: [
-              { text: "Government", correct: false },
-              { text: "Personality", correct: false },
-              { text: "Impression", correct: true },
-              { text: "Intention", correct: false }
-              ],
-              explanation: "Definitions used for rhetorical purposes may be influenced by the impression they aim to create."
-              },
-              {
-              question: "Which of the following connectives is the restatement of ideas?",
-              answers: [
-              { text: "In that case", correct: false },
-              { text: "Rather", correct: false },
-              { text: "In other words", correct: false },
-              { text: "Thus", correct: true }
-              ],
-              explanation: "The connective 'Thus' is used to indicate a restatement or conclusion of previously stated ideas."
-              },
-              {
-              question: "For drawing contrast with ideas first presented, which connective comes in handy?",
-              answers: [
-              { text: "And", correct: false },
-              { text: "Or", correct: false },
-              { text: "But", correct: true },
-              { text: "None of the above", correct: false }
-              ],
-              explanation: "The connective 'But' is used to introduce contrast with previously presented ideas."
-              },
-              {
-              question: "Morpheme could be described as...",
-              answers: [
-              { text: "Smallest meaningful unit of a language", correct: true },
-              { text: "Smallest meaningless unit of a language", correct: false },
-              { text: "Highest meaningless unit of a language", correct: false },
-              { text: "Highest meaningful unit of a language", correct: false }
-              ],
-              explanation: "A morpheme is defined as the smallest meaningful unit of a language."
-              },
-              {
-              question: "What numerals are used to indicate ideas in outline?",
-              answers: [
-              { text: "Roman", correct: false },
-              { text: "Arabic", correct: true },
-              { text: "Numerical", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Arabic numerals are used to indicate different levels of ideas in an outline."
-              },
-              {
-              question: "He was playing with us when my father entered the room. The italicised portion of the sentence is an example of...",
-              answers: [
-              { text: "Simple present tense", correct: false },
-              { text: "Past progressive tense", correct: true },
-              { text: "Past perfect tense", correct: false },
-              { text: "None of the above", correct: false }
-              ],
-              explanation: "The phrase 'was playing' is in the past progressive tense, indicating an ongoing action in the past."
-              },
-              {
-              question: "The adjoining of a prefix to a bound morpheme is called...",
-              answers: [
-              { text: "Prefixation", correct: true },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "The process of adding a prefix to a bound morpheme is known as prefixation."
-              },
-              {
-              question: "When ellipsis is used in an expression, the message...",
-              answers: [
-              { text: "Will not be understood", correct: false },
-              { text: "Will still be understood", correct: true },
-              { text: "Will not be fully understood", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Ellipsis in an expression indicates that some information is omitted but the message can still be understood."
-              },
-              {
-              question: "The root word in hyperacidity is...",
-              answers: [
-              { text: "Acid", correct: true },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "The root word in 'hyperacidity' is 'acid'."
-              },
-              {
-              question: "The suffix in the word 'regrettable' is...",
-              answers: [
-              { text: "Adjective", correct: true },
-              { text: "Noun", correct: false },
-              { text: "Adverb", correct: false },
-              { text: "Pronoun", correct: false }
-              ],
-              explanation: "The word 'regrettable' ends with the suffix '-able', which typically forms adjectives."
-              },
-              {
-              question: "Classification depends on similarities and...",
-              answers: [
-              { text: "Differences", correct: true },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Classification involves grouping things based on their similarities and differences."
-              },
-              {
-              question: "The definitional approach for a scientist is...",
-              answers: [
-              { text: "Descriptive", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Scientists typically use descriptive definitions to clarify terms and concepts."
-              },
-              {
-              question: "The word 'motel' is formed using...",
-              answers: [
-              { text: "Blending", correct: true },
-              { text: "Compounding", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "The word 'motel' is a blend formed from 'motor' and 'hotel'."
-              },
-              {
-              question: "The first step in project writing is...",
-              answers: [
-              { text: "Looking for a vacuum", correct: true },
-              { text: "Looking for aim and objectives", correct: false },
-              { text: "Picking a topic", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "The first step in project writing is identifying a gap or research question (vacuum)."
-              },
-              {
-              question: "Addition of abbreviation and acronym is...",
-              answers: [
-              { text: "Synonyms", correct: false },
-              { text: "Antonyms", correct: false },
-              { text: "Acronyms", correct: true },
-              { text: "", correct: false }
-              ],
-              explanation: "Abbreviations and acronyms are forms of shortened words or phrases."
-              },
-              {
-              question: "To outline means to...",
-              answers: [
-              { text: "Define", correct: false },
-              { text: "List", correct: false },
-              { text: "Show structure", correct: false },
-              { text: "Delineate facts", correct: true }
-              ],
-              explanation: "Outlining involves organizing information to show its structure and main points."
-              },
-              {
-              question: "The city of publishing and name of publisher in a bibliography is separated by...",
-              answers: [
-              { text: "Colon", correct: false },
-              { text: "Semi-colon", correct: false },
-              { text: "Comma", correct: true },
-              { text: "Full stop", correct: false }
-              ],
-              explanation: "In a bibliography, the city of publishing and name of publisher are separated by a comma."
-              },
-              {
-              question: "One of the following is not a definition of hypothesis...",
-              answers: [
-              { text: "A preposition assumed for the sake of an argument", correct: false },
-              { text: "A supposition", correct: false },
-              { text: "A theory to prove or to be disproved", correct: false },
-              { text: "To fix the bound or limits of words", correct: true }
-              ],
-              explanation: "A hypothesis is not about fixing the bounds or limits of words; it's about proposing explanations or predictions."
-              },
-              {
-              question: "Viewers at home, here is the breaking news. PDP won the election. 'Here' in the statement denotes...",
-              answers: [
-              { text: "Cataphoric", correct: false },
-              { text: "Anaphoric", correct: true },
-              { text: "Connotation", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "'Here' refers back to a previously mentioned place or situation, making it an anaphoric reference."
-              },
-              {
-              question: "Graphic representation makes the outline...",
-              answers: [
-              { text: "Easy to read", correct: false },
-              { text: "Helps understand the main text", correct: true },
-              { text: "Helps to see what is not", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Graphic representation of an outline helps in visualizing and understanding the structure and content of the main text."
-              },
-              {
-              question: "The mnemonic in the word 'babies' is...",
-              answers: [
-              { text: "Babies + o", correct: true },
-              { text: "Baby + es", correct: false },
-              { text: "Babi + ies", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "The plural form 'babies' is formed by adding '-ies' to 'baby'."
-              },
-              {
-              question: "The grammatical structure 'a man is a rational animal' is...",
-              answers: [
-              { text: "Group", correct: false },
-              { text: "Phrase", correct: false },
-              { text: "Sentence", correct: true },
-              { text: "", correct: false }
-              ],
-              explanation: "The statement 'a man is a rational animal' forms a complete sentence."
-              },
-              {
-              question: "The expression of a familiar notion is...",
-              answers: [
-              { text: "Clause", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "Phrase", correct: true }
-              ],
-              explanation: "A familiar notion is often expressed as a phrase."
-              },
-              {
-              question: "Definitions used to achieve rhetorical end may be influenced by...",
-              answers: [
-              { text: "Impression/Idiosyncrasy", correct: true },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Rhetorical definitions can be influenced by the impression or personal style of the speaker or writer."
-              },
-              {
-              question: "Which of the following does not belong to the same class?",
-              answers: [
-              { text: "Noun", correct: false },
-              { text: "Adjective", correct: false },
-              { text: "Pronoun", correct: false },
-              { text: "Verb", correct: true }
-              ],
-              explanation: "Among 'Noun', 'Adjective', 'Pronoun', and 'Verb', the word 'Verb' does not belong to the same class as the others."
-              },
-              {
-              question: "The word 'webcam' is formed from web and camera by...",
-              answers: [
-              { text: "Blending", correct: false },
-              { text: "Compounding", correct: true },
-              { text: "Clipping", correct: false },
-              { text: "Blend", correct: false }
-              ],
-              explanation: "The word 'webcam' is formed by compounding 'web' and 'camera'."
-              },
-              {
-              question: "Concluding that something bad has happened by seeing a gathering of people crying and glooming is associated by ________ reasoning.",
-              answers: [
-              { text: "Inductive", correct: true },
-              { text: "Logical", correct: false },
-              { text: "Deductive", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Inductive reasoning involves drawing general conclusions from specific observations or evidence."
-              },
-              {
-              question: "The definition of many disciplines (e.g., Economics, Biology, etc.) is ________ definition.",
-              answers: [
-              { text: "Descriptive", correct: true },
-              { text: "Example", correct: false },
-              { text: "Synonyms", correct: false },
-              { text: "Logical/Formal", correct: false }
-              ],
-              explanation: "The definition used in disciplines like Economics and Biology tends to be descriptive, focusing on clarifying terms."
-              },
-              {
-              question: "_________ helps to emphasize an important point.",
-              answers: [
-              { text: "Substitution", correct: false },
-              { text: "Repetition", correct: true },
-              { text: "Addition", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "Repetition is used to emphasize important points or ideas in writing."
-              },
-              {
-              question: "The morpheme that can be independent is called...",
-              answers: [
-              { text: "Free Morpheme", correct: true },
-              { text: "", correct: false },
-              { text: "", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "A free morpheme is a morpheme that can stand alone as a word."
-              },
-              {
-              question: "As immunization implies vaccination, this definition is formed from the lexical structure...",
-              answers: [
-              { text: "Phrase", correct: true },
-              { text: "Word", correct: false },
-              { text: "Clause", correct: false },
-              { text: "", correct: false }
-              ],
-              explanation: "The definition 'immunization implies vaccination' is formed from a phrase."
-              },
-              {
-              question: "_________ affixation brings about changes in the word class.",
-              answers: [
-              { text: "Inflectional", correct: false },
-              { text: "Suffixation", correct: false },
-              { text: "Prefixation", correct: false },
-              { text: "Derivational", correct: true }
-              ],
-              explanation: "Derivational affixation changes the word class (e.g., noun to adjective, verb to noun)."
-              },
-              {
-              question: "Drawing contrast from prior idea is achieved by the engagement of one of the connectives below.",
-              answers: [
-              { text: "Accordingly", correct: false },
-              { text: "Nonetheless", correct: false },
-              { text: "Although", correct: false },
-              { text: "Conversely", correct: true }
-              ],
-              explanation: "The connective 'Conversely' is used to introduce contrast or opposite ideas."
-              },
-              {
-              question: "The contribution to knowledge in a scientific project is in ________.",
-              answers: [
-              { text: "Hypothesis of study", correct: false },
-              { text: "Goal of study", correct: false },
-              { text: "Problem of study", correct: false },
-              { text: "Significance of study", correct: true }
-              ],
-              explanation: "The significance of study refers to the contribution a scientific project makes to existing knowledge."
-              },
-              {
-              question: "A major quality of definition by synonym is...",
-              answers: [
-              { text: "Verbosity", correct: false },
-              { text: "Repetition", correct: false },
-              { text: "Emphasis", correct: false },
-              { text: "Brevity", correct: true }
-              ],
-              explanation: "A definition by synonym aims for brevity, providing a concise alternative term or phrase."
-              },
-              {
-              question: "Characteristics of a good outline include the following except...",
-              answers: [
-              { text: "Orderly", correct: false },
-              { text: "Accuracy", correct: false },
-              { text: "Brevity", correct: false },
-              { text: "Clarity", correct: true }
-              ],
-              explanation: "Clarity is essential in a good outline, ensuring that the structure and content are easily understandable."
-              },
-              {
-              question: "Coherence of an outline implies...",
-              answers: [
-              { text: "The significance of the outline", correct: false },
-              { text: "Logicality", correct: false },
-              { text: "Correlatedness of the topic to the outline", correct: true },
-              { text: "The use of words", correct: false }
-              ],
-              explanation: "Coherence in an outline means that the different parts are logically connected and related to the main topic."
-              },
-              {
-              question: "All of the following are logical instances except...",
-              answers: [
-              { text: "Phoric reference, substitution, repetition", correct: true },
-              { text: "Alternatively, however", correct: false },
-              { text: "However, beside, therefore", correct: false },
-              { text: "And, or, but", correct: false }
-              ],
-              explanation: "Phoric reference, substitution, and repetition are cohesive devices, not logical instances."
-              },
-              {
-              question: "Essential to the composition of a word in English...",
-              answers: [
-              { text: "Word formation", correct: false },
-              { text: "Morphemes", correct: true },
-              { text: "Language", correct: false },
-              { text: "Unit", correct: false }
-              ],
-              explanation: "Morphemes are fundamental to the composition of words in English, as they are the smallest units of meaning."
-              },
-              {
-              question: "A man is a rational animal is...",
-              answers: [
-              { text: "Sentence", correct: true },
-              { text: "Clause", correct: false },
-              { text: "Phrase", correct: false },
-              { text: "None", correct: false }
-              ],
-              explanation: "The statement A man is a rational animal forms a complete sentence."
-              },
-              {
-              question: "Outlining addresses the following except...",
-              answers: [
-              { text: "Reproducing a text in an abridged version", correct: false },
-              { text: "Writing a structural and detailed statement", correct: false },
-              { text: "Presenting essential contents of a passage", correct: false },
-              { text: "Ambiguity", correct: true }
-              ],
-              explanation: "Outlining aims to clarify and organize information, not to introduce ambiguity."
-              },
-              {
-              question: "Syllogism refers to...",
-              answers: [
-              { text: "Reasoning inductively", correct: false },
-              { text: "Reasoning syllogistically", correct: true },
-              { text: "Making logical statements having premises and conclusion", correct: false },
-              { text: "Drawing conclusion", correct: false }
-              ],
-              explanation: "Syllogism involves reasoning syllogistically, using deductive logic with premises leading to a conclusion."
-              },
-              {
-              question: "A good outline reflects...",
-              answers: [
-              { text: "Brevity", correct: false },
-              { text: "Clarity", correct: false },
-              { text: "Accuracy", correct: false },
-              { text: "Orderliness", correct: true }
-              ],
-              explanation: "A good outline should be orderly, organizing information in a structured and logical manner."
-              },
-              {
-              question: "Each of the types of deflective attempts to shed light on the following except...",
-              answers: [
-              { text: "Topic", correct: false },
-              { text: "Comprehension", correct: false },
-              { text: "Concept", correct: false },
-              { text: "Subject", correct: true }
-              ],
-              explanation: "Deflective attempts (e.g., definitions, explanations) aim to clarify topics, comprehension, and concepts, not subjects."
-              },
-              {
-              question: "What type of definition is mostly used for the scientific definition of terms and concepts?",
-              answers: [
-              { text: "By logic", correct: true },
-              { text: "By example", correct: false },
-              { text: "Description", correct: false },
-              { text: "Comparison", correct: false }
-              ],
-              explanation: "Scientific definitions often rely on logical definitions to precisely define terms and concepts."
-              },
-              {
-              question: "The formal definition was mostly used by logicians during the time of...",
-              answers: [
-              { text: "Socrates", correct: false },
-              { text: "Colby", correct: false },
-              { text: "Bongo", correct: false },
-              { text: "Aristotle", correct: true }
-              ],
-              explanation: "The formal definition was prominently used by logicians such as Aristotle."
-              },
-              {
-              question: "Ideas are summed up during one of the following connectives...",
-              answers: [
-              { text: "Consequently", correct: false },
-              { text: "Above all", correct: false },
-              { text: "So", correct: true },
-              { text: "", correct: false }
-              ],
-              explanation: "The connective 'So' is used to sum up ideas or conclusions."
-              },
-              {
-              question: "One of the following assists in making generalizations...",
-              answers: [
-              { text: "Hypothesis", correct: false },
-              { text: "Deductive reasoning", correct: true },
-              { text: "Classification", correct: false },
-              { text: "Comparison", correct: false }
-              ],
-              explanation: "Deductive reasoning involves deriving specific conclusions from general principles, aiding in making generalizations."
-              },
-              {
-                question: "These tools are old ________ still good.",
-                answers: [
-                  { text: "Because", correct: false },
-                  { text: "So", correct: false },
-                  { text: "And", correct: false },
-                  { text: "But", correct: true }
-                ],
-                explanation: "The correct answer is 'But'. The sentence structure indicates contrast: despite being old, the tools are still good."
-              },
-              {
-                question: "The 'And' connective is used for all but one of the following functions.",
-                answers: [
-                  { text: "Movement from idea", correct: false },
-                  { text: "Drawing contrast with earlier idea", correct: true },
-                  { text: "Presenting result of idea", correct: false },
-                  { text: "Summing up of idea", correct: false }
-                ],
-                explanation: "'And' is not typically used to draw contrast with earlier ideas; it usually connects ideas or presents results."
-              },
-              {
-                question: "The word 'Photograph' writing or drawing with night; the coted verb in the sentence is expressed in the...",
-                answers: [
-                  { text: "Simple present tense", correct: true },
-                  { text: "Future tense", correct: false },
-                  { text: "Present perfect progressive tense", correct: false },
-                  { text: "A and B above", correct: false }
-                ],
-                explanation: "The correct answer is 'Simple present tense'. 'Photograph' is used in the simple present tense in this context."
-              },
-              {
-                question: "______ is one of the four communication skills.",
-                answers: [
-                  { text: "Learning", correct: false },
-                  { text: "Reading", correct: false },
-                  { text: "Writing", correct: false },
-                  { text: "Speaking", correct: false },
-                  { text: "All of the above", correct: true }
-                ],
-                explanation: "The correct answer is 'All of the above'. Learning, reading, writing, and speaking are all communication skills."
-              },
-              {
-                question: "Which word formation process is occasionally changed in society outlook?",
-                answers: [
-                  { text: "Affixation", correct: false },
-                  { text: "Clipping", correct: false },
-                  { text: "Blending", correct: false },
-                  { text: "Neologism", correct: true }
-                ],
-                explanation: "The correct answer is 'Neologism'. Neologism is the creation of new words or expressions that reflect changes in society."
-              },
-              {
-                question: "The contribution to knowledge in a scientific project is stated in the ________.",
-                answers: [
-                  { text: "Goals of the study", correct: false },
-                  { text: "Hypothesis of the study", correct: false },
-                  { text: "Problem of the study", correct: false },
-                  { text: "Significance of the study", correct: true }
-                ],
-                explanation: "The correct answer is 'Significance of the study'. It refers to the contribution of the scientific project to existing knowledge."
-              },
-              {
-                question: "The identity between what is being said and what has been said before is realized through ________.",
-                answers: [
-                  { text: "Semantic reference", correct: false },
-                  { text: "Discourse reference", correct: false },
-                  { text: "Phoric reference", correct: true },
-                  { text: "Discourse marker", correct: false }
-                ],
-                explanation: "The correct answer is 'Phoric reference'. It creates a link between what is being said and what has been said before."
-              },
-              {
-                question: "The set of words 'Spill the beans' is formed using?",
-                answers: [
-                  { text: "Affixation", correct: false },
-                  { text: "Blending", correct: false },
-                  { text: "Idiomatism", correct: true },
-                  { text: "Neologism", correct: false }
-                ],
-                explanation: "The correct answer is 'Idiomatism'. 'Spill the beans' is an example of an idiom."
-              },
-              {
-                question: "Which definition uses the characteristics of what is being defined?",
-                answers: [
-                  { text: "Inflectional", correct: false },
-                  { text: "Experiential", correct: false },
-                  { text: "Descriptive", correct: true },
-                  { text: "Synonyms", correct: false }
-                ],
-                explanation: "The correct answer is 'Descriptive'. Descriptive definitions focus on the characteristics of what is being defined."
-              },
-              {
-                question: "The affixation which does not result in a change of word class is ________.",
-                answers: [
-                  { text: "Inflectional", correct: false },
-                  { text: "Experiential", correct: false },
-                  { text: "Inflectional", correct: true },
-                  { text: "Root", correct: false }
-                ],
-                explanation: "The correct answer is 'Inflectional'. Inflectional affixation does not change the word class (e.g., adding 's' for plural)."
-              },
-              {
-                question: "Only works that are mentioned in the body of a project are found in the ________.",
-                answers: [
-                  { text: "Background of the study", correct: false },
-                  { text: "Literature review", correct: true },
-                  { text: "Reference", correct: false },
-                  { text: "Bibliography", correct: false }
-                ],
-                explanation: "The correct answer is 'Literature review'. It includes works cited and discussed in the main body of the project."
-              },
-              {
-                question: "Inflexional suffix never changes the ________.",
-                answers: [
-                  { text: "Base meaning", correct: true },
-                  { text: "Tense", correct: false },
-                  { text: "Plurality", correct: false },
-                  { text: "Polarity", correct: false }
-                ],
-                explanation: "The correct answer is 'Base meaning'. Inflectional suffixes (e.g., '-s' for plural) do not alter the base meaning of a word."
-              },
-              {
-                question: "The type of definition characterized by brevity is",
-                answers: [
-                  { text: "Definition of description", correct: false },
-                  { text: "Formal definition", correct: false },
-                  { text: "Definition by example", correct: false },
-                  { text: "Definition by synonyms", correct: true }
-                ],
-                explanation: "The correct answer is 'Definition by synonyms'. It provides a brief alternative term or phrase for what is defined."
-              },
-              {
-                question: "The word 'Reproductive' has the structure?",
-                answers: [
-                  { text: "Bound + free + bound", correct: false },
-                  { text: "Free + bound + free", correct: false },
-                  { text: "Free + free + bound", correct: false },
-                  { text: "Bound + free + free", correct: true }
-                ],
-                explanation: "The correct answer is 'Bound + free + free'. 'Reproductive' is formed by combining 're' (bound), 'produce' (free), and 'ive' (free)."
-              },
-              {
-                question: "One of the following is not an example of an Acronym.",
-                answers: [
-                  { text: "AC", correct: false },
-                  { text: "SG", correct: false },
-                  { text: "Lifo", correct: false },
-                  { text: "Piano", correct: true }
-                ],
-                explanation: "The correct answer is 'Piano'. The others (AC, SG, Lifo) are examples of acronyms, while 'Piano' is not."
-              },
-              {
-                question: "The process of joining two or more free morphemes together is called",
-                answers: [
-                  { text: "Affixation", correct: false },
-                  { text: "Compounding", correct: true },
-                  { text: "Clipping", correct: false },
-                  { text: "Suffixation", correct: false }
-                ],
-                explanation: "The correct answer is 'Compounding'. It involves combining two or more free morphemes to form a new word."
-              },
-              {
-                question: "What is the root word of 'Hyperacidity'?",
-                answers: [
-                  { text: "Acid", correct: true },
-                  { text: "Acidity", correct: false },
-                  { text: "Hyper", correct: false }
-                ],
-                explanation: "The correct answer is 'Acid'. 'Hyperacidity' is derived from 'acid', with 'hyper' as a prefix."
-              },
-              {
-                question: "Some devices of comparison used in comparative definition include metaphor, simile, and ________.",
-                answers: [
-                  { text: "Irony", correct: false },
-                  { text: "Personification", correct: true },
-                  { text: "Apostrophe", correct: false },
-                  { text: "Metasimile", correct: false }
-                ],
-                explanation: "The correct answer is 'Personification'. It involves attributing human qualities to non-human entities for comparison."
-              },
-              {
-                question: "Phoric reference creates a link between",
-                answers: [
-                  { text: "What is being said", correct: false },
-                  { text: "What has been said before", correct: false },
-                  { text: "A and B", correct: true },
-                  { text: "None of the above", correct: false }
-                ],
-                explanation: "The correct answer is 'A and B'. Phoric reference connects both the current and previous statements."
-              },
-              {
-                question: "Words can often be divided into",
-                answers: [
-                  { text: "Graphemes", correct: true },
-                  { text: "Progmeme", correct: false },
-                  { text: "Allopracts", correct: false },
-                  { text: "Morphemes", correct: false }
-                ],
-                explanation: "The correct answer is 'Graphemes'. Graphemes are the smallest units of a writing system (e.g., letters, symbols)."
-              },
-              {
-                question: "The definition that has a tendency for mere approximation is the definition by ________.",
-                answers: [
-                  { text: "Example", correct: true },
-                  { text: "Description", correct: false },
-                  { text: "Logic", correct: false },
-                  { text: "Synonyms", correct: false }
-                ],
-                explanation: "The correct answer is 'Example'. Definition by example tends to provide a general idea rather than a precise definition."
-              },
-              {
-                question: "A particular group of items could be classified differently by individuals because classification could be",
-                answers: [
-                  { text: "Objective", correct: false },
-                  { text: "Necessary", correct: false },
-                  { text: "Subjective", correct: true },
-                  { text: "Classifiable", correct: false }
-                ],
-                explanation: "The correct answer is 'Subjective'. Classification can vary based on personal perspectives or criteria."
-              },
-              {
-                question: "The cohesive device that is usually for the sake of emphasis on certain words is ________.",
-                answers: [
-                  { text: "Substitution", correct: false },
-                  { text: "Ellipsis", correct: false },
-                  { text: "Reference", correct: false },
-                  { text: "Repetition", correct: true }
-                ],
-                explanation: "The correct answer is 'Repetition'. It emphasizes certain words or ideas by repeating them."
-              },
-              {
-                question: "Tool bar is an example of",
-                answers: [
-                  { text: "Blending", correct: false },
-                  { text: "Compounding", correct: true },
-                  { text: "Acronym", correct: false },
-                  { text: "Clipping", correct: false }
-                ],
-                explanation: "The correct answer is 'Compounding'. 'Toolbar' is formed by combining 'tool' and 'bar' to create a new word."
-              },
-              {
-                question: "Subdivision in outlining enhances",
-                answers: [
-                  { text: "Simple use of English", correct: false },
-                  { text: "Easy marking", correct: false },
-                  { text: "Graphical representation of ideas", correct: false },
-                  { text: "Easy induction of ideas", correct: true }
-                ],
-                explanation: "The correct answer is 'Easy induction of ideas'. Subdivision helps organize and clarify ideas for easier understanding."
-              },
-              {
-                question: "The problem with the definition 'Cleaning soap is the soap that cleanses' shows",
-                answers: [
-                  { text: "Circularity", correct: true },
-                  { text: "Rotationality", correct: false },
-                  { text: "Logicality", correct: false },
-                  { text: "Formality", correct: false }
-                ],
-                explanation: "The correct answer is 'Circularity'. The definition is circular because it uses the term being defined ('cleansing') within its own definition."
-              },
-              {
-                question: "Coherence of an outline implies",
-                answers: [
-                  { text: "Co-relatedness of the topic of the outline", correct: true },
-                  { text: "The significance of the outline", correct: false },
-                  { text: "Logicality", correct: false },
-                  { text: "The use of words", correct: false }
-                ],
-                explanation: "The correct answer is 'Co-relatedness of the topic of the outline'. Coherence ensures that all parts of the outline are connected and relevant."
-              },
-              {
-                question: "The type of definition mostly used for scientific definitions of terms and concepts is ________.",
-                answers: [
-                  { text: "Definition by description", correct: false },
-                  { text: "Definition by logic", correct: true },
-                  { text: "Definition by comparison", correct: false },
-                  { text: "Definition by example", correct: false }
-                ],
-                explanation: "The correct answer is 'Definition by logic'. Scientific definitions often rely on precise logical definitions to clarify terms and concepts."
-              },
-              {
-                question: "A good outline enhances",
-                answers: [
-                  { text: "Easy representation", correct: false },
-                  { text: "Easy recall", correct: false },
-                  { text: "Easy link with the main text", correct: true },
-                  { text: "Easy presentation", correct: false }
-                ],
-                explanation: "The correct answer is 'Easy link with the main text'. A good outline facilitates easy navigation and reference to the main text."
-              },
-              {
-                question: "______ is a good outline that represents graphics.",
-                answers: [
-                  { text: "Clarity", correct: false },
-                  { text: "Brevity", correct: false },
-                  { text: "Accuracy", correct: false },
-                  { text: "Orderliness", correct: true }
-                ],
-                explanation: "The correct answer is 'Orderliness'. An orderly outline organizes information clearly, which can include graphical representation."
-              },
-              {
-                question: "The root morpheme in 'gone' is",
-                answers: [
-                  { text: "ed", correct: false },
-                  { text: "en", correct: false },
-                  { text: "gone itself", correct: false },
-                  { text: "go", correct: true }
-                ],
-                explanation: "The correct answer is 'go'. 'Gone' is derived from the root morpheme 'go'."
-              },
-              {
-                question: "One of the following is not a form of a main verb.",
-                answers: [
-                  { text: "es", correct: true },
-                  { text: "base", correct: false },
-                  { text: "ed", correct: false },
-                  { text: "ing", correct: false }
-                ],
-                explanation: "The correct answer is 'es'. 'Es' is not a form of a main verb; it is a form of the auxiliary verb 'to be'."
-              },
-              {
-                question: "Words found through ____ are mostly found in English passages.",
-                answers: [
-                  { text: "Clipping", correct: false },
-                  { text: "Blending", correct: false },
-                  { text: "Affixation", correct: true },
-                  { text: "Compounding", correct: false }
-                ],
-                explanation: "The correct answer is 'Affixation'. Affixation, adding prefixes or suffixes to roots, is common in English word formation."
-              },
-              {
-                question: "______ depends on differences and similarities.",
-                answers: [
-                  { text: "Definition", correct: false },
-                  { text: "Classification", correct: true },
-                  { text: "Generalizing", correct: false }
-                ],
-                explanation: "The correct answer is 'Classification'. Classification categorizes based on similarities and differences."
-              },
-              {
-                question: "For perfect re-statement of ideas, connectives used are ________.",
-                answers: [
-                  { text: "Or", correct: false },
-                  { text: "And", correct: false },
-                  { text: "But", correct: false },
-                  { text: "With", correct: true }
-                ],
-                explanation: "The correct answer is 'With'. Connectives like 'with' are used for perfect restatement of ideas."
-              },
-              {
-                question: "______ is projected forward.",
-                answers: [
-                  { text: "Anaphoric", correct: false },
-                  { text: "Phoric", correct: false },
-                  { text: "Cataphoric", correct: true },
-                  { text: "Antiphoric", correct: false }
-                ],
-                explanation: "The correct answer is 'Cataphoric'. Cataphoric references point forward to something mentioned later."
-              },
-              {
-                question: "Man is a rational animal is a ________.",
-                answers: [
-                  { text: "Phrase", correct: false },
-                  { text: "Clause", correct: true },
-                  { text: "Word", correct: false },
-                  { text: "Group", correct: false }
-                ],
-                explanation: "The correct answer is 'Clause'. 'Man is a rational animal' is a clause, a group of words with a subject and verb."
-              },
-              {
-                question: "Which one is odd?",
-                answers: [
-                  { text: "In addition", correct: false },
-                  { text: "Again", correct: false },
-                  { text: "Above all", correct: false },
-                  { text: "So", correct: true }
-                ],
-                explanation: "The correct answer is 'So'. 'So' is not typically used in the same way as the other options to emphasize or add information."
-              },
-              {
-                question: "The type of definition that is based on scientific research is ________?",
-                answers: [
-                  { text: "Hypothesis", correct: true },
-                  { text: "Generalization", correct: false },
-                  { text: "Classification", correct: false }
-                ],
-                explanation: "The correct answer is 'Hypothesis'. A hypothesis is a type of definition based on scientific research and experimentation."
-              },
-              {
-                question: "'Considering' is an example of which connective?",
-                answers: [
-                  { text: "But", correct: false },
-                  { text: "Or", correct: false },
-                  { text: "And", correct: true }
-                ],
-                explanation: "The correct answer is 'And'. 'Considering' is used to introduce a reason or factor."
-              },
-              {
-                question: "The word 'outlook' is an",
-                answers: [
-                  { text: "Affixation", correct: false },
-                  { text: "Clipping", correct: false },
-                  { text: "Blending", correct: false },
-                  { text: "Compounding", correct: true }
-                ],
-                explanation: "The correct answer is 'Compounding'. 'Outlook' is formed by combining 'out' and 'look' to create a new word."
-              },
-              {
-                question: "A leopard is a wild cat is an example of what type of definition?",
-                answers: [
-                  { text: "Formal", correct: false },
-                  { text: "Description", correct: false },
-                  { text: "Example", correct: false },
-                  { text: "Synonym", correct: true }
-                ],
-                explanation: "The correct answer is 'Synonym'. It provides a similar meaning rather than a precise definition."
-              },
-              {
-                question: "How many types of outline do we have?",
-                answers: [
-                  { text: "4", correct: false },
-                  { text: "2", correct: true },
-                  { text: "5", correct: false },
-                  { text: "3", correct: false }
-                ],
-                explanation: "The correct answer is '2'. There are two main types of outlines: topic outlines and sentence outlines."
-              },
-              {
-                question: "Full stop is used in outlining to",
-                answers: [
-                  { text: "Indicate the end of a sentence", correct: false },
-                  { text: "Indicate the end of an idea", correct: true },
-                  { text: "Show division", correct: false }
-                ],
-                explanation: "The correct answer is 'Indicate the end of an idea'. In outlining, a full stop (.) is used to mark the completion of an idea or point."
-              },
-              {
-                question: "Arabic numerals are employed in outlining to",
-                answers: [
-                  { text: "Show paragraphs", correct: false },
-                  { text: "Represent actions", correct: false },
-                  { text: "Indicate ideas", correct: true }
-                ],
-                explanation: "The correct answer is 'Indicate ideas'. Arabic numerals (1, 2, 3, ...) are used to denote different levels of importance or hierarchy in outlining."
-              },
-              {
-                question: "Phoric reference is also known as",
-                answers: [
-                  { text: "Cataphoric", correct: false },
-                  { text: "Anaphoric", correct: false },
-                  { text: "Discourse", correct: true }
-                ],
-                explanation: "The correct answer is 'Discourse'. Phoric reference connects elements within a discourse."
-              },
-              {
-                question: "FAQ could be framed through",
-                answers: [
-                  { text: "Acronym", correct: true },
-                  { text: "Affixation", correct: false },
-                  { text: "Algebraism", correct: false }
-                ],
-                explanation: "The correct answer is 'Acronym'. FAQ stands for Frequently Asked Questions, which is an example of an acronym."
-              },
-              {
-                question: "Definitions used to achieve rhetorical ends may be influenced by",
-                answers: [
-                  { text: "Personality", correct: true },
-                  { text: "Impression", correct: false },
-                  { text: "Government", correct: false },
-                  { text: "Intention", correct: false }
-                ],
-                explanation: "The correct answer is 'Personality'. Definitions can be shaped by the speaker's or writer's personality or style."
-              },
+    question: "When the people aren't coming together, they're ruled by empire and ____________",
+    answers: [
+      { text: "Kingdom", correct: true },
+      { text: "Ruler", correct: false },
+      { text: "Leader", correct: false },
+      { text: "State", correct: false }
+    ],
+    explanation: "Historically, when people aren't unified, they are ruled by an empire or a kingdom."
+  },
+  {
+    question: "A nation state has a permanent ______________",
+    answers: [
+      { text: "Territory", correct: false },
+      { text: "Population", correct: true },
+      { text: "Government", correct: false },
+      { text: "None", correct: false }
+    ],
+    explanation: "A nation-state is characterized by a permanent population."
+  },
+  {
+    question: "When did Nigeria become democratic?",
+    answers: [
+      { text: "1999", correct: true },
+      { text: "1989", correct: false },
+      { text: "2009", correct: false },
+      { text: "2019", correct: false }
+    ],
+    explanation: "Nigeria transitioned to democracy in 1999."
+  },
+  {
+    question: "Political and socio-economic disparities affect nation-building. True/False",
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false }
+    ],
+    explanation: "Disparities in society can hinder the process of nation-building."
+  },
+  {
+    question: "Youth unemployment leads to ____________",
+    answers: [
+      { text: "Chronic poverty", correct: true },
+      { text: "Education", correct: false },
+      { text: "None of the above", correct: false },
+      { text: "All of the above", correct: false }
+    ],
+    explanation: "High youth unemployment rates are often linked to chronic poverty."
+  },
+  {
+    question: "__________ accountability is a process whereby leaders render account of their stewardship.",
+    answers: [
+      { text: "Leadership", correct: false },
+      { text: "Governance", correct: true },
+      { text: "None", correct: false },
+      { text: "All", correct: false }
+    ],
+    explanation: "Governance accountability refers to leaders being held accountable for their actions."
+  },
+  {
+    question: "__________ has been ravaging communities.",
+    answers: [
+      { text: "Erosion", correct: false },
+      { text: "Conflicts", correct: false },
+      { text: "Storm", correct: false },
+      { text: "None", correct: true }
+    ],
+    explanation: "None of the provided options directly apply, but environmental and social issues affect communities."
+  },
+  {
+    question: "Which of the following is not used in nation-building?",
+    answers: [
+      { text: "Dialogue", correct: false },
+      { text: "Reconciliation", correct: false },
+      { text: "Conflict", correct: true },
+      { text: "None of the above", correct: false }
+    ],
+    explanation: "Conflict is not a method for nation-building; dialogue and reconciliation are."
+  },
+  {
+    question: "Which one is a sub-group of Niger-Congo?",
+    answers: [
+      { text: "West Branch", correct: true },
+      { text: "Berber branch", correct: false },
+      { text: "Handza branch", correct: false },
+      { text: "Nilotic branch", correct: false }
+    ],
+    explanation: "The West Branch is a sub-group of the Niger-Congo language family."
+  },
+  {
+    question: "According to Greenberg, Nigeria's languages have been categorized into ____________.",
+    answers: [
+      { text: "4", correct: true },
+      { text: "3", correct: false },
+      { text: "5", correct: false },
+      { text: "6", correct: false }
+    ],
+    explanation: "Greenberg categorized Nigeria's languages into 4 major groups."
+  },
+  {
+    question: "A person who belongs to a country is a/an ____________.",
+    answers: [
+      { text: "Indigene", correct: false },
+      { text: "Aborigene", correct: false },
+      { text: "Native", correct: false },
+      { text: "Citizen", correct: true }
+    ],
+    explanation: "A citizen is someone who legally belongs to a country."
+  },
+  {
+    question: "There have been several kinds of state apart from ____________.",
+    answers: [
+      { text: "Boundaries", correct: false },
+      { text: "Nation-state", correct: false },
+      { text: "Rivers", correct: true },
+      { text: "Political unit", correct: false }
+    ],
+    explanation: "States are often defined by political units and boundaries, not rivers."
+  },
+  {
+    question: "The shared belief about government and civil responsibility is ____________.",
+    answers: [
+      { text: "Religious ideal", correct: false },
+      { text: "Political ideal", correct: false },
+      { text: "Cultural ideal", correct: false },
+      { text: "Social ideal", correct: true }
+    ],
+    explanation: "A shared belief about government and civil responsibility is a social ideal."
+  },
+  {
+    question: "Ethnicity is a social ideal associated with ____________.",
+    answers: [
+      { text: "Voters Registration", correct: false },
+      { text: "National identity Number", correct: false },
+      { text: "Citizenship", correct: false },
+      { text: "Identity of members", correct: true }
+    ],
+    explanation: "Ethnicity is linked to the identity of a group or community."
+  },
+  {
+    question: "Political and socio-economic disparity is not a problem in the Nigerian state. True/False?",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true }
+    ],
+    explanation: "Socio-economic disparity is a well-documented issue in Nigeria."
+  },
+  {
+    question: "Communal conflict can be ____________ or ____________.",
+    answers: [
+      { text: "bi or tri", correct: false },
+      { text: "inter or intra", correct: true },
+      { text: "inter or contra", correct: false },
+      { text: "None", correct: false }
+    ],
+    explanation: "Communal conflict can be either inter-communal or intra-communal."
+  },
+  {
+    question: "Which of these is associated with the Sudanic family?",
+    answers: [
+      { text: "Kwa", correct: false },
+      { text: "Handza", correct: true },
+      { text: "Berber", correct: false },
+      { text: "Nilotic", correct: false }
+    ],
+    explanation: "Handza is associated with the Sudanic language family."
+  },
+  {
+    question: "A nation state is characterized by ____________.",
+    answers: [
+      { text: "Political and religious entity", correct: false },
+      { text: "Geographical location", correct: false },
+      { text: "A political and cultural boundaries", correct: true },
+      { text: "Territorial boundaries", correct: false }
+    ],
+    explanation: "A nation-state is characterized by political and cultural boundaries."
+  },
+  {
+    question: "__________ is not a cultural attribute of a nation.",
+    answers: [
+      { text: "Religion", correct: false },
+      { text: "Custom", correct: false },
+      { text: "Language", correct: false },
+      { text: "Age", correct: true }
+    ],
+    explanation: "Age is not typically considered a cultural attribute of a nation."
+  },
+  {
+    question: "___________ Disparities exist among members of various geo-political zones.",
+    answers: [
+      { text: "Houses", correct: false },
+      { text: "Gross", correct: false },
+      { text: "Sky", correct: false },
+      { text: "Water", correct: true }
+    ],
+    explanation: "There are various disparities among geopolitical zones, and water-related issues often come up."
+  },
+  {
+    question: "Full meaning of IPOB.",
+    answers: [
+      { text: "Independent people of Biafra", correct: false },
+      { text: "International people of Biafra", correct: false },
+      { text: "Indigenous People of Biafra", correct: true },
+      { text: "Indigenous person of Biafra", correct: false }
+    ],
+    explanation: "IPOB stands for Indigenous People of Biafra."
+  },
+  {
+    question: "Nation-state is characterized by?",
+    answers: [
+      { text: "Political and cultural", correct: true },
+      { text: "Social", correct: false },
+      { text: "Political", correct: false },
+      { text: "Cultural", correct: false }
+    ],
+    explanation: "A nation-state is defined by both political and cultural boundaries."
+  },
+  {
+    question: "Major ethnic groups and major linguistic groups are not the same. True/False",
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false }
+    ],
+    explanation: "While major ethnic groups and linguistic groups are related, they are distinct."
+  },
+  {
+    question: "Governance and Civil responsibility are under ____________.",
+    answers: [
+      { text: "Political", correct: true },
+      { text: "Cultural", correct: false },
+      { text: "Social", correct: false },
+      { text: "Economic", correct: false }
+    ],
+    explanation: "Governance and civil responsibility fall under political ideals."
+  },
+  {
+    question: "Which of the following is involved in conducting free and fair elections?",
+    answers: [
+      { text: "The society", correct: false },
+      { text: "The tribunal", correct: false },
+      { text: "INEC", correct: true },
+      { text: "The judiciary", correct: false }
+    ],
+    explanation: "INEC (Independent National Electoral Commission) is responsible for conducting free and fair elections in Nigeria."
+  },
+  {
+    question: "In 1900, Nigeria was divided into southern protectorate, northern protectorate, and ____________.",
+    answers: [
+      { text: "Western", correct: false },
+      { text: "Eastern", correct: false },
+      { text: "Midwestern", correct: false },
+      { text: "Colony", correct: true }
+    ],
+    explanation: "In 1900, Nigeria was divided into northern protectorate, southern protectorate, and the Colony of Lagos."
+  },
+  {
+    question: "Kano has ____________ local government areas.",
+    answers: [
+      { text: "23", correct: false },
+      { text: "44", correct: true },
+      { text: "5", correct: false },
+      { text: "34", correct: false }
+    ],
+    explanation: "Kano has 44 local government areas."
+  },
+  {
+    question: "Kwa is under which group?",
+    answers: [
+      { text: "Afro-Asiatic", correct: false },
+      { text: "Niger-Congo", correct: true },
+      { text: "Nilo-Sahara", correct: false },
+      { text: "Yoruba", correct: false }
+    ],
+    explanation: "Kwa is a subgroup of the Niger-Congo family."
+  },
+  {
+    question: "Another name for Nilo-Saharan is ____________.",
+    answers: [
+      { text: "Saharan", correct: false },
+      { text: "Semitic", correct: false },
+      { text: "Sudanic", correct: true },
+      { text: "Khoisan", correct: false }
+    ],
+    explanation: "Nilo-Saharan is also known as the Sudanic family."
+  },
+  {
+    question: "A nation state has ____________ meaning ultimate authority within its borders and it's not subjected to any external power.",
+    answers: [
+      { text: "Sovereignty", correct: true },
+      { text: "Territory", correct: false },
+      { text: "Government", correct: false },
+      { text: "National identity", correct: false }
+    ],
+    explanation: "Sovereignty means that a nation-state has ultimate authority within its borders."
+  },
+  {
+    question: "Jus soli is the right of citizenship by ____________.",
+    answers: [
+      { text: "Blood", correct: false },
+      { text: "Birth", correct: true },
+      { text: "Family", correct: false },
+      { text: "None", correct: false }
+    ],
+    explanation: "Jus soli refers to citizenship by birth within a country's territory."
+  },
+  {
+    question: "Rearing of cattle is common among which tribe?",
+    answers: [
+      { text: "Igbos", correct: false },
+      { text: "Yorubas", correct: false },
+      { text: "Hausa", correct: true },
+      { text: "Efik", correct: false }
+    ],
+    explanation: "Cattle rearing is a common practice among the Hausa people."
+  },
+  {
+    question: "Goodluck Jonathan is a ____________ of Nigeria.",
+    answers: [
+      { text: "President", correct: true },
+      { text: "Governor", correct: false },
+      { text: "Senator", correct: false },
+      { text: "Minister", correct: false }
+    ],
+    explanation: "Goodluck Jonathan served as the President of Nigeria."
+  },
+  {
+    question: "Amalgamation of southern and northern ____________.",
+    answers: [
+      { text: "Protectorates", correct: true },
+      { text: "Regions", correct: false },
+      { text: "Districts", correct: false },
+      { text: "Territories", correct: false }
+    ],
+    explanation: "The southern and northern protectorates of Nigeria were amalgamated in 1914."
+  },
+  {
+    question: "Nilo-Saharan is otherwise known as ____________.",
+    answers: [
+      { text: "Sudanic group", correct: true },
+      { text: "Berber group", correct: false },
+      { text: "Kwa family", correct: false },
+      { text: "Afro-Asiatic family", correct: false }
+    ],
+    explanation: "Nilo-Saharan is also known as the Sudanic group."
+  },
+  {
+    question: "Underemployment leads to ____________.",
+    answers: [
+      { text: "Food", correct: false },
+      { text: "Progress", correct: false },
+      { text: "Degenerate", correct: true },
+      { text: "Wealth", correct: false }
+    ],
+    explanation: "Underemployment often leads to social and economic decline (degeneration)."
+  },
+  {
+    question: "How many local governments are there in Kano?",
+    answers: [
+      { text: "44", correct: true },
+      { text: "23", correct: false },
+      { text: "34", correct: false },
+      { text: "50", correct: false }
+    ],
+    explanation: "Kano state has 44 local governments."
+  },
+  {
+    question: "A nation state has clearly defined borders called ____________.",
+    answers: [
+      { text: "Sovereignty", correct: false },
+      { text: "Territory", correct: true },
+      { text: "Government", correct: false },
+      { text: "Population", correct: false }
+    ],
+    explanation: "The borders of a nation-state are referred to as its territory."
+  },
+  {
+    question: "Citizenship can be acquired by all of the following except ____________.",
+    answers: [
+      { text: "Naturalization", correct: false },
+      { text: "Birth", correct: false },
+      { text: "Descent", correct: false },
+      { text: "Death", correct: true }
+    ],
+    explanation: "Citizenship cannot be acquired through death."
+  },
+  {
+    question: "The Hausa tribe speaks ____________ language.",
+    answers: [
+      { text: "Hausa", correct: true },
+      { text: "Yoruba", correct: false },
+      { text: "Igbo", correct: false },
+      { text: "Efik", correct: false }
+    ],
+    explanation: "The Hausa people speak the Hausa language."
+  },
+  {
+    question: "Political independence is the ability of a nation to make decisions free from ____________ influence.",
+    answers: [
+      { text: "Internal", correct: false },
+      { text: "External", correct: true },
+      { text: "Cultural", correct: false },
+      { text: "Ethnic", correct: false }
+    ],
+    explanation: "Political independence refers to the freedom of a nation to make decisions without external influence."
+  },
+  {
+    question: "Who is responsible for conducting elections in Nigeria?",
+    answers: [
+      { text: "The Senate", correct: false },
+      { text: "The Judiciary", correct: false },
+      { text: "INEC", correct: true },
+      { text: "The Police", correct: false }
+    ],
+    explanation: "The Independent National Electoral Commission (INEC) is responsible for conducting elections in Nigeria."
+  },
+  {
+    question: "Which of these is NOT a major political party in Nigeria?",
+    answers: [
+      { text: "PDP", correct: false },
+      { text: "APC", correct: false },
+      { text: "ANPP", correct: false },
+      { text: "NPP", correct: true }
+    ],
+    explanation: "NPP is not a major political party in Nigeria."
+  },
+  {
+    question: "Nigeria's democracy is characterized by all the following except ____________.",
+    answers: [
+      { text: "Free elections", correct: false },
+      { text: "Government accountability", correct: false },
+      { text: "Single-party system", correct: true },
+      { text: "Protection of rights", correct: false }
+    ],
+    explanation: "Nigeria's democracy is based on a multi-party system, not a single-party system."
+  },
+  {
+    question: "The first civilian President of Nigeria was ____________.",
+    answers: [
+      { text: "Nnamdi Azikiwe", correct: true },
+      { text: "Olusegun Obasanjo", correct: false },
+      { text: "Goodluck Jonathan", correct: false },
+      { text: "Muhammadu Buhari", correct: false }
+    ],
+    explanation: "Nnamdi Azikiwe was the first civilian President of Nigeria."
+  },
+  {
+    question: "The Nigerian government is divided into how many branches?",
+    answers: [
+      { text: "Two", correct: false },
+      { text: "Four", correct: false },
+      { text: "Three", correct: true },
+      { text: "Five", correct: false }
+    ],
+    explanation: "The Nigerian government is divided into three branches: the executive, legislative, and judiciary."
+  },
+  {
+    question: "The Nigerian national flag has how many colors?",
+    answers: [
+      { text: "Three", correct: false },
+      { text: "Two", correct: true },
+      { text: "Four", correct: false },
+      { text: "One", correct: false }
+    ],
+    explanation: "The Nigerian flag consists of two colors: green and white."
+  },
+  {
+    question: "Nigeria gained independence in the year ____________.",
+    answers: [
+      { text: "1957", correct: false },
+      { text: "1960", correct: true },
+      { text: "1963", correct: false },
+      { text: "1979", correct: false }
+    ],
+    explanation: "Nigeria gained its independence from Britain in 1960."
+  },
+  {
+    question: "The Nigerian currency is called ____________.",
+    answers: [
+      { text: "Dollar", correct: false },
+      { text: "Pound", correct: false },
+      { text: "Euro", correct: false },
+      { text: "Naira", correct: true }
+    ],
+    explanation: "The official currency of Nigeria is the Naira."
+  },
+  {
+    question: "The capital of Nigeria is ____________.",
+    answers: [
+      { text: "Lagos", correct: false },
+      { text: "Abuja", correct: true },
+      { text: "Kano", correct: false },
+      { text: "Port Harcourt", correct: false }
+    ],
+    explanation: "Abuja is the capital city of Nigeria."
+  },
+  {
+    question: "Democracy in Nigeria is associated with all of the following except ____________.",
+    answers: [
+      { text: "Military rule", correct: true },
+      { text: "Rule of law", correct: false },
+      { text: "Popular participation", correct: false },
+      { text: "Elected representatives", correct: false }
+    ],
+    explanation: "Democracy is characterized by rule of law and elected representatives, not military rule."
+  },
+  {
+    question: "The Nigerian government practices a ____________ system.",
+    answers: [
+      { text: "Federal", correct: true },
+      { text: "Unitary", correct: false },
+      { text: "Confederate", correct: false },
+      { text: "Monarchical", correct: false }
+    ],
+    explanation: "Nigeria practices a federal system of government, dividing power between the central government and states."
+  },
+  {
+    question: "Which of these is a major religion in Nigeria?",
+    answers: [
+      { text: "Hinduism", correct: false },
+      { text: "Islam", correct: true },
+      { text: "Buddhism", correct: false },
+      { text: "Shinto", correct: false }
+    ],
+    explanation: "Islam is one of the major religions in Nigeria, alongside Christianity."
+  },
+  {
+    question: "The executive branch of the Nigerian government is headed by the ____________.",
+    answers: [
+      { text: "Chief Justice", correct: false },
+      { text: "President", correct: true },
+      { text: "Governor", correct: false },
+      { text: "Minister of State", correct: false }
+    ],
+    explanation: "The President is the head of the executive branch in Nigeria."
+  },
+  {
+    question: "The Nigerian civil war lasted from ____________.",
+    answers: [
+      { text: "1967-1970", correct: true },
+      { text: "1965-1967", correct: false },
+      { text: "1970-1975", correct: false },
+      { text: "1980-1985", correct: false }
+    ],
+    explanation: "The Nigerian Civil War, also known as the Biafran War, lasted from 1967 to 1970."
+  },
+  {
+    question: "The Nigerian Senate is part of the ____________ branch of government.",
+    answers: [
+      { text: "Executive", correct: false },
+      { text: "Legislative", correct: true },
+      { text: "Judicial", correct: false },
+      { text: "Military", correct: false }
+    ],
+    explanation: "The Nigerian Senate is part of the legislative branch."
+  },
+  {
+    question: "The three arms of government in Nigeria are the executive, legislative, and ____________ branches.",
+    answers: [
+      { text: "Judiciary", correct: true },
+      { text: "Military", correct: false },
+      { text: "Monarchy", correct: false },
+      { text: "Federal", correct: false }
+    ],
+    explanation: "The three arms of government are the executive, legislative, and judiciary branches."
+  },
+  {
+    question: "The 1999 Nigerian Constitution is based on a ____________ system of government.",
+    answers: [
+      { text: "Confederal", correct: false },
+      { text: "Unitary", correct: false },
+      { text: "Federal", correct: true },
+      { text: "Dictatorship", correct: false }
+    ],
+    explanation: "The 1999 Nigerian Constitution established a federal system of government."
+  },
+  {
+    question: "The Nigerian National Assembly consists of the Senate and ____________.",
+    answers: [
+      { text: "House of Representatives", correct: true },
+      { text: "House of Lords", correct: false },
+      { text: "Federal Executive Council", correct: false },
+      { text: "Judiciary", correct: false }
+    ],
+    explanation: "The Nigerian National Assembly consists of two chambers: the Senate and the House of Representatives."
+  },
+  {
+    question: "Who appoints the Nigerian ministers?",
+    answers: [
+      { text: "The Senate", correct: false },
+      { text: "The President", correct: true },
+      { text: "The Judiciary", correct: false },
+      { text: "State Governors", correct: false }
+    ],
+    explanation: "The President of Nigeria appoints ministers, subject to approval by the Senate."
+  },
+  {
+    question: "Nigeria is located on which continent?",
+    answers: [
+      { text: "Asia", correct: false },
+      { text: "Europe", correct: false },
+      { text: "Africa", correct: true },
+      { text: "South America", correct: false }
+    ],
+    explanation: "Nigeria is located in West Africa, a region on the African continent."
+  },
+  {
+    question: "The supreme law of the land in Nigeria is the ____________.",
+    answers: [
+      { text: "President's decrees", correct: false },
+      { text: "National Assembly", correct: false },
+      { text: "Constitution", correct: true },
+      { text: "Judiciary", correct: false }
+    ],
+    explanation: "The Constitution is the supreme law of Nigeria, and all other laws derive their authority from it."
+  },
+  {
+    question: "The highest court in Nigeria is the ____________.",
+    answers: [
+      { text: "High Court", correct: false },
+      { text: "Court of Appeal", correct: false },
+      { text: "Supreme Court", correct: true },
+      { text: "Magistrate Court", correct: false }
+    ],
+    explanation: "The Supreme Court is the highest court in Nigeria."
+  },
+  {
+    question: "Nigeria is divided into how many states?",
+    answers: [
+      { text: "30", correct: false },
+      { text: "32", correct: false },
+      { text: "36", correct: true },
+      { text: "40", correct: false }
+    ],
+    explanation: "Nigeria is divided into 36 states and a Federal Capital Territory."
+  },
+  {
+    question: "The head of the judiciary in Nigeria is the ____________.",
+    answers: [
+      { text: "Chief Justice", correct: true },
+      { text: "President", correct: false },
+      { text: "Attorney General", correct: false },
+      { text: "Senate President", correct: false }
+    ],
+    explanation: "The Chief Justice of Nigeria is the head of the judiciary."
+  },
+  {
+    question: "The Nigerian economy is primarily based on ____________.",
+    answers: [
+      { text: "Manufacturing", correct: false },
+      { text: "Agriculture", correct: false },
+      { text: "Oil and gas", correct: true },
+      { text: "Technology", correct: false }
+    ],
+    explanation: "Nigeria's economy is heavily dependent on its oil and gas sector, which generates the majority of its revenue."
+  },
+  {
+    question: "The longest river in Nigeria is the ____________.",
+    answers: [
+      { text: "River Benue", correct: false },
+      { text: "River Niger", correct: true },
+      { text: "River Kaduna", correct: false },
+      { text: "River Osun", correct: false }
+    ],
+    explanation: "The River Niger is the longest river in Nigeria, stretching through the country and beyond."
+  },
+  {
+    question: "The national symbol of Nigeria includes all except ____________.",
+    answers: [
+      { text: "The Eagle", correct: false },
+      { text: "The Coat of Arms", correct: false },
+      { text: "The Pyramid", correct: true },
+      { text: "The Green and White Flag", correct: false }
+    ],
+    explanation: "Nigeria's national symbols include the Eagle, the Coat of Arms, and the national flag, but not the Pyramid."
+  },
+  {
+    question: "Nigeria is a member of which international organization?",
+    answers: [
+      { text: "NATO", correct: false },
+      { text: "EU", correct: false },
+      { text: "ECOWAS", correct: true },
+      { text: "ASEAN", correct: false }
+    ],
+    explanation: "Nigeria is a member of the Economic Community of West African States (ECOWAS)."
+  },
+  {
+    question: "The official language of Nigeria is ____________.",
+    answers: [
+      { text: "Hausa", correct: false },
+      { text: "Yoruba", correct: false },
+      { text: "Igbo", correct: false },
+      { text: "English", correct: true }
+    ],
+    explanation: "English is the official language of Nigeria, used in government and business."
+  },
+  {
+    question: "Nigeria's current constitution was adopted in ____________.",
+    answers: [
+      { text: "1979", correct: false },
+      { text: "1989", correct: false },
+      { text: "1999", correct: true },
+      { text: "2010", correct: false }
+    ],
+    explanation: "Nigeria adopted its current constitution in 1999, which marked the return to civilian rule."
+  },
+  {
+    question: "Which Nigerian leader was overthrown in the first military coup of 1966?",
+    answers: [
+      { text: "Nnamdi Azikiwe", correct: false },
+      { text: "Tafawa Balewa", correct: true },
+      { text: "Yakubu Gowon", correct: false },
+      { text: "Olusegun Obasanjo", correct: false }
+    ],
+    explanation: "Tafawa Balewa, the Prime Minister of Nigeria, was overthrown and killed in the 1966 military coup."
+  },
+  {
+    question: "The first Nigerian Republic was established in ____________.",
+    answers: [
+      { text: "1960", correct: false },
+      { text: "1963", correct: true },
+      { text: "1979", correct: false },
+      { text: "1999", correct: false }
+    ],
+    explanation: "The First Nigerian Republic was established in 1963 after Nigeria became a republic."
+  },
+  {
+    question: "Nigeria's traditional rulers are mainly involved in ____________.",
+    answers: [
+      { text: "Executive decision making", correct: false },
+      { text: "Judicial matters", correct: true },
+      { text: "Legislative functions", correct: false },
+      { text: "Foreign policy", correct: false }
+    ],
+    explanation: "Traditional rulers in Nigeria mainly play a role in judicial matters and conflict resolution within their communities."
+  },
+  {
+    question: "The Governor-General of Nigeria during independence was ____________.",
+    answers: [
+      { text: "Nnamdi Azikiwe", correct: true },
+      { text: "Obafemi Awolowo", correct: false },
+      { text: "Ahmadu Bello", correct: false },
+      { text: "Yakubu Gowon", correct: false }
+    ],
+    explanation: "Nnamdi Azikiwe was Nigeria's first Governor-General and later became its first President."
+  },
+  {
+    question: "Which Nigerian tribe is known for its bronze artwork?",
+    answers: [
+      { text: "Igbo", correct: false },
+      { text: "Yoruba", correct: true },
+      { text: "Hausa", correct: false },
+      { text: "Ijaw", correct: false }
+    ],
+    explanation: "The Yoruba people, particularly from Ife, are known for their exquisite bronze artwork."
+  },
+  {
+    question: "The role of citizens include the following except?",
+    answers: [
+      { text: "Patriotism", correct: false },
+      { text: "Paying taxes", correct: false },
+      { text: "Obey laws", correct: false },
+      { text: "Disloyalty", correct: true }
+    ],
+    explanation: "Disloyalty is not a role of citizens."
+  },
+  {
+    question: "Greenberg in his 1963 work classifies African language into ____________ main family.",
+    answers: [
+      { text: "2", correct: false },
+      { text: "3", correct: false },
+      { text: "4", correct: true },
+      { text: "5", correct: false }
+    ],
+    explanation: "Greenberg classified African languages into 4 main families."
+  },
+  {
+    question: "At one time, people who didn’t see themselves as united or sharing any sort of identity were ruled by empires and ____________.",
+    answers: [
+      { text: "Kingdoms", correct: true },
+      { text: "Rulers", correct: false },
+      { text: "Leaders", correct: false },
+      { text: "State", correct: false }
+    ],
+    explanation: "Empires and kingdoms ruled over people who didn’t identify as united."
+  },
+  {
+    question: "Nigeria was divided into three protectorates: the Niger/Northern protectorates, the southern protectorate and __________.",
+    answers: [
+      { text: "Eastern protectorate", correct: false },
+      { text: "Mid-eastern protectorate", correct: false },
+      { text: "Western protectorate", correct: false },
+      { text: "Colony", correct: true }
+    ],
+    explanation: "Nigeria was divided into three protectorates, including the Colony."
+  },
+  {
+    question: "___________ is not a cultural attribute of a nation.",
+    answers: [
+      { text: "Religion", correct: false },
+      { text: "Custom", correct: false },
+      { text: "Language", correct: false },
+      { text: "Age", correct: true }
+    ],
+    explanation: "Age is not considered a cultural attribute of a nation."
+  },
+  {
+    question: "___________ disparities exist among members of various geo-political zones.",
+    answers: [
+      { text: "Houses", correct: false },
+      { text: "Gross", correct: true },
+      { text: "Sky", correct: false },
+      { text: "Water", correct: false }
+    ],
+    explanation: "Gross disparities exist among geo-political zones."
+  },
+   {
+    question: "South-East has ____________ number of states (highest, least, middle).",
+    answers: [
+      { text: "Highest", correct: false },
+      { text: "Least", correct: true },
+      { text: "Middle", correct: false },
+      { text: "Equal", correct: false }
+    ],
+    explanation: "The South-East has the least number of states in Nigeria."
+  },
+  {
+    question: "Original Hausa is also called ____________.",
+    answers: [
+      { text: "Hausa Fulani", correct: false },
+      { text: "Hausa Bakwai", correct: true },
+      { text: "Kanuri", correct: false },
+      { text: "Hausa Bakare", correct: false }
+    ],
+    explanation: "Original Hausa is known as Hausa Bakwai."
+  },
+  {
+    question: "Nigeria is a multi-ethnic nation with ___________ ethnic groups.",
+    answers: [
+      { text: "Over 250", correct: true },
+      { text: "Less than 100", correct: false },
+      { text: "About 150", correct: false },
+      { text: "Over 500", correct: false }
+    ],
+    explanation: "Nigeria has over 250 ethnic groups."
+  },
+  {
+    question: "Nation state has ____________ population.",
+    answers: [
+      { text: "Temporary", correct: false },
+      { text: "Dynamic", correct: false },
+      { text: "Growing", correct: false },
+      { text: "Permanent", correct: true }
+    ],
+    explanation: "A nation state has a permanent population."
+  },
+  {
+    question: "A nation state is a type of political entity characterized by the agreement of ___________ and ___________ boundaries.",
+    answers: [
+      { text: "Regional and Local", correct: false },
+      { text: "Political and Cultural", correct: true },
+      { text: "Physical and Natural", correct: false },
+      { text: "National and International", correct: false }
+    ],
+    explanation: "A nation state is characterized by the agreement of political and cultural boundaries."
+  },
+  {
+    question: "Language distribution in Nigeria is in ___________ number.",
+    answers: [
+      { text: "2", correct: false },
+      { text: "3", correct: false },
+      { text: "4", correct: true },
+      { text: "5", correct: false }
+    ],
+    explanation: "There are 4 major language groups in Nigeria."
+  },
+  {
+    question: "Mass culture can also be called __________.",
+    answers: [
+      { text: "Traditional culture", correct: false },
+      { text: "Elite culture", correct: false },
+      { text: "Media culture", correct: false },
+      { text: "Mass media", correct: true }
+    ],
+    explanation: "Mass culture is closely related to mass media."
+  },
+  {
+    question: "No culture is perfect or complete, this was said by ____________.",
+    answers: [
+      { text: "Albert Einstein", correct: false },
+      { text: "Ernest Hemingway", correct: false },
+      { text: "Erstein Albert", correct: true },
+      { text: "Isaac Newton", correct: false }
+    ],
+    explanation: "Erstein Albert said that no culture is perfect or complete."
+  },
+  {
+    question: "According to Greenberg (1963), the classification of African languages is into how many classes?",
+    answers: [
+      { text: "4", correct: true },
+      { text: "5", correct: false },
+      { text: "8", correct: false },
+      { text: "6", correct: false }
+    ],
+    explanation: "Greenberg classified African languages into 4 main classes."
+  },
+  {
+    question: "The Yoruba group is under the ___________ group.",
+    answers: [
+      { text: "Niger – Congo group", correct: true },
+      { text: "Nihlo – Saharan group", correct: false },
+      { text: "Afro – Asiatic group", correct: false },
+      { text: "Cushitic group", correct: false }
+    ],
+    explanation: "The Yoruba group belongs to the Niger – Congo language family."
+  },
+  {
+    question: "The following are ways of obtaining citizenship except?",
+    answers: [
+      { text: "Birth", correct: false },
+      { text: "Naturalization", correct: false },
+      { text: "Death", correct: true },
+      { text: "Marriage", correct: false }
+    ],
+    explanation: "Citizenship cannot be obtained through death."
+  },
+  {
+    question: "The Kwa group is branched under the ____________ group.",
+    answers: [
+      { text: "Niger-Congo", correct: true },
+      { text: "Nihlo-Saharan", correct: false },
+      { text: "Afro-Asiatic", correct: false },
+      { text: "Bantu", correct: false }
+    ],
+    explanation: "The Kwa group is a subgroup of the Niger-Congo language family."
+  },
+  {
+    question: "Political violence affects ___________.",
+    answers: [
+      { text: "Governance", correct: false },
+      { text: "Electoral process", correct: false },
+      { text: "Democracy", correct: false },
+      { text: "All of the above", correct: true }
+    ],
+    explanation: "Political violence affects governance, electoral processes, and democracy as a whole."
+  },
+  {
+    question: "What year was the amalgamation of the southern and northern protectorates?",
+    answers: [
+      { text: "1906", correct: false },
+      { text: "1921", correct: false },
+      { text: "1914", correct: true },
+      { text: "1915", correct: false }
+    ],
+    explanation: "The amalgamation of the southern and northern protectorates took place in 1914."
+  },
+  {
+    question: "What are the major ethnicities in Nigeria?",
+    answers: [
+      { text: "Swahili family", correct: false },
+      { text: "Niger-Congo", correct: false },
+      { text: "Afro-Asiatic family", correct: false },
+      { text: "Hausa, Yoruba, Igbo", correct: true }
+    ],
+    explanation: "The major ethnic groups in Nigeria are Hausa, Yoruba, and Igbo."
+  },
+  {
+    question: "Yoruba originates from ____________.",
+    answers: [
+      { text: "Niger-Congo", correct: true },
+      { text: "Swahili family", correct: false },
+      { text: "Afro-Asiatic family", correct: false },
+      { text: "None", correct: false }
+    ],
+    explanation: "The Yoruba language originates from the Niger-Congo language family."
+  },
+  {
+    question: "___________ is clearly defined by geographical borders.",
+    answers: [
+      { text: "State", correct: false },
+      { text: "Territory", correct: true },
+      { text: "Kingdom", correct: false },
+      { text: "City", correct: false }
+    ],
+    explanation: "Territory is defined by geographical borders."
+  },
+  {
+    question: "The type of conflict between Aguleri and Umuleri is ____________.",
+    answers: [
+      { text: "Political", correct: false },
+      { text: "Communal", correct: true },
+      { text: "Ethnic", correct: false },
+      { text: "Religious", correct: false }
+    ],
+    explanation: "The Aguleri-Umuleri conflict is classified as communal."
+  },
+  {
+    question: "In Joseph Greenberg's (1963) classification, which of the following is under the Afro-Asiatic family?",
+    answers: [
+      { text: "Kwa", correct: false },
+      { text: "Berber branch", correct: true },
+      { text: "Hausa", correct: true },
+      { text: "Niger-Congo", correct: false }
+    ],
+    explanation: "The Berber and Hausa languages are part of the Afro-Asiatic language family."
+  },
+  {
+    question: "The Yoruba language falls under which Nigerian language group?",
+    answers: [
+      { text: "Afro-Asiatic", correct: false },
+      { text: "Niger-Congo", correct: true },
+      { text: "Khoisan", correct: false },
+      { text: "Nilo-Saharan", correct: false }
+    ],
+    explanation: "Yoruba is part of the Niger-Congo language group."
+  },
+  {
+    question: "One of the following is peculiar to Lagos and Port Harcourt:",
+    answers: [
+      { text: "Mining", correct: false },
+      { text: "Liming", correct: false },
+      { text: "Flooding", correct: true },
+      { text: "Agriculture", correct: false }
+    ],
+    explanation: "Flooding is a recurring problem in Lagos and Port Harcourt due to their coastal locations."
+  },
+  {
+    question: "The region with the least number of local governments is ___________.",
+    answers: [
+      { text: "North-East", correct: false },
+      { text: "North-West", correct: false },
+      { text: "South-East", correct: true },
+      { text: "South-South", correct: false }
+    ],
+    explanation: "The South-East region of Nigeria has the fewest local government areas."
+  },
+  {
+    question: "The 35% affirmative declaration in favor of women during the Beijing conference was in what year?",
+    answers: [
+      { text: "1990", correct: false },
+      { text: "1995", correct: true },
+      { text: "2000", correct: false },
+      { text: "2005", correct: false }
+    ],
+    explanation: "The 1995 Beijing conference set a goal of 35% representation for women in political leadership."
+  },
+  {
+    question: "The following are responsible for ensuring a free and fair election except:",
+    answers: [
+      { text: "Independent National Electoral Commission (INEC)", correct: false },
+      { text: "The Society", correct: true },
+      { text: "Security Agency", correct: false },
+      { text: "Civil Society Organizations", correct: false }
+    ],
+    explanation: "While the society plays a role in supporting democracy, it is not a direct institutional actor in ensuring free and fair elections."
+  },
+  {
+    question: "One of the following is considered the main problem of a Nation state:",
+    answers: [
+      { text: "Competition", correct: false },
+      { text: "Insecurity", correct: true },
+      { text: "Gender discrimination", correct: false },
+      { text: "Resource allocation", correct: false }
+    ],
+    explanation: "Insecurity is a significant challenge for many nation-states, impacting governance and development."
+  },
+  {
+    question: "Nigeria became a political unit in what year?",
+    answers: [
+      { text: "1900", correct: false },
+      { text: "1913", correct: false },
+      { text: "1914", correct: true },
+      { text: "1921", correct: false }
+    ],
+    explanation: "Nigeria was amalgamated into a political unit in 1914, uniting the northern and southern protectorates."
+  },
+  {
+    question: "A nation state is characterized by the agreement of ____________.",
+    answers: [
+      { text: "Political and cultural boundaries", correct: true },
+      { text: "Political and religious boundaries", correct: false },
+      { text: "Political and economic boundaries", correct: false },
+      { text: "Cultural and religious boundaries", correct: false }
+    ],
+    explanation: "A nation-state typically coincides with political and cultural boundaries."
+  },
+  {
+    question: "National Identity can foster ___________.",
+    answers: [
+      { text: "Money and Pride", correct: false },
+      { text: "Unity and Peace", correct: true },
+      { text: "Unity and Wealth", correct: false },
+      { text: "Pride and Power", correct: false }
+    ],
+    explanation: "National identity promotes unity and peace within a country."
+  },
+  {
+    question: "The number of languages listed for Nigeria is ___________.",
+    answers: [
+      { text: "502", correct: false },
+      { text: "508", correct: false },
+      { text: "515", correct: true },
+      { text: "520", correct: false }
+    ],
+    explanation: "Nigeria has 515 officially listed languages."
+  },
+  {
+    question: "English is an indigenous language.",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true }
+    ],
+    explanation: "English is not an indigenous language in Nigeria, it is a colonial legacy."
+  },
+   {
+    question: "The role of citizens include the following except:",
+    answers: [
+      { text: "Patriotism", correct: false },
+      { text: "Paying taxes", correct: false },
+      { text: "Obeying laws", correct: false },
+      { text: "Disloyalty", correct: true }
+    ],
+    explanation: "Disloyalty is not a role of citizens; instead, they are expected to show loyalty to their country."
+  },
+  {
+    question: "Greenberg in his 1963 work classifies African language into ____________ main family.",
+    answers: [
+      { text: "2", correct: false },
+      { text: "3", correct: false },
+      { text: "4", correct: true },
+      { text: "5", correct: false }
+    ],
+    explanation: "Joseph Greenberg classified African languages into four main families."
+  },
+  {
+    question: "At one time, people who didn’t see themselves as united or sharing any sort of identity were ruled by empires and ____________.",
+    answers: [
+      { text: "Kingdoms", correct: true },
+      { text: "Rulers", correct: false },
+      { text: "Leaders", correct: false },
+      { text: "States", correct: false }
+    ],
+    explanation: "Kingdoms, along with empires, were forms of rule before the concept of nation-states."
+  },
+  {
+    question: "Nigeria was divided into three protectorates: the Niger/Northern protectorates, the southern protectorate and ___________.",
+    answers: [
+      { text: "Eastern protectorate", correct: false },
+      { text: "Mid-eastern protectorate", correct: false },
+      { text: "Western protectorate", correct: false },
+      { text: "Colony", correct: true }
+    ],
+    explanation: "The third division was referred to as the Colony of Lagos."
+  },
+  {
+    question: "___________ is not a cultural attribute of a nation.",
+    answers: [
+      { text: "Religion", correct: false },
+      { text: "Custom", correct: false },
+      { text: "Language", correct: false },
+      { text: "Age", correct: true }
+    ],
+    explanation: "Age is not a cultural attribute; customs, religion, and language are key cultural traits."
+  },
+  {
+    question: "___________ Disparities exist among members of various geo-political zones.",
+    answers: [
+      { text: "Houses", correct: false },
+      { text: "Gross", correct: true },
+      { text: "Sky", correct: false },
+      { text: "Water", correct: false }
+    ],
+    explanation: "There are gross disparities in income, infrastructure, and opportunities among the geopolitical zones."
+  },
+  {
+    question: "South-East has ____________ number of states (highest, least, middle).",
+    answers: [
+      { text: "Least", correct: true },
+      { text: "Most", correct: false },
+     
+    ],
+    explanation: "The South-East region has the least number of states compared to other regions in Nigeria."
+  },
+  {
+    question: "Original Hausa is also called ____________.",
+    answers: [
+      { text: "Hausa Bakwai", correct: true }
+    ],
+    explanation: "The term 'Hausa Bakwai' refers to the original Hausa states."
+  },
+  {
+    question: "Nigeria is a multi-ethnic nation with ___________ ethnic groups.",
+    answers: [
+      { text: "Over 250", correct: true },
+      { text: "Over 255", correct: false },
+      { text: "Over 550", correct: false },
+      { text: "Over 50", correct: false }
+    ],
+    explanation: "Nigeria is home to more than 250 ethnic groups."
+  },
+  {
+    question: "A nation state has ____________ population.",
+    answers: [
+      { text: "Permanent", correct: true },
+      { text: "false", correct: false },
+      { text: "temporary", correct: false },
+      { text: "True", correct: false }
+    ],
+    explanation: "One of the defining features of a nation-state is its permanent population."
+  },
+  {
+    question: "A nation state is a type of political entity characterized by the agreement of ___________ and ___________ boundaries.",
+    answers: [
+      { text: "Political and Cultural", correct: true }
+    ],
+    explanation: "A nation-state is characterized by the agreement of political and cultural boundaries."
+  },
+  {
+    question: "Language distribution in Nigeria is in ___________ number.",
+    answers: [
+      { text: "4", correct: true },
+      { text: "7", correct: false },
+      { text: "14", correct: false },
+      { text: "250", correct: false },
+    ],
+    explanation: "Nigeria's languages are classified into four major families."
+  },
+  {
+    question: "Mass culture can also be called __________.",
+    answers: [
+      { text: "Mass media", correct: true }
+    ],
+    explanation: "Mass culture is heavily influenced by mass media."
+  },
+  {
+    question: "No culture is perfect or complete, this is said by ____________.",
+    answers: [
+      { text: "Erstein Albert", correct: true }
+    ],
+    explanation: "Erstein Albert's statement reflects the idea that all cultures have room for development."
+  },
+  {
+    question: "According to Greenberg (1963), the classification of African language is into how many classes?",
+    answers: [
+      { text: "4", correct: true },
+      { text: "5", correct: false },
+      { text: "6", correct: false },
+      { text: "10", correct: false },
+    ],
+    explanation: "Greenberg's classification includes four main language families."
+  },
+  {
+    question: "The following are ways of obtaining citizenship except?",
+    answers: [
+      { text: "Birth", correct: false },
+      { text: "Naturalization", correct: false },
+      { text: "Death", correct: true }
+    ],
+    explanation: "Death is not a means of obtaining citizenship."
+  },
+  {
+    question: "The Kwa group is branched under the ____________ group.",
+    answers: [
+      { text: "Niger - Congo", correct: true }
+    ],
+    explanation: "The Kwa languages are a branch of the Niger-Congo family."
+  },
+  {
+    question: "Political violence affects:",
+    answers: [
+      { text: "Governance", correct: false },
+      { text: "Electoral process", correct: false },
+      { text: "Democracy", correct: false },
+      { text: "All of the above", correct: true }
+    ],
+    explanation: "Political violence can impact governance, electoral processes, and the stability of democracy."
+  },
+  {
+    question: "What year was the amalgamation of the south and north protectorates?",
+    answers: [
+      { text: "1906", correct: false },
+      { text: "1921", correct: false },
+      { text: "1914", correct: true },
+      { text: "1915", correct: false }
+    ],
+    explanation: "The north and south protectorates were amalgamated in 1914."
+  },
+  {
+    question: "What are the major ethnicities in Nigeria?",
+    answers: [
+      { text: "Swahili family", correct: false },
+      { text: "Niger Congo", correct: false },
+      { text: "Afro Asiatic family", correct: false },
+      { text: "Hausa, Yoruba, Igbo", correct: true }
+    ],
+    explanation: "The major ethnic groups in Nigeria are Hausa, Yoruba, and Igbo."
+  },
+  {
+    question: "Where does Yoruba originate from?",
+    answers: [
+      { text: "Niger Congo", correct: true },
+      { text: "Niger ", correct: false },
+      { text: "Congo ", correct: false }
+    ],
+    explanation: "The Yoruba language originates from the Niger-Congo family."
+  },
+  {
+    question: "___________ is clearly defined by geographical borders.",
+    answers: [
+      { text: "Territory", correct: true },
+      { text: "land", correct: false },
+      { text: "zone", correct: false },
+      { text: "area", correct: false },
+    ],
+    explanation: "A territory is defined by geographical borders."
+  },
+  {
+    question: "The type of conflict between Aguleri and Umulari is ____________.",
+    answers: [
+      { text: "Communal", correct: true },
+      { text: "interCommunal", correct: false },
+      { text: "intraCommunal", correct: false }
+    ],
+    explanation: "The conflict between Aguleri and Umulari is a communal conflict."
+  },
+  
+
               {
                 question: "Which connective is used for transitional function?",
                 answers: [
@@ -16987,7 +17022,7 @@ function startQuiz(subject) {
     score = 0;
     document.getElementById('subject-selection').style.display = 'none';
     document.getElementById('quiz-page').style.display = 'block';
-    startTimer(15 * 60); // 15 minutes in seconds
+    startTimer(25 * 60); // 25 minutes in seconds
     showQuestions();
 }
 
@@ -17007,7 +17042,7 @@ function startTimer(seconds) {
 function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
-    return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+    return `${minutes}:${remainingSeconds < 25 ? '0' : ''}${remainingSeconds}`;
 }
 
 function showQuestions() {
