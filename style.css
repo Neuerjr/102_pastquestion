@@ -250,8 +250,8 @@ button {
 }
 
 .butn {
-    width: 500px;
-    height: 50px;
+    
+    width: 100%;
     margin: 80px;
     background-color: #babeba; 
     color: white;
@@ -441,6 +441,8 @@ margin: 60px;
     margin: 60px;
 }
 
+
+
 .float{
 	position:fixed;
     
@@ -461,4 +463,7 @@ margin: 60px;
 
 .my-float{
 	margin-top:16px;
+    
 }
+
+
