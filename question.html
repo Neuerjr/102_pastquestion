@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Questions</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    
+    <div id="quiz-container"></div>
+    <button id="submit-button" onclick="submitQuiz()">Submit Quiz</button>
+    
+    <script src="script.js"></script>
+    <script>
+        // Load the quiz data and show the questions
+        function loadQuestions() {
+            const questions = quizData.biology; // Example: Change this based on subject
+            let quizContainer = document.getElementById('quiz-container');
+            quizContainer.innerHTML = ''; // Clear previous content
+            
+            questions.forEach((question, index) => {
+                let questionHTML = `
+                    <div class="question">
+                        <p>${index + 1}. ${question.question}</p>
+                        ${question.answers.map((answer, i) => `
+                            <label>
+                                <input type="radio" name="q${index}" value="${answer.text}">
+                                ${answer.text}
+                            </label>
+                        `).join('')}
+                    </div>
+                `;
+                quizContainer.innerHTML += questionHTML;
+            });
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>

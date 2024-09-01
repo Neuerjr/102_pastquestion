@@ -249,6 +249,12 @@ button {
     margin-top: 1px;
 }
 
+#footer {
+    position: fixed;
+    bottom:40px;
+
+}
+
 .butn {
     
     background-color: #babeba; 
@@ -256,7 +262,7 @@ button {
     padding: 15px 20px;
     width: 75%;
     height: 70px;
-    margin: 30px;
+    margin: 60px;
     border: none;
     cursor: pointer;
     text-align: center;
@@ -270,6 +276,7 @@ button {
     transform: perspective(1000px) rotateX(4deg) rotateY(8deg); /* Slight 3D rotation */
     transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
+
 
 .butn:hover {
     transform: scale(1.05);
@@ -407,7 +414,7 @@ margin: 60px;
     position: 100%;
     width: 100%;
     max-width: 100%;
-    position: fixed;
+    
 
     
 }

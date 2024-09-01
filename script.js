@@ -14431,6 +14431,417 @@ const quizData = {
     ],
     explanation: "Political violence has been a major issue in Nigerian governance."
 },
+{
+  question: "Which of the following is a feature of African economy?",
+  answers: [
+      { text: "Low productivity", correct: true },
+      { text: "High productivity", correct: false },
+      { text: "Business", correct: false },
+      { text: "Water", correct: false }
+  ],
+  explanation: "African economies are often characterized by low productivity."
+},
+{
+  question: "Which of the following belongs to the Niger-Congo family?",
+  answers: [
+      { text: "The Berber branch", correct: false },
+      { text: "The Nilotic branch", correct: false },
+      { text: "The West Atlantic branch", correct: true },
+      { text: "The Handza branch", correct: false }
+  ],
+  explanation: "The West Atlantic branch belongs to the Niger-Congo family."
+},
+{
+  question: "One of the following belongs to the Sudanic family:",
+  answers: [
+      { text: "The Berber branch", correct: false },
+      { text: "The Saharan branch", correct: true },
+      { text: "The Kwa subgroup", correct: false },
+      { text: "The Handza branch", correct: false }
+  ],
+  explanation: "The Saharan branch is part of the Sudanic family."
+},
+{
+  question: "Kwa subgroup is a branch of ________.",
+  answers: [
+      { text: "Nilo-Saharan", correct: false },
+      { text: "Afro-Asiatic group", correct: false },
+      { text: "Niger-Congo group", correct: true },
+      { text: "Handza group", correct: false }
+  ],
+  explanation: "The Kwa subgroup belongs to the Niger-Congo group."
+},
+{
+  question: "All the following are means of identifying a nation except:",
+  answers: [
+      { text: "Treason", correct: true },
+      { text: "National anthem", correct: false },
+      { text: "National pledge", correct: false },
+      { text: "Emblem", correct: false }
+  ],
+  explanation: "Treason is not a means of identifying a nation."
+},
+{
+  question: "Which of the following is not a national symbol?",
+  answers: [
+      { text: "National flag", correct: false },
+      { text: "Emblem", correct: false },
+      { text: "Anthem", correct: false },
+      { text: "Treason", correct: true }
+  ],
+  explanation: "Treason is not a national symbol."
+},
+{
+  question: "The year females were given equal rights to participate in politics is:",
+  answers: [
+      { text: "1995", correct: true },
+      { text: "2005", correct: false },
+      { text: "2015", correct: false },
+      { text: "1985", correct: false }
+  ],
+  explanation: "1995 was the year women were given equal political rights."
+},
+{
+  question: "All Nigerian citizens have the right to all these except:",
+  answers: [
+      { text: "Vote", correct: false },
+      { text: "Work", correct: false },
+      { text: "Live", correct: false },
+      { text: "Crime", correct: true }
+  ],
+  explanation: "Crime is not a right of Nigerian citizens."
+},
+{
+  question: "Goodluck Jonathan was the _________ of Nigeria.",
+  answers: [
+      { text: "Governor", correct: false },
+      { text: "Senator", correct: false },
+      { text: "President", correct: true },
+      { text: "Minister", correct: false }
+  ],
+  explanation: "Goodluck Jonathan was the President of Nigeria."
+},
+{
+  question: "Production of fake drugs is what type of corruption?",
+  answers: [
+      { text: "Moral corruption", correct: false },
+      { text: "Economic corruption", correct: true },
+      { text: "Political corruption", correct: false },
+      { text: "Ethical corruption", correct: false }
+  ],
+  explanation: "Fake drug production is an example of economic corruption."
+},
+{
+  question: "Manufacturing fake drugs in the country is an example of ________.",
+  answers: [
+      { text: "Medical corruption", correct: false },
+      { text: "Economic corruption", correct: true },
+      { text: "Moral corruption", correct: false },
+      { text: "Fraud", correct: false }
+  ],
+  explanation: "Manufacturing fake drugs is economic corruption."
+},
+{
+  question: "Nigeria is ranked one of the most corrupt countries by ________.",
+  answers: [
+      { text: "IMF", correct: false },
+      { text: "Transparency International", correct: true },
+      { text: "United Nations", correct: false },
+      { text: "World Bank", correct: false }
+  ],
+  explanation: "Nigeria is ranked by Transparency International as one of the most corrupt countries."
+},
+{
+  question: "_________ sees corruption as an abuse of office or trust for private benefits.",
+  answers: [
+      { text: "IMF", correct: true },
+      { text: "World Bank", correct: false },
+      { text: "African Development Bank", correct: false },
+      { text: "Central Bank", correct: false }
+  ],
+  explanation: "IMF defines corruption as abuse of office or trust for private gain."
+},
+{
+  question: "________ is a social conflict that relates to a group or groups of society.",
+  answers: [
+      { text: "Group of society", correct: false },
+      { text: "Social", correct: false },
+      { text: "Communal", correct: true },
+      { text: "Political", correct: false }
+  ],
+  explanation: "Communal conflict relates to groups in society."
+},
+{
+  question: "________ refers to conflict involving two or more communities engaging in disagreement.",
+  answers: [
+      { text: "Communal conflict", correct: true },
+      { text: "Social conflict", correct: false },
+      { text: "Political conflict", correct: false },
+      { text: "Group conflict", correct: false }
+  ],
+  explanation: "Communal conflict involves disagreement between two or more communities."
+},
+{
+  question: "Multi-linguistic group and multi-ethnic group are not the same.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "None", correct: false }
+  ],
+  explanation: "Multi-linguistic and multi-ethnic groups differ in language and culture."
+},
+{
+  question: "The Asiatic group and Afro-Asiatic group are not the same.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "None", correct: false }
+  ],
+  explanation: "The Asiatic and Afro-Asiatic groups are different."
+},
+{
+  question: "_________ remained a major challenge to the Nigerian state up to the 21st century.",
+  answers: [
+      { text: "Nation-state", correct: false },
+      { text: "Nation-building", correct: true },
+      { text: "Citizenship", correct: false },
+      { text: "National identity", correct: false }
+  ],
+  explanation: "Nation-building remained a challenge for Nigeria."
+},
+{
+  question: "Regional imbalance is a challenge of nation-building.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Regional imbalance challenges nation-building efforts."
+},
+{
+  question: "Regional imbalance is part of the challenges facing Nigeria.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Regional imbalance is one of the issues Nigeria faces."
+},
+{
+  question: "Regional imbalance does not lead to the extinction of languages.",
+  answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Regional imbalance can contribute to language extinction, especially in less populated areas."
+},
+{
+  question: "Languages can go into extinction.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Languages can become extinct when they are no longer spoken by communities."
+},
+{
+  question: "English, like every other language, is a tonal language.",
+  answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+      { text: "Undecided", correct: false },
+      { text: "None", correct: false }
+  ],
+  explanation: "English is not a tonal language."
+},
+{
+  question: "Man’s actions and behavior are always reflected in language use.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Human actions and behaviors are often expressed through language."
+},
+{
+  question: "Nigeria was considered a political unit in what year?",
+  answers: [
+      { text: "1913", correct: true },
+      { text: "1908", correct: false },
+      { text: "1900", correct: false },
+      { text: "1904", correct: false }
+  ],
+  explanation: "Nigeria was recognized as a political unit in 1913."
+},
+{
+  question: "English is an indigenous language in Nigeria.",
+  answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "English is not indigenous to Nigeria."
+},
+{
+  question: "Arewa youth champions the interest of which region in Nigeria?",
+  answers: [
+      { text: "Southern Nigeria", correct: false },
+      { text: "Northern Nigeria", correct: true },
+      { text: "Western Nigeria", correct: false },
+      { text: "Eastern Nigeria", correct: false }
+  ],
+  explanation: "Arewa youth champions the interests of Northern Nigeria."
+},
+{
+  question: "A person who legally belongs to a particular country is called a ________.",
+  answers: [
+      { text: "Native", correct: false },
+      { text: "Aborigine", correct: false },
+      { text: "Indigene", correct: false },
+      { text: "Citizen", correct: true }
+  ],
+  explanation: "A citizen is a legal member of a particular country."
+},
+{
+  question: "According to Transparency International, how many classes of corruption exist?",
+  answers: [
+      { text: "One", correct: false },
+      { text: "Two", correct: false },
+      { text: "Three", correct: true },
+      { text: "Four", correct: false }
+  ],
+  explanation: "Corruption is generally classified into three types."
+},
+{
+  question: "What type of conflict was the Ife and Modakeke conflict?",
+  answers: [
+      { text: "Economic conflict", correct: false },
+      { text: "Election violence", correct: true },
+      { text: "Religious conflict", correct: false },
+      { text: "Class conflict", correct: false }
+  ],
+  explanation: "The Ife and Modakeke conflict was primarily election violence."
+},
+{
+  question: "Was the conflict between Ife and Modakeke just about fighting?",
+  answers: [
+      { text: "Yes", correct: true },
+      { text: "No", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Yes, the conflict involved physical fights."
+},
+{
+  question: "For most parts of Nigeria's existence, which of the following has been a continuous political problem?",
+  answers: [
+      { text: "Corruption", correct: true },
+      { text: "Violence", correct: false },
+      { text: "Protest", correct: false },
+      { text: "Leadership", correct: false }
+  ],
+  explanation: "Corruption has remained a persistent problem in Nigerian politics."
+},
+{
+  question: "_________ comprises the Afro-Asiatic group.",
+  answers: [
+      { text: "Hausa", correct: true },
+      { text: "Igbo", correct: false },
+      { text: "Yoruba", correct: false },
+      { text: "Fulani", correct: false }
+  ],
+  explanation: "Hausa belongs to the Afro-Asiatic group."
+},
+{
+  question: "The Afro-Asiatic group consists of which of the following?",
+  answers: [
+      { text: "Yoruba", correct: false },
+      { text: "Kwa subgroup", correct: false },
+      { text: "Hausa", correct: true },
+      { text: "Igbo", correct: false }
+  ],
+  explanation: "Hausa is part of the Afro-Asiatic group."
+},
+{
+  question: "How many indigenous languages are spoken in Nigeria?",
+  answers: [
+      { text: "10", correct: false },
+      { text: "8", correct: false },
+      { text: "2", correct: false },
+      { text: "4", correct: true }
+  ],
+  explanation: "Nigeria has four main indigenous language families."
+},
+{
+  question: "Which of the following states was non-existent in history?",
+  answers: [
+      { text: "Political unit", correct: false },
+      { text: "Rivers state", correct: true },
+      { text: "Nation-state", correct: false },
+      { text: "Government state", correct: false }
+  ],
+  explanation: "Rivers state did not exist historically in the same form."
+},
+{
+  question: "Language barriers might be a problem in economic activities.",
+  answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+      { text: "Undecided", correct: false },
+      { text: "Unknown", correct: false }
+  ],
+  explanation: "Language barriers can hinder economic activities."
+},
+{
+  question: "Nigeria is classified as ________.",
+  answers: [
+      { text: "Multiethnic", correct: true },
+      { text: "Polyethnic", correct: false },
+      { text: "Monoethnic", correct: false },
+      { text: "Biethnic", correct: false }
+  ],
+  explanation: "Nigeria is a multiethnic society."
+},
+{
+  question: "Nigeria is a ________ type of nation.",
+  answers: [
+      { text: "Multiethnic", correct: true },
+      { text: "Uniethnic", correct: false },
+      { text: "Monoethnic", correct: false },
+      { text: "Polyethnic", correct: false }
+  ],
+  explanation: "Nigeria is classified as a multiethnic nation."
+},
+{
+  question: "Nigeria can be said to be a ________ society.",
+  answers: [
+      { text: "Bilingual", correct: false },
+      { text: "Multilingual", correct: true },
+      { text: "Monolingual", correct: false },
+      { text: "Multidynamic", correct: false }
+  ],
+  explanation: "Nigeria is a multilingual society."
+},
+{
+  question: "Greenberg grouped Nigeria’s languages into how many groups?",
+  answers: [
+      { text: "5", correct: false },
+      { text: "8", correct: false },
+      { text: "4", correct: true },
+      { text: "2", correct: false }
+  ],
+  explanation: "Greenberg grouped Nigerian languages into four groups."
+},
+
   
 
               {
@@ -18364,6 +18775,7 @@ function shuffleArray(array) {
       [array[i], array[j]] = [array[j], array[i]]; // Swap elements
   }
 }
+
 
 function startQuiz(subject) {
     currentQuestions = quizData[subject].sort(() => Math.random() - 0.5).slice(0, 30);
