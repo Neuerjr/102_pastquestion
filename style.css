@@ -301,7 +301,7 @@ button {
 }
 
 #topic {
-width: 80%;
+width: 350px;
 height: 45px;
 font-size: 20px;
 text-align: center;
@@ -321,7 +321,7 @@ margin: 60px;
 
 
 #subject {
-    width: 80%;
+    width: 350px;
     height: 45px;
     font-size: 20px;
     text-align: center;
@@ -333,7 +333,7 @@ margin: 60px;
 }
 
 #level {
-    width: 80%;
+width: 350px;
 height: 45px;
 font-size: 20px;
 text-align: center;
