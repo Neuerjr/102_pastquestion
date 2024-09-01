@@ -18481,3 +18481,6 @@ function goHome() {
   showPage('class-page');
 }
 
+function goBackToSyllabus() {
+  window.location.href = 'index.html'; // Redirect back to the main page
+}
