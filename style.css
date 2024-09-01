@@ -301,7 +301,7 @@ button {
 }
 
 #topic {
-width: 350px;
+width: 450px;
 height: 45px;
 font-size: 20px;
 text-align: center;
@@ -315,13 +315,13 @@ margin: 60px;
     position: 100%;
     width: 100%;
     max-width: 100%;
-    padding-bottom:  50%;
+    padding-bottom:  0%;
 }
 
 
 
 #subject {
-    width: 350px;
+    width: 450px;
     height: 45px;
     font-size: 20px;
     text-align: center;
@@ -333,7 +333,7 @@ margin: 60px;
 }
 
 #level {
-width: 350px;
+width: 450px;
 height: 45px;
 font-size: 20px;
 text-align: center;
