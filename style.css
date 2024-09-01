@@ -251,13 +251,12 @@ button {
 
 .butn {
     
-    width: 100%;
-    margin: 80px;
     background-color: #babeba; 
     color: white;
     padding: 15px 20px;
-    width: 400px;
+    width: 70%;
     height: 70px;
+    margin: 30px;
     border: none;
     cursor: pointer;
     text-align: center;
@@ -277,14 +276,12 @@ button {
 }
 
 .bntn {
-    width: 500px;
-    height: 50px;
-    margin: 80px;
     background-color: #babeba; 
     color: white;
-    padding: 15px 20px;
-    width: 400px;
+    padding: 15px ;
+    width: 70%;
     height: 70px;
+    margin: 150px;
     border: none;
     cursor: pointer;
     text-align: center;
@@ -295,7 +292,7 @@ button {
     border: 1px solid #ccc; /* Optional border for definition */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), /* Shadow for 3D effect */
                 -5px -5px 15px rgba(255, 255, 255, 0.8); /* Highlight for 3D effect */
-    transform: perspective(1000px) rotateX(-4deg) rotateY(-10deg); /* Slight 3D rotation */
+    transform: perspective(1000px) rotateX(4deg) rotateY(8deg); /* Slight 3D rotation */
     transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 

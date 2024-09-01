@@ -27,35 +27,28 @@
        
     </div>
 
-    <!-- Subject Selection -->
-    <div id="subject-selection" style="display: none;">
-        <h3>102 Past Questions - Neuerjr</h3>
-        <h1>Select a Subject</h1>
-        <button id="subject-container" onclick="startQuiz('biology')">BIO 102</button>
-        <button id="subject-container" onclick="startQuiz('chemistry')">CHM 102</button>
-        <button id="subject-container" onclick="startQuiz('math')">MTH 102</button>
-        <button id="subject-container" onclick="startQuiz('english')">GST 112</button>
-        <button id="subject-container" onclick="startQuiz('physics')">PHY 102</button>
-    </div>
-    <nav>
-        <a href="#opening-page"></a>
-    </nav>
-
-   
-
-    <!-- Class Page -->
+        <!-- Class Page -->
     <div id="class-page" class="container" style="display: none;">
-        <button class="butn" onclick="showPage('subject-selection')">Study Past Question</button>
-        <button class="bntn" onclick="showPage('topic-by-topic-page')">Topic by Topic</button>
-        <button class="butn" onclick="showPage('syllabus-page')">My Syllabus</button>
-        <nav>
-            <a href="#opening-page"></a>
-        </nav>
+        <button class="butn" onclick="showPage('subject-selection')"><small>Study Past Question</small></button>
+        <button class="bntn" onclick="showPage('topic-by-topic-page')"><small> Topic by Topic</small></button>
+        <button class="butn" onclick="showPage('syllabus-page')"><small> Syllabus </small></button>
     </div>
+    
 
+
+   <!-- Subject Selection -->
+   <div id="subject-selection" style="display: none;">
+    <h1>Select a Subject</h1>
+    <button id="subject-container" onclick="startQuiz('biology')">BIO 102</button>
+    <button id="subject-container" onclick="startQuiz('chemistry')">CHM 102</button>
+    <button id="subject-container" onclick="startQuiz('math')">MTH 102</button>
+    <button id="subject-container" onclick="startQuiz('english')">GST 112</button>
+    <button id="subject-container" onclick="startQuiz('physics')">PHY 102</button>
+   
     <nav>
-        <a href="#opening-page"></a>
+        <a href="class-page"></a>
     </nav>
+</div>
 
     <!-- Topic by Topic Page -->
     <div id="topic-by-topic-page" class="container" style="display: none;">
