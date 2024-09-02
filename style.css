@@ -254,7 +254,7 @@ button {
     background-color: #babeba; 
     color: white;
     padding: 15px 20px;
-    width: 250px;
+    width: 95%;
     height: 70px;
     margin: 60px;
     border: none;
@@ -279,7 +279,7 @@ button {
     background-color: #babeba; 
     color: white;
     padding: 15px ;
-    width: 250px;
+    width: 95%;
     height: 70px;
     margin: 100px;
     border: none;
@@ -405,7 +405,7 @@ margin: 60px;
 
 #class-page {
     
-    width: 70%;
+    width: 85%;
     position: relative;
     padding-bottom: 12px;
     
