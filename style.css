@@ -404,7 +404,7 @@ margin: 60px;
 }
 
 #class-page {
-    position: 100%;
+    
     width: 100%;
     max-width: 100%;
     padding-bottom: 200px;
@@ -412,14 +412,14 @@ margin: 60px;
 }
 
 #topic-by-topic-page {
-    position: 100%;
-    width: 100%;
+   
+    width: 70%;
     max-width: 100%;
     padding-bottom: 200px;
 }
 
 #footer {
-    padding-bottom: 20px;
+    
 }
 
 
