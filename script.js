@@ -71,6 +71,18 @@ const topics = {
       { value: 'conic', text: 'Conic Section' },
       { value: 'trig', text: 'Trigonometry' },
   ],
+  sta102: [
+    { value: 'prob', text: 'Probability, Permutations, and Combinations (Note)' },
+    { value: 'probb', text: 'Probability, Permutations, and Combinations (Examples)' },
+    { value: 'variable', text: 'Random Variables and Expectation (Note)' },
+    { value: 'variablee', text: 'Random Variables and Expectation (Examples)' },
+    { value: 'probd', text: 'Probability Distributions (Note)' },
+    { value: 'probdd', text: 'Probability Distributions (Examples)' },
+    { value: 'exa', text: 'General Examples With Detailed Explanation' },
+    { value: 'exaa', text: 'More General Examples With Detailed Explanation' },
+
+
+],
   gst112: [
       { value: 'culture', text: 'Concept Classification of Culture' },
       { value: 'trad', text: 'Traditional economy of pre-colonial Nigerian people' },
@@ -81,6 +93,7 @@ const topics = {
       { value: 'ethnic', text: 'Multi-Ethnic and Multilingual Nature of Nigeria' },
   ]
 };
+
 
 function showTopics(subjectCode) {
   showPage('topic-by-topic-page');
