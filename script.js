@@ -554,11 +554,11 @@ const quizData = {
         {
             question: "An earthworm can live only in moist soil because",
             answers: [
-                { text: "Exchange of gases take place through moist skin", correct: true },
-                { text: "Respiratory system is absent in earthworm", correct: true },
-                { text: "All of the above", correct: true },
-                { text: "Blood vascular system is closed type", correct: false }
-            ],
+              { text: "Exchange of gases takes place through moist skin", correct: false },
+              { text: "Respiratory system is absent in earthworm", correct: false },
+              { text: "All of the above", correct: true },
+              { text: "Blood vascular system is closed type", correct: false }
+          ],
             explanation: "Earthworms require a moist environment for gas exchange through their skin and lack a traditional respiratory system, necessitating moist soil for survival."
         },
         {
@@ -1471,7 +1471,10 @@ const quizData = {
         {
             question: "The calyx and corolla are collectively called ________.",
             answers: [
-                { text: "Perianth", correct: true }
+                { text: "Perianth", correct: true },
+                { text: "cali", correct: true },
+                { text: "camry", correct: true },
+                
             ],
             explanation: "The perianth collectively refers to the calyx and corolla of a flower."
         },
@@ -1496,7 +1499,10 @@ const quizData = {
         {
             question: "Rhodophyta are easily identified by ________.",
             answers: [
-                { text: "Red pigment", correct: true }
+                { text: "Red pigment", correct: true },
+                { text: "Blue pigment", correct: false },
+                { text: "white pigment", correct: false },
+                { text: "Pink pigment", correct: false },
             ],
             explanation: "Rhodophyta (red algae) are characterized by their red pigmentation."
         },
@@ -1719,12 +1725,12 @@ const quizData = {
         {
             question: "Division ______________is found in moist and shady places",
             answers: [
-                { text: "Thallophyte", correct: true },
+                { text: "Thallophyte", correct: false },
                 { text: "Bryophyte", correct: true },
                 { text: "Pteridophyte", correct: false },
                 { text: "Spermatophyte", correct: false }
             ],
-            explanation: "Thallophytes and bryophytes thrive in moist and shady environments."
+            explanation: "Bryophytes thrive in moist and shady environments."
         },
         {
             question: "Annelids use ______ for excretion",
@@ -2981,11 +2987,11 @@ const quizData = {
             question: "There are ___________ major shapes of bacteria",
             answers: [
               { text: "2", correct: false },
-              { text: "3", correct: true },
-              { text: "4", correct: false },
+              { text: "3", correct: false },
+              { text: "4", correct: true },
               { text: "5", correct: false }
             ],
-            explanation: "The three major shapes of bacteria are cocci (spherical), bacilli (rod-shaped), and spirilla (spiral)."
+            explanation: "The four major shapes of bacteria are cocci (spherical), bacilli (rod-shaped), vibro(comma shaped) and spirilla (spiral)."
           },
           {
             question: "Gastrulation in Echinoderms is by",
@@ -4914,7 +4920,7 @@ const quizData = {
             explanation: "Unchordates refer to animals that do not have a notochord, hence they are unsegmented and lack the defining characteristic of chordates."
           },
           {
-            question: "Phycology is the study of (a) Algae (b) Viruses (c) Lichens (d) Fungi",
+            question: "Phycology is the study of ",
             answers: [
               { text: "Algae", correct: true },
               { text: "Viruses", correct: false },
@@ -4924,7 +4930,7 @@ const quizData = {
             explanation: "Phycology is the study of algae."
           },
           {
-            question: "Bacteria are causative agents of (a) Mumps (b) Tetanus (c) Smallpox (d) Flu",
+            question: "Bacteria are causative agents of ",
             answers: [
               { text: "Mumps", correct: false },
               { text: "Tetanus", correct: true },
@@ -4934,7 +4940,7 @@ const quizData = {
             explanation: "Bacteria such as Clostridium tetani are responsible for causing tetanus."
           },
           {
-            question: "The following are arrangements of bacterial cells except (a) chain (b) cluster (c) tetrad (d) polygenia",
+            question: "The following are arrangements of bacterial cells except ",
             answers: [
               { text: "Chain", correct: false },
               { text: "Cluster", correct: false },
@@ -4944,7 +4950,7 @@ const quizData = {
             explanation: "Polygenia is not a recognized arrangement of bacterial cells."
           },
           {
-            question: "Type of Nutrition found in virus is (a) Saprophytic (b) Autotrophic",
+            question: "Type of Nutrition found in virus is ",
             answers: [
               { text: "Saprophytic", correct: false },
               { text: "Autotrophic", correct: false }
@@ -4952,16 +4958,17 @@ const quizData = {
             explanation: "Viruses do not exhibit nutrition as they are obligate intracellular parasites."
           },
           {
-            question: "Special species of fungi are called (a) Ascopore (b) Baridia (c) Spore",
+            question: "Special species of fungi are called ",
             answers: [
               { text: "Ascopore", correct: false },
               { text: "Baridia", correct: false },
-              { text: "Spore", correct: false }
+              { text: "Spore", correct: false },
+              { text: "None of the above", correct: true }
             ],
             explanation: "The term for special species of fungi is not among the options provided."
           },
           {
-            question: "The transformation of that ranges from simplest unicellular to complex multicellular is? (a) Archaeology (b) Anthropology (c) Geology (d) Paleontology",
+            question: "The transformation of that ranges from simplest unicellular to complex multicellular is? ",
             answers: [
               { text: "Archaeology", correct: false },
               { text: "Anthropology", correct: true },
@@ -4971,7 +4978,7 @@ const quizData = {
             explanation: "Anthropology studies human societies and cultures, encompassing simple to complex transformations."
           },
           {
-            question: "Hemi-chordates (a) True-chordates (b) False-chordates (c) None",
+            question: "Hemi-chordates are",
             answers: [
               { text: "True-chordates", correct: false },
               { text: "False-chordates", correct: true },
@@ -4980,7 +4987,7 @@ const quizData = {
             explanation: "Hemichordates are not true chordates; they belong to a separate phylum."
           },
           {
-            question: "The DNA of bacteria is located at (a) Nucleus (b) Nucleoid (c) Central",
+            question: "The DNA of bacteria is located at ",
             answers: [
               { text: "Nucleus", correct: false },
               { text: "Nucleoid", correct: true },
@@ -4989,7 +4996,7 @@ const quizData = {
             explanation: "Bacterial DNA is found in the nucleoid region, not within a membrane-bound nucleus."
           },
           {
-            question: "The diplopods or millipedes are also known as (a) Myriapods (b) Cyclopods (c) Chilopoda (d) Lithobus",
+            question: "The diplopods or millipedes are also known as ",
             answers: [
               { text: "Myriapods", correct: true },
               { text: "Cyclopods", correct: false },
@@ -4999,7 +5006,7 @@ const quizData = {
             explanation: "Diplopods or millipedes are classified under the class Myriapoda."
           },
           {
-            question: "Digestive cavity in coelenterates is ___________ (a) Epiderm (b) Enteron (c) Mesoderm (d) Mesentron",
+            question: "Digestive cavity in coelenterates is ___________ ",
             answers: [
               { text: "Epiderm", correct: false },
               { text: "Enteron", correct: true },
@@ -5009,7 +5016,7 @@ const quizData = {
             explanation: "The digestive cavity in coelenterates is called the enteron."
           },
           {
-            question: "Internal budding occurs in phylum __________ (a) Porifera (b) Cnidaria (c) Nematoda (d) Annelida",
+            question: "Internal budding occurs in phylum __________ ",
             answers: [
               { text: "Porifera", correct: false },
               { text: "Cnidaria", correct: true },
@@ -5019,7 +5026,7 @@ const quizData = {
             explanation: "Internal budding occurs in some cnidarians."
           },
           {
-            question: "Bacteria that survive at cold sub-zero temperatures are called (a) Mesophiles (b) Psychrophiles (c) Nanophiles (d) Thermophiles",
+            question: "Bacteria that survive at cold sub-zero temperatures are called ",
             answers: [
               { text: "Mesophiles", correct: false },
               { text: "Psychrophiles", correct: true },
@@ -11778,10 +11785,10 @@ const quizData = {
 {
     question: "Find dy/dx if (x²/a²) + (y²/b²) = 1.",
     answers: [
-        { text: "-a²x/b²y", correct: true },
+        { text: "-a²x/b²y", correct: false },
         { text: "a²x/b²y", correct: false },
         { text: "b²x/a²y", correct: false },
-        { text: "-b²x/a²y", correct: false }
+        { text: "-b²x/a²y", correct: true }
     ],
     explanation: "Using implicit differentiation, dy/dx = -a²x/b²y."
 },
@@ -11924,9 +11931,9 @@ const quizData = {
 {
   question: "Evaluate ∫ sin⁷x dx.",
   answers: [
-      { text: "sinx - (sin³x)/3 + (3sin⁵x)/5 + c", correct: true },
+      { text: "sinx - (sin³x)/3 + (3sin⁵x)/5 + c", correct: false },
       { text: "sinx + (sin³x)/3 + (3sin⁵x)/5 + c", correct: false },
-      { text: "(cos⁷x)/7 - (3cos⁵x)/5 + cos³x - cosx + c", correct: false },
+      { text: "(cos⁷x)/7 - (3cos⁵x)/5 + cos³x - cosx + c", correct: true },
       { text: "-(cos⁵x)/5 + c", correct: false }
   ],
   explanation: "The integral of sin⁷x dx evaluates to sinx - (sin³x)/3 + (3sin⁵x)/5 + c."
