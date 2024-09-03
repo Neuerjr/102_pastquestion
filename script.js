@@ -12907,6 +12907,1648 @@ const quizData = {
   ],
   explanation: "By using trigonometric identities, the expression can be simplified to 1 - sin B."
 },
+{
+  question: "Find the area enclosed between the curves y = x^3 - 2x^2 and y = 2x - x^2.",
+  answers: [
+      { text: "8/3 sq unit", correct: false },
+      { text: "27/12 sq unit", correct: true },
+      { text: "None of the options", correct: false },
+      { text: "31/12 sq unit", correct: false }
+  ],
+  explanation: "The area between the curves is calculated to be 27/12 square units using definite integration."
+},
+{
+  question: "Find tanA if tan(A - 45°) = 3/5.",
+  answers: [
+      { text: "4", correct: true },
+      { text: "8", correct: false },
+      { text: "2", correct: false },
+      { text: "6", correct: false }
+  ],
+  explanation: "By solving tan(A - 45°) = 3/5 using tangent addition formulas, tanA = 4."
+},
+{
+  question: "If y = 1/(2−x)^2, find dy/dx.",
+  answers: [
+      { text: "-1/(2−x)^3", correct: false },
+      { text: "2/(2−x)", correct: false },
+      { text: "2/(2−x)^3", correct: true },
+      { text: "-2/(2−x)^3", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of y = 1/(2−x)^2 is 2/(2−x)^3."
+},
+{
+  question: "Given that f(x) = 1 + 2x and g(x) = x + 1, find dy/dx of (f × g).",
+  answers: [
+      { text: "3x + 2", correct: false },
+      { text: "3 + 4x", correct: true },
+      { text: "3", correct: false },
+      { text: "3 + 2x", correct: false }
+  ],
+  explanation: "Applying the product rule, dy/dx = f'(x)g(x) + f(x)g'(x) = 3 + 4x."
+},
+{
+  question: "If the area of a triangle WXY is 1 where the sides are w = 2, y = 1, what is the value of X?",
+  answers: [
+      { text: "1", correct: false },
+      { text: "90", correct: true },
+      { text: "0", correct: false },
+      { text: "30", correct: false }
+  ],
+  explanation: "The value of X is calculated using the formula for the area of a triangle with known sides."
+},
+{
+  question: "Given that sinx = √3/2 for 90°<x<180°, evaluate sin2x.",
+  answers: [
+      { text: "-2", correct: false },
+      { text: "-1", correct: true },
+      { text: "1", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "Using the double angle identity for sine, sin(2x) = -1."
+},
+{
+  question: "Find m if 1/(1−sinα) + 1/(1+sinα) = msec²α.",
+  answers: [
+      { text: "3", correct: false },
+      { text: "2", correct: true },
+      { text: "4", correct: false },
+      { text: "1", correct: false }
+  ],
+  explanation: "Simplifying the given equation, m equals 2."
+},
+{
+  question: "Find dy/dx if y = (1 + x²)/(1 − x²).",
+  answers: [
+      { text: "4x/(1 − x²)²", correct: true },
+      { text: "2x/(1 − x²)²", correct: false },
+      { text: "4x/(1 + x²)²", correct: false },
+      { text: "4x/(1 − x²)", correct: false }
+  ],
+  explanation: "Using the quotient rule, dy/dx = 4x/(1 − x²)²."
+},
+{
+  question: "Find the maximum value of f(x) = x³ + 3x² − 9x + 1.",
+  answers: [
+      { text: "12", correct: false },
+      { text: "-4", correct: false },
+      { text: "1", correct: false },
+      { text: "28", correct: true }
+  ],
+  explanation: "Finding the critical points and testing them shows the maximum value is 28."
+},
+{
+  question: "Integrate (1/3 + 4x)⁵.",
+  answers: [
+      { text: "(1/6)(1/3 + 4x)⁶ + c", correct: false },
+      { text: "(x³)/5 + (2/3)x⁶ + c", correct: false },
+      { text: "None of the above", correct: false },
+      { text: "(1/24)(1/3 + 4x)⁶ + c", correct: true }
+  ],
+  explanation: "Using substitution and integration, the result is (1/24)(1/3 + 4x)⁶ + c."
+},
+{
+  question: "Evaluate ∫sin7xcos3x dx.",
+  answers: [
+      { text: "-1/40 (2cos10x + 5cos4x) + c", correct: true },
+      { text: "-1/40 (2sin10x + 5sin4x) + c", correct: false },
+      { text: "1/40 (2cos10x + 5cos4x) + c", correct: false },
+      { text: "1/40 (2sin10x - 5sin4x) + c", correct: false }
+  ],
+  explanation: "Applying trigonometric identities and integration gives the result -1/40 (2cos10x + 5cos4x) + c."
+},
+{
+  question: "Find the equation of the line joining (1, -1) and (3, 7).",
+  answers: [
+      { text: "y = 4x + 5", correct: false },
+      { text: "y = 4x - 5", correct: true },
+      { text: "y - 2x + 5 = 0", correct: false },
+      { text: "y = 2x + 5", correct: false }
+  ],
+  explanation: "Using the two-point form of a line, the equation is y = 4x - 5."
+},
+{
+  question: "Evaluate ∫(-1 to 1) x² - 1/(x+1) dx.",
+  answers: [
+      { text: "2", correct: false },
+      { text: "-1", correct: false },
+      { text: "-2", correct: true },
+      { text: "1", correct: false }
+  ],
+  explanation: "By performing definite integration, the result is -2."
+},
+{
+  question: "If cos y = sin y, find the value of y.",
+  answers: [
+      { text: "45°", correct: true },
+      { text: "90°", correct: false },
+      { text: "0°", correct: false },
+      { text: "1°", correct: false }
+  ],
+  explanation: "At 45°, both cos y and sin y are equal."
+},
+{
+  question: "If y = 2cos²x, find dy/dx.",
+  answers: [
+      { text: "4sinxcosx", correct: false },
+      { text: "2sinxcosx", correct: false },
+      { text: "-2sinxcosx", correct: false },
+      { text: "-4sinxcosx", correct: true }
+  ],
+  explanation: "Using the chain rule, dy/dx = -4sinxcosx."
+},
+{
+  question: "Find ∫tan⁻¹θ/(1 + θ²) dθ.",
+  answers: [
+      { text: "(1/2)(1/(1 + θ²))² + c", correct: false },
+      { text: "ln|1 + θ²| + c", correct: false },
+      { text: "ln|tan⁻¹θ| + c", correct: false },
+      { text: "(1/2)(tan⁻¹θ)² + c", correct: true }
+  ],
+  explanation: "The integral evaluates to (1/2)(tan⁻¹θ)² + c."
+},
+{
+  question: "Evaluate ∫2dx/(x² - 2x + 5).",
+  answers: [
+      { text: "tan⁻¹((x−1)/2) + c", correct: true },
+      { text: "2tan⁻¹((x+1)/2) + c", correct: false },
+      { text: "tan⁻¹((x+1)/2) + c", correct: false },
+      { text: "(1/2)tan⁻¹((x−1)/2) + c", correct: false }
+  ],
+  explanation: "Using trigonometric substitution, the result is tan⁻¹((x−1)/2) + c."
+},
+{
+  question: "If cotβ = 1/√3 where 0 < β < 90, find 2cosβ + (3/√3)sinβ.",
+  answers: [
+      { text: "1/√3", correct: false },
+      { text: "2/√3(√3+1)", correct: false },
+      { text: "0", correct: false },
+      { text: "2", correct: true }
+  ],
+  explanation: "By applying trigonometric identities, the expression simplifies to 2."
+},
+{
+  question: "In a triangle XYZ, X = 40°, Y = 52° and x = 30.2. Calculate the value of side z.",
+  answers: [
+      { text: "29.8", correct: false },
+      { text: "46.95", correct: true },
+      { text: "37.02", correct: false },
+      { text: "88", correct: false }
+  ],
+  explanation: "Using the Law of Sines, the value of side z is 46.95."
+},
+{
+  question: "Find the equation of the normal to the curve y = 6 - 2x - 2x³ at the point x = 0.",
+  answers: [
+      { text: "2y - x - 12 = 0", correct: true },
+      { text: "2y + x - 12 = 0", correct: false },
+      { text: "y - x + 12 = 0", correct: false },
+      { text: "2y + x + 12 = 0", correct: false }
+  ],
+  explanation: "By differentiating and finding the slope at x = 0, the equation of the normal is 2y - x - 12 = 0."
+},
+{
+  question: "Find the equation of the line through (-1, 4) whose slope is 0.",
+  answers: [
+      { text: "y + 5 = 0", correct: false },
+      { text: "y - 4 = 0", correct: true },
+      { text: "c = y - 4", correct: false },
+      { text: "y = 3", correct: false }
+  ],
+  explanation: "For a slope of 0, the equation is horizontal, so y = 4."
+},
+{
+  question: "Find tanA if tan(A − 45°) = 1/3.",
+  answers: [
+      { text: "4", correct: false },
+      { text: "6", correct: false },
+      { text: "8", correct: false },
+      { text: "2", correct: true }
+  ],
+  explanation: "Using the tangent addition formula, tanA is calculated to be 2."
+},
+{
+  question: "Find the derivative of the function y = 3x² + 1/x.",
+  answers: [
+      { text: "6x + ln x", correct: false },
+      { text: "3x - ln x", correct: false },
+      { text: "3x² - ln x", correct: false },
+      { text: "6x - 1/x", correct: true }
+  ],
+  explanation: "The derivative of y = 3x² + 1/x is 6x - 1/x."
+},
+{
+  question: "Find the derivative of y = sinx + e^(-2x) + 5x - 2.",
+  answers: [
+      { text: "cosx - 2e^(2x) - 5", correct: false },
+      { text: "cosx + 2e^(-2x) + 5", correct: false },
+      { text: "cosx - 2e^(-2x) + 5", correct: true },
+      { text: "cosx + 2e^(2x) - 5", correct: false }
+  ],
+  explanation: "The derivative of y = sinx + e^(-2x) + 5x - 2 is cosx - 2e^(-2x) + 5."
+},
+{
+  question: "Find the minimum value of y = 2x² + 12x - 12.",
+  answers: [
+      { text: "-12", correct: true },
+      { text: "-30", correct: false },
+      { text: "30", correct: false },
+      { text: "12", correct: false }
+  ],
+  explanation: "The minimum value is found by taking the derivative and solving for critical points."
+},
+{
+  question: "Evaluate ∫(5/x) dx.",
+  answers: [
+      { text: "√2 (5 √x) + c", correct: false },
+      { text: "1/√5 √x + c", correct: false },
+      { text: "2(√5 x) + c", correct: false },
+      { text: "√2 (10√ x) + c", correct: true }
+  ],
+  explanation: "By applying the power rule for integration, the answer is √2 (10√ x) + c."
+},
+{
+  question: "Find ∫tan²θ sec²θ dθ.",
+  answers: [
+      { text: "tan⁶θ/3 + c", correct: false },
+      { text: "tan³θ/3 + c", correct: true },
+      { text: "tan⁵θ/3 + c", correct: false },
+      { text: "tan⁴θ/3 + c", correct: false }
+  ],
+  explanation: "Using the power rule, the integral is tan³θ/3 + c."
+},
+{
+  question: "Evaluate ∫(1 to 4) (1−u)√u du.",
+  answers: [
+      { text: "-116/15", correct: true },
+      { text: "-14/29", correct: false },
+      { text: "-11/25", correct: false },
+      { text: "-110/7", correct: false }
+  ],
+  explanation: "After solving the definite integral, the result is -116/15."
+},
+{
+  question: "If f(x) = (x² + 3)², find the gradient of f(x) at x = 1/2.",
+  answers: [
+      { text: "7.5", correct: false },
+      { text: "6.5", correct: true },
+      { text: "6", correct: false },
+      { text: "7", correct: false }
+  ],
+  explanation: "The gradient is found by differentiating and substituting x = 1/2."
+},
+{
+  question: "If f(x) = (x² + 3)², find the gradient of f(x) at x = -1/2.",
+  answers: [
+      { text: "7.5", correct: false },
+      { text: "6.5", correct: false },
+      { text: "-6.5", correct: true },
+      { text: "7", correct: false }
+  ],
+  explanation: "The gradient is found by differentiating and substituting x = -1/2."
+},
+{
+  question: "Find the gradient of the curve y = (x + 3)(x² - 1) at x = 1.",
+  answers: [
+      { text: "1", correct: false },
+      { text: "-1", correct: false },
+      { text: "8", correct: true },
+      { text: "-7", correct: false }
+  ],
+  explanation: "Differentiating the curve and substituting x = 1 gives a gradient of 8."
+},
+{
+  question: "Find the gradient of the curve y = (x - 3)(x² + 1) at x = 1.",
+  answers: [
+      { text: "1", correct: false },
+      { text: "-1", correct: false },
+      { text: "2", correct: false },
+      { text: "-2", correct: true }
+  ],
+  explanation: "The gradient at x = 1 is found by differentiating and substituting the value."
+},
+{
+  question: "Find the value of k if sin50° + sin40° = kcos5°.",
+  answers: [
+      { text: "3", correct: false },
+      { text: "√3", correct: false },
+      { text: "2", correct: false },
+      { text: "√2", correct: true }
+  ],
+  explanation: "By simplifying the given trigonometric equation, k equals √2."
+},
+{
+  question: "Find dy/dx if y = a sin(x).",
+  answers: [
+      { text: "asin(x)cos(x) logea", correct: true },
+      { text: "asin(x)sin(x) logea", correct: false },
+      { text: "asin(x)cos(x) loga e", correct: false },
+      { text: "asin(x)sin(x) logae", correct: false }
+  ],
+  explanation: "By using the chain rule, the derivative is asin(x)cos(x) logea."
+},
+{
+  question: "Find the value of a fixed angle in the trigonometric equation 2√3 sinθ + 2cosθ = 2.",
+  answers: [
+      { text: "90°", correct: false },
+      { text: "60°", correct: true },
+      { text: "0°", correct: false },
+      { text: "30°", correct: false }
+  ],
+  explanation: "The fixed angle satisfying this trigonometric equation is 60°."
+},
+{
+  question: "Evaluate ∫6x dx.",
+  answers: [
+      { text: "6 + c", correct: false },
+      { text: "(6x)/ln x + c", correct: false },
+      { text: "3x² + c", correct: true },
+      { text: "(6x)/ln 6 + c", correct: false }
+  ],
+  explanation: "Using the basic power rule of integration, the answer is 3x² + c."
+},
+{
+  question: "The equation of the form 2x² - 4y² = 8 is:",
+  answers: [
+      { text: "Ellipse", correct: false },
+      { text: "Hyperbola", correct: true },
+      { text: "Parabola", correct: false },
+      { text: "Circle", correct: false }
+  ],
+  explanation: "This equation represents a hyperbola."
+},
+{
+  question: "Evaluate ∫dx/(1 - cosx).",
+  answers: [
+      { text: "-tan⁻¹(x/2) + c", correct: false },
+      { text: "tan⁻¹(x/2) + c", correct: false },
+      { text: "None of the options", correct: true },
+      { text: "ln|tan⁻¹(x/2)| + c", correct: false }
+  ],
+  explanation: "This integral does not match the options given, so 'None of the options' is correct."
+},
+{
+  question: "Find tanα if tan(α - 45°) = 3/5.",
+  answers: [
+      { text: "4", correct: false },
+      { text: "8", correct: false },
+      { text: "2", correct: true },
+      { text: "6", correct: false }
+  ],
+  explanation: "Using the tangent subtraction identity, tanα equals 2."
+},
+{
+  question: "Find the equation of the normal of the curve y = (2x - 3)(x + 2) at the point x = 1.",
+  answers: [
+      { text: "x + 5y - 14 = 0", correct: false },
+      { text: "x - 5y - 14 = 0", correct: false },
+      { text: "x + 5y + 14 = 0", correct: true },
+      { text: "x - 5y + 14 = 0", correct: false }
+  ],
+  explanation: "After calculating the slope of the tangent and finding the equation, the normal equation is x + 5y + 14 = 0."
+},
+{
+  question: "Differentiate 5x³ + x²/x, x ≠ 0 with respect to x.",
+  answers: [
+      { text: "10x - 2", correct: false },
+      { text: "10x + 2", correct: true },
+      { text: "15x - 2", correct: false },
+      { text: "10x + 1", correct: false }
+  ],
+  explanation: "Using quotient and power rules, the derivative is 10x + 2."
+},
+{
+  question: "Evaluate ∫(-1 to 1)(2x² - x) dx.",
+  answers: [
+      { text: "3/7", correct: false },
+      { text: "2/15", correct: false },
+      { text: "-1/9", correct: false },
+      { text: "4/3", correct: true }
+  ],
+  explanation: "The definite integral of 2x² - x from -1 to 1 equals 4/3."
+},
+{
+  question: "Two lines y₁ = m₁x + c₁ and y₂ = m₂x + c₂ are said to be parallel if:",
+  answers: [
+      { text: "None of the options", correct: true },
+      { text: "c₁ = c₂", correct: false },
+      { text: "m₁m₂ = 1", correct: false },
+      { text: "m₁ = -m₂", correct: false }
+  ],
+  explanation: "Parallel lines have the same slope, which is not captured in any of the options."
+},
+{
+  question: "Find the semi-major axis of the equation x² + 4y² = 16.",
+  answers: [
+      { text: "3", correct: false },
+      { text: "4", correct: true },
+      { text: "1", correct: false },
+      { text: "16", correct: false }
+  ],
+  explanation: "The semi-major axis of this ellipse is 4."
+},
+{
+  question: "Find the length of the tangents to the circle x² + y² + 5x + 5y - 10 = 0 from (2, 2).",
+  answers: [
+      { text: "4√5", correct: false },
+      { text: "5√5", correct: false },
+      { text: "√20", correct: false },
+      { text: "√13", correct: true }
+  ],
+  explanation: "The length of the tangent is calculated using the distance formula and properties of circles."
+},
+{
+  question: "If cosα = x/y when 0° < α < 90°, what is cosecantα?",
+  answers: [
+      { text: "√(y²−x²)/x", correct: false },
+      { text: "√(y²−x²)/y", correct: true },
+      { text: "x/√(y²−x²)", correct: false },
+      { text: "y/√(y²−x²)", correct: false }
+  ],
+  explanation: "Using the Pythagorean identity, cosecant is √(y²−x²)/y."
+},
+{
+  question: "Simplify tan60° + tan45°/tan60° − tan45°.",
+  answers: [
+      { text: "2 - √3", correct: false },
+      { text: "-2 + √3", correct: false },
+      { text: "-2 - √3", correct: false },
+      { text: "2 + √3", correct: true }
+  ],
+  explanation: "The expression simplifies to 2 + √3 using trigonometric identities."
+},
+{
+  question: "If sinx = cos50°, then x is equal to:",
+  answers: [
+      { text: "45°", correct: false },
+      { text: "90°", correct: false },
+      { text: "40°", correct: true },
+      { text: "50°", correct: false }
+  ],
+  explanation: "Using the complementary angle identity, sinx = cos(90° - x), so x = 40°."
+},
+{
+  question: "Solve for θ using a half-angle substitution method, secθcotθ = 1.",
+  answers: [
+      { text: "45°", correct: false },
+      { text: "0°", correct: false },
+      { text: "1°", correct: false },
+      { text: "90°", correct: true }
+  ],
+  explanation: "Simplifying secθcotθ = 1, θ is found to be 90°."
+},
+{
+  question: "Simplify tan62° + tan17°/(1 + tan62° tan17°).",
+  answers: [
+      { text: "3", correct: false },
+      { text: "4", correct: false },
+      { text: "2", correct: false },
+      { text: "1", correct: true }
+  ],
+  explanation: "Using the tangent addition formula, the result simplifies to 1."
+},
+{
+  question: "Differentiate y = sec(6x).",
+  answers: [
+      { text: "6cosec(6x)tan(6x)", correct: false },
+      { text: "5sec(6x)tan(6x)", correct: false },
+      { text: "6sec(6x)tan(6x)", correct: true },
+      { text: "-6sec(6x)tan(6x)", correct: false }
+  ],
+  explanation: "The derivative of sec(6x) is 6sec(6x)tan(6x)."
+},
+{
+  question: "Find the equation of the tangent to y = x³ - 2x + 5 at x = 1.",
+  answers: [
+      { text: "y = 3x + 2", correct: true },
+      { text: "y = 2x + 5", correct: false },
+      { text: "y = 4x - 1", correct: false },
+      { text: "y = x - 3", correct: false }
+  ],
+  explanation: "The derivative of y = x³ - 2x + 5 at x = 1 is 3, so the equation of the tangent line is y = 3x + 2."
+},
+{
+  question: "Evaluate ∫ dx/(1 + tan²x).",
+  answers: [
+      { text: "tan⁻¹x + c", correct: false },
+      { text: "cot⁻¹x + c", correct: false },
+      { text: "ln|secx| + c", correct: false },
+      { text: "x + c", correct: true }
+  ],
+  explanation: "Since 1 + tan²x = sec²x, the integral of sec²x is x + c."
+},
+{
+  question: "Simplify cos(75°) + cos(15°).",
+  answers: [
+      { text: "2cos45°cos30°", correct: true },
+      { text: "cos60°", correct: false },
+      { text: "cos30°", correct: false },
+      { text: "2sin45°cos30°", correct: false }
+  ],
+  explanation: "Using the sum-to-product identities, cos(75°) + cos(15°) = 2cos45°cos30°."
+},
+{
+  question: "Find the maximum value of y = x² + 8x - 5.",
+  answers: [
+      { text: "21", correct: false },
+      { text: "-9", correct: true },
+      { text: "12", correct: false },
+      { text: "-21", correct: false }
+  ],
+  explanation: "By completing the square or using the vertex formula, the maximum value is -9."
+},
+{
+  question: "Find dy/dx if y = x sinx.",
+  answers: [
+      { text: "x cosx + sinx", correct: true },
+      { text: "x sinx + cosx", correct: false },
+      { text: "x cosx - sinx", correct: false },
+      { text: "-x cosx + sinx", correct: false }
+  ],
+  explanation: "Using the product rule, the derivative of y = x sinx is x cosx + sinx."
+},
+{
+  question: "Find the length of the radius of the circle x² + y² + 6x - 8y = 24.",
+  answers: [
+      { text: "5", correct: false },
+      { text: "7", correct: true },
+      { text: "6", correct: false },
+      { text: "4", correct: false }
+  ],
+  explanation: "Completing the square gives the radius of the circle as 7 units."
+},
+{
+  question: "Find the derivative of y = ln(1 + x²).",
+  answers: [
+      { text: "1/(1 + x²)", correct: false },
+      { text: "2x/(1 + x²)", correct: true },
+      { text: "x² ln(x)", correct: false },
+      { text: "x/(1 + x²)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of y = ln(1 + x²) is 2x/(1 + x²)."
+},
+{
+  question: "Evaluate ∫ (5x² + 4x + 2) dx.",
+  answers: [
+      { text: "5x³/3 + 2x² + 2x + c", correct: true },
+      { text: "5x³/3 + 4x² + 2x + c", correct: false },
+      { text: "5x² + 4x + c", correct: false },
+      { text: "x³ + 2x² + x + c", correct: false }
+  ],
+  explanation: "The integral of 5x² + 4x + 2 is 5x³/3 + 2x² + 2x + c."
+},
+{
+  question: "Find the value of k if f(x) = x³ + kx + 1 has a turning point at x = -1.",
+  answers: [
+      { text: "3", correct: false },
+      { text: "-3", correct: true },
+      { text: "2", correct: false },
+      { text: "-2", correct: false }
+  ],
+  explanation: "By solving f'(x) = 0 at x = -1, k is found to be -3."
+},
+{
+  question: "Evaluate ∫ dx/(1 + x²).",
+  answers: [
+      { text: "tan⁻¹x + c", correct: true },
+      { text: "cot⁻¹x + c", correct: false },
+      { text: "sec⁻¹x + c", correct: false },
+      { text: "sin⁻¹x + c", correct: false }
+  ],
+  explanation: "The integral of dx/(1 + x²) is tan⁻¹x + c."
+},
+{
+  question: "Differentiate y = cos²(3x).",
+  answers: [
+      { text: "-6cos(3x)sin(3x)", correct: true },
+      { text: "-6sin²(3x)", correct: false },
+      { text: "-cos(3x)sin(3x)", correct: false },
+      { text: "-3sin(3x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of y = cos²(3x) is -6cos(3x)sin(3x)."
+},
+{
+  question: "Evaluate ∫ (1/√x) dx.",
+  answers: [
+      { text: "2√x + c", correct: true },
+      { text: "x² + c", correct: false },
+      { text: "1/(2√x) + c", correct: false },
+      { text: "ln|x| + c", correct: false }
+  ],
+  explanation: "The integral of 1/√x is 2√x + c."
+},
+{
+  question: "Find the slope of the curve y = 3x² - 2x at x = 2.",
+  answers: [
+      { text: "10", correct: true },
+      { text: "8", correct: false },
+      { text: "4", correct: false },
+      { text: "12", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the slope is found to be 10."
+},
+{
+  question: "Solve the equation 2tanx = 3 for x in degrees.",
+  answers: [
+      { text: "30°", correct: false },
+      { text: "60°", correct: true },
+      { text: "45°", correct: false },
+      { text: "90°", correct: false }
+  ],
+  explanation: "Solving 2tanx = 3 gives x = 60°."
+},
+{
+  question: "Evaluate ∫ cos(x) dx.",
+  answers: [
+      { text: "sin(x) + c", correct: true },
+      { text: "cos(x) + c", correct: false },
+      { text: "-sin(x) + c", correct: false },
+      { text: "-cos(x) + c", correct: false }
+  ],
+  explanation: "The integral of cos(x) is sin(x) + c."
+},
+{
+  question: "Find the minimum value of y = x² - 6x + 10.",
+  answers: [
+      { text: "1", correct: false },
+      { text: "4", correct: true },
+      { text: "6", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "Completing the square shows that the minimum value of y is 4."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x² - 4x + 3 at x = 1.",
+  answers: [
+      { text: "y = -2x + 5", correct: true },
+      { text: "y = 2x - 5", correct: false },
+      { text: "y = -2x + 3", correct: false },
+      { text: "y = 2x + 5", correct: false }
+  ],
+  explanation: "The slope at x = 1 is -2, so the equation of the tangent line is y = -2x + 5."
+},
+{
+  question: "Evaluate ∫ dx/x.",
+  answers: [
+      { text: "ln|x| + c", correct: true },
+      { text: "x + c", correct: false },
+      { text: "1/x + c", correct: false },
+      { text: "ln(x²) + c", correct: false }
+  ],
+  explanation: "The integral of 1/x is ln|x| + c."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x³ - 4x + 1 at x = 2.",
+  answers: [
+      { text: "y = 8x - 7", correct: true },
+      { text: "y = 9x + 5", correct: false },
+      { text: "y = 6x + 3", correct: false },
+      { text: "y = 10x - 4", correct: false }
+  ],
+  explanation: "By differentiating the curve and evaluating at x = 2, the equation of the tangent line is y = 8x - 7."
+},
+{
+  question: "Find dy/dx if y = ln(sin x).",
+  answers: [
+      { text: "1/sin x", correct: false },
+      { text: "cos x/sin x", correct: true },
+      { text: "cos x", correct: false },
+      { text: "1/cos x", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln(sin x) is cos x/sin x, which simplifies to cot x."
+},
+{
+  question: "Find the maximum value of y = 12x - x².",
+  answers: [
+      { text: "36", correct: true },
+      { text: "12", correct: false },
+      { text: "24", correct: false },
+      { text: "0", correct: false }
+  ],
+  explanation: "The maximum value occurs at the vertex of the parabola, which is 36."
+},
+{
+  question: "Find the slope of the tangent to the curve y = x² + 4x - 5 at x = 1.",
+  answers: [
+      { text: "6", correct: false },
+      { text: "2", correct: false },
+      { text: "4", correct: true },
+      { text: "5", correct: false }
+  ],
+  explanation: "By differentiating the curve and substituting x = 1, the slope of the tangent is 4."
+},
+{
+  question: "Evaluate ∫ (2x + 1) dx.",
+  answers: [
+      { text: "x² + x + c", correct: true },
+      { text: "2x + c", correct: false },
+      { text: "x² + c", correct: false },
+      { text: "x² + 2x + c", correct: false }
+  ],
+  explanation: "The integral of 2x + 1 is x² + x + c."
+},
+{
+  question: "Differentiate y = e^(2x).",
+  answers: [
+      { text: "e^(2x)", correct: false },
+      { text: "2e^(2x)", correct: true },
+      { text: "x e^(2x)", correct: false },
+      { text: "2x e^(x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of e^(2x) is 2e^(2x)."
+},
+{
+  question: "Solve the equation cos(2x) = 0.",
+  answers: [
+      { text: "x = π/4", correct: false },
+      { text: "x = π/2", correct: true },
+      { text: "x = π", correct: false },
+      { text: "x = 2π", correct: false }
+  ],
+  explanation: "Solving cos(2x) = 0 gives x = π/2 as one of the solutions."
+},
+{
+  question: "Find the minimum value of y = x² - 4x + 6.",
+  answers: [
+      { text: "0", correct: false },
+      { text: "2", correct: false },
+      { text: "4", correct: true },
+      { text: "6", correct: false }
+  ],
+  explanation: "Completing the square shows that the minimum value of the quadratic is 4."
+},
+{
+  question: "Find dy/dx if y = ln(x² + 1).",
+  answers: [
+      { text: "2x/(x² + 1)", correct: true },
+      { text: "1/(x² + 1)", correct: false },
+      { text: "2x ln(x² + 1)", correct: false },
+      { text: "2/(x² + 1)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln(x² + 1) is 2x/(x² + 1)."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x² - 3x + 2 at x = 2.",
+  answers: [
+      { text: "y = x + 1", correct: false },
+      { text: "y = x - 1", correct: false },
+      { text: "y = x + 3", correct: true },
+      { text: "y = 2x - 5", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the equation of the tangent is y = x + 3."
+},
+{
+  question: "Find dy/dx if y = 2^x.",
+  answers: [
+      { text: "2^x ln 2", correct: true },
+      { text: "2^x", correct: false },
+      { text: "2x", correct: false },
+      { text: "ln 2", correct: false }
+  ],
+  explanation: "The derivative of an exponential function of the form 2^x is 2^x ln 2."
+},
+{
+  question: "Evaluate ∫ dx/(1 - x²).",
+  answers: [
+      { text: "sin⁻¹x + c", correct: false },
+      { text: "cos⁻¹x + c", correct: false },
+      { text: "ln|1 - x²| + c", correct: false },
+      { text: "1/2 ln|1 + x|/|1 - x| + c", correct: true }
+  ],
+  explanation: "Using partial fractions, the integral evaluates to (1/2) ln|1 + x|/|1 - x| + c."
+},
+{
+  question: "Find dy/dx if y = sin⁻¹(x).",
+  answers: [
+      { text: "1/√(1 - x²)", correct: true },
+      { text: "x/√(1 - x²)", correct: false },
+      { text: "√(1 - x²)", correct: false },
+      { text: "1/x", correct: false }
+  ],
+  explanation: "The derivative of y = sin⁻¹(x) is 1/√(1 - x²)."
+},
+{
+  question: "Find the slope of the curve y = x² - 4x + 5 at x = 3.",
+  answers: [
+      { text: "0", correct: false },
+      { text: "1", correct: false },
+      { text: "2", correct: false },
+      { text: "4", correct: true }
+  ],
+  explanation: "By differentiating and evaluating at x = 3, the slope of the curve is 4."
+},
+{
+  question: "Find the equation of the normal to the curve y = x² - 2x + 1 at x = 1.",
+  answers: [
+      { text: "y = -x + 3", correct: true },
+      { text: "y = x + 1", correct: false },
+      { text: "y = 2x + 1", correct: false },
+      { text: "y = -x + 1", correct: false }
+  ],
+  explanation: "By differentiating the curve and using the negative reciprocal of the tangent's slope, the equation of the normal is y = -x + 3."
+},
+{
+  question: "Find dy/dx if y = cos(3x).",
+  answers: [
+      { text: "-3sin(3x)", correct: true },
+      { text: "sin(3x)", correct: false },
+      { text: "cos(3x)", correct: false },
+      { text: "-sin(3x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of cos(3x) is -3sin(3x)."
+},
+{
+  question: "Evaluate ∫ dx/(x² + 1).",
+  answers: [
+      { text: "tan⁻¹(x) + c", correct: true },
+      { text: "sec⁻¹(x) + c", correct: false },
+      { text: "sin⁻¹(x) + c", correct: false },
+      { text: "ln(x² + 1) + c", correct: false }
+  ],
+  explanation: "The integral of 1/(x² + 1) is tan⁻¹(x) + c."
+},
+{
+  question: "Find the maximum value of y = 5x - x².",
+  answers: [
+      { text: "25", correct: false },
+      { text: "12.5", correct: true },
+      { text: "5", correct: false },
+      { text: "10", correct: false }
+  ],
+  explanation: "The maximum value occurs at the vertex of the parabola, which is 12.5."
+},
+{
+  question: "Find dy/dx if y = ln(cosx).",
+  answers: [
+      { text: "-tanx", correct: true },
+      { text: "sinx/cosx", correct: false },
+      { text: "cosx/sinx", correct: false },
+      { text: "tanx", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln(cosx) is -tanx."
+},
+{
+  question: "Solve for x in the equation 2sinx = √3.",
+  answers: [
+      { text: "60°", correct: true },
+      { text: "30°", correct: false },
+      { text: "90°", correct: false },
+      { text: "45°", correct: false }
+  ],
+  explanation: "Solving 2sinx = √3 gives x = 60°."
+},
+{
+  question: "Evaluate ∫ dx/(1 + x²).",
+  answers: [
+      { text: "tan⁻¹(x) + c", correct: true },
+      { text: "sec⁻¹(x) + c", correct: false },
+      { text: "ln(1 + x²) + c", correct: false },
+      { text: "sin⁻¹(x) + c", correct: false }
+  ],
+  explanation: "The integral of dx/(1 + x²) is tan⁻¹(x) + c."
+},
+{
+  question: "Find the minimum value of y = x² - 8x + 16.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "4", correct: false },
+      { text: "8", correct: false },
+      { text: "16", correct: false }
+  ],
+  explanation: "Completing the square shows that the minimum value of the quadratic is 0."
+},
+{
+  question: "Differentiate y = sin²(2x).",
+  answers: [
+      { text: "4sin(2x)cos(2x)", correct: true },
+      { text: "2sin(2x)cos(2x)", correct: false },
+      { text: "2cos²(2x)", correct: false },
+      { text: "4cos(2x)", correct: false }
+  ],
+  explanation: "Using the chain rule and trigonometric identities, the derivative of sin²(2x) is 4sin(2x)cos(2x)."
+},
+{
+  question: "Find the slope of the curve y = x³ - 3x² + 2x at x = 2.",
+  answers: [
+      { text: "1", correct: true },
+      { text: "0", correct: false },
+      { text: "2", correct: false },
+      { text: "-1", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the slope of the curve is 1."
+},
+{
+  question: "Evaluate ∫ dx/(1 - x²).",
+  answers: [
+      { text: "1/2 ln|1 + x|/|1 - x| + c", correct: true },
+      { text: "ln|1 + x|/|1 - x| + c", correct: false },
+      { text: "1/x² + c", correct: false },
+      { text: "1/x + c", correct: false }
+  ],
+  explanation: "Using partial fraction decomposition, the integral evaluates to (1/2) ln|1 + x|/|1 - x| + c."
+},
+{
+  question: "Differentiate y = e^(x²).",
+  answers: [
+      { text: "2xe^(x²)", correct: true },
+      { text: "e^(x²)", correct: false },
+      { text: "x²e^(x)", correct: false },
+      { text: "e^(2x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of e^(x²) is 2xe^(x²)."
+},
+{
+  question: "Solve for x in the equation cosx = 0.",
+  answers: [
+      { text: "x = 90°", correct: true },
+      { text: "x = 45°", correct: false },
+      { text: "x = 30°", correct: false },
+      { text: "x = 60°", correct: false }
+  ],
+  explanation: "Cosine is zero at 90°, so x = 90°."
+},
+{
+  question: "Find the minimum value of y = x² - 10x + 25.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "25", correct: false },
+      { text: "5", correct: false },
+      { text: "10", correct: false }
+  ],
+  explanation: "The quadratic expression completes to a perfect square, with a minimum value of 0."
+},
+{
+  question: "Find the slope of the tangent to the curve y = x² + 2x - 3 at x = 1.",
+  answers: [
+      { text: "4", correct: true },
+      { text: "3", correct: false },
+      { text: "5", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the slope of the tangent is 4."
+},
+{
+  question: "Find dy/dx if y = cos²(x).",
+  answers: [
+      { text: "-2sinxcosx", correct: true },
+      { text: "2sinxcosx", correct: false },
+      { text: "-sinxcosx", correct: false },
+      { text: "2cos²x", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of cos²(x) is -2sinxcosx."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x² - 5x + 6 at x = 2.",
+  answers: [
+      { text: "y = x - 2", correct: false },
+      { text: "y = -x + 3", correct: true },
+      { text: "y = 2x - 5", correct: false },
+      { text: "y = -2x + 6", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the equation of the tangent is y = -x + 3."
+},
+{
+  question: "Evaluate ∫ sinx dx.",
+  answers: [
+      { text: "-cosx + c", correct: true },
+      { text: "cosx + c", correct: false },
+      { text: "sinx + c", correct: false },
+      { text: "-sinx + c", correct: false }
+  ],
+  explanation: "The integral of sinx is -cosx + c."
+},
+{
+  question: "Find the maximum value of y = 4x - x².",
+  answers: [
+      { text: "4", correct: false },
+      { text: "16", correct: false },
+      { text: "8", correct: true },
+      { text: "2", correct: false }
+  ],
+  explanation: "By finding the vertex of the parabola, the maximum value is 8."
+},
+{
+  question: "Find dy/dx if y = tan(x).",
+  answers: [
+      { text: "sec²(x)", correct: true },
+      { text: "sin(x)", correct: false },
+      { text: "cos(x)", correct: false },
+      { text: "cot(x)", correct: false }
+  ],
+  explanation: "The derivative of tan(x) is sec²(x)."
+},
+{
+  question: "Evaluate ∫ (2x + 3) dx.",
+  answers: [
+      { text: "x² + 3x + c", correct: true },
+      { text: "2x² + 3x + c", correct: false },
+      { text: "2x + 3x² + c", correct: false },
+      { text: "x² + 2x + c", correct: false }
+  ],
+  explanation: "The integral of 2x + 3 is x² + 3x + c."
+},
+{
+  question: "Solve for x in the equation sin(x) = 1/2.",
+  answers: [
+      { text: "x = 30°", correct: true },
+      { text: "x = 45°", correct: false },
+      { text: "x = 60°", correct: false },
+      { text: "x = 90°", correct: false }
+  ],
+  explanation: "Sin(x) = 1/2 when x = 30°."
+},
+{
+  question: "Find the slope of the curve y = x³ - 2x² + x at x = 1.",
+  answers: [
+      { text: "0", correct: false },
+      { text: "1", correct: true },
+      { text: "-1", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the slope is 1."
+},
+{
+  question: "Differentiate y = e^(2x).",
+  answers: [
+      { text: "2e^(2x)", correct: true },
+      { text: "e^(2x)", correct: false },
+      { text: "x e^(2x)", correct: false },
+      { text: "2x e^(x)", correct: false }
+  ],
+  explanation: "The derivative of e^(2x) is 2e^(2x) using the chain rule."
+},
+{
+  question: "Evaluate ∫ (1/x) dx.",
+  answers: [
+      { text: "ln|x| + c", correct: true },
+      { text: "1/x + c", correct: false },
+      { text: "x ln(x) + c", correct: false },
+      { text: "ln(x²) + c", correct: false }
+  ],
+  explanation: "The integral of 1/x is ln|x| + c."
+},
+{
+  question: "Find dy/dx if y = x² sin(x).",
+  answers: [
+      { text: "2x sin(x) + x² cos(x)", correct: true },
+      { text: "x² sin(x) + cos(x)", correct: false },
+      { text: "2x sin(x) + cos(x)", correct: false },
+      { text: "x² cos(x) - 2x sin(x)", correct: false }
+  ],
+  explanation: "Using the product rule, the derivative of y = x² sin(x) is 2x sin(x) + x² cos(x)."
+},
+{
+  question: "Find the minimum value of y = x² - 6x + 9.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "9", correct: false },
+      { text: "3", correct: false },
+      { text: "6", correct: false }
+  ],
+  explanation: "Completing the square shows that the minimum value of the quadratic is 0."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x² - 4x + 5 at x = 2.",
+  answers: [
+      { text: "y = 4x - 3", correct: false },
+      { text: "y = x - 3", correct: true },
+      { text: "y = 2x + 1", correct: false },
+      { text: "y = -x + 4", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the equation of the tangent is y = x - 3."
+},
+{
+  question: "Find the maximum value of y = x² - 2x + 1.",
+  answers: [
+      { text: "1", correct: false },
+      { text: "0", correct: true },
+      { text: "2", correct: false },
+      { text: "-1", correct: false }
+  ],
+  explanation: "The quadratic expression completes to a perfect square, with a maximum value of 0."
+},
+{
+  question: "Differentiate y = ln(sin(x)).",
+  answers: [
+      { text: "cos(x)/sin(x)", correct: true },
+      { text: "sin(x)", correct: false },
+      { text: "ln(cos(x))", correct: false },
+      { text: "-sin(x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln(sin(x)) is cos(x)/sin(x), which simplifies to cot(x)."
+},
+{
+  question: "Solve for x in the equation tan(x) = √3.",
+  answers: [
+      { text: "x = 30°", correct: false },
+      { text: "x = 45°", correct: false },
+      { text: "x = 60°", correct: true },
+      { text: "x = 90°", correct: false }
+  ],
+  explanation: "Tan(x) = √3 when x = 60°."
+},
+{
+  question: "Evaluate ∫ cos(x) dx.",
+  answers: [
+      { text: "sin(x) + c", correct: true },
+      { text: "-sin(x) + c", correct: false },
+      { text: "cos(x) + c", correct: false },
+      { text: "-cos(x) + c", correct: false }
+  ],
+  explanation: "The integral of cos(x) is sin(x) + c."
+},
+{
+  question: "Find the slope of the tangent to the curve y = x² - 2x + 1 at x = 3.",
+  answers: [
+      { text: "4", correct: true },
+      { text: "5", correct: false },
+      { text: "6", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 3, the slope of the tangent is 4."
+},
+{
+  question: "Evaluate ∫ sin(x) dx.",
+  answers: [
+      { text: "-cos(x) + c", correct: true },
+      { text: "cos(x) + c", correct: false },
+      { text: "-sin(x) + c", correct: false },
+      { text: "sin(x) + c", correct: false }
+  ],
+  explanation: "The integral of sin(x) is -cos(x) + c."
+},
+{
+  question: "Find dy/dx if y = e^(3x).",
+  answers: [
+      { text: "3e^(3x)", correct: true },
+      { text: "e^(3x)", correct: false },
+      { text: "3x e^(x)", correct: false },
+      { text: "x e^(3x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of e^(3x) is 3e^(3x)."
+},
+{
+  question: "Solve the equation cos(2x) = 0.",
+  answers: [
+      { text: "x = 90°", correct: true },
+      { text: "x = 60°", correct: false },
+      { text: "x = 45°", correct: false },
+      { text: "x = 30°", correct: false }
+  ],
+  explanation: "Cos(2x) = 0 when x = 90°."
+},
+{
+  question: "Evaluate ∫(2x + 1)² dx.",
+  answers: [
+      { text: "(2x + 1)³/3 + c", correct: false },
+      { text: "4x³ + 2x² + c", correct: false },
+      { text: "4x³ + 6x² + 2x + c", correct: true },
+      { text: "x³ + 2x + c", correct: false }
+  ],
+  explanation: "Using the expansion and then applying the power rule, the integral is 4x³ + 6x² + 2x + c."
+},
+{
+  question: "Solve for x in the equation 2cos²(x) - 1 = 0.",
+  answers: [
+      { text: "x = 60°", correct: false },
+      { text: "x = 45°", correct: false },
+      { text: "x = 90°", correct: false },
+      { text: "x = 30°", correct: true }
+  ],
+  explanation: "Rearranging the equation gives cos²(x) = 1/2, so x = 30°."
+},
+{
+  question: "Find the minimum value of y = x² - 4x + 4.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "2", correct: false },
+      { text: "4", correct: false },
+      { text: "1", correct: false }
+  ],
+  explanation: "Completing the square shows that the minimum value is 0."
+},
+{
+  question: "Differentiate y = e^(x² + 1).",
+  answers: [
+      { text: "2xe^(x² + 1)", correct: true },
+      { text: "e^(x² + 1)", correct: false },
+      { text: "x e^(x²)", correct: false },
+      { text: "e^(2x + 1)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of e^(x² + 1) is 2xe^(x² + 1)."
+},
+{
+  question: "Evaluate ∫ cos²(x) dx.",
+  answers: [
+      { text: "1/2 (x + sin(2x)/2) + c", correct: true },
+      { text: "1/2 sin²(x) + c", correct: false },
+      { text: "cos(x)/2 + c", correct: false },
+      { text: "(sin²(x))/2 + c", correct: false }
+  ],
+  explanation: "Using the half-angle identity, the integral is 1/2 (x + sin(2x)/2) + c."
+},
+{
+  question: "Find dy/dx if y = ln|x² + 1|.",
+  answers: [
+      { text: "2x/(x² + 1)", correct: true },
+      { text: "1/(x² + 1)", correct: false },
+      { text: "2x ln(x)", correct: false },
+      { text: "x/(x² + 1)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln|x² + 1| is 2x/(x² + 1)."
+},
+{
+  question: "Find the slope of the curve y = x³ - 3x² + 2x at x = 1.",
+  answers: [
+      { text: "2", correct: false },
+      { text: "3", correct: true },
+      { text: "1", correct: false },
+      { text: "0", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the slope is 3."
+},
+{
+  question: "Solve for x in the equation sin(2x) = 1.",
+  answers: [
+      { text: "x = 90°", correct: true },
+      { text: "x = 45°", correct: false },
+      { text: "x = 60°", correct: false },
+      { text: "x = 30°", correct: false }
+  ],
+  explanation: "Sin(2x) = 1 at x = 90°, since sin(π/2) = 1."
+},
+{
+  question: "Find the maximum value of y = x² - 6x + 9.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "3", correct: false },
+      { text: "9", correct: false },
+      { text: "6", correct: false }
+  ],
+  explanation: "The quadratic expression is a perfect square, with a maximum value of 0."
+},
+{
+  question: "Evaluate ∫ dx/(1 + x²).",
+  answers: [
+      { text: "tan⁻¹(x) + c", correct: true },
+      { text: "cot⁻¹(x) + c", correct: false },
+      { text: "ln(x² + 1) + c", correct: false },
+      { text: "sin⁻¹(x) + c", correct: false }
+  ],
+  explanation: "The integral of 1/(1 + x²) is tan⁻¹(x) + c."
+},
+{
+  question: "Find dy/dx if y = sin(2x).",
+  answers: [
+      { text: "2cos(2x)", correct: true },
+      { text: "-2sin(2x)", correct: false },
+      { text: "cos(2x)", correct: false },
+      { text: "2sin(2x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of sin(2x) is 2cos(2x)."
+},
+{
+  question: "Find the slope of the tangent to the curve y = 4x³ - x² + 2 at x = 1.",
+  answers: [
+      { text: "8", correct: true },
+      { text: "6", correct: false },
+      { text: "4", correct: false },
+      { text: "2", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the slope of the tangent is 8."
+},
+{
+  question: "Solve for x in the equation tan(2x) = 1.",
+  answers: [
+      { text: "x = 45°", correct: true },
+      { text: "x = 30°", correct: false },
+      { text: "x = 60°", correct: false },
+      { text: "x = 90°", correct: false }
+  ],
+  explanation: "Tan(2x) = 1 when x = 45°, because tan(45°) = 1."
+},
+{
+  question: "Find the minimum value of y = x² + 4x + 3.",
+  answers: [
+      { text: "-1", correct: true },
+      { text: "0", correct: false },
+      { text: "1", correct: false },
+      { text: "3", correct: false }
+  ],
+  explanation: "Completing the square or using the vertex formula shows that the minimum value is -1."
+},
+{
+  question: "Differentiate y = cos²(x).",
+  answers: [
+      { text: "-2sin(x)cos(x)", correct: true },
+      { text: "2sin(x)cos(x)", correct: false },
+      { text: "sin²(x)", correct: false },
+      { text: "2cos²(x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of cos²(x) is -2sin(x)cos(x)."
+},
+{
+  question: "Find dy/dx if y = ln(sin(x)).",
+  answers: [
+      { text: "cos(x)/sin(x)", correct: true },
+      { text: "sin(x)/cos(x)", correct: false },
+      { text: "sin(x)", correct: false },
+      { text: "1/sin(x)", correct: false }
+  ],
+  explanation: "The derivative of ln(sin(x)) is cos(x)/sin(x), which simplifies to cot(x)."
+},
+{
+  question: "Solve for x in the equation cos(2x) = 0.",
+  answers: [
+      { text: "x = 90°", correct: true },
+      { text: "x = 60°", correct: false },
+      { text: "x = 45°", correct: false },
+      { text: "x = 30°", correct: false }
+  ],
+  explanation: "Cos(2x) = 0 when x = 90°, because cos(90°) = 0."
+},
+{
+  question: "Evaluate ∫ sin(x) dx.",
+  answers: [
+      { text: "-cos(x) + c", correct: true },
+      { text: "cos(x) + c", correct: false },
+      { text: "sin(x) + c", correct: false },
+      { text: "-sin(x) + c", correct: false }
+  ],
+  explanation: "The integral of sin(x) is -cos(x) + c."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x² - 3x + 2 at x = 1.",
+  answers: [
+      { text: "y = -x + 3", correct: true },
+      { text: "y = x + 1", correct: false },
+      { text: "y = -2x + 3", correct: false },
+      { text: "y = 2x - 1", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the equation of the tangent is y = -x + 3."
+},
+{
+  question: "Find the maximum value of y = 5x - x².",
+  answers: [
+      { text: "25", correct: false },
+      { text: "12.5", correct: true },
+      { text: "5", correct: false },
+      { text: "10", correct: false }
+  ],
+  explanation: "The maximum value occurs at the vertex of the parabola, which is 12.5."
+},
+{
+  question: "Differentiate y = ln(x² + 1).",
+  answers: [
+      { text: "2x/(x² + 1)", correct: true },
+      { text: "x/(x² + 1)", correct: false },
+      { text: "2/(x² + 1)", correct: false },
+      { text: "1/(x² + 1)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln(x² + 1) is 2x/(x² + 1)."
+},
+{
+  question: "Find dy/dx if y = e^(3x).",
+  answers: [
+      { text: "3e^(3x)", correct: true },
+      { text: "e^(3x)", correct: false },
+      { text: "3x e^(x)", correct: false },
+      { text: "x e^(3x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of e^(3x) is 3e^(3x)."
+},
+{
+  question: "Find the minimum value of y = x² - 6x + 9.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "3", correct: false },
+      { text: "9", correct: false },
+      { text: "6", correct: false }
+  ],
+  explanation: "The quadratic expression completes to a perfect square, with a minimum value of 0."
+},
+{
+  question: "Solve the equation 2sin(x) = √3.",
+  answers: [
+      { text: "x = 60°", correct: true },
+      { text: "x = 30°", correct: false },
+      { text: "x = 45°", correct: false },
+      { text: "x = 90°", correct: false }
+  ],
+  explanation: "Solving 2sin(x) = √3 gives x = 60°."
+},
+{
+  question: "Find the slope of the tangent to the curve y = 3x² - 2x + 5 at x = 2.",
+  answers: [
+      { text: "10", correct: true },
+      { text: "8", correct: false },
+      { text: "4", correct: false },
+      { text: "12", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the slope of the tangent is 10."
+},
+{
+  question: "Evaluate ∫ dx/x.",
+  answers: [
+      { text: "ln|x| + c", correct: true },
+      { text: "1/x + c", correct: false },
+      { text: "x + c", correct: false },
+      { text: "ln(x²) + c", correct: false }
+  ],
+  explanation: "The integral of 1/x is ln|x| + c."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x³ - 4x + 1 at x = 2.",
+  answers: [
+      { text: "y = 8x - 7", correct: true },
+      { text: "y = 9x + 5", correct: false },
+      { text: "y = 6x + 3", correct: false },
+      { text: "y = 10x - 4", correct: false }
+  ],
+  explanation: "By differentiating the curve and evaluating at x = 2, the equation of the tangent line is y = 8x - 7."
+},
+{
+  question: "Find dy/dx if y = ln(sin(x)).",
+  answers: [
+      { text: "cos(x)/sin(x)", correct: true },
+      { text: "1/sin(x)", correct: false },
+      { text: "cos(x)", correct: false },
+      { text: "1/cos(x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of ln(sin(x)) is cos(x)/sin(x), which simplifies to cot(x)."
+},
+{
+  question: "Find the maximum value of y = 12x - x².",
+  answers: [
+      { text: "36", correct: true },
+      { text: "12", correct: false },
+      { text: "24", correct: false },
+      { text: "0", correct: false }
+  ],
+  explanation: "The maximum value occurs at the vertex of the parabola, which is 36."
+},
+{
+  question: "Find the slope of the tangent to the curve y = x² + 4x - 5 at x = 1.",
+  answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "4", correct: false },
+      { text: "12", correct: false }
+  ],
+  explanation: "By differentiating the curve and substituting x = 1, the slope of the tangent is 6."
+},
+{
+  question: "Evaluate ∫(2x + 1) dx.",
+  answers: [
+      { text: "x² + x + c", correct: true },
+      { text: "2x² + x + c", correct: false },
+      { text: "x² + 2x + c", correct: false },
+      { text: "2x² + 2x + c", correct: false }
+  ],
+  explanation: "Using the power rule, the integral of 2x + 1 is x² + x + c."
+},
+{
+  question: "Differentiate y = e^(2x).",
+  answers: [
+      { text: "2e^(2x)", correct: true },
+      { text: "e^(2x)", correct: false },
+      { text: "x e^(2x)", correct: false },
+      { text: "2x e^(x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of e^(2x) is 2e^(2x)."
+},
+{
+  question: "Solve for x in the equation cos(2x) = 0.",
+  answers: [
+      { text: "x = 90°", correct: true },
+      { text: "x = 60°", correct: false },
+      { text: "x = 45°", correct: false },
+      { text: "x = 30°", correct: false }
+  ],
+  explanation: "Cos(2x) = 0 when x = 90°, as cos(90°) = 0."
+},
+{
+  question: "Find the minimum value of y = x² - 10x + 25.",
+  answers: [
+      { text: "0", correct: true },
+      { text: "25", correct: false },
+      { text: "10", correct: false },
+      { text: "5", correct: false }
+  ],
+  explanation: "The quadratic expression is a perfect square, with a minimum value of 0."
+},
+{
+  question: "Find dy/dx if y = cos²(x).",
+  answers: [
+      { text: "-2sin(x)cos(x)", correct: true },
+      { text: "2sin(x)cos(x)", correct: false },
+      { text: "-sin(x)", correct: false },
+      { text: "2cos(x)", correct: false }
+  ],
+  explanation: "Using the chain rule, the derivative of cos²(x) is -2sin(x)cos(x)."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x² - 4x + 5 at x = 2.",
+  answers: [
+      { text: "y = -x + 3", correct: true },
+      { text: "y = x - 3", correct: false },
+      { text: "y = 2x + 1", correct: false },
+      { text: "y = -2x + 4", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 2, the equation of the tangent is y = -x + 3."
+},
+{
+  question: "Evaluate ∫ cos(x) dx.",
+  answers: [
+      { text: "sin(x) + c", correct: true },
+      { text: "-sin(x) + c", correct: false },
+      { text: "cos(x) + c", correct: false },
+      { text: "-cos(x) + c", correct: false }
+  ],
+  explanation: "The integral of cos(x) is sin(x) + c."
+},
+{
+  question: "Find the maximum value of y = 4x - x².",
+  answers: [
+      { text: "8", correct: true },
+      { text: "4", correct: false },
+      { text: "2", correct: false },
+      { text: "16", correct: false }
+  ],
+  explanation: "By finding the vertex of the parabola, the maximum value is 8."
+},
+{
+  question: "Find dy/dx if y = tan(x).",
+  answers: [
+      { text: "sec²(x)", correct: true },
+      { text: "sin(x)", correct: false },
+      { text: "cos(x)", correct: false },
+      { text: "cot(x)", correct: false }
+  ],
+  explanation: "The derivative of tan(x) is sec²(x)."
+},
+{
+  question: "Evaluate ∫ dx/x.",
+  answers: [
+      { text: "ln|x| + c", correct: true },
+      { text: "1/x + c", correct: false },
+      { text: "ln(x²) + c", correct: false },
+      { text: "x + c", correct: false }
+  ],
+  explanation: "The integral of 1/x is ln|x| + c."
+},
+{
+  question: "Find dy/dx if y = x² sin(x).",
+  answers: [
+      { text: "2x sin(x) + x² cos(x)", correct: true },
+      { text: "2x sin(x)", correct: false },
+      { text: "x² sin(x)", correct: false },
+      { text: "2x cos(x)", correct: false }
+  ],
+  explanation: "Using the product rule, the derivative of x² sin(x) is 2x sin(x) + x² cos(x)."
+},
+{
+  question: "Solve for x in the equation sin(x) = 1/2.",
+  answers: [
+      { text: "x = 30°", correct: true },
+      { text: "x = 45°", correct: false },
+      { text: "x = 60°", correct: false },
+      { text: "x = 90°", correct: false }
+  ],
+  explanation: "Sin(x) = 1/2 when x = 30°."
+},
+{
+  question: "Find the slope of the curve y = x³ - 2x² + x at x = 1.",
+  answers: [
+      { text: "1", correct: true },
+      { text: "0", correct: false },
+      { text: "2", correct: false },
+      { text: "-1", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the slope of the curve is 1."
+},
+{
+  question: "Find the equation of the tangent to the curve y = x³ - 5x² + 2 at x = 1.",
+  answers: [
+      { text: "y = -4x + 3", correct: true },
+      { text: "y = 4x - 1", correct: false },
+      { text: "y = 3x - 2", correct: false },
+      { text: "y = -3x + 4", correct: false }
+  ],
+  explanation: "By differentiating and substituting x = 1, the equation of the tangent is y = -4x + 3."
+},
+{
+  question: "Evaluate ∫ (2x + 1)² dx.",
+  answers: [
+      { text: "4x³ + 3x² + c", correct: false },
+      { text: "x³ + 3x² + c", correct: false },
+      { text: "(2x + 1)³/3 + c", correct: true },
+      { text: "x² + 3x + c", correct: false }
+  ],
+  explanation: "Expanding and then applying the power rule, the integral is (2x + 1)³/3 + c."
+},
+
+
 
 
 
