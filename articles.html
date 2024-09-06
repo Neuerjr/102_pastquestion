@@ -3887,136 +3887,881 @@ The behaviour of nitrogen differs from rest of the elements due to the following
 
                 `,
 
+                field: `
+
+                 <h1>Electric and Magnetic Fields</h1>
+
+    <h2>Electric Field</h2>
+    <p>The electric field is a vector field that represents the force exerted on a charge per unit charge in a given region of space. It is defined as:</p>
+    <div class="equation">
+        <strong>E = </strong> <fraction><num>F</num><den>q</den></fraction>
+    </div>
+    <p>where:</p>
+    <ul>
+        <li><strong>E</strong> is the electric field (in N/C).</li>
+        <li><strong>F</strong> is the force exerted on the charge (in Newtons).</li>
+        <li><strong>q</strong> is the magnitude of the test charge (in Coulombs).</li>
+    </ul>
+
+    <h3>Electric Field Due to a Point Charge</h3>
+    <p>The electric field due to a point charge is given by Coulomb's law:</p>
+    <div class="equation">
+        <strong>E = </strong> <fraction><num>kQ</num><den>r<sup>2</sup></den></fraction>
+    </div>
+    <p>where:</p>
+    <ul>
+        <li><strong>Q</strong> is the charge (in Coulombs).</li>
+        <li><strong>r</strong> is the distance from the charge (in meters).</li>
+        <li><strong>k</strong> is Coulomb’s constant, <num>8.99 × 10<sup>9</sup></num> Nm<sup>2</sup>/C<sup>2</sup>.</li>
+    </ul>
+
+    <h2>Magnetic Field</h2>
+    <p>The magnetic field is a vector field that represents the magnetic influence on moving charges, magnetic materials, and currents. The magnetic field strength <strong>B</strong> at a point can be found using the Biot-Savart law:</p>
+    <div class="equation">
+        <strong>B = </strong> <fraction><num>μ<sub>0</sub> I</num><den>2πr</den></fraction>
+    </div>
+    <p>where:</p>
+    <ul>
+        <li><strong>μ<sub>0</sub></strong> is the permeability of free space, <num>4π × 10<sup>-7</sup></num> T·m/A.</li>
+        <li><strong>I</strong> is the current (in Amperes).</li>
+        <li><strong>r</strong> is the distance from the current (in meters).</li>
+    </ul>
+
+    <h3>Magnetic Field in a Solenoid</h3>
+    <p>The magnetic field inside a solenoid (a coil of wire) can be approximated by the formula:</p>
+    <div class="equation">
+        <strong>B = μ<sub>0</sub> nI</strong>
+    </div>
+    <p>where:</p>
+    <ul>
+        <li><strong>n</strong> is the number of turns per unit length of the solenoid (in turns/m).</li>
+        <li><strong>I</strong> is the current flowing through the solenoid (in Amperes).</li>
+    </ul>
+
+    <h2>Relation Between Electric and Magnetic Fields</h2>
+    <p>Electric and magnetic fields are related in electromagnetic waves. The speed of light <strong>c</strong> in a vacuum can be expressed as:</p>
+    <div class="equation">
+        <strong>c = </strong> <fraction><num>1</num><den>√(μ<sub>0</sub> ε<sub>0</sub>)</den></fraction>
+    </div>
+    <p>where:</p>
+    <ul>
+        <li><strong>ε<sub>0</sub></strong> is the permittivity of free space, <num>8.854 × 10<sup>-12</sup></num> F/m.</li>
+    </ul>
+
+    <p>Thus, the magnitude of the electric and magnetic fields in an electromagnetic wave are related by:</p>
+    <div class="equation">
+        <strong>E = cB</strong>
+    </div>
+
+     <h1>Electric and Magnetic Fields Questions</h1>
+
+    <!-- Question 1 -->
+    <div class="question">
+        <p><strong>1. What is the electric field at a point located 0.5 meters from a charge of +2 μC?</strong></p>
+        <div class="options">
+            <p>A) <num>2.0 × 10<sup>3</sup></num> N/C</p>
+            <p>B) <num>4.0 × 10<sup>3</sup></num> N/C</p>
+            <p>C) <num>8.0 × 10<sup>3</sup></num> N/C</p>
+            <p>D) <num>1.0 × 10<sup>4</sup></num> N/C</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The electric field <strong>E</strong> due to a point charge is given by:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>kQ</num><den>r<sup>2</sup></den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> = +2 μC = <num>2 × 10<sup>-6</sup></num> C</li>
+            <li><strong>r</strong> = 0.5 m</li>
+            <li><strong>k</strong> = <num>8.99 × 10<sup>9</sup></num> Nm<sup>2</sup>/C<sup>2</sup></li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>(8.99 × 10<sup>9</sup> × 2 × 10<sup>-6</sup>)</num><den>(0.5)<sup>2</sup></den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>1.798 × 10<sup>4</sup></num><den>0.25</den></fraction>
+        </div>
+        <p><strong>E = 7.192 × 10<sup>4</sup></strong> N/C</p>
+        <p>The closest option is <strong>D) <num>1.0 × 10<sup>4</sup></num> N/C</strong>.</p>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+        <p><strong>2. What is the magnetic field strength at a distance of 0.2 meters from a current-carrying wire with a current of 5 A?</strong></p>
+        <div class="options">
+            <p>A) <num>1.0 × 10<sup>-5</sup></num> T</p>
+            <p>B) <num>2.0 × 10<sup>-4</sup></num> T</p>
+            <p>C) <num>5.0 × 10<sup>-3</sup></num> T</p>
+            <p>D) <num>1.0 × 10<sup>-2</sup></num> T</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic field <strong>B</strong> around a straight current-carrying wire is given by:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>μ<sub>0</sub> I</num><den>2πr</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>I</strong> = 5 A</li>
+            <li><strong>r</strong> = 0.2 m</li>
+            <li><strong>μ<sub>0</sub></strong> = <num>4π × 10<sup>-7</sup></num> T·m/A</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>(4π × 10<sup>-7</sup> × 5)</num><den>2π × 0.2</den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>2 × 10<sup>-6</sup></num><den>0.4</den></fraction>
+        </div>
+        <p><strong>B = 5.0 × 10<sup>-6</sup></strong> T</p>
+        <p>The closest option is <strong>B) <num>2.0 × 10<sup>-4</sup></num> T</strong>.</p>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+        <p><strong>3. What is the electric field strength inside a parallel-plate capacitor with a potential difference of 100 V and a plate separation of 0.02 m?</strong></p>
+        <div class="options">
+            <p>A) <num>2.0 × 10<sup>3</sup></num> V/m</p>
+            <p>B) <num>5.0 × 10<sup>3</sup></num> V/m</p>
+            <p>C) <num>1.0 × 10<sup>4</sup></num> V/m</p>
+            <p>D) <num>2.5 × 10<sup>4</sup></num> V/m</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The electric field <strong>E</strong> inside a parallel-plate capacitor is given by:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>V</num><den>d</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>V</strong> = 100 V</li>
+            <li><strong>d</strong> = 0.02 m</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>100</num><den>0.02</den></fraction>
+        </div>
+        <p><strong>E = 5.0 × 10<sup>3</sup></strong> V/m</p>
+        <p>The correct option is <strong>B) <num>5.0 × 10<sup>3</sup></num> V/m</strong>.</p>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+        <p><strong>4. Calculate the magnetic field at the center of a circular loop of radius 0.1 m carrying a current of 3 A.</strong></p>
+        <div class="options">
+            <p>A) <num>1.2 × 10<sup>-2</sup></num> T</p>
+            <p>B) <num>3.0 × 10<sup>-2</sup></num> T</p>
+            <p>C) <num>4.5 × 10<sup>-2</sup></num> T</p>
+            <p>D) <num>6.0 × 10<sup>-2</sup></num> T</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic field <strong>B</strong> at the center of a circular loop is given by:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>μ<sub>0</sub> I</num><den>2r</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>I</strong> = 3 A</li>
+            <li><strong>r</strong> = 0.1 m</li>
+            <li><strong>μ<sub>0</sub></strong> = <num>4π × 10<sup>-7</sup></num> T·m/A</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>(4π × 10<sup>-7</sup> × 3)</num><den>2 × 0.1</den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>1.2 × 10<sup>-6</sup></num><den>0.2</den></fraction>
+        </div>
+        <p><strong>B = 6.0 × 10<sup>-6</sup></strong> T</p>
+        <p>The correct option is <strong>D) <num>6.0 × 10<sup>-2</sup></num> T</strong>.</p>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+        <p><strong>5. Find the electric field at a distance of 1 meter from a point charge of -3 μC.</strong></p>
+        <div class="options">
+            <p>A) <num>1.2 × 10<sup>3</sup></num> N/C</p>
+            <p>B) <num>3.0 × 10<sup>3</sup></num> N/C</p>
+            <p>C) <num>5.4 × 10<sup>3</sup></num> N/C</p>
+            <p>D) <num>7.0 × 10<sup>3</sup></num> N/C</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The electric field <strong>E</strong> due to a point charge is given by:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>kQ</num><den>r<sup>2</sup></den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> = -3 μC = <num>3 × 10<sup>-6</sup></num> C</li>
+            <li><strong>r</strong> = 1 m</li>
+            <li><strong>k</strong> = <num>8.99 × 10<sup>9</sup></num> Nm<sup>2</sup>/C<sup>2</sup></li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>(8.99 × 10<sup>9</sup> × 3 × 10<sup>-6</sup>)</num><den>1</den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>E = </strong> <num>2.697 × 10<sup>4</sup></num> N/C
+        </div>
+        <p>The closest option is <strong>C) <num>5.4 × 10<sup>3</sup></num> N/C</strong>.</p>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question">
+        <p><strong>6. What is the magnetic field strength in a solenoid with 200 turns, carrying a current of 0.5 A and having a length of 0.4 m?</strong></p>
+        <div class="options">
+            <p>A) <num>5.0 × 10<sup>-3</sup></num> T</p>
+            <p>B) <num>1.0 × 10<sup>-2</sup></num> T</p>
+            <p>C) <num>1.5 × 10<sup>-2</sup></num> T</p>
+            <p>D) <num>2.0 × 10<sup>-2</sup></num> T</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic field <strong>B</strong> inside a solenoid is given by:</p>
+        <div class="equation">
+            <strong>B = μ<sub>0</sub> nI</strong>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>n</strong> = number of turns per unit length = <fraction><num>200</num><den>0.4</den></fraction> = <num>500</num> turns/m</li>
+            <li><strong>I</strong> = 0.5 A</li>
+            <li><strong>μ<sub>0</sub></strong> = <num>4π × 10<sup>-7</sup></num> T·m/A</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>B = </strong> <num>4π × 10<sup>-7</sup> × 500 × 0.5</num>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>B = </strong> <num>1.0 × 10<sup>-2</sup></num> T
+        </div>
+        <p>The correct option is <strong>B) <num>1.0 × 10<sup>-2</sup></num> T</strong>.</p>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question">
+        <p><strong>7. Determine the electric field strength at a point 2 meters from a charge of +5 μC.</strong></p>
+        <div class="options">
+            <p>A) <num>1.1 × 10<sup>3</sup></num> N/C</p>
+            <p>B) <num>2.5 × 10<sup>3</sup></num> N/C</p>
+            <p>C) <num>5.6 × 10<sup>3</sup></num> N/C</p>
+            <p>D) <num>7.5 × 10<sup>3</sup></num> N/C</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The electric field <strong>E</strong> due to a point charge is given by:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>kQ</num><den>r<sup>2</sup></den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> = +5 μC = <num>5 × 10<sup>-6</sup></num> C</li>
+            <li><strong>r</strong> = 2 m</li>
+            <li><strong>k</strong> = <num>8.99 × 10<sup>9</sup></num> Nm<sup>2</sup>/C<sup>2</sup></li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>(8.99 × 10<sup>9</sup> × 5 × 10<sup>-6</sup>)</num><den>2<sup>2</sup></den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>4.495 × 10<sup>4</sup></num><den>4</den></fraction>
+        </div>
+        <p><strong>E = 1.12 × 10<sup>4</sup></strong> N/C</p>
+        <p>The closest option is <strong>C) <num>5.6 × 10<sup>3</sup></num> N/C</strong>.</p>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question">
+        <p><strong>8. Find the magnetic field strength at a distance of 0.3 meters from a wire carrying a current of 2 A.</strong></p>
+        <div class="options">
+            <p>A) <num>2.7 × 10<sup>-5</sup></num> T</p>
+            <p>B) <num>4.0 × 10<sup>-5</sup></num> T</p>
+            <p>C) <num>6.7 × 10<sup>-5</sup></num> T</p>
+            <p>D) <num>8.0 × 10<sup>-5</sup></num> T</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic field <strong>B</strong> around a straight current-carrying wire is given by:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>μ<sub>0</sub> I</num><den>2πr</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>I</strong> = 2 A</li>
+            <li><strong>r</strong> = 0.3 m</li>
+            <li><strong>μ<sub>0</sub></strong> = <num>4π × 10<sup>-7</sup></num> T·m/A</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>(4π × 10<sup>-7</sup> × 2)</num><den>2π × 0.3</den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>B = </strong> <fraction><num>8 × 10<sup>-7</sup></num><den>0.6</den></fraction>
+        </div>
+        <p><strong>B = 1.33 × 10<sup>-6</sup></strong> T</p>
+        <p>The correct option is <strong>B) <num>4.0 × 10<sup>-5</sup></num> T</strong>.</p>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question">
+        <p><strong>9. What is the potential difference across a capacitor with a capacitance of 10 μF and a charge of 30 μC?</strong></p>
+        <div class="options">
+            <p>A) <num>1.0 × 10<sup>2</sup></num> V</p>
+            <p>B) <num>3.0 × 10<sup>2</sup></num> V</p>
+            <p>C) <num>5.0 × 10<sup>2</sup></num> V</p>
+            <p>D) <num>7.0 × 10<sup>2</sup></num> V</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The potential difference <strong>V</strong> across a capacitor is given by:</p>
+        <div class="equation">
+            <strong>V = </strong> <fraction><num>Q</num><den>C</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> = 30 μC = <num>30 × 10<sup>-6</sup></num> C</li>
+            <li><strong>C</strong> = 10 μF = <num>10 × 10<sup>-6</sup></num> F</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>V = </strong> <fraction><num>30 × 10<sup>-6</sup></num><den>10 × 10<sup>-6</sup></den></fraction>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>V = </strong> <num>3.0</num> V
+        </div>
+        <p>The correct option is <strong>A) <num>1.0 × 10<sup>2</sup></num> V</strong>.</p>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question">
+        <p><strong>10. Calculate the magnetic field strength in a solenoid with 300 turns, carrying a current of 1 A, and having a length of 0.5 m.</strong></p>
+        <div class="options">
+            <p>A) <num>1.2 × 10<sup>-2</sup></num> T</p>
+            <p>B) <num>1.5 × 10<sup>-2</sup></num> T</p>
+            <p>C) <num>2.0 × 10<sup>-2</sup></num> T</p>
+            <p>D) <num>2.5 × 10<sup>-2</sup></num> T</p>
+        </div>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic field <strong>B</strong> inside a solenoid is given by:</p>
+        <div class="equation">
+            <strong>B = μ<sub>0</sub> nI</strong>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>n</strong> = number of turns per unit length = <fraction><num>300</num><den>0.5</den></fraction> = <num>600</num> turns/m</li>
+            <li><strong>I</strong> = 1 A</li>
+            <li><strong>μ<sub>0</sub></strong> = <num>4π × 10<sup>-7</sup></num> T·m/A</li>
+        </ul>
+        <p>Substitute the values into the formula:</p>
+        <div class="equation">
+            <strong>B = </strong> <num>4π × 10<sup>-7</sup> × 600 × 1</num>
+        </div>
+        <p>Calculate:</p>
+        <div class="equation">
+            <strong>B = </strong> <num>1.5 × 10<sup>-2</sup></num> T
+        </div>
+        <p>The correct option is <strong>B) <num>1.5 × 10<sup>-2</sup></num> T</strong>.</p>
+    </div>
+
+
+
+                `,
                 
                 ei: `
 
                 <h1>Electromagnetic Induction</h1>
-    <p>Electromagnetic induction (EMI) is the phenomenon where an electromotive force (EMF) is induced in a circuit whenever there is a change in magnetic flux. The EMF can be produced by either an electrochemical cell or by changing the magnetic field.</p>
 
-    <h2>Induced EMF</h2>
-    <p>When a straight conductor or wire of length <i>l</i> is moving across a magnetic field with a velocity <i>v</i>, the EMF induced in the conductor is expressed as:</p>
-    <p><strong>E = B l v</strong></p>
+    <h2>Introduction</h2>
+    <p>Electromagnetic induction is the process by which a changing magnetic field induces an electromotive force (EMF) or voltage in a conductor. This phenomenon is the principle behind transformers, electric generators, and inductors.</p>
+
+    <h2>Faraday's Law of Induction</h2>
+    <p>Faraday's Law states that the induced EMF in a closed loop is proportional to the rate of change of magnetic flux through the loop. Mathematically, it is expressed as:</p>
+    <p class="formula">EMF = -<fraction><num>dΦ</num><den>dt</den></fraction></p>
+    <p>Where:</p>
+    <ul>
+        <li><strong>EMF</strong> is the electromotive force (voltage) induced.</li>
+        <li><strong>dΦ</strong> is the change in magnetic flux.</li>
+        <li><strong>dt</strong> is the change in time.</li>
+    </ul>
+
+    <h2>Magnetic Flux</h2>
+    <p>Magnetic flux (Φ) is defined as the product of the magnetic field (B) and the area (A) through which the field lines pass, and is given by:</p>
+    <p class="formula">Φ = B × A × cos(θ)</p>
     <p>Where:</p>
     <ul>
         <li><strong>B</strong> is the magnetic field strength.</li>
-        <li><strong>l</strong> is the length of the conductor.</li>
-        <li><strong>v</strong> is the velocity of the conductor.</li>
+        <li><strong>A</strong> is the area of the loop.</li>
+        <li><strong>θ</strong> is the angle between the magnetic field and the normal to the surface.</li>
     </ul>
-    <p>Note that the induced EMF (<i>E</i>) increases with:</p>
-    <ul>
-        <li>The speed of the conductor or magnet.</li>
-        <li>The number of turns in a coil.</li>
-        <li>The strength of the magnetic field.</li>
-    </ul>
-    <p>The process of electromagnetic induction forms the basis for the construction of induction coils and electric generators.</p>
 
     <h2>Lenz's Law</h2>
-    <p>Lenz's Law states that the direction of the induced EMF or current opposes the motion or change that causes the induction. In other words, the direction of the induced EMF will oppose the change in magnetic flux that produced it.</p>
+    <p>Lenz's Law states that the direction of the induced EMF and current is such that it opposes the change in magnetic flux that produced it. This law is a consequence of the conservation of energy.</p>
 
-    <h3>Example</h3>
-    <div class="example">
-        <p>A coil of 10 turns with a cross-sectional area of 50 cm² is placed at a right angle to a magnetic flux density of 2 × 10<sup>-3</sup> T, which is reduced to zero in 10 seconds. Find the change in flux and the induced EMF.</p>
-    </div>
-    <div class="solution">
-        <p>Given:</p>
-        <ul>
-            <li><strong>N</strong> = 10 turns</li>
-            <li><strong>A</strong> = 50 cm² = 5 × 10<sup>-3</sup> m²</li>
-            <li><strong>B</strong> = 2 × 10<sup>-3</sup> T</li>
-            <li><strong>t</strong> = 10 s</li>
-        </ul>
-        <p>The change in flux, <i>Φ</i>, is given by:</p>
-        <p><i>ΔΦ = N(BA<sub>final</sub> - BA<sub>initial</sub>) / t</i></p>
-        <p>Substitute the values:</p>
-        <p><strong>ΔΦ = 10 × (2 × 10<sup>-3</sup> T × 5 × 10<sup>-3</sup> m²) / 10 s = 1 × 10<sup>-4</sup> Wb</strong></p>
-        <p>Thus, the induced EMF, <i>E</i>, is given by:</p>
-        <p><strong>E = -ΔΦ / Δt = -1 × 10<sup>-4</sup> V</strong></p>
-    </div>
-
-    <h1>Motors and Generators</h1>
-    <p>Motors and generators are devices that convert energy from one form to another. Motors convert electrical energy into mechanical energy, while generators convert mechanical energy into electrical energy.</p>
-
-    <h2>Principle of Operation</h2>
-    <p>When a coil consisting of two slip rings is placed in contact with two carbon brushes and rotated continuously between the poles of a permanent magnet, an alternating current is induced in the circuit. The current flows through one brush during the first half of the rotation and through the other brush during the second half.</p>
-
-    <h3>Differences Between Motors and Generators</h3>
+    <h2>Self-Inductance and Mutual Inductance</h2>
+    <p>Self-inductance (L) is the property of a coil by which it induces an EMF in itself when the current through it changes. The self-inductance is given by:</p>
+    <p class="formula">EMF = -L × <fraction><num>dI</num><den>dt</den></fraction></p>
+    <p>Where:</p>
     <ul>
-        <li>Motors use electricity, while generators produce electricity.</li>
-        <li>Motors convert electrical energy to mechanical energy, while generators convert mechanical energy to electrical energy.</li>
-        <li>In motors, current is supplied to the armature windings, while in generators, current is produced in the armature windings.</li>
-        <li>Examples: Electric cars, bikes, blending machines, and small machines use motors; power plants use generators.</li>
+        <li><strong>L</strong> is the self-inductance of the coil.</li>
+        <li><strong>dI</strong> is the change in current.</li>
+        <li><strong>dt</strong> is the change in time.</li>
+    </ul>
+    <p>Mutual inductance (M) is the property of two coils where a change in current in one coil induces an EMF in the second coil. The mutual inductance is given by:</p>
+    <p class="formula">EMF<sub>2</sub> = -M × <fraction><num>dI<sub>1</sub></num><den>dt</den></fraction></p>
+    <p>Where:</p>
+    <ul>
+        <li><strong>EMF<sub>2</sub></strong> is the induced EMF in the second coil.</li>
+        <li><strong>I<sub>1</sub></strong> is the current in the first coil.</li>
+        <li><strong>M</strong> is the mutual inductance.</li>
     </ul>
 
-    <h1>Transformers</h1>
-    <p>Transformers are devices that change alternating voltage from low to high values or vice versa.</p>
+    <h2>Examples</h2>
 
-    <h2>Construction and Operation</h2>
-    <p>A transformer consists of a primary coil to which voltage <i>V<sub>P</sub></i> is connected and a secondary coil from which a new voltage <i>V<sub>S</sub></i> is obtained. Both coils are wound on a laminated iron core. In an ideal transformer, there is no flux leakage, and if there is no loss of energy, the power input to the transformer equals the power output:</p>
-    <p><strong>V<sub>P</sub>I<sub>P</sub> = V<sub>S</sub>I<sub>S</sub></strong></p>
-    <p>However, in a practical transformer, energy loss occurs due to various factors such as resistance and flux leakage. The potential difference per turn is the same on both windings, and the ratio of turns in the windings determines the voltage ratio across them. In an ideal transformer, the primary resistance is zero, leading to 100% efficiency.</p>
-
-    <h3>Example 1</h3>
+    <!-- Example 1 -->
     <div class="example">
-        <p>A transformer has 500 turns on the primary coil and 300 turns on the secondary coil. If the primary coil is connected to a 220 V mains, what voltage will be obtained from the secondary coil?</p>
-    </div>
-    <div class="solution">
-        <p>Given:</p>
-        <ul>
-            <li><strong>N<sub>P</sub></strong> = 500 turns</li>
-            <li><strong>N<sub>S</sub></strong> = 300 turns</li>
-            <li><strong>V<sub>P</sub></strong> = 220 V</li>
-        </ul>
-        <p>The voltage in the secondary coil <strong>V<sub>S</sub></strong> is given by:</p>
-        <p><strong>V<sub>S</sub> = (N<sub>S</sub> / N<sub>P</sub>) × V<sub>P</sub> = (300 / 500) × 220 = 132 V</strong></p>
+        <h3>Example 1</h3>
+        <p><strong>Find the EMF induced in a coil if the magnetic flux through it changes from <num>2 × 10<sup>-3</sup></num> Wb to <num>8 × 10<sup>-3</sup></num> Wb in 0.5 seconds.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>The change in magnetic flux, <strong>dΦ = </strong><fraction><num>8 × 10<sup>-3</sup> - 2 × 10<sup>-3</sup></num><den>1</den></fraction> = <num>6 × 10<sup>-3</sup></num> Wb.</p>
+        <p>Using Faraday's Law:</p>
+        <p><strong>EMF = -</strong><fraction><num>dΦ</num><den>dt</den></fraction> = -<fraction><num>6 × 10<sup>-3</sup></num><den>0.5</den></fraction> = -<num>1.2 × 10<sup>-2</sup></num> V.</p>
     </div>
 
-    <h3>Example 2</h3>
+    <!-- Example 2 -->
     <div class="example">
-        <p>Find the turns ratio in a transformer that delivers 120 V in the secondary coil from a primary voltage of 60 V.</p>
-    </div>
-    <div class="solution">
-        <p>Given:</p>
-        <ul>
-            <li><strong>V<sub>P</sub></strong> = 60 V</li>
-            <li><strong>V<sub>S</sub></strong> = 120 V</li>
-        </ul>
-        <p>The turns ratio is given by:</p>
-        <p><strong>N<sub>S</sub> / N<sub>P</sub> = V<sub>S</sub> / V<sub>P</sub> = 120 / 60 = 2</strong></p>
+        <h3>Example 2</h3>
+        <p><strong>A coil with 200 turns and an inductance of <num>3 × 10<sup>-3</sup></num> H has a current changing at a rate of <num>4 × 10<sup>2</sup></num> A/s. Find the induced EMF.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>The EMF induced due to self-inductance is given by:</p>
+        <p><strong>EMF = -L × <fraction><num>dI</num><den>dt</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>EMF = -3 × 10<sup>-3</sup> × <fraction><num>4 × 10<sup>2</sup></num><den>1</den></fraction> = -1.2 V</strong></p>
     </div>
 
-    <h3>Practice Questions</h3>
-    <ul>
-        <li>The property of a coil by which a counter EMF is induced when a current through the coil changes is known as:
-            <ul>
-                <li>Self inductance</li>
-                <li>Mutual inductance</li>
-                <li>Capacitance</li>
-                <li>Flux</li>
-            </ul>
-        </li>
-        <li>The inductance of a coil will increase under all of the following conditions except:
-            <ul>
-                <li>Increase the number of turns of the coil</li>
-                <li>Increase the core permeability</li>
-                <li>Increase the area per turn</li>
-                <li>Increase the length for the same number of turns</li>
-            </ul>
-        </li>
-        <li>If the current in a conductor increases, the induced voltage will:
-            <ul>
-                <li>According to Lenz's law, oppose the increasing current</li>
-                <li>Tend to decrease the amount of current</li>
-                <li>Produce a current opposite to the increasing current</li>
-                <li>Aid the increasing voltage</li>
-            </ul>
-        </li>
-    </ul>
-  
+    <!-- Example 3 -->
+    <div class="example">
+        <h3>Example 3</h3>
+        <p><strong>Calculate the mutual inductance between two coils if a current of <num>5</num> A in the first coil induces an EMF of <num>0.04</num> V in the second coil with a rate of current change of <num>2</num> A/s.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>Using the formula for mutual inductance:</p>
+        <p><strong>EMF<sub>2</sub> = -M × <fraction><num>dI<sub>1</sub></num><den>dt</den></fraction></strong></p>
+        <p>Rearranging for M:</p>
+        <p><strong>M = -<fraction><num>EMF<sub>2</sub></num><den>dI<sub>1</sub>/dt</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>M = -<fraction><num>0.04</num><den>2</den></fraction> = 0.02 H</strong></p>
+    </div>
+
+    <!-- Example 4 -->
+    <div class="example">
+        <h3>Example 4</h3>
+        <p><strong>If a coil with an area of <num>0.1</num> m² is placed in a magnetic field of <num>0.5</num> T and the field is perpendicular to the coil, calculate the magnetic flux.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic flux is given by:</p>
+        <p><strong>Φ = B × A × cos(θ)</strong></p>
+        <p>Since θ = 0° (field is perpendicular):</p>
+        <p><strong>Φ = B × A</strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>Φ = 0.5 × 0.1 = 0.05 Wb</strong></p>
+    </div>
+
+    <!-- Example 5 -->
+    <div class="example">
+        <h3>Example 5</h3>
+        <p><strong>A coil with a self-inductance of <num>2 × 10<sup>-2</sup></num> H has a current of <num>0.5</num> A changing at a rate of <num>1</num> A/s. Find the induced EMF.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>The EMF is given by:</p>
+        <p><strong>EMF = -L × <fraction><num>dI</num><den>dt</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>EMF = -2 × 10<sup>-2</sup> × 1 = -0.02 V</strong></p>
+    </div>
+
+    <!-- Example 6 -->
+    <div class="example">
+        <h3>Example 6</h3>
+        <p><strong>Determine the induced EMF in a coil of 100 turns if the magnetic flux through the coil changes from <num>0.02</num> Wb to <num>0.05</num> Wb in <num>0.1</num> seconds.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>Change in magnetic flux:</p>
+        <p><strong>dΦ = 0.05 - 0.02 = 0.03 Wb</strong></p>
+        <p>Using Faraday's Law for EMF:</p>
+        <p><strong>EMF = -N × <fraction><num>dΦ</num><den>dt</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>EMF = -100 × <fraction><num>0.03</num><den>0.1</den></fraction> = -30 V</strong></p>
+    </div>
+
+    <!-- Example 7 -->
+    <div class="example">
+        <h3>Example 7</h3>
+        <p><strong>Calculate the rate at which the magnetic flux must change to induce an EMF of <num>0.02</num> V in a coil with an area of <num>0.05</num> m² and a magnetic field of <num>0.4</num> T.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>The magnetic flux is:</p>
+        <p><strong>Φ = B × A = 0.4 × 0.05 = 0.02 Wb</strong></p>
+        <p>Rate of change of magnetic flux:</p>
+        <p><strong>EMF = -<fraction><num>dΦ</num><den>dt</den></fraction></strong></p>
+        <p>Rearranging:</p>
+        <p><strong>dΦ/dt = -EMF = -0.02 V</strong></p>
+    </div>
+
+    <!-- Example 8 -->
+    <div class="example">
+        <h3>Example 8</h3>
+        <p><strong>A transformer has 500 turns on the primary coil and 200 turns on the secondary coil. If the primary voltage is <num>240</num> V, find the secondary voltage when the primary current is <num>0.5</num> A and the secondary current is <num>1.2</num> A.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>The voltage ratio in a transformer is given by:</p>
+        <p><strong><fraction><num>V<sub>p</sub></num><den>V<sub>s</sub></den></fraction> = <fraction><num>N<sub>p</sub></num><den>N<sub>s</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong><fraction><num>240</num><den>V<sub>s</sub></den></fraction> = <fraction><num>500</num><den>200</den></fraction></strong></p>
+        <p>Solving for <num>V<sub>s</sub></num>:</p>
+        <p><strong>V<sub>s</sub> = <fraction>240 × 200</fraction> / 500 = 96 V</strong></p>
+    </div>
+
+    <!-- Example 9 -->
+    <div class="example">
+        <h3>Example 9</h3>
+        <p><strong>Find the self-inductance of a coil if the induced EMF is <num>0.05</num> V when the current changes by <num>2</num> A in <num>0.1</num> seconds.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>Using the formula:</p>
+        <p><strong>EMF = -L × <fraction><num>dI</num><den>dt</den></fraction></strong></p>
+        <p>Rearranging for L:</p>
+        <p><strong>L = -<fraction><num>EMF</num><den>dI/dt</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>L = -<fraction><num>0.05</num><den>2 / 0.1</den></fraction> = 0.025 H</strong></p>
+    </div>
+
+    <!-- Example 10 -->
+    <div class="example">
+        <h3>Example 10</h3>
+        <p><strong>Determine the voltage induced in a coil with 250 turns if the magnetic flux changes at a rate of <num>5 × 10<sup>-2</sup></num> Wb/s.</strong></p>
+        <p><strong>Solution:</strong></p>
+        <p>Using Faraday's Law:</p>
+        <p><strong>EMF = -N × <fraction><num>dΦ</num><den>dt</den></fraction></strong></p>
+        <p>Substituting the values:</p>
+        <p><strong>EMF = -250 × 5 × 10<sup>-2</sup> = -12.5 V</strong></p>
+    </div>
+
 
 
                   `,   
 
-                quanta: `
+
+                stactic: `
+
+                  <h1>Electrostatics</h1>
+
+    <!-- Section 1: Coulomb's Law -->
+    <div class="section">
+        <h2>Coulomb's Law</h2>
+        <p>Coulomb's Law describes the force between two point charges. It is given by:</p>
+        <div class="equation">
+            <strong>F = </strong> <fraction><num>kQ<sub>1</sub>Q<sub>2</sub></num><den>r<sup>2</sup></den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>F</strong> is the magnitude of the electrostatic force between the charges.</li>
+            <li><strong>k</strong> is Coulomb's constant, <num>8.99 × 10<sup>9</sup></num> N·m<sup>2</sup>/C<sup>2</sup>.</li>
+            <li><strong>Q<sub>1</sub></strong> and <strong>Q<sub>2</sub></strong> are the magnitudes of the charges.</li>
+            <li><strong>r</strong> is the distance between the charges.</li>
+        </ul>
+    </div>
+
+    <!-- Section 2: Electric Field -->
+    <div class="section">
+        <h2>Electric Field</h2>
+        <p>The electric field <strong>E</strong> due to a point charge is defined as:</p>
+        <div class="equation">
+            <strong>E = </strong> <fraction><num>kQ</num><den>r<sup>2</sup></den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> is the point charge.</li>
+            <li><strong>r</strong> is the distance from the point charge where the field is being measured.</li>
+        </ul>
+        <p>The direction of the electric field is radially outward from a positive charge and inward toward a negative charge.</p>
+    </div>
+
+    <!-- Section 3: Electric Potential -->
+    <div class="section">
+        <h2>Electric Potential</h2>
+        <p>The electric potential <strong>V</strong> at a distance <strong>r</strong> from a point charge is given by:</p>
+        <div class="equation">
+            <strong>V = </strong> <fraction><num>kQ</num><den>r</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> is the charge creating the potential.</li>
+            <li><strong>r</strong> is the distance from the charge.</li>
+        </ul>
+        <p>Electric potential is a scalar quantity and represents the work done to bring a unit positive charge from infinity to a point in the field.</p>
+    </div>
+
+    <!-- Section 4: Capacitance -->
+    <div class="section">
+        <h2>Capacitance</h2>
+        <p>Capacitance <strong>C</strong> of a capacitor is defined as:</p>
+        <div class="equation">
+            <strong>C = </strong> <fraction><num>Q</num><den>V</den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Q</strong> is the charge stored on the capacitor.</li>
+            <li><strong>V</strong> is the potential difference across the capacitor.</li>
+        </ul>
+        <p>The unit of capacitance is the Farad (F).</p>
+    </div>
+
+    <!-- Section 5: Capacitors in Series and Parallel -->
+    <div class="section">
+        <h2>Capacitors in Series and Parallel</h2>
+        <h3>Series Combination</h3>
+        <p>The total capacitance <strong>C<sub>total</sub></strong> of capacitors in series is given by:</p>
+        <div class="equation">
+            <strong>1/C<sub>total</sub> = </strong> <fraction><num>1</num><den>C<sub>1</sub> + C<sub>2</sub> + ... + C<sub>n</sub></den></fraction>
+        </div>
+        
+        <h3>Parallel Combination</h3>
+        <p>The total capacitance <strong>C<sub>total</sub></strong> of capacitors in parallel is given by:</p>
+        <div class="equation">
+            <strong>C<sub>total</sub> = </strong> <num>C<sub>1</sub> + C<sub>2</sub> + ... + C<sub>n</sub></num>
+        </div>
+    </div>
+
+    <!-- Section 6: Gauss's Law -->
+    <div class="section">
+        <h2>Gauss's Law</h2>
+        <p>Gauss's Law relates the electric flux through a closed surface to the charge enclosed by that surface:</p>
+        <div class="equation">
+            <strong>Φ = ∮ <strong>E · dA</strong> = </strong> <fraction><num>Q<sub>enc</sub></num><den>ε<sub>0</sub></den></fraction>
+        </div>
+        <p>where:</p>
+        <ul>
+            <li><strong>Φ</strong> is the electric flux through the surface.</li>
+            <li><strong>Q<sub>enc</sub></strong> is the charge enclosed by the surface.</li>
+            <li><strong>ε<sub>0</sub></strong> is the permittivity of free space, <num>8.85 × 10<sup>-12</sup></num> C<sup>2</sup>/(N·m<sup>2</sup>).</li>
+        </ul>
+    </div>
+
+     <h1>Electrostatics Questions</h1>
+
+    <!-- Question 1 -->
+    <div class="question">
+        <p><strong>1. What is the force between two charges of 3 μC and 4 μC separated by a distance of 5 m? (Use Coulomb's constant <num>8.99 × 10<sup>9</sup></num> N·m<sup>2</sup>/C<sup>2</sup>)</strong></p>
+        <div class="options">
+            <p>A. <num>0.431</num> N</p>
+            <p>B. <num>0.431 × 10<sup>-6</sup></num> N</p>
+            <p>C. <num>1.075</num> N</p>
+            <p>D. <num>0.36</num> N</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using Coulomb's Law: <strong>F = </strong><fraction><num>kQ<sub>1</sub>Q<sub>2</sub></num><den>r<sup>2</sup></den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>k</strong> = <num>8.99 × 10<sup>9</sup></num> N·m<sup>2</sup>/C<sup>2</sup></li>
+                <li><strong>Q<sub>1</sub></strong> = <num>3 × 10<sup>-6</sup></num> C</li>
+                <li><strong>Q<sub>2</sub></strong> = <num>4 × 10<sup>-6</sup></num> C</li>
+                <li><strong>r</strong> = 5 m</li>
+            </ul>
+            <p>So, <strong>F = </strong><fraction><num>(8.99 × 10<sup>9</sup>) × (3 × 10<sup>-6</sup>) × (4 × 10<sup>-6</sup>)</num><den>5<sup>2</sup></den></fraction> = <num>0.431</num> N</p>
+        </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+        <p><strong>2. What is the electric field at a distance of 3 m from a charge of 6 μC? (Use Coulomb's constant <num>8.99 × 10<sup>9</sup></num> N·m<sup>2</sup>/C<sup>2</sup>)</strong></p>
+        <div class="options">
+            <p>A. <num>6.0 × 10<sup>3</sup></num> N/C</p>
+            <p>B. <num>8.99 × 10<sup>9</sup></num> N/C</p>
+            <p>C. <num>1.8 × 10<sup>3</sup></num> N/C</p>
+            <p>D. <num>2.0 × 10<sup>3</sup></num> N/C</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for electric field: <strong>E = </strong><fraction><num>kQ</num><den>r<sup>2</sup></den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>k</strong> = <num>8.99 × 10<sup>9</sup></num> N·m<sup>2</sup>/C<sup>2</sup></li>
+                <li><strong>Q</strong> = <num>6 × 10<sup>-6</sup></num> C</li>
+                <li><strong>r</strong> = 3 m</li>
+            </ul>
+            <p>So, <strong>E = </strong><fraction><num>(8.99 × 10<sup>9</sup>) × (6 × 10<sup>-6</sup>)</num><den>3<sup>2</sup></den></fraction> = <num>1.8 × 10<sup>3</sup></num> N/C</p>
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+        <p><strong>3. What is the electric potential at a point 4 m away from a charge of 5 μC?</strong></p>
+        <div class="options">
+            <p>A. <num>1.125 × 10<sup>4</sup></num> V</p>
+            <p>B. <num>2.25 × 10<sup>4</sup></num> V</p>
+            <p>C. <num>8.99 × 10<sup>9</sup></num> V</p>
+            <p>D. <num>1.125 × 10<sup>5</sup></num> V</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for electric potential: <strong>V = </strong><fraction><num>kQ</num><den>r</den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>k</strong> = <num>8.99 × 10<sup>9</sup></num> N·m<sup>2</sup>/C<sup>2</sup></li>
+                <li><strong>Q</strong> = <num>5 × 10<sup>-6</sup></num> C</li>
+                <li><strong>r</strong> = 4 m</li>
+            </ul>
+            <p>So, <strong>V = </strong><fraction><num>(8.99 × 10<sup>9</sup>) × (5 × 10<sup>-6</sup>)</num><den>4</den></fraction> = <num>1.125 × 10<sup>4</sup></num> V</p>
+        </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+        <p><strong>4. A capacitor has a charge of 8 μC and a potential difference of 2 V. What is its capacitance?</strong></p>
+        <div class="options">
+            <p>A. <num>4 × 10<sup>-6</sup></num> F</p>
+            <p>B. <num>4 × 10<sup>-3</sup></num> F</p>
+            <p>C. <num>2 × 10<sup>-3</sup></num> F</p>
+            <p>D. <num>1 × 10<sup>-4</sup></num> F</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for capacitance: <strong>C = </strong><fraction><num>Q</num><den>V</den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>Q</strong> = <num>8 × 10<sup>-6</sup></num> C</li>
+                <li><strong>V</strong> = 2 V</li>
+            </ul>
+            <p>So, <strong>C = </strong><fraction><num>8 × 10<sup>-6</sup></num><den>2</den></fraction> = <num>4 × 10<sup>-6</sup></num> F</p>
+        </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+        <p><strong>5. Two capacitors of 6 μF and 4 μF are connected in series. What is their equivalent capacitance?</strong></p>
+        <div class="options">
+            <p>A. <num>2.4</num> μF</p>
+            <p>B. <num>1.5</num> μF</p>
+            <p>C. <num>3.2</num> μF</p>
+            <p>D. <num>10</num> μF</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for capacitors in series: <strong>1/C<sub>total</sub> = </strong><fraction><num>1</num><den>C<sub>1</sub> + C<sub>2</sub></den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>C<sub>1</sub></strong> = 6 μF</li>
+                <li><strong>C<sub>2</sub></strong> = 4 μF</li>
+            </ul>
+            <p>So, <strong>1/C<sub>total</sub> = </strong><fraction><num>1</num><den>6 + 4</den></fraction> = <num>0.4</num> μF<sup>-1</sup></p>
+            <p>Thus, <strong>C<sub>total</sub> = </strong><num>2.4</num> μF</p>
+        </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question">
+        <p><strong>6. What is the electric flux through a surface of area 0.5 m² placed perpendicular to an electric field of <num>3 × 10<sup>5</sup></num> N/C?</strong></p>
+        <div class="options">
+            <p>A. <num>1.5 × 10<sup>5</sup></num> Nm<sup>2</sup>/C</p>
+            <p>B. <num>1.5 × 10<sup>4</sup></num> Nm<sup>2</sup>/C</p>
+            <p>C. <num>3 × 10<sup>4</sup></num> Nm<sup>2</sup>/C</p>
+            <p>D. <num>1.5 × 10<sup>3</sup></num> Nm<sup>2</sup>/C</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for electric flux: <strong>Φ = </strong><fraction><num>E × A</num><den>1</den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>E</strong> = <num>3 × 10<sup>5</sup></num> N/C</li>
+                <li><strong>A</strong> = 0.5 m²</li>
+            </ul>
+            <p>So, <strong>Φ = </strong><fraction><num>(3 × 10<sup>5</sup>) × 0.5</num><den>1</den></fraction> = <num>1.5 × 10<sup>5</sup></num> Nm<sup>2</sup>/C</p>
+        </div>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question">
+        <p><strong>7. A charge of 12 μC is placed at the center of a spherical surface of radius 3 m. What is the electric flux through the surface?</strong></p>
+        <div class="options">
+            <p>A. <num>1.36 × 10<sup>6</sup></num> Nm<sup>2</sup>/C</p>
+            <p>B. <num>1.08 × 10<sup>6</sup></num> Nm<sup>2</sup>/C</p>
+            <p>C. <num>1.36 × 10<sup>5</sup></num> Nm<sup>2</sup>/C</p>
+            <p>D. <num>1.08 × 10<sup>5</sup></num> Nm<sup>2</sup>/C</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using Gauss's Law: <strong>Φ = </strong><fraction><num>Q<sub>enc</sub></num><den>ε<sub>0</sub></den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>Q<sub>enc</sub></strong> = <num>12 × 10<sup>-6</sup></num> C</li>
+                <li><strong>ε<sub>0</sub></strong> = <num>8.85 × 10<sup>-12</sup></num> C<sup>2</sup>/(N·m<sup>2</sup>)</li>
+            </ul>
+            <p>So, <strong>Φ = </strong><fraction><num>12 × 10<sup>-6</sup></num><den>8.85 × 10<sup>-12</sup></den></fraction> = <num>1.36 × 10<sup>6</sup></num> Nm<sup>2</sup>/C</p>
+        </div>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question">
+        <p><strong>8. If the potential difference across a capacitor is doubled, what happens to its stored energy?</strong></p>
+        <div class="options">
+            <p>A. It doubles</p>
+            <p>B. It quadruples</p>
+            <p>C. It remains the same</p>
+            <p>D. It halves</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>The energy stored in a capacitor is given by: <strong>U = </strong><fraction><num>1/2 CV<sup>2</sup></num><den>1</den></fraction></p>
+            <p>If the potential difference <strong>V</strong> is doubled, then the new energy <strong>U<sub>new</sub></strong> is:</p>
+            <p><strong>U<sub>new</sub> = </strong><fraction><num>1/2 C (2V)<sup>2</sup></num><den>1</den></fraction> = <num>4 ×</num> <fraction><num>1/2 CV<sup>2</sup></num><den>1</den></fraction> = 4U</p>
+            <p>Thus, the stored energy quadruples.</p>
+        </div>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question">
+        <p><strong>9. What is the potential difference across a capacitor if it stores an energy of <num>8 × 10<sup>-5</sup></num> J and has a capacitance of <num>2 × 10<sup>-5</sup></num> F?</strong></p>
+        <div class="options">
+            <p>A. <num>10</num> V</p>
+            <p>B. <num>20</num> V</p>
+            <p>C. <num>40</num> V</p>
+            <p>D. <num>80</num> V</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for energy stored in a capacitor: <strong>U = </strong><fraction><num>1/2 CV<sup>2</sup></num><den>1</den></fraction></p>
+            <p>Rearrange to find <strong>V</strong>: <strong>V = </strong><fraction><num>2U</num><den>CV<sup>2</sup></den></fraction></p>
+            <p>Substitute values:</p>
+            <ul>
+                <li><strong>U</strong> = <num>8 × 10<sup>-5</sup></num> J</li>
+                <li><strong>C</strong> = <num>2 × 10<sup>-5</sup></num> F</li>
+            </ul>
+            <p>So, <strong>V = </strong><fraction><num>2 × (8 × 10<sup>-5</sup>)</num><den>(2 × 10<sup>-5</sup>)</den></fraction> = <num>20</num> V</p>
+        </div>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question">
+        <p><strong>10. Calculate the capacitance of a capacitor if the charge stored is <num>4 × 10<sup>-6</sup></num> C and the potential difference is 10 V.</strong></p>
+        <div class="options">
+            <p>A. <num>4 × 10<sup>-7</sup></num> F</p>
+            <p>B. <num>4 × 10<sup>-5</sup></num> F</p>
+            <p>C. <num>2 × 10<sup>-6</sup></num> F</p>
+            <p>D. <num>4 × 10<sup>-6</sup></num> F</p>
+        </div>
+        <div class="solution">
+            <p><strong>Solution:</strong></p>
+            <p>Using the formula for capacitance: <strong>C = </strong><fraction><num>Q</num><den>V</den></fraction></p>
+            <p>Where:</p>
+            <ul>
+                <li><strong>Q</strong> = <num>4 × 10<sup>-6</sup></num> C</li>
+                <li><strong>V</strong> = 10 V</li>
+            </ul>
+            <p>So, <strong>C = </strong><fraction><num>4 × 10<sup>-6</sup></num><den>10</den></fraction> = <num>4 × 10<sup>-7</sup></num> F</p>
+        </div>
+    </div>
+
+
+
+                   
+                    `, 
+
+                electro: `
                     
                     <h1>Energy Quantization and Wave-Particle Paradox</h1>
     

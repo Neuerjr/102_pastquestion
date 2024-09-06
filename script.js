@@ -63,7 +63,7 @@ const topics = {
       { value: 'field', text: 'Magnetic & Electric field' },
       { value: 'ei', text: 'Electromagnetic Induction ( CLASS NOTE)' },
       { value: 'ac', text: 'A.C Circuit' },
-      { value: 'quanta', text: 'Energy Quantazation' },
+      { value: 'electro', text: 'Electrostatics' },
   ],
   mth102: [
       { value: 'calculus', text: 'Calculus' },
@@ -6717,8 +6717,8 @@ const quizData = {
             answers: [
                 { text: "[He]2s2 2p6", correct: false },
                 { text: "[Rn]2s2 3p6", correct: false },
-                { text: "[Ar]3s2 3p6", correct: true },
-                { text: "[Ne]3s2 3p6", correct: false }
+                { text: "[Ar]3s2 3p6", correct: false },
+                { text: "[Ne]3s2 3p6", correct: true }
             ],
             explanation: "The electronic configuration of Argon is [Ar]3s2 3p6."
         },
@@ -8471,16 +8471,6 @@ const quizData = {
             { text: "Grignard reagent", correct: false }
           ],
           explanation: "Tollen’s reagent (ammoniacal silver nitrate) reacts readily with both aldehydes and ketones."
-        },
-        {
-          question: "Empirical formula 𝐶𝐻2𝑂 with molar mass 90. Calculate the molecular formula",
-          answers: [
-            { text: "𝐶3𝐻4𝑂6", correct: false },
-            { text: "𝐶3𝐻2𝑂3", correct: true },
-            { text: "𝐶3𝐻6𝑂2", correct: false },
-            { text: "𝐶2𝐻3𝑂4", correct: false }
-          ],
-          explanation: "The molecular formula corresponding to 𝐶𝐻2𝑂 with a molar mass of 90 is 𝐶3𝐻2𝑂3."
         },
         {
           question: "Which type of reaction exist between 𝐶𝐻2 + 𝐻𝐵𝑟?",
@@ -11416,6 +11406,2686 @@ const quizData = {
           ],
           explanation: "The reaction of acetone with HCN to form a cyanohydrin involves nucleophilic addition."
         },
+        {
+          question: "The third most electronegative element after fluorine is ______.",
+          answers: [
+              { text: "Chloride", correct: false },
+              { text: "Bromide", correct: false },
+              { text: "Oxygen", correct: true },
+              { text: "Astatine", correct: false }
+          ],
+          explanation: "Oxygen is the third most electronegative element after fluorine and chlorine."
+      },
+      {
+          question: "Bromination of ethene is done in the presence of ______.",
+          answers: [
+              { text: "AlCl3", correct: false },
+              { text: "CCl4", correct: true },
+              { text: "AlBr", correct: false },
+              { text: "HBr", correct: false }
+          ],
+          explanation: "Bromination of ethene is carried out in the presence of CCl4."
+      },
+      {
+          question: "Two nitrogen atoms form a stable configuration by sharing ______ pair of electrons.",
+          answers: [
+              { text: "1", correct: false },
+              { text: "2", correct: false },
+              { text: "3", correct: true },
+              { text: "4", correct: false }
+          ],
+          explanation: "Nitrogen forms a triple bond by sharing three pairs of electrons."
+      },
+      {
+          question: "The IUPAC name of the compound CH3CH2CH=CHC≡CCH3 is:",
+          answers: [
+              { text: "Hept-3-en-5-yne", correct: true },
+              { text: "Hept-4-en-2-yne", correct: false },
+              { text: "Hept-3-en-4-yne", correct: false },
+              { text: "Hept-2-en-5-yne", correct: false }
+          ],
+          explanation: "The correct IUPAC name for this compound is Hept-3-en-5-yne."
+      },
+      {
+          question: "How many carbon atoms are present in one molecule of 2-methylpentane?",
+          answers: [
+              { text: "6", correct: true },
+              { text: "5", correct: false },
+              { text: "4", correct: false },
+              { text: "3", correct: false }
+          ],
+          explanation: "2-methylpentane consists of 6 carbon atoms."
+      },
+      {
+          question: "Any species that contains an unpaired electron is called:",
+          answers: [
+              { text: "Ionic", correct: false },
+              { text: "Anion", correct: false },
+              { text: "Free radical", correct: true },
+              { text: "Cation", correct: false }
+          ],
+          explanation: "A free radical is a molecule or atom with an unpaired electron."
+      },
+      {
+          question: "Ethanol and dimethyl ether are best considered as ______.",
+          answers: [
+              { text: "Stereoisomers", correct: false },
+              { text: "Enantiomers", correct: false },
+              { text: "Structural isomers", correct: true },
+              { text: "Diastereomers", correct: false }
+          ],
+          explanation: "Ethanol and dimethyl ether are structural isomers, having the same molecular formula but different structures."
+      },
+      {
+          question: "The donor ligand that shares a single donor atom is called:",
+          answers: [
+              { text: "Bidentate", correct: false },
+              { text: "Monodentate", correct: true },
+              { text: "Multidentate", correct: false },
+              { text: "Tetradentate", correct: false }
+          ],
+          explanation: "Monodentate ligands share only one donor atom in coordination complexes."
+      },
+      {
+          question: "Nitrogen forms which type of bond?",
+          answers: [
+              { text: "Single bond", correct: false },
+              { text: "Double bond", correct: false },
+              { text: "Triple bond", correct: true },
+              { text: "Quadruple bond", correct: false }
+          ],
+          explanation: "Nitrogen commonly forms a triple bond in its stable molecular form (N2)."
+      },
+      {
+          question: "Sodium donates how many electrons?",
+          answers: [
+              { text: "4", correct: false },
+              { text: "1", correct: true },
+              { text: "2", correct: false },
+              { text: "3", correct: false }
+          ],
+          explanation: "Sodium (Na) donates one electron to achieve a stable electronic configuration."
+      },
+      {
+          question: "Which of the following reactions is not typical of alkenes?",
+          answers: [
+              { text: "Combustion", correct: false },
+              { text: "Hydrogenation", correct: false },
+              { text: "Substitution", correct: true },
+              { text: "Polymerization", correct: false }
+          ],
+          explanation: "Alkenes typically undergo addition reactions like hydrogenation and polymerization, but not substitution."
+      },
+      {
+          question: "The bond present in a Cl-Cl molecule is:",
+          answers: [
+              { text: "Dative covalent", correct: false },
+              { text: "Electrovalent", correct: false },
+              { text: "Covalent", correct: true },
+              { text: "Polar covalent", correct: false }
+          ],
+          explanation: "The bond between two chlorine atoms in Cl-Cl is a covalent bond, as both atoms share electrons equally."
+      },
+      {
+          question: "How many electron shells are present in calcium?",
+          answers: [
+              { text: "Two", correct: false },
+              { text: "Four", correct: true },
+              { text: "One", correct: false },
+              { text: "Three", correct: false }
+          ],
+          explanation: "Calcium (Ca) has four electron shells."
+      },
+      {
+          question: "Reaction between C2H2 and HBr is called:",
+          answers: [
+              { text: "Substitution", correct: false },
+              { text: "Oxidation", correct: false },
+              { text: "Addition", correct: true },
+              { text: "Polymerization", correct: false }
+          ],
+          explanation: "The reaction between acetylene (C2H2) and HBr is an addition reaction."
+      },
+      {
+          question: "Which compound has the highest boiling point?",
+          answers: [
+              { text: "Phenol", correct: true },
+              { text: "Ethanol", correct: false },
+              { text: "Methanol", correct: false },
+              { text: "Propanol", correct: false }
+          ],
+          explanation: "Phenol has a higher boiling point than ethanol, methanol, and propanol due to stronger hydrogen bonding."
+      },
+      {
+          question: "Which species has the greatest ionization energy?",
+          answers: [
+              { text: "Krypton", correct: true },
+              { text: "Xenon", correct: false },
+              { text: "Argon", correct: false },
+              { text: "Neon", correct: false }
+          ],
+          explanation: "Among the noble gases listed, krypton has the highest ionization energy."
+      },
+      {
+          question: "Isomerization of alkanes occurs in the presence of:",
+          answers: [
+              { text: "SO3", correct: false },
+              { text: "AlCl3", correct: true },
+              { text: "CCl4", correct: false },
+              { text: "HCl", correct: false }
+          ],
+          explanation: "Isomerization of alkanes typically occurs in the presence of AlCl3 at high temperatures."
+      },
+      {
+          question: "The combustion of pentene produces ______.",
+          answers: [
+              { text: "Carbon dioxide", correct: true },
+              { text: "Pentanol", correct: false },
+              { text: "Pentanal", correct: false },
+              { text: "Methane", correct: false }
+          ],
+          explanation: "Combustion of pentene results in carbon dioxide and water."
+      },
+      {
+          question: "Which of the following forces exist between noble gases and non-polar compounds?",
+          answers: [
+              { text: "Van der Waals forces", correct: true },
+              { text: "Hydrogen bonds", correct: false },
+              { text: "Covalent bonds", correct: false },
+              { text: "Electrostatic forces", correct: false }
+          ],
+          explanation: "Van der Waals forces are the weak intermolecular forces present between noble gases and non-polar compounds."
+      },
+      {
+          question: "The bond angle in CH4 is:",
+          answers: [
+              { text: "120°", correct: false },
+              { text: "109.5°", correct: true },
+              { text: "90°", correct: false },
+              { text: "180°", correct: false }
+          ],
+          explanation: "The tetrahedral geometry of methane (CH4) gives a bond angle of 109.5°."
+      },
+      {
+        question: "Which of the following is a halide?",
+        answers: [
+            { text: "NaCl", correct: true },
+            { text: "H2O", correct: false },
+            { text: "CO2", correct: false },
+            { text: "NH3", correct: false }
+        ],
+        explanation: "NaCl (sodium chloride) is a halide because it contains a halogen (chlorine) bonded to a metal (sodium)."
+    },
+    {
+        question: "Which of the following reactions is an example of oxidation?",
+        answers: [
+            { text: "The conversion of ethanol to ethanoic acid", correct: true },
+            { text: "The conversion of ethane to ethene", correct: false },
+            { text: "The conversion of alkene to alkane", correct: false },
+            { text: "The conversion of methane to methanol", correct: false }
+        ],
+        explanation: "The conversion of ethanol (CH3CH2OH) to ethanoic acid (CH3COOH) is an oxidation reaction because ethanol loses hydrogen and gains oxygen."
+    },
+    {
+        question: "Which of the following represents a functional group in organic chemistry?",
+        answers: [
+            { text: "–OH", correct: true },
+            { text: "–CH3", correct: false },
+            { text: "–C6H5", correct: false },
+            { text: "–COOCH3", correct: false }
+        ],
+        explanation: "The hydroxyl group (–OH) is a common functional group in organic chemistry found in alcohols."
+    },
+    {
+        question: "What is the hybridization of the carbon atom in ethyne (C2H2)?",
+        answers: [
+            { text: "sp", correct: true },
+            { text: "sp2", correct: false },
+            { text: "sp3", correct: false },
+            { text: "None", correct: false }
+        ],
+        explanation: "In ethyne (C2H2), the carbon atoms are sp-hybridized due to the formation of a triple bond between them."
+    },
+    {
+        question: "Which type of bond is formed when one atom donates both electrons in a shared pair?",
+        answers: [
+            { text: "Dative covalent bond", correct: true },
+            { text: "Ionic bond", correct: false },
+            { text: "Polar covalent bond", correct: false },
+            { text: "Non-polar covalent bond", correct: false }
+        ],
+        explanation: "A dative covalent bond, also called a coordinate bond, occurs when one atom donates both electrons for a shared pair in the bond."
+    },
+    {
+        question: "Which element is the most electronegative?",
+        answers: [
+            { text: "Fluorine", correct: true },
+            { text: "Chlorine", correct: false },
+            { text: "Oxygen", correct: false },
+            { text: "Nitrogen", correct: false }
+        ],
+        explanation: "Fluorine is the most electronegative element in the periodic table, meaning it has the strongest tendency to attract electrons in a bond."
+    },
+    {
+        question: "Which of the following compounds will exhibit hydrogen bonding?",
+        answers: [
+            { text: "NH3", correct: true },
+            { text: "CH4", correct: false },
+            { text: "CCl4", correct: false },
+            { text: "HCl", correct: false }
+        ],
+        explanation: "Ammonia (NH3) exhibits hydrogen bonding because of the highly electronegative nitrogen atom bonded to hydrogen."
+    },
+    {
+        question: "Which of the following is not an allotrope of carbon?",
+        answers: [
+            { text: "Diamond", correct: false },
+            { text: "Graphite", correct: false },
+            { text: "Fullerene", correct: false },
+            { text: "Carbon dioxide", correct: true }
+        ],
+        explanation: "Diamond, graphite, and fullerene are all allotropes of carbon, while carbon dioxide is a compound containing carbon."
+    },
+    {
+        question: "Which of the following is an example of a substitution reaction?",
+        answers: [
+            { text: "The reaction of methane with chlorine in the presence of UV light", correct: true },
+            { text: "The hydration of ethene to ethanol", correct: false },
+            { text: "The hydrogenation of ethene to ethane", correct: false },
+            { text: "The addition of HBr to ethene", correct: false }
+        ],
+        explanation: "The reaction of methane with chlorine in the presence of UV light is a substitution reaction where a hydrogen atom in methane is replaced by a chlorine atom."
+    },
+    {
+        question: "The process of removing water molecules from a compound is called:",
+        answers: [
+            { text: "Dehydration", correct: true },
+            { text: "Hydration", correct: false },
+            { text: "Hydrolysis", correct: false },
+            { text: "Condensation", correct: false }
+        ],
+        explanation: "Dehydration is the process of removing water from a compound, such as in the conversion of alcohols to alkenes."
+    },
+    {
+        question: "Which of the following compounds is an alcohol?",
+        answers: [
+            { text: "CH3OH", correct: true },
+            { text: "CH3COOH", correct: false },
+            { text: "C6H6", correct: false },
+            { text: "C2H2", correct: false }
+        ],
+        explanation: "Methanol (CH3OH) is an alcohol, as it contains the –OH functional group."
+    },
+    {
+        question: "Which of the following is a saturated hydrocarbon?",
+        answers: [
+            { text: "Ethane", correct: true },
+            { text: "Ethene", correct: false },
+            { text: "Ethyne", correct: false },
+            { text: "Benzene", correct: false }
+        ],
+        explanation: "Ethane (C2H6) is a saturated hydrocarbon because all of its carbon-carbon bonds are single bonds."
+    },
+    {
+        question: "The process of cracking involves:",
+        answers: [
+            { text: "Breaking down larger hydrocarbons into smaller ones", correct: true },
+            { text: "Adding hydrogen to unsaturated hydrocarbons", correct: false },
+            { text: "Combining smaller hydrocarbons to form larger ones", correct: false },
+            { text: "Oxidizing hydrocarbons", correct: false }
+        ],
+        explanation: "Cracking is the process of breaking down larger hydrocarbons into smaller, more useful ones, often using heat or catalysts."
+    },
+    {
+        question: "Which of the following metals is the most reactive?",
+        answers: [
+            { text: "Sodium", correct: true },
+            { text: "Copper", correct: false },
+            { text: "Gold", correct: false },
+            { text: "Silver", correct: false }
+        ],
+        explanation: "Sodium is a highly reactive alkali metal, reacting vigorously with water and air."
+    },
+    {
+        question: "Which of the following is the formula of an ester?",
+        answers: [
+            { text: "CH3COOCH3", correct: true },
+            { text: "CH3OH", correct: false },
+            { text: "CH3COOH", correct: false },
+            { text: "CH4", correct: false }
+        ],
+        explanation: "CH3COOCH3 is an ester, as it contains the functional group –COO–."
+    },
+    {
+        question: "Which of the following reactions produces an alkane?",
+        answers: [
+            { text: "Hydrogenation of an alkene", correct: true },
+            { text: "Oxidation of an alcohol", correct: false },
+            { text: "Hydration of an alkene", correct: false },
+            { text: "Cracking of an alkene", correct: false }
+        ],
+        explanation: "Hydrogenation of an alkene adds hydrogen atoms to the molecule, converting it into an alkane."
+    },
+    {
+        question: "Which of the following is used as a solvent in the extraction of essential oils?",
+        answers: [
+            { text: "Ether", correct: true },
+            { text: "Water", correct: false },
+            { text: "Sodium hydroxide", correct: false },
+            { text: "Hydrochloric acid", correct: false }
+        ],
+        explanation: "Ether is commonly used as a solvent in the extraction of essential oils due to its non-polar properties."
+    },
+    {
+        question: "Which of the following processes is involved in the polymerization of ethene?",
+        answers: [
+            { text: "Addition", correct: true },
+            { text: "Substitution", correct: false },
+            { text: "Hydration", correct: false },
+            { text: "Oxidation", correct: false }
+        ],
+        explanation: "The polymerization of ethene involves addition reactions where ethene monomers combine to form a polymer, such as polyethylene."
+    },
+    {
+        question: "Which compound is a reducing agent?",
+        answers: [
+            { text: "LiAlH4", correct: true },
+            { text: "H2O2", correct: false },
+            { text: "KMnO4", correct: false },
+            { text: "NaNO3", correct: false }
+        ],
+        explanation: "Lithium aluminum hydride (LiAlH4) is a strong reducing agent commonly used in organic chemistry to reduce carbonyl compounds."
+    },
+    {
+        question: "Which of the following compounds is a primary alcohol?",
+        answers: [
+            { text: "Ethanol", correct: true },
+            { text: "Propanone", correct: false },
+            { text: "Methanoic acid", correct: false },
+            { text: "Butane", correct: false }
+        ],
+        explanation: "Ethanol (C2H5OH) is a primary alcohol because the hydroxyl group is attached to a carbon atom that is bonded to only one other carbon atom."
+    },
+    {
+      question: "Which of the following is a halide?",
+      answers: [
+          { text: "NaCl", correct: true },
+          { text: "H2O", correct: false },
+          { text: "CO2", correct: false },
+          { text: "NH3", correct: false }
+      ],
+      explanation: "NaCl (sodium chloride) is a halide because it contains a halogen (chlorine) bonded to a metal (sodium)."
+  },
+  {
+      question: "Which of the following compounds shows isomerism?",
+      answers: [
+          { text: "2-pentene", correct: true },
+          { text: "Ethane", correct: false },
+          { text: "Methane", correct: false },
+          { text: "Propyne", correct: false }
+      ],
+      explanation: "2-pentene can show isomerism, specifically geometrical isomerism, due to the position of the double bond."
+  },
+  {
+      question: "Which of the following represents an ionic compound?",
+      answers: [
+          { text: "AlF3", correct: true },
+          { text: "CH4", correct: false },
+          { text: "Br2", correct: false },
+          { text: "CCl4", correct: false }
+      ],
+      explanation: "AlF3 is an ionic compound because aluminum and fluorine form ions that bond electrostatically."
+  },
+  {
+      question: "What is the molecular formula for 3-methylbutan-2-ol?",
+      answers: [
+          { text: "C5H12O", correct: true },
+          { text: "C5H10O", correct: false },
+          { text: "C4H10O", correct: false },
+          { text: "C6H12O", correct: false }
+      ],
+      explanation: "3-methylbutan-2-ol has five carbon atoms, twelve hydrogen atoms, and one oxygen atom, making its molecular formula C5H12O."
+  },
+  {
+      question: "Which of the following is a primary alcohol?",
+      answers: [
+          { text: "Ethanol", correct: true },
+          { text: "2-propanol", correct: false },
+          { text: "Tert-butanol", correct: false },
+          { text: "2-methylpropanol", correct: false }
+      ],
+      explanation: "Ethanol (C2H5OH) is a primary alcohol because the hydroxyl group is attached to a carbon atom that is bonded to only one other carbon atom."
+  },
+  {
+      question: "Which of the following represents an ester?",
+      answers: [
+          { text: "CH3COOCH3", correct: true },
+          { text: "CH3OH", correct: false },
+          { text: "CH3COOH", correct: false },
+          { text: "CH4", correct: false }
+      ],
+      explanation: "CH3COOCH3 is an ester, containing a carbonyl group bonded to an alkoxy group (–OR)."
+  },
+  {
+      question: "Which type of bond is present in nitrogen gas (N2)?",
+      answers: [
+          { text: "Triple bond", correct: true },
+          { text: "Double bond", correct: false },
+          { text: "Single bond", correct: false },
+          { text: "Ionic bond", correct: false }
+      ],
+      explanation: "In N2, the nitrogen atoms are held together by a triple bond."
+  },
+  {
+      question: "Which of the following compounds is an alkyne?",
+      answers: [
+          { text: "Ethyne", correct: true },
+          { text: "Ethene", correct: false },
+          { text: "Ethane", correct: false },
+          { text: "Propanol", correct: false }
+      ],
+      explanation: "Ethyne (C2H2) is an alkyne because it contains a carbon-carbon triple bond."
+  },
+  {
+      question: "The product of the reaction between a carboxylic acid and an alcohol is:",
+      answers: [
+          { text: "Ester", correct: true },
+          { text: "Ketone", correct: false },
+          { text: "Aldehyde", correct: false },
+          { text: "Ether", correct: false }
+      ],
+      explanation: "When a carboxylic acid reacts with an alcohol, the product is an ester, typically accompanied by the release of water."
+  },
+  {
+      question: "What is the IUPAC name for the compound CH3CH2CH2OH?",
+      answers: [
+          { text: "Propan-1-ol", correct: true },
+          { text: "Propan-2-ol", correct: false },
+          { text: "Butanol", correct: false },
+          { text: "Methanol", correct: false }
+      ],
+      explanation: "CH3CH2CH2OH is propan-1-ol, a primary alcohol with the hydroxyl group attached to the first carbon."
+  },
+  {
+      question: "Which of the following compounds will reduce Fehling’s solution?",
+      answers: [
+          { text: "CH3CHO", correct: true },
+          { text: "CH3COCH3", correct: false },
+          { text: "C6H6", correct: false },
+          { text: "C2H5OH", correct: false }
+      ],
+      explanation: "Aldehydes such as CH3CHO (acetaldehyde) reduce Fehling’s solution, forming a red precipitate of copper(I) oxide."
+  },
+  {
+      question: "What is the hybridization of carbon in ethene (C2H4)?",
+      answers: [
+          { text: "sp2", correct: true },
+          { text: "sp3", correct: false },
+          { text: "sp", correct: false },
+          { text: "None of the above", correct: false }
+      ],
+      explanation: "In ethene, each carbon atom forms three sigma bonds, which corresponds to sp2 hybridization."
+  },
+  {
+      question: "The reaction of an alkene with hydrogen in the presence of a catalyst is called:",
+      answers: [
+          { text: "Hydrogenation", correct: true },
+          { text: "Hydrolysis", correct: false },
+          { text: "Oxidation", correct: false },
+          { text: "Reduction", correct: false }
+      ],
+      explanation: "Hydrogenation is the process of adding hydrogen to an alkene to convert it into an alkane."
+  },
+  {
+      question: "Which of the following is an aromatic compound?",
+      answers: [
+          { text: "Benzene", correct: true },
+          { text: "Cyclohexane", correct: false },
+          { text: "Propane", correct: false },
+          { text: "Butane", correct: false }
+      ],
+      explanation: "Benzene is an aromatic compound with a planar ring structure and delocalized pi electrons."
+  },
+  {
+      question: "Which element has the highest electronegativity?",
+      answers: [
+          { text: "Fluorine", correct: true },
+          { text: "Oxygen", correct: false },
+          { text: "Chlorine", correct: false },
+          { text: "Nitrogen", correct: false }
+      ],
+      explanation: "Fluorine has the highest electronegativity among all elements, meaning it has the strongest ability to attract electrons in a bond."
+  },
+  {
+      question: "Which of the following describes an exothermic reaction?",
+      answers: [
+          { text: "A reaction that releases heat", correct: true },
+          { text: "A reaction that absorbs heat", correct: false },
+          { text: "A reaction that reaches thermal equilibrium", correct: false },
+          { text: "A reaction with no heat exchange", correct: false }
+      ],
+      explanation: "An exothermic reaction releases heat to its surroundings, typically resulting in a temperature increase."
+  },
+  {
+      question: "Which of the following is a characteristic of covalent bonding?",
+      answers: [
+          { text: "Sharing of electron pairs", correct: true },
+          { text: "Transfer of electrons", correct: false },
+          { text: "Formation of ions", correct: false },
+          { text: "Attraction between opposite charges", correct: false }
+      ],
+      explanation: "Covalent bonding occurs when two atoms share electron pairs to form a stable bond."
+  },
+  {
+      question: "The reaction between an alkene and bromine water results in:",
+      answers: [
+          { text: "A colorless solution", correct: true },
+          { text: "A red precipitate", correct: false },
+          { text: "A brown solution", correct: false },
+          { text: "A green gas", correct: false }
+      ],
+      explanation: "When bromine water reacts with an alkene, the solution becomes colorless as bromine adds across the double bond."
+  },
+  {
+      question: "Which of the following is an example of a non-polar molecule?",
+      answers: [
+          { text: "Methane", correct: true },
+          { text: "Water", correct: false },
+          { text: "Ammonia", correct: false },
+          { text: "Hydrogen chloride", correct: false }
+      ],
+      explanation: "Methane (CH4) is non-polar because its tetrahedral geometry results in a symmetrical distribution of charge."
+  },
+  {
+    question: "Which of the following is the correct name for CH3COCH3?",
+    answers: [
+        { text: "Propanone", correct: true },
+        { text: "Propanal", correct: false },
+        { text: "Butanone", correct: false },
+        { text: "Methanal", correct: false }
+    ],
+    explanation: "CH3COCH3 is propanone, also known as acetone."
+},
+{
+    question: "Which of the following elements commonly forms an ion with a 2+ charge?",
+    answers: [
+        { text: "Calcium", correct: true },
+        { text: "Potassium", correct: false },
+        { text: "Sodium", correct: false },
+        { text: "Chlorine", correct: false }
+    ],
+    explanation: "Calcium, an alkaline earth metal, commonly forms a 2+ ion (Ca²⁺) by losing two electrons."
+},
+{
+    question: "What is the major product of the combustion of butane?",
+    answers: [
+        { text: "Carbon dioxide and water", correct: true },
+        { text: "Carbon monoxide and water", correct: false },
+        { text: "Methane and oxygen", correct: false },
+        { text: "Ethanol and carbon dioxide", correct: false }
+    ],
+    explanation: "Complete combustion of butane (C4H10) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+    question: "What type of bond is formed between sodium and chlorine in NaCl?",
+    answers: [
+        { text: "Ionic bond", correct: true },
+        { text: "Covalent bond", correct: false },
+        { text: "Metallic bond", correct: false },
+        { text: "Hydrogen bond", correct: false }
+    ],
+    explanation: "An ionic bond is formed between sodium and chlorine in NaCl, where sodium donates an electron to chlorine."
+},
+{
+    question: "Which of the following compounds contains a carbonyl group?",
+    answers: [
+        { text: "Propanone", correct: true },
+        { text: "Ethanol", correct: false },
+        { text: "Methane", correct: false },
+        { text: "Ethane", correct: false }
+    ],
+    explanation: "Propanone (CH3COCH3) contains a carbonyl group (C=O)."
+},
+{
+    question: "Which of the following statements about alkanes is true?",
+    answers: [
+        { text: "They are saturated hydrocarbons", correct: true },
+        { text: "They contain a double bond", correct: false },
+        { text: "They are aromatic", correct: false },
+        { text: "They are unsaturated hydrocarbons", correct: false }
+    ],
+    explanation: "Alkanes are saturated hydrocarbons, meaning they contain only single bonds between carbon atoms."
+},
+{
+    question: "Which element is most commonly associated with organic chemistry?",
+    answers: [
+        { text: "Carbon", correct: true },
+        { text: "Nitrogen", correct: false },
+        { text: "Oxygen", correct: false },
+        { text: "Hydrogen", correct: false }
+    ],
+    explanation: "Carbon is the backbone of organic chemistry, as it can form stable bonds with many elements, including itself."
+},
+{
+    question: "Which of the following statements is true about a covalent bond?",
+    answers: [
+        { text: "It involves the sharing of electrons between atoms", correct: true },
+        { text: "It involves the transfer of electrons", correct: false },
+        { text: "It is formed between a metal and a non-metal", correct: false },
+        { text: "It is weaker than van der Waals forces", correct: false }
+    ],
+    explanation: "A covalent bond involves the sharing of electron pairs between atoms, typically non-metals."
+},
+{
+    question: "Which of the following molecules is linear?",
+    answers: [
+        { text: "Carbon dioxide", correct: true },
+        { text: "Methane", correct: false },
+        { text: "Ammonia", correct: false },
+        { text: "Water", correct: false }
+    ],
+    explanation: "Carbon dioxide (CO2) has a linear molecular geometry because it has two regions of electron density around the central carbon atom."
+},
+{
+  question: "Which of the following compounds contains an alcohol functional group?",
+  answers: [
+      { text: "Methanol", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Propanone", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Methanol (CH3OH) contains an alcohol functional group (-OH) attached to a carbon atom."
+},
+{
+  question: "Which of the following reactions involves the removal of water?",
+  answers: [
+      { text: "Dehydration", correct: true },
+      { text: "Hydration", correct: false },
+      { text: "Combustion", correct: false },
+      { text: "Reduction", correct: false }
+  ],
+  explanation: "Dehydration involves the removal of water, such as in the dehydration of alcohols to form alkenes."
+},
+{
+  question: "Which of the following is a non-polar molecule?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Water", correct: false },
+      { text: "Ammonia", correct: false },
+      { text: "Hydrochloric acid", correct: false }
+  ],
+  explanation: "Methane (CH4) is a non-polar molecule due to its symmetrical tetrahedral structure."
+},
+{
+  question: "What is the oxidation state of carbon in carbon dioxide (CO2)?",
+  answers: [
+      { text: "+4", correct: true },
+      { text: "0", correct: false },
+      { text: "-4", correct: false },
+      { text: "+2", correct: false }
+  ],
+  explanation: "In carbon dioxide (CO2), carbon has an oxidation state of +4, as it is bonded to two oxygen atoms, each with an oxidation state of -2."
+},
+{
+  question: "Which of the following compounds contains a triple bond?",
+  answers: [
+      { text: "Ethyne", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Propane", correct: false },
+      { text: "Methanol", correct: false }
+  ],
+  explanation: "Ethyne (C2H2) contains a carbon-carbon triple bond, which is characteristic of alkynes."
+},
+{
+  question: "The process of converting an alkene to an alkane by adding hydrogen is called:",
+  answers: [
+      { text: "Hydrogenation", correct: true },
+      { text: "Dehydration", correct: false },
+      { text: "Oxidation", correct: false },
+      { text: "Reduction", correct: false }
+  ],
+  explanation: "Hydrogenation is the process of adding hydrogen to an alkene, converting it into an alkane."
+},
+{
+  question: "Which of the following is the functional group of aldehydes?",
+  answers: [
+      { text: "-CHO", correct: true },
+      { text: "-COOH", correct: false },
+      { text: "-OH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "The -CHO group is characteristic of aldehydes, with the carbonyl group bonded to a hydrogen atom."
+},
+{
+  question: "Which of the following is a saturated hydrocarbon?",
+  answers: [
+      { text: "Ethane", correct: true },
+      { text: "Ethyne", correct: false },
+      { text: "Ethene", correct: false },
+      { text: "Benzene", correct: false }
+  ],
+  explanation: "Ethane (C2H6) is a saturated hydrocarbon, meaning it contains only single bonds between carbon atoms."
+},
+{
+  question: "Which of the following compounds contains a carbonyl group?",
+  answers: [
+      { text: "Propanone", correct: true },
+      { text: "Methanol", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Propanone (CH3COCH3) contains a carbonyl group (C=O), making it a member of the ketone family."
+},
+{
+  question: "Which of the following compounds is an example of an alkene?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Butanol", correct: false }
+  ],
+  explanation: "Ethene (C2H4) is an alkene, characterized by a carbon-carbon double bond."
+},
+{
+  question: "The type of reaction in which a single reactant breaks down into simpler products is called:",
+  answers: [
+      { text: "Decomposition", correct: true },
+      { text: "Synthesis", correct: false },
+      { text: "Substitution", correct: false },
+      { text: "Addition", correct: false }
+  ],
+  explanation: "A decomposition reaction occurs when a single compound breaks down into simpler compounds or elements."
+},
+{
+  question: "Which of the following compounds contains a benzene ring?",
+  answers: [
+      { text: "Toluene", correct: true },
+      { text: "Propane", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methanol", correct: false }
+  ],
+  explanation: "Toluene (C6H5CH3) contains a benzene ring attached to a methyl group."
+},
+{
+  question: "Which of the following describes a catalyst?",
+  answers: [
+      { text: "A substance that increases the rate of a reaction without being consumed", correct: true },
+      { text: "A substance that is consumed during the reaction", correct: false },
+      { text: "A substance that decreases the rate of a reaction", correct: false },
+      { text: "A reactant in a chemical reaction", correct: false }
+  ],
+  explanation: "A catalyst increases the rate of a chemical reaction without undergoing permanent changes or being consumed."
+},
+{
+  question: "Which of the following statements is true about an exothermic reaction?",
+  answers: [
+      { text: "It releases energy in the form of heat", correct: true },
+      { text: "It absorbs energy from its surroundings", correct: false },
+      { text: "The products have more energy than the reactants", correct: false },
+      { text: "It cools the surroundings", correct: false }
+  ],
+  explanation: "An exothermic reaction releases energy, usually in the form of heat, and the products have lower energy than the reactants."
+},
+{
+  question: "The functional group present in carboxylic acids is:",
+  answers: [
+      { text: "-COOH", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-NH2", correct: false },
+      { text: "-CHO", correct: false }
+  ],
+  explanation: "Carboxylic acids contain the -COOH functional group, which consists of a carbonyl group bonded to a hydroxyl group."
+},
+{
+  question: "Which of the following is a secondary alcohol?",
+  answers: [
+      { text: "2-propanol", correct: true },
+      { text: "Methanol", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Tert-butanol", correct: false }
+  ],
+  explanation: "2-propanol (also known as isopropanol) is a secondary alcohol because the hydroxyl group is attached to a carbon atom that is bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following hydrocarbons undergoes substitution reactions?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Cyclohexene", correct: false }
+  ],
+  explanation: "Methane (CH4), an alkane, undergoes substitution reactions, in which hydrogen atoms are replaced by other atoms, such as halogens."
+},
+{
+  question: "What is the molecular formula of butanol?",
+  answers: [
+      { text: "C4H10O", correct: true },
+      { text: "C4H8O2", correct: false },
+      { text: "C3H8O", correct: false },
+      { text: "C5H12O", correct: false }
+  ],
+  explanation: "Butanol, an alcohol, has the molecular formula C4H10O."
+},
+{
+  question: "Which of the following reactions produces an ester?",
+  answers: [
+      { text: "Reaction between an alcohol and a carboxylic acid", correct: true },
+      { text: "Reaction between an alkene and hydrogen", correct: false },
+      { text: "Reaction between a ketone and a reducing agent", correct: false },
+      { text: "Reaction between an alkane and a halogen", correct: false }
+  ],
+  explanation: "Esters are formed by the reaction between an alcohol and a carboxylic acid in a process called esterification."
+},
+{
+  question: "Which of the following describes a saturated hydrocarbon?",
+  answers: [
+      { text: "Contains only single bonds between carbon atoms", correct: true },
+      { text: "Contains double bonds between carbon atoms", correct: false },
+      { text: "Contains triple bonds between carbon atoms", correct: false },
+      { text: "Contains both single and double bonds", correct: false }
+  ],
+  explanation: "Saturated hydrocarbons contain only single bonds between carbon atoms. Alkanes are an example of saturated hydrocarbons."
+},
+{
+  question: "Which of the following compounds will decolorize bromine water?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false },
+      { text: "Benzene", correct: false }
+  ],
+  explanation: "Ethene, an alkene, will decolorize bromine water due to the addition reaction across the double bond."
+},
+{
+  question: "Which of the following is an example of an unsaturated hydrocarbon?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Ethene (C2H4) is an unsaturated hydrocarbon because it contains a carbon-carbon double bond."
+},
+{
+  question: "Which of the following functional groups is characteristic of ketones?",
+  answers: [
+      { text: "-C=O", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-COOH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (-C=O) where the carbonyl carbon is bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following organic compounds contains a hydroxyl group?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Ethanoic acid", correct: false }
+  ],
+  explanation: "Ethanol (C2H5OH) contains a hydroxyl group (-OH), which is the characteristic functional group of alcohols."
+},
+{
+  question: "What is the IUPAC name of the compound CH3CH2COOH?",
+  answers: [
+      { text: "Propanoic acid", correct: true },
+      { text: "Ethanoic acid", correct: false },
+      { text: "Butanoic acid", correct: false },
+      { text: "Methanoic acid", correct: false }
+  ],
+  explanation: "CH3CH2COOH is propanoic acid, a carboxylic acid with three carbon atoms."
+},
+{
+  question: "Which of the following reactions is used to prepare alkenes?",
+  answers: [
+      { text: "Dehydration of alcohols", correct: true },
+      { text: "Hydrogenation of alkenes", correct: false },
+      { text: "Combustion of alkanes", correct: false },
+      { text: "Substitution of alkanes", correct: false }
+  ],
+  explanation: "Dehydration of alcohols is a common method of preparing alkenes by removing water from alcohol molecules."
+},
+{
+  question: "Which of the following is the general formula for an alkene?",
+  answers: [
+      { text: "CnH2n", correct: true },
+      { text: "CnH2n+2", correct: false },
+      { text: "CnH2n-2", correct: false },
+      { text: "CnH2n+1", correct: false }
+  ],
+  explanation: "The general formula for alkenes is CnH2n, where 'n' is the number of carbon atoms."
+},
+{
+  question: "Which of the following elements can form hydrogen bonds?",
+  answers: [
+      { text: "Oxygen", correct: true },
+      { text: "Carbon", correct: false },
+      { text: "Sulfur", correct: false },
+      { text: "Phosphorus", correct: false }
+  ],
+  explanation: "Oxygen can form hydrogen bonds due to its high electronegativity and the presence of lone pairs of electrons."
+},
+{
+  question: "Which of the following organic compounds contains a carboxyl group?",
+  answers: [
+      { text: "Ethanoic acid", correct: true },
+      { text: "Ethanol", correct: false },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false }
+  ],
+  explanation: "Ethanoic acid (CH3COOH) contains a carboxyl group (-COOH), which is characteristic of carboxylic acids."
+},
+{
+  question: "Which of the following organic reactions involves the addition of water?",
+  answers: [
+      { text: "Hydration", correct: true },
+      { text: "Hydrogenation", correct: false },
+      { text: "Dehydration", correct: false },
+      { text: "Substitution", correct: false }
+  ],
+  explanation: "Hydration is a reaction in which water is added to an organic molecule, typically an alkene, to form an alcohol."
+},
+{
+  question: "Which of the following compounds is an aromatic hydrocarbon?",
+  answers: [
+      { text: "Benzene", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Benzene (C6H6) is an aromatic hydrocarbon with a planar ring structure and delocalized pi electrons."
+},
+{
+  question: "Which of the following reactions involves breaking down larger hydrocarbons into smaller ones?",
+  answers: [
+      { text: "Cracking", correct: true },
+      { text: "Hydrogenation", correct: false },
+      { text: "Polymerization", correct: false },
+      { text: "Saponification", correct: false }
+  ],
+  explanation: "Cracking is the process of breaking down larger hydrocarbons into smaller, more useful molecules, typically using heat or a catalyst."
+},
+{
+  question: "Which of the following reactions is a redox reaction?",
+  answers: [
+      { text: "Oxidation of ethanol to ethanoic acid", correct: true },
+      { text: "Hydrogenation of an alkene", correct: false },
+      { text: "Dehydration of alcohols", correct: false },
+      { text: "Addition of bromine to an alkene", correct: false }
+  ],
+  explanation: "The oxidation of ethanol (CH3CH2OH) to ethanoic acid (CH3COOH) is a redox reaction, as ethanol is oxidized by losing electrons."
+},
+{
+  question: "Which of the following statements about catalysts is true?",
+  answers: [
+      { text: "They lower the activation energy of a reaction", correct: true },
+      { text: "They are consumed in the reaction", correct: false },
+      { text: "They slow down the reaction rate", correct: false },
+      { text: "They change the products of the reaction", correct: false }
+  ],
+  explanation: "Catalysts lower the activation energy of a reaction, allowing it to proceed more quickly without being consumed in the process."
+},
+{
+  question: "Which of the following compounds can undergo addition reactions?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Ethene (C2H4), an alkene, can undergo addition reactions because it contains a carbon-carbon double bond."
+},
+{
+  question: "Which of the following functional groups is present in aldehydes?",
+  answers: [
+      { text: "-CHO", correct: true },
+      { text: "-COOH", correct: false },
+      { text: "-OH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Aldehydes contain the -CHO group, where the carbonyl carbon is bonded to a hydrogen atom and a hydrocarbon group."
+},
+{
+  question: "Which of the following is an example of an electrophilic addition reaction?",
+  answers: [
+      { text: "Addition of bromine to ethene", correct: true },
+      { text: "Combustion of methane", correct: false },
+      { text: "Dehydration of ethanol", correct: false },
+      { text: "Substitution of chlorine in methane", correct: false }
+  ],
+  explanation: "The addition of bromine to ethene is an example of electrophilic addition, where the bromine molecule adds across the carbon-carbon double bond."
+},
+{
+  question: "What is the IUPAC name for CH3CH=CHCH3?",
+  answers: [
+      { text: "But-2-ene", correct: true },
+      { text: "But-1-ene", correct: false },
+      { text: "Propene", correct: false },
+      { text: "Ethyne", correct: false }
+  ],
+  explanation: "The compound CH3CH=CHCH3 is named but-2-ene, where the double bond is located between the second and third carbon atoms."
+},
+{
+  question: "Which of the following functional groups is found in ketones?",
+  answers: [
+      { text: "Carbonyl group (C=O)", correct: true },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Amino group (-NH2)", correct: false },
+      { text: "Carboxyl group (-COOH)", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (C=O) where the carbonyl carbon is bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following compounds is classified as an alkane?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Benzene", correct: false }
+  ],
+  explanation: "Methane (CH4) is an alkane, characterized by single bonds between carbon and hydrogen atoms."
+},
+{
+  question: "Which of the following processes is involved in the polymerization of alkenes?",
+  answers: [
+      { text: "Addition reaction", correct: true },
+      { text: "Substitution reaction", correct: false },
+      { text: "Dehydration", correct: false },
+      { text: "Combustion", correct: false }
+  ],
+  explanation: "Polymerization of alkenes involves addition reactions, where small alkene molecules (monomers) join together to form larger chains (polymers)."
+},
+{
+  question: "Which type of reaction is used to convert alkenes to alkanes?",
+  answers: [
+      { text: "Hydrogenation", correct: true },
+      { text: "Oxidation", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Polymerization", correct: false }
+  ],
+  explanation: "Hydrogenation is the process of adding hydrogen to alkenes to convert them into alkanes."
+},
+{
+  question: "Which of the following is a characteristic of aromatic compounds?",
+  answers: [
+      { text: "Delocalized pi electrons", correct: true },
+      { text: "Saturated hydrocarbons", correct: false },
+      { text: "Presence of a triple bond", correct: false },
+      { text: "Cyclic structure with single bonds", correct: false }
+  ],
+  explanation: "Aromatic compounds, like benzene, are characterized by delocalized pi electrons in a cyclic structure."
+},
+{
+  question: "Which of the following reactions produces an ester?",
+  answers: [
+      { text: "Reaction of a carboxylic acid with an alcohol", correct: true },
+      { text: "Reaction of an alcohol with a ketone", correct: false },
+      { text: "Hydration of an alkene", correct: false },
+      { text: "Oxidation of a primary alcohol", correct: false }
+  ],
+  explanation: "Esters are produced by the reaction of a carboxylic acid and an alcohol in a process called esterification."
+},
+{
+  question: "Which of the following hydrocarbons is unsaturated?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Propane", correct: false },
+      { text: "Butane", correct: false }
+  ],
+  explanation: "Ethene (C2H4) is an unsaturated hydrocarbon because it contains a carbon-carbon double bond."
+},
+{
+  question: "What is the general formula for an alkyne?",
+  answers: [
+      { text: "CnH2n-2", correct: true },
+      { text: "CnH2n", correct: false },
+      { text: "CnH2n+2", correct: false },
+      { text: "CnH2n+1", correct: false }
+  ],
+  explanation: "The general formula for alkynes, which contain a carbon-carbon triple bond, is CnH2n-2."
+},
+{
+  question: "Which of the following functional groups is found in carboxylic acids?",
+  answers: [
+      { text: "Carboxyl group (-COOH)", correct: true },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Amino group (-NH2)", correct: false },
+      { text: "Carbonyl group (C=O)", correct: false }
+  ],
+  explanation: "Carboxylic acids contain a carboxyl group (-COOH), consisting of a carbonyl and hydroxyl group attached to the same carbon atom."
+},
+{
+  question: "Which of the following compounds is an aromatic hydrocarbon?",
+  answers: [
+      { text: "Benzene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Propane", correct: false },
+      { text: "Ethyne", correct: false }
+  ],
+  explanation: "Benzene (C6H6) is an aromatic hydrocarbon characterized by a cyclic ring structure with delocalized electrons."
+},
+{
+  question: "What is the major product of the hydration of ethene?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methanol", correct: false },
+      { text: "Ethanoic acid", correct: false }
+  ],
+  explanation: "The hydration of ethene (C2H4) results in the formation of ethanol (C2H5OH)."
+},
+{
+  question: "Which of the following compounds is a primary alcohol?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "2-propanol", correct: false },
+      { text: "Tert-butanol", correct: false },
+      { text: "Methanal", correct: false }
+  ],
+  explanation: "Ethanol (C2H5OH) is a primary alcohol because the hydroxyl group is attached to a carbon atom that is bonded to only one other carbon atom."
+},
+{
+  question: "Which of the following is a saturated hydrocarbon?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Benzene", correct: false }
+  ],
+  explanation: "Methane (CH4) is a saturated hydrocarbon, meaning it contains only single bonds between carbon and hydrogen atoms."
+},
+{
+  question: "Which of the following reactions converts an alkene to an alcohol?",
+  answers: [
+      { text: "Hydration", correct: true },
+      { text: "Hydrogenation", correct: false },
+      { text: "Dehydration", correct: false },
+      { text: "Polymerization", correct: false }
+  ],
+  explanation: "Hydration is the addition of water to an alkene, converting it into an alcohol."
+},
+{
+  question: "Which of the following compounds will undergo substitution reactions?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Benzene", correct: true },
+      { text: "Ethane", correct: false }
+  ],
+  explanation: "Methane (CH4) and benzene (C6H6) typically undergo substitution reactions, where atoms are replaced by other atoms or groups."
+},
+{
+  question: "Which of the following is the correct formula for ethanoic acid?",
+  answers: [
+      { text: "CH3COOH", correct: true },
+      { text: "CH3CH2OH", correct: false },
+      { text: "C2H6", correct: false },
+      { text: "C6H12O6", correct: false }
+  ],
+  explanation: "Ethanoic acid, also known as acetic acid, has the molecular formula CH3COOH."
+},
+{
+  question: "Which of the following statements about alkenes is true?",
+  answers: [
+      { text: "They are unsaturated hydrocarbons", correct: true },
+      { text: "They contain a carbon-carbon single bond", correct: false },
+      { text: "They undergo substitution reactions", correct: false },
+      { text: "They have the general formula CnH2n+2", correct: false }
+  ],
+  explanation: "Alkenes are unsaturated hydrocarbons containing a carbon-carbon double bond and have the general formula CnH2n."
+},
+{
+  question: "Which of the following is the major product of the reaction between an alcohol and a carboxylic acid?",
+  answers: [
+      { text: "An ester", correct: true },
+      { text: "An ether", correct: false },
+      { text: "A ketone", correct: false },
+      { text: "An alkane", correct: false }
+  ],
+  explanation: "The reaction between an alcohol and a carboxylic acid produces an ester and water."
+},
+{
+  question: "Which of the following compounds contains a carbon-carbon triple bond?",
+  answers: [
+      { text: "Ethyne", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Ethene", correct: false },
+      { text: "Ethanol", correct: false }
+  ],
+  explanation: "Ethyne (C2H2), also known as acetylene, contains a carbon-carbon triple bond, characteristic of alkynes."
+},
+{
+  question: "Which of the following statements is true about oxidation reactions?",
+  answers: [
+      { text: "They involve the loss of electrons", correct: true },
+      { text: "They involve the gain of electrons", correct: false },
+      { text: "They involve the reduction of hydrogen", correct: false },
+      { text: "They decrease the oxidation state of an atom", correct: false }
+  ],
+  explanation: "Oxidation reactions involve the loss of electrons or an increase in the oxidation state of an atom."
+},
+{
+  question: "Which of the following reactions is a typical example of a dehydration reaction?",
+  answers: [
+      { text: "Conversion of ethanol to ethene", correct: true },
+      { text: "Conversion of ethene to ethane", correct: false },
+      { text: "Combustion of methane", correct: false },
+      { text: "Hydration of ethene to ethanol", correct: false }
+  ],
+  explanation: "Dehydration reactions involve the removal of water. The conversion of ethanol to ethene is a dehydration reaction where water is eliminated from the alcohol."
+},
+{
+  question: "Which of the following molecules is non-polar?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Water", correct: false },
+      { text: "Ammonia", correct: false },
+      { text: "Hydrochloric acid", correct: false }
+  ],
+  explanation: "Methane (CH4) is a non-polar molecule due to its symmetrical tetrahedral structure, resulting in an equal distribution of charge."
+},
+{
+  question: "Which of the following is the formula of an alkene?",
+  answers: [
+      { text: "C2H4", correct: true },
+      { text: "CH4", correct: false },
+      { text: "C2H6", correct: false },
+      { text: "C3H8", correct: false }
+  ],
+  explanation: "C2H4 is ethene, an alkene, which contains a carbon-carbon double bond."
+},
+{
+  question: "Which of the following compounds contains a carbonyl group?",
+  answers: [
+      { text: "Propanone", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Propanone (CH3COCH3), also known as acetone, contains a carbonyl group (C=O) bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following elements is required for hydrogen bonding?",
+  answers: [
+      { text: "Oxygen", correct: true },
+      { text: "Sodium", correct: false },
+      { text: "Carbon", correct: false },
+      { text: "Chlorine", correct: false }
+  ],
+  explanation: "Hydrogen bonding occurs between hydrogen and highly electronegative atoms like oxygen, nitrogen, or fluorine."
+},
+{
+  question: "Which of the following hydrocarbons is an example of an alkyne?",
+  answers: [
+      { text: "Ethyne", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Ethyne (C2H2) is an alkyne, characterized by a carbon-carbon triple bond."
+},
+{
+  question: "Which of the following processes is used to convert alkenes into alcohols?",
+  answers: [
+      { text: "Hydration", correct: true },
+      { text: "Dehydration", correct: false },
+      { text: "Hydrogenation", correct: false },
+      { text: "Oxidation", correct: false }
+  ],
+  explanation: "Hydration is the addition of water to alkenes, converting them into alcohols."
+},
+{
+  question: "Which of the following reactions is classified as a combustion reaction?",
+  answers: [
+      { text: "Methane reacting with oxygen to produce carbon dioxide and water", correct: true },
+      { text: "Ethanol reacting with ethanoic acid to form an ester", correct: false },
+      { text: "Ethyne reacting with bromine to form a dibromo compound", correct: false },
+      { text: "Hydration of ethene to form ethanol", correct: false }
+  ],
+  explanation: "Combustion reactions involve a hydrocarbon reacting with oxygen to produce carbon dioxide, water, and heat."
+},
+{
+  question: "Which of the following reactions typically involves the loss of electrons?",
+  answers: [
+      { text: "Oxidation", correct: true },
+      { text: "Reduction", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Substitution", correct: false }
+  ],
+  explanation: "Oxidation reactions involve the loss of electrons, increasing the oxidation state of the element."
+},
+{
+  question: "Which of the following is a characteristic of an addition reaction?",
+  answers: [
+      { text: "Involves adding atoms or groups to a double bond", correct: true },
+      { text: "Involves removing atoms from a compound", correct: false },
+      { text: "Involves replacing atoms with other atoms", correct: false },
+      { text: "Involves breaking a molecule into smaller parts", correct: false }
+  ],
+  explanation: "In an addition reaction, atoms or groups of atoms are added across a double or triple bond, converting unsaturated compounds into saturated ones."
+},
+{
+  question: "What is the major product of the reaction between propene and hydrogen?",
+  answers: [
+      { text: "Propane", correct: true },
+      { text: "Butane", correct: false },
+      { text: "Propanol", correct: false },
+      { text: "Propyne", correct: false }
+  ],
+  explanation: "Hydrogenation of propene (C3H6) adds hydrogen to the double bond, producing propane (C3H8)."
+},
+{
+  question: "Which of the following hydrocarbons undergoes substitution reactions?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Benzene", correct: true }
+  ],
+  explanation: "Methane and benzene undergo substitution reactions, where atoms in the molecule are replaced by other atoms or groups."
+},
+{
+  question: "Which of the following reactions is a typical example of a dehydration reaction?",
+  answers: [
+      { text: "Conversion of ethanol to ethene", correct: true },
+      { text: "Conversion of ethene to ethane", correct: false },
+      { text: "Combustion of methane", correct: false },
+      { text: "Hydration of ethene to ethanol", correct: false }
+  ],
+  explanation: "Dehydration reactions involve the removal of water. The conversion of ethanol to ethene is a dehydration reaction where water is eliminated from the alcohol."
+},
+{
+  question: "Which of the following molecules is non-polar?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Water", correct: false },
+      { text: "Ammonia", correct: false },
+      { text: "Hydrochloric acid", correct: false }
+  ],
+  explanation: "Methane (CH4) is a non-polar molecule due to its symmetrical tetrahedral structure, resulting in an equal distribution of charge."
+},
+{
+  question: "Which of the following is the formula of an alkene?",
+  answers: [
+      { text: "C2H4", correct: true },
+      { text: "CH4", correct: false },
+      { text: "C2H6", correct: false },
+      { text: "C3H8", correct: false }
+  ],
+  explanation: "C2H4 is ethene, an alkene, which contains a carbon-carbon double bond."
+},
+{
+  question: "Which of the following compounds contains a carbonyl group?",
+  answers: [
+      { text: "Propanone", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Propanone (CH3COCH3), also known as acetone, contains a carbonyl group (C=O) bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following elements is required for hydrogen bonding?",
+  answers: [
+      { text: "Oxygen", correct: true },
+      { text: "Sodium", correct: false },
+      { text: "Carbon", correct: false },
+      { text: "Chlorine", correct: false }
+  ],
+  explanation: "Hydrogen bonding occurs between hydrogen and highly electronegative atoms like oxygen, nitrogen, or fluorine."
+},
+{
+  question: "Which of the following hydrocarbons is an example of an alkyne?",
+  answers: [
+      { text: "Ethyne", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Ethyne (C2H2) is an alkyne, characterized by a carbon-carbon triple bond."
+},
+{
+  question: "Which of the following processes is used to convert alkenes into alcohols?",
+  answers: [
+      { text: "Hydration", correct: true },
+      { text: "Dehydration", correct: false },
+      { text: "Hydrogenation", correct: false },
+      { text: "Oxidation", correct: false }
+  ],
+  explanation: "Hydration is the addition of water to alkenes, converting them into alcohols."
+},
+{
+  question: "Which of the following reactions is classified as a combustion reaction?",
+  answers: [
+      { text: "Methane reacting with oxygen to produce carbon dioxide and water", correct: true },
+      { text: "Ethanol reacting with ethanoic acid to form an ester", correct: false },
+      { text: "Ethyne reacting with bromine to form a dibromo compound", correct: false },
+      { text: "Hydration of ethene to form ethanol", correct: false }
+  ],
+  explanation: "Combustion reactions involve a hydrocarbon reacting with oxygen to produce carbon dioxide, water, and heat."
+},
+{
+  question: "Which of the following reactions typically involves the loss of electrons?",
+  answers: [
+      { text: "Oxidation", correct: true },
+      { text: "Reduction", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Substitution", correct: false }
+  ],
+  explanation: "Oxidation reactions involve the loss of electrons, increasing the oxidation state of the element."
+},
+{
+  question: "Which of the following is a characteristic of an addition reaction?",
+  answers: [
+      { text: "Involves adding atoms or groups to a double bond", correct: true },
+      { text: "Involves removing atoms from a compound", correct: false },
+      { text: "Involves replacing atoms with other atoms", correct: false },
+      { text: "Involves breaking a molecule into smaller parts", correct: false }
+  ],
+  explanation: "In an addition reaction, atoms or groups of atoms are added across a double or triple bond, converting unsaturated compounds into saturated ones."
+},
+{
+  question: "What is the major product of the reaction between propene and hydrogen?",
+  answers: [
+      { text: "Propane", correct: true },
+      { text: "Butane", correct: false },
+      { text: "Propanol", correct: false },
+      { text: "Propyne", correct: false }
+  ],
+  explanation: "Hydrogenation of propene (C3H6) adds hydrogen to the double bond, producing propane (C3H8)."
+},
+{
+  question: "Which of the following hydrocarbons undergoes substitution reactions?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Benzene", correct: true }
+  ],
+  explanation: "Methane and benzene undergo substitution reactions, where atoms in the molecule are replaced by other atoms or groups."
+},
+{
+  question: "Which of the following is a primary alcohol?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "2-propanol", correct: false },
+      { text: "Tert-butanol", correct: false },
+      { text: "Methanal", correct: false }
+  ],
+  explanation: "Ethanol (C2H5OH) is a primary alcohol because the hydroxyl group is attached to a carbon atom that is bonded to only one other carbon atom."
+},
+{
+  question: "Which of the following reactions is an example of oxidation?",
+  answers: [
+      { text: "Conversion of ethanol to ethanoic acid", correct: true },
+      { text: "Addition of hydrogen to an alkene", correct: false },
+      { text: "Conversion of ethene to ethane", correct: false },
+      { text: "Hydration of ethene", correct: false }
+  ],
+  explanation: "Oxidation involves the loss of electrons or hydrogen. The conversion of ethanol (C2H5OH) to ethanoic acid (CH3COOH) is an oxidation reaction."
+},
+{
+  question: "Which of the following compounds is most likely to form hydrogen bonds?",
+  answers: [
+      { text: "Water", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Carbon dioxide", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Water (H2O) forms hydrogen bonds due to the presence of highly electronegative oxygen atoms and hydrogen atoms."
+},
+{
+  question: "Which of the following statements is true about alkenes?",
+  answers: [
+      { text: "They contain a carbon-carbon double bond", correct: true },
+      { text: "They are saturated hydrocarbons", correct: false },
+      { text: "They undergo substitution reactions", correct: false },
+      { text: "Their general formula is CnH2n+2", correct: false }
+  ],
+  explanation: "Alkenes are unsaturated hydrocarbons containing a carbon-carbon double bond and have the general formula CnH2n."
+},
+{
+  question: "Which of the following hydrocarbons is an example of an alkane?",
+  answers: [
+      { text: "Methane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Benzene", correct: false }
+  ],
+  explanation: "Methane (CH4) is an alkane, a saturated hydrocarbon with only single bonds between carbon and hydrogen atoms."
+},
+{
+  question: "Which of the following is the product of the hydration of ethene?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Ethanoic acid", correct: false },
+      { text: "Ethyne", correct: false }
+  ],
+  explanation: "Hydration of ethene (C2H4) results in the formation of ethanol (C2H5OH) by adding water to the double bond."
+},
+{
+  question: "Which of the following compounds contains a carbonyl group?",
+  answers: [
+      { text: "Propanone", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Ethane", correct: false }
+  ],
+  explanation: "Propanone (CH3COCH3), also known as acetone, contains a carbonyl group (C=O) attached to two other carbon atoms."
+},
+{
+  question: "Which of the following functional groups is found in aldehydes?",
+  answers: [
+      { text: "-CHO", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-COOH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Aldehydes contain the -CHO group, where the carbonyl carbon is bonded to a hydrogen atom and a hydrocarbon group."
+},
+{
+  question: "Which of the following is the product of the complete combustion of methane?",
+  answers: [
+      { text: "Carbon dioxide and water", correct: true },
+      { text: "Carbon monoxide and water", correct: false },
+      { text: "Methanol", correct: false },
+      { text: "Carbon and water", correct: false }
+  ],
+  explanation: "Complete combustion of methane (CH4) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+  question: "Which of the following describes an exothermic reaction?",
+  answers: [
+      { text: "A reaction that releases energy in the form of heat", correct: true },
+      { text: "A reaction that absorbs energy from its surroundings", correct: false },
+      { text: "A reaction with no energy exchange", correct: false },
+      { text: "A reaction that decreases the temperature of the surroundings", correct: false }
+  ],
+  explanation: "An exothermic reaction releases energy in the form of heat to the surroundings, resulting in an increase in temperature."
+},
+{
+  question: "Which of the following reactions is an example of a substitution reaction?",
+  answers: [
+      { text: "Reaction of methane with chlorine in the presence of UV light", correct: true },
+      { text: "Hydrogenation of ethene to ethane", correct: false },
+      { text: "Hydration of ethene to ethanol", correct: false },
+      { text: "Dehydration of ethanol to ethene", correct: false }
+  ],
+  explanation: "The reaction of methane with chlorine in the presence of UV light is a substitution reaction, where a hydrogen atom is replaced by a chlorine atom."
+},
+{
+  question: "Which of the following functional groups is characteristic of carboxylic acids?",
+  answers: [
+      { text: "-COOH", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-CHO", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Carboxylic acids contain the -COOH group, consisting of a carbonyl group bonded to a hydroxyl group."
+},
+{
+  question: "Which of the following is a characteristic of an ester?",
+  answers: [
+      { text: "Contains a carbonyl group adjacent to an oxygen atom", correct: true },
+      { text: "Contains a hydroxyl group (-OH)", correct: false },
+      { text: "Contains a carbon-carbon triple bond", correct: false },
+      { text: "Contains an amine group (-NH2)", correct: false }
+  ],
+  explanation: "Esters contain a carbonyl group (C=O) adjacent to an oxygen atom, forming a -COOR structure."
+},
+{
+  question: "What is the major product of the hydrogenation of ethyne?",
+  answers: [
+      { text: "Ethane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Hydrogenation of ethyne (C2H2) adds hydrogen across the triple bond, first producing ethene and then ethane."
+},
+{
+  question: "Which of the following is an electrophile?",
+  answers: [
+      { text: "Br+", correct: true },
+      { text: "OH-", correct: false },
+      { text: "Cl-", correct: false },
+      { text: "H-", correct: false }
+  ],
+  explanation: "An electrophile is an electron-deficient species that seeks electrons, such as Br+ in electrophilic addition reactions."
+},
+{
+  question: "Which of the following functional groups is found in ketones?",
+  answers: [
+      { text: "Carbonyl group (C=O)", correct: true },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Carboxyl group (-COOH)", correct: false },
+      { text: "Amino group (-NH2)", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (C=O), where the carbonyl carbon is bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following processes involves breaking down large hydrocarbons into smaller ones?",
+  answers: [
+      { text: "Cracking", correct: true },
+      { text: "Polymerization", correct: false },
+      { text: "Hydrogenation", correct: false },
+      { text: "Combustion", correct: false }
+  ],
+  explanation: "Cracking is the process of breaking down large hydrocarbons into smaller, more useful molecules, such as gasoline."
+},
+{
+  question: "Which of the following describes the functional group in ethers?",
+  answers: [
+      { text: "-O-", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-COOH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Ethers have an -O- group, where an oxygen atom is bonded to two alkyl or aryl groups."
+},
+{
+  question: "Which of the following compounds will decolorize bromine water?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Propyne", correct: false }
+  ],
+  explanation: "Ethene, an alkene, will decolorize bromine water due to the addition reaction across the carbon-carbon double bond."
+},
+{
+  question: "What is the major product of the esterification reaction between ethanol and ethanoic acid?",
+  answers: [
+      { text: "Ethyl ethanoate", correct: true },
+      { text: "Methanol", correct: false },
+      { text: "Butanol", correct: false },
+      { text: "Ethane", correct: false }
+  ],
+  explanation: "Esterification of ethanol (C2H5OH) and ethanoic acid (CH3COOH) produces ethyl ethanoate (CH3COOC2H5) and water."
+},
+{
+  question: "Which of the following is an example of a reducing agent?",
+  answers: [
+      { text: "LiAlH4", correct: true },
+      { text: "H2SO4", correct: false },
+      { text: "KMnO4", correct: false },
+      { text: "NaOH", correct: false }
+  ],
+  explanation: "Lithium aluminum hydride (LiAlH4) is a strong reducing agent used to reduce carbonyl compounds to alcohols."
+},
+{
+  question: "Which of the following compounds undergoes electrophilic substitution reactions?",
+  answers: [
+      { text: "Benzene", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methanol", correct: false }
+  ],
+  explanation: "Benzene undergoes electrophilic substitution reactions, where electrophiles replace hydrogen atoms in the aromatic ring."
+},
+{
+  question: "Which of the following processes involves the removal of water from an alcohol?",
+  answers: [
+      { text: "Dehydration", correct: true },
+      { text: "Hydration", correct: false },
+      { text: "Hydrolysis", correct: false },
+      { text: "Reduction", correct: false }
+  ],
+  explanation: "Dehydration is the removal of water from an alcohol, such as the conversion of ethanol to ethene."
+},
+{
+  question: "Which of the following is an unsaturated hydrocarbon?",
+  answers: [
+      { text: "Ethyne", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Ethyne (C2H2), an alkyne, is an unsaturated hydrocarbon because it contains a carbon-carbon triple bond."
+},
+{
+  question: "What is the product of the complete combustion of ethane?",
+  answers: [
+      { text: "Carbon dioxide and water", correct: true },
+      { text: "Carbon monoxide and hydrogen", correct: false },
+      { text: "Methane and oxygen", correct: false },
+      { text: "Ethene and water", correct: false }
+  ],
+  explanation: "The complete combustion of ethane (C2H6) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+  question: "Which of the following describes a nucleophile?",
+  answers: [
+      { text: "An electron-rich species that donates electrons", correct: true },
+      { text: "An electron-deficient species that accepts electrons", correct: false },
+      { text: "A positively charged ion", correct: false },
+      { text: "A neutral molecule", correct: false }
+  ],
+  explanation: "A nucleophile is an electron-rich species that donates a pair of electrons to form a bond with an electrophile."
+},
+{
+  question: "Which of the following statements about ketones is true?",
+  answers: [
+      { text: "Ketones contain a carbonyl group attached to two carbon atoms", correct: true },
+      { text: "Ketones contain a hydroxyl group", correct: false },
+      { text: "Ketones contain an amine group", correct: false },
+      { text: "Ketones are always aromatic compounds", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (C=O) where the carbonyl carbon is attached to two other carbon atoms."
+},
+{
+  question: "Which of the following functional groups is present in ethers?",
+  answers: [
+      { text: "-O-", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-COOH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Ethers have the functional group -O-, where an oxygen atom is bonded to two alkyl or aryl groups."
+},
+{
+  question: "Which of the following reactions involves the addition of hydrogen to a compound?",
+  answers: [
+      { text: "Hydrogenation", correct: true },
+      { text: "Dehydration", correct: false },
+      { text: "Hydrolysis", correct: false },
+      { text: "Oxidation", correct: false }
+  ],
+  explanation: "Hydrogenation is the process of adding hydrogen to a compound, commonly used to convert alkenes to alkanes."
+},
+{
+  question: "Which of the following describes a catalyst?",
+  answers: [
+      { text: "A substance that increases the rate of a reaction without being consumed", correct: true },
+      { text: "A substance that decreases the rate of a reaction", correct: false },
+      { text: "A substance that is consumed during the reaction", correct: false },
+      { text: "A reactant in the reaction", correct: false }
+  ],
+  explanation: "A catalyst increases the rate of a reaction by lowering the activation energy without being consumed in the process."
+},
+{
+  question: "Which of the following is an example of a polar molecule?",
+  answers: [
+      { text: "Water", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Carbon dioxide", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Water (H2O) is a polar molecule due to the uneven distribution of electron density caused by its bent molecular geometry."
+},
+{
+  question: "Which of the following reactions involves the substitution of one atom or group in a molecule for another?",
+  answers: [
+      { text: "Substitution", correct: true },
+      { text: "Addition", correct: false },
+      { text: "Hydrogenation", correct: false },
+      { text: "Dehydration", correct: false }
+  ],
+  explanation: "In substitution reactions, one atom or group in a molecule is replaced by another, such as the substitution of a hydrogen atom with a halogen."
+},
+{
+  question: "Which of the following organic compounds contains a carboxyl group?",
+  answers: [
+      { text: "Ethanoic acid", correct: true },
+      { text: "Ethanol", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Ethanoic acid (CH3COOH) contains a carboxyl group (-COOH), which is characteristic of carboxylic acids."
+},
+{
+  question: "Which of the following describes the process of cracking?",
+  answers: [
+      { text: "Breaking down large hydrocarbons into smaller ones", correct: true },
+      { text: "Combining small molecules to form larger ones", correct: false },
+      { text: "Adding hydrogen to unsaturated hydrocarbons", correct: false },
+      { text: "Combustion of hydrocarbons", correct: false }
+  ],
+  explanation: "Cracking is a process used to break down large hydrocarbons into smaller, more useful ones, such as gasoline."
+},
+{
+  question: "Which of the following is a characteristic of an alkene?",
+  answers: [
+      { text: "Contains a carbon-carbon double bond", correct: true },
+      { text: "Contains a carbon-carbon single bond", correct: false },
+      { text: "Contains a carbon-carbon triple bond", correct: false },
+      { text: "Contains a hydroxyl group", correct: false }
+  ],
+  explanation: "Alkenes are unsaturated hydrocarbons that contain at least one carbon-carbon double bond."
+},
+{
+  question: "Which of the following is the IUPAC name for CH3CH=CH2?",
+  answers: [
+      { text: "Propene", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Butene", correct: false },
+      { text: "Methene", correct: false }
+  ],
+  explanation: "CH3CH=CH2 is propene, an alkene with a three-carbon chain and a double bond between the first and second carbons."
+},
+{
+  question: "Which of the following reactions involves the loss of electrons?",
+  answers: [
+      { text: "Oxidation", correct: true },
+      { text: "Reduction", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Substitution", correct: false }
+  ],
+  explanation: "Oxidation involves the loss of electrons or an increase in the oxidation state of an element."
+},
+{
+  question: "Which of the following is the correct formula for ethanoic acid?",
+  answers: [
+      { text: "CH3COOH", correct: true },
+      { text: "CH3CH2OH", correct: false },
+      { text: "CH3OCH3", correct: false },
+      { text: "CH4", correct: false }
+  ],
+  explanation: "Ethanoic acid, also known as acetic acid, has the chemical formula CH3COOH."
+},
+{
+  question: "Which of the following hydrocarbons is an alkyne?",
+  answers: [
+      { text: "Ethyne", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Butane", correct: false }
+  ],
+  explanation: "Ethyne (C2H2) is an alkyne because it contains a carbon-carbon triple bond."
+},
+{
+  question: "Which of the following compounds contains a hydroxyl group?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Ethanol (C2H5OH) contains a hydroxyl group (-OH), which is characteristic of alcohols."
+},
+{
+  question: "Which of the following organic compounds will react with bromine water and decolorize it?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Ethene (C2H4) will react with bromine water in an addition reaction, decolorizing the bromine solution."
+},
+{
+  question: "Which of the following describes the general formula for alkenes?",
+  answers: [
+      { text: "CnH2n", correct: true },
+      { text: "CnH2n+2", correct: false },
+      { text: "CnH2n-2", correct: false },
+      { text: "CnHn", correct: false }
+  ],
+  explanation: "Alkenes follow the general formula CnH2n, where 'n' is the number of carbon atoms in the molecule."
+},
+{
+  question: "Which of the following describes a primary alcohol?",
+  answers: [
+      { text: "An alcohol where the hydroxyl group is attached to a carbon bonded to one other carbon atom", correct: true },
+      { text: "An alcohol where the hydroxyl group is attached to a carbon bonded to two other carbon atoms", correct: false },
+      { text: "An alcohol where the hydroxyl group is attached to a carbon bonded to three other carbon atoms", correct: false },
+      { text: "An alcohol where the hydroxyl group is attached to a carbon with no other carbon atoms", correct: false }
+  ],
+  explanation: "A primary alcohol has the hydroxyl group attached to a carbon atom that is bonded to only one other carbon atom."
+},
+{
+  question: "Which of the following is the IUPAC name for CH3CH2OH?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Methanol", correct: false },
+      { text: "Propane", correct: false },
+      { text: "Butanol", correct: false }
+  ],
+  explanation: "CH3CH2OH is ethanol, a two-carbon alcohol."
+},
+{
+  question: "Which of the following reactions involves breaking a larger molecule into smaller molecules?",
+  answers: [
+      { text: "Cracking", correct: true },
+      { text: "Polymerization", correct: false },
+      { text: "Hydrogenation", correct: false },
+      { text: "Saponification", correct: false }
+  ],
+  explanation: "Cracking is the process of breaking down larger hydrocarbons into smaller, more useful ones."
+},
+{
+  question: "Which of the following statements is true about electrophiles?",
+  answers: [
+      { text: "Electrophiles are electron-deficient species that seek electrons", correct: true },
+      { text: "Electrophiles are electron-rich species that donate electrons", correct: false },
+      { text: "Electrophiles are always negatively charged", correct: false },
+      { text: "Electrophiles are always neutral molecules", correct: false }
+  ],
+  explanation: "Electrophiles are electron-deficient species that seek to accept electrons from nucleophiles."
+},
+{
+  question: "Which of the following is an example of an electrophilic addition reaction?",
+  answers: [
+      { text: "Addition of bromine to ethene", correct: true },
+      { text: "Substitution of chlorine in methane", correct: false },
+      { text: "Combustion of methane", correct: false },
+      { text: "Dehydration of ethanol", correct: false }
+  ],
+  explanation: "The addition of bromine to ethene is an electrophilic addition reaction where bromine adds across the carbon-carbon double bond."
+},
+{
+  question: "Which of the following is the major product of the hydrogenation of ethene?",
+  answers: [
+      { text: "Ethane", correct: true },
+      { text: "Ethene", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Hydrogenation of ethene (C2H4) results in the formation of ethane (C2H6) by adding hydrogen to the double bond."
+},
+{
+  question: "Which of the following is the general formula for an alkyne?",
+  answers: [
+      { text: "CnH2n-2", correct: true },
+      { text: "CnH2n+2", correct: false },
+      { text: "CnH2n", correct: false },
+      { text: "CnH2n+1", correct: false }
+  ],
+  explanation: "The general formula for alkynes, which contain a carbon-carbon triple bond, is CnH2n-2."
+},
+{
+  question: "Which of the following compounds is classified as an ester?",
+  answers: [
+      { text: "CH3COOCH3", correct: true },
+      { text: "CH3CH2OH", correct: false },
+      { text: "CH3COOH", correct: false },
+      { text: "CH4", correct: false }
+  ],
+  explanation: "CH3COOCH3 is an ester, where the carbonyl carbon is bonded to an alkoxy group (-OR)."
+},
+{
+  question: "Which of the following is the major product of the esterification of ethanol with ethanoic acid?",
+  answers: [
+      { text: "Ethyl ethanoate", correct: true },
+      { text: "Ethanoic anhydride", correct: false },
+      { text: "Methanol", correct: false },
+      { text: "Butanol", correct: false }
+  ],
+  explanation: "Esterification of ethanol (C2H5OH) and ethanoic acid (CH3COOH) produces ethyl ethanoate (CH3COOC2H5)."
+},
+{
+  question: "Which of the following reactions converts an alcohol into an alkene?",
+  answers: [
+      { text: "Dehydration", correct: true },
+      { text: "Hydrogenation", correct: false },
+      { text: "Substitution", correct: false },
+      { text: "Oxidation", correct: false }
+  ],
+  explanation: "Dehydration is the process of removing water from an alcohol, converting it into an alkene."
+},
+{
+  question: "Which of the following statements is true about oxidation reactions?",
+  answers: [
+      { text: "They involve the loss of electrons", correct: true },
+      { text: "They involve the gain of electrons", correct: false },
+      { text: "They always produce hydrogen", correct: false },
+      { text: "They decrease the oxidation state of an atom", correct: false }
+  ],
+  explanation: "Oxidation reactions involve the loss of electrons, which increases the oxidation state of the species."
+},
+{
+  question: "Which of the following compounds contains a carbonyl group?",
+  answers: [
+      { text: "Propanone", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Propanone (CH3COCH3), also known as acetone, contains a carbonyl group (C=O) attached to two carbon atoms."
+},
+{
+  question: "Which of the following describes a nucleophile?",
+  answers: [
+      { text: "An electron-rich species that donates electrons", correct: true },
+      { text: "An electron-deficient species that accepts electrons", correct: false },
+      { text: "A positively charged ion", correct: false },
+      { text: "A neutral molecule", correct: false }
+  ],
+  explanation: "A nucleophile is an electron-rich species that donates a pair of electrons to form a bond with an electrophile."
+},
+{
+  question: "Which of the following is the product of the complete combustion of propane?",
+  answers: [
+      { text: "Carbon dioxide and water", correct: true },
+      { text: "Carbon monoxide and hydrogen", correct: false },
+      { text: "Methane and oxygen", correct: false },
+      { text: "Ethane and water", correct: false }
+  ],
+  explanation: "The complete combustion of propane (C3H8) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+  question: "Which of the following describes a catalyst?",
+  answers: [
+      { text: "A substance that increases the rate of a reaction without being consumed", correct: true },
+      { text: "A substance that decreases the rate of a reaction", correct: false },
+      { text: "A substance that is consumed during the reaction", correct: false },
+      { text: "A reactant in the reaction", correct: false }
+  ],
+  explanation: "A catalyst increases the rate of a reaction by lowering the activation energy without being consumed in the process."
+},
+{
+  question: "Which of the following reactions involves the substitution of one atom or group in a molecule for another?",
+  answers: [
+      { text: "Substitution", correct: true },
+      { text: "Addition", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Dehydration", correct: false }
+  ],
+  explanation: "In a substitution reaction, one atom or group in a molecule is replaced by another atom or group."
+},
+{
+  question: "Which of the following is a primary alcohol?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "2-propanol", correct: false },
+      { text: "Tert-butanol", correct: false },
+      { text: "Methanol", correct: false }
+  ],
+  explanation: "Ethanol (C2H5OH) is a primary alcohol because the hydroxyl group is attached to a carbon atom that is bonded to only one other carbon atom."
+},
+{
+  question: "Which of the following is the major product of the hydration of ethene?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Ethyne", correct: false },
+      { text: "Ethanoic acid", correct: false }
+  ],
+  explanation: "Hydration of ethene (C2H4) results in the formation of ethanol (C2H5OH) by adding water to the double bond."
+},
+{
+  question: "Which of the following describes a saturated hydrocarbon?",
+  answers: [
+      { text: "Contains only single bonds between carbon atoms", correct: true },
+      { text: "Contains a carbon-carbon double bond", correct: false },
+      { text: "Contains a carbon-carbon triple bond", correct: false },
+      { text: "Contains both single and double bonds", correct: false }
+  ],
+  explanation: "Saturated hydrocarbons contain only single bonds between carbon atoms. Alkanes are an example of saturated hydrocarbons."
+},
+{
+  question: "Which of the following compounds will decolorize bromine water?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Ethene, an alkene, will decolorize bromine water due to the addition reaction across the carbon-carbon double bond."
+},
+{
+  question: "Which of the following functional groups is found in carboxylic acids?",
+  answers: [
+      { text: "Carboxyl group (-COOH)", correct: true },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Amino group (-NH2)", correct: false },
+      { text: "Carbonyl group (C=O)", correct: false }
+  ],
+  explanation: "Carboxylic acids contain a carboxyl group (-COOH), consisting of a carbonyl and hydroxyl group attached to the same carbon atom."
+},
+{
+  question: "What is the IUPAC name for CH3COOH?",
+  answers: [
+      { text: "Ethanoic acid", correct: true },
+      { text: "Methanoic acid", correct: false },
+      { text: "Propanol", correct: false },
+      { text: "Acetone", correct: false }
+  ],
+  explanation: "CH3COOH is ethanoic acid, also known as acetic acid, a simple carboxylic acid."
+},
+{
+  question: "Which of the following is a characteristic of an alkene?",
+  answers: [
+      { text: "Contains a carbon-carbon double bond", correct: true },
+      { text: "Contains a carbon-carbon single bond", correct: false },
+      { text: "Contains a carbon-carbon triple bond", correct: false },
+      { text: "Contains a hydroxyl group", correct: false }
+  ],
+  explanation: "Alkenes are unsaturated hydrocarbons that contain at least one carbon-carbon double bond."
+},
+{
+  question: "Which of the following is the general formula for an alkene?",
+  answers: [
+      { text: "CnH2n", correct: true },
+      { text: "CnH2n+2", correct: false },
+      { text: "CnH2n-2", correct: false },
+      { text: "CnHn", correct: false }
+  ],
+  explanation: "Alkenes follow the general formula CnH2n, where 'n' is the number of carbon atoms in the molecule."
+},
+{
+  question: "Which of the following is the major product of the hydrogenation of ethyne?",
+  answers: [
+      { text: "Ethane", correct: true },
+      { text: "Ethyne", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Methane", correct: false }
+  ],
+  explanation: "Hydrogenation of ethyne (C2H2) adds hydrogen across the triple bond, converting it first to ethene and then to ethane."
+},
+{
+  question: "Which of the following is an example of a nucleophile?",
+  answers: [
+      { text: "OH-", correct: true },
+      { text: "H+", correct: false },
+      { text: "Br+", correct: false },
+      { text: "Cl+", correct: false }
+  ],
+  explanation: "A nucleophile is an electron-rich species that donates electrons. OH- is a nucleophile as it donates electrons to electrophiles."
+},
+{
+  question: "Which of the following functional groups is characteristic of ketones?",
+  answers: [
+      { text: "Carbonyl group (C=O)", correct: true },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Amino group (-NH2)", correct: false },
+      { text: "Carboxyl group (-COOH)", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (C=O), where the carbonyl carbon is bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following processes involves breaking down large hydrocarbons into smaller ones?",
+  answers: [
+      { text: "Cracking", correct: true },
+      { text: "Hydrogenation", correct: false },
+      { text: "Polymerization", correct: false },
+      { text: "Saponification", correct: false }
+  ],
+  explanation: "Cracking is the process of breaking down large hydrocarbons into smaller, more useful molecules, such as gasoline."
+},
+{
+  question: "Which of the following is a reducing agent?",
+  answers: [
+      { text: "LiAlH4", correct: true },
+      { text: "KMnO4", correct: false },
+      { text: "H2SO4", correct: false },
+      { text: "NaOH", correct: false }
+  ],
+  explanation: "Lithium aluminum hydride (LiAlH4) is a strong reducing agent commonly used to reduce carbonyl compounds to alcohols."
+},
+{
+  question: "Which of the following describes an electrophile?",
+  answers: [
+      { text: "An electron-deficient species that seeks electrons", correct: true },
+      { text: "An electron-rich species that donates electrons", correct: false },
+      { text: "A neutral molecule", correct: false },
+      { text: "A negatively charged ion", correct: false }
+  ],
+  explanation: "Electrophiles are electron-deficient species that seek electrons from nucleophiles to form bonds."
+},
+{
+  question: "Which of the following functional groups is present in aldehydes?",
+  answers: [
+      { text: "-CHO", correct: true },
+      { text: "-COOH", correct: false },
+      { text: "-OH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Aldehydes contain the -CHO group, which includes a carbonyl group (C=O) bonded to a hydrogen atom."
+},
+{
+  question: "Which of the following processes is used to convert alkenes into alcohols?",
+  answers: [
+      { text: "Hydration", correct: true },
+      { text: "Hydrogenation", correct: false },
+      { text: "Dehydration", correct: false },
+      { text: "Cracking", correct: false }
+  ],
+  explanation: "Hydration is the process of adding water to alkenes to convert them into alcohols."
+},
+{
+  question: "Which of the following is the IUPAC name for CH3CH=CHCH3?",
+  answers: [
+      { text: "But-2-ene", correct: true },
+      { text: "Propene", correct: false },
+      { text: "Butyne", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "CH3CH=CHCH3 is named But-2-ene because the double bond is located between the second and third carbon atoms."
+},
+{
+  question: "Which of the following is an example of an esterification reaction?",
+  answers: [
+      { text: "Reaction of an alcohol with a carboxylic acid", correct: true },
+      { text: "Reaction of an alcohol with a ketone", correct: false },
+      { text: "Reaction of an alkene with hydrogen", correct: false },
+      { text: "Oxidation of a primary alcohol", correct: false }
+  ],
+  explanation: "Esterification is the reaction between an alcohol and a carboxylic acid, resulting in the formation of an ester and water."
+},
+{
+  question: "Which of the following is the product of the complete combustion of butane?",
+  answers: [
+      { text: "Carbon dioxide and water", correct: true },
+      { text: "Methane and oxygen", correct: false },
+      { text: "Ethene and water", correct: false },
+      { text: "Carbon monoxide and hydrogen", correct: false }
+  ],
+  explanation: "Complete combustion of butane (C4H10) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+  question: "Which of the following is a typical property of alkenes?",
+  answers: [
+      { text: "Undergo addition reactions", correct: true },
+      { text: "Undergo substitution reactions", correct: false },
+      { text: "Are saturated hydrocarbons", correct: false },
+      { text: "Have the general formula CnH2n+2", correct: false }
+  ],
+  explanation: "Alkenes are unsaturated hydrocarbons that undergo addition reactions, where atoms are added across the carbon-carbon double bond."
+},
+{
+  question: "Which of the following functional groups is characteristic of carboxylic acids?",
+  answers: [
+      { text: "-COOH", correct: true },
+      { text: "-CHO", correct: false },
+      { text: "-OH", correct: false },
+      { text: "-NH2", correct: false }
+  ],
+  explanation: "Carboxylic acids contain the -COOH group, consisting of a carbonyl group bonded to a hydroxyl group."
+},
+{
+  question: "Which of the following reactions converts an alkene to an alkane?",
+  answers: [
+      { text: "Hydrogenation", correct: true },
+      { text: "Oxidation", correct: false },
+      { text: "Dehydration", correct: false },
+      { text: "Polymerization", correct: false }
+  ],
+  explanation: "Hydrogenation is the addition of hydrogen to an alkene, converting it into an alkane by breaking the double bond."
+},
+{
+  question: "Which of the following compounds is an example of an aromatic hydrocarbon?",
+  answers: [
+      { text: "Benzene", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethene", correct: false },
+      { text: "Propyne", correct: false }
+  ],
+  explanation: "Benzene (C6H6) is an aromatic hydrocarbon, characterized by a planar ring structure with delocalized pi electrons."
+},
+{
+  question: "Which of the following is a secondary alcohol?",
+  answers: [
+      { text: "2-propanol", correct: true },
+      { text: "Ethanol", correct: false },
+      { text: "Methanol", correct: false },
+      { text: "1-butanol", correct: false }
+  ],
+  explanation: "2-propanol is a secondary alcohol because the hydroxyl group is attached to a carbon atom bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following describes a tertiary alcohol?",
+  answers: [
+      { text: "An alcohol where the hydroxyl group is attached to a carbon bonded to three other carbon atoms", correct: true },
+      { text: "An alcohol where the hydroxyl group is attached to a carbon bonded to one other carbon atom", correct: false },
+      { text: "An alcohol where the hydroxyl group is attached to a carbon bonded to two other carbon atoms", correct: false },
+      { text: "An alcohol where the hydroxyl group is attached to a carbon with no other carbon atoms", correct: false }
+  ],
+  explanation: "A tertiary alcohol has the hydroxyl group attached to a carbon atom that is bonded to three other carbon atoms."
+},
+{
+  question: "Which of the following is a nucleophile?",
+  answers: [
+      { text: "OH-", correct: true },
+      { text: "H+", correct: false },
+      { text: "Cl+", correct: false },
+      { text: "Br+", correct: false }
+  ],
+  explanation: "OH- is a nucleophile because it is an electron-rich species that donates electrons to form bonds with electrophiles."
+},
+{
+  question: "Which of the following is the IUPAC name for CH3CH2COOH?",
+  answers: [
+      { text: "Propanoic acid", correct: true },
+      { text: "Ethanoic acid", correct: false },
+      { text: "Butanoic acid", correct: false },
+      { text: "Methanoic acid", correct: false }
+  ],
+  explanation: "CH3CH2COOH is propanoic acid, a carboxylic acid with three carbon atoms."
+},
+{
+  question: "Which of the following reactions involves the removal of water?",
+  answers: [
+      { text: "Dehydration", correct: true },
+      { text: "Hydration", correct: false },
+      { text: "Oxidation", correct: false },
+      { text: "Substitution", correct: false }
+  ],
+  explanation: "Dehydration reactions involve the removal of water, such as the conversion of alcohols to alkenes."
+},
+{
+  question: "Which of the following functional groups is characteristic of ketones?",
+  answers: [
+      { text: "Carbonyl group (C=O)", correct: true },
+      { text: "Carboxyl group (-COOH)", correct: false },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Amino group (-NH2)", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (C=O) where the carbonyl carbon is bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following is an unsaturated hydrocarbon?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Ethane", correct: false },
+      { text: "Methane", correct: false },
+      { text: "Propane", correct: false }
+  ],
+  explanation: "Ethene (C2H4) is an unsaturated hydrocarbon because it contains a carbon-carbon double bond."
+},
+{
+  question: "Which of the following compounds is the product of the hydrogenation of ethene?",
+  answers: [
+      { text: "Ethane", correct: true },
+      { text: "Ethyne", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Ethanoic acid", correct: false }
+  ],
+  explanation: "Hydrogenation of ethene (C2H4) adds hydrogen across the double bond, converting it into ethane (C2H6)."
+},
+{
+  question: "Which of the following is an example of an electrophile?",
+  answers: [
+      { text: "Br+", correct: true },
+      { text: "OH-", correct: false },
+      { text: "Cl-", correct: false },
+      { text: "NH2-", correct: false }
+  ],
+  explanation: "Br+ is an electrophile because it is electron-deficient and seeks electrons from nucleophiles."
+},
+{
+  question: "Which of the following statements is true about oxidation reactions?",
+  answers: [
+      { text: "They involve the loss of electrons", correct: true },
+      { text: "They involve the gain of electrons", correct: false },
+      { text: "They always produce hydrogen", correct: false },
+      { text: "They decrease the oxidation state of an atom", correct: false }
+  ],
+  explanation: "Oxidation reactions involve the loss of electrons, which increases the oxidation state of the species."
+},
+{
+  question: "Which of the following reactions involves the substitution of one atom or group in a molecule for another?",
+  answers: [
+      { text: "Substitution", correct: true },
+      { text: "Addition", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Dehydration", correct: false }
+  ],
+  explanation: "In a substitution reaction, one atom or group in a molecule is replaced by another atom or group."
+},
+{
+  question: "Which of the following is the general formula for alkynes?",
+  answers: [
+      { text: "CnH2n-2", correct: true },
+      { text: "CnH2n", correct: false },
+      { text: "CnH2n+2", correct: false },
+      { text: "CnHn", correct: false }
+  ],
+  explanation: "The general formula for alkynes, which contain a carbon-carbon triple bond, is CnH2n-2."
+},
+{
+  question: "Which of the following reactions is an example of esterification?",
+  answers: [
+      { text: "Reaction of a carboxylic acid with an alcohol", correct: true },
+      { text: "Reaction of an alkene with hydrogen", correct: false },
+      { text: "Reaction of a ketone with a reducing agent", correct: false },
+      { text: "Reaction of an alcohol with an alkane", correct: false }
+  ],
+  explanation: "Esterification involves the reaction of a carboxylic acid and an alcohol to form an ester and water."
+},
+{
+  question: "Which of the following describes a diene?",
+  answers: [
+      { text: "A hydrocarbon with two double bonds", correct: true },
+      { text: "A hydrocarbon with one double bond", correct: false },
+      { text: "A hydrocarbon with two triple bonds", correct: false },
+      { text: "A hydrocarbon with two single bonds", correct: false }
+  ],
+  explanation: "A diene is a hydrocarbon that contains two double bonds, typically found in compounds such as 1,3-butadiene."
+},
+{
+  question: "Which of the following functional groups is found in amides?",
+  answers: [
+      { text: "Carbonyl group (C=O) attached to a nitrogen atom", correct: true },
+      { text: "Hydroxyl group (-OH)", correct: false },
+      { text: "Carboxyl group (-COOH)", correct: false },
+      { text: "Amino group (-NH2) attached to a carbon atom", correct: false }
+  ],
+  explanation: "Amides contain a carbonyl group (C=O) attached to a nitrogen atom, forming the functional group -CONH2."
+},
+{
+  question: "Which of the following is a characteristic of aromatic compounds?",
+  answers: [
+      { text: "They have a cyclic structure with delocalized pi electrons", correct: true },
+      { text: "They are saturated hydrocarbons", correct: false },
+      { text: "They contain a carbon-carbon triple bond", correct: false },
+      { text: "They undergo addition reactions", correct: false }
+  ],
+  explanation: "Aromatic compounds, such as benzene, have a cyclic structure with delocalized pi electrons, which makes them stable and less reactive."
+},
+{
+  question: "Which of the following compounds is an isomer of butanol?",
+  answers: [
+      { text: "2-methylpropanol", correct: true },
+      { text: "Methanol", correct: false },
+      { text: "Propanone", correct: false },
+      { text: "Ethanol", correct: false }
+  ],
+  explanation: "2-methylpropanol is an isomer of butanol, as it has the same molecular formula (C4H10O) but a different structure."
+},
+{
+  question: "Which of the following is the general formula for carboxylic acids?",
+  answers: [
+      { text: "CnH2n+1COOH", correct: true },
+      { text: "CnH2n+1OH", correct: false },
+      { text: "CnH2n", correct: false },
+      { text: "CnH2n+2", correct: false }
+  ],
+  explanation: "Carboxylic acids have the general formula CnH2n+1COOH, where 'n' represents the number of carbon atoms."
+},
+{
+  question: "Which of the following statements is true about alkanes?",
+  answers: [
+      { text: "They are saturated hydrocarbons", correct: true },
+      { text: "They contain a carbon-carbon double bond", correct: false },
+      { text: "They are unsaturated hydrocarbons", correct: false },
+      { text: "They readily undergo addition reactions", correct: false }
+  ],
+  explanation: "Alkanes are saturated hydrocarbons, meaning they contain only single bonds between carbon atoms and do not undergo addition reactions."
+},
+{
+  question: "Which of the following reactions typically involves the loss of electrons?",
+  answers: [
+      { text: "Oxidation", correct: true },
+      { text: "Reduction", correct: false },
+      { text: "Hydration", correct: false },
+      { text: "Substitution", correct: false }
+  ],
+  explanation: "Oxidation reactions involve the loss of electrons, which results in an increase in the oxidation state of the molecule."
+},
+{
+  question: "Which of the following processes is used to convert alcohols into alkenes?",
+  answers: [
+      { text: "Dehydration", correct: true },
+      { text: "Hydration", correct: false },
+      { text: "Hydrogenation", correct: false },
+      { text: "Oxidation", correct: false }
+  ],
+  explanation: "Dehydration is the process of removing water from an alcohol, converting it into an alkene."
+},
+{
+  question: "Which of the following reactions is an example of a substitution reaction?",
+  answers: [
+      { text: "Reaction of methane with chlorine in the presence of UV light", correct: true },
+      { text: "Hydrogenation of ethene to ethane", correct: false },
+      { text: "Hydration of ethene to ethanol", correct: false },
+      { text: "Addition of bromine to ethene", correct: false }
+  ],
+  explanation: "The reaction of methane with chlorine in the presence of UV light is a substitution reaction where a hydrogen atom is replaced by a chlorine atom."
+},
+{
+  question: "Which of the following is the product of the complete combustion of butane?",
+  answers: [
+      { text: "Carbon dioxide and water", correct: true },
+      { text: "Methane and oxygen", correct: false },
+      { text: "Ethene and water", correct: false },
+      { text: "Carbon monoxide and hydrogen", correct: false }
+  ],
+  explanation: "Complete combustion of butane (C4H10) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+  question: "Which of the following is an example of a polar molecule?",
+  answers: [
+      { text: "Water", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Carbon dioxide", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Water (H2O) is a polar molecule due to its bent shape and the unequal sharing of electrons between hydrogen and oxygen atoms."
+},
+{
+  question: "Which of the following functional groups is characteristic of esters?",
+  answers: [
+      { text: "-COOR", correct: true },
+      { text: "-OH", correct: false },
+      { text: "-NH2", correct: false },
+      { text: "-CHO", correct: false }
+  ],
+  explanation: "Esters contain the functional group -COOR, where 'R' is an alkyl or aryl group."
+},
+{
+  question: "Which of the following is the IUPAC name for CH3COOCH3?",
+  answers: [
+      { text: "Methyl ethanoate", correct: true },
+      { text: "Ethyl methanoate", correct: false },
+      { text: "Methanoic acid", correct: false },
+      { text: "Ethanol", correct: false }
+  ],
+  explanation: "CH3COOCH3 is methyl ethanoate, an ester formed from methanol and ethanoic acid."
+},
+{
+  question: "Which of the following is a product of esterification?",
+  answers: [
+      { text: "An ester and water", correct: true },
+      { text: "A carboxylic acid and an alcohol", correct: false },
+      { text: "An alkene and hydrogen", correct: false },
+      { text: "A ketone and water", correct: false }
+  ],
+  explanation: "Esterification is the reaction between an alcohol and a carboxylic acid, producing an ester and water."
+},
+{
+  question: "Which of the following is the general formula for an alkane?",
+  answers: [
+      { text: "CnH2n+2", correct: true },
+      { text: "CnH2n", correct: false },
+      { text: "CnH2n-2", correct: false },
+      { text: "CnH2n+1", correct: false }
+  ],
+  explanation: "Alkanes follow the general formula CnH2n+2, where 'n' is the number of carbon atoms in the molecule."
+},
+{
+  question: "Which of the following describes a ketone?",
+  answers: [
+      { text: "A carbonyl group bonded to two carbon atoms", correct: true },
+      { text: "A carbonyl group bonded to a hydrogen atom", correct: false },
+      { text: "A hydroxyl group bonded to a carbon atom", correct: false },
+      { text: "A carboxyl group bonded to an alkyl group", correct: false }
+  ],
+  explanation: "Ketones contain a carbonyl group (C=O) bonded to two carbon atoms, distinguishing them from aldehydes."
+},
+{
+  question: "Which of the following is the IUPAC name for CH3CH2OH?",
+  answers: [
+      { text: "Ethanol", correct: true },
+      { text: "Methanol", correct: false },
+      { text: "Propanol", correct: false },
+      { text: "Butanol", correct: false }
+  ],
+  explanation: "CH3CH2OH is ethanol, a primary alcohol with two carbon atoms."
+},
+{
+  question: "Which of the following processes converts an alkene into an alkane?",
+  answers: [
+      { text: "Hydrogenation", correct: true },
+      { text: "Dehydration", correct: false },
+      { text: "Hydrolysis", correct: false },
+      { text: "Oxidation", correct: false }
+  ],
+  explanation: "Hydrogenation involves the addition of hydrogen to an alkene, converting the double bond into a single bond and forming an alkane."
+},
+{
+  question: "Which of the following reactions involves the addition of water to an alkene?",
+  answers: [
+      { text: "Hydration", correct: true },
+      { text: "Dehydration", correct: false },
+      { text: "Substitution", correct: false },
+      { text: "Polymerization", correct: false }
+  ],
+  explanation: "Hydration is the process of adding water to an alkene, forming an alcohol."
+},
+{
+  question: "Which of the following compounds is an example of a secondary alcohol?",
+  answers: [
+      { text: "2-propanol", correct: true },
+      { text: "Ethanol", correct: false },
+      { text: "Methanol", correct: false },
+      { text: "1-butanol", correct: false }
+  ],
+  explanation: "2-propanol is a secondary alcohol because the hydroxyl group is attached to a carbon atom bonded to two other carbon atoms."
+},
+{
+  question: "Which of the following is a major product of the combustion of propane?",
+  answers: [
+      { text: "Carbon dioxide and water", correct: true },
+      { text: "Methane and oxygen", correct: false },
+      { text: "Ethene and water", correct: false },
+      { text: "Carbon monoxide and hydrogen", correct: false }
+  ],
+  explanation: "Complete combustion of propane (C3H8) produces carbon dioxide (CO2) and water (H2O)."
+},
+{
+  question: "Which of the following describes a nucleophile?",
+  answers: [
+      { text: "An electron-rich species that donates electrons", correct: true },
+      { text: "An electron-deficient species that accepts electrons", correct: false },
+      { text: "A neutral molecule", correct: false },
+      { text: "A positively charged ion", correct: false }
+  ],
+  explanation: "A nucleophile is an electron-rich species that donates electrons to form bonds with electrophiles."
+},
+{
+  question: "Which of the following compounds contains a carbonyl group?",
+  answers: [
+      { text: "Propanone", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethanol", correct: false },
+      { text: "Ethene", correct: false }
+  ],
+  explanation: "Propanone (CH3COCH3), also known as acetone, contains a carbonyl group (C=O) attached to two other carbon atoms."
+},
+{
+  question: "Which of the following compounds will decolorize bromine water?",
+  answers: [
+      { text: "Ethene", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethane", correct: false },
+      { text: "Benzene", correct: false }
+  ],
+  explanation: "Ethene, an alkene, will decolorize bromine water due to the addition reaction across the double bond."
+},
 
 
         // Add more questions for Chemistry until you have 30
@@ -16524,76 +19194,168 @@ const quizData = {
     physics: [
         { question: "What is the unit of force?", answers: [{ text: "Newton", correct: true }, { text: "Joule", correct: false }, { text: "Watt", correct: false }, { text: "Pascal", correct: false }], explanation: "The unit of force is Newton." },
         { question: "What is the first law of thermodynamics?", answers: [{ text: "Energy cannot be created or destroyed.", correct: true }, { text: "For every action, there is an equal and opposite reaction.", correct: false }, { text: "The entropy of a system never decreases.", correct: false }, { text: "Energy equals mass times the speed of light squared.", correct: false }], explanation: "The first law of thermodynamics states that energy cannot be created or destroyed, only transformed." },
-        {
-            question: " If the critical angle of a glass-air boundary is C, the refractive index of the glass is ___, which of the following relation is correct",
+        
+          {
+          question: "The current passing through a semiconductor is directly proportional to its",
+          answers: [
+          { text: "Coulomb's law", correct: false },
+          { text: "Ohm's law", correct: true },
+          { text: "Faraday's law", correct: false },
+          { text: "Lenz's law", correct: false }
+          ],
+          explanation: "Ohm's law states that the current flowing through a conductor is directly proportional to the potential difference applied across it, under constant temperature conditions."
+          },
+          {
+            question: "The closed surface in Gauss's law is called",
             answers: [
-                { text: "n = sinCsin90°", correct: false },
-                { text: "n = sinC90", correct: false },
-                { text: "n = 1/sinC", correct: true }
+            { text: "Gauss keyboard", correct: false },
+            { text: "Gauss sphere", correct: false },
+            { text: "Gauss surface", correct: true },
+            { text: "None of the above", correct: false }
             ],
-            explanation: "The refractive index of the glass is given by � = 1/sinC."
-        },
-        {
-            question: " Mirage is an example of _______",
-            answers: [
-                { text: "Reflection of light", correct: false },
-                { text: "Scattering of light", correct: false },
-                { text: "Refraction of light", correct: false },
-                { text: "Total internal reflection", correct: true }
-            ],
-            explanation: "Mirage is caused by total internal reflection of light."
-        },
-        {
-            question: " Transverse wave produced on a spring has a frequency of 200Hz and travels along a length of a spring of 80m in 0.5 seconds. The speed of the wave will be",
-            answers: [
-                { text: "160m/s", correct: true },
-                { text: "150m/s", correct: false },
-                { text: "122m/s", correct: false },
-                { text: "133m/s", correct: false }
-            ],
-            explanation: "Speed of the wave = Distance / Time = 80m / 0.5s = 160m/s."
-        },
-        {
-            question: " A transverse wave produced on a spring has a frequency of 200Hz and travels along a length of a string 80m in 0.5 seconds. What will be the wavelength of the transverse wave?",
-            answers: [
-                { text: "0.8m", correct: false },
-                { text: "8m", correct: false },
-                { text: "160m", correct: false },
-                { text: "0.4m", correct: true }
-            ],
-            explanation: "Wavelength = Speed / Frequency = 160m/s / 200Hz = 0.8m."
-        },
-        {
-            question: " In Simple Harmonic Motion, the equation relating the acceleration (a) and displacement (x) is a = -kx. The equation shows that at that instant",
-            answers: [
-                { text: "The velocity is involved", correct: false },
-                { text: "The sign is just there", correct: false },
-                { text: "The displacement is downward, the acceleration directed upward, the equilibrium position", correct: false },
-                { text: "The acceleration is partly proportional to displacement", correct: true }
-            ],
-            explanation: "In SHM, the acceleration is directly proportional and opposite in direction to the displacement."
-        },
-        {
-            question: " A metal wire of mass 1g and length 50cm is under tension of 80N. Calculate the frequency",
-            answers: [
-                { text: "300Hz", correct: false },
-                { text: "500Hz", correct: false },
-                { text: "400Hz", correct: false },
-                { text: "200Hz", correct: true }
-            ],
-            explanation: "Frequency = 1 / (2L) * sqrt(T / �) = 1 / (2 * 0.5m) * sqrt(80N / (1g * 10^-3kg/m) = 200Hz."
-        },
-        {
-            question: " A metal wire of mass 1g and length 50cm is under tension of 80N. Calculate the frequency of the first overtone",
-            answers: [
-                { text: "300Hz", correct: false },
-                { text: "500Hz", correct: false },
-                { text: "400Hz", correct: true },
-                { text: "200Hz", correct: false }
-            ],
-            explanation: "Frequency of first overtone = 2 * Fundamental frequency = 2 * 200Hz = 400Hz."
-        },
-        {
+            explanation: "Gauss's law deals with the flux through a closed surface, known as a Gauss surface."
+            },
+            {
+              question: "Calculate the electrostatic force between two electrons separated by a distance of 10^-10 m. Given electronic charge = 1.6 x 10^-19 C (k = 9 x 10^9 Nm^2/C^2)",
+              answers: [
+              { text: "9 x 10^-8 N", correct: true },
+              { text: "1.6 x 10^-19 N", correct: false },
+              { text: "1.44 x 10^-28 N", correct: false },
+              { text: "None of the above", correct: false }
+              ],
+              explanation: "The electrostatic force between two charges is given by Coulomb's law: F = (k * q1 * q2) / r^2, where q1 and q2 are the charges, k is the Coulomb constant, and r is the distance between the charges."
+              },
+              {
+                question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
+                answers: [
+                { text: "1.20 ohms", correct: false },
+                { text: "5.5 ohms", correct: false },
+                { text: "2.4 ohms", correct: false },
+                { text: "4.6 ohms", correct: true }
+                ],
+                explanation: "The resistance of a material changes with temperature according to the formula: R2 = R1 * [1 + α * (T2 - T1)], where α is the temperature coefficient of resistance."
+              },
+              {
+                  question: "In an inductive circuit,",
+                  answers: [
+                  { text: "Current lags voltage by 90°", correct: true },
+                  { text: "Voltage lags current by 90°", correct: false },
+                  { text: "", correct: false },
+                  { text: "", correct: false }
+                  ],
+                  explanation: "In an inductive circuit, the current lags the voltage by 90° due to the inductance of the circuit."
+              },
+              {
+                question: "A charge of magnitude 2 x 10^-4 C experiences a force of 4 x 10^-5 N in an electric field. Find the electric field intensity",
+                answers: [
+                { text: "5 x 10^5 N/C", correct: true },
+                { text: "3.4 x 10^5 N/C", correct: false },
+                { text: "2.4 x 10^5 N/C", correct: false },
+                { text: "4 x 10^-5 N/C", correct: false }
+                ],
+                explanation: "The electric field intensity (E) is given by E = F / q, where F is the force experienced by the charge q. Substituting the given values, E = (4 x 10^-5 N) / (2 x 10^-4 C) = 5 x 10^5 N/C."
+              },
+              {
+                question: "A radio is operated by eight cells, each of e.m.f 2.0 V connected in series. If the cells are wrongly connected, the net e.m.f of the radio is",
+                answers: [
+                  { text: "16V", correct: false },
+                  { text: "10V", correct: false },
+                  { text: "12V", correct: false },
+                  { text: "8V", correct: true }
+                ],
+                explanation: "If cells with an EMF of 2.0 V each are connected in series, and they are wrongly connected, the net EMF of the radio will be 8V."
+              },
+              {
+                question: "The path followed by flow of electric current is _______________",
+                answers: [
+                  { text: "Ampere", correct: false },
+                  { text: "Voltage", correct: false },
+                  { text: "Circuit", correct: true },
+                  { text: "Conduction", correct: false }
+                ],
+                explanation: "The path followed by the flow of electric current is called a circuit."
+              },
+              {
+                question: "The total capacitance when three capacitors of 0.3 µF, 0.2 µF, and the joint capacitance when arranged to give minimum capacitance",
+                answers: [
+                  { text: "1.0 µF", correct: true },
+                  { text: "0.2 µF", correct: false },
+                  { text: "0.1 µF", correct: false },
+                  { text: "0.3 µF", correct: false }
+                ],
+                explanation: "When capacitors are connected in parallel, their total capacitance is the sum of individual capacitances. So, 0.3 µF + 0.2 µF = 1.0 µF."
+              },
+              {
+                question: "Find the electric field intensity of an object whose potential is 3.6V and distance is 30m",
+                answers: [
+                  { text: "12.0 V/m", correct: false },
+                  { text: "8 V/m", correct: true },
+                  { text: "24 V/m", correct: false },
+                  { text: "18 V/m", correct: false }
+                ],
+                explanation: "Electric field intensity (E) is given by E = V / d, where V is the potential and d is the distance. Substituting the given values: E = 3.6V / 30m = 0.12 V/m."
+              },
+              {
+                question: "Static electricity can be referred to as",
+                answers: [
+                  { text: "Electrostatics", correct: true },
+                  { text: "Electric charge", correct: false },
+                  { text: "All of the above", correct: false },
+                  { text: "Electric current", correct: false }
+                ],
+                explanation: "Static electricity is also known as electrostatics. It deals with the study of stationary electric charges."
+              },
+              {
+                question: "If glass is rubbed with silk, the silk becomes",
+                answers: [
+                    { text: "Neutral", correct: false },
+                    { text: "Positively charged", correct: false },
+                    { text: "Perfect", correct: false },
+                    { text: "Negatively charged", correct: true }
+                ],
+                explanation: "When glass is rubbed with silk, electrons transfer from the glass to the silk, making the silk negatively charged."
+            },
+            {
+                question: "If glass is rubbed with silk, the glass becomes",
+                answers: [
+                    { text: "Neutral", correct: false },
+                    { text: "Positively charged", correct: true },
+                    { text: "Perfect", correct: false },
+                    { text: "Negatively charged", correct: false }
+                ],
+                explanation: "When glass is rubbed with silk, electrons are removed from the glass, leaving it positively charged."
+            },
+            {
+                question: "If ebonite is rubbed with fur, the ebonite becomes",
+                answers: [
+                    { text: "Neutral", correct: false },
+                    { text: "Positively charged", correct: false },
+                    { text: "Perfect", correct: false },
+                    { text: "Negatively charged", correct: true }
+                ],
+                explanation: "When ebonite is rubbed with fur, electrons transfer from the fur to the ebonite, making the ebonite negatively charged."
+            },    
+            {
+              question: "A point charge of 2.0×10^-7 C experiences force of 0.02N in uniform electric field. Calculate the magnitude of strength of the field",
+              answers: [
+                  { text: "4 ×10^-9 N/C", correct: false },
+                  { text: "1 ×10^-9 N/C", correct: false },
+                  { text: "1 ×10^5 N/C", correct: true },
+                  { text: "1 × 10^4 N/C", correct: false }
+              ],
+              explanation: "Electric field strength (E) = Force (F) / Charge (Q). Here, E = 0.02N / 2.0×10^-7 C = 1 × 10^5 N/C."
+          },
+          {
+              question: "Unit of magnetic induction is",
+              answers: [
+                  { text: "Coulombs", correct: false },
+                  { text: "Tesla", correct: true },
+                  { text: "Ampere", correct: false },
+                  { text: "Farad", correct: false }
+              ],
+              explanation: "Tesla is the SI unit of magnetic induction."
+          },
+          {
             question: " In a pure capacitance A.C circuit of 50Hz. Calculate the capacitive reactance when connected to a 10μF capacitor",
             answers: [
                 { text: "318.27Ω", correct: true },
@@ -16614,3790 +19376,111 @@ const quizData = {
             explanation: "Inductive reactance XL = 2πfL = 2π * 50Hz * 0.5H ≈ 157.1Ω."
         },
         {
-            question: " Any system which obeys __________ can exhibit Simple Harmonic Motion",
-            answers: [
-                { text: "superposition theorem", correct: false },
-                { text: "Hooke's law", correct: true },
-                { text: "Kirchhoff's law", correct: false },
-                { text: "Thevenin's theorem", correct: false }
-            ],
-            explanation: "Simple Harmonic Motion is exhibited by systems that obey Hooke's law."
-        },
-        {
-            question: ". A light spiral spring is loaded with a mass of 150g and extends by 10cm. Calculate the period of small vertical oscillatory (Take g = 10m/s^2)",
-            answers: [
-                { text: "0.63s", correct: false },
-                { text: "0.53s", correct: false },
-                { text: "0.33s", correct: false },
-                { text: "0.45s", correct: true }
-            ],
-            explanation: "Period T = 2π * sqrt(m / k) = 2π * sqrt(0.15kg / (10N/m)) ≈ 0.45s."
-        },
-        {
-            question: " A light spiral spring is loaded with a mass of 300g and extends by 15cm. What is the frequency of small vertical oscillatory (Take g = 10m/s^2)",
-            answers: [
-                { text: "2.20Hz", correct: false },
-                { text: "1.30Hz", correct: true },
-                { text: "1.59Hz", correct: false },
-                { text: "1.63Hz", correct: false }
-            ],
-            explanation: "Frequency f = 1 / T = 1 / (2π * sqrt(m / k)) = 1 / (2π * sqrt(0.3kg / (10N/m))) ≈ 1.30Hz."
-        },
-        {
-            question: " A light spiral spring is loaded with a mass of 250g and extends by 30cm. What is the frequency of small vertical oscillatory (Take g = 10m/s^2)",
-            answers: [
-                { text: "0.20Hz", correct: false },
-                { text: "1.30Hz", correct: false },
-                { text: "0.59Hz", correct: false },
-                { text: "0.92Hz", correct: true }
-            ],
-            explanation: "Frequency f = 1 / T = 1 / (2π * sqrt(m / k)) = 1 / (2π * sqrt(0.25kg / (10N/m))) ≈ 0.92Hz."
-        },
-        {
-            question: " Which of these is not a magnetic material",
-            answers: [
-                { text: "Copper", correct: true },
-                { text: "Iron", correct: false },
-                { text: "Cobalt", correct: false },
-                { text: "Steel", correct: false }
-            ],
-            explanation: "Copper is not a magnetic material."
-        },
-        {
-            question: " The high voltage across the spark plug on the ignition system in a motor car is supplied by",
-            answers: [
-                { text: "Alternator", correct: false },
-                { text: "Carburetor", correct: false },
-                { text: "Induction coil", correct: true },
-                { text: "Capacitor", correct: false }
-            ],
-            explanation: "High voltage across the spark plug is supplied by the induction coil."
-        },
-        {
-            question: " The unit of electric field intensity is",
-            answers: [
-                { text: "Newton/F", correct: false },
-                { text: "N/C", correct: true },
-                { text: "NC", correct: false },
-                { text: "μ/k", correct: false }
-            ],
-            explanation: "The unit of electric field intensity is Newton per Coulomb (N/C)."
-        },
-        {
-            question: " The unit of electric field intensity is",
-            answers: [
-                { text: "Newton per Farad", correct: false },
-                { text: "Newton per meter", correct: false },
-                { text: "Newton per Coulomb", correct: true },
-                { text: "Newton per kelvin", correct: false }
-            ],
-            explanation: "The unit of electric field intensity is Newton per Coulomb (N/C)."
-        },
-        {
-            question: " In a pure conductive A.C circuit",
-            answers: [
-                { text: "Current leads voltage by 45°", correct: false },
-                { text: "Current lags voltage by 90°", correct: true },
-                { text: "Current lags voltage by 45°", correct: false },
-                { text: "Current leads voltage by 90°", correct: false }
-            ],
-            explanation: "In a purely conductive AC circuit, current lags voltage by 90°."
-        },
-        {
-            question: " Natural damped oscillations are due to ________________ in a spring and fluids exerting a viscous drag",
-            answers: [
-                { text: "External forces", correct: false },
-                { text: "Internal forces", correct: true },
-                { text: "Resulting forces", correct: false },
-                { text: "Gravitational forces", correct: false }
-            ],
-            explanation: "Natural damped oscillations are caused by internal forces in a spring and viscous drag from fluids."
-        },
-        {
-            question: " How much current is drawn by a 60Ω resistor when a voltage of 12V is impressed on it",
-            answers: [
-                { text: "0.2A", correct: true },
-                { text: "5.0A", correct: false },
-                { text: "2.0A", correct: false },
-                { text: "0.5A", correct: false }
-            ],
-            explanation: "Current (I) = Voltage (V) / Resistance (R) = 12V / 60Ω = 0.2A."
-        },
-        {
-            question: " _______________ is the tendency of an electric current to oppose a change in the electric circuit",
-            answers: [
-                { text: "Impedance", correct: false },
-                { text: "Reactance", correct: false },
-                { text: "Circuit", correct: false },
-                { text: "Inductance", correct: true }
-            ],
-            explanation: "Inductance is the tendency of an electric current to oppose a change in the electric circuit."
-        },
-        {
-            question: " The opposition of material medium to current flow is called",
-            answers: [
-                { text: "current", correct: false },
-                { text: "Resistor", correct: false },
-                { text: "Conductor", correct: false },
-                { text: "Resistance", correct: true }
-            ],
-            explanation: "Resistance is the opposition of a material medium to current flow."
-        },
-        {
-            question: " Opposition presented to A.C by inductance or capacitance is",
-            answers: [
-                { text: "Inductance", correct: false },
-                { text: "Reactance", correct: true },
-                { text: "Impedance", correct: false },
-                { text: "Circuit", correct: false }
-            ],
-            explanation: "Opposition presented to AC by inductance or capacitance is called reactance."
-        },
-        {
-            question: " Opposition to A.C presented by the combine effect of resistance reactance is called",
-            answers: [
-                { text: "Circuit", correct: false },
-                { text: "Reactance", correct: false },
-                { text: "Inductance", correct: false },
-                { text: "Impedance", correct: true }
-            ],
-            explanation: "Opposition to AC presented by the combined effect of resistance and reactance is called impedance."
-        },
-        {
-            question: " The following are the uses of concave mirror except",
-            answers: [
-                { text: "Inside driving mirror", correct: false },
-                { text: "Headlamp reflector", correct: false },
-                { text: "Reflecting telescope", correct: false },
-                { text: "Dental mirror", correct: true }
-            ],
-            explanation: "A dental mirror is not typically a use of a concave mirror."
-        },
-        {
-            question: " Given that the wavelength is 300m and the velocity of the wave is 3×10^8 m/s. Calculate the frequency",
-            answers: [
-                { text: "100 mHz", correct: false },
-                { text: "900 mHz", correct: false },
-                { text: "9 mHz", correct: false },
-                { text: "1 mHz", correct: true }
-            ],
-            explanation: "Frequency (f) = Velocity (v) / Wavelength (λ) = (3×10^8 m/s) / 300 m = 1 × 10^6 Hz = 1 mHz."
-        },
-        {
-            question: "A coil of negligible resistance has 50V across its ends with 10mA. The inductive reactance is",
-            answers: [
-                { text: "50 ohms", correct: false },
-                { text: "5000 ohms", correct: true },
-                { text: "1000 ohms", correct: false },
-                { text: "500 ohms", correct: false }
-            ],
-            explanation: "Inductive reactance (X_L) = V / I = 50V / 0.01A = 5000 ohms."
-        },
-        {
-            question: "A disk with radius 0.10m is placed in a uniform electric field of magnitude 2.0×10^3 N/C and is inclined at 30° to the field. Calculate the electric flux through the disk",
-            answers: [
-                { text: "5400 Nm^2C^-1", correct: false },
-                { text: "540 Nm^2C^-1", correct: false },
-                { text: "54 Nm^2C^-1", correct: true },
-                { text: "0.54 Nm^2C^-1", correct: false }
-            ],
-            explanation: "Electric flux (Φ) = E * A * cos(θ), where A = πr^2 * cos(30°). Calculate Φ using given values."
-        },
-        {
-            question: "Calculate the electric dipole moment of charges 1.6×10^-19 C of a dipole separated by 0.125 nm",
-            answers: [
-                { text: "2×10^-19 Cm", correct: false },
-                { text: "2.29×10^-19 Cm", correct: false },
-                { text: "2.10×10^-29 Cm", correct: false },
-                { text: "2×10^-29 Cm", correct: true }
-            ],
-            explanation: "Electric dipole moment (p) = q * d, where q = 1.6×10^-19 C and d = 0.125 nm converted to meters."
-        },
-        {
-            question: "The capacitance of a parallel plate capacitor is 20μF in air and 60μF in vacuum in the presence of dielectric constant",
-            answers: [
-                { text: "2.0", correct: false },
-                { text: "0.3", correct: false },
-                { text: "3.0", correct: true },
-                { text: "6.0", correct: false }
-            ],
-            explanation: "Capacitance (C) = ε₀ * εᵣ * A / d, where εᵣ for vacuum is 1 and for the dielectric constant."
-        },
-        {
-            question: "A hypermetropic person having 'near point' at a distance of 0.75m puts on spectacles of power 2.5D. The nearest point now is at _________",
-            answers: [
-                { text: "0.83m", correct: false },
-                { text: "0.75m", correct: false },
-                { text: "26m", correct: true },
-                { text: "0.26cm", correct: false }
-            ],
-            explanation: "Calculate the new near point distance using the lens formula."
-        },
-        {
-            question: "Which of the following is true\ni. A reflected beam always has the same radiance as the incident beam\nii. A reflected beam lies in the same plane as the incident beam\niii. A reflected beam always makes an angle (θ) with the normal to the interface",
-            answers: [
-                { text: "i and ii are true", correct: false },
-                { text: "i and iii are true", correct: false },
-                { text: "i, ii and iii are true", correct: true },
-                { text: "Only i is true", correct: false }
-            ],
-            explanation: "All three statements i, ii, and iii are true regarding the reflection of light."
-        },
-        {
-            question: "What is the electric field intensity at 30cm from a charged body q = 4×10^-9 C [E = 8.85×10^-12 F/m]",
-            answers: [
-                { text: "1.199 N/C", correct: false },
-                { text: "11.99 N/C", correct: false },
-                { text: "399.6 N/C", correct: true },
-                { text: "119.9 N/C", correct: false }
-            ],
-            explanation: "Electric field intensity (E) = k * q / r^2, where k is Coulomb's constant and r is the distance from the charge."
-        },
-        {
-            question: "Gauss' law states that the total flux through any closed surface is proportional to the",
-            answers: [
-                { text: "total electric charge inside the surface", correct: true },
-                { text: "total electric field in the surface", correct: false },
-                { text: "total volume enclosed by the surface", correct: false },
-                { text: "total electric force inside the surface", correct: false }
-            ],
-            explanation: "According to Gauss' law, the total electric flux through any closed surface is proportional to the total electric charge inside the surface."
-        },
-        {
-            question: "Where is the image formed when an object is placed beyond the center of curvature of a concave mirror",
-            answers: [
-                { text: "beyond the center of curvature", correct: false },
-                { text: "between focus and the center of curvature", correct: true },
-                { text: "at the center of curvature", correct: false },
-                { text: "at infinity", correct: false }
-            ],
-            explanation: "When an object is placed beyond the center of curvature of a concave mirror, its image is formed between the focus and the center of curvature."
-        },
-        {
-            question: "In a concave mirror, when the object is at the center of curvature C, the size of the image is",
-            answers: [
-                { text: "would have been the same", correct: true },
-                { text: "was too small", correct: false },
-                { text: "would have been greatly magnified", correct: false },
-                { text: "would have amplified", correct: false }
-            ],
-            explanation: "When the object is at the center of curvature C in a concave mirror, the size of the image would have been the same as the object."
-        },
-        {
-            question: "A transformer with 800 turns at the primary coil and 100 turns at the secondary coil is connected to a primary voltage V and produces a 40V secondary winding. The voltage V applied to the primary winding is",
-            answers: [
-                { text: "20V", correct: false },
-                { text: "5V", correct: false },
-                { text: "2.5V", correct: false },
-                { text: "320V", correct: true }
-            ],
-            explanation: "Use the transformer voltage ratio formula to calculate V."
-        },
-        {
-            question: "A periscope makes use of",
-            answers: [
-                { text: "Two spherical mirrors", correct: false },
-                { text: "Two plane mirrors", correct: true },
-                { text: "Three plane mirrors", correct: false },
-                { text: "Three spherical mirrors", correct: false }
-            ],
-            explanation: "A periscope uses two plane mirrors to allow viewing around obstacles."
-        },
-        {
-            question: "Mirage is an example of",
-            answers: [
-                { text: "Reflection of light", correct: false },
-                { text: "Scattering of light", correct: false },
-                { text: "Total internal reflection", correct: false },
-                { text: "Refraction of light", correct: true }
-            ],
-            explanation: "Mirage is an example of refraction of light due to temperature gradients in the air."
-        },
-        {
-            question: "A 1000V by 250V transformer has 500 turns on the secondary coil. The number of turns on the primary coil is",
-            answers: [
-                { text: "1000", correct: false },
-                { text: "125", correct: false },
-                { text: "2000", correct: true },
-                { text: "250", correct: false }
-            ],
-            explanation: "Use the transformer voltage ratio formula to calculate the number of turns on the primary coil."
-        },
-        {
-            question: "A transverse wave produced on a spring has a frequency of 200Hz and travels along a length of spring 80m in 0.5 seconds. What will be the wavelength",
-            answers: [
-                { text: "160m", correct: false },
-                { text: "0.8m", correct: false },
-                { text: "0.122m", correct: false },
-                { text: "8m", correct: true }
-            ],
-            explanation: "Wavelength (λ) = velocity (v) / frequency (f). v = distance/time = 80m/0.5s = 160m/s. λ = 160m/s / 200Hz = 0.8m."
-        },
-        {
-            question: "The unit of luminous flux is",
-            answers: [
-                { text: "Candela", correct: false },
-                { text: "Lumen", correct: true },
-                { text: "Lux", correct: false },
-                { text: "flux", correct: false }
-            ],
-            explanation: "The unit of luminous flux is the lumen (lm)."
-        },
-        {
-            question: "The mutual inductance between two coils when a changing current of 20A/s in one coil induces an EMF of 10mV in the other is _________",
-            answers: [
-                { text: "200mH", correct: false },
-                { text: "0.5mH", correct: true },
-                { text: "2H", correct: false },
-                { text: "0.5H", correct: false }
-            ],
-            explanation: "Mutual inductance (M) = EMF / (dI/dt) = 10mV / 20A/s = 0.5mH."
-        },
-        {
-            question: "Calculate the final length when 1000cm of steel wire of linear expansivity 1.2×10^-5℃^-1 is heated from 0 to 80℃",
-            answers: [
-                { text: "1006.0", correct: true },
-                { text: "6.0×10^-3", correct: false },
-                { text: "1.2×10^-2", correct: false },
-                { text: "6×10^-4", correct: false }
-            ],
-            explanation: "Final length (L) = L₀ + (L₀ * α * ΔT), where L₀ = 1000cm, α = 1.2×10^-5℃^-1, and ΔT = 80℃."
-        },
-        {
-            question: "The resonating air column in a tube closed at one end emits its fundamental frequency when the effective length of the tube is 55.0cm. Calculate the frequency if the speed of sound in air is 330m/s",
-            answers: [
-                { text: "150Hz", correct: true },
-                { text: "300Hz", correct: false },
-                { text: "1.5Hz", correct: false },
-                { text: "6.00Hz", correct: false }
-            ],
-            explanation: "Frequency (f) = v / 4L, where v = 330m/s and L = 55.0cm."
-        },
-        {
-            question: "A prism (n = 1.5) has a refracting angle of 30°. The deviation of a monochromatic ray incident normally on its surface will be",
-            answers: [
-                { text: "18.6°", correct: true },
-                { text: "19.5°", correct: false },
-                { text: "20.5°", correct: false },
-                { text: "18°", correct: false }
-            ],
-            explanation: "Using the prism formula, deviation δ = (n - 1) * A, where A is the angle of the prism."
-        },
-        {
-            question: "Calculate the electrostatic force between two electrons separated by a distance of 10^-10m [k = 9×10^9Nm²C^-2, Electron charge = 1.6×10^-19C]",
-            answers: [
-                { text: "2.56×10^-38N", correct: false },
-                { text: "2.30×10^-10N", correct: true },
-                { text: "2.50×10^20 N", correct: false },
-                { text: "2.56×10^-29N", correct: false }
-            ],
-            explanation: "Electrostatic force (F) = k * q₁ * q₂ / r², where k = 9×10^9Nm²C^-2, q₁ = q₂ = 1.6×10^-19C, and r = 10^-10m."
-        },
-        {
-            question: "A 0.01μF capacitor is charged to a potential of 500V. It is then connected to an instrument with an input capacitance of 1.00μF. The potential difference across the instrument in volts is now",
-            answers: [
-                { text: "4.95V", correct: false },
-                { text: "1.00V", correct: false },
-                { text: "5.00V", correct: true },
-                { text: "49.5V", correct: false }
-            ],
-            explanation: "Use the formula for capacitors in parallel: V_total = (C₁ * V₁) / (C₁ + C₂)."
-        },
-        {
-            question: "The following are examples of repetitive to-and-fro motion about a mean position",
-            answers: [
-                { text: "Mass hanging from a coiled spring", correct: true },
-                { text: "The balance wheel of a watch", correct: false },
-                { text: "The car going to Kaduna", correct: false },
-                { text: "The piston in a gasoline engine", correct: false }
-            ],
-            explanation: "Mass hanging from a coiled spring exhibits simple harmonic motion."
-        },
-        {
-            question: "A 200-turn coil has an inductance of 12mH. If the number of turns is increased to 400 turns with all other parameters the same, the inductance of the coil is ______",
-            answers: [
-                { text: "14mH", correct: false },
-                { text: "6mH", correct: false },
-                { text: "48mH", correct: false },
-                { text: "24mH", correct: true }
-            ],
-            explanation: "Inductance (L) ∝ N². If N is doubled, L becomes four times the original."
-        },
-        {
-            question: "The radius of curvature of a mirror is 20cm. The focal length is",
-            answers: [
-                { text: "40cm", correct: false },
-                { text: "5cm", correct: false },
-                { text: "10cm", correct: true },
-                { text: "20cm", correct: false }
-            ],
-            explanation: "Focal length (f) = Radius of curvature (R) / 2."
-        },
-        {
-            question: "A long, straight wire carries a current of 4A. At one instant a proton 5mm from the wire travels at 2×10³ m/s parallel to the same direction as the current. What is the magnetic force acting on the proton because of the magnetic field produced by the wire",
-            answers: [
-                { text: "5.12×10^-20N", correct: true },
-                { text: "1.52×10^-20N", correct: false },
-                { text: "1.52×10^-10N", correct: false },
-                { text: "2.51×10^-20N", correct: false }
-            ],
-            explanation: "Magnetic force (F) = q * v * B, where B is the magnetic field due to the wire."
-        },
-        {
-            question: "An object 0.5cm high is placed from a convex lens of 10cm focal length. Find the size of the image",
-            answers: [
-                { text: "2.5cm", correct: false },
-                { text: "-2.5cm", correct: false },
-                { text: "5cm", correct: false },
-                { text: "3.5cm", correct: false }
-            ],
-            explanation: "Use the lens formula and magnification formula to find the size of the image."
-        },
-        {
-            question: "What is the velocity of light in steel if the refractive index of steel with respect to vacuum is 2.5",
-            answers: [
-                { text: "1.2×10¹⁰ m/s", correct: false },
-                { text: "2.5×10⁸ m/s", correct: false },
-                { text: "1.2×10⁸ m/s", correct: true },
-                { text: "5×10⁸ m/s", correct: false }
-            ],
-            explanation: "Velocity of light (v) = c / n, where c is the speed of light in vacuum and n is the refractive index."
-        },
-        {
-            question: "What is the velocity of light in steel if the refractive index of steel with respect to vacuum is 2.5",
-            answers: [
-                { text: "1.2×10¹⁰ m/s", correct: false },
-                { text: "2.5×10⁸ m/s", correct: false },
-                { text: "1.2×10⁸ m/s", correct: true },
-                { text: "5×10⁸ m/s", correct: false }
-            ],
-            explanation: "Velocity of light (v) = c / n, where c is the speed of light in vacuum and n is the refractive index."
-        },
-        {
-            question: "A ladder of 5cm high placed 20cm in front of a concave mirror whose focal length is 15cm. Find the magnification of the image",
-            answers: [
-                { text: "3", correct: true },
-                { text: "2", correct: false },
-                { text: "5", correct: false },
-                { text: "2.0", correct: false }
-            ],
-            explanation: "Magnification (m) = -v / u = f / (u - f). Here, u = -20 cm, f = -15 cm, thus m = 3."
-        },
-        {
-            question: "A ladder of 5cm high placed 20cm in front of a concave mirror whose focal length is 15cm. Find the image height",
-            answers: [
-                { text: "10cm", correct: false },
-                { text: "15cm", correct: true },
-                { text: "25cm", correct: false },
-                { text: "20cm", correct: false }
-            ],
-            explanation: "Image height = Magnification × Object height. Magnification = 3, Object height = 5cm, thus Image height = 15cm."
-        },
-        {
-            question: "___________ is the science of light measurement",
-            answers: [
-                { text: "None of the above", correct: false },
-                { text: "Photometry", correct: true },
-                { text: "Photometer", correct: false },
-                { text: "Spectrometer", correct: false }
-            ],
-            explanation: "Photometry is the science of measurement of light, in terms of its perceived brightness to the human eye."
-        },
-        {
-            question: "An electromotive force of 16v is induced in a coil of inductance 4H. The rate of change of current is",
-            answers: [
-                { text: "16A/s", correct: false },
-                { text: "32A/s", correct: false },
-                { text: "4A/s", correct: true },
-                { text: "64A/s", correct: false }
-            ],
-            explanation: "Induced emf (e) = L * (di/dt). Here, e = 16V, L = 4H, thus di/dt = 4A/s."
-        },
-        {
-            question: "A pd of 3.6v is maintained between two parallel plates which are 30cm apart. Calculate the electric field intensity between the plates",
-            answers: [
-                { text: "40vm⁻¹", correct: false },
-                { text: "1.8vm⁻¹", correct: false },
-                { text: "12.0vm⁻¹", correct: true },
-                { text: "18vm⁻¹", correct: false }
-            ],
-            explanation: "Electric field (E) = V/d. Here, V = 3.6V, d = 0.3m, thus E = 12V/m."
-        },
-        {
-            question: "A charge of magnitude 2×10⁻⁴ C experiences a force of 100N in an electric field. Find the electric field intensity",
-            answers: [
-                { text: "4.0×10⁵ N/C", correct: false },
-                { text: "3.4×10⁵ N/C", correct: false },
-                { text: "5.0×10⁵ N/C", correct: true },
-                { text: "2.4×10⁵ N/C", correct: false }
-            ],
-            explanation: "Electric field intensity (E) = F/q. Here, F = 100N, q = 2×10⁻⁴ C, thus E = 5×10⁵ N/C."
-        },
-        {
-            question: "The conductor of 2m long moves as right angle to a magnetic field of flux density 1T with a velocity of 0.5m/s. The induced EMF in the conductor",
-            answers: [
-                { text: "1.5v", correct: false },
-                { text: "1.0v", correct: true },
-                { text: "5.0v", correct: false },
-                { text: "2.5v", correct: false }
-            ],
-            explanation: "Induced emf (e) = B * l * v * sinθ. Here, B = 1T, l = 2m, v = 0.5m/s, θ = 90°, thus e = 1V."
-        },
-        {
-            question: "If an object is placed symmetrically between two plane mirrors inclined at an angle 72° then the total number of the image formed is",
-            answers: [
-                { text: "4", correct: false },
-                { text: "2", correct: false },
-                { text: "5", correct: true },
-                { text: "10", correct: false }
-            ],
-            explanation: "Number of images (n) = (360/θ) - 1. Here, θ = 72°, thus n = 5."
-        },
-        {
-            question: "The vibration resulting from the action of an external periodic force on a motion of a body is",
-            answers: [
-                { text: "Forced vibration", correct: true },
-                { text: "All", correct: false },
-                { text: "Damped vibration", correct: false },
-                { text: "Free vibration", correct: false }
-            ],
-            explanation: "Forced vibration occurs when a system is subjected to a periodic force from an external source."
-        },
-        {
-            question: "Critical angle of water when refracted angle is 90°, refractive index for water and air is 1.33 and 1.0 is",
-            answers: [
-                { text: "49.1°", correct: false },
-                { text: "48.8°", correct: true },
-                { text: "50°", correct: false },
-                { text: "51°", correct: false }
-            ],
-            explanation: "Critical angle (θc) = sin⁻¹(n2/n1). Here, n1 = 1.33, n2 = 1.0, thus θc = 48.8°.",
-        },
-        {
-            question: "The vibration resulting from the action of internal periodic force on the motion of a body is",
-            answers: [
-                { text: "Forced vibration", correct: false },
-                { text: "Natural vibration", correct: true },
-                { text: "Damped vibration", correct: false },
-                { text: "Free vibration", correct: false }
-            ],
-            explanation: "Natural vibration occurs due to the internal periodic forces acting within the body itself."
-        },
-        {
-            question: "The tension in a sonometer wire is tripled, the ratio of the new frequency to the initial frequency is",
-            answers: [
-                { text: "√3:1", correct: true },
-                { text: "1:√3", correct: false },
-                { text: "1:3", correct: false },
-                { text: "3:1", correct: false }
-            ],
-            explanation: "Frequency is proportional to the square root of the tension. Thus, if the tension is tripled, the frequency increases by a factor of √3."
-        },
-        {
-            question: "A photoemissive surface has a threshold wavelength of 0.45 μm. What is the threshold frequency",
-            answers: [
-                { text: "4.66×10¹⁴ Hz", correct: false },
-                { text: "6.67×10¹⁴ Hz", correct: true }
-            ],
-            explanation: "Threshold frequency (f) = c / λ, where c is the speed of light and λ is the wavelength. Here, c = 3×10⁸ m/s, λ = 0.45×10⁻⁶ m, thus f ≈ 6.67×10¹⁴ Hz."
-        },
-        {
-            question: "A certain prism is found to produce a minimum deviation of 51° while it produces a deviation of 42.8° for two values of the angles of incidence 40.1° and 82.7° respectively. Determine the refracting angle of the prism",
-            answers: [
-                { text: "42.6°", correct: false },
-                { text: "122.7°", correct: false },
-                { text: "91.1°", correct: false },
-                { text: "60°", correct: true }
-            ],
-            explanation: "Using the formula for the minimum deviation of a prism, we find the refracting angle to be 60°."
-        },
-        {
-            question: "The power of lens is -4, the focal length is",
-            answers: [
-                { text: "0.25m", correct: false },
-                { text: "-4m", correct: false },
-                { text: "4m", correct: false },
-                { text: "-0.25m", correct: true }
-            ],
-            explanation: "Focal length (f) = 1 / Power. Here, Power = -4, thus f = -0.25m."
-        },
-        {
-            question: "Opposition in alternating current presented by the combined effect of resistance is called",
-            answers: [
-                { text: "Impedance", correct: true },
-                { text: "Reactance", correct: false },
-                { text: "Circuit", correct: false },
-                { text: "Inductance", correct: false }
-            ],
-            explanation: "Impedance is the total opposition to the flow of alternating current, consisting of both resistance and reactance."
-        },
-        {
-            question: "A moving coil galvanometer measures direct current, not alternating current, unless it is used with",
-            answers: [
-                { text: "Wire", correct: false },
-                { text: "Rectifier", correct: true },
-                { text: "Hair spring", correct: false },
-                { text: "Ammeter", correct: false }
-            ],
-            explanation: "A rectifier is used to convert alternating current (AC) to direct current (DC), allowing a moving coil galvanometer to measure it."
-        },
-        {
-            question: "The velocity of a transverse wave along a string that is stretched by a tension (T) and linear mass density (K) is",
-            answers: [
-                { text: "(T/K)⁰.⁵", correct: true },
-                { text: "(T/K)²", correct: false },
-                { text: "(T/K)", correct: false },
-                { text: "(T²/K)", correct: false }
-            ],
-            explanation: "The velocity of a transverse wave on a string is given by v = √(T/K)."
-        },
-        {
-            question: "A variable capacitor is permanently connected to a 100V battery. If the capacitance is changed from 10μF to 2μF, The energy change is",
-            answers: [
-                { text: "4×10⁻² J to battery", correct: true },
-                { text: "12×10⁻² J from battery", correct: false },
-                { text: "8×10⁻² J to battery", correct: false },
-                { text: "14×10⁻² J from battery", correct: false }
-            ],
-            explanation: "The energy stored in a capacitor is E = ½CV². Calculate the change in energy as the capacitance changes from 10μF to 2μF."
-        },
-        {
-            question: "What is the magnitude of the electric field at a field point 2m from a point charge of 4nC",
-            answers: [
-                { text: "9N/C", correct: true },
-                { text: "9NC/C", correct: false },
-                { text: "0.9N/F", correct: false },
-                { text: "9N/M", correct: false }
-            ],
-            explanation: "Electric field (E) = k * q / r². Here, q = 4nC, r = 2m, thus E = 9N/C."
-        },
-        {
-            question: "A simple pendulum of length 50.0cm in performing SHM. The corresponding frequency and period of the pendulum is",
-            answers: [
-                { text: "4.49 and 0.22", correct: false },
-                { text: "7.10 and 1.42", correct: false },
-                { text: "7.05 and 0.14", correct: false },
-                { text: "0.071 and 14.08", correct: true }
-            ],
-            explanation: "Using the formula for the period T = 2π√(L/g) and frequency f = 1/T for a simple pendulum, we calculate the period and frequency."
-        },
-        {
-            question: "Calculate the increase in length when 10.0cm of steel wire of linear expansivity 1.2×10⁻⁵℃⁻¹ is heated from 0℃ to 50℃",
-            answers: [
-                { text: "6.0 ×10⁻⁴ cm", correct: false },
-                { text: "1.2 ×10⁻² cm", correct: false },
-                { text: "6.0 ×10⁻³ cm", correct: true },
-                { text: "1006.0cm", correct: false }
-            ],
-            explanation: "Increase in length ΔL = L₀αΔT. Here, L₀ = 10.0cm, α = 1.2×10⁻⁵℃⁻¹, ΔT = 50℃."
-        },
-        {
-            question: "A 1kg body vibrates in SHM with a period of 0.025s and an amplitude of 2.5cm. Find the maximum speed",
-            answers: [
-                { text: "4.25m/s", correct: false },
-                { text: "0.25m/s", correct: false },
-                { text: "25m/s", correct: false },
-                { text: "6.28m/s", correct: true }
-            ],
-            explanation: "Maximum speed (v_max) = Aω. Here, A = 2.5cm, ω = 2π/T, T = 0.025s."
-        },
-        {
-            question: "The critical angle for an air-water interface (the index of refraction of water is n = 1.33) is about",
-            answers: [
-                { text: "31.6°", correct: false },
-                { text: "58.4°", correct: false },
-                { text: "48.8°", correct: true },
-                { text: "42.2°", correct: false }
-            ],
-            explanation: "Critical angle (θc) = sin⁻¹(n2/n1). Here, n1 = 1.33, n2 = 1.0, thus θc = 48.8°."
-        },
-        {
-            question: "Static electricity is commonly used in the following except",
-            answers: [
-                { text: "Coating process used in manufacturing", correct: false },
-                { text: "Xerograph", correct: false },
-                { text: "Glass cutting", correct: true },
-                { text: "Air filter", correct: false }
-            ],
-            explanation: "Static electricity is not typically used in glass cutting, but is used in processes like xerography and air filtration."
-        },
-        {
-            question: "A positive charge 3μC is surrounded by a sphere with a radius of 0.20m centered on the charge. Find the electric flux through the sphere due to the charge",
-            answers: [
-                { text: "6.50×10⁵ N/C", correct: false },
-                { text: "6.00×10⁵ N/C", correct: false },
-                { text: "6.75×10⁵ N/C", correct: true },
-                { text: "6.05×10⁵ N/C", correct: false }
-            ],
-            explanation: "The electric flux (Φ) through a sphere is given by Gauss's Law, Φ = q / ε₀. Here, q = 3μC = 3×10⁻⁶ C, and ε₀ = 8.85×10⁻¹² F/m, thus Φ = 3×10⁻⁶ / 8.85×10⁻¹² ≈ 6.75×10⁵ N·m²/C."
-        },
-        {
-            question: "One of the following is not an effect due to static electricity",
-            answers: [
-                { text: "A wooden jumper worn over a nylon blouse gives sparks when taken off", correct: false },
-                { text: "A plastic comb rubbed with hair attracts pieces of paper", correct: false },
-                { text: "A bar of magnet attracts pieces of iron fillings", correct: true },
-                { text: "Collection of dust on television screen", correct: false }
-            ],
-            explanation: "A bar magnet attracting pieces of iron fillings is due to magnetic forces, not static electricity."
-        },
-        {
-            question: "A galvanometer measuring current from 0 to 1mA has a resistance of 40Ω. What value of resistor in parallel will the galvanometer use to measure current from 0 to 1A",
-            answers: [
-                { text: "0.24Ω", correct: false },
-                { text: "0.04Ω", correct: true },
-                { text: "1.42Ω", correct: false },
-                { text: "2.53Ω", correct: false }
-            ],
-            explanation: "Using the shunt resistor formula, Rs = (IgRg) / (I - Ig), where Ig is the galvanometer current (1mA), Rg is the galvanometer resistance (40Ω), and I is the desired current (1A). Thus, Rs = (1×10⁻³ × 40) / (1 - 1×10⁻³) ≈ 0.04Ω."
-        },
-        {
-            question: "In a wave the maximum displacement of a particle from their equilibrium positions is called",
-            answers: [
-                { text: "Amplitude", correct: true },
-                { text: "Period", correct: false },
-                { text: "Frequency", correct: false },
-                { text: "Wavelength", correct: false }
-            ],
-            explanation: "Amplitude is the maximum displacement of a particle from its equilibrium position in a wave."
-        },
-        {
-            question: "A transformer connected to a 120V A.C power line has 200 turns in its primary winding and 50 turns in its secondary winding. The secondary is connected to a 100Ω light bulb. How much current is drawn from the input side of the power line",
-            answers: [
-                { text: "0.075A", correct: false },
-                { text: "0.300A", correct: false },
-                { text: "0.025A", correct: true },
-                { text: "0.045A", correct: false }
-            ],
-            explanation: "Using the transformer equations: Vp/Vs = Np/Ns and P_primary = P_secondary. Vp = 120V, Np = 200, Ns = 50, R_load = 100Ω. Thus, Vs = (Ns/Np) * Vp = (50/200) * 120V = 30V. Current in secondary Is = Vs / R_load = 30V / 100Ω = 0.3A. Power in secondary = 30V * 0.3A = 9W. Power in primary = 9W. Primary current Ip = Power / Vp = 9W / 120V = 0.075A."
-        },
-        {
-            question: "For a mass hanging on a coiled spring, mass (M) was varied and the corresponding period (T) was recorded. On plotting T against M, a straight line graph was seen but it did not pass through the origin. What could have been responsible",
-            answers: [
-                { text: "There was an error in the first reading", correct: true },
-                { text: "The period was not stable", correct: false },
-                { text: "The mass of the spring was not taken into consideration", correct: false },
-                { text: "It was meant to be curved", correct: false }
-            ],
-            explanation: "If the graph does not pass through the origin, it suggests that there might have been an error in the initial reading."
-        },
-        {
-            question: "In a waveform, a crest and an adjacent trough are out of phase by",
-            answers: [
-                { text: "45°", correct: false },
-                { text: "270°", correct: false },
-                { text: "180°", correct: true },
-                { text: "90°", correct: false }
-            ],
-            explanation: "A crest and the adjacent trough in a waveform are 180° out of phase."
-        },
-        {
-            question: "A wire of length 90.0cm and diameter 0.3mm has a resistivity of 11×10⁻⁶Ωm. Calculate its resistance",
-            answers: [
-                { text: "14.0Ω", correct: true },
-                { text: "12.0Ω", correct: false },
-                { text: "16.0Ω", correct: false },
-                { text: "13.0Ω", correct: false }
-            ],
-            explanation: "Resistance (R) = ρL/A, where ρ = 11×10⁻⁶ Ωm, L = 0.9m, A = π(d/2)² = π(0.00015)². Thus, R ≈ 14Ω."
-        },
-        {
-            question: "The following are examples of repetitive to-and-fro motion of an object about a mean position",
-            answers: [
-                { text: "The piston in a gasoline engine", correct: false },
-                { text: "A car going to Kaduna", correct: false },
-                { text: "Mass hanging from a coiled spring", correct: true },
-                { text: "The balance wheel of a watch", correct: false }
-            ],
-            explanation: "A mass hanging from a coiled spring undergoes simple harmonic motion, which is repetitive to-and-fro motion about a mean position."
-        },
-        {
-            question: "Total internal reflection occurs when light travels from",
-            answers: [
-                { text: "A denser medium to a rarer medium", correct: false },
-                { text: "A denser medium to a rarer medium with an angle of incidence greater than the critical angle", correct: true },
-                { text: "A rarer medium to a denser medium", correct: false },
-                { text: "A rarer medium to a denser medium with an angle of incidence greater than the critical angle", correct: false }
-            ],
-            explanation: "Total internal reflection occurs when light travels from a denser medium to a rarer medium with an angle of incidence greater than the critical angle."
-        },
-        {
-            question: "When a plane mirror is rotated through a certain angle, the reflected ray turns through twice as much and the size of the image",
-            answers: [
-                { text: "is halved", correct: false },
-                { text: "is doubled", correct: false },
-                { text: "remains the same", correct: true },
-                { text: "becomes infinite", correct: false }
-            ],
-            explanation: "When a plane mirror is rotated, the reflected ray turns through twice the angle of rotation, but the size of the image remains the same."
-        },
-        {
-            question: "When a plane mirror is rotated through a certain angle, the reflected ray turns through three times as much and the size of the image",
-            answers: [
-                { text: "is halved", correct: false },
-                { text: "is doubled", correct: false },
-                { text: "remains the same", correct: true },
-                { text: "becomes infinite", correct: false }
-            ],
-            explanation: "When a plane mirror is rotated, the reflected ray turns through twice the angle of rotation, but the size of the image remains the same."
-        },
-        {
-            question: "A spring of force constant 1500N/m is acted upon by a constant force of 75N. Calculate the potential energy stored in the spring",
-            answers: [
-                { text: "5.0J", correct: false },
-                { text: "1.95J", correct: false },
-                { text: "3.2J", correct: false },
-                { text: "3.8J", correct: true }
-            ],
-            explanation: "Potential energy (U) in a spring = (1/2) * k * x², where k is the spring constant and x is the displacement. Force F = k * x, so x = F / k = 75N / 1500N/m = 0.05m. Thus, U = (1/2) * 1500N/m * (0.05m)² = 1.875J ≈ 1.95J."
-        },
-        {
-            question: "A real image is formed by intersection of the ________ of light",
-            answers: [
-                { text: "Rays", correct: false },
-                { text: "None of the above", correct: false },
-                { text: "Virtual rays", correct: false },
-                { text: "Real rays", correct: true }
-            ],
-            explanation: "A real image is formed by the actual convergence of light rays."
-        },
-        {
-            question: "A region in which the effect of the electric force can be felt is called",
-            answers: [
-                { text: "Force field", correct: false },
-                { text: "Forbidden gap", correct: false },
-                { text: "Electric field", correct: true },
-                { text: "Magnetic field", correct: false }
-            ],
-            explanation: "An electric field is the region around a charged particle where its electric force can be felt by other charges."
-        },
-        {
-            question: "It is required to transport 200KW of electrical energy at 40.00V. Calculate the current that should flow in the conductor",
-            answers: [
-                { text: "0.50A", correct: false },
-                { text: "5.00A", correct: true },
-                { text: "50.00A", correct: false },
-                { text: "0.05A", correct: false }
-            ],
-            explanation: "Power (P) = Voltage (V) × Current (I), so I = P / V = 200,000W / 40V = 5000A."
-        },
-        {
-            question: "An object 0.5cm high is placed 10cm from a convex lens of 10cm focal length. Find the size of the image",
-            answers: [
-                { text: "-2.5cm", correct: true },
-                { text: "3.5cm", correct: false },
-                { text: "2.5cm", correct: false },
-                { text: "5cm", correct: false }
-            ],
-            explanation: "Using the lens formula (1/f = 1/v - 1/u), where u = -10cm, f = 10cm, we get v = -20cm. Magnification (m) = -v/u = -(-20)/(-10) = 2. So, image size = m * object size = 2 * 0.5cm = -1cm."
-        },
-        {
-            question: "Which of the following is correct for an object placed beyond the center of curvature",
-            answers: [
-                { text: "Virtual, Erect and Magnified", correct: false },
-                { text: "Real, Inverted and Diminished", correct: true },
-                { text: "Virtual, Erect and Diminished", correct: false },
-                { text: "Real, Inverted and Magnified", correct: false }
-            ],
-            explanation: "For an object placed beyond the center of curvature of a concave mirror, the image formed is real, inverted, and diminished."
-        },
-        {
-            question: "Which of these is not a basic principle of an atom",
-            answers: [
-                { text: "Protons", correct: false },
-                { text: "Neutrons", correct: false },
-                { text: "Electrons", correct: false },
-                { text: "Photons", correct: true }
-            ],
-            explanation: "Photons are not a basic component of an atom. The basic components of an atom are protons, neutrons, and electrons."
-        },
-        {
-            question: "The splitting of nucleus into two fragments is",
-            answers: [
-                { text: "Fission", correct: true },
-                { text: "Disintegration", correct: false },
-                { text: "Fusion", correct: false }
-            ],
-            explanation: "Fission is the process of splitting a nucleus into two or more smaller fragments."
-        },
-        {
-            question: "Speed (v) is a product of frequency and ________",
-            answers: [
-                { text: "Period", correct: false },
-                { text: "Time", correct: false },
-                { text: "Wavelength", correct: true },
-                { text: "Amplitude", correct: false }
-            ],
-            explanation: "Speed (v) = frequency (f) × wavelength (λ)."
-        },
-        {
-            question: "A mirror that is thicker at the middle and thinner at the edge is",
-            answers: [
-                { text: "Convex", correct: true },
-                { text: "Concave", correct: false },
-                { text: "Diverging mirror", correct: false },
-                { text: "Converging mirror", correct: false }
-            ],
-            explanation: "A convex mirror is thicker at the middle and thinner at the edges."
-        },
-        {
-            question: "A science of light measurement is",
-            answers: [
-                { text: "Spectrometer", correct: false },
-                { text: "Geometry", correct: false },
-                { text: "Photometry", correct: true },
-                { text: "Photography", correct: false }
-            ],
-            explanation: "Photometry is the science of light measurement."
-        },
-        {
-            question: "Example of luminous object are",
-            answers: [
-                { text: "Light", correct: true },
-                { text: "Stone", correct: false },
-                { text: "Moon", correct: false },
-                { text: "House", correct: false }
-            ],
-            explanation: "A luminous object is an object that emits light, such as a light bulb or the Sun."
-        },
-        {
-            question: "An electric circuit in which an A.C __________ is called A.C circuit",
-            answers: [
-                { text: "current flows", correct: true }
-            ],
-            explanation: "An AC circuit is one in which alternating current flows."
-        },
-        {
-            question: "The eclipse of the sun occurs when",
-            answers: [
-                { text: "Earth is between the sun and moon", correct: false },
-                { text: "Moon occurs between the sun and the earth", correct: true },
-                { text: "Moon umbra falls on some part of the earth", correct: false },
-                { text: "Moon is not completely hidden in shadow", correct: false }
-            ],
-            explanation: "A solar eclipse occurs when the Moon passes between the Sun and Earth."
-        },
-        {
-            question: "The mean life of radioactive sample is the reciprocal of",
-            answers: [
-                { text: "Half life", correct: false },
-                { text: "Decay constant", correct: true },
-                { text: "Activity", correct: false },
-                { text: "Disintegration", correct: false }
-            ],
-            explanation: "The mean life of a radioactive sample is the reciprocal of the decay constant."
-        },
-        {
-            question: "Which of the following groups of electromagnetic waves is in order of increasing frequency",
-            answers: [
-                { text: "Visible light, Infrared, radiation, microwave", correct: false },
-                { text: "Gamma ray, ultraviolet, radio wave", correct: false },
-                { text: "Microwave, ultraviolet", correct: true },
-                { text: "Gamma ray, visible light, ultraviolet", correct: false }
-            ],
-            explanation: "Electromagnetic waves in order of increasing frequency are microwave, infrared, visible light, ultraviolet, X-rays, and gamma rays."
-        },
-        {
-            question: "X-rays are produced by energy changes in",
-            answers: [
-                { text: "The nucleus", correct: false },
-                { text: "Electron and protons", correct: false },
-                { text: "Electron close to the nucleus", correct: true },
-                { text: "Electron far from the nucleus", correct: false }
-            ],
-            explanation: "X-rays are produced by energy changes in electrons close to the nucleus."
-        },
-        {
-            question: "________ mirror curves inwardly",
-            answers: [
-                { text: "Reflection mirror", correct: false },
-                { text: "Concave mirror", correct: true },
-                { text: "Convex mirror", correct: false },
-                { text: "Plane mirror", correct: false }
-            ],
-            explanation: "A concave mirror curves inwardly, focusing light to a point."
-        },
-        {
-            question: "Photometry is used to measure ________",
-            answers: [
-                { text: "Photo", correct: false },
-                { text: "Photocatalyst", correct: false },
-                { text: "Light", correct: true },
-                { text: "Photometer", correct: false }
-            ],
-            explanation: "Photometry is the science of measuring visible light in terms of its perceived brightness to the human eye."
-        },
-        {
-            question: "The unit of luminous flux is",
-            answers: [
-                { text: "Lumen", correct: true },
-                { text: "Candela", correct: false },
-                { text: "Candela per square meter", correct: false },
-                { text: "Lux per square", correct: false }
-            ],
-            explanation: "Lumen is the SI unit of luminous flux, a measure of the total quantity of visible light emitted by a source."
-        },
-        {
-            question: "An object placed 10cm in front of a plane mirror, if the mirror is moved towards the object a distance of 3m, the distance through which the image is moved is",
-            answers: [
-                { text: "1m", correct: false },
-                { text: "2m", correct: false },
-                { text: "3m", correct: true },
-                { text: "4m", correct: false }
-            ],
-            explanation: "The distance through which the image moves is the same as the distance the mirror is moved."
-        },
-        {
-            question: "The critical angle of the glass is 42°. Find the refractive index",
-            answers: [
-                { text: "1.50", correct: true },
-                { text: "1.30", correct: false },
-                { text: "1.80", correct: false },
-                { text: "2.40", correct: false }
-            ],
-            explanation: "Refractive index (n) = 1 / sin(critical angle). For a critical angle of 42°, n = 1 / sin(42°) ≈ 1.50."
-        },
-        {
-            question: "Which of the following is not a luminous object",
-            answers: [
-                { text: "Sun", correct: false },
-                { text: "Moon", correct: true },
-                { text: "Candle", correct: false },
-                { text: "Electric lamp", correct: false }
-            ],
-            explanation: "The Moon is not a luminous object; it reflects light from the Sun."
-        },
-        {
-            question: "Which of the following has the highest frequency",
-            answers: [
-                { text: "Alpha", correct: false },
-                { text: "Beta", correct: false },
-                { text: "Gamma", correct: true },
-                { text: "X-ray", correct: false }
-            ],
-            explanation: "Gamma rays have the highest frequency among the given options."
-        },
-        {
-            question: "The motion of a ball in water is called",
-            answers: [
-                { text: "Simple Harmonic Motion", correct: true }
-            ],
-            explanation: "The motion of a ball in water, if undisturbed, follows simple harmonic motion."
-        },
-        {
-            question: "The unit of illumination is",
-            answers: [
-                { text: "Lumen", correct: false },
-                { text: "Flux", correct: false },
-                { text: "Candela", correct: false },
-                { text: "Lux", correct: true }
-            ],
-            explanation: "Lux is the SI unit of illumination, measuring luminous flux per unit area."
-        },
-        {
-            question: "Gauss's law relates to the surface as",
-            answers: [
-                { text: "Gauss's area", correct: false },
-                { text: "Gauss's meter", correct: false },
-                { text: "Gauss's flux", correct: true }
-            ],
-            explanation: "Gauss's law relates the electric flux through a closed surface to the charge enclosed by the surface."
-        },
-        {
-            question: "Which of the following has the highest penetrating power",
-            answers: [
-                { text: "X-ray", correct: false },
-                { text: "Gamma ray", correct: true },
-                { text: "Beta particle", correct: false }
-            ],
-            explanation: "Gamma rays have the highest penetrating power among the given options."
-        },
-        {
-            question: "Adding of impurities to a semiconductor is",
-            answers: [
-                { text: "Doping", correct: true },
-                { text: "Transistor", correct: false },
-                { text: "Rectification", correct: false },
-                { text: "Clipping", correct: false }
-            ],
-            explanation: "Doping is the process of adding impurities to a semiconductor to change its electrical properties."
-        },
-        {
-            question: "The mean life of a radioactive sample is a reciprocal of",
-            answers: [
-                { text: "Disintegration", correct: false },
-                { text: "Decay constant", correct: true },
-                { text: "Activities", correct: false },
-                { text: "Half life", correct: false }
-            ],
-            explanation: "The mean life of a radioactive sample is the reciprocal of the decay constant."
-        },
-        {
-            question: "Two resistors 3.0Ω and 5.0Ω are connected in parallel, if the current in 3.0Ω resistor is 3.0A. Calculate the current in the 5.0Ω resistor",
-            answers: [
-                { text: "1.6A", correct: false },
-                { text: "5.0A", correct: false },
-                { text: "1.8A", correct: true },
-                { text: "4.9A", correct: false }
-            ],
-            explanation: "Using the parallel resistance formula and Ohm's law, we find the current in the 5.0Ω resistor to be 1.8A."
-        },
-        {
-            question: "Which of the instrument has the highest resistance",
-            answers: [
-                { text: "Millimeter", correct: false },
-                { text: "Ammeter", correct: false },
-                { text: "Voltmeter", correct: true },
-                { text: "Galvanometer", correct: false }
-            ],
-            explanation: "A voltmeter has the highest resistance to ensure it does not draw significant current from the circuit."
-        },
-        {
-            question: "Tesla is a unit of",
-            answers: [
-                { text: "Weber", correct: false },
-                { text: "Magnetic field", correct: true },
-                { text: "Flux", correct: false },
-                { text: "EMF", correct: false }
-            ],
-            explanation: "Tesla is the SI unit of magnetic field strength."
-        },
-        {
-            question: "Which of the following is not an example of ferromagnetic materials",
-            answers: [
-                { text: "Iron", correct: false },
-                { text: "Steel", correct: false },
-                { text: "Cobalt", correct: false },
-                { text: "Copper", correct: true }
-            ],
-            explanation: "Copper is not a ferromagnetic material; it does not exhibit strong magnetic properties."
-        },
-        {
-            question: "What is the velocity of light in steel if the refractive index of steel with respect to vacuum is 2.5",
-            answers: [
-                { text: "1.2×10¹⁰ m/s", correct: false },
-                { text: "2.5×10⁸ m/s", correct: false },
-                { text: "1.2×10⁸ m/s", correct: true },
-                { text: "5×10⁸ m/s", correct: false }
-            ],
-            explanation: "Velocity of light (v) = c / n, where c is the speed of light in vacuum and n is the refractive index. For steel with n = 2.5, v = 3×10⁸ m/s / 2.5 = 1.2×10⁸ m/s."
-        },
-        {
-            question: "Which is not a theory of light",
-            answers: [
-                { text: "Refraction", correct: false },
-                { text: "Diffraction", correct: true },
-                { text: "Polarization", correct: false },
-                { text: "Reflection", correct: false }
-            ],
-            explanation: "Diffraction is a phenomenon of light, not a theory. Refraction, polarization, and reflection are phenomena that can be explained by the wave theory and other theories of light."
-        },
-        {
-            question: "For a converging lens to be used as magnifying lens, the object must be placed where",
-            answers: [
-                { text: "Between the principal focus and optical centre", correct: true }
-            ],
-            explanation: "To use a converging lens as a magnifying glass, the object must be placed between the focal point and the lens itself."
-        },
-        {
-            question: "Light of frequency 6.0×10^5 Hz traveling in air is transmitted through glass of refractive index 1.5. Calculate the frequency of the light",
-            answers: [
-                { text: "4×10^5 m/s", correct: false }
-            ],
-            explanation: "The frequency of light does not change when it moves from one medium to another. The frequency remains 6.0×10^5 Hz."
-        },
-        {
-            question: "A 70° glass prism has a refractive index 1.5. Calculate its angle of incidence for minimum deviation",
-            answers: [
-                { text: "59°", correct: true }
-            ],
-            explanation: "Using the formula for minimum deviation in a prism and the given refractive index, the angle of incidence can be calculated as 59°."
-        },
-        {
-            question: "High voltage across spark plugs of ignition system in a motor car is supplied by",
-            answers: [
-                { text: "Induction coil", correct: true },
-                { text: "Carburetor", correct: false },
-                { text: "Capacitor", correct: false },
-                { text: "Alternator", correct: false }
-            ],
-            explanation: "An induction coil is used to produce the high voltage necessary for spark plugs in a car's ignition system."
-        },
-        {
-            question: "A point charge of 2.0×10^-7 C experiences force of 0.02N in uniform electric field. Calculate the magnitude of strength of the field",
-            answers: [
-                { text: "4 ×10^-9 N/C", correct: false },
-                { text: "1 ×10^-9 N/C", correct: false },
-                { text: "1 ×10^5 N/C", correct: true },
-                { text: "1 × 10^4 N/C", correct: false }
-            ],
-            explanation: "Electric field strength (E) = Force (F) / Charge (Q). Here, E = 0.02N / 2.0×10^-7 C = 1 × 10^5 N/C."
-        },
-        {
-            question: "Unit of magnetic induction is",
-            answers: [
-                { text: "Coulombs", correct: false },
-                { text: "Tesla", correct: true },
-                { text: "Ampere", correct: false },
-                { text: "Farad", correct: false }
-            ],
-            explanation: "Tesla is the SI unit of magnetic induction."
-        },
-        {
-            question: "The change of direction of wave front due to a change in velocity is called",
-            answers: [
-                { text: "Reflection", correct: false },
-                { text: "Refraction", correct: true },
-                { text: "Radiation", correct: false },
-                { text: "Diffraction", correct: false }
-            ],
-            explanation: "Refraction is the bending of a wave as it passes from one medium to another due to a change in its speed."
-        },
-        {
-            question: "Velocity is a product of frequency and __________",
-            answers: [
-                { text: "Period", correct: false },
-                { text: "Time", correct: false },
-                { text: "Wavelength", correct: true },
-                { text: "Amplitude", correct: false }
-            ],
-            explanation: "Velocity of a wave (v) is given by the product of its frequency (f) and wavelength (λ), v = fλ."
-        },
-        {
-            question: "1hp is _______ watts",
-            answers: [
-                { text: "766", correct: false },
-                { text: "746", correct: true },
-                { text: "760", correct: false },
-                { text: "740", correct: false }
-            ],
-            explanation: "1 horsepower (hp) is equivalent to approximately 746 watts."
-        },
-        {
-            question: "The size of the image is always smaller than the object in",
-            answers: [
-                { text: "Plane mirror", correct: false },
-                { text: "Convex mirror", correct: true },
-                { text: "Concave mirror", correct: false },
-                { text: "Silver mirror", correct: false }
-            ],
-            explanation: "In a convex mirror, the image formed is always smaller than the object."
-        },
-        {
-            question: "For diverging lens, the focal length is",
-            answers: [
-                { text: "Positive", correct: false },
-                { text: "Negative", correct: true },
-                { text: "Neutral", correct: false },
-                { text: "None of the options", correct: false }
-            ],
-            explanation: "The focal length of a diverging lens is considered negative."
-        },
-        {
-            question: "_________ is a two terminal device which depending on the doping profile device geometry and biasing condition",
-            answers: [
-                { text: "C-R circuit", correct: false },
-                { text: "Transistor", correct: false },
-                { text: "P-n junction", correct: true },
-                { text: "L-R circuit", correct: false }
-            ],
-            explanation: "A p-n junction is a two-terminal device whose behavior depends on the doping profile, device geometry, and biasing conditions."
-        },
-        {
-            question: "The capacitance of a parallel plate capacitor is 20μF in air and 60μF in vacuum in the presence of a dielectric constant",
-            answers: [
-                { text: "2.0", correct: false },
-                { text: "0.3", correct: true },
-                { text: "3.0", correct: false },
-                { text: "6.0", correct: false }
-            ],
-            explanation: "The dielectric constant (k) can be found using the formula: k = C_with_dielectric / C_air. Here, k = 60μF / 20μF = 3."
-        },
-        {
-            question: "If there is a forbidden gap between conduction band and valence band, the material behaves as",
-            answers: [
-                { text: "Insulator", correct: true },
-                { text: "Conductor", correct: false },
-                { text: "Gallium", correct: false },
-                { text: "Semiconductor", correct: false }
-            ],
-            explanation: "An insulator has a large forbidden gap between the conduction band and the valence band, preventing the flow of electrons."
-        },
-        {
-            question: "At sufficiently high temperature, all matter emits enough visible light to be",
-            answers: [
-                { text: "Penetrating", correct: false },
-                { text: "Self luminous", correct: true },
-                { text: "Transparent", correct: false },
-                { text: "Reflection", correct: false }
-            ],
-            explanation: "At high temperatures, matter emits enough visible light to become self-luminous."
-        },
-        {
-            question: "Energy of photon is directly related to the",
-            answers: [
-                { text: "frequency", correct: true },
-                { text: "wave number", correct: false },
-                { text: "wave length", correct: false },
-                { text: "Amplitude", correct: false }
-            ],
-            explanation: "The energy of a photon (E) is directly proportional to its frequency (f), given by the equation E = hf, where h is Planck's constant."
-        },
-        {
-            question: "The emission and absorption of light can be best explained using",
-            answers: [
-                { text: "Particle model", correct: true },
-                { text: "Wave model", correct: false },
-                { text: "Refraction model", correct: false },
-                { text: "Reflection model", correct: false }
-            ],
-            explanation: "The particle model of light best explains the emission and absorption of light, as demonstrated by phenomena such as the photoelectric effect."
-        },
-        {
-            question: "__________ is the science of light measurement",
-            answers: [
-                { text: "Photometry", correct: true },
-                { text: "Luminous object", correct: false },
-                { text: "Radioactivity", correct: false },
-                { text: "None", correct: false }
-            ],
-            explanation: "Photometry is the science of measuring visible light in terms of its perceived brightness to the human eye."
-        },
-        {
-            question: "The S.I unit of luminous intensity",
-            answers: [
-                { text: "Candela", correct: true },
-                { text: "Lux", correct: false },
-                { text: "Flux", correct: false },
-                { text: "Lumen", correct: false }
-            ],
-            explanation: "The SI unit of luminous intensity is the candela."
-        },
-        {
-            question: "Which of the following has the highest ionization energy",
-            answers: [
-                { text: "Alpha", correct: true },
-                { text: "Gamma", correct: false },
-                { text: "Beta", correct: false },
-                { text: "None", correct: false }
-            ],
-            explanation: "Alpha particles have the highest ionization energy due to their relatively large mass and charge."
-        },
-        {
-            question: "Metal cables are used in phone because",
-            answers: [
-                { text: "They are cheap", correct: false },
-                { text: "Speed of sound in them is very low", correct: false },
-                { text: "Speed of sound in them is very high", correct: true },
-                { text: "They are sourced locally", correct: false }
-            ],
-            explanation: "Metal cables are used in telecommunication because they allow for high-speed transmission of signals."
-        },
-        {
-            question: "Which of the following is an example of a passive device",
-            answers: [
-                { text: "Integrated circuit", correct: false },
-                { text: "Field effect transistor", correct: false },
-                { text: "Semiconductor diode", correct: true },
-                { text: "Bipolar junction transistor", correct: false }
-            ],
-            explanation: "A semiconductor diode is a passive device because it does not require an external power source to operate."
-        },
-        {
-            question: "Which of the following given cannot receive ultrasonic",
-            answers: [
-                { text: "Bat", correct: false },
-                { text: "Dolphin", correct: false },
-                { text: "Cat", correct: false },
-                { text: "Human being", correct: true }
-            ],
-            explanation: "Humans cannot hear ultrasonic frequencies, which are above the audible range for human hearing."
-        },
-        {
-            question: "In wave, the maximum displacement of a particles from the equilibrium position is called",
-            answers: [
-                { text: "Period", correct: false },
-                { text: "Frequency", correct: false },
-                { text: "Wavelength", correct: false },
-                { text: "Amplitude", correct: true }
-            ],
-            explanation: "The amplitude of a wave is the maximum displacement of a particle from its equilibrium position."
-        },
-        {
-            question: "The vibration resulting from the action of internal periodical force on the motion of a body is called",
-            answers: [
-                { text: "Free", correct: false },
-                { text: "Damped", correct: true },
-                { text: "Forced", correct: false },
-                { text: "Kinetic", correct: false }
-            ],
-            explanation: "Damped vibration occurs when an internal periodic force acts on a body, gradually reducing its amplitude over time."
-        },
-        {
-            question: "The current of 240Ω light bulb connected in series with 120v power supply is",
-            answers: [
-                { text: "1.45A", correct: false },
-                { text: "0.86A", correct: false },
-                { text: "0.22A", correct: false },
-                { text: "0.2A", correct: true }
-            ],
-            explanation: "Using Ohm's Law, current (I) = Voltage (V) / Resistance (R). Here, I = 120V / 240Ω = 0.5A."
-        },
-        {
-            question: "The force F of repulsion or attraction between two charges Q1 and Q2 is proportional to the product of the two charges and inversely proportional to the square of the distance r separating them. This is given by _________",
-            answers: [
-                { text: "Faraday's", correct: false },
-                { text: "Coulomb's", correct: true },
-                { text: "Ohm's", correct: false },
-                { text: "Newton", correct: false }
-            ],
-            explanation: "Coulomb's law describes the force between two point charges, stating that the force is proportional to the product of the charges and inversely proportional to the square of the distance between them."
-        },
-        {
-            question: "The unit of luminous flux is",
-            answers: [
-                { text: "Candela", correct: false },
-                { text: "Candela per meter square", correct: false },
-                { text: "Lux", correct: false },
-                { text: "Lumen", correct: true }
-            ],
-            explanation: "The lumen is the SI unit of luminous flux, measuring the total quantity of visible light emitted by a source."
-        },
-        {
-            question: "The conditions for parallel connection of resistors are the following except",
-            answers: [
-                { text: "Total resistance is the sum of the reciprocal of the individual resistance", correct: false },
-                { text: "Total resistance is the sum of all the individual resistance", correct: true },
-                { text: "The voltage across each resistor is equal", correct: false },
-                { text: "Total current in the circuit is equal to the sum of the individual current", correct: false }
-            ],
-            explanation: "In a parallel circuit, the total resistance is found by summing the reciprocals of each individual resistance, not the direct sum of resistances."
-        },
-        {
-            question: "The potentiometer is used to measure all except",
-            answers: [
-                { text: "Period", correct: true },
-                { text: "Potential difference", correct: false },
-                { text: "Internal resistance", correct: false },
-                { text: "Current", correct: false }
-            ],
-            explanation: "A potentiometer measures potential difference and can be used to measure internal resistance and current, but not the period of a wave."
-        },
-        {
-            question: "An object 0.5cm high is placed 8cm from a convex lens of 10cm focal length. Find the position of the image",
-            answers: [
-                { text: "25cm from the lens", correct: false },
-                { text: "10.5cm from the lens", correct: false },
-                { text: "5cm from the lens", correct: false },
-                { text: "40cm from the lens", correct: true }
-            ],
-            explanation: "Using the lens formula 1/f = 1/v - 1/u, where f is the focal length and u is the object distance, we find the image distance v to be 40cm."
-        },
-        {
-            question: "An object 0.5cm high is placed 8cm from a convex lens of 10cm focal length. Find the size of the image",
-            answers: [
-                { text: "5cm", correct: false },
-                { text: "2.5cm", correct: false },
-                { text: "3.5cm", correct: false },
-                { text: "-2.5cm", correct: true }
-            ],
-            explanation: "Using the magnification formula m = v/u, where v is the image distance and u is the object distance, the size of the image is found to be -2.5cm, indicating an inverted image."
-        },
-        {
-            question: "Critical angle of water when refracted angle is 90° and the refractive index of water in air is 1.33",
-            answers: [
-                { text: "49.1°", correct: false },
-                { text: "51°", correct: false },
-                { text: "50°", correct: false },
-                { text: "48.8°", correct: true }
-            ],
-            explanation: "Using the formula for critical angle, sin(θc) = 1/n, where n is the refractive index, we find θc ≈ 48.8°."
-        },
-        {
-            question: "The statement electric force between two point charges separated by a distance is directly proportional to the product of the charge and inversely proportional to the square distance between the charges is",
-            answers: [
-                { text: "Joules", correct: false },
-                { text: "Newtons", correct: false },
-                { text: "Ohms", correct: false },
-                { text: "Coulombs", correct: true }
-            ],
-            explanation: "This is Coulomb's law, which describes the electric force between two point charges."
-        },
-        {
-            question: "Calculate the frequency of a wave of wavelength 300m. if the velocity of the wave is 3×10^8 m/s",
-            answers: [
-                { text: "9MHz", correct: false },
-                { text: "1MHz", correct: true },
-                { text: "900MHz", correct: false },
-                { text: "100MHz", correct: false }
-            ],
-            explanation: "Using the wave equation, frequency (f) = velocity (v) / wavelength (λ), we find f = 3×10^8 m/s / 300m = 1MHz."
-        },
-        {
-            question: "Where is the image formed when object is placed beyond the center of curvature of concave mirror",
-            answers: [
-                { text: "Infinity", correct: false },
-                { text: "At the centre of curvature", correct: false },
-                { text: "Beyond the centre of curvature", correct: false },
-                { text: "Between the centre of curvature and focal point", correct: true }
-            ],
-            explanation: "For a concave mirror, when the object is placed beyond the center of curvature, the image is formed between the center of curvature and the focal point."
-        },
-        {
-            question: "Another unit for power is",
-            answers: [
-                { text: "Nm/s", correct: true },
-                { text: "Nm2/s", correct: false },
-                { text: "Kgm/s2", correct: false },
-                { text: "Nm", correct: false }
-            ],
-            explanation: "Power is measured in watts, which can be expressed as Nm/s (newton-meters per second)."
-        },
-        {
-            question: "In a concave mirror when the object is at the centre of a curvature, the size of the image would have been",
-            answers: [
-                { text: "too small", correct: false },
-                { text: "amplified", correct: false },
-                { text: "greatly magnified", correct: false },
-                { text: "the same", correct: true }
-            ],
-            explanation: "When an object is placed at the center of curvature of a concave mirror, the image formed is the same size as the object."
-        },
-        {
-            question: "The number of electric line of force that intersect a given area is known as",
-            answers: [
-                { text: "Electric potential", correct: false },
-                { text: "Electric field", correct: false },
-                { text: "Electric flux", correct: true },
-                { text: "Electric field intensity", correct: false }
-            ],
-            explanation: "Electric flux is a measure of the number of electric field lines passing through a given area."
-        },
-        {
-            question: "For capacitors connected in series. The following are correct except",
-            answers: [
-                { text: "The capacitance is the sum of all the capacitor", correct: true },
-                { text: "The same current is passed through it", correct: false },
-                { text: "The capacitance is the reciprocal sum of the capacitor", correct: false },
-                { text: "Different current is passed through it", correct: false }
-            ],
-            explanation: "For capacitors in series, the total capacitance is the reciprocal sum of the individual capacitances."
-        },
-        {
-            question: "For resistors connected in series. The following are correct except",
-            answers: [
-                { text: "Total resistance is the sum of all the resistor", correct: false },
-                { text: "Voltage across the circuit is the same as each of the resistor", correct: true },
-                { text: "Voltage across the circuit is the sum of all voltage", correct: false },
-                { text: "Different current is passed through it", correct: false }
-            ],
-            explanation: "In a series circuit, the total resistance is the sum of the individual resistances and the same current flows through all resistors."
-        },
-        {
-            question: "The arrangements of the cell in series have the following except",
-            answers: [
-                { text: "EMF of the battery is equal to the EMF of each separate cell at any moment", correct: true },
-                { text: "The current in each cell and external circuit have the same magnitude", correct: false },
-                { text: "Internal resistance of the battery is equal to sum of the internal resistance of individual cells", correct: false },
-                { text: "EMF of the battery is equal to sum of EMF of individual cells", correct: false }
-            ],
-            explanation: "In series, the EMF of the battery is the sum of the EMFs of individual cells, not equal to each separate cell."
-        },
-        {
-            question: "The arrangements for storing a quantities electricity or electric charge is called",
-            answers: [
-                { text: "Capacitor", correct: true },
-                { text: "Inductor", correct: false },
-                { text: "Resistor", correct: false },
-                { text: "Adaptor", correct: false }
-            ],
-            explanation: "A capacitor is a device used to store electric charge and energy in the electric field."
-        },
-        {
-            question: "Crest and trough are out of phase by ______",
-            answers: [
-                { text: "180°", correct: true },
-                { text: "270°", correct: false },
-                { text: "45°", correct: false },
-                { text: "90°", correct: false }
-            ],
-            explanation: "Crest and trough are points on a wave that are 180° out of phase with each other."
-        },
-        {
-            question: "Voltage is the same in series",
-            answers: [
-                { text: "True", correct: false },
-                { text: "False", correct: true }
-            ],
-            explanation: "In a series circuit, the voltage is divided among the components; it is not the same across each component."
-        },
-        {
-            question: "A wire of length 90cm and diameter 0.3mm has a resistivity of 11×10−6Ωm. Calculate its resistance",
-            answers: [
-                { text: "10Ω", correct: false },
-                { text: "12Ω", correct: false },
-                { text: "13Ω", correct: false },
-                { text: "14Ω", correct: true }
-            ],
-            explanation: "Using the formula R = ρL/A, where ρ is resistivity, L is length, and A is cross-sectional area, the resistance is calculated to be 14Ω."
-        },
-        {
-            question: "A positive charge 3μC is surrounded by a sphere with a radius of 0.20m centered on the charge. Find the electric flow through the sphere due to its charge",
-            answers: [
-                { text: "6.50×105N/C", correct: false },
-                { text: "6.00×105N/C", correct: false },
-                { text: "6.75×105N/C", correct: true },
-                { text: "6.15×105N/C", correct: false }
-            ],
-            explanation: "Using Gauss's law, the electric flux through a sphere is calculated based on the charge enclosed and the radius of the sphere."
-        },
-        {
-            question: "A real image is formed by intersection of the ________ of light",
-            answers: [
-                { text: "Real rays", correct: true },
-                { text: "None of the above", correct: false },
-                { text: "Virtual rays", correct: false },
-                { text: "Rays", correct: false }
-            ],
-            explanation: "A real image is formed by the actual intersection of light rays after reflection or refraction."
-        },
-        {
-            question: "Which of the following is true",
-            answers: [
-                { text: "i. A reflected beam always has the same radiance as the incident", correct: true },
-                { text: "ii. A reflected beam lies in the same plane as the incident beam", correct: true },
-                { text: "iii. A reflected beam always makes an angle with the normal to the interface", correct: true },
-                { text: "All are correct (i, ii, iii)", correct: true }
-            ],
-            explanation: "All the statements are true for the behavior of reflected beams according to the laws of reflection."
-        },
-        {
-            question: "When the length of a vibrating string is tripled, the frequency is",
-            answers: [
-                { text: "Half of the frequency", correct: false },
-                { text: "Three times the frequency", correct: false },
-                { text: "1/6 of the frequency", correct: false },
-                { text: "One-third of the frequency", correct: true }
-            ],
-            explanation: "The frequency of a vibrating string is inversely proportional to its length, so tripling the length reduces the frequency to one-third."
-        },
-        {
-            question: "An object is placed of 10cm in front of a double convex lens made of glass of refractive index 1.5 both the radii of curvature of lens are 20cm in magnitude. What is the position of the image formed",
-            answers: [
-                { text: "-20cm", correct: false },
-                { text: "10cm", correct: false },
-                { text: "20cm", correct: true },
-                { text: "-35cm", correct: false }
-            ],
-            explanation: "Using the lens maker's formula, the position of the image is determined to be 20cm."
-        },
-        {
-            question: "The watt is equivalent to _______",
-            answers: [
-                { text: "Js", correct: false },
-                { text: "Ns", correct: false },
-                { text: "Kgm2/s2", correct: false },
-                { text: "Nm/s", correct: true }
-            ],
-            explanation: "A watt is a unit of power equivalent to one joule per second, or Nm/s."
-        },
-        {
-            question: "The capacity of a material object or device to store electric charge is",
-            answers: [
-                { text: "Inductance", correct: false },
-                { text: "Reactance", correct: false },
-                { text: "Impedance", correct: false },
-                { text: "Capacitance", correct: true }
-            ],
-            explanation: "Capacitance is the ability of a system to store an electric charge."
-        },
-        {
-            question: "What is the velocity of light in steel if the refractive index of steel with respect to vacuum is 2.5",
-            answers: [
-                { text: "1.2×10¹⁰ m/s", correct: false },
-                { text: "2.5×10⁸ m/s", correct: false },
-                { text: "1.2×10⁸ m/s", correct: true },
-                { text: "5×10⁸ m/s", correct: false }
-            ],
-            explanation: "Velocity of light (v) = c / n, where c is the speed of light in vacuum and n is the refractive index."
-        },
-        {
-            question: "A resistor is connected in series with two cells each 1.5v and internal resistance 0.5Ω. what is the resistance if a current of 0.6A passes through it",
-            answers: [
-                { text: "4.0Ω", correct: true },
-                { text: "2.0Ω", correct: false },
-                { text: "v", correct: false },
-                { text: "5.0Ω", correct: false }
-            ],
-            explanation: "Using Ohm's law (V = IR) and accounting for the internal resistance of the cells, total resistance can be calculated."
-        },
-        {
-            question: "Find the value of two equal charges if they are held one another with a force of 0.1N when situated 50cm apart in vacuum",
-            answers: [
-                { text: "1.67×10⁻⁶", correct: true },
-                { text: "5×10⁻⁵", correct: false },
-                { text: "1.58×10⁻⁵", correct: false },
-                { text: "5.27×10⁻⁶", correct: false }
-            ],
-            explanation: "Using Coulomb's law F = k * q1 * q2 / r², where k is Coulomb's constant, q1 and q2 are charges, and r is the distance between charges."
-        },
-        {
-            question: "The following factors affect the capacitance of the capacitor except",
-            answers: [
-                { text: "The colour of the capacitor", correct: true },
-                { text: "The nature of the dielectric between the plates", correct: false },
-                { text: "The distance between plates", correct: false },
-                { text: "The common area of the plates", correct: false }
-            ],
-            explanation: "Capacitance is influenced by the physical characteristics of the capacitor, not by its color."
-        },
-        {
-            question: "If glass is rubbed with silk, the silk becomes",
-            answers: [
-                { text: "Neutral", correct: false },
-                { text: "Positively charged", correct: false },
-                { text: "Perfect", correct: false },
-                { text: "Negatively charged", correct: true }
-            ],
-            explanation: "When glass is rubbed with silk, electrons transfer from the glass to the silk, making the silk negatively charged."
-        },
-        {
-            question: "If glass is rubbed with silk, the glass becomes",
-            answers: [
-                { text: "Neutral", correct: false },
-                { text: "Positively charged", correct: true },
-                { text: "Perfect", correct: false },
-                { text: "Negatively charged", correct: false }
-            ],
-            explanation: "When glass is rubbed with silk, electrons are removed from the glass, leaving it positively charged."
-        },
-        {
-            question: "If ebonite is rubbed with fur, the ebonite becomes",
-            answers: [
-                { text: "Neutral", correct: false },
-                { text: "Positively charged", correct: false },
-                { text: "Perfect", correct: false },
-                { text: "Negatively charged", correct: true }
-            ],
-            explanation: "When ebonite is rubbed with fur, electrons transfer from the fur to the ebonite, making the ebonite negatively charged."
-        },    
-        {
-          question: "When Group I element forms ionic hydride, the hydrogen presents as",
-          answers: [
-            { text: "Neutral ion", correct: false },
-            { text: "Neutral atom", correct: false },
-            { text: "Negative ion", correct: true },
-            { text: "Positive ion", correct: false }
-          ],
-          explanation: "When Group I element forms ionic hydride, the hydrogen presents as a negative ion. This is because Group I elements (alkali metals) readily donate their outer electron to form a hydride ion (H⁻)."
-        },
-        {
-          question: "The SI unit of electric charge is",
-          answers: [
-            { text: "Ampere (A)", correct: false },
-            { text: "Coulomb (C)", correct: true },
-            { text: "Volt (V)", correct: false },
-            { text: "Ohm (Ω)", correct: false }
-          ],
-          explanation: "The SI unit of electric charge is Coulomb (C), defined as the charge transported by a constant current of one ampere in one second."
-        },
-        {
-          question: "The law of reflection states that the angle of incidence is __________ the angle of reflection.",
-          answers: [
-            { text: "Equal to", correct: true },
-            { text: "Greater than", correct: false },
-            { text: "Less than", correct: false },
-            { text: "Unrelated to", correct: false }
-          ],
-          explanation: "According to the law of reflection, the angle of incidence is equal to the angle of reflection. This law governs the reflection of light waves from a smooth surface."
-        },
-        {
-          question: "The property of a material to recover its original shape and size after the removal of deforming force is called",
-          answers: [
-            { text: "Elasticity", correct: true },
-            { text: "Plasticity", correct: false },
-            { text: "Viscosity", correct: false },
-            { text: "Ductility", correct: false }
-          ],
-          explanation: "Elasticity is the property of a material to recover its original shape and size after the removal of deforming force. It is a characteristic feature of solids."
-        },
-        {
-          question: "A concave lens is also known as a",
-          answers: [
-            { text: "Converging lens", correct: false },
-            { text: "Diverging lens", correct: true },
-            { text: "Cylindrical lens", correct: false },
-            { text: "Spherical lens", correct: false }
-          ],
-          explanation: "A concave lens is known as a diverging lens because it causes parallel rays of light to diverge after refraction."
-        },
-        {
-          question: "Which of the following is not a vector quantity?",
-          answers: [
-            { text: "Force", correct: false },
-            { text: "Speed", correct: true },
-            { text: "Momentum", correct: false },
-            { text: "Acceleration", correct: false }
-          ],
-          explanation: "Speed is a scalar quantity, not a vector quantity. It only has magnitude and no direction, unlike force, momentum, and acceleration."
-        },
-        {
-          question: "The phenomenon of splitting of light into its constituent colors is known as",
-          answers: [
-            { text: "Reflection", correct: false },
-            { text: "Diffusion", correct: false },
-            { text: "Refraction", correct: false },
-            { text: "Dispersion", correct: true }
-          ],
-          explanation: "The phenomenon of splitting of light into its constituent colors (like in a rainbow) is known as dispersion. This occurs due to different wavelengths of light being refracted by different amounts."
-        },
-        {
-          question: "The energy possessed by an object due to its motion is called",
-          answers: [
-            { text: "Potential energy", correct: false },
-            { text: "Kinetic energy", correct: true },
-            { text: "Internal energy", correct: false },
-            { text: "Mechanical energy", correct: false }
-          ],
-          explanation: "Kinetic energy is the energy possessed by an object due to its motion. It depends on the mass of the object and its velocity."
-        },
-        {
-          question: "The process of heat transfer in solids without actual movement of the particles is called",
-          answers: [
-            { text: "Conduction", correct: true },
-            { text: "Convection", correct: false },
-            { text: "Radiation", correct: false },
-            { text: "Diffusion", correct: false }
-          ],
-          explanation: "Conduction is the process of heat transfer in solids without actual movement of the particles. It occurs due to collisions between particles."
-        },
-        {
-          question: "Which of the following statements about friction is true?",
-          answers: [
-            { text: "Friction increases with smooth surfaces.", correct: false },
-            { text: "Friction depends only on the nature of the surfaces in contact.", correct: false },
-            { text: "Friction acts in the direction opposite to the motion of the object.", correct: true },
-            { text: "Friction is always attractive in nature.", correct: false }
-          ],
-          explanation: "Friction acts in the direction opposite to the motion of the object. It opposes the relative motion between two surfaces in contact."
-        },
-        {
-          question: "If ebonite is rubbed with fur, the fur becomes",
-          answers: [
-            { text: "Neutral", correct: false },
-            { text: "Positively charged", correct: true },
-            { text: "Perfect", correct: false },
-            { text: "Negatively charged", correct: false }
-          ],
-          explanation: "When ebonite is rubbed with fur, electrons transfer from the fur to the ebonite, leaving the fur with a deficiency of electrons (positively charged) and the ebonite with an excess of electrons (negatively charged). Therefore, the fur becomes positively charged."
-        },
-        {
-          question: "A sound produces waves in air of wavelength 1.65m. If the speed of the sound in air is 330m/s, find the period of vibration in seconds.",
-          answers: [
-            { text: "0.05s", correct: false },
-            { text: "0.005s", correct: true },
-            { text: "55s", correct: false },
-            { text: "0.5s", correct: false }
-          ],
-          explanation: "The period (T) of a wave is the reciprocal of its frequency. First, calculate the frequency using the formula v = λ * f, where v is the speed of sound, λ is the wavelength, and f is the frequency. Solving for f gives f = v / λ. Given v = 330 m/s and λ = 1.65 m, f = 330 / 1.65 = 200 Hz. Now, T = 1 / f = 1 / 200 = 0.005 seconds."
-        },
-        {
-          question: "A 60° prism is made of glass whose refractive index for a certain light is 1.60. At what angle of incidence will maximum deviation occur?",
-          answers: [
-            { text: "63.1°", correct: false },
-            { text: "73.1°", correct: false },
-            { text: "53.1°", correct: true },
-            { text: "43.1°", correct: false }
-          ],
-          explanation: "Maximum deviation in a prism occurs when the angle of incidence (i) is such that the angle of emergence (e) becomes minimum. For a 60° prism with refractive index 1.60, the angle of minimum deviation (D) can be found using the relation sin(i + D/2) = n * sin(A), where A is the prism angle. For a 60° prism, A = 60°. The angle of incidence corresponding to maximum deviation is i = 53.1°."
-        },
-        {
-          question: "Resonance occurs in a series RLC circuit when the",
-          answers: [
-            { text: "Inductive reactance is equal to capacitive reactance", correct: true },
-            { text: "Capacitive reactance is equal to the resistance", correct: false },
-            { text: "Total impedance of the circuit is zero", correct: false },
-            { text: "Reactance of the circuit is zero", correct: false }
-          ],
-          explanation: "Resonance in a series RLC circuit occurs when the inductive reactance (XL) equals the capacitive reactance (XC). At resonance, XL = XC = ωL = 1/ωC, where ω is the angular frequency, L is the inductance, and C is the capacitance."
-        },
-        {
-          question: "A transformer connected to a 120V AC power line has 200 turns in its primary winding and 50 turns in its secondary winding. The secondary is connected to a 100Ω light bulb. How much current is drawn from the input side of the power line?",
-          answers: [
-            { text: "0.075A", correct: true },
-            { text: "0.045A", correct: false },
-            { text: "0.300A", correct: false },
-            { text: "0.025A", correct: false }
-          ],
-          explanation: "To find the current drawn from the input side (primary side) of the transformer, use the relation Vp / Ip = Vs / Is, where Vp and Ip are the voltage and current on the primary side, and Vs and Is are on the secondary side. Given Vs = 120V, Np = 200 turns, Ns = 50 turns, and Rs = 100Ω. First, find the secondary current Is = Vs / Rs = 120 / 100 = 1.2A. Then, Ip = Is * (Ns / Np) = 1.2 * (50 / 200) = 1.2 * 0.25 = 0.3A. Therefore, Ip = 0.3A = 0.075A."
-        },
-        {
-          question: "The colors in a rainbow are formed by ___________ phenomenon.",
-          answers: [
-            { text: "Reflection", correct: false },
-            { text: "Diffusion", correct: false },
-            { text: "Refraction", correct: false },
-            { text: "Dispersion", correct: true }
-          ],
-          explanation: "The colors in a rainbow are formed by the dispersion phenomenon. Dispersion occurs because different colors of light have different wavelengths and thus refract at different angles when passing through water droplets."
-        },
-        {
-          question: "Electric potential can also be referred to as a",
-          answers: [
-            { text: "Electric charge", correct: false },
-            { text: "Electric field intensity", correct: false },
-            { text: "Voltage", correct: true },
-            { text: "Electric current", correct: false }
-          ],
-          explanation: "Electric potential is also known as voltage. It represents the electric potential energy per unit charge at a point in an electric field."
-        },
-        {
-          question: "The following are properties of waves except",
-          answers: [
-            { text: "Diffraction", correct: false },
-            { text: "Transverse", correct: true },
-            { text: "Refraction", correct: false },
-            { text: "Reflection", correct: false }
-          ],
-          explanation: "Transverse is not a property of waves. Waves can be classified as transverse or longitudinal based on the direction of particle displacement relative to the direction of wave propagation."
-        },
-        {
-          question: "The rear view mirrors of vehicles should produce",
-          answers: [
-            { text: "Diminished, virtual and erect image", correct: true },
-            { text: "Inverted and diminished image", correct: false },
-            { text: "Magnified and erect image", correct: false },
-            { text: "Magnified and inverted image", correct: false }
-          ],
-          explanation: "Rear view mirrors in vehicles are designed to produce a diminished, virtual, and erect image of objects behind the vehicle, which allows the driver to see them clearly and judge distances effectively."
-        },
-        {
-          question: "When the length of a vibrating string is tripled, its frequency of vibration",
-          answers: [
-            { text: "Becomes three times of its former value", correct: false },
-            { text: "Becomes six times of its former value", correct: false },
-            { text: "Becomes one-sixth of the value", correct: false },
-            { text: "Becomes one-third of the former value", correct: true }
-          ],
-          explanation: "The frequency (f) of vibration of a string is inversely proportional to its length (L) when tension and mass per unit length are constant. Therefore, if the length of the string is tripled, the frequency becomes one-third of its former value."
-        },
-        {
-          question: "Free oscillations are simple harmonic motion with constant amplitude, period with _____",
-          answers: [
-            { text: "No external influence", correct: true },
-            { text: "Small influence", correct: false },
-            { text: "External influence", correct: false },
-            { text: "Every influence", correct: false }
-          ],
-          explanation: "Free oscillations refer to simple harmonic motion where the system oscillates with a constant amplitude and period without any external influences or damping."
-        },
-        {
-          question: "Energy that results from the relationship between opposite charges is termed",
-          answers: [
-            { text: "Electromagnetism", correct: false },
-            { text: "Electricity", correct: false },
-            { text: "Electrostatic", correct: true },
-            { text: "Thermodynamics", correct: false }
-          ],
-          explanation: "Electrostatic energy arises from the interaction between static electric charges. It is the potential energy associated with the electric field created by charges at rest."
-        },
-        {
-          question: "__________ is the capability of a material object or device to store electric charge",
-          answers: [
-            { text: "Inductance", correct: false },
-            { text: "Reactance", correct: false },
-            { text: "Capacitance", correct: true },
-            { text: "Impedance", correct: false }
-          ],
-          explanation: "Capacitance is the ability of a system to store an electric charge. It is determined by the geometry of the system and the dielectric material between the plates or conductors."
-        },
-        {
-          question: "In a pure resistive A.C circuits, current and voltage",
-          answers: [
-            { text: "Are in root", correct: false },
-            { text: "At 90° to each other", correct: false },
-            { text: "Are in phase", correct: true },
-            { text: "In peak", correct: false }
-          ],
-          explanation: "In a pure resistive AC circuit, the current and voltage are in phase with each other. This means they reach their maximum and minimum values at the same points in time."
-        },
-        {
-          question: "An electron of charge 1.6×10^-19 C is situated in a uniform electric field of intensity 1.2×10^5 V/m. Find its acceleration (mass of electron is 9.1×10^-31 kg)",
-          answers: [
-            { text: "1.92×10^-14", correct: false },
-            { text: "2.11×10^16", correct: true },
-            { text: "7.50 ×10^23", correct: false },
-            { text: "1.37×10^-24", correct: false }
-          ],
-          explanation: "The acceleration of an electron in a uniform electric field is given by a = e * E / m, where e is the charge of the electron, E is the electric field intensity, and m is the mass of the electron. Substituting the given values: a = (1.6×10^-19) * (1.2×10^5) / (9.1×10^-31) = 2.11×10^16 m/s^2."
-        },
-        {
-          question: "What is the magnification of the image formed by an object 10cm distant from a concave mirror of focal length 2cm?",
-          answers: [
-            { text: "1/25", correct: true },
-            { text: "-25", correct: false },
-            { text: "25", correct: false },
-            { text: "-1/25", correct: false }
-          ],
-          explanation: "The magnification (m) of a mirror is given by m = -v/u, where v is the image distance and u is the object distance. For a concave mirror, v is positive if the image is real and negative if virtual. Given f = 2 cm and u = -10 cm (since the object is 10 cm in front of the mirror), using the mirror formula: 1/f = 1/v + 1/u, we find v = 20 cm. Therefore, m = -20 / -10 = 2. The magnification for a virtual image is positive, so m = 2."
-        },
-        {
-          question: "Static electricity can be referred to as",
-          answers: [
-            { text: "Electrostatics", correct: true },
-            { text: "Electric charge", correct: false },
-            { text: "All of the above", correct: false },
-            { text: "Electric current", correct: false }
-          ],
-          explanation: "Static electricity is also known as electrostatics. It deals with the study of stationary electric charges."
-        },
-        {
-          question: "The path followed by the flow of electric current is called",
-          answers: [
-            { text: "Conductor", correct: false },
-            { text: "Voltage", correct: false },
-            { text: "Circuit", correct: true },
-            { text: "Ampere", correct: false }
-          ],
-          explanation: "The path followed by the flow of electric current is called a circuit."
-        },
-        {
-          question: "An electric current has the following effect except",
-          answers: [
-            { text: "Heating effect", correct: false },
-            { text: "Magnetic effect", correct: false },
-            { text: "Chemical effect", correct: false },
-            { text: "Turning effect", correct: true }
-          ],
-          explanation: "An electric current does not have a turning effect. The other effects listed are well-known properties of electric currents."
-        },
-        {
-          question: "The potentiometer is used to measure all except",
-          answers: [
-            { text: "Internal resistance", correct: false },
-            { text: "Current", correct: true },
-            { text: "Period", correct: false },
-            { text: "Potential difference", correct: false }
-          ],
-          explanation: "A potentiometer is used to measure potential difference (voltage), not current. It can also measure other quantities like internal resistance and EMF (electromotive force)."
-        },
-        {
-          question: "What is the electric potential at 30cm from a charged body of 4×10^-9 C? [ε₀ = 8.85×10^-12 F/m]",
-          answers: [
-            { text: "119.9 V", correct: false },
-            { text: "1.199 V", correct: false },
-            { text: "399.6 V", correct: true },
-            { text: "11.99 V", correct: false }
-          ],
-          explanation: "The electric potential (V) at a distance r from a point charge q is given by V = k * q / r, where k = 1 / (4πε₀) is the Coulomb's constant. Substituting the given values: V = (1 / (4π * 8.85×10^-12)) * (4×10^-9) / (0.3) = 399.6 V."
-        },
-        {
-          question: "Calculate the magnitude of the force of repulsion between two equal charges of 0.2μC separated by 100cm in a vacuum (k = 9×10^9 N m^2 C^-2)",
-          answers: [
-            { text: "3.6×10^-7 N", correct: false },
-            { text: "3.6×10^-6 N", correct: false },
-            { text: "3.6×10^-4 N", correct: true },
-            { text: "3.6×10^-9 N", correct: false }
-          ],
-          explanation: "The magnitude of the electrostatic force between two charges q1 and q2 separated by distance r is given by F = k * |q1 * q2| / r^2, where k is the Coulomb's constant (9×10^9 N m^2 C^-2). Substituting q1 = q2 = 0.2 μC = 2×10^-7 C and r = 100 cm = 1 m: F = (9×10^9) * (2×10^-7)^2 / (1^2) = 3.6×10^-4 N."
-        },
-        {
-          question: "Which of the following increase the sensitivity of a galvanometer?",
-          answers: [
-            { text: "i, ii and iii", correct: true },
-            { text: "iii", correct: false },
-            { text: "iii and ii", correct: false },
-            { text: "i and ii", correct: false }
-          ],
-          explanation: "Increasing the sensitivity of a galvanometer can be achieved by using: i. a strong magnet (to increase the magnetic field strength), ii. more turns on the coil (to increase the coil's sensitivity), and iii. a light pointer (to reduce inertia and improve responsiveness). Therefore, i, ii, and iii are correct."
-        },
-        {
-          question: "The blue colour of the sky and the reddish appearance of the sun at both sunrise and sunset is due to",
-          answers: [
-            { text: "Interference", correct: false },
-            { text: "Scattering", correct: true },
-            { text: "Refraction", correct: false },
-            { text: "Reflection", correct: false }
-          ],
-          explanation: "The blue color of the sky and the reddish appearance of the sun at sunrise and sunset are primarily due to Rayleigh scattering of sunlight in the Earth's atmosphere."
-        },
-        {
-          question: "A copper wire has a resistance of 10.0Ω at 20°C. What will be the resistance at 80°C?",
-          answers: [
-            { text: "5.5Ω", correct: false },
-            { text: "4.6Ω", correct: false },
-            { text: "12.4Ω", correct: true },
-            { text: "2.4Ω", correct: false }
-          ],
-          explanation: "The resistance of a conductor changes with temperature according to the formula: R₂ = R₁ * (1 + α * ΔT), where R₂ is the resistance at the final temperature, R₁ is the resistance at the initial temperature, α is the temperature coefficient of resistance, and ΔT is the change in temperature. For copper, α ≈ 0.00393 / °C. Calculating: R₂ = 10.0Ω * (1 + 0.00393 * (80 - 20)) = 12.4Ω."
-        },
-        {
-          question: "Current through a metallic conductor is directly proportional to the potential constant is",
-          answers: [
-            { text: "Coulomb's law", correct: false },
-            { text: "Joule's law", correct: false },
-            { text: "Newton's law", correct: false },
-            { text: "Ohm's law", correct: true }
-          ],
-          explanation: "Ohm's law states that the current (I) flowing through a conductor is directly proportional to the voltage (V) applied across it, provided the temperature and other physical conditions remain constant."
-        },
-        {
-          question: "How much energy is stored in a 20 mH coil when it carries a current of 0.2 A?",
-          answers: [
-            { text: "0.00004 J", correct: false },
-            { text: "0.04 J", correct: false },
-            { text: "0.0004 J", correct: true },
-            { text: "0.4 J", correct: false }
-          ],
-          explanation: "The energy stored in an inductor is given by the formula: E = 0.5 * L * I^2, where E is the energy stored, L is the inductance, and I is the current. Substituting L = 20 mH = 20 × 10^-3 H and I = 0.2 A: E = 0.5 * (20 × 10^-3) * (0.2)^2 = 0.0004 J."
-        },
-        {
-          question: "What is the electric potential at 30 cm from a charged body of 4×10^-9 C? [ε₀ = 8.85×10^-12 F/m]",
-          answers: [
-            { text: "119.9 V", correct: false },
-            { text: "1.199 V", correct: false },
-            { text: "399.6 V", correct: true },
-            { text: "11.99 V", correct: false }
-          ],
-          explanation: "The electric potential (V) at a distance r from a point charge q is given by V = k * q / r, where k = 1 / (4πε₀) is the Coulomb's constant and ε₀ is the permittivity of free space. Substituting q = 4×10^-9 C and r = 0.3 m: V = (1 / (4π * 8.85×10^-12)) * (4×10^-9) / (0.3) = 399.6 V."
-        },
-        {
-          question: "A wire of uniform cross-sectional area has a length of 10 m, a resistance of 2 Ω, and resistivity of 2×10^-7 Ωm. The area in m² is",
-          answers: [
-            { text: "1×10^-5", correct: false },
-            { text: "2×10^-4", correct: false },
-            { text: "0.5×10^-5", correct: false },
-            { text: "1×10^-6", correct: true }
-          ],
-          explanation: "The resistance of a wire is given by R = ρ * (L / A), where ρ is the resistivity, L is the length, A is the cross-sectional area. Solving for A: A = ρ * (L / R) = (2×10^-7) * (10 / 2) = 1×10^-6 m²."
-        },
-        {
-          question: "When the number of electrons is equal to the number of protons, the body is said to be",
-          answers: [
-            { text: "Charged", correct: false },
-            { text: "Neutral", correct: true },
-            { text: "Positive", correct: false },
-            { text: "Negative", correct: false }
-          ],
-          explanation: "When the number of electrons is equal to the number of protons in a body, the net charge is zero, and the body is said to be electrically neutral."
-        }, {
-          question: "A telescope that uses two converging lenses is called",
-          answers: [
-            { text: "Refraction", correct: false },
-            { text: "Compound", correct: true },
-            { text: "Simple", correct: false },
-            { text: "Reflection", correct: false }
-          ],
-          explanation: "A telescope that uses two converging lenses is called a compound telescope."
-        },
-        {
-          question: "Which of the following cannot travel through a vacuum",
-          answers: [
-            { text: "Sound", correct: true },
-            { text: "Visible", correct: false },
-            { text: "Gamma", correct: false },
-            { text: "Radio", correct: false }
-          ],
-          explanation: "Sound cannot travel through a vacuum because it requires a medium (such as air) for propagation."
-        },
-        {
-          question: "The following are properties of waves except",
-          answers: [
-            { text: "Reflection", correct: false },
-            { text: "Transverse", correct: false },
-            { text: "Diffraction", correct: false },
-            { text: "Refraction", correct: true }
-          ],
-          explanation: "Refraction is not a property of waves; it refers to the bending of waves when they pass from one medium to another."
-        },
-        {
-          question: "When friction reduces, natural energy of system as time passes motion is said to be",
-          answers: [
-            { text: "Random", correct: false },
-            { text: "Damped", correct: true },
-            { text: "Linear", correct: false },
-            { text: "Simple", correct: false }
-          ],
-          explanation: "When friction reduces the natural energy of a system over time, the motion is described as damped."
-        },
-        {
-          question: "Natural frequency of a given string can be changed by changing its",
-          answers: [
-            { text: "Stiffness", correct: true },
-            { text: "Diameter", correct: false },
-            { text: "Length", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "The natural frequency of a string can be altered by changing its stiffness."
-        },
-        {
-          question: "Heat can be transferred by these processes except",
-          answers: [
-            { text: "Radiation", correct: false },
-            { text: "Convection", correct: false },
-            { text: "Conduction", correct: false },
-            { text: "Evaporation", correct: true }
-          ],
-          explanation: "Evaporation is not a method of heat transfer; it is a cooling process where a liquid turns into vapor."
-        },
-        {
-          question: "______ generate illuminous source of light",
-          answers: [
-            { text: "Stars", correct: true },
-            { text: "Planets", correct: false },
-            { text: "Nebulae", correct: false },
-            { text: "Moons", correct: false }
-          ],
-          explanation: "Stars generate their own light and are luminous sources."
-        },
-        {
-          question: "What happens to the rays in a parallel beam of light?",
-          answers: [
-            { text: "They converge", correct: false },
-            { text: "They diverge", correct: false },
-            { text: "They remain parallel", correct: true },
-            { text: "They scatter", correct: false }
-          ],
-          explanation: "Rays in a parallel beam of light remain parallel to each other."
-        },
-        {
-          question: "The wave found under the water is",
-          answers: [
-            { text: "Intensity", correct: false },
-            { text: "Transverse", correct: false },
-            { text: "Longitudinal", correct: true },
-            { text: "Reflection", correct: false }
-          ],
-          explanation: "Waves under water are typically longitudinal waves."
-        },
-        {
-          question: "The lens thinner at the middle but thicker at the edge is",
-          answers: [
-            { text: "Diverging", correct: false },
-            { text: "Converging", correct: true },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "A lens that is thicker at the edges and thinner in the middle is a converging lens."
-        },
-        {
-          question: "A resistor used as an ammeter is called",
-          answers: [
-            { text: "Shunt", correct: true },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "A resistor used as an ammeter is often called a shunt."
-        },
-        {
-          question: "A resistor used as a voltmeter is called",
-          answers: [
-            { text: "Multiplier", correct: true },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "A resistor used as a voltmeter is often called a multiplier."
-        },
-        {
-          question: "Virtual images can be photographed only with the help of ____",
-          answers: [
-            { text: "A camera", correct: true },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "Virtual images cannot be projected onto a screen, but they can be photographed using a camera."
-        },
-        {
-          question: "A copper wire has a resistance of 10Ω at 20°C. What will be the resistance at 80°C?",
-          answers: [
-            { text: "5.5Ω", correct: false },
-            { text: "4.6Ω", correct: false },
-            { text: "12.4Ω", correct: true },
-            { text: "2.4Ω", correct: false }
-          ],
-          explanation: "The resistance of copper wire increases with temperature. The formula used is R₂ = R₁ * (1 + α * ΔT), where α is the temperature coefficient of resistance for copper (approximately 0.00393 / °C)."
-        },
-        {
-          question: "A galvanometer measuring current from 0 to 1 mA has a resistance of 40 ohms. What value of resistor in parallel with the galvanometer will allow it to measure current from 0 to 1 A?",
-          answers: [
-            { text: "0.04Ω", correct: true },
-            { text: "2.53Ω", correct: false },
-            { text: "0.24Ω", correct: false },
-            { text: "1.42Ω", correct: false }
-          ],
-          explanation: "To convert a galvanometer into an ammeter capable of measuring higher currents, a shunt resistor is connected in parallel. The resistance of the shunt is calculated using the formula R_shunt = (G * R_g) / (I - G), where G is the full-scale deflection current of the galvanometer and R_g is its resistance."
-        },
-        {
-          question: "If 100 waves pass through a medium in 20 s and their wavelength is 6 cm, what is their velocity?",
-          answers: [
-            { text: "0.3 m/s", correct: false },
-            { text: "0.5 m/s", correct: false },
-            { text: "1 m/s", correct: false },
-            { text: "25 m/s", correct: true }
-          ],
-          explanation: "Velocity (v) of waves is given by v = frequency (f) * wavelength (λ). First, calculate the frequency (f) = 100 waves / 20 s = 5 waves/s. Then, v = f * λ = 5 waves/s * 0.06 m = 0.3 m/s."
-        },
-        {
-          question: "Determine the upthrust on an iron cube of volume 400 cm³ if it is totally immersed in oil of density 0.8 g/cm³",
-          answers: [
-            { text: "4.0 N", correct: true },
-            { text: "8.3 N", correct: false },
-            { text: "2.4 N", correct: false },
-            { text: "3.2 N", correct: false }
-          ],
-          explanation: "Upthrust (buoyant force) on an object immersed in a fluid is given by the formula: F = ρ * g * V, where ρ is the density of the fluid, g is the acceleration due to gravity, and V is the volume of the displaced fluid."
-        },
-        {
-          question: "Water waves are ______?",
-          answers: [
-            { text: "Longitudinal", correct: false },
-            { text: "Electromagnetic", correct: false },
-            { text: "Chemical", correct: false },
-            { text: "Transverse", correct: true }
-          ],
-          explanation: "Water waves are typically transverse waves, where the particles oscillate perpendicular to the direction of wave propagation."
-        },
-        {
-          question: "Which waves are used for underwater communication?",
-          answers: [
-            { text: "Ultrasonic", correct: false },
-            { text: "Radio wave", correct: false },
-            { text: "Infrasonic", correct: true },
-            { text: "Microwaves", correct: false }
-          ],
-          explanation: "Infrasonic waves (sound waves with frequencies below the human audible range) are used for underwater communication."
-        },
-        {
-          question: "A positive charge of 3 microcoulombs is surrounded by a sphere with a radius of 0.20 m. The electric flux in the sphere is?",
-          answers: [
-            { text: "Zero", correct: false },
-            { text: "3 μC", correct: false },
-            { text: "3 μC/m²", correct: false },
-            { text: "3 μC / ε₀", correct: true }
-          ],
-          explanation: "The electric flux (Φ) through a closed surface is given by Φ = q / ε₀, where q is the charge enclosed by the surface and ε₀ is the permittivity of free space."
-        },
-        {
-          question: "Artificially damped oscillation is characterized by",
-          answers: [
-            { text: "Constant amplitude", correct: false },
-            { text: "Increasing amplitude", correct: false },
-            { text: "Decreasing amplitude", correct: true },
-            { text: "Oscillations without damping", correct: false }
-          ],
-          explanation: "Artificially damped oscillation refers to oscillations whose amplitude decreases over time due to damping forces like friction."
-        },
-        {
-          question: "The variation of focal length for a sharp image on the retina is called",
-          answers: [
-            { text: "Retina center", correct: false },
-            { text: "Shutter", correct: false },
-            { text: "Depth of field", correct: false },
-            { text: "Accommodation", correct: true }
-          ],
-          explanation: "Accommodation is the process by which the eye changes its focal length to keep images sharply focused on the retina."
-        },
-        {
-          question: "When light enters glass from air",
-          answers: [
-            { text: "Its wavelength increases and velocity increases", correct: false },
-            { text: "Its frequency increases and velocity increases", correct: false },
-            { text: "Its frequency decreases and velocity decreases", correct: false },
-            { text: "Its wavelength decreases and velocity decreases", correct: true }
-          ],
-          explanation: "When light enters a denser medium like glass from air, its velocity decreases and its wavelength also decreases according to the formula v = c / n, where c is the speed of light in vacuum and n is the refractive index of the medium."
-        },
-        {
-          question: "The eclipse of the moon occurs when?",
-          answers: [
-            { text: "When the earth is between the sun and moon", correct: true },
-            { text: "Moon is between the sun and earth", correct: false },
-            { text: "Earth is between the sun and moon", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, casting its shadow on the Moon."
-        },
-        {
-          question: "A 4 µF capacitor is used in a radio circuit through which a 5 µF alternating current of 60 Hz flows. The reactance of the capacitor is",
-          answers: [
-            { text: "6.635 Ω", correct: false },
-            { text: "66.35 Ω", correct: true },
-            { text: "63.6 Ω", correct: false },
-            { text: "663.15 Ω", correct: false }
-          ],
-          explanation: "Reactance (Xₓ) of a capacitor in an AC circuit is given by Xₓ = 1 / (2πfC), where f is the frequency and C is the capacitance."
-        },
-        {
-          question: "The series resonance circuit is used for",
-          answers: [
-            { text: "Resonance wave tube experiment", correct: false },
-            { text: "Oscillating radio wave", correct: true },
-            { text: "Tuning radio receiver", correct: false },
-            { text: "Minimizing circuit heat", correct: false }
-          ],
-          explanation: "A series resonance circuit is used to select a specific frequency from a complex signal or to tune a radio receiver."
-        },
-        {
-          question: "A spherical mirror whose inner surface is silvered is",
-          answers: [
-            { text: "Concave mirror", correct: true },
-            { text: "Convex mirror", correct: false },
-            { text: "Plane mirror", correct: false },
-            { text: "Curved mirror", correct: false }
-          ],
-          explanation: "A concave mirror has a reflecting surface on its inner side (concave side), which is typically silvered."
-        },
-        {
-          question: "Which waves are used for underwater communication?",
-          answers: [
-            { text: "Ultrasonic", correct: false },
-            { text: "Radio wave", correct: false },
-            { text: "Infrasonic", correct: true },
-            { text: "Microwaves", correct: false }
-          ],
-          explanation: "Infrasonic waves (sound waves with frequencies below the human audible range) are used for underwater communication."
-        },
-        {
-          question: "A mirror whose size of the image is smaller than the object is",
-          answers: [
-            { text: "Concave mirror", correct: false },
-            { text: "Convex mirror", correct: true },
-            { text: "Plane mirror", correct: false },
-            { text: "Spherical mirror", correct: false }
-          ],
-          explanation: "A convex mirror produces virtual images that are smaller than the object."
-        },
-        {
-          question: "The distance between the optical center and the focal length is",
-          answers: [
-            { text: "Radius", correct: false },
-            { text: "Half length", correct: false },
-            { text: "Focal length", correct: false },
-            { text: "Principal axis", correct: true }
-          ],
-          explanation: "The distance between the optical center (O) of a lens or mirror and its focal point (F) is called the focal length."
-        },
-        {
-          question: "If the acceleration of a body towards a fixed point is directly proportional to its distance from that point and is always directed towards it, the motion is",
-          answers: [
-            { text: "Translational", correct: false },
-            { text: "Random", correct: false },
-            { text: "Simple harmonic", correct: true },
-            { text: "Rotational", correct: false }
-          ],
-          explanation: "Simple harmonic motion (SHM) is defined by an acceleration that is directly proportional to displacement and always directed towards a fixed equilibrium point."
-        },
-        {
-          question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
-          answers: [
-            { text: "1.2Ω", correct: false },
-            { text: "2.4Ω", correct: false },
-            { text: "5.5Ω", correct: false },
-            { text: "4.6Ω", correct: true }
-          ],
-          explanation: "The resistance of a conductor changes with temperature according to the formula: R₂ = R₁ * (1 + α * ΔT), where R₂ and R₁ are the resistances at temperatures T₂ and T₁ respectively, α is the temperature coefficient of resistance, and ΔT is the change in temperature."
-        },
-        {
-          question: "The coefficient of friction between a perfectly smooth body and a very rough body is",
-          answers: [
-            { text: "2.0", correct: false },
-            { text: "Zero", correct: true },
-            { text: "0.5", correct: false },
-            { text: "1.0", correct: false }
-          ],
-          explanation: "The coefficient of friction is a measure of the resistance to motion between two surfaces in contact. A perfectly smooth body would have zero friction when in contact with any surface."
-        },
-        {
-          question: "When a brick is taken from the Earth's surface to the Moon, its mass becomes",
-          answers: [
-            { text: "Increases", correct: false },
-            { text: "Remains constant", correct: true },
-            { text: "Reduces", correct: false },
-            { text: "Becomes zero", correct: false }
-          ],
-          explanation: "Mass is a fundamental property of matter that remains constant regardless of the location in the universe."
-        },
-        {
-          question: "Calculate the increases in length when 1000cm of steel wire of linear expansivity 1.2× 10^−5 per degree Celsius is heated from 0 to 50 degree Celsius",
-          answers: [
-            { text: "1.2×10^−2 cm", correct: true },
-            { text: "6.0×10^−4 cm", correct: false },
-            { text: "1006.0 cm", correct: false },
-            { text: "6.0 cm", correct: false }
-          ],
-          explanation: "The increase in length (ΔL) of a material due to heating is given by the formula: ΔL = L₀ * α * ΔT, where L₀ is the original length, α is the linear coefficient of thermal expansion, and ΔT is the change in temperature. Substituting the given values: ΔL = 1000 cm * 1.2×10^−5 /°C * 50°C = 1.2×10^−2 cm."
-        },
-        {
-          question: "The following are the properties of a simple microscope except",
-          answers: [
-            { text: "Virtual", correct: false },
-            { text: "Small magnification", correct: false },
-            { text: "Less distorted", correct: false },
-            { text: "Object placed between principal focus and the pole of lens", correct: true }
-          ],
-          explanation: "In a simple microscope, the object is placed very close to the focal point, not between the principal focus and the pole of the lens."
-        },
-        {
-          question: "The size of the image depends on the position of the object in",
-          answers: [
-            { text: "Convex mirror", correct: true },
-            { text: "Silver mirror", correct: false },
-            { text: "Plane mirror", correct: false },
-            { text: "Concave mirror", correct: false }
-          ],
-          explanation: "In a convex mirror, the size of the image formed depends on the position of the object."
-        },
-        {
-          question: "Which of the following is correct for an object placed in the center of curvature?",
-          answers: [
-            { text: "Virtual, Erect, Magnified", correct: false },
-            { text: "Real, Inverted, Magnified", correct: false },
-            { text: "Virtual, Erect, Diminished", correct: false },
-            { text: "Real, Inverted, Magnified", correct: true }
-          ],
-          explanation: "When an object is placed at the center of curvature of a concave mirror, the image formed is real, inverted, and magnified."
-        },
-        {
-          question: "Find the electric field intensity of an object whose potential is 3.6V and distance is 30m",
-          answers: [
-            { text: "12.0 V/m", correct: false },
-            { text: "8 V/m", correct: true },
-            { text: "24 V/m", correct: false },
-            { text: "18 V/m", correct: false }
-          ],
-          explanation: "Electric field intensity (E) is given by E = V / d, where V is the potential and d is the distance. Substituting the given values: E = 3.6V / 30m = 0.12 V/m."
-        },
-        {
-          question: "A 200 kW appliance has a voltage of 40.0 V. Find its current",
-          answers: [
-            { text: "0.5 A", correct: false },
-            { text: "0.05 A", correct: true },
-            { text: "50.00 A", correct: false },
-            { text: "5.00 A", correct: false }
-          ],
-          explanation: "Power (P) = Voltage (V) * Current (I). Rearranging gives I = P / V. Substituting the given values: I = 200 kW / 40.0 V = 0.05 A."
-        },
-        {
-          question: "The oscillations of a system in the presence of some resistive force are",
-          answers: [
-            { text: "Random oscillation", correct: false },
-            { text: "Damped oscillation", correct: true },
-            { text: "Simple harmonic oscillation", correct: false },
-            { text: "Linear oscillation", correct: false }
-          ],
-          explanation: "Damped oscillation refers to oscillations whose amplitude decreases over time due to damping forces."
-        },
-        {
-          question: "An example of repetitive to-and-fro motion about a mean position",
-          answers: [
-            { text: "Piston in gasoline engine", correct: false },
-            { text: "Mass hanging from a coiled spring", correct: true },
-            { text: "Balance wheel of a watch", correct: false },
-            { text: "A car going to Kaduna", correct: false }
-          ],
-          explanation: "Mass hanging from a coiled spring undergoes simple harmonic motion."
-        },
-        {
-          question: "The total capacitance when three capacitors of 0.3 µF, 0.2 µF, and the joint capacitance when arranged to give minimum capacitance",
-          answers: [
-            { text: "1.0 µF", correct: true },
-            { text: "0.2 µF", correct: false },
-            { text: "0.1 µF", correct: false },
-            { text: "0.3 µF", correct: false }
-          ],
-          explanation: "When capacitors are connected in parallel, their total capacitance is the sum of individual capacitances. So, 0.3 µF + 0.2 µF = 1.0 µF."
-        },
-        {
-          question: "Two 240 Ω light bulbs are connected in series with a 120 V power source. Calculate the current in each bulb",
-          answers: [
-            { text: "0.25 A", correct: false },
-            { text: "0.20 A", correct: false },
-            { text: "0.22 A", correct: true },
-            { text: "", correct: false }
-          ],
-          explanation: "Current (I) in a series circuit is the same through all components. Using Ohm's law: I = V / R. For one bulb: I = 120 V / 240 Ω = 0.5 A. Since they are in series, each bulb will have half of this current, so I = 0.5 A / 2 = 0.25 A."
-        },
-        {
-          question: "A light spiral spring loaded with a mass of 200 g extends by 5 cm. What is the period (taking g = 10 m/s²)",
-          answers: [
-            { text: "0.63 s", correct: true },
-            { text: "1.65 s", correct: false },
-            { text: "0.44 s", correct: false }
-          ],
-          explanation: "The period (T) of a mass-spring system in simple harmonic motion is given by T = 2π√(m / k), where m is the mass and k is the spring constant. First, calculate the force constant (k): k = mg / x = 0.2 kg * 10 m/s² / 0.05 m = 40 N/m. Now, calculate the period: T = 2π√(0.2 kg / 40 N/m) ≈ 0.63 s."
-        },
-        {
-          question: "A point charge of 2.0×10⁻⁷ C experiences a force of 0.02 N in a uniform electric field. Calculate the magnitude of the strength of the field",
-          answers: [
-            { text: "4×10⁻⁹ N/C", correct: true },
-            { text: "1×10⁻⁵ N/C", correct: false },
-            { text: "1×10⁻¹⁹ N/C", correct: false },
-            { text: "1×10⁵ N/C", correct: false }
-          ],
-          explanation: "The electric field strength (E) is given by the formula E = F / q, where F is the force experienced by the charge q. Substituting the given values: E = 0.02 N / 2.0×10⁻⁷ C = 4×10⁻⁹ N/C."
-        },
-        {
-          question: "_______ mirror curves inwardly",
-          answers: [
-            { text: "Concave mirror", correct: true },
-            { text: "Convex mirror", correct: false },
-            { text: "Reflection mirror", correct: false },
-            { text: "Plane mirror", correct: false }
-          ],
-          explanation: "A concave mirror curves inwardly, towards the center."
-        },
-        {
-          question: "Which of the following is not a ferromagnetic material",
-          answers: [
-            { text: "Iron", correct: false },
-            { text: "Steel", correct: false },
-            { text: "Cobalt", correct: false },
-            { text: "Copper", correct: true }
-          ],
-          explanation: "Copper is not a ferromagnetic material."
-        },
-        {
-          question: "An eye defect by which an image appears at a different plane is called",
-          answers: [
-            { text: "Myopia", correct: false },
-            { text: "Hypermetropia", correct: true },
-            { text: "Astigmatism", correct: false }
-          ],
-          explanation: "Hypermetropia (or hyperopia) is an eye defect where the image appears at a plane beyond the retina."
-        },
-        {
-          question: "Which of the following cannot receive ultrasonic",
-          answers: [
-            { text: "Bat", correct: false },
-            { text: "Dolphin", correct: false },
-            { text: "Human being", correct: false },
-            { text: "Cat", correct: true }
-          ],
-          explanation: "Cats cannot receive ultrasonic frequencies."
-        },
-        {
-          question: "A light spiral spring loaded with a mass of 250 g extends by 10 cm. What is the frequency of small vertical oscillation (g = 10 m/s²)",
-          answers: [
-            { text: "1.30 Hz", correct: false },
-            { text: "2.20 Hz", correct: false },
-            { text: "1.63 Hz", correct: true },
-            { text: "1.59 Hz", correct: false }
-          ],
-          explanation: "The frequency (f) of a mass-spring system in SHM is given by f = 1 / (2π) * √(k / m), where k is the spring constant and m is the mass. First, calculate the spring constant (k): k = mg / x = 0.25 kg * 10 m/s² / 0.1 m = 25 N/m. Now, calculate the frequency: f = 1 / (2π) * √(25 N/m / 0.25 kg) ≈ 1.63 Hz."
-        },
-        {
-          question: "The belief that light consists of tiny particles can be attributed to",
-          answers: [
-            { text: "Early Greek", correct: false },
-            { text: "James Maxwell", correct: false },
-            { text: "Isaac Newton", correct: true },
-            { text: "Michael Faraday", correct: false }
-          ],
-          explanation: "Isaac Newton proposed that light consists of tiny particles or corpuscles."
-        },
-        {
-          question: "Artificial damped oscillations are",
-          answers: [
-            { text: "Heavy, critical, and solid", correct: false },
-            { text: "Critical, heavy, and light", correct: false },
-            { text: "Solid, critical, and light", correct: false },
-            { text: "Solid, light, and heavy", correct: true }
-          ],
-          explanation: "Artificial damped oscillations can be adjusted to be solid, light, or heavy depending on the damping mechanism."
-        },
-        {
-          question: "An electric current has the following except",
-          answers: [
-            { text: "Heating effect", correct: false },
-            { text: "Tuning effect", correct: true },
-            { text: "Magnetic effect", correct: false },
-            { text: "Chemical effect", correct: false }
-          ],
-          explanation: "An electric current does not have a 'tuning effect'. It can cause heating, magnetic effects, and chemical effects."
-        },
-        {
-          question: "A light spiral spring loaded with a mass of 50 g extends by 30 cm. What is the frequency of small vertical oscillation (g = 10 m/s²)",
-          answers: [
-            { text: "0.45 Hz", correct: true },
-            { text: "0.23 Hz", correct: false },
-            { text: "1.59 Hz", correct: false },
-            { text: "0.92 Hz", correct: false }
-          ],
-          explanation: "First, calculate the spring constant (k): k = mg / x = 0.05 kg * 10 m/s² / 0.3 m = 1.67 N/m. Now, calculate the frequency: f = 1 / (2π) * √(1.67 N/m / 0.05 kg) ≈ 0.45 Hz."
-        },
-        {
-          question: "Water waves are",
-          answers: [
-            { text: "Mechanical", correct: true },
-            { text: "Electromagnetic", correct: false },
-            { text: "Chemical", correct: false },
-            { text: "Longitudinal", correct: false }
-          ],
-          explanation: "Water waves are a form of mechanical waves."
-        },
-        {
-          question: "The following are the defects of lenses except",
-          answers: [
-            { text: "Distortion", correct: false },
-            { text: "Accommodation", correct: true },
-            { text: "Chromatic aberration", correct: false },
-            { text: "Coma", correct: false }
-          ],
-          explanation: "Accommodation is not a defect of lenses; it refers to the ability of the eye to adjust focus."
-        },
-        {
-          question: "Three capacitors of values 8 µF, 16 µF, and 32 µF are connected in series. The total capacitance will be",
-          answers: [
-            { text: "7.32 µF", correct: false },
-            { text: "56 µF", correct: true },
-            { text: "32 µF", correct: false },
-            { text: "7 µF", correct: false }
-          ],
-          explanation: "When capacitors are connected in series, the reciprocal of the total capacitance is equal to the sum of the reciprocals of the individual capacitances. So, 1 / C_total = 1 / 8 µF + 1 / 16 µF + 1 / 32 µF = 56 µF."
-        },
-        {
-          question: "A bulb of 60 W. Find the current passing through it when it is connected in series with a supply",
-          answers: [
-            { text: "1.5 A", correct: true },
-            { text: "0.25 A", correct: false },
-            { text: "0.10 A", correct: false },
-            { text: "0.5 A", correct: false }
-          ],
-          explanation: "Power (P) = Voltage (V) * Current (I). For a 60 W bulb connected in series with a supply, if the supply voltage is known (not provided in the options), the current can be calculated using Ohm's law or the power formula."
-        },
-        {
-          question: "Which instrument will accurately measure the EMF of a cell?",
-          answers: [
-            { text: "Voltmeter", correct: true },
-            { text: "Ammeter", correct: false },
-            { text: "Galvanometer", correct: false },
-            { text: "Potentiometer", correct: false }
-          ],
-          explanation: "A voltmeter is specifically designed to measure voltage or EMF (electromotive force) across a circuit element like a cell."
-        },
-        {
-          question: "Who stated the law that the direction of an induced EMF is always such as to oppose the change producing it?",
-          answers: [
-            { text: "Lenz", correct: true },
-            { text: "Faraday", correct: false },
-            { text: "Ohm", correct: false },
-            { text: "Maxwell", correct: false }
-          ],
-          explanation: "Lenz's law states that the direction of induced EMF (electromotive force) is always such that it opposes the change in magnetic flux that caused it."
-        },
-        {
-          question: "Alternating current is preferable to DC for the transmission of power because",
-          answers: [
-            { text: "It has lower energy losses", correct: false },
-            { text: "It can be easily stored in batteries", correct: false },
-            { text: "It can be transmitted over long distances more efficiently", correct: true },
-            { text: "It is safer to use", correct: false }
-          ],
-          explanation: "AC can be transmitted over long distances more efficiently than DC due to its ability to be easily stepped up or down in voltage using transformers."
-        },
-        {
-          question: "When a current flows in opposite directions through two conductors placed parallel and close to each other, what is produced between them is known as _____",
-          answers: [
-            { text: "Inductance", correct: false },
-            { text: "Capacitance", correct: true },
-            { text: "Resonance", correct: false },
-            { text: "Impedance", correct: false }
-          ],
-          explanation: "When current flows in opposite directions through two conductors, capacitance is produced between them."
-        },
-        {
-          question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
-          answers: [
-            { text: "1.2 ohms", correct: false },
-            { text: "2.4 ohms", correct: false },
-            { text: "5.5 ohms", correct: true },
-            { text: "4.6 ohms", correct: false }
-          ],
-          explanation: "The resistance of a conductor increases with temperature. The formula to calculate resistance change due to temperature is: R₂ = R₁ * (1 + αΔT), where R₁ is the resistance at initial temperature, α is the temperature coefficient of resistance, ΔT is the change in temperature. Given α for copper is approximately 0.00393 /°C, ΔT = 80°C - 20°C = 60°C. So, R₂ = 10.0 ohms * (1 + 0.00393 * 60) ≈ 5.5 ohms."
-        },
-        {
-          question: "What is obtained when cells are joined in series?",
-          answers: [
-            { text: "Current", correct: true },
-            { text: "Potential difference", correct: false },
-            { text: "Friction", correct: false },
-            { text: "Resistance", correct: false }
-          ],
-          explanation: "When cells are joined in series, their voltages add up, resulting in a higher potential difference across the circuit."
-        },
-        {
-          question: "The change of direction of a wavefront due to a change in velocity is called",
-          answers: [
-            { text: "Refraction", correct: true },
-            { text: "Reflection", correct: false },
-            { text: "Polarization", correct: false },
-            { text: "Diffraction", correct: false }
-          ],
-          explanation: "Refraction is the change in direction of a wavefront due to a change in velocity when it passes from one medium to another."
-        },
-        {
-          question: "A device used to increase the visual angle to the eye of an object being observed is",
-          answers: [
-            { text: "All of the above", correct: true },
-            { text: "Optical instrument", correct: false },
-            { text: "Mirror", correct: false },
-            { text: "Lens", correct: false }
-          ],
-          explanation: "Optical instruments such as mirrors and lenses are used to increase the visual angle to the eye of an object being observed."
-        },
-        {
-          question: "Three capacitors of capacitance 2 µF, 4 µF, and 8 µF are connected in parallel and a potential difference of 6 V is maintained across each capacitor. The total energy stored is",
-          answers: [
-            { text: "6.90 × 10⁻⁶ J", correct: false },
-            { text: "2.52 × 10⁻⁴ J", correct: false },
-            { text: "6.90 × 10⁻⁴ J", correct: true },
-            { text: "2.52 × 10⁻⁶ J", correct: false }
-          ],
-          explanation: "The energy stored in a capacitor is given by E = 1/2 * C * V². When capacitors are in parallel, the total energy stored is the sum of the energies stored in each capacitor. So, E_total = 1/2 * (2 µF + 4 µF + 8 µF) * (6 V)² = 6.90 × 10⁻⁴ J."
-        },
-        {
-          question: "The variation in image magnification is called",
-          answers: [
-            { text: "Chromatographic", correct: false },
-            { text: "Distortion", correct: false },
-            { text: "Coma", correct: false },
-            { text: "Acceleration", correct: true }
-          ],
-          explanation: "The variation in image magnification is referred to as acceleration."
-        },
-        {
-          question: "Any system which obeys ________ can exhibit simple harmonic motion.",
-          answers: [
-            { text: "Hooke's Law", correct: true },
-            { text: "Theorenin Theorem", correct: false },
-            { text: "Teirch off law", correct: false },
-            { text: "Superposition Theorem", correct: false }
-          ],
-          explanation: "Simple harmonic motion (SHM) occurs when a restoring force is directly proportional to the displacement from equilibrium, as described by Hooke's Law."
-        },
-        {
-          question: "The velocity of simple harmonic motion is always _____",
-          answers: [
-            { text: "Minimum", correct: false },
-            { text: "Zero", correct: false },
-            { text: "Maximum", correct: true },
-            { text: "Negative", correct: false }
-          ],
-          explanation: "The velocity of an object undergoing simple harmonic motion is maximum when it passes through the equilibrium position."
-        },
-        {
-          question: "The natural frequency of a spring can be changed by changing",
-          answers: [
-            { text: "Diameter", correct: false },
-            { text: "Stiffness", correct: true },
-            { text: "Area", correct: false },
-            { text: "Length", correct: false }
-          ],
-          explanation: "The natural frequency of a spring depends on its stiffness or spring constant (k). Changing the stiffness of the spring will change its natural frequency."
-        },
-        {
-          question: "The quality which does not change during refraction is__",
-          answers: [
-            { text: "Speed", correct: true },
-            { text: "Wavelength", correct: false },
-            { text: "Frequency", correct: false },
-            { text: "Direction", correct: false }
-          ],
-          explanation: "During refraction, the speed of light changes, but the frequency (and therefore the wavelength in the medium) remains constant."
-        },
-        {
-          question: "Determine the upthrust on an iron cube of volume 400 cm³ immersed in oil of density 0.8 g/cm³.",
-          answers: [
-            { text: "3.2 N", correct: true },
-            { text: "8.3 N", correct: false },
-            { text: "4.0 N", correct: false },
-            { text: "2.4 N", correct: false }
-          ],
-          explanation: "Upthrust (buoyant force) = Volume * Density * Acceleration due to gravity = 400 cm³ * 0.8 g/cm³ * 10 m/s² = 3200 g m/s² = 3.2 N."
-        },
-        {
-          question: "Power is the rate at which _____ is done.",
-          answers: [
-            { text: "Work", correct: true },
-            { text: "Energy", correct: false },
-            { text: "Force", correct: false },
-            { text: "Time", correct: false }
-          ],
-          explanation: "Power is defined as the rate at which work is done or energy is transferred."
-        },
-        {
-          question: "_____ IS used in measuring the fluid density in a car",
-          answers: [
-            { text: "Hydrometer", correct: true },
-            { text: "Hygrometer", correct: false },
-            { text: "Barometer", correct: false },
-            { text: "Manometer", correct: false }
-          ],
-          explanation: "A hydrometer is used to measure the density of fluids such as coolants in cars."
-        },
-        {
-          question: "Which of the following wave is used in determining the ocean depth",
-          answers: [
-            { text: "Refraction", correct: false },
-            { text: "Reflection", correct: false },
-            { text: "Sonar", correct: true },
-            { text: "Diffraction", correct: false }
-          ],
-          explanation: "Sonar waves (Sound Navigation and Ranging) are used to determine ocean depth."
-        },
-        {
-          question: "Which of the following is not a property of light",
-          answers: [
-            { text: "Reflection", correct: false },
-            { text: "Refraction", correct: false },
-            { text: "Photoelectric effect", correct: false },
-            { text: "Diffraction", correct: true }
-          ],
-          explanation: "Diffraction is not a property of light but rather a phenomenon associated with wave behavior."
-        },
-        {
-          question: "If the spring is stiff, then the value of k is ____________",
-          answers: [
-            { text: "Approximately zero", correct: false },
-            { text: "Moderate", correct: false },
-            { text: "Large", correct: true },
-            { text: "Small", correct: false }
-          ],
-          explanation: "In Hooke's Law, the spring constant (k) is larger for stiffer springs."
-        },
-        {
-          question: "Which of the following wave is not electromagnetic",
-          answers: [
-            { text: "Radiowave", correct: false },
-            { text: "Sound wave", correct: true },
-            { text: "X-ray", correct: false },
-            { text: "Infra-red ray", correct: false }
-          ],
-          explanation: "Sound waves are not electromagnetic waves; they are mechanical vibrations."
-        },
-        {
-          question: "The following are examples of repetitive to and fro motion about a mean position",
-          answers: [
-            { text: "A piston in a gasoline engine", correct: false },
-            { text: "A mass hanging from a coiled spring", correct: true },
-            { text: "Balance wheel of a watch", correct: false },
-            { text: "A car going to kaduna", correct: false }
-          ],
-          explanation: "A mass hanging from a coiled spring exhibits simple harmonic motion (SHM)."
-        },
-        {
-          question: "Heat can be transferred by these process except",
-          answers: [
-            { text: "Radiation", correct: false },
-            { text: "Conduction", correct: false },
-            { text: "Evaporation", correct: false },
-            { text: "Convection", correct: true }
-          ],
-          explanation: "Convection is not a method of heat transfer; it involves the movement of fluid."
-        },
-        {
-          question: "Determine the upthrust on an iron cube of volume 40cm³ totally immersed in oil of density 0.8g/cm³",
-          answers: [
-            { text: "8.3N", correct: false },
-            { text: "2.4N", correct: false },
-            { text: "4.0N", correct: false },
-            { text: "3.2N", correct: true }
-          ],
-          explanation: "Upthrust (buoyant force) = Volume * Density * Acceleration due to gravity = 40 cm³ * 0.8 g/cm³ * 10 m/s² = 3200 g·m/s² = 3.2 N."
-        },
-        {
-          question: "Which of the following is not a wavelength",
-          answers: [
-            { text: "Radiation", correct: true },
-            { text: "Conduction", correct: false },
-            { text: "Convection", correct: false },
-            { text: "Evaporation", correct: false }
-          ],
-          explanation: "Wavelength refers to the distance between successive crests of a wave, not a mode of heat transfer."
-        },
-        {
-          question: "Power is the rate of a",
-          answers: [
-            { text: "Energy", correct: false },
-            { text: "Kinetic", correct: false },
-            { text: "Work", correct: true },
-            { text: "Mechanical Energy", correct: false }
-          ],
-          explanation: "Power is defined as the rate at which work is done or energy is transferred."
-        },
-        {
-          question: "The following are properties of wave except",
-          answers: [
-            { text: "Transverse", correct: false },
-            { text: "Diffraction", correct: false },
-            { text: "Refraction", correct: false },
-            { text: "Reflection", correct: false }
-          ],
-          explanation: "Transverse, diffraction, refraction, and reflection are all properties or phenomena associated with waves."
-        },
-        {
-          question: "___________ lens curves inwardly",
-          answers: [
-            { text: "Reflection", correct: false },
-            { text: "Concave mirror", correct: true },
-            { text: "Convex mirror", correct: false },
-            { text: "Plane mirror", correct: false }
-          ],
-          explanation: "A concave lens is one that curves inwardly, causing light to converge."
-        },
-        {
-          question: "The unit of electric field intensity is",
-          answers: [
-            { text: "Newton per second", correct: false },
-            { text: "Newton per coulomb", correct: true },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "The electric field intensity is measured in newtons per coulomb (N/C)."
-        },
-        {
-          question: "Metal cable are used as telephone wire because",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "The light spiral spring is loaded with the mass of 100g and it extends by 25cm, what is the frequency of small vertical oscillation",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "Water waves are _____________",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "The minimum deviation when ray of light passes ___________ through the prism",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "E.m.f can be defined as the force of____________",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "A cell whose internal resistance is 0.5 ohms delivers a current of 4A to an external resistor. The lost voltage of the cell is ______________",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "The belief of light that consists of tiny particles can be attributed to",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "Which of these can be used at underwater communication",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "Current of 2A flows in a coil of e.m.f 12v for 0.4s aback emf of 3v was induced during this period. The store in the loop that can be utilized is",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "Platinum wire of 80cm long is to have a resistance of 0.1 ohms. What should its diameter be. Resistivity in platinum is 1.1x 10-7 ohms",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "1hp is ____________",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "Unit of magnetic induction is _____________",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "A bint of charge of 2x10-7 c experience force of 0..02N in the electric field. Calculate the magnitude strength of the field",
-          answers: [
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: ""
-        },
-        {
-          question: "The unit of power is _____________",
-          answers: [
-            { text: "Joules", correct: false },
-            { text: "ms-1", correct: false },
-            { text: "Watts", correct: true },
-            { text: "Candela", correct: false }
-          ],
-          explanation: "The unit of power is the watt (W)."
-        },
-        {
-          question: "Which of the following is a property of compound microscope",
-          answers: [
-            { text: "Less distortion", correct: true },
-            { text: "Smaller magnification", correct: false },
-            { text: "Single converging lens", correct: false },
-            { text: "None of the above", correct: false }
-          ],
-          explanation: "A compound microscope typically offers less distortion in its images."
-        },
-        {
-          question: "1amu = ___________________",
-          answers: [
-            { text: "931 MeV", correct: true },
-            { text: "1 x 10^-19 MeV", correct: false },
-            { text: "421 MeV", correct: false },
-            { text: "444 MeV", correct: false }
-          ],
-          explanation: "1 atomic mass unit (amu) is approximately equal to 931 Mega-electron volts (MeV)."
-        },
-        {
-          question: "Three capacitors of capacitance 2 µF, 4 µF, and a p.d of 6V is maintained across each capacitor. The total energy stored is",
-          answers: [
-            { text: "2.91 x 10^-4 J", correct: false },
-            { text: "2.91 x 10^4 J", correct: false },
-            { text: "6.90 x 10^-6 J", correct: true },
-            { text: "6.90 x 10^-6 J", correct: false }
-          ],
-          explanation: "The total energy stored in capacitors in parallel is the sum of their individual energies: E_total = 1/2 * (2 µF + 4 µF + 8 µF) * (6 V)^2 = 6.90 x 10^-6 J."
-        },
-        {
-          question: "Mirror that is thinner in the middle and thicker at the end is _____________",
-          answers: [
-            { text: "Convex mirror", correct: true },
-            { text: "Concave mirror", correct: false },
-            { text: "Converging lens", correct: false },
-            { text: "Diverging lens", correct: false }
-          ],
-          explanation: "A convex mirror is thinner in the middle and thicker at the ends."
-        },
-        {
-          question: "Which of the following will not receive the ultrasonic",
-          answers: [
-            { text: "Light", correct: true },
-            { text: "Cat", correct: false },
-            { text: "Human being", correct: false },
-            { text: "Bat", correct: false }
-          ],
-          explanation: "Ultrasonic waves are not received by light, as light does not interact with sound waves in this frequency range."
-        },
-        {
-          question: "How many lenses does a compound microscope have",
-          answers: [
-            { text: "1", correct: false },
-            { text: "2", correct: false },
-            { text: "3", correct: true },
-            { text: "4", correct: false }
-          ],
-          explanation: "A compound microscope typically contains two lenses: an objective lens and an eyepiece."
-        },
-        {
-          question: "Relative vapour density is measured by ______________",
-          answers: [
-            { text: "Hydrometer", correct: false },
-            { text: "Hygrometer", correct: false },
-            { text: "Spectrometer", correct: false },
-            { text: "Manometer", correct: false }
-          ],
-          explanation: "Relative vapor density is measured using a spectrometer."
-        },
-        {
-          question: "____________ is used to measure the refractive index of a glass",
-          answers: [
-            { text: "Optical instrument", correct: true },
-            { text: "Photometer", correct: false },
-            { text: "Spectrometer", correct: false },
-            { text: "Kaleidoscope", correct: false }
-          ],
-          explanation: "An optical instrument is used to measure the refractive index of a glass."
-        },
-        {
-          question: "The S.I unit of magnetic induction is ________________",
-          answers: [
-            { text: "Tesla", correct: true },
-            { text: "Ampere", correct: false },
-            { text: "Coulomb", correct: false },
-            { text: "Farad", correct: false }
-          ],
-          explanation: "The SI unit of magnetic induction (B) is the tesla (T)."
-        },
-        {
-          question: "Quantity of charge (Q) is equal to ______________",
-          answers: [
-            { text: "IR", correct: true },
-            { text: "IV", correct: false },
-            { text: "QV", correct: false },
-            { text: "VT", correct: false }
-          ],
-          explanation: "The quantity of charge (Q) is equal to current (I) multiplied by time (T)."
-        },
-        {
-          question: "Ohm’s law is",
-          answers: [
-            { text: "V = RR", correct: false },
-            { text: "V = R/I", correct: true },
-            { text: "V = I/R", correct: false },
-            { text: "V = IR", correct: false }
-          ],
-          explanation: "Ohm's law states that voltage (V) is equal to current (I) multiplied by resistance (R)."
-        },
-        {
-          question: "The position and nature of an object placed 10cm in front of a concave mirror with radius of curvature 12cm is",
-          answers: [
-            { text: "5.5cm real", correct: true },
-            { text: "15cm real", correct: false },
-            { text: "5.5cm virtual", correct: false },
-            { text: "15cm virtual", correct: false }
-          ],
-          explanation: "A concave mirror with an object placed 10 cm in front and a radius of curvature of 12 cm will form a real, inverted image at 5.5 cm."
-        },
-        {
-          question: "Which of the following is not a semi-conductor",
-          answers: [
-            { text: "H", correct: true },
-            { text: "Cu", correct: false },
-            { text: "Gas", correct: false },
-            { text: "H2O", correct: false }
-          ],
-          explanation: "Hydrogen (H) is not a semiconductor; it is a gas."
-        },
-        {
-          question: "The following are luminous except",
-          answers: [
-            { text: "Candle", correct: false },
-            { text: "Touch", correct: true },
-            { text: "Sun", correct: false },
-            { text: "Ray of light", correct: false }
-          ],
-          explanation: "Touch is not a luminous source; it does not emit light."
-        },
-        {
-          question: "The path followed by flow of electric current is _______________",
-          answers: [
-            { text: "Ampere", correct: false },
-            { text: "Voltage", correct: false },
-            { text: "Circuit", correct: true },
-            { text: "Conduction", correct: false }
-          ],
-          explanation: "The path followed by the flow of electric current is called a circuit."
-        },
-        {
-          question: "Which is a means of generating luminous source of light",
-          answers: [
-            { text: "All of the above", correct: true },
-            { text: "Thermal conduction of molecules", correct: false },
-            { text: "Vibration of molecules", correct: false },
-            { text: "Harmonic motion of molecules", correct: false }
-          ],
-          explanation: "Various methods such as thermal conduction, vibration, and harmonic motion of molecules can generate luminous sources of light."
-        },
-        {
-          question: "In which of the following material medium will sound travel faster",
-          answers: [
-            { text: "Oil", correct: false },
-            { text: "Water", correct: false },
-            { text: "Metal", correct: true },
-            { text: "Gas", correct: false }
-          ],
-          explanation: "Sound travels fastest in solids like metals due to their higher elasticity and atomic arrangement."
-        },
-        {
-          question: "Oscillations are damped due to a process, that when a particle executing S.H.M passes through the mean position it has",
-          answers: [
-            { text: "Maximum K.E and maximum P.E", correct: false },
-            { text: "Minimum K.E and minimum P.E", correct: false },
-            { text: "Maximum K.E and minimum P.E", correct: true },
-            { text: "Maximum K.E and maximum K.E", correct: false }
-          ],
-          explanation: "Oscillations are damped due to energy losses, resulting in maximum kinetic energy and minimum potential energy at the mean position."
-        },
-        {
-          question: "A galvanometer measuring current 0 to 1 mA, has a resistance of 40 ohms. What is the value of resistor in parallel the galvanometer will use to measure current 0 to 1 A",
-          answers: [
-            { text: "2.5 ohms", correct: true },
-            { text: "0.24 ohms", correct: false },
-            { text: "0.04 ohms", correct: false },
-            { text: "1.42 ohms", correct: false }
-          ],
-          explanation: "To convert a galvanometer to an ammeter for a range of 0 to 1 A, a parallel resistor of 2.5 ohms should be used."
-        },
-        {
-          question: "A radio is operated by eight cells, each of e.m.f 2.0 V connected in series. If the cells are wrongly connected, the net e.m.f of the radio is",
-          answers: [
-            { text: "16V", correct: false },
-            { text: "10V", correct: false },
-            { text: "12V", correct: false },
-            { text: "8V", correct: true }
-          ],
-          explanation: "If cells with an EMF of 2.0 V each are connected in series, and they are wrongly connected, the net EMF of the radio will be 8V."
-        },
-        {
-          question: "An electric generator with a power of 30 kW, voltage of 1.5 i.e. distributes power to a 100 m cable. The total resistance of the cable is 20.0. What is the power loss in the cable",
-          answers: [
-            { text: "4.00", correct: false },
-            { text: "0.1", correct: false },
-            { text: "10.0", correct: true },
-            { text: "80.0", correct: false }
-          ],
-          explanation: "Power loss in the cable can be calculated using P = I^2 * R, where I = V / R. Substituting the values gives 10.0."
-        },
-        {
-          question: "Any system which obeys ______________ can exhibit S.H.M",
-          answers: [
-            { text: "Kirchoff’s law", correct: false },
-            { text: "Hooke’s law", correct: true },
-            { text: "Thevenin’s law", correct: false },
-            { text: "", correct: false }
-          ],
-          explanation: "A system that follows Hooke's law (F = -kx) can exhibit simple harmonic motion."
-        },
-        {
-          question: "Examples of optical instruments except",
-          answers: [
-            { text: "Telescope", correct: false },
-            { text: "Scanner", correct: false },
-            { text: "Camera", correct: false },
-            { text: "Projector", correct: true }
-          ],
-          explanation: "A projector is not typically considered an optical instrument in the same category as telescopes, scanners, and cameras."
-        },
-        {
-          question: "Calculate the electric dipole length of the charge 6 x 10^-9 C separated by 0.125 N/m",
-          answers: [
-          { text: "2.19 x 10^-29 m", correct: true },
-          { text: "2 x 10^-29 m", correct: false },
-          { text: "2.2 x 10^-9 m", correct: false },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "The electric dipole moment (p) is given by p = q * d, where q is the charge and d is the separation distance. Here, p = (6 x 10^-9 C) * (0.125 N/m) = 7.5 x 10^-10 Cm. The correct option represents this value in meters."
-          },
-          {
-          question: "1 eV is equivalent to ________",
-          answers: [
-          { text: "764 hp", correct: false },
-          { text: "732 hp", correct: false },
-          { text: "746 hp", correct: true },
-          { text: "744 hp", correct: false }
-          ],
-          explanation: "1 electron volt (eV) is equivalent to approximately 746 horsepower (hp)."
-          },
-          {
-          question: "A force produced with a resistive force is called",
-          answers: [
-          { text: "Damped", correct: true },
-          { text: "Random", correct: false },
-          { text: "Translational", correct: false },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "A force produced with a resistive force is called damped force, which gradually reduces in amplitude."
-          },
-          {
-          question: "Speed (v) of wave is = product of frequency and ",
-          answers: [
-          { text: "Vibration", correct: false },
-          { text: "Wavelength", correct: true },
-          { text: "Amplitude", correct: false },
-          { text: "Time period", correct: false }
-          ],
-          explanation: "The speed (v) of a wave is given by v = frequency * wavelength. Therefore, speed is the product of frequency and wavelength."
-          },
-          {
-          question: "A steady current of 2A flows in a coil of emf 12V for 0.4 seconds. A back emf of 30V was induced during this period. The stored energy in the loop that can be utilized is",
-          answers: [
-          { text: "2.4 J", correct: false },
-          { text: "12.0 J", correct: false },
-          { text: "9.6 J", correct: true },
-          { text: "0.2 J", correct: false }
-          ],
-          explanation: "The energy stored in an inductor (coil) is given by E = 1/2 * L * I^2, where L is the inductance and I is the current. Given the back emf, the stored energy that can be utilized is 9.6 joules."
-          },
-          {
-          question: "A point charge of 2.07 x 10^-7 C experiences a force of 0.2 N in a uniform electric field. Compute the magnitude of the strength of the field",
-          answers: [
-          { text: "1 x 10^4 N/C", correct: true },
-          { text: "4 x 10^-5 N/C", correct: false },
-          { text: "1 x 10^-5 N/C", correct: false },
-          { text: "1 x 10^-9 N/C", correct: false }
-          ],
-          explanation: "The electric field strength (E) is given by E = F / q, where F is the force experienced by the charge q. Substituting the given values, E = (0.2 N) / (2.07 x 10^-7 C) = 1 x 10^4 N/C."
-          },
-          {
-          question: "The following are advantages of a potentiometer except",
-          answers: [
-          { text: "Connecting wires may be thin", correct: false },
-          { text: "Slow to use", correct: true },
-          { text: "No current is drawn from the circuit under test", correct: false },
-          { text: "Scale can be varied and made long", correct: false }
-          ],
-          explanation: "One disadvantage of a potentiometer is that it can be slow to use due to manual adjustments."
-          },
-          {
-          question: "Which of the following cannot travel in a vacuum?",
-          answers: [
-          { text: "Sound", correct: true },
-          { text: "Visible light", correct: false },
-          { text: "Gamma rays", correct: false },
-          { text: "Radio waves", correct: false }
-          ],
-          explanation: "Sound waves require a medium (such as air, water, or solids) to propagate and cannot travel through a vacuum."
-          },
-          {
-          question: "The change of direction of a wave front due to a change in velocity is called",
-          answers: [
-          { text: "Diffraction", correct: false },
-          { text: "Refraction", correct: true },
-          { text: "Reflection", correct: false },
-          { text: "Interference", correct: false }
-          ],
-          explanation: "Refraction refers to the change in direction of a wave front when it passes from one medium to another with different velocity."
-          },
-          {
-          question: "The lens with a long focal length is",
-          answers: [
-          { text: "Not strongly curved", correct: false },
-          { text: "Thick", correct: false },
-          { text: "Both b and c", correct: false },
-          { text: "Thin", correct: true }
-          ],
-          explanation: "A lens with a long focal length tends to be thinner and less strongly curved."
-          },
-          {
-          question: "A charge of magnitude 2 x 10^-4 C experiences a force of 4 x 10^-5 N in an electric field. Find the electric field intensity",
-          answers: [
-          { text: "5 x 10^5 N/C", correct: true },
-          { text: "3.4 x 10^5 N/C", correct: false },
-          { text: "2.4 x 10^5 N/C", correct: false },
-          { text: "4 x 10^-5 N/C", correct: false }
-          ],
-          explanation: "The electric field intensity (E) is given by E = F / q, where F is the force experienced by the charge q. Substituting the given values, E = (4 x 10^-5 N) / (2 x 10^-4 C) = 5 x 10^5 N/C."
-          },
-          {
-          question: "A light spiral spring is loaded with a mass of 150 g and it extends by 20 cm. Calculate the frequency",
-          answers: [
-          { text: "1.13 Hz", correct: true },
-          { text: "2.56 Hz", correct: false },
-          { text: "0.16 Hz", correct: false },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "The frequency (f) of a spring-mass system is given by f = (1 / 2π) * sqrt(k / m), where k is the spring constant and m is the mass. In this case, m = 0.15 kg and k = F / x (using Hooke's Law). Calculate k first, then find the frequency."
-          },
-          {
-          question: "Convex mirrors are used as drawing mirrors because",
-          answers: [
-          { text: "Erect and virtual images", correct: true },
-          { text: "Wide field of view", correct: false },
-          { text: "They produce upright and diminished images", correct: false },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "Convex mirrors produce virtual, erect, and diminished images, which are useful for drawing purposes."
-          },
-          {
-          question: " is used to measure the acidity of a car battery",
-          answers: [
-          { text: "Barometer", correct: false },
-          { text: "Hydrometer", correct: true },
-          { text: "Hygrometer", correct: false },
-          { text: "Manometer", correct: false }
-          ],
-          explanation: "A hydrometer is a device used to measure the specific gravity (and thus the acidity) of a liquid like battery acid."
-          },
-          {
-          question: "The emission and absorption of light can be best explained using",
-          answers: [
-          { text: "Reflection model", correct: false },
-          { text: "Wave model", correct: false },
-          { text: "Refraction model", correct: false },
-          { text: "Particle model", correct: true }
-          ],
-          explanation: "The emission and absorption of light are phenomena best explained using the particle model, where light behaves like photons."
-          },
-          {
-          question: "Which of the following is correct?",
-          answers: [
-          { text: "Unlike charges repel, like charges attract", correct: true },
-          { text: "Repulsion is equal to attraction", correct: false },
-          { text: "", correct: false },
-          { text: "", correct: false }
-          ],
-          explanation: "According to Coulomb's law, unlike charges repel each other and like charges attract each other."
-          },
-          {
-          question: "A wire of length 90.0 cm and diameter of 0.3 mm has a resistivity of 11 x 10^-8 ohm m. Calculate the resistance.",
-          answers: [
-          { text: "12.0 ohms", correct: true },
-          { text: "14.00 ohms", correct: false },
-          { text: "13.00 ohms", correct: false },
-          { text: "10.0 ohms", correct: false }
-          ],
-          explanation: "The resistance (R) of a wire is given by R = (resistivity * length) / (cross-sectional area). First, calculate the cross-sectional area using the diameter of the wire, then use the formula."
-          },
-          {
-          question: "An object is placed 30.0 cm from a converging lens. If the real image formed is 90.0 cm from the object, what is the focal length?",
-          answers: [
-          { text: "20.0 cm", correct: false },
-          { text: "50.0 cm", correct: true },
-          { text: "22.5 cm", correct: false },
-          { text: "60.0 cm", correct: false }
-          ],
-          explanation: "Using the lens formula (1/f = 1/do + 1/di), where do is the object distance and di is the image distance, solve for f."
-          },
-          {
-          question: "A sufficiently high temperature causes all matter to emit visible light due to",
-          answers: [
-          { text: "Reflection", correct: false },
-          { text: "Self-luminous", correct: true },
-          { text: "", correct: false },
-          { text: "", correct: false }
-          ],
-          explanation: "At sufficiently high temperatures, all matter emits visible light due to being self-luminous."
-          },
-          {
-          question: "What is the angle of refraction for a light ray of wavelength 589 nm traveling from air to crown glass at an angle of incidence of 30°?",
-          answers: [
-          { text: "41.10°", correct: true },
-          { text: "60°", correct: false },
-          { text: "90.20°", correct: false },
-          { text: "30°", correct: false }
-          ],
-          explanation: "Use Snell's law (n1 * sin(theta1) = n2 * sin(theta2)) to find the angle of refraction."
-          },
-          {
-          question: "When a stone is taken from Earth to the Moon, its mass will",
-          answers: [
-          { text: "Increase", correct: false },
-          { text: "Decrease", correct: false },
-          { text: "Remain constant", correct: true },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "The mass of an object remains constant regardless of its location."
-          },
-          {
-          question: "In an inductive circuit,",
-          answers: [
-          { text: "Current lags voltage by 90°", correct: true },
-          { text: "Voltage lags current by 90°", correct: false },
-          { text: "", correct: false },
-          { text: "", correct: false }
-          ],
-          explanation: "In an inductive circuit, the current lags the voltage by 90° due to the inductance of the circuit."
-          },
-          {
-          question: "A point on the principal axis at the center of curvature is called",
-          answers: [
-          { text: "Principal axis", correct: false },
-          { text: "Optical center", correct: true },
-          { text: "Focal length", correct: false },
-          { text: "Principal focus", correct: false }
-          ],
-          explanation: "The optical center of a lens or mirror is the point on the principal axis at the center of curvature."
-          },
-          {
-          question: "The inability of the eye to see objects clearly is called",
-          answers: [
-          { text: "Clarity of images", correct: false },
-          { text: "Blurry images", correct: false },
-          { text: "Defects of vision", correct: true },
-          { text: "Small images", correct: false }
-          ],
-          explanation: "Defects of vision refer to the inability of the eye to see objects clearly."
-          },
-          {
-          question: "What is the speed of light in a fluid where light travels from air to a fluid of refractive index 1.34?",
-          answers: [
-          { text: "0.74 m/s", correct: false },
-          { text: "3 x 10^8 m/s", correct: false },
-          { text: "2.25 x 10^8 m/s", correct: true },
-          { text: "4.47 x 10^-9 m/s", correct: false }
-          ],
-          explanation: "The speed of light in a medium is v = c / n, where c is the speed of light in vacuum and n is the refractive index of the medium."
-          },
-          {
-          question: "A copper wire has a resistance of 10.0 ohms at 20°C. What will be the resistance at 80°C?",
-          answers: [
-          { text: "1.20 ohms", correct: false },
-          { text: "5.5 ohms", correct: false },
-          { text: "2.4 ohms", correct: false },
-          { text: "4.6 ohms", correct: true }
-          ],
-          explanation: "The resistance of a material changes with temperature according to the formula: R2 = R1 * [1 + α * (T2 - T1)], where α is the temperature coefficient of resistance."
-          },
-          {
-          question: "Calculate the electrostatic force between two electrons separated by a distance of 10^-10 m. Given electronic charge = 1.6 x 10^-19 C (k = 9 x 10^9 Nm^2/C^2)",
-          answers: [
-          { text: "9 x 10^-8 N", correct: true },
-          { text: "1.6 x 10^-19 N", correct: false },
-          { text: "1.44 x 10^-28 N", correct: false },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "The electrostatic force between two charges is given by Coulomb's law: F = (k * q1 * q2) / r^2, where q1 and q2 are the charges, k is the Coulomb constant, and r is the distance between the charges."
-          },
-          {
-          question: "The nature of light is both wave and particle, which is known as",
-          answers: [
-          { text: "Triple", correct: false },
-          { text: "Single", correct: false },
-          { text: "Dual", correct: true },
-          { text: "Negative", correct: false }
-          ],
-          explanation: "Light exhibits both wave-like and particle-like properties, known as wave-particle duality."
-          },
-          {
-          question: "For a diverging lens, the focal length is __",
-          answers: [
-          { text: "Negative", correct: true },
-          { text: "Zero", correct: false },
-          { text: "Positive", correct: false },
-          { text: "Constant", correct: false }
-          ],
-          explanation: "The focal length of a diverging lens is negative because the light rays diverge after passing through the lens."
-          },
-          {
-          question: "Electric current has the following effects except",
-          answers: [
-          { text: "Heating effect", correct: false },
-          { text: "Chemical effect", correct: false },
-          { text: "Turning effect", correct: true },
-          { text: "Magnetic effect", correct: false }
-          ],
-          explanation: "Electric current produces heating, chemical changes (electrolysis), and magnetic effects, but does not produce a turning effect."
-          },
-          {
-          question: "The closed surface in Gauss's law is called",
-          answers: [
-          { text: "Gauss keyboard", correct: false },
-          { text: "Gauss sphere", correct: false },
-          { text: "Gauss surface", correct: true },
-          { text: "None of the above", correct: false }
-          ],
-          explanation: "Gauss's law deals with the flux through a closed surface, known as a Gauss surface."
-          },
-          {
-          question: " is a type of surface that can reflect a beam of light in one direction instead of scattering.",
-          answers: [
-          { text: "All of the above", correct: false },
-          { text: "Mirror", correct: true },
-          { text: "Prism", correct: false },
-          { text: "Lens", correct: false }
-          ],
-          explanation: "Mirrors are surfaces designed to reflect light in a predictable direction, unlike rough surfaces that scatter light."
-          },
-          {
-          question: "A telescope using a converging lens is",
-          answers: [
-          { text: "Simple telescope", correct: true },
-          { text: "Compound microscope", correct: false },
-          { text: "Refracting lens", correct: false },
-          { text: "Reflecting lens", correct: false }
-          ],
-          explanation: "A telescope that uses a converging lens (objective lens) is known as a simple telescope."
-          },
-          {
-          question: "The following are uses of static electricity except",
-          answers: [
-          { text: "Polythene fabrication", correct: false },
-          { text: "Electrostatic paint spray", correct: false },
-          { text: "Electrostatic dust collector", correct: false },
-          { text: "Galden spray", correct: true }
-          ],
-          explanation: "Galden spray is not a common use of static electricity; the other options are valid applications."
-          },
-          {
-          question: "The distance between the optical center and the principal focus is called",
-          answers: [
-          { text: "Focal length", correct: false },
-          { text: "Lens length", correct: false },
-          { text: "Radius", correct: false },
-          { text: "Focal length", correct: true }
-          ],
-          explanation: "The distance between the optical center and the principal focus of a lens is known as the focal length."
-          },
-          {
-          question: "Which of the following does not change during refraction?",
-          answers: [
-          { text: "Wavelength", correct: false },
-          { text: "Direction", correct: false },
-          { text: "Frequency", correct: false },
-          { text: "Speed", correct: true }
-          ],
-          explanation: "Speed is the property of light that changes when it refracts through different media; wavelength, direction, and frequency may change."
-          },
-          {
-          question: "The current passing through a semiconductor is directly proportional to its",
-          answers: [
-          { text: "Coulomb's law", correct: false },
-          { text: "Ohm's law", correct: true },
-          { text: "Faraday's law", correct: false },
-          { text: "Lenz's law", correct: false }
-          ],
-          explanation: "Ohm's law states that the current flowing through a conductor is directly proportional to the potential difference applied across it, under constant temperature conditions."
-          },
+          question: " Which of these is not a magnetic material",
+          answers: [
+              { text: "Copper", correct: true },
+              { text: "Iron", correct: false },
+              { text: "Cobalt", correct: false },
+              { text: "Steel", correct: false }
+          ],
+          explanation: "Copper is not a magnetic material."
+      },
+      {
+          question: " The high voltage across the spark plug on the ignition system in a motor car is supplied by",
+          answers: [
+              { text: "Alternator", correct: false },
+              { text: "Carburetor", correct: false },
+              { text: "Induction coil", correct: true },
+              { text: "Capacitor", correct: false }
+          ],
+          explanation: "High voltage across the spark plug is supplied by the induction coil."
+      },
+      {
+          question: " The unit of electric field intensity is",
+          answers: [
+              { text: "Newton/F", correct: false },
+              { text: "N/C", correct: true },
+              { text: "NC", correct: false },
+              { text: "μ/k", correct: false }
+          ],
+          explanation: "The unit of electric field intensity is Newton per Coulomb (N/C)."
+      },
+      {
+          question: " The unit of electric field intensity is",
+          answers: [
+              { text: "Newton per Farad", correct: false },
+              { text: "Newton per meter", correct: false },
+              { text: "Newton per Coulomb", correct: true },
+              { text: "Newton per kelvin", correct: false }
+          ],
+          explanation: "The unit of electric field intensity is Newton per Coulomb (N/C)."
+      },
+      {
+          question: " In a pure conductive A.C circuit",
+          answers: [
+              { text: "Current leads voltage by 45°", correct: false },
+              { text: "Current lags voltage by 90°", correct: true },
+              { text: "Current lags voltage by 45°", correct: false },
+              { text: "Current leads voltage by 90°", correct: false }
+          ],
+          explanation: "In a purely conductive AC circuit, current lags voltage by 90°."
+      },
+      {
+          question: " How much current is drawn by a 60Ω resistor when a voltage of 12V is impressed on it",
+          answers: [
+              { text: "0.2A", correct: true },
+              { text: "5.0A", correct: false },
+              { text: "2.0A", correct: false },
+              { text: "0.5A", correct: false }
+          ],
+          explanation: "Current (I) = Voltage (V) / Resistance (R) = 12V / 60Ω = 0.2A."
+      },
+      {
+          question: " _______________ is the tendency of an electric current to oppose a change in the electric circuit",
+          answers: [
+              { text: "Impedance", correct: false },
+              { text: "Reactance", correct: false },
+              { text: "Circuit", correct: false },
+              { text: "Inductance", correct: true }
+          ],
+          explanation: "Inductance is the tendency of an electric current to oppose a change in the electric circuit."
+      },
+      {
+          question: " The opposition of material medium to current flow is called",
+          answers: [
+              { text: "current", correct: false },
+              { text: "Resistor", correct: false },
+              { text: "Conductor", correct: false },
+              { text: "Resistance", correct: true }
+          ],
+          explanation: "Resistance is the opposition of a material medium to current flow."
+      },
+      {
+          question: " Opposition presented to A.C by inductance or capacitance is",
+          answers: [
+              { text: "Inductance", correct: false },
+              { text: "Reactance", correct: true },
+              { text: "Impedance", correct: false },
+              { text: "Circuit", correct: false }
+          ],
+          explanation: "Opposition presented to AC by inductance or capacitance is called reactance."
+      },
+      {
+          question: " Opposition to A.C presented by the combine effect of resistance reactance is called",
+          answers: [
+              { text: "Circuit", correct: false },
+              { text: "Reactance", correct: false },
+              { text: "Inductance", correct: false },
+              { text: "Impedance", correct: true }
+          ],
+          explanation: "Opposition to AC presented by the combined effect of resistance and reactance is called impedance."
+      },
+
+
+
+
+
+
           {
           question: "A p.d of 3.6V is maintained between plates which are 30 cm apart. Calculate the intensity.",
           answers: [
@@ -20418,6 +19501,1766 @@ const quizData = {
           ],
           explanation: "The lost voltage (Vlost) of a cell is given by Vlost = I * r, where I is the current and r is the internal resistance of the cell."
           },
+          {
+            question: "Heat can be transferred by these processes except:",
+            answers: [
+                { text: "Radiation", correct: false },
+                { text: "Convection", correct: false },
+                { text: "Conduction", correct: false },
+                { text: "Evaporation", correct: true }
+            ],
+            explanation: "Evaporation is a process of phase change, not a heat transfer method, whereas conduction, convection, and radiation are."
+        },
+        {
+            question: "A resistor used as an ammeter is called a:",
+            answers: [
+                { text: "Shunt resistor", correct: true },
+                { text: "Wheatstone bridge", correct: false },
+                { text: "Potentiometer", correct: false },
+                { text: "Multiplier", correct: false }
+            ],
+            explanation: "A shunt resistor is used in parallel with a galvanometer to measure large currents."
+        },
+        {
+            question: "A resistor used as a voltmeter is called a:",
+            answers: [
+                { text: "Multiplier", correct: true },
+                { text: "Shunt", correct: false },
+                { text: "Ammeter", correct: false },
+                { text: "Galvanometer", correct: false }
+            ],
+            explanation: "A multiplier resistor is used in series with a galvanometer to extend its range to measure voltage."
+        },
+        {
+            question: "The coefficient of friction between a perfectly smooth body and a very rough body is:",
+            answers: [
+                { text: "Zero", correct: true },
+                { text: "1.0", correct: false },
+                { text: "0.5", correct: false },
+                { text: "2.0", correct: false }
+            ],
+            explanation: "A perfectly smooth body would have no friction, leading to a coefficient of friction of zero."
+        },
+        {
+            question: "Power is the rate at which:",
+            answers: [
+                { text: "Work is done", correct: true },
+                { text: "Energy is used", correct: false },
+                { text: "Force is applied", correct: false },
+                { text: "Time passes", correct: false }
+            ],
+            explanation: "Power is the rate at which work is done, often measured in watts (Joules per second)."
+        },
+        {
+            question: "The internal resistance of a cell is 0.5 ohms. It delivers a current of 4A to an external resistor. The lost voltage of the cell is:",
+            answers: [
+                { text: "2.00 V", correct: true },
+                { text: "0.125 V", correct: false },
+                { text: "8.00 V", correct: false },
+                { text: "1.25 V", correct: false }
+            ],
+            explanation: "The lost voltage is calculated by multiplying the current by the internal resistance: V = IR = 4A * 0.5Ω = 2.00V."
+        },
+        {
+            question: "The distance between the optical center and the principal focus is called:",
+            answers: [
+                { text: "Focal length", correct: true },
+                { text: "Principal axis", correct: false },
+                { text: "Radius", correct: false },
+                { text: "Image distance", correct: false }
+            ],
+            explanation: "The focal length is the distance from the optical center to the point where parallel light rays converge or diverge."
+        },
+        {
+            question: "Which of the following is not a ferromagnetic material?",
+            answers: [
+                { text: "Copper", correct: true },
+                { text: "Iron", correct: false },
+                { text: "Steel", correct: false },
+                { text: "Cobalt", correct: false }
+            ],
+            explanation: "Copper is not a ferromagnetic material; it does not exhibit strong magnetic properties like iron, steel, or cobalt."
+        },
+        {
+            question: "The path followed by the flow of electric current is called a:",
+            answers: [
+                { text: "Circuit", correct: true },
+                { text: "Ampere", correct: false },
+                { text: "Conduction", correct: false },
+                { text: "Voltage", correct: false }
+            ],
+            explanation: "A circuit is the complete path through which electric current flows."
+        },
+        {
+            question: "The tendency of a body to remain at rest or continue in uniform motion is called:",
+            answers: [
+                { text: "Inertia", correct: true },
+                { text: "Resistance", correct: false },
+                { text: "Friction", correct: false },
+                { text: "Tension", correct: false }
+            ],
+            explanation: "Inertia is the property of matter that resists changes in motion, as described by Newton's First Law."
+        },
+        {
+            question: "A cell whose internal resistance is 0.50 ohms delivers a current of 4A to an external resistor. The lost voltage of the cell is:",
+            answers: [
+                { text: "2.00 V", correct: true },
+                { text: "0.125 V", correct: false },
+                { text: "8.00 V", correct: false },
+                { text: "1.25 V", correct: false }
+            ],
+            explanation: "The lost voltage is calculated by multiplying the internal resistance and current: V = IR = 0.5Ω * 4A = 2.00V."
+        },
+        {
+            question: "Which of the following is not a semiconductor?",
+            answers: [
+                { text: "Copper", correct: true },
+                { text: "Silicon", correct: false },
+                { text: "Germanium", correct: false },
+                { text: "Gallium arsenide", correct: false }
+            ],
+            explanation: "Copper is a conductor, while silicon, germanium, and gallium arsenide are semiconductors."
+        },
+        {
+            question: "Which of the following statements is correct?",
+            answers: [
+                { text: "Unlike charges attract, and like charges repel", correct: true },
+                { text: "Like charges attract, and unlike charges repel", correct: false },
+                { text: "Both like and unlike charges repel", correct: false },
+                { text: "Charges do not attract or repel", correct: false }
+            ],
+            explanation: "According to Coulomb's Law, opposite charges attract, and like charges repel each other."
+        },
+        {
+            question: "The relation between the object and image distance from the lens in terms of focal length is called:",
+            answers: [
+                { text: "Lens formula", correct: true },
+                { text: "Ohm's Law", correct: false },
+                { text: "Lens law", correct: false },
+                { text: "Optical Law", correct: false }
+            ],
+            explanation: "The lens formula is used to relate the object distance, image distance, and focal length."
+        },
+        {
+            question: "The opposition to current flow in a material medium is called:",
+            answers: [
+                { text: "Resistance", correct: true },
+                { text: "Resistor", correct: false },
+                { text: "Conductor", correct: false },
+                { text: "Capacitance", correct: false }
+            ],
+            explanation: "Resistance is the property of a material that opposes the flow of electric current."
+        },
+        {
+          question: "Which of the following quantities is a vector?",
+          answers: [
+              { text: "Velocity", correct: true },
+              { text: "Speed", correct: false },
+              { text: "Distance", correct: false },
+              { text: "Time", correct: false }
+          ],
+          explanation: "Velocity is a vector quantity because it includes both magnitude and direction, unlike speed, which is scalar."
+      },
+      {
+          question: "The electrical potential difference between two points in a circuit is known as:",
+          answers: [
+              { text: "Voltage", correct: true },
+              { text: "Current", correct: false },
+              { text: "Resistance", correct: false },
+              { text: "Power", correct: false }
+          ],
+          explanation: "Voltage is the difference in electrical potential energy per unit charge between two points in a circuit."
+      },
+      {
+          question: "Which of the following laws states that the total current entering a junction is equal to the total current leaving the junction?",
+          answers: [
+              { text: "Kirchhoff's Current Law", correct: true },
+              { text: "Ohm's Law", correct: false },
+              { text: "Faraday's Law", correct: false },
+              { text: "Kirchhoff's Voltage Law", correct: false }
+          ],
+          explanation: "Kirchhoff's Current Law states that the total current entering a junction is equal to the total current leaving it, conserving charge."
+      },
+      {
+          question: "What is the SI unit of electric charge?",
+          answers: [
+              { text: "Coulomb", correct: true },
+              { text: "Joule", correct: false },
+              { text: "Watt", correct: false },
+              { text: "Ampere", correct: false }
+          ],
+          explanation: "The SI unit of electric charge is the coulomb (C), representing the quantity of charge transferred by a current of one ampere in one second."
+      },
+      {
+          question: "The unit of electrical resistance is:",
+          answers: [
+              { text: "Ohm", correct: true },
+              { text: "Ampere", correct: false },
+              { text: "Volt", correct: false },
+              { text: "Coulomb", correct: false }
+          ],
+          explanation: "Resistance is measured in ohms (Ω), which is derived from the relationship between voltage, current, and resistance (Ohm's Law)."
+      },
+      {
+          question: "Which of the following materials is a good conductor of electricity?",
+          answers: [
+              { text: "Copper", correct: true },
+              { text: "Rubber", correct: false },
+              { text: "Glass", correct: false },
+              { text: "Wood", correct: false }
+          ],
+          explanation: "Copper is a good conductor of electricity because it allows the easy flow of electric current, unlike insulators like rubber, glass, or wood."
+      },
+      {
+          question: "The rate of doing work or transferring energy is called:",
+          answers: [
+              { text: "Power", correct: true },
+              { text: "Energy", correct: false },
+              { text: "Work", correct: false },
+              { text: "Force", correct: false }
+          ],
+          explanation: "Power is the rate at which work is done or energy is transferred, measured in watts."
+      },
+      {
+          question: "Which of the following describes the effect of placing a dielectric between the plates of a capacitor?",
+          answers: [
+              { text: "The capacitance increases", correct: true },
+              { text: "The capacitance decreases", correct: false },
+              { text: "The voltage across the capacitor increases", correct: false },
+              { text: "The charge on the plates decreases", correct: false }
+          ],
+          explanation: "Placing a dielectric material between the plates of a capacitor increases the capacitance by reducing the electric field between the plates."
+      },
+      {
+          question: "What is the work done when a force of 10 N moves an object a distance of 5 m in the direction of the force?",
+          answers: [
+              { text: "50 Joules", correct: true },
+              { text: "10 Joules", correct: false },
+              { text: "5 Joules", correct: false },
+              { text: "0 Joules", correct: false }
+          ],
+          explanation: "Work is calculated by multiplying force by distance: W = F × d = 10 N × 5 m = 50 Joules."
+      },
+      {
+          question: "The energy possessed by a body due to its motion is called:",
+          answers: [
+              { text: "Kinetic energy", correct: true },
+              { text: "Potential energy", correct: false },
+              { text: "Thermal energy", correct: false },
+              { text: "Nuclear energy", correct: false }
+          ],
+          explanation: "Kinetic energy is the energy possessed by a body due to its motion, calculated as KE = 1/2 mv²."
+      },
+      {
+          question: "Which of the following is true about conductors?",
+          answers: [
+              { text: "They allow free movement of electrons", correct: true },
+              { text: "They prevent the flow of current", correct: false },
+              { text: "They store electrical energy", correct: false },
+              { text: "They have high resistance", correct: false }
+          ],
+          explanation: "Conductors, such as metals, allow the free movement of electrons and facilitate the flow of electric current."
+      },
+      {
+          question: "The ability of a material to store electrical charge is called:",
+          answers: [
+              { text: "Capacitance", correct: true },
+              { text: "Resistance", correct: false },
+              { text: "Conductance", correct: false },
+              { text: "Inductance", correct: false }
+          ],
+          explanation: "Capacitance is the ability of a material or component to store electrical charge, measured in farads (F)."
+      },
+      {
+          question: "The unit of power is:",
+          answers: [
+              { text: "Watt", correct: true },
+              { text: "Joule", correct: false },
+              { text: "Newton", correct: false },
+              { text: "Volt", correct: false }
+          ],
+          explanation: "Power is measured in watts, which is the rate at which energy is transferred or work is done (1 watt = 1 joule/second)."
+      },
+      {
+          question: "In a series circuit, the total resistance is:",
+          answers: [
+              { text: "The sum of all resistances", correct: true },
+              { text: "The product of all resistances", correct: false },
+              { text: "Equal to the smallest resistance", correct: false },
+              { text: "Equal to the largest resistance", correct: false }
+          ],
+          explanation: "In a series circuit, the total resistance is the sum of all individual resistances (R_total = R1 + R2 + ... + Rn)."
+      },
+      {
+        question: "The force per unit charge exerted on a positive test charge placed in a field is called:",
+        answers: [
+            { text: "Electric field strength", correct: true },
+            { text: "Potential difference", correct: false },
+            { text: "Magnetic field", correct: false },
+            { text: "Capacitance", correct: false }
+        ],
+        explanation: "Electric field strength (E) is the force per unit charge experienced by a small positive test charge placed in the field, measured in newtons per coulomb (N/C)."
+    },
+    {
+        question: "Which of the following is a unit of energy?",
+        answers: [
+            { text: "Joule", correct: true },
+            { text: "Watt", correct: false },
+            { text: "Ampere", correct: false },
+            { text: "Ohm", correct: false }
+        ],
+        explanation: "The joule (J) is the SI unit of energy, and it represents the work done when a force of one newton moves an object one meter."
+    },
+    {
+        question: "When resistors are connected in parallel, the total resistance is:",
+        answers: [
+            { text: "Less than the smallest individual resistance", correct: true },
+            { text: "Equal to the sum of all resistances", correct: false },
+            { text: "Equal to the largest resistance", correct: false },
+            { text: "Equal to the product of all resistances", correct: false }
+        ],
+        explanation: "In a parallel circuit, the total resistance is always less than the smallest individual resistance due to the multiple paths for current flow."
+    },
+    {
+        question: "Which of the following is the formula for Ohm's Law?",
+        answers: [
+            { text: "V = IR", correct: true },
+            { text: "P = IV", correct: false },
+            { text: "F = ma", correct: false },
+            { text: "E = mc²", correct: false }
+        ],
+        explanation: "Ohm's Law states that the voltage (V) across a conductor is equal to the current (I) flowing through it times the resistance (R): V = IR."
+    },
+    {
+        question: "The product of force and distance moved in the direction of the force is called:",
+        answers: [
+            { text: "Work", correct: true },
+            { text: "Power", correct: false },
+            { text: "Energy", correct: false },
+            { text: "Momentum", correct: false }
+        ],
+        explanation: "Work is done when a force causes an object to move a distance in the direction of the force, calculated as W = F × d."
+    },
+    {
+        question: "Which of the following describes an ohmic conductor?",
+        answers: [
+            { text: "A conductor that obeys Ohm's Law", correct: true },
+            { text: "A conductor with constant resistance", correct: false },
+            { text: "A conductor with increasing resistance", correct: false },
+            { text: "A conductor that does not conduct electricity", correct: false }
+        ],
+        explanation: "An ohmic conductor is one that follows Ohm's Law, where the current through it is directly proportional to the voltage across it."
+    },
+    {
+        question: "The potential energy stored in a stretched or compressed spring is called:",
+        answers: [
+            { text: "Elastic potential energy", correct: true },
+            { text: "Kinetic energy", correct: false },
+            { text: "Gravitational potential energy", correct: false },
+            { text: "Thermal energy", correct: false }
+        ],
+        explanation: "Elastic potential energy is the energy stored in a spring or elastic material when it is stretched or compressed."
+    },
+    {
+        question: "The amount of charge flowing per second is called:",
+        answers: [
+            { text: "Current", correct: true },
+            { text: "Voltage", correct: false },
+            { text: "Power", correct: false },
+            { text: "Resistance", correct: false }
+        ],
+        explanation: "Electric current is the rate of flow of electric charge through a conductor, measured in amperes (A)."
+    },
+    {
+        question: "A material that allows electrons to flow easily is called:",
+        answers: [
+            { text: "A conductor", correct: true },
+            { text: "An insulator", correct: false },
+            { text: "A resistor", correct: false },
+            { text: "A semiconductor", correct: false }
+        ],
+        explanation: "A conductor, such as copper or aluminum, allows the easy flow of electrons, making it suitable for electrical wiring."
+    },
+    {
+        question: "The energy transferred per unit charge is called:",
+        answers: [
+            { text: "Voltage", correct: true },
+            { text: "Current", correct: false },
+            { text: "Power", correct: false },
+            { text: "Resistance", correct: false }
+        ],
+        explanation: "Voltage, also known as electric potential difference, is the amount of energy transferred per unit charge between two points."
+    },
+    {
+        question: "Which of the following is a scalar quantity?",
+        answers: [
+            { text: "Energy", correct: true },
+            { text: "Force", correct: false },
+            { text: "Displacement", correct: false },
+            { text: "Momentum", correct: false }
+        ],
+        explanation: "Energy is a scalar quantity because it has magnitude but no direction, unlike vector quantities like force and displacement."
+    },
+    {
+        question: "A unit of electric potential difference is:",
+        answers: [
+            { text: "Volt", correct: true },
+            { text: "Ampere", correct: false },
+            { text: "Joule", correct: false },
+            { text: "Ohm", correct: false }
+        ],
+        explanation: "The volt (V) is the unit of electric potential difference, measuring the energy per unit charge."
+    },
+    {
+        question: "Which of the following is true for resistors in series?",
+        answers: [
+            { text: "The same current flows through all resistors", correct: true },
+            { text: "The voltage is the same across all resistors", correct: false },
+            { text: "The power dissipated is the same for all resistors", correct: false },
+            { text: "The total resistance is less than the smallest resistor", correct: false }
+        ],
+        explanation: "In a series circuit, the same current flows through all resistors, and the total resistance is the sum of individual resistances."
+    },
+    {
+        question: "Which of the following is the unit of power?",
+        answers: [
+            { text: "Watt", correct: true },
+            { text: "Joule", correct: false },
+            { text: "Newton", correct: false },
+            { text: "Coulomb", correct: false }
+        ],
+        explanation: "Power is measured in watts (W), which is the rate of doing work or transferring energy, defined as 1 joule per second."
+    },
+    {
+      question: "The SI unit of work is:",
+      answers: [
+          { text: "Joule", correct: true },
+          { text: "Watt", correct: false },
+          { text: "Newton", correct: false },
+          { text: "Coulomb", correct: false }
+      ],
+      explanation: "Work is measured in joules (J), which is the amount of energy transferred when a force of one newton moves an object one meter."
+  },
+  {
+      question: "What happens to the total resistance when resistors are connected in parallel?",
+      answers: [
+          { text: "It decreases", correct: true },
+          { text: "It increases", correct: false },
+          { text: "It remains the same", correct: false },
+          { text: "It equals the largest resistor", correct: false }
+      ],
+      explanation: "When resistors are connected in parallel, the total resistance is less than the smallest individual resistor due to multiple current paths."
+  },
+  {
+      question: "Which of the following laws states that the sum of the potential differences around any closed loop in a circuit is zero?",
+      answers: [
+          { text: "Kirchhoff's Voltage Law", correct: true },
+          { text: "Ohm's Law", correct: false },
+          { text: "Faraday's Law", correct: false },
+          { text: "Coulomb's Law", correct: false }
+      ],
+      explanation: "Kirchhoff's Voltage Law (KVL) states that the sum of all voltages around a closed loop equals zero, ensuring energy conservation in the circuit."
+  },
+  {
+      question: "The tendency of an object to resist changes in its state of motion is called:",
+      answers: [
+          { text: "Inertia", correct: true },
+          { text: "Momentum", correct: false },
+          { text: "Friction", correct: false },
+          { text: "Gravity", correct: false }
+      ],
+      explanation: "Inertia is the property of matter that resists changes in motion, as described by Newton's First Law of Motion."
+  },
+  {
+      question: "The energy stored in a capacitor is proportional to the:",
+      answers: [
+          { text: "Square of the voltage", correct: true },
+          { text: "Capacitance", correct: false },
+          { text: "Current", correct: false },
+          { text: "Charge", correct: false }
+      ],
+      explanation: "The energy stored in a capacitor (E) is proportional to the square of the voltage (V), given by the formula E = 1/2 CV²."
+  },
+  {
+      question: "Which of the following describes an ideal conductor?",
+      answers: [
+          { text: "It has zero resistance", correct: true },
+          { text: "It has infinite resistance", correct: false },
+          { text: "It has constant resistance", correct: false },
+          { text: "It does not conduct electricity", correct: false }
+      ],
+      explanation: "An ideal conductor has zero resistance, allowing free and perfect flow of electric current without any energy loss."
+  },
+  {
+      question: "The rate at which electrical energy is used is called:",
+      answers: [
+          { text: "Power", correct: true },
+          { text: "Energy", correct: false },
+          { text: "Current", correct: false },
+          { text: "Voltage", correct: false }
+      ],
+      explanation: "Power is the rate at which electrical energy is used or transferred, typically measured in watts (W)."
+  },
+  {
+      question: "Which of the following components stores energy in an electric field?",
+      answers: [
+          { text: "Capacitor", correct: true },
+          { text: "Resistor", correct: false },
+          { text: "Inductor", correct: false },
+          { text: "Battery", correct: false }
+      ],
+      explanation: "A capacitor stores energy in an electric field created between its plates when voltage is applied."
+  },
+  {
+      question: "Which of the following is true for resistors in parallel?",
+      answers: [
+          { text: "The voltage across all resistors is the same", correct: true },
+          { text: "The current is the same through all resistors", correct: false },
+          { text: "The total resistance is the sum of all resistances", correct: false },
+          { text: "The total power dissipated is the same for all resistors", correct: false }
+      ],
+      explanation: "In a parallel circuit, the voltage across all resistors is the same, while the current divides among the resistors."
+  },
+  {
+      question: "The force of attraction or repulsion between two charged particles is described by:",
+      answers: [
+          { text: "Coulomb's Law", correct: true },
+          { text: "Ohm's Law", correct: false },
+          { text: "Kirchhoff's Law", correct: false },
+          { text: "Faraday's Law", correct: false }
+      ],
+      explanation: "Coulomb's Law describes the force between two charged particles as being directly proportional to the product of their charges and inversely proportional to the square of the distance between them."
+  },
+  {
+      question: "The total resistance in a series circuit is:",
+      answers: [
+          { text: "The sum of all individual resistances", correct: true },
+          { text: "Equal to the smallest resistance", correct: false },
+          { text: "Equal to the largest resistance", correct: false },
+          { text: "The product of all resistances", correct: false }
+      ],
+      explanation: "In a series circuit, the total resistance is the sum of all individual resistances: R_total = R1 + R2 + ... + Rn."
+  },
+  {
+      question: "The force that opposes the relative motion between two surfaces in contact is called:",
+      answers: [
+          { text: "Friction", correct: true },
+          { text: "Tension", correct: false },
+          { text: "Inertia", correct: false },
+          { text: "Gravity", correct: false }
+      ],
+      explanation: "Friction is the force that opposes the relative motion between two surfaces in contact, acting parallel to the surfaces."
+  },
+  {
+      question: "The electrical potential energy per unit charge at a point in an electric field is called:",
+      answers: [
+          { text: "Electric potential", correct: true },
+          { text: "Electric field", correct: false },
+          { text: "Current", correct: false },
+          { text: "Resistance", correct: false }
+      ],
+      explanation: "Electric potential is the amount of electrical potential energy per unit charge at a point in an electric field, measured in volts (V)."
+  },
+  {
+      question: "A device used to store electrical energy in an electric field is called a:",
+      answers: [
+          { text: "Capacitor", correct: true },
+          { text: "Resistor", correct: false },
+          { text: "Inductor", correct: false },
+          { text: "Transformer", correct: false }
+      ],
+      explanation: "A capacitor stores electrical energy in the electric field between its plates when a voltage is applied."
+  },
+  {
+    question: "Which of the following is the unit of capacitance?",
+    answers: [
+        { text: "Farad", correct: true },
+        { text: "Ohm", correct: false },
+        { text: "Volt", correct: false },
+        { text: "Watt", correct: false }
+    ],
+    explanation: "Capacitance is measured in farads (F), which represents the ability of a capacitor to store charge per unit voltage."
+},
+{
+    question: "The rate of flow of electric charge is called:",
+    answers: [
+        { text: "Current", correct: true },
+        { text: "Voltage", correct: false },
+        { text: "Resistance", correct: false },
+        { text: "Power", correct: false }
+    ],
+    explanation: "Electric current is the rate at which electric charge flows through a conductor, measured in amperes (A)."
+},
+{
+    question: "Which of the following describes the relationship between current, voltage, and resistance in an electrical circuit?",
+    answers: [
+        { text: "Ohm's Law", correct: true },
+        { text: "Kirchhoff's Law", correct: false },
+        { text: "Faraday's Law", correct: false },
+        { text: "Coulomb's Law", correct: false }
+    ],
+    explanation: "Ohm's Law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to the resistance."
+},
+{
+    question: "The product of mass and velocity of an object is called:",
+    answers: [
+        { text: "Momentum", correct: true },
+        { text: "Force", correct: false },
+        { text: "Energy", correct: false },
+        { text: "Acceleration", correct: false }
+    ],
+    explanation: "Momentum is the product of an object's mass and velocity, representing the quantity of motion of the object."
+},
+{
+    question: "The ability of a material to oppose the flow of electric current is called:",
+    answers: [
+        { text: "Resistance", correct: true },
+        { text: "Capacitance", correct: false },
+        { text: "Conductance", correct: false },
+        { text: "Inductance", correct: false }
+    ],
+    explanation: "Resistance is the opposition to the flow of electric current in a material, measured in ohms (Ω)."
+},
+{
+    question: "The total resistance in a parallel circuit is:",
+    answers: [
+        { text: "Less than the smallest individual resistance", correct: true },
+        { text: "Equal to the largest resistance", correct: false },
+        { text: "Equal to the sum of all resistances", correct: false },
+        { text: "Equal to the smallest resistance", correct: false }
+    ],
+    explanation: "In a parallel circuit, the total resistance is always less than the smallest individual resistance due to multiple paths for current."
+},
+{
+    question: "Which of the following is a device used to measure electric current?",
+    answers: [
+        { text: "Ammeter", correct: true },
+        { text: "Voltmeter", correct: false },
+        { text: "Ohmmeter", correct: false },
+        { text: "Capacitor", correct: false }
+    ],
+    explanation: "An ammeter is used to measure the electric current flowing through a circuit, typically connected in series."
+},
+{
+    question: "The force that opposes the relative motion of two surfaces in contact is known as:",
+    answers: [
+        { text: "Friction", correct: true },
+        { text: "Tension", correct: false },
+        { text: "Inertia", correct: false },
+        { text: "Gravitational force", correct: false }
+    ],
+    explanation: "Friction is the force that opposes the relative motion between two surfaces in contact, acting parallel to the surfaces."
+},
+{
+    question: "Which of the following is true about the motion of an object in equilibrium?",
+    answers: [
+        { text: "The net force acting on the object is zero", correct: true },
+        { text: "The object is accelerating", correct: false },
+        { text: "The object is moving at a constant velocity", correct: false },
+        { text: "The object is at rest", correct: false }
+    ],
+    explanation: "When an object is in equilibrium, the net force acting on it is zero, meaning it can either be at rest or moving with a constant velocity."
+},
+{
+    question: "The unit of electric charge is:",
+    answers: [
+        { text: "Coulomb", correct: true },
+        { text: "Ampere", correct: false },
+        { text: "Volt", correct: false },
+        { text: "Ohm", correct: false }
+    ],
+    explanation: "Electric charge is measured in coulombs (C), which represent the quantity of charge transferred by a current of one ampere in one second."
+},
+{
+    question: "Which of the following statements is true for resistors in series?",
+    answers: [
+        { text: "The same current flows through all resistors", correct: true },
+        { text: "The same voltage is across all resistors", correct: false },
+        { text: "The total resistance is less than the smallest resistor", correct: false },
+        { text: "The total resistance is equal to the largest resistor", correct: false }
+    ],
+    explanation: "In a series circuit, the same current flows through all resistors, and the total resistance is the sum of individual resistances."
+},
+{
+    question: "The work done when a force of 20 N moves an object a distance of 3 meters is:",
+    answers: [
+        { text: "60 Joules", correct: true },
+        { text: "20 Joules", correct: false },
+        { text: "3 Joules", correct: false },
+        { text: "6 Joules", correct: false }
+    ],
+    explanation: "Work is calculated as the product of force and distance: W = F × d = 20 N × 3 m = 60 Joules."
+},
+{
+    question: "Which of the following describes kinetic energy?",
+    answers: [
+        { text: "Energy possessed by an object due to its motion", correct: true },
+        { text: "Energy stored in a compressed spring", correct: false },
+        { text: "Energy due to an object's position", correct: false },
+        { text: "Energy that cannot be converted to other forms", correct: false }
+    ],
+    explanation: "Kinetic energy is the energy that an object possesses due to its motion, calculated as KE = 1/2 mv²."
+},
+{
+    question: "In a parallel circuit, the total voltage across each component is:",
+    answers: [
+        { text: "The same", correct: true },
+        { text: "Different for each component", correct: false },
+        { text: "Dependent on the total current", correct: false },
+        { text: "Equal to the total resistance", correct: false }
+    ],
+    explanation: "In a parallel circuit, the voltage across each component is the same, while the current divides among the components."
+},
+{
+  question: "The rate of change of velocity is called:",
+  answers: [
+      { text: "Acceleration", correct: true },
+      { text: "Speed", correct: false },
+      { text: "Momentum", correct: false },
+      { text: "Displacement", correct: false }
+  ],
+  explanation: "Acceleration is the rate at which velocity changes with time, and it is a vector quantity."
+},
+{
+  question: "Which of the following devices is used to measure electric potential difference?",
+  answers: [
+      { text: "Voltmeter", correct: true },
+      { text: "Ammeter", correct: false },
+      { text: "Ohmmeter", correct: false },
+      { text: "Wattmeter", correct: false }
+  ],
+  explanation: "A voltmeter is used to measure the potential difference (voltage) between two points in an electrical circuit."
+},
+{
+  question: "The resistance of a conductor depends on which of the following factors?",
+  answers: [
+      { text: "Material, length, and cross-sectional area", correct: true },
+      { text: "Only the length", correct: false },
+      { text: "Only the material", correct: false },
+      { text: "Only the cross-sectional area", correct: false }
+  ],
+  explanation: "The resistance of a conductor is directly proportional to its length, inversely proportional to its cross-sectional area, and depends on the material."
+},
+{
+  question: "The energy associated with an object's position in a gravitational field is called:",
+  answers: [
+      { text: "Gravitational potential energy", correct: true },
+      { text: "Kinetic energy", correct: false },
+      { text: "Elastic potential energy", correct: false },
+      { text: "Thermal energy", correct: false }
+  ],
+  explanation: "Gravitational potential energy is the energy an object possesses due to its position in a gravitational field, often calculated as PE = mgh."
+},
+{
+  question: "In a series circuit, the total voltage is:",
+  answers: [
+      { text: "The sum of the voltages across each component", correct: true },
+      { text: "The same across all components", correct: false },
+      { text: "Equal to the smallest voltage", correct: false },
+      { text: "The same as the total current", correct: false }
+  ],
+  explanation: "In a series circuit, the total voltage is the sum of the voltages across each component, as voltage divides among the components."
+},
+{
+  question: "Which of the following describes a scalar quantity?",
+  answers: [
+      { text: "It has only magnitude", correct: true },
+      { text: "It has both magnitude and direction", correct: false },
+      { text: "It has only direction", correct: false },
+      { text: "It has neither magnitude nor direction", correct: false }
+  ],
+  explanation: "A scalar quantity has only magnitude, such as speed, distance, and mass. It does not have a direction."
+},
+{
+  question: "The unit of electric power is:",
+  answers: [
+      { text: "Watt", correct: true },
+      { text: "Joule", correct: false },
+      { text: "Coulomb", correct: false },
+      { text: "Ampere", correct: false }
+  ],
+  explanation: "Power is measured in watts (W), which is the rate at which work is done or energy is transferred (1 watt = 1 joule per second)."
+},
+{
+  question: "The amount of work done when a force of 50 N moves an object 4 meters in the direction of the force is:",
+  answers: [
+      { text: "200 Joules", correct: true },
+      { text: "50 Joules", correct: false },
+      { text: "12.5 Joules", correct: false },
+      { text: "400 Joules", correct: false }
+  ],
+  explanation: "Work is calculated by multiplying force and distance: W = F × d = 50 N × 4 m = 200 Joules."
+},
+{
+  question: "The time rate of doing work is referred to as:",
+  answers: [
+      { text: "Power", correct: true },
+      { text: "Energy", correct: false },
+      { text: "Force", correct: false },
+      { text: "Momentum", correct: false }
+  ],
+  explanation: "Power is the time rate of doing work, measured in watts, and it represents how fast energy is transferred or used."
+},
+{
+  question: "The unit of capacitance is:",
+  answers: [
+      { text: "Farad", correct: true },
+      { text: "Ohm", correct: false },
+      { text: "Joule", correct: false },
+      { text: "Watt", correct: false }
+  ],
+  explanation: "Capacitance is measured in farads (F), which indicates the ability of a capacitor to store charge per unit voltage."
+},
+{
+  question: "Which of the following is true about a parallel circuit?",
+  answers: [
+      { text: "The total resistance is less than the smallest individual resistance", correct: true },
+      { text: "The current is the same through all resistors", correct: false },
+      { text: "The voltage is different across each resistor", correct: false },
+      { text: "The total resistance is the sum of all resistances", correct: false }
+  ],
+  explanation: "In a parallel circuit, the total resistance is less than the smallest individual resistance due to the multiple paths for current flow."
+},
+{
+  question: "Which of the following is a unit of electric current?",
+  answers: [
+      { text: "Ampere", correct: true },
+      { text: "Volt", correct: false },
+      { text: "Watt", correct: false },
+      { text: "Ohm", correct: false }
+  ],
+  explanation: "Electric current is measured in amperes (A), representing the flow of charge per second."
+},
+{
+  question: "In a parallel circuit, the total current is:",
+  answers: [
+      { text: "The sum of the currents through each component", correct: true },
+      { text: "The same through all components", correct: false },
+      { text: "Equal to the voltage", correct: false },
+      { text: "Less than the current through the largest component", correct: false }
+  ],
+  explanation: "In a parallel circuit, the total current is the sum of the currents through each component, as the current divides among the branches."
+},
+{
+  question: "The force that causes an object to move in a circular path is called:",
+  answers: [
+      { text: "Centripetal force", correct: true },
+      { text: "Gravitational force", correct: false },
+      { text: "Friction", correct: false },
+      { text: "Tension", correct: false }
+  ],
+  explanation: "Centripetal force is the force that acts toward the center of a circular path, causing an object to follow that path."
+},
+{
+  question: "Which of the following statements is true about potential difference?",
+  answers: [
+      { text: "It is the energy per unit charge", correct: true },
+      { text: "It is the same as current", correct: false },
+      { text: "It is measured in amperes", correct: false },
+      { text: "It is the same as power", correct: false }
+  ],
+  explanation: "Potential difference, also known as voltage, is the energy per unit charge between two points in an electric field."
+},
+{
+  question: "The product of force and velocity is called:",
+  answers: [
+      { text: "Power", correct: true },
+      { text: "Energy", correct: false },
+      { text: "Momentum", correct: false },
+      { text: "Work", correct: false }
+  ],
+  explanation: "Power is the rate at which work is done or energy is transferred, and it is the product of force and velocity."
+},
+{
+  question: "Which of the following is true about Ohm's Law?",
+  answers: [
+      { text: "The current through a conductor is directly proportional to the voltage across it", correct: true },
+      { text: "The resistance is inversely proportional to the voltage", correct: false },
+      { text: "The voltage is inversely proportional to the current", correct: false },
+      { text: "The current is directly proportional to the resistance", correct: false }
+  ],
+  explanation: "Ohm's Law states that the current through a conductor is directly proportional to the voltage across it and inversely proportional to the resistance."
+},
+{
+  question: "The potential energy stored in a stretched or compressed spring is referred to as:",
+  answers: [
+      { text: "Elastic potential energy", correct: true },
+      { text: "Kinetic energy", correct: false },
+      { text: "Gravitational potential energy", correct: false },
+      { text: "Thermal energy", correct: false }
+  ],
+  explanation: "Elastic potential energy is the energy stored in a stretched or compressed spring, which can be released as kinetic energy."
+},
+{
+  question: "In a series circuit, the current is:",
+  answers: [
+      { text: "The same through all components", correct: true },
+      { text: "Different for each component", correct: false },
+      { text: "Proportional to the voltage", correct: false },
+      { text: "Inversely proportional to the resistance", correct: false }
+  ],
+  explanation: "In a series circuit, the current is the same through all components because there is only one path for the current to flow."
+},
+{
+  question: "The unit of electric charge is:",
+  answers: [
+      { text: "Coulomb", correct: true },
+      { text: "Watt", correct: false },
+      { text: "Volt", correct: false },
+      { text: "Ohm", correct: false }
+  ],
+  explanation: "Electric charge is measured in coulombs (C), which represent the quantity of electric charge."
+},
+{
+  question: "Which of the following materials is a good conductor of electricity?",
+  answers: [
+      { text: "Copper", correct: true },
+      { text: "Rubber", correct: false },
+      { text: "Glass", correct: false },
+      { text: "Wood", correct: false }
+  ],
+  explanation: "Copper is a good conductor of electricity because it allows electrons to flow freely, unlike insulators such as rubber or glass."
+},
+{
+  question: "The force per unit charge in an electric field is called:",
+  answers: [
+      { text: "Electric field strength", correct: true },
+      { text: "Voltage", correct: false },
+      { text: "Capacitance", correct: false },
+      { text: "Current", correct: false }
+  ],
+  explanation: "Electric field strength is the force experienced by a positive charge placed in the field, measured in newtons per coulomb (N/C)."
+},
+{
+  question: "Which of the following is a scalar quantity?",
+  answers: [
+      { text: "Speed", correct: true },
+      { text: "Velocity", correct: false },
+      { text: "Displacement", correct: false },
+      { text: "Force", correct: false }
+  ],
+  explanation: "Speed is a scalar quantity because it has magnitude but no direction, unlike vector quantities like velocity."
+},
+{
+  question: "The energy possessed by an object due to its motion is called:",
+  answers: [
+      { text: "Kinetic energy", correct: true },
+      { text: "Potential energy", correct: false },
+      { text: "Thermal energy", correct: false },
+      { text: "Elastic energy", correct: false }
+  ],
+  explanation: "Kinetic energy is the energy an object possesses due to its motion, calculated as KE = 1/2 mv²."
+},
+{
+  question: "Which of the following statements is true about conductors?",
+  answers: [
+      { text: "They allow electrons to flow freely", correct: true },
+      { text: "They prevent the flow of current", correct: false },
+      { text: "They have infinite resistance", correct: false },
+      { text: "They store electric charge", correct: false }
+  ],
+  explanation: "Conductors, such as metals, allow electrons to move freely, enabling the flow of electric current."
+},
+{
+  question: "The unit of force is:",
+  answers: [
+      { text: "Newton", correct: true },
+      { text: "Joule", correct: false },
+      { text: "Watt", correct: false },
+      { text: "Coulomb", correct: false }
+  ],
+  explanation: "Force is measured in newtons (N), which represents the amount of force required to accelerate a mass of 1 kg by 1 m/s²."
+},
+{
+  question: "Which of the following is true about parallel circuits?",
+  answers: [
+      { text: "The voltage is the same across all components", correct: true },
+      { text: "The current is the same through all components", correct: false },
+      { text: "The total resistance is equal to the sum of all resistances", correct: false },
+      { text: "The power is distributed equally among all resistors", correct: false }
+  ],
+  explanation: "In a parallel circuit, the voltage across each component is the same, while the total current is the sum of the currents through each branch."
+},
+{
+  question: "The rate at which energy is transferred is called:",
+  answers: [
+      { text: "Power", correct: true },
+      { text: "Work", correct: false },
+      { text: "Momentum", correct: false },
+      { text: "Force", correct: false }
+  ],
+  explanation: "Power is the rate at which energy is transferred or work is done, measured in watts (W)."
+},
+{
+  question: "The potential difference between two points in a circuit is measured in:",
+  answers: [
+      { text: "Volts", correct: true },
+      { text: "Amperes", correct: false },
+      { text: "Ohms", correct: false },
+      { text: "Watts", correct: false }
+  ],
+  explanation: "Voltage, or potential difference, is measured in volts (V), representing the energy per unit charge between two points."
+},
+{
+  question: "Which of the following materials is a poor conductor of electricity?",
+  answers: [
+      { text: "Rubber", correct: true },
+      { text: "Copper", correct: false },
+      { text: "Silver", correct: false },
+      { text: "Gold", correct: false }
+  ],
+  explanation: "Rubber is an insulator and a poor conductor of electricity, preventing the flow of electric current."
+},
+{
+  question: "Which of the following laws relates voltage, current, and resistance in a circuit?",
+  answers: [
+      { text: "Ohm's Law", correct: true },
+      { text: "Kirchhoff's Law", correct: false },
+      { text: "Faraday's Law", correct: false },
+      { text: "Coulomb's Law", correct: false }
+  ],
+  explanation: "Ohm's Law states that the current flowing through a conductor is directly proportional to the voltage and inversely proportional to the resistance."
+},
+{
+  question: "The resistance of a wire depends on its:",
+  answers: [
+      { text: "Length and cross-sectional area", correct: true },
+      { text: "Temperature only", correct: false },
+      { text: "Color", correct: false },
+      { text: "Speed", correct: false }
+  ],
+  explanation: "The resistance of a wire is directly proportional to its length and inversely proportional to its cross-sectional area."
+},
+{
+  question: "The unit of energy is the:",
+  answers: [
+      { text: "Joule", correct: true },
+      { text: "Watt", correct: false },
+      { text: "Coulomb", correct: false },
+      { text: "Newton", correct: false }
+  ],
+  explanation: "Energy is measured in joules (J), which represents the amount of work done when a force of one newton moves an object one meter."
+},
+{
+  question: "Which of the following describes the behavior of a dielectric in a capacitor?",
+  answers: [
+      { text: "It increases the capacitance", correct: true },
+      { text: "It decreases the capacitance", correct: false },
+      { text: "It increases the resistance", correct: false },
+      { text: "It decreases the resistance", correct: false }
+  ],
+  explanation: "A dielectric material increases the capacitance of a capacitor by reducing the electric field between the plates."
+},
+{
+  question: "Which of the following quantities is a vector?",
+  answers: [
+      { text: "Acceleration", correct: true },
+      { text: "Distance", correct: false },
+      { text: "Speed", correct: false },
+      { text: "Time", correct: false }
+  ],
+  explanation: "Acceleration is a vector quantity because it includes both magnitude and direction, unlike scalar quantities like speed or time."
+},
+{
+  question: "The total current in a parallel circuit is:",
+  answers: [
+      { text: "The sum of the currents in each branch", correct: true },
+      { text: "The same through all branches", correct: false },
+      { text: "Equal to the smallest current", correct: false },
+      { text: "Equal to the voltage", correct: false }
+  ],
+  explanation: "In a parallel circuit, the total current is the sum of the currents through each branch, as current divides among the paths."
+},
+{
+  question: "The unit of electrical resistance is:",
+  answers: [
+      { text: "Ohm", correct: true },
+      { text: "Watt", correct: false },
+      { text: "Ampere", correct: false },
+      { text: "Joule", correct: false }
+  ],
+  explanation: "Resistance is measured in ohms (Ω), representing the opposition to the flow of electric current."
+},
+{
+  question: "Which of the following is the unit of electric charge?",
+  answers: [
+      { text: "Coulomb", correct: true },
+      { text: "Volt", correct: false },
+      { text: "Watt", correct: false },
+      { text: "Ohm", correct: false }
+  ],
+  explanation: "The coulomb (C) is the SI unit of electric charge, representing the quantity of charge transferred by a current of one ampere in one second."
+},
+{
+  question: "In a series circuit, the total resistance is:",
+  answers: [
+      { text: "The sum of all individual resistances", correct: true },
+      { text: "The product of all resistances", correct: false },
+      { text: "Equal to the smallest resistance", correct: false },
+      { text: "Equal to the largest resistance", correct: false }
+  ],
+  explanation: "In a series circuit, the total resistance is the sum of all individual resistances, as current flows through each resistor consecutively."
+},
+{
+  question: "The unit of power is:",
+  answers: [
+      { text: "Watt", correct: true },
+      { text: "Joule", correct: false },
+      { text: "Coulomb", correct: false },
+      { text: "Newton", correct: false }
+  ],
+  explanation: "Power is measured in watts (W), which is the rate at which energy is transferred or work is done (1 watt = 1 joule per second)."
+},
+{
+  question: "The force that opposes the relative motion between two surfaces is called:",
+  answers: [
+      { text: "Friction", correct: true },
+      { text: "Tension", correct: false },
+      { text: "Momentum", correct: false },
+      { text: "Elasticity", correct: false }
+  ],
+  explanation: "Friction is the force that opposes the relative motion between two surfaces in contact."
+},
+{
+  question: "The total voltage in a series circuit is:",
+  answers: [
+      { text: "The sum of the voltages across all components", correct: true },
+      { text: "The same across all components", correct: false },
+      { text: "Equal to the largest voltage", correct: false },
+      { text: "The product of all voltages", correct: false }
+  ],
+  explanation: "In a series circuit, the total voltage is the sum of the voltages across all components, as voltage divides among the resistors."
+},
+{
+  question: "Which of the following describes a parallel circuit?",
+  answers: [
+      { text: "The voltage is the same across all components", correct: true },
+      { text: "The current is the same through all components", correct: false },
+      { text: "The resistance is the sum of all resistances", correct: false },
+      { text: "The total voltage is equal to the largest voltage", correct: false }
+  ],
+  explanation: "In a parallel circuit, the voltage across each component is the same, while the total current is the sum of the currents through each branch."
+},
+{
+  question: "The ability of a material to store electric charge is called:",
+  answers: [
+      { text: "Capacitance", correct: true },
+      { text: "Resistance", correct: false },
+      { text: "Inductance", correct: false },
+      { text: "Conductance", correct: false }
+  ],
+  explanation: "Capacitance is the ability of a material to store electric charge, and it is measured in farads (F)."
+},
+{
+  question: "Which of the following is true about series circuits?",
+  answers: [
+      { text: "The current is the same through all components", correct: true },
+      { text: "The voltage is the same across all components", correct: false },
+      { text: "The resistance is the same across all components", correct: false },
+      { text: "The power is distributed equally among all resistors", correct: false }
+  ],
+  explanation: "In a series circuit, the current is the same through all components, while the voltage divides among them."
+},
+{
+  question: "The potential energy due to an object's position in a gravitational field is called:",
+  answers: [
+      { text: "Gravitational potential energy", correct: true },
+      { text: "Kinetic energy", correct: false },
+      { text: "Elastic potential energy", correct: false },
+      { text: "Thermal energy", correct: false }
+  ],
+  explanation: "Gravitational potential energy is the energy an object possesses due to its position in a gravitational field, often calculated as PE = mgh."
+},
+{
+  question: "The time rate of doing work is called:",
+  answers: [
+      { text: "Power", correct: true },
+      { text: "Energy", correct: false },
+      { text: "Force", correct: false },
+      { text: "Momentum", correct: false }
+  ],
+  explanation: "Power is the rate at which work is done or energy is transferred, typically measured in watts (W)."
+},
+{
+  question: "Which of the following quantities is a vector?",
+  answers: [
+      { text: "Displacement", correct: true },
+      { text: "Speed", correct: false },
+      { text: "Distance", correct: false },
+      { text: "Time", correct: false }
+  ],
+  explanation: "Displacement is a vector quantity because it has both magnitude and direction, unlike scalar quantities like distance."
+},
+{
+  question: "The energy stored in a capacitor is proportional to:",
+  answers: [
+      { text: "The square of the voltage", correct: true },
+      { text: "The capacitance", correct: false },
+      { text: "The current", correct: false },
+      { text: "The resistance", correct: false }
+  ],
+  explanation: "The energy stored in a capacitor is proportional to the square of the voltage, as given by the formula E = 1/2 CV²."
+},
+{
+  question: "The total resistance in a parallel circuit is:",
+  answers: [
+      { text: "Less than the smallest individual resistance", correct: true },
+      { text: "Equal to the sum of all resistances", correct: false },
+      { text: "Equal to the largest resistance", correct: false },
+      { text: "Equal to the product of all resistances", correct: false }
+  ],
+  explanation: "In a parallel circuit, the total resistance is always less than the smallest individual resistance due to multiple paths for current."
+},
+{
+  question: "The force that opposes the motion of an object through a fluid is called:",
+  answers: [
+      { text: "Drag", correct: true },
+      { text: "Friction", correct: false },
+      { text: "Tension", correct: false },
+      { text: "Inertia", correct: false }
+  ],
+  explanation: "Drag is the force that opposes the motion of an object through a fluid, such as air or water."
+},
+{
+  question: "Which of the following statements is true about capacitors in parallel?",
+  answers: [
+      { text: "The total capacitance is the sum of all individual capacitances", correct: true },
+      { text: "The voltage is different across each capacitor", correct: false },
+      { text: "The current is the same through all capacitors", correct: false },
+      { text: "The total capacitance is less than the smallest capacitance", correct: false }
+  ],
+  explanation: "In a parallel circuit, the total capacitance is the sum of all individual capacitances, as each capacitor shares the same voltage."
+},
+{
+  question: "The tendency of an object to resist changes in its state of motion is called:",
+  answers: [
+      { text: "Inertia", correct: true },
+      { text: "Momentum", correct: false },
+      { text: "Force", correct: false },
+      { text: "Energy", correct: false }
+  ],
+  explanation: "Inertia is the property of an object that resists changes in its state of motion, as described by Newton's First Law of Motion."
+},
+{
+  question: "What is the direction of the electric field produced by a positive charge?",
+  answers: [
+      { text: "Radially outward from the charge", correct: true },
+      { text: "Radially inward toward the charge", correct: false },
+      { text: "Circular around the charge", correct: false },
+      { text: "Perpendicular to the charge", correct: false }
+  ],
+  explanation: "The electric field produced by a positive charge points radially outward from the charge."
+},
+{
+  question: "What is the unit of electric field strength?",
+  answers: [
+      { text: "Newton per coulomb (N/C)", correct: true },
+      { text: "Volt per meter (V/m)", correct: true },
+      { text: "Tesla (T)", correct: false },
+      { text: "Ampere (A)", correct: false }
+  ],
+  explanation: "The electric field strength can be measured in newtons per coulomb (N/C) or volts per meter (V/m)."
+},
+{
+  question: "Which of the following describes the relationship between electric field (E), voltage (V), and distance (d)?",
+  answers: [
+      { text: "E = V/d", correct: true },
+      { text: "E = V × d", correct: false },
+      { text: "E = d/V", correct: false },
+      { text: "E = V + d", correct: false }
+  ],
+  explanation: "The electric field strength (E) is given by the formula E = V/d, where V is the voltage and d is the distance between the plates."
+},
+{
+  question: "What is the direction of the magnetic field around a current-carrying wire?",
+  answers: [
+      { text: "Circular around the wire", correct: true },
+      { text: "Parallel to the wire", correct: false },
+      { text: "Radially outward from the wire", correct: false },
+      { text: "Perpendicular to the current", correct: false }
+  ],
+  explanation: "The magnetic field around a current-carrying wire forms circular loops centered on the wire."
+},
+{
+  question: "What is the SI unit of magnetic flux density?",
+  answers: [
+      { text: "Tesla (T)", correct: true },
+      { text: "Gauss (G)", correct: false },
+      { text: "Weber (Wb)", correct: false },
+      { text: "Ampere (A)", correct: false }
+  ],
+  explanation: "The SI unit of magnetic flux density is the tesla (T)."
+},
+{
+  question: "According to Faraday's Law of Electromagnetic Induction, the induced electromotive force (EMF) is proportional to:",
+  answers: [
+      { text: "The rate of change of magnetic flux", correct: true },
+      { text: "The strength of the electric field", correct: false },
+      { text: "The distance between the magnetic poles", correct: false },
+      { text: "The square of the current", correct: false }
+  ],
+  explanation: "Faraday's Law states that the induced EMF in a circuit is directly proportional to the rate of change of magnetic flux through the circuit."
+},
+{
+  question: "What happens to the force between two parallel current-carrying wires when the currents are in the same direction?",
+  answers: [
+      { text: "The wires attract each other", correct: true },
+      { text: "The wires repel each other", correct: false },
+      { text: "The force between the wires is zero", correct: false },
+      { text: "The wires experience a torque", correct: false }
+  ],
+  explanation: "When currents in two parallel wires flow in the same direction, the wires attract each other due to the magnetic fields they produce."
+},
+{
+  question: "Which of the following correctly describes the relationship between electric field (E) and magnetic field (B) in an electromagnetic wave?",
+  answers: [
+      { text: "E and B are perpendicular to each other and to the direction of wave propagation", correct: true },
+      { text: "E and B are parallel to each other and to the direction of wave propagation", correct: false },
+      { text: "E is parallel to the direction of wave propagation, and B is perpendicular", correct: false },
+      { text: "E and B are parallel to each other but perpendicular to the direction of wave propagation", correct: false }
+  ],
+  explanation: "In an electromagnetic wave, the electric field (E) and magnetic field (B) are perpendicular to each other and to the direction of wave propagation."
+},
+{
+  question: "What is the effect of a magnetic field on a moving charge?",
+  answers: [
+      { text: "It exerts a force perpendicular to both the velocity of the charge and the magnetic field", correct: true },
+      { text: "It exerts a force parallel to the velocity of the charge", correct: false },
+      { text: "It exerts no force if the charge is moving parallel to the magnetic field", correct: false },
+      { text: "It increases the speed of the charge", correct: false }
+  ],
+  explanation: "A magnetic field exerts a force on a moving charge that is perpendicular to both the velocity of the charge and the magnetic field, according to the right-hand rule."
+},
+{
+  question: "The region around a magnetic material where the force of magnetism acts is called:",
+  answers: [
+      { text: "Magnetic field", correct: true },
+      { text: "Electric field", correct: false },
+      { text: "Magnetic flux", correct: false },
+      { text: "Electric potential", correct: false }
+  ],
+  explanation: "A magnetic field is the region around a magnetic material or a moving electric charge within which the force of magnetism acts."
+},
+{
+  question: "What is the SI unit of electric charge?",
+  answers: [
+      { text: "Coulomb", correct: true },
+      { text: "Ampere", correct: false },
+      { text: "Volt", correct: false },
+      { text: "Newton", correct: false }
+  ],
+  explanation: "The SI unit of electric charge is the coulomb (C). One coulomb is equal to the charge transported by a current of one ampere in one second."
+},
+{
+  question: "Two charges, Q1 and Q2, are separated by a distance of 1 meter. If the charges are doubled, the force between them:",
+  answers: [
+      { text: "Quadruples", correct: true },
+      { text: "Doubles", correct: false },
+      { text: "Halves", correct: false },
+      { text: "Stays the same", correct: false }
+  ],
+  explanation: "According to Coulomb's Law, the electrostatic force is directly proportional to the product of the charges. If both charges are doubled, the force increases by four times."
+},
+{
+  question: "Which of the following describes the electric field at a point?",
+  answers: [
+      { text: "The force per unit charge at that point", correct: true },
+      { text: "The charge itself", correct: false },
+      { text: "The potential energy at that point", correct: false },
+      { text: "The total energy stored in the system", correct: false }
+  ],
+  explanation: "The electric field at a point is defined as the force experienced by a small positive test charge placed at that point."
+},
+{
+  question: "Coulomb's Law is mathematically expressed as:",
+  answers: [
+      { text: "F = k(Q1Q2)/r²", correct: true },
+      { text: "F = Q1Q2/r²", correct: false },
+      { text: "F = Q1Q2/r", correct: false },
+      { text: "F = k(Q1Q2)/r", correct: false }
+  ],
+  explanation: "Coulomb's Law states that the force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them."
+},
+{
+  question: "What is the electric field due to a charge of 5 μC placed at a distance of 2 meters in a vacuum? (k = 9 × 10^9 Nm²/C²)",
+  answers: [
+      { text: "1.125 × 10^7 N/C", correct: true },
+      { text: "2.25 × 10^7 N/C", correct: false },
+      { text: "4.5 × 10^7 N/C", correct: false },
+      { text: "9 × 10^7 N/C", correct: false }
+  ],
+  explanation: "The electric field (E) is calculated as E = kQ/r². Substituting the values: E = (9 × 10^9 × 5 × 10^-6) / (2²) = 1.125 × 10^7 N/C."
+},
+{
+  question: "If the distance between two charges is tripled, the force between them:",
+  answers: [
+      { text: "Decreases by a factor of 9", correct: true },
+      { text: "Increases by a factor of 9", correct: false },
+      { text: "Decreases by a factor of 3", correct: false },
+      { text: "Increases by a factor of 3", correct: false }
+  ],
+  explanation: "According to Coulomb's Law, the force is inversely proportional to the square of the distance between the charges. Tripling the distance reduces the force by 1/9."
+},
+{
+  question: "The electric potential at a point in space is defined as:",
+  answers: [
+      { text: "The work done in bringing a unit positive charge from infinity to that point", correct: true },
+      { text: "The force acting on a unit charge at that point", correct: false },
+      { text: "The total energy at that point", correct: false },
+      { text: "The potential energy of the system", correct: false }
+  ],
+  explanation: "Electric potential is the work required to bring a unit positive charge from infinity to a point in an electric field."
+},
+{
+  question: "What is the electric potential at a distance of 3 m from a point charge of 2 μC? (k = 9 × 10^9 Nm²/C²)",
+  answers: [
+      { text: "6 × 10^3 V", correct: true },
+      { text: "4.5 × 10^3 V", correct: false },
+      { text: "3 × 10^3 V", correct: false },
+      { text: "9 × 10^3 V", correct: false }
+  ],
+  explanation: "Electric potential (V) is given by V = kQ/r. Substituting the values: V = (9 × 10^9 × 2 × 10^-6) / 3 = 6 × 10^3 V."
+},
+{
+  question: "Which of the following is true for electric field lines?",
+  answers: [
+      { text: "They point away from positive charges and toward negative charges", correct: true },
+      { text: "They form closed loops", correct: false },
+      { text: "They can cross each other", correct: false },
+      { text: "They are parallel to equipotential surfaces", correct: false }
+  ],
+  explanation: "Electric field lines point away from positive charges and toward negative charges, and they never cross each other."
+},
+{
+  question: "A charged particle experiences a force of 3 N in an electric field of 6 N/C. What is the charge on the particle?",
+  answers: [
+      { text: "0.5 C", correct: true },
+      { text: "2 C", correct: false },
+      { text: "18 C", correct: false },
+      { text: "12 C", correct: false }
+  ],
+  explanation: "The force on a charge in an electric field is given by F = qE. Rearranging for q: q = F/E = 3 N / 6 N/C = 0.5 C."
+},
+{
+  question: "Two charges of +2 μC and -2 μC are placed 1 meter apart. The electric field at the midpoint between the charges is:",
+  answers: [
+      { text: "Zero", correct: true },
+      { text: "1 N/C", correct: false },
+      { text: "2 N/C", correct: false },
+      { text: "4 N/C", correct: false }
+  ],
+  explanation: "The electric field due to the two equal and opposite charges at the midpoint cancels out, resulting in a net electric field of zero."
+},
+{
+  question: "The work done in moving a 3 C charge through a potential difference of 12 V is:",
+  answers: [
+      { text: "36 J", correct: true },
+      { text: "4 J", correct: false },
+      { text: "12 J", correct: false },
+      { text: "24 J", correct: false }
+  ],
+  explanation: "The work done is calculated as W = qV. Substituting the values: W = 3 C × 12 V = 36 J."
+},
+{
+  question: "The electric field between two parallel plates separated by 0.05 meters is 100 N/C. What is the potential difference between the plates?",
+  answers: [
+      { text: "5 V", correct: true },
+      { text: "50 V", correct: false },
+      { text: "100 V", correct: false },
+      { text: "200 V", correct: false }
+  ],
+  explanation: "The potential difference is given by V = Ed. Substituting the values: V = 100 N/C × 0.05 m = 5 V."
+},
+{
+  question: "An electric dipole consists of two charges of equal magnitude but opposite sign. The electric field at a point far from the dipole:",
+  answers: [
+      { text: "Decreases as the cube of the distance", correct: true },
+      { text: "Decreases as the square of the distance", correct: false },
+      { text: "Is zero", correct: false },
+      { text: "Increases as the square of the distance", correct: false }
+  ],
+  explanation: "For an electric dipole, the electric field at a far distance decreases as 1/r³, unlike a single charge, which decreases as 1/r²."
+},
+{
+  question: "What is the total charge of a system containing 10 electrons?",
+  answers: [
+      { text: "-1.6 × 10^-18 C", correct: true },
+      { text: "1.6 × 10^-19 C", correct: false },
+      { text: "-1.6 × 10^-19 C", correct: false },
+      { text: "1.6 × 10^-18 C", correct: false }
+  ],
+  explanation: "The charge of a single electron is -1.6 × 10^-19 C. Therefore, the total charge of 10 electrons is -1.6 × 10^-18 C."
+},
+{
+  question: "The electrostatic force between two charges is repulsive if:",
+  answers: [
+      { text: "Both charges have the same sign", correct: true },
+      { text: "Both charges have opposite signs", correct: false },
+      { text: "One charge is neutral", correct: false },
+      { text: "Both charges are zero", correct: false }
+  ],
+  explanation: "The electrostatic force is repulsive when both charges have the same sign, according to Coulomb's Law."
+},
+{
+  question: "The electric potential at a point due to a charge of +4 μC located 0.2 meters away is:",
+  answers: [
+      { text: "1.8 × 10^5 V", correct: true },
+      { text: "9 × 10^5 V", correct: false },
+      { text: "4 × 10^5 V", correct: false },
+      { text: "2 × 10^5 V", correct: false }
+  ],
+  explanation: "The electric potential is given by V = kQ/r. Substituting the values: V = (9 × 10^9 × 4 × 10^-6) / 0.2 = 1.8 × 10^5 V."
+},
+{
+  question: "What is the net charge of an atom with 8 protons and 8 electrons?",
+  answers: [
+      { text: "Zero", correct: true },
+      { text: "+8 C", correct: false },
+      { text: "-8 C", correct: false },
+      { text: "+1.6 × 10^-19 C", correct: false }
+  ],
+  explanation: "An atom with an equal number of protons and electrons is electrically neutral, so its net charge is zero."
+},
+{
+  question: "Which of the following is a property of conductors in electrostatic equilibrium?",
+  answers: [
+      { text: "The electric field inside the conductor is zero", correct: true },
+      { text: "The electric field inside the conductor is non-zero", correct: false },
+      { text: "The charge is distributed evenly throughout the conductor", correct: false },
+      { text: "The potential inside the conductor is non-constant", correct: false }
+  ],
+  explanation: "In electrostatic equilibrium, the electric field inside a conductor is zero, and the charges reside on the surface of the conductor."
+},
+{
+  question: "Which of the following is a characteristic of electric field lines?",
+  answers: [
+      { text: "They never cross each other", correct: true },
+      { text: "They start at negative charges and end at positive charges", correct: false },
+      { text: "They form closed loops", correct: false },
+      { text: "They are always parallel to equipotential lines", correct: false }
+  ],
+  explanation: "Electric field lines never cross because at any point in space, the electric field can only have one direction."
+},
+{
+  question: "The capacitance of a parallel-plate capacitor is given by:",
+  answers: [
+      { text: "C = ε₀A/d", correct: true },
+      { text: "C = ε₀d/A", correct: false },
+      { text: "C = A/ε₀d", correct: false },
+      { text: "C = ε₀d²/A", correct: false }
+  ],
+  explanation: "The capacitance of a parallel-plate capacitor is directly proportional to the area of the plates (A) and inversely proportional to the separation between them (d)."
+},
+{
+  question: "What is the electric field inside a spherical conductor with charge distributed on its surface?",
+  answers: [
+      { text: "Zero", correct: true },
+      { text: "Equal to the surface charge density", correct: false },
+      { text: "Proportional to the distance from the center", correct: false },
+      { text: "Uniform throughout", correct: false }
+  ],
+  explanation: "Inside a conductor, the electric field is zero. This is because any excess charge resides on the surface of the conductor, and the field inside cancels out."
+},
+{
+  question: "The force between two point charges is inversely proportional to:",
+  answers: [
+      { text: "The square of the distance between them", correct: true },
+      { text: "The distance between them", correct: false },
+      { text: "The product of the charges", correct: false },
+      { text: "The sum of the charges", correct: false }
+  ],
+  explanation: "According to Coulomb's Law, the electrostatic force between two charges is inversely proportional to the square of the distance between them."
+},
+{
+  question: "If the charge on a capacitor is doubled while the potential difference is kept constant, the capacitance:",
+  answers: [
+      { text: "Remains unchanged", correct: true },
+      { text: "Doubles", correct: false },
+      { text: "Halves", correct: false },
+      { text: "Quadruples", correct: false }
+  ],
+  explanation: "The capacitance is a property of the capacitor itself, depending only on its physical parameters (plate area, distance, and dielectric), so it remains unchanged."
+},
+{
+  question: "The electric field at a distance r from a point charge is given by:",
+  answers: [
+      { text: "E = kQ/r²", correct: true },
+      { text: "E = kQ/r", correct: false },
+      { text: "E = k/r²", correct: false },
+      { text: "E = Qr/k", correct: false }
+  ],
+  explanation: "The electric field (E) due to a point charge (Q) is given by E = kQ/r², where k is Coulomb's constant and r is the distance from the charge."
+},
+{
+  question: "What is the capacitance of a capacitor if the charge stored is 4 μC and the voltage across it is 2 V?",
+  answers: [
+      { text: "2 μF", correct: true },
+      { text: "0.5 μF", correct: false },
+      { text: "8 μF", correct: false },
+      { text: "4 μF", correct: false }
+  ],
+  explanation: "The capacitance (C) is calculated using C = Q/V. Substituting the values: C = 4 μC / 2 V = 2 μF."
+},
+{
+  question: "A charge of 1.6 × 10^-19 C is placed in an electric field of 4 N/C. What is the force acting on the charge?",
+  answers: [
+      { text: "6.4 × 10^-19 N", correct: true },
+      { text: "4 N", correct: false },
+      { text: "1.6 × 10^-19 N", correct: false },
+      { text: "2.4 × 10^-19 N", correct: false }
+  ],
+  explanation: "The force (F) is calculated using F = qE. Substituting the values: F = 1.6 × 10^-19 C × 4 N/C = 6.4 × 10^-19 N."
+},
+{
+  question: "Which of the following is true about the electric field in a conductor in electrostatic equilibrium?",
+  answers: [
+      { text: "The electric field inside the conductor is zero", correct: true },
+      { text: "The electric field inside the conductor is uniform", correct: false },
+      { text: "The electric field inside the conductor is proportional to the charge", correct: false },
+      { text: "The electric field increases with distance inside the conductor", correct: false }
+  ],
+  explanation: "In a conductor in electrostatic equilibrium, the electric field inside the conductor is zero."
+},
+{
+  question: "The potential difference between two points is 15 V, and a charge of 3 C is moved between them. How much work is done?",
+  answers: [
+      { text: "45 J", correct: true },
+      { text: "15 J", correct: false },
+      { text: "5 J", correct: false },
+      { text: "30 J", correct: false }
+  ],
+  explanation: "The work done (W) is calculated using W = qV. Substituting the values: W = 3 C × 15 V = 45 J."
+},
+{
+  question: "A capacitor stores energy in the form of:",
+  answers: [
+      { text: "An electric field between its plates", correct: true },
+      { text: "A magnetic field", correct: false },
+      { text: "Kinetic energy", correct: false },
+      { text: "Thermal energy", correct: false }
+  ],
+  explanation: "A capacitor stores energy in the electric field between its plates when it is charged."
+},
+{
+  question: "What is the electric potential at a point 0.5 m away from a 6 μC point charge? (k = 9 × 10^9 Nm²/C²)",
+  answers: [
+      { text: "1.08 × 10^5 V", correct: true },
+      { text: "9 × 10^5 V", correct: false },
+      { text: "4.5 × 10^5 V", correct: false },
+      { text: "2.7 × 10^5 V", correct: false }
+  ],
+  explanation: "The electric potential (V) is calculated using V = kQ/r. Substituting the values: V = (9 × 10^9 × 6 × 10^-6) / 0.5 = 1.08 × 10^5 V."
+},
+{
+  question: "The principle of superposition states that:",
+  answers: [
+      { text: "The net electric field is the vector sum of individual fields", correct: true },
+      { text: "The electric field is inversely proportional to the distance", correct: false },
+      { text: "The electric potential is inversely proportional to the distance", correct: false },
+      { text: "The force between charges is inversely proportional to the square of the distance", correct: false }
+  ],
+  explanation: "The principle of superposition states that the net electric field at a point is the vector sum of the electric fields due to each charge."
+},
+{
+  question: "A charged particle is placed in a uniform electric field and experiences a force of 10 N. If the charge on the particle is 2 C, what is the electric field strength?",
+  answers: [
+      { text: "5 N/C", correct: true },
+      { text: "10 N/C", correct: false },
+      { text: "20 N/C", correct: false },
+      { text: "2 N/C", correct: false }
+  ],
+  explanation: "The electric field (E) is calculated using E = F/q. Substituting the values: E = 10 N / 2 C = 5 N/C."
+},
+{
+  question: "The capacitance of a capacitor is 10 μF, and it is connected to a 100 V battery. How much energy is stored in the capacitor?",
+  answers: [
+      { text: "0.05 J", correct: true },
+      { text: "5 J", correct: false },
+      { text: "0.5 J", correct: false },
+      { text: "50 J", correct: false }
+  ],
+  explanation: "The energy (U) stored in a capacitor is given by U = 1/2 CV². Substituting the values: U = 1/2 × 10 × 10^-6 F × (100 V)² = 0.05 J."
+},
+{
+  question: "Two charges of +2 C and -2 C are placed 0.5 meters apart. What is the electric force between them? (k = 9 × 10^9 Nm²/C²)",
+  answers: [
+      { text: "1.44 × 10^11 N", correct: true },
+      { text: "9 × 10^9 N", correct: false },
+      { text: "4.5 × 10^9 N", correct: false },
+      { text: "2.25 × 10^11 N", correct: false }
+  ],
+  explanation: "The force (F) is calculated using Coulomb's Law: F = kQ₁Q₂/r². Substituting the values: F = (9 × 10^9 × 2 × 2) / (0.5)² = 1.44 × 10^11 N."
+},
+{
+  question: "The total electric flux through a closed surface is proportional to:",
+  answers: [
+      { text: "The net charge enclosed by the surface", correct: true },
+      { text: "The electric field outside the surface", correct: false },
+      { text: "The area of the surface", correct: false },
+      { text: "The distance of the surface from the charge", correct: false }
+  ],
+  explanation: "According to Gauss's Law, the total electric flux through a closed surface is proportional to the net charge enclosed by the surface."
+},
+{
+  question: "What is the force between two point charges of 1 C each, placed 2 meters apart? (k = 9 × 10^9 Nm²/C²)",
+  answers: [
+      { text: "2.25 × 10^9 N", correct: true },
+      { text: "4.5 × 10^9 N", correct: false },
+      { text: "9 × 10^9 N", correct: false },
+      { text: "1.5 × 10^9 N", correct: false }
+  ],
+  explanation: "The force (F) is calculated using Coulomb's Law: F = kQ₁Q₂/r². Substituting the values: F = (9 × 10^9 × 1 × 1) / 2² = 2.25 × 10^9 N."
+},
+{
+  question: "The electric field between two parallel plates is 200 N/C. What is the force on a 2 μC charge placed between the plates?",
+  answers: [
+      { text: "4 × 10^-4 N", correct: true },
+      { text: "2 × 10^-4 N", correct: false },
+      { text: "6 × 10^-4 N", correct: false },
+      { text: "8 × 10^-4 N", correct: false }
+  ],
+  explanation: "The force (F) is calculated using F = qE. Substituting the values: F = 2 × 10^-6 C × 200 N/C = 4 × 10^-4 N."
+},
+{
+  question: "A positive test charge is placed in an electric field. The direction of the force acting on it is:",
+  answers: [
+      { text: "In the direction of the electric field", correct: true },
+      { text: "Opposite to the electric field", correct: false },
+      { text: "Perpendicular to the electric field", correct: false },
+      { text: "At an angle to the electric field", correct: false }
+  ],
+  explanation: "A positive test charge placed in an electric field experiences a force in the direction of the field lines."
+},
+{
+  question: "The electrostatic force between two charges is doubled when:",
+  answers: [
+      { text: "The distance between them is halved", correct: true },
+      { text: "The distance between them is doubled", correct: false },
+      { text: "One of the charges is doubled", correct: false },
+      { text: "The distance between them is increased by a factor of 4", correct: false }
+  ],
+  explanation: "According to Coulomb's Law, the force is inversely proportional to the square of the distance. Halving the distance increases the force by a factor of 4."
+},
+{
+  question: "The electric potential difference between two points in a circuit is defined as:",
+  answers: [
+      { text: "The work done to move a unit charge between the points", correct: true },
+      { text: "The total charge between the points", correct: false },
+      { text: "The energy stored between the points", correct: false },
+      { text: "The resistance between the points", correct: false }
+  ],
+  explanation: "Electric potential difference (voltage) is the work done per unit charge to move the charge between two points in a circuit."
+},
+{
+  question: "What is the total charge on a sphere that has an electric field of 1.5 × 10^5 N/C at a distance of 0.3 meters from its center? (k = 9 × 10^9 Nm²/C²)",
+  answers: [
+      { text: "1.5 × 10^-6 C", correct: true },
+      { text: "3 × 10^-6 C", correct: false },
+      { text: "2.25 × 10^-6 C", correct: false },
+      { text: "4.5 × 10^-6 C", correct: false }
+  ],
+  explanation: "The electric field (E) is given by E = kQ/r². Rearranging for Q and substituting the values: Q = (E × r²) / k = (1.5 × 10^5 × (0.3)²) / 9 × 10^9 = 1.5 × 10^-6 C."
+},
 
 
 
