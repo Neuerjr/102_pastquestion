@@ -6221,8 +6221,8 @@ const quizData = {
             question: "Polar molecules such as HCl have _________ dipoles",
             answers: [
                 { text: "Induced dipole", correct: false },
-                { text: "Dipole dipole", correct: false },
-                { text: "Instantaneous dipole", correct: true },
+                { text: "Dipole dipole", correct: true },
+                { text: "Instantaneous dipole", correct: false },
                 { text: "Permanent dipole", correct: false }
             ],
             explanation: "Polar molecules like HCl have instantaneous dipoles."
@@ -6286,7 +6286,7 @@ const quizData = {
             explanation: "The tendency of an atom to attract a bonding pair of electrons towards itself is known as electronegativity."
         },
         {
-            question: "Group 2 element that does not form peroxide and superoxide is",
+            question: "Group 1 element that does not form peroxide and superoxide is",
             answers: [
                 { text: "Li", correct: true },
                 { text: "Na", correct: false },
@@ -7787,8 +7787,8 @@ const quizData = {
           answers: [
             { text: "3", correct: false },
             { text: "4", correct: false },
-            { text: "5", correct: true },
-            { text: "6", correct: false }
+            { text: "5", correct: false },
+            { text: "6", correct: true }
           ],
           explanation: "2-Methylpentane has 5 carbon atoms."
         },
@@ -7905,8 +7905,8 @@ const quizData = {
         {
           question: "When propene completely reacts with chlorine, the name of the product formed is",
           answers: [
-            { text: "1,2-dichloropropane", correct: false },
-            { text: "2,2-dichloropropane", correct: true },
+            { text: "1,2-dichloropropane", correct: true },
+            { text: "2,2-dichloropropane", correct: false },
             { text: "Dichloropropane", correct: false },
             { text: "1-chloropropane", correct: false }
           ],
@@ -12607,11 +12607,11 @@ const quizData = {
   explanation: "Hydration is the addition of water to an alkene, converting it into an alcohol."
 },
 {
-  question: "Which of the following compounds will undergo substitution reactions?",
+  question: "Which of the following compounds will not undergo substitution reactions?",
   answers: [
-      { text: "Methane", correct: true },
-      { text: "Ethene", correct: false },
-      { text: "Benzene", correct: true },
+      { text: "Methane", correct: false },
+      { text: "Ethene", correct: true },
+      { text: "Benzene", correct: false },
       { text: "Ethane", correct: false }
   ],
   explanation: "Methane (CH4) and benzene (C6H6) typically undergo substitution reactions, where atoms are replaced by other atoms or groups."
@@ -19218,10 +19218,10 @@ const quizData = {
             {
               question: "Calculate the electrostatic force between two electrons separated by a distance of 10^-10 m. Given electronic charge = 1.6 x 10^-19 C (k = 9 x 10^9 Nm^2/C^2)",
               answers: [
-              { text: "9 x 10^-8 N", correct: true },
+              { text: "9 x 10^-8 N", correct: false },
               { text: "1.6 x 10^-19 N", correct: false },
               { text: "1.44 x 10^-28 N", correct: false },
-              { text: "None of the above", correct: false }
+              { text: "None of the above", correct: true }
               ],
               explanation: "The electrostatic force between two charges is given by Coulomb's law: F = (k * q1 * q2) / r^2, where q1 and q2 are the charges, k is the Coulomb constant, and r is the distance between the charges."
               },
@@ -19288,9 +19288,9 @@ const quizData = {
               {
                 question: "Find the electric field intensity of an object whose potential is 3.6V and distance is 30m",
                 answers: [
-                  { text: "12.0 V/m", correct: false },
-                  { text: "8 V/m", correct: true },
-                  { text: "24 V/m", correct: false },
+                  { text: "0.8 V/m", correct: false },
+                  { text: "0.12 V/m", correct: true },
+                  { text: "2.4 V/m", correct: false },
                   { text: "18 V/m", correct: false }
                 ],
                 explanation: "Electric field intensity (E) is given by E = V / d, where V is the potential and d is the distance. Substituting the given values: E = 3.6V / 30m = 0.12 V/m."
@@ -19369,7 +19369,7 @@ const quizData = {
             question: " In a pure A.C circuit of 50Hz. Calculate the inductive reactance when the inductance is 0.5H",
             answers: [
                 { text: "318.27Ω", correct: false },
-                { text: "219.07Ω", correct: true },
+                { text: "157.1Ω", correct: true },
                 { text: "162.00Ω", correct: false },
                 { text: "104.02Ω", correct: false }
             ],
@@ -19592,16 +19592,6 @@ const quizData = {
             explanation: "A circuit is the complete path through which electric current flows."
         },
         {
-            question: "The tendency of a body to remain at rest or continue in uniform motion is called:",
-            answers: [
-                { text: "Inertia", correct: true },
-                { text: "Resistance", correct: false },
-                { text: "Friction", correct: false },
-                { text: "Tension", correct: false }
-            ],
-            explanation: "Inertia is the property of matter that resists changes in motion, as described by Newton's First Law."
-        },
-        {
             question: "A cell whose internal resistance is 0.50 ohms delivers a current of 4A to an external resistor. The lost voltage of the cell is:",
             answers: [
                 { text: "2.00 V", correct: true },
@@ -19651,16 +19641,6 @@ const quizData = {
             ],
             explanation: "Resistance is the property of a material that opposes the flow of electric current."
         },
-        {
-          question: "Which of the following quantities is a vector?",
-          answers: [
-              { text: "Velocity", correct: true },
-              { text: "Speed", correct: false },
-              { text: "Distance", correct: false },
-              { text: "Time", correct: false }
-          ],
-          explanation: "Velocity is a vector quantity because it includes both magnitude and direction, unlike speed, which is scalar."
-      },
       {
           question: "The electrical potential difference between two points in a circuit is known as:",
           answers: [
@@ -19962,16 +19942,6 @@ const quizData = {
       explanation: "Kirchhoff's Voltage Law (KVL) states that the sum of all voltages around a closed loop equals zero, ensuring energy conservation in the circuit."
   },
   {
-      question: "The tendency of an object to resist changes in its state of motion is called:",
-      answers: [
-          { text: "Inertia", correct: true },
-          { text: "Momentum", correct: false },
-          { text: "Friction", correct: false },
-          { text: "Gravity", correct: false }
-      ],
-      explanation: "Inertia is the property of matter that resists changes in motion, as described by Newton's First Law of Motion."
-  },
-  {
       question: "The energy stored in a capacitor is proportional to the:",
       answers: [
           { text: "Square of the voltage", correct: true },
@@ -20040,16 +20010,6 @@ const quizData = {
           { text: "The product of all resistances", correct: false }
       ],
       explanation: "In a series circuit, the total resistance is the sum of all individual resistances: R_total = R1 + R2 + ... + Rn."
-  },
-  {
-      question: "The force that opposes the relative motion between two surfaces in contact is called:",
-      answers: [
-          { text: "Friction", correct: true },
-          { text: "Tension", correct: false },
-          { text: "Inertia", correct: false },
-          { text: "Gravity", correct: false }
-      ],
-      explanation: "Friction is the force that opposes the relative motion between two surfaces in contact, acting parallel to the surfaces."
   },
   {
       question: "The electrical potential energy per unit charge at a point in an electric field is called:",
@@ -20140,16 +20100,6 @@ const quizData = {
         { text: "Capacitor", correct: false }
     ],
     explanation: "An ammeter is used to measure the electric current flowing through a circuit, typically connected in series."
-},
-{
-    question: "The force that opposes the relative motion of two surfaces in contact is known as:",
-    answers: [
-        { text: "Friction", correct: true },
-        { text: "Tension", correct: false },
-        { text: "Inertia", correct: false },
-        { text: "Gravitational force", correct: false }
-    ],
-    explanation: "Friction is the force that opposes the relative motion between two surfaces in contact, acting parallel to the surfaces."
 },
 {
     question: "Which of the following is true about the motion of an object in equilibrium?",
@@ -20340,16 +20290,6 @@ const quizData = {
       { text: "Less than the current through the largest component", correct: false }
   ],
   explanation: "In a parallel circuit, the total current is the sum of the currents through each component, as the current divides among the branches."
-},
-{
-  question: "The force that causes an object to move in a circular path is called:",
-  answers: [
-      { text: "Centripetal force", correct: true },
-      { text: "Gravitational force", correct: false },
-      { text: "Friction", correct: false },
-      { text: "Tension", correct: false }
-  ],
-  explanation: "Centripetal force is the force that acts toward the center of a circular path, causing an object to follow that path."
 },
 {
   question: "Which of the following statements is true about potential difference?",
@@ -20552,16 +20492,6 @@ const quizData = {
   explanation: "A dielectric material increases the capacitance of a capacitor by reducing the electric field between the plates."
 },
 {
-  question: "Which of the following quantities is a vector?",
-  answers: [
-      { text: "Acceleration", correct: true },
-      { text: "Distance", correct: false },
-      { text: "Speed", correct: false },
-      { text: "Time", correct: false }
-  ],
-  explanation: "Acceleration is a vector quantity because it includes both magnitude and direction, unlike scalar quantities like speed or time."
-},
-{
   question: "The total current in a parallel circuit is:",
   answers: [
       { text: "The sum of the currents in each branch", correct: true },
@@ -20610,16 +20540,6 @@ const quizData = {
       { text: "Newton", correct: false }
   ],
   explanation: "Power is measured in watts (W), which is the rate at which energy is transferred or work is done (1 watt = 1 joule per second)."
-},
-{
-  question: "The force that opposes the relative motion between two surfaces is called:",
-  answers: [
-      { text: "Friction", correct: true },
-      { text: "Tension", correct: false },
-      { text: "Momentum", correct: false },
-      { text: "Elasticity", correct: false }
-  ],
-  explanation: "Friction is the force that opposes the relative motion between two surfaces in contact."
 },
 {
   question: "The total voltage in a series circuit is:",
@@ -20680,16 +20600,6 @@ const quizData = {
       { text: "Momentum", correct: false }
   ],
   explanation: "Power is the rate at which work is done or energy is transferred, typically measured in watts (W)."
-},
-{
-  question: "Which of the following quantities is a vector?",
-  answers: [
-      { text: "Displacement", correct: true },
-      { text: "Speed", correct: false },
-      { text: "Distance", correct: false },
-      { text: "Time", correct: false }
-  ],
-  explanation: "Displacement is a vector quantity because it has both magnitude and direction, unlike scalar quantities like distance."
 },
 {
   question: "The energy stored in a capacitor is proportional to:",
